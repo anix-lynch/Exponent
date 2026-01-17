@@ -24,7 +24,7 @@ main (master)
 
 - **`master`** - Main branch with overall documentation
 - **`data-analyst`** - Complete Data Analyst prep (118 questions) ✅
-- **`product-manager`** - Product Manager prep (in progress) 🚧
+- **`product-manager`** - Complete Product Manager prep (1,710 questions) ✅
 
 ---
 
@@ -37,10 +37,10 @@ main (master)
 
 **View**: Switch to `data-analyst` branch or check `roles/data-analyst/`
 
-### 🚧 Product Manager (In Progress)
-- Extracting questions from Exponent
-- Will include frameworks for PM-specific categories
-- Source: https://www.tryexponent.com/questions?role=product-manager
+### ✅ Product Manager (Complete)
+- **1,710 questions** across 23 categories
+- Mental model frameworks for PM-specific categories
+- Source: https://www.tryexponent.com/questions?page=1&role=pm
 
 **View**: Switch to `product-manager` branch or check `roles/product-manager/`
 
