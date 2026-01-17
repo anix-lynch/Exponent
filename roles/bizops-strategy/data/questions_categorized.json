@@ -1,0 +1,810 @@
+[
+  {
+    "question": "Tell me about a time when you handled a difficult stakeholder.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/551/time-handled-difficult-stakeholder",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/140/conflict-resolution-learning",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you solved a complex problem and how you went about it.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem",
+    "page": 1
+  },
+  {
+    "question": "Tell me about yourself.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself",
+    "page": 1
+  },
+  {
+    "question": "What is the project you are most proud of?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of",
+    "page": 1
+  },
+  {
+    "question": "How do you prioritize tasks?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
+    "page": 1
+  },
+  {
+    "question": "How would you improve the usage of Revolut's cross-border payment feature?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5028/increase-revolut-cross-border-payment",
+    "page": 1
+  },
+  {
+    "question": "How would you improve our hiring conversion and time to hire from application to offer rollout?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5003/improve-hiring-loop",
+    "page": 1
+  },
+  {
+    "question": "How would you improve Uber?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/758/improve-uber",
+    "page": 1
+  },
+  {
+    "question": "How long would 100 cars stopped at a traffic light take to all pass the light?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5011/cars-at-traffic-light",
+    "page": 1
+  },
+  {
+    "question": "Tell me about how you brought a product to market.",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/755/bringing-product-to-market",
+    "page": 1
+  },
+  {
+    "question": "What are the key differences between Tiktok, Instagram, and Youtube?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5589/tiktok-vs-instagram-vs-youtube",
+    "page": 1
+  },
+  {
+    "question": "Why is Android strategic for Google?",
+    "categories": [
+      "Strategy",
+      "Business Analysis",
+      "Analytical"
+    ],
+    "url": "https://www.tryexponent.com/questions/66/android-strategic-google",
+    "page": 1
+  },
+  {
+    "question": "How would you investigate the 10% of inactive Netflix users?",
+    "categories": [
+      "Analytical"
+    ],
+    "url": "https://www.tryexponent.com/questions/1435/investigate-inactive-netflix-users",
+    "page": 1
+  },
+  {
+    "question": "Why is Google well positioned for emerging markets?",
+    "categories": [
+      "Market Analysis",
+      "Analytical"
+    ],
+    "url": "https://www.tryexponent.com/questions/67/google-emerging-markets",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you gained trust.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/2223/gaining-trust-experience",
+    "page": 1
+  },
+  {
+    "question": "How would you reduce attrition in a team/organization?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5024/reduce-team-attrition",
+    "page": 1
+  },
+  {
+    "question": "Tell me about your greatest success.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/141/greatest-success",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you had to break a complex problem down for different cross-functional teams.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3155/explain-breaking-down-complex-problems-cross-functional-teams",
+    "page": 1
+  },
+  {
+    "question": "Design a group chat application.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3634/design-group-chat-application",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you used data to diagnose and solve a problem.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/279/used-data-diagnose-solve-problem",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time when you questioned the status quo.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/943/questioned-status-quo",
+    "page": 2
+  },
+  {
+    "question": "If customer support tickets are increasing, how would you investigate and solve this issue?",
+    "categories": [
+      "Analytical"
+    ],
+    "url": "https://www.tryexponent.com/questions/3012/investigate-solve-increasing-customer-support-tickets",
+    "page": 2
+  },
+  {
+    "question": "What is the most important part of the flywheel and what happens if the supply of one increases?",
+    "categories": [
+      "Analytical",
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/4829/flywheel-component-analysis",
+    "page": 2
+  },
+  {
+    "question": "Design a strategy for Google to enter the TV business.",
+    "categories": [
+      "Strategy",
+      "Business Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/2403/design-strategy-google-tv-business",
+    "page": 2
+  },
+  {
+    "question": "How did you scale a local strategy to a global one, and what changed in your approach?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5480/local-strategy-global-strategy-approach",
+    "page": 2
+  },
+  {
+    "question": "What sort of people do you dislike working with?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5036/people-you-dislike-working-with",
+    "page": 2
+  },
+  {
+    "question": "How do you communicate technical project needs to non-technical teams?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/1514/communicating-technical-needs-non-technical",
+    "page": 2
+  },
+  {
+    "question": "What is the most impressive thing you have done?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/3895/most-impressive-achievement",
+    "page": 2
+  },
+  {
+    "question": "How can TikTok double its revenue next year? What percentage of the new revenue should be derived from existing advertisers versus new advertisers?",
+    "categories": [
+      "Business Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/3316/strategies-double-revenue-tiktok",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a recent program you worked on.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/925/recent-program-worked-on",
+    "page": 2
+  },
+  {
+    "question": "Explain DoorDash's business model.",
+    "categories": [
+      "Strategy",
+      "Business Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5015/explain-doordash-business-model",
+    "page": 2
+  },
+  {
+    "question": "What might be two macroeconomic trends impacting Uber Eats supply or demand in the near future?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5022/macroeconomic-trends-affecting-uber-eats",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a complex project you managed where there was a lot of pressure to deliver.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/4995/high-pressure-complex-project",
+    "page": 2
+  },
+  {
+    "question": "If the US government legalized marijuana, estimate the impact on consumption.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/3646/estimate-impact-of-legalizing-marijuana",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time in your career when you faced ambiguity.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5018/face-ambiguity",
+    "page": 2
+  },
+  {
+    "question": "How do you handle conflicting priorities and tight deadlines?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4999/handle-conflicting-priorities-tight-deadlines",
+    "page": 2
+  },
+  {
+    "question": "How do you mitigate risk on high-visibility projects?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2221/mitigate-risk-high-visibility-projects",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time you worked on a data-intensive project.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/1811/data-intensive-project-experience",
+    "page": 2
+  },
+  {
+    "question": "You're on the BizOps team at Uber. What factors would you consider when selecting cities to introduce ridesharing in an emerging market?",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/2218/uber-bizops-selecting-cities-factors",
+    "page": 2
+  },
+  {
+    "question": "What factors would you look at when deciding whether to launch into a market?",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5009/factors-launch-new-market",
+    "page": 3
+  },
+  {
+    "question": "What motivates you?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5006/personal-motivation",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a time when you had a hypothesis that turned out to be wrong.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5017/wrong-hypothesis",
+    "page": 3
+  },
+  {
+    "question": "Do you have experience managing a team?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2239/experience-managing-team",
+    "page": 3
+  },
+  {
+    "question": "Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.",
+    "categories": [
+      "Data Analysis",
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/2219/sql-query-sum-rides-deliveries-zipcode",
+    "page": 3
+  },
+  {
+    "question": "What Google products would you deprecate or exit?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5034/deprecate-google-products",
+    "page": 3
+  },
+  {
+    "question": "What advice would you give to a new restaurant looking to increase revenue?",
+    "categories": [
+      "Business Analysis",
+      "Analytical",
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/2175/advice-new-restaurant-increase-revenue",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a time when you had to be assertive when communicating with a client or team member.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5016/assertive-communication",
+    "page": 3
+  },
+  {
+    "question": "How do you know that you are getting the right level of resources for your organization?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5032/assess-resources-required",
+    "page": 3
+  },
+  {
+    "question": "What approach would you take to convince senior stakeholders?",
+    "categories": [
+      "Problem Solving",
+      "Stakeholder Management"
+    ],
+    "url": "https://www.tryexponent.com/questions/5031/convince-senior-stakeholders",
+    "page": 3
+  },
+  {
+    "question": "Tell us about a time when you received feedback that helped you improve.",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/4997/feedback-to-improve",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a time when you led a team to achieve a goal.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/2312/leading-team-achievement",
+    "page": 3
+  },
+  {
+    "question": "If you had $1M to allocate to grow market share in the city, what would you focus on?",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5001/grow-market-share-in-city",
+    "page": 3
+  },
+  {
+    "question": "You need 1000 conversions by next week. What would you do?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5040/quick-conversions",
+    "page": 3
+  },
+  {
+    "question": "Tell me about an idea you came up with and followed through to implementation.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/4993/idea-to-implementation",
+    "page": 3
+  },
+  {
+    "question": "Why are you leaving consulting?",
+    "categories": [
+      "Analytical"
+    ],
+    "url": "https://www.tryexponent.com/questions/2224/reason-leaving-consulting",
+    "page": 3
+  },
+  {
+    "question": "How would you boost retention for DashPass?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/4990/boost-retention-dashpass",
+    "page": 3
+  },
+  {
+    "question": "What are your current KPIs? How do you ensure you meet them?",
+    "categories": [
+      "Business Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5000/how-you-meet-current-kpis",
+    "page": 3
+  },
+  {
+    "question": "As part of the Udemy product team, write 2 to 3 agile user stories for a new feature allowing learners to submit and view short videos under 2 minutes in courses.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2036/udemy-agile-user-stories-course-video-submission-feature",
+    "page": 3
+  },
+  {
+    "question": "What factors would you consider when planning a strategy for a new feature for contractors and freelancers?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2311/contractors-freelancers-strategy",
+    "page": 3
+  },
+  {
+    "question": "How would you get more drivers to use the red food bag provided by DoorDash over a weekend?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/4992/red-food-bag-doordash",
+    "page": 4
+  },
+  {
+    "question": "What metric would you want to know about Instacart, and how would you find the data to answer that?",
+    "categories": [
+      "Data Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/2308/metric-instacart-data",
+    "page": 4
+  },
+  {
+    "question": "Where would you invest additional budget to drive growth for DoorDash?",
+    "categories": [
+      "Business Analysis",
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5026/invest-additional-budget-drive-growth-doordash",
+    "page": 4
+  },
+  {
+    "question": "Describe your ideal work environment.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5041/ideal-work-environment",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time where you ideated and launched a strategy from scratch.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5019/launch-strategy-from-scratch",
+    "page": 4
+  },
+  {
+    "question": "What got you interested in technology?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2225/interest-in-technology",
+    "page": 4
+  },
+  {
+    "question": "What type of culture are you looking for, and how would you help build it here?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/2309/desired-culture-building",
+    "page": 4
+  },
+  {
+    "question": "If you launched in a new market today and none of your drivers showed up, what would you do?",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5039/new-market-no-drivers",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4996/handle-project-behind-schedule",
+    "page": 4
+  },
+  {
+    "question": "How would you reduce the number of customer support tickets from users on our rideshare app?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5043/reduce-rideshare-support-tickets",
+    "page": 4
+  },
+  {
+    "question": "How would you organize multiple projects that must be delivered on specified dates?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5008/organize-multiple-projects",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time when you welcomed new ways of thinking (Include and Empower core value).",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4933/welcome-new-ways-thinking",
+    "page": 4
+  },
+  {
+    "question": "What would you do if a competitor launched a product before you?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5030/competitor-launches-product-first",
+    "page": 4
+  },
+  {
+    "question": "Do you believe in holding high ethical standards when conducting business or making decisions?",
+    "categories": [
+      "Business Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5020/ethical-standards-in-decision-making",
+    "page": 4
+  },
+  {
+    "question": "Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.",
+    "categories": [
+      "Data Analysis",
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/2220/sql-query-least-efficient-driver",
+    "page": 4
+  },
+  {
+    "question": "How would you incentivize more driver presence?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/4991/incentivize-driver-presence",
+    "page": 4
+  },
+  {
+    "question": "How would you distribute sales reps across the country?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5010/distribute-sales-team",
+    "page": 4
+  },
+  {
+    "question": "How would you deal with an increased customer sensitivity to cost?",
+    "categories": [
+      "Financial Analysis",
+      "Analytical",
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5042/handle-increase-cost-sensitivity",
+    "page": 4
+  },
+  {
+    "question": "How would you address a late delivery by a supplier?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5027/address-late-delivery-by-supplier",
+    "page": 4
+  },
+  {
+    "question": "How do you explain difficult technical concepts to layman?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5033/explain-technical-concepts-to-layman",
+    "page": 4
+  },
+  {
+    "question": "How would you transport 10 kids to school within a limited timeframe?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5037/transport-kids-to-school",
+    "page": 5
+  },
+  {
+    "question": "What does grit mean to you?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5005/grit",
+    "page": 5
+  },
+  {
+    "question": "How did your last project end?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2222/how-last-project-ended",
+    "page": 5
+  },
+  {
+    "question": "How would you scale riders in a new location?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5014/scale-riders-new-location",
+    "page": 5
+  },
+  {
+    "question": "How do you handle working with ambiguous data?",
+    "categories": [
+      "Data Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/4998/working-with-ambiguous-data",
+    "page": 5
+  },
+  {
+    "question": "How does the automotive category fit into TikTok Shop\u2019s overall ecosystem, and what are the key risks in developing this category?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/4156/automotive-integration-tiktok-shop-risks",
+    "page": 5
+  },
+  {
+    "question": "Find an interesting problem that you believe Clipboard Health should solve.",
+    "categories": [
+      "Case Study"
+    ],
+    "url": "https://www.tryexponent.com/questions/5035/problem-to-solve-for-clipboard-health",
+    "page": 5
+  },
+  {
+    "question": "Tell me about your analytical skills.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5012/tell-me-about-your-analytical-skills",
+    "page": 5
+  },
+  {
+    "question": "Within the Blockchain Industry, where do you think Stablecoins have the most potential?",
+    "categories": [
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5004/stablecoins-potential",
+    "page": 5
+  },
+  {
+    "question": "What other areas could Lemonade expand into?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/2310/lemonade-expansion-areas",
+    "page": 5
+  },
+  {
+    "question": "What do you do in your free time?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5038/free-time-activities",
+    "page": 5
+  },
+  {
+    "question": "If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?",
+    "categories": [
+      "Business Analysis",
+      "Data Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5029/rider-price-change-analysis",
+    "page": 5
+  },
+  {
+    "question": "Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?",
+    "categories": [
+      "Case Study"
+    ],
+    "url": "https://www.tryexponent.com/questions/5025/handling-non-compliance-from-sales-rep",
+    "page": 5
+  },
+  {
+    "question": "What does strategy mean to you?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5007/what-does-strategy-mean",
+    "page": 5
+  },
+  {
+    "question": "Create a simple model to forecast our headcount needs for the next 12-weeks as we scale up.",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/4994/model-forecast-scaling-headcount",
+    "page": 5
+  },
+  {
+    "question": "Tell me about a project when you had to translate data into insights for the team/client you were working with.",
+    "categories": [
+      "Data Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5023/translate-data-to-insights",
+    "page": 5
+  },
+  {
+    "question": "How would you prepare for and conduct a final presentation for a client?",
+    "categories": [
+      "Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5021/final-presentation-preparation",
+    "page": 5
+  },
+  {
+    "question": "How does OpenTable make money?",
+    "categories": [
+      "Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5002/opentable-business-model",
+    "page": 5
+  },
+  {
+    "question": "What are the most important industry trends right now? What strategy would you pursue if you were leading Voodoo in the next 5 years?",
+    "categories": [
+      "Strategy",
+      "Market Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5013/strategy-for-voodoo",
+    "page": 5
+  }
+]
