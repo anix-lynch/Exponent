@@ -389,8 +389,8 @@
   {
     "question": "Design a data warehouse schema for Instagram.",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4911/instagram-data-model",
@@ -423,8 +423,8 @@
   {
     "question": "Write SQL code to publish the Fibonacci series.",
     "categories": [
-      "Coding",
-      "SQL"
+      "SQL",
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series",
     "page": 3
@@ -497,8 +497,8 @@
   {
     "question": "Design a Data Warehouse Schema for a Ride-Sharing Service",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4586/ride-sharing-data-model",
@@ -531,8 +531,8 @@
   {
     "question": "Design an ETL Pipeline for a ML Platform for AWS",
     "categories": [
-      "ETL/ELT",
       "System Design",
+      "ETL/ELT",
       "Data Pipeline Design",
       "Cloud Platforms"
     ],
@@ -574,8 +574,8 @@
   {
     "question": "Design a Data Warehouse Schema for Stripe",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4589/stripe-data-model",
@@ -616,8 +616,8 @@
   {
     "question": "Design a data warehouse schema for Spotify.",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4711/data-warehouse-schema-spotify",
@@ -634,8 +634,8 @@
   {
     "question": "Design a data warehouse schema for Amazon.",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4943/design-data-schema-amazon",
@@ -726,8 +726,8 @@
   {
     "question": "What is the difference between NoSQL and SQL?",
     "categories": [
-      "Database Design",
-      "SQL"
+      "SQL",
+      "Database Design"
     ],
     "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql",
     "page": 5
@@ -735,9 +735,9 @@
   {
     "question": "How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?",
     "categories": [
-      "Performance Optimization",
+      "Cloud Platforms",
       "SQL",
-      "Cloud Platforms"
+      "Performance Optimization"
     ],
     "url": "https://www.tryexponent.com/questions/4667/optimize-slow-databricks-sql-queries",
     "page": 5
@@ -761,8 +761,8 @@
   {
     "question": "Design a Data Warehouse Schema for Customer Support",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4587/customer-support-data-model",
@@ -795,8 +795,8 @@
   {
     "question": "Design a Data Warehouse Schema for Airbnb",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/4588/airbnb-data-model",
@@ -861,8 +861,8 @@
   {
     "question": "What is the best way to connect SQL databases and why?",
     "categories": [
-      "Database Design",
-      "SQL"
+      "SQL",
+      "Database Design"
     ],
     "url": "https://www.tryexponent.com/questions/2156/best-way-connect-sql-databases",
     "page": 6
@@ -870,8 +870,8 @@
   {
     "question": "Design an ETL Pipeline for Slack for School",
     "categories": [
-      "ETL/ELT",
       "System Design",
+      "ETL/ELT",
       "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4591/slack-school-data-pipeline",
@@ -880,8 +880,8 @@
   {
     "question": "Partition an array into two sub-arrays with equal sum.",
     "categories": [
-      "Data Structures & Algorithms",
-      "Distributed Systems"
+      "Distributed Systems",
+      "Data Structures & Algorithms"
     ],
     "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum",
     "page": 6
@@ -1026,8 +1026,8 @@
   {
     "question": "Design a data warehouse schema for LinkedIn.",
     "categories": [
-      "Data Warehousing",
       "Data Modeling",
+      "Data Warehousing",
       "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/5544/design-data-schema-linkedin",
@@ -1094,8 +1094,8 @@
     "question": "Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.",
     "categories": [
       "System Design",
-      "Monitoring & Observability",
-      "Data Pipeline Design"
+      "Data Pipeline Design",
+      "Monitoring & Observability"
     ],
     "url": "https://www.tryexponent.com/questions/5542/alexa-request-data-pipeline",
     "page": 7
@@ -1113,8 +1113,8 @@
   {
     "question": "What types of indexes are in a relational database?",
     "categories": [
-      "Database Design",
-      "Schema Design"
+      "Schema Design",
+      "Database Design"
     ],
     "url": "https://www.tryexponent.com/questions/3388/types-of-indexes-relational-database",
     "page": 7
@@ -1122,8 +1122,8 @@
   {
     "question": "Design a system to ingest large amounts of JSON data from multiple S3 buckets",
     "categories": [
-      "System Design",
-      "Cloud Platforms"
+      "Cloud Platforms",
+      "System Design"
     ],
     "url": "https://www.tryexponent.com/questions/5543/data-s3-bucket-pipeline",
     "page": 7
@@ -1131,9 +1131,9 @@
   {
     "question": "When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?",
     "categories": [
-      "Spark/Big Data",
       "ETL/ELT",
-      "Data Pipeline Design"
+      "Data Pipeline Design",
+      "Spark/Big Data"
     ],
     "url": "https://www.tryexponent.com/questions/4664/delta-live-tables-vs-spark-delta-lake",
     "page": 7

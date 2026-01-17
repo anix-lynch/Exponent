@@ -11,7 +11,7 @@ engineer interview question. This is your #1 goal role - master these patterns!
 
 Focus on understanding the PATTERN and FRAMEWORK, not memorizing answers.
 
-Total Questions: 151 across 19 categories
+Total Questions: 195 across 20 categories
 
 
 ================================================================================
@@ -161,36 +161,39 @@ DATA STRUCTURES & ALGORITHMS
 📊 Total Questions: 32
 
 🎯 What they're really testing:
-Can you solve algorithmic problems efficiently?
+Can you write efficient code to process and manipulate data at scale?
 
 🗺️  Mental Model Framework:
 ```
 
 Data Structures & Algorithms
 ├─ Understand the problem
-│  ├─ Read carefully
-│  ├─ Ask clarifying questions
-│  ├─ Identify inputs/outputs
-│  └─ Confirm edge cases
+│  ├─ Input format
+│  ├─ Output format
+│  ├─ Constraints
+│  └─ Edge cases
 │
 ├─ Choose data structure
-│  ├─ Array / List
-│  ├─ Hash Map / Set
-│  ├─ Stack / Queue
-│  ├─ Tree / Graph
-│  └─ Heap / Priority Queue
+│  ├─ Array/List (sequential)
+│  ├─ Hash Map/Set (fast lookup)
+│  ├─ Stack/Queue (LIFO/FIFO)
+│  ├─ Tree/Graph (hierarchical)
+│  └─ Heap (priority)
 │
 ├─ Design algorithm
 │  ├─ Brute force first
-│  ├─ Identify patterns
-│  ├─ Optimize approach
-│  └─ Write pseudocode
+│  ├─ Identify pattern
+│  │  ├─ Two pointers
+│  │  ├─ Sliding window
+│  │  ├─ BFS/DFS
+│  │  ├─ Dynamic programming
+│  │  └─ Divide & conquer
+│  └─ Optimize
 │
-├─ Implement solution
+├─ Implement
 │  ├─ Write clean code
 │  ├─ Handle edge cases
-│  ├─ Test as you go
-│  └─ Explain your thinking
+│  └─ Test with examples
 │
 └─ Analyze complexity
    ├─ Time: O(?)
@@ -242,49 +245,64 @@ SYSTEM DESIGN
 📊 Total Questions: 20
 
 🎯 What they're really testing:
-Can you design large-scale data systems?
+Can you architect data systems that handle TB/PB scale with high availability?
 
 🗺️  Mental Model Framework:
 ```
 
-System Design (Data Engineering Focus)
-├─ Clarify requirements
+System Design
+├─ Requirements (5 min)
 │  ├─ Functional requirements
-│  ├─ Data volume (TB? PB?)
-│  ├─ Query patterns
-│  ├─ Latency requirements
-│  └─ Consistency needs
+│  │  ├─ What features?
+│  │  └─ What queries?
+│  ├─ Non-functional requirements
+│  │  ├─ Scale (QPS, data volume)
+│  │  ├─ Latency (ms, sec, min)
+│  │  └─ Availability (99.9%?)
+│  └─ Constraints
 │
-├─ High-level architecture
-│  ├─ Data sources
-│  ├─ Ingestion layer
-│  ├─ Processing layer
-│  ├─ Storage layer
-│  └─ Serving layer
+├─ High-level design (10 min)
+│  ├─ Draw architecture
+│  ├─ Data flow
+│  ├─ Main components
+│  └─ Technology choices
 │
-├─ Data flow design
-│  ├─ Batch pipelines
-│  ├─ Streaming pipelines
-│  ├─ Lambda architecture
-│  └─ Kappa architecture
+├─ Deep dive (20 min)
+│  ├─ Data ingestion
+│  │  ├─ Batch or stream?
+│  │  ├─ Message queue (Kafka)
+│  │  └─ Load balancer
+│  ├─ Data processing
+│  │  ├─ Spark, Flink, Dataflow
+│  │  ├─ Transformation logic
+│  │  └─ Aggregations
+│  ├─ Data storage
+│  │  ├─ Data lake (S3, GCS)
+│  │  ├─ Data warehouse (Snowflake, BigQuery)
+│  │  ├─ Database (PostgreSQL, Cassandra)
+│  │  └─ Cache (Redis)
+│  └─ Data serving
+│     ├─ APIs
+│     ├─ Dashboards
+│     └─ ML models
 │
-├─ Storage strategy
-│  ├─ Hot vs cold data
-│  ├─ Partitioning strategy
-│  ├─ Indexing strategy
-│  └─ Compression
-│
-├─ Scale & optimize
+├─ Scalability
 │  ├─ Horizontal scaling
-│  ├─ Sharding
-│  ├─ Caching
-│  └─ CDN
+│  ├─ Partitioning/Sharding
+│  ├─ Replication
+│  └─ Auto-scaling
 │
-└─ Address concerns
-   ├─ Data quality
-   ├─ Fault tolerance
-   ├─ Monitoring
-   └─ Cost
+├─ Reliability
+│  ├─ Fault tolerance
+│  ├─ Retry mechanisms
+│  ├─ Dead letter queue
+│  └─ Disaster recovery
+│
+└─ Trade-offs
+   ├─ Consistency vs Availability
+   ├─ Latency vs Throughput
+   ├─ Cost vs Performance
+   └─ Batch vs Stream
 
 ```
 
@@ -319,7 +337,7 @@ DATA MODELING
 📊 Total Questions: 12
 
 🎯 What they're really testing:
-Can you design effective data models for analytics and applications?
+Can you design schemas that are efficient, maintainable, and support business queries?
 
 🗺️  Mental Model Framework:
 ```
@@ -327,40 +345,36 @@ Can you design effective data models for analytics and applications?
 Data Modeling
 ├─ Understand use cases
 │  ├─ What queries?
-│  ├─ What reports?
-│  ├─ What analytics?
-│  └─ What applications?
+│  ├─ Read vs write heavy?
+│  ├─ OLTP or OLAP?
+│  └─ Users & access patterns
 │
 ├─ Identify entities
-│  ├─ Users, Products, Orders
-│  ├─ Events, Sessions
-│  ├─ Transactions
-│  └─ Relationships
+│  ├─ Business objects
+│  ├─ Relationships
+│  └─ Attributes
 │
-├─ Choose modeling approach
+├─ Choose approach
 │  ├─ Normalized (3NF)
-│  ├─ Denormalized
-│  ├─ Star schema
-│  ├─ Snowflake schema
-│  └─ Data vault
+│  │  ├─ Pros: No redundancy
+│  │  └─ Cons: Complex joins
+│  ├─ Denormalized (Star/Snowflake)
+│  │  ├─ Pros: Fast reads
+│  │  └─ Cons: Data redundancy
+│  └─ Hybrid
 │
-├─ Design tables
-│  ├─ Fact tables
-│  ├─ Dimension tables
-│  ├─ Bridge tables
-│  └─ Keys (PK, FK, SK)
+├─ Design schema
+│  ├─ Fact tables (metrics)
+│  ├─ Dimension tables (attributes)
+│  ├─ Primary keys
+│  ├─ Foreign keys
+│  └─ Indexes
 │
-├─ Define granularity
-│  ├─ Transaction level
-│  ├─ Daily aggregates
-│  ├─ User level
-│  └─ Time periods
-│
-└─ Optimize for queries
-   ├─ Indexing strategy
+└─ Optimize
    ├─ Partitioning
+   ├─ Clustering keys
    ├─ Materialized views
-   └─ Pre-aggregation
+   └─ Compression
 
 ```
 
@@ -387,45 +401,45 @@ SQL
 📊 Total Questions: 12
 
 🎯 What they're really testing:
-Can you write efficient SQL for data transformation and analysis?
+Can you write complex, optimized SQL queries for data transformation and analysis?
 
 🗺️  Mental Model Framework:
 ```
 
-SQL (Data Engineering Focus)
+SQL
 ├─ Understand requirements
 │  ├─ What output?
-│  ├─ What aggregation?
-│  ├─ What filters?
-│  └─ What performance needs?
-│
-├─ Identify tables & joins
 │  ├─ Which tables?
-│  ├─ Join keys
-│  ├─ Join type (INNER/LEFT/etc)
-│  └─ Join order
+│  ├─ Filters/conditions?
+│  └─ Aggregations needed?
 │
-├─ Write query structure
-│  ├─ SELECT (what columns)
+├─ Plan query structure
+│  ├─ Identify joins
+│  ├─ Determine filters
+│  ├─ Plan aggregations
+│  └─ Consider window functions
+│
+├─ Write query (use CTEs)
+│  ├─ WITH clause for readability
+│  ├─ SELECT columns
 │  ├─ FROM & JOIN
 │  ├─ WHERE (filters)
-│  ├─ GROUP BY (aggregation)
-│  ├─ HAVING (post-agg filter)
-│  ├─ ORDER BY + LIMIT
-│  └─ Window functions
+│  ├─ GROUP BY
+│  ├─ HAVING
+│  └─ ORDER BY + LIMIT
 │
 ├─ Optimize
+│  ├─ Push down filters
 │  ├─ Use indexes
-│  ├─ Avoid subqueries if possible
-│  ├─ Use CTEs for readability
+│  ├─ Avoid SELECT *
 │  ├─ Partition pruning
-│  └─ Push down filters
+│  └─ Check EXPLAIN plan
 │
-└─ Validate
-   ├─ Check edge cases
-   ├─ NULL handling
-   ├─ Test with sample data
-   └─ Explain plan
+└─ Handle edge cases
+   ├─ NULLs (COALESCE, IS NULL)
+   ├─ Duplicates (DISTINCT)
+   ├─ Empty results
+   └─ Data type conversions
 
 ```
 
@@ -452,43 +466,42 @@ DATA WAREHOUSING
 📊 Total Questions: 10
 
 🎯 What they're really testing:
-Do you understand data warehouse concepts and best practices?
+Do you understand modern data warehouse architectures and best practices?
 
 🗺️  Mental Model Framework:
 ```
 
 Data Warehousing
-├─ Architecture
-│  ├─ Source systems
-│  ├─ Staging layer
-│  ├─ Integration layer
-│  ├─ Presentation layer
-│  └─ Semantic layer
-│
-├─ Modeling approaches
-│  ├─ Kimball (dimensional)
-│  ├─ Inmon (normalized)
-│  ├─ Data vault
-│  └─ Hybrid
+├─ Architecture choice
+│  ├─ Traditional DW (on-prem)
+│  ├─ Cloud DW (Snowflake, Redshift, BigQuery)
+│  ├─ Data Lake (S3, ADLS, GCS)
+│  └─ Data Lakehouse (Delta Lake, Iceberg)
 │
 ├─ Schema design
-│  ├─ Star schema
-│  ├─ Snowflake schema
-│  ├─ Fact tables
-│  └─ Dimension tables (SCD)
+│  ├─ Star schema (1 fact, N dims)
+│  ├─ Snowflake schema (normalized)
+│  ├─ Fact tables (metrics)
+│  ├─ Dimension tables (attributes)
+│  └─ SCD (Type 1/2/3)
 │
-├─ Performance optimization
-│  ├─ Partitioning
-│  ├─ Clustering
-│  ├─ Indexing
+├─ ETL vs ELT
+│  ├─ ETL: Transform before load
+│  ├─ ELT: Load then transform
+│  └─ Choose based on use case
+│
+├─ Optimization
+│  ├─ Partitioning (date, region)
+│  ├─ Clustering (filter columns)
 │  ├─ Materialized views
-│  └─ Caching
+│  ├─ Compression (Parquet, ORC)
+│  └─ Result caching
 │
-└─ Modern platforms
-   ├─ Snowflake
-   ├─ Redshift
-   ├─ BigQuery
-   └─ Databricks
+└─ Cost management
+   ├─ Storage costs
+   ├─ Compute costs
+   ├─ Query optimization
+   └─ Data lifecycle policies
 
 ```
 
@@ -513,7 +526,7 @@ BEHAVIORAL
 📊 Total Questions: 5
 
 🎯 What they're really testing:
-Can you work effectively in a team and learn from experience?
+Can you work effectively in a team and handle challenges?
 
 🗺️  Mental Model Framework:
 ```
@@ -522,26 +535,23 @@ Behavioral (STAR Method)
 ├─ Situation
 │  ├─ Context
 │  ├─ Challenge
-│  ├─ Data scale
 │  └─ Stakeholders
 │
 ├─ Task
 │  ├─ Your role
-│  ├─ Technical goal
-│  ├─ Business goal
-│  └─ Timeline
+│  ├─ Goal
+│  └─ Constraints
 │
 ├─ Action
 │  ├─ What YOU did
-│  ├─ Technologies used
-│  ├─ How you designed it
-│  └─ How you optimized
+│  ├─ Technical decisions
+│  ├─ Trade-offs considered
+│  └─ Collaboration
 │
 └─ Result
-   ├─ Outcome (quantify!)
-   ├─ Performance metrics
-   ├─ Business impact
-   └─ What you learned
+   ├─ Quantifiable impact
+   ├─ What you learned
+   └─ What you'd do differently
 
 ```
 
@@ -561,7 +571,7 @@ ETL/ELT
 📊 Total Questions: 4
 
 🎯 What they're really testing:
-Can you design and implement data transformation workflows?
+Do you understand data transformation workflows and orchestration?
 
 🗺️  Mental Model Framework:
 ```
@@ -570,30 +580,25 @@ ETL/ELT
 ├─ Extract
 │  ├─ Source systems (APIs, DBs, files)
 │  ├─ Full vs incremental
-│  ├─ Change data capture
+│  ├─ Change Data Capture (CDC)
 │  └─ Error handling
 │
-├─ Transform (ETL) or Load first (ELT)
-│  ├─ ETL: Transform before load
-│  │  └─ Use when: limited compute in warehouse
-│  └─ ELT: Load then transform
-│     └─ Use when: powerful warehouse (Snowflake)
-│
-├─ Transformation logic
+├─ Transform
 │  ├─ Data cleaning
 │  ├─ Data validation
-│  ├─ Business rules
-│  ├─ Joins & enrichment
-│  └─ Aggregations
+│  ├─ Business logic
+│  ├─ Aggregations
+│  └─ Tools: Spark, dbt, Dataflow
 │
 ├─ Load
-│  ├─ Target system
-│  ├─ Load strategy (append, upsert, replace)
-│  ├─ Batch size
-│  └─ Error handling
+│  ├─ Append vs upsert
+│  ├─ Batch vs streaming
+│  ├─ Idempotency
+│  └─ Error recovery
 │
-└─ Orchestrate
-   ├─ Dependencies
+└─ Orchestration
+   ├─ Airflow, Prefect, Dagster
+   ├─ DAG design
    ├─ Scheduling
    ├─ Monitoring
    └─ Alerting
@@ -615,17 +620,44 @@ DATA QUALITY
 📊 Total Questions: 4
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you ensure data reliability and trustworthiness?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Data Quality
+├─ Define quality dimensions
+│  ├─ Accuracy
+│  ├─ Completeness
+│  ├─ Consistency
+│  ├─ Timeliness
+│  ├─ Validity
+│  └─ Uniqueness
+│
+├─ Validation checks
+│  ├─ Schema validation
+│  ├─ Range checks
+│  ├─ Null checks
+│  ├─ Uniqueness checks
+│  └─ Referential integrity
+│
+├─ Data profiling
+│  ├─ Statistical analysis
+│  ├─ Distribution analysis
+│  ├─ Outlier detection
+│  └─ Pattern recognition
+│
+├─ Tools
+│  ├─ Great Expectations
+│  ├─ deequ (AWS)
+│  ├─ dbt tests
+│  └─ Custom scripts
+│
+└─ Monitoring
+   ├─ Data freshness SLAs
+   ├─ Row count anomalies
+   ├─ Schema drift
+   └─ Data lineage
 
 ```
 
@@ -644,43 +676,42 @@ SPARK/BIG DATA
 📊 Total Questions: 4
 
 🎯 What they're really testing:
-Can you process large-scale data with Spark?
+Can you process large-scale data efficiently using distributed computing?
 
 🗺️  Mental Model Framework:
 ```
 
-Spark / Big Data
-├─ Understand Spark basics
-│  ├─ RDD vs DataFrame vs Dataset
-│  ├─ Transformations vs Actions
-│  ├─ Lazy evaluation
-│  └─ DAG execution
+Spark & Big Data
+├─ Understand Spark
+│  ├─ RDDs (low-level)
+│  ├─ DataFrames (structured)
+│  ├─ Datasets (typed)
+│  └─ Lazy evaluation
 │
-├─ Read data
-│  ├─ File formats (Parquet, ORC, CSV)
+├─ Transformations
+│  ├─ Narrow (map, filter)
+│  ├─ Wide (groupBy, join)
+│  ├─ Actions (collect, count, save)
+│  └─ Catalyst optimizer
+│
+├─ Performance
 │  ├─ Partitioning
-│  ├─ Schema inference
-│  └─ Sampling
-│
-├─ Transform data
-│  ├─ Select, filter, where
-│  ├─ GroupBy, aggregate
-│  ├─ Joins (broadcast, shuffle)
-│  ├─ Window functions
-│  └─ UDFs
-│
-├─ Optimize
-│  ├─ Partitioning strategy
+│  ├─ Caching (persist, cache)
 │  ├─ Broadcast joins
-│  ├─ Caching
-│  ├─ Coalesce vs repartition
-│  └─ Avoid shuffles
+│  ├─ Avoid shuffles
+│  └─ Tune executor memory/cores
 │
-└─ Write data
-   ├─ Output format
-   ├─ Partitioning
-   ├─ Compression
-   └─ Write mode
+├─ Data formats
+│  ├─ Parquet (columnar)
+│  ├─ Avro (row-based)
+│  ├─ ORC (optimized)
+│  └─ JSON/CSV
+│
+└─ Cluster management
+   ├─ YARN, Mesos, K8s
+   ├─ Driver vs Executor
+   ├─ Dynamic allocation
+   └─ Resource tuning
 
 ```
 
@@ -699,17 +730,36 @@ CLOUD PLATFORMS
 📊 Total Questions: 3
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Are you familiar with cloud-native data services?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Cloud Platforms
+├─ AWS
+│  ├─ S3 (storage)
+│  ├─ Redshift (DW)
+│  ├─ Glue (ETL)
+│  ├─ Athena (SQL)
+│  ├─ EMR (Spark)
+│  ├─ Kinesis (streaming)
+│  └─ Lambda (serverless)
+│
+├─ GCP
+│  ├─ GCS (storage)
+│  ├─ BigQuery (DW)
+│  ├─ Dataflow (ETL)
+│  ├─ Dataproc (Spark)
+│  ├─ Pub/Sub (messaging)
+│  └─ Cloud Functions
+│
+└─ Azure
+   ├─ ADLS (storage)
+   ├─ Synapse (DW)
+   ├─ Data Factory (ETL)
+   ├─ Databricks (Spark)
+   ├─ Event Hubs (streaming)
+   └─ Functions
 
 ```
 
@@ -727,17 +777,35 @@ CODING
 📊 Total Questions: 3
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you write clean, efficient Python/Scala code for data processing?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Coding
+├─ Understand problem
+│  ├─ Input format
+│  ├─ Output format
+│  ├─ Constraints
+│  └─ Edge cases
+│
+├─ Design approach
+│  ├─ Brute force first
+│  ├─ Identify pattern
+│  ├─ Optimize
+│  └─ Discuss trade-offs
+│
+├─ Implement
+│  ├─ Clean code
+│  ├─ Meaningful names
+│  ├─ Comments for complex logic
+│  ├─ Error handling
+│  └─ Test as you go
+│
+└─ Analyze
+   ├─ Time complexity
+   ├─ Space complexity
+   └─ Can we optimize?
 
 ```
 
@@ -755,17 +823,42 @@ DATABASE DESIGN
 📊 Total Questions: 3
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you design database schemas for different use cases?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Database Design
+├─ Requirements
+│  ├─ OLTP or OLAP?
+│  ├─ Read vs write heavy?
+│  ├─ Query patterns
+│  └─ Scale expectations
+│
+├─ Schema design
+│  ├─ Tables & columns
+│  ├─ Primary keys
+│  ├─ Foreign keys
+│  ├─ Indexes
+│  └─ Constraints
+│
+├─ Normalization
+│  ├─ 1NF (atomic values)
+│  ├─ 2NF (no partial dependencies)
+│  ├─ 3NF (no transitive dependencies)
+│  └─ When to denormalize
+│
+├─ Database type
+│  ├─ Relational (PostgreSQL, MySQL)
+│  ├─ NoSQL (MongoDB, Cassandra)
+│  ├─ Key-value (Redis, DynamoDB)
+│  └─ Graph (Neo4j)
+│
+└─ Performance
+   ├─ Indexing strategy
+   ├─ Partitioning
+   ├─ Replication
+   └─ Caching
 
 ```
 
@@ -783,17 +876,40 @@ MONITORING & OBSERVABILITY
 📊 Total Questions: 2
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you ensure pipeline reliability and quickly debug issues?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Monitoring & Observability
+├─ Metrics
+│  ├─ Pipeline success/failure
+│  ├─ Data volume processed
+│  ├─ Processing latency
+│  ├─ Resource utilization
+│  └─ Cost metrics
+│
+├─ Logging
+│  ├─ Structured logs (JSON)
+│  ├─ Log levels
+│  ├─ Centralized logging
+│  └─ Retention policies
+│
+├─ Alerting
+│  ├─ Data freshness SLAs
+│  ├─ Pipeline failures
+│  ├─ Data quality issues
+│  └─ Anomaly detection
+│
+├─ Tracing
+│  ├─ Data lineage
+│  ├─ Distributed tracing
+│  └─ Bottleneck identification
+│
+└─ Dashboards
+   ├─ Real-time health
+   ├─ Historical trends
+   └─ SLA compliance
 
 ```
 
@@ -810,17 +926,36 @@ DISTRIBUTED SYSTEMS
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Do you understand distributed computing principles?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Distributed Systems
+├─ CAP Theorem
+│  ├─ Consistency
+│  ├─ Availability
+│  └─ Partition Tolerance
+│
+├─ Consistency models
+│  ├─ Strong consistency
+│  ├─ Eventual consistency
+│  └─ Causal consistency
+│
+├─ Replication
+│  ├─ Master-slave
+│  ├─ Multi-master
+│  └─ Quorum-based
+│
+├─ Partitioning
+│  ├─ Hash-based
+│  ├─ Range-based
+│  └─ Consistent hashing
+│
+└─ Fault tolerance
+   ├─ Replication
+   ├─ Checkpointing
+   └─ Retry mechanisms
 
 ```
 
@@ -836,17 +971,40 @@ STREAMING DATA
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you process real-time data streams?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Streaming Data
+├─ Streaming platforms
+│  ├─ Kafka
+│  ├─ Kinesis
+│  ├─ Pub/Sub
+│  └─ Event Hubs
+│
+├─ Processing frameworks
+│  ├─ Spark Streaming
+│  ├─ Flink
+│  ├─ Storm
+│  └─ Kafka Streams
+│
+├─ Windowing
+│  ├─ Tumbling (fixed)
+│  ├─ Sliding (overlapping)
+│  ├─ Session (gap-based)
+│  └─ Watermarks
+│
+├─ State management
+│  ├─ Stateless operations
+│  ├─ Stateful operations
+│  └─ Checkpointing
+│
+└─ Challenges
+   ├─ Out-of-order events
+   ├─ Late arrivals
+   ├─ Exactly-once semantics
+   └─ Backpressure
 
 ```
 
@@ -862,17 +1020,42 @@ PERFORMANCE OPTIMIZATION
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you identify and fix performance bottlenecks?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Performance Optimization
+├─ Identify bottlenecks
+│  ├─ Profiling tools
+│  ├─ Query execution plans
+│  ├─ Resource monitoring
+│  └─ Slow query logs
+│
+├─ Query optimization
+│  ├─ Use indexes
+│  ├─ Push down filters
+│  ├─ Avoid SELECT *
+│  ├─ Partition pruning
+│  └─ Materialized views
+│
+├─ Data optimization
+│  ├─ Compression
+│  ├─ Columnar storage
+│  ├─ Partitioning
+│  └─ Clustering
+│
+├─ Compute optimization
+│  ├─ Increase parallelism
+│  ├─ Tune memory/CPU
+│  ├─ Caching
+│  └─ Broadcast joins
+│
+└─ Architecture optimization
+   ├─ Denormalize for reads
+   ├─ Pre-aggregate data
+   ├─ Use CDNs
+   └─ Horizontal scaling
 
 ```
 
@@ -888,17 +1071,37 @@ SCHEMA DESIGN
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Can you design flexible, maintainable schemas?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Schema Design
+├─ Schema evolution
+│  ├─ Add columns (backward compatible)
+│  ├─ Remove columns (forward compatible)
+│  ├─ Change types (breaking)
+│  └─ Schema registry
+│
+├─ Data types
+│  ├─ Numeric (INT, BIGINT, DECIMAL)
+│  ├─ String (VARCHAR, TEXT)
+│  ├─ Date/Time (DATE, TIMESTAMP)
+│  ├─ Boolean
+│  └─ JSON/JSONB
+│
+├─ Constraints
+│  ├─ NOT NULL
+│  ├─ UNIQUE
+│  ├─ PRIMARY KEY
+│  ├─ FOREIGN KEY
+│  └─ CHECK
+│
+└─ Best practices
+   ├─ Appropriate types
+   ├─ Avoid nullable keys
+   ├─ Document schema
+   └─ Version schemas
 
 ```
 
@@ -914,22 +1117,64 @@ DATA GOVERNANCE
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Can you handle this aspect of data engineering?
+Do you understand data privacy, security, and compliance?
 
 🗺️  Mental Model Framework:
 ```
 
-General DE Approach
-├─ Understand requirements
-├─ Design solution
-├─ Implement efficiently
-├─ Test thoroughly
-└─ Monitor & optimize
+Data Governance
+├─ Data privacy
+│  ├─ PII handling
+│  ├─ GDPR compliance
+│  ├─ CCPA compliance
+│  ├─ Anonymization
+│  └─ Data masking
+│
+├─ Data security
+│  ├─ Encryption at rest
+│  ├─ Encryption in transit
+│  ├─ Access control (IAM, RBAC)
+│  ├─ Audit logs
+│  └─ Retention policies
+│
+├─ Data quality
+│  ├─ Validation
+│  ├─ Profiling
+│  └─ Lineage
+│
+├─ Metadata management
+│  ├─ Data catalog
+│  ├─ Schema registry
+│  ├─ Data dictionary
+│  └─ Tags & classifications
+│
+└─ Compliance
+   ├─ Regulatory requirements
+   ├─ Data residency
+   ├─ Right to be forgotten
+   └─ Audit trails
 
 ```
 
 📝 All 1 Questions:
 
 1. Design a data pipeline that complies with GDPR.
+
+
+================================================================================
+BATCH PROCESSING
+================================================================================
+
+📊 Total Questions: 0
+
+🎯 What they're really testing:
+Can you handle this type of question effectively?
+
+🗺️  Mental Model Framework:
+```
+Framework coming soon...
+```
+
+📝 All 0 Questions:
 
 
