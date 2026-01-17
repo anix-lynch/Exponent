@@ -14,6 +14,7 @@ This repo is organized by **role branches**:
 main (master)
 ├── roles/
 │   ├── data-analyst/              # Data Analyst questions & frameworks
+│   ├── data-engineer/             # Data Engineer questions & frameworks 🎯 #1 GOAL
 │   ├── product-manager/           # Product Manager questions & frameworks
 │   ├── software-engineer/         # Software Engineer questions & frameworks
 │   └── technical-program-manager/ # Technical Program Manager questions & frameworks
@@ -26,6 +27,7 @@ main (master)
 
 - **`master`** - Main branch with overall documentation
 - **`data-analyst`** - Complete Data Analyst prep (118 questions) ✅
+- **`data-engineer`** - Complete Data Engineer prep (151 questions) ✅ 🎯 **#1 GOAL ROLE**
 - **`product-manager`** - Complete Product Manager prep (1,710 questions) ✅
 - **`software-engineer`** - Complete Software Engineer prep (575 questions) ✅
 - **`technical-program-manager`** - Complete TPM prep (189 questions) ✅
@@ -40,6 +42,19 @@ main (master)
 - Source: https://www.tryexponent.com/questions?role=data-analyst
 
 **View**: Switch to `data-analyst` branch or check `roles/data-analyst/`
+
+### ✅ 🎯 Data Engineer (Complete) - **YOUR #1 GOAL ROLE**
+- **151 questions** across 19 categories
+- **Comprehensive frameworks** with extra detail for your primary target
+- **Priority levels**: Critical (76 pipeline), High (52 algo/system), Important (34)
+- Source: https://www.tryexponent.com/questions?page=1&role=data-engineer
+
+**View**: Switch to `data-engineer` branch or check `roles/data-engineer/`
+
+**🔥 Focus Areas**:
+- Data Pipeline Design (76 questions) - CRITICAL
+- Data Structures & Algorithms (32 questions) - HIGH  
+- System Design (20 questions) - HIGH
 
 ### ✅ Product Manager (Complete)
 - **1,710 questions** across 23 categories
