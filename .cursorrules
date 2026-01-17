@@ -1,0 +1,282 @@
+# Exponent Interview Prep - Project Rules
+
+## 🎯 Gold Standard Format: Data Analyst Role
+
+**Reference Directory**: `roles/data-analyst/`
+
+Every role MUST follow this exact format and quality level.
+
+---
+
+## 📁 Required File Structure Per Role
+
+```
+roles/{role-name}/
+├── {Role}_Question_Bank.md          # MAIN OUTPUT - Rich text with frameworks
+├── INTERVIEW_FRAMEWORK.md            # COMPREHENSIVE frameworks for ALL categories
+├── README.md                         # Role-specific guide
+├── data/
+│   ├── questions_raw.json           # Raw scraped questions
+│   ├── questions_categorized.json   # Questions with categories
+│   └── questions_by_category.json   # Grouped by category
+└── src/
+    ├── scrape_{role}.py             # Scraper script
+    ├── categorize_questions.py      # Categorization script
+    └── generate_frameworks.py       # Framework generator (optional)
+```
+
+---
+
+## 📋 INTERVIEW_FRAMEWORK.md Requirements
+
+**CRITICAL**: This file MUST be comprehensive like `roles/data-analyst/INTERVIEW_FRAMEWORK.md`
+
+### Required Sections:
+
+1. **Header with Resources**
+   - GitHub repo link
+   - Source URL
+   - Role-specific note
+
+2. **Question Distribution**
+   - All categories with question counts
+   - Total count
+
+3. **How to Use Section**
+   - Clear 3-step process
+
+4. **Core Meta-Structure (0️⃣)**
+   - Role-specific principles
+   - Universal answer framework
+
+5. **DETAILED FRAMEWORK FOR EVERY MAJOR CATEGORY**
+   - Each category gets its own numbered section (1️⃣, 2️⃣, etc.)
+   - **"What they're really testing:"** explanation
+   - **ASCII tree mindmap** showing the framework
+   - **📌 Quick tip** at the end
+
+### Example Format for Each Category:
+
+```markdown
+## 1️⃣ {Category Name}
+
+**What they're really testing:**
+{Clear explanation of what interviewers want to see}
+
+**Mindmap**
+
+```
+{Category Name}
+├─ Step 1
+│  ├─ Sub-step 1a
+│  ├─ Sub-step 1b
+│
+├─ Step 2
+│  ├─ Sub-step 2a
+│  ├─ Sub-step 2b
+│
+└─ Step 3
+   ├─ Sub-step 3a
+   ├─ Sub-step 3b
+```
+
+📌 **Key tip**: {Actionable advice}
+
+---
+```
+
+### Minimum Requirements:
+
+- **At least 10-15 detailed category frameworks** (not just 1-2)
+- **ASCII trees for ALL major categories** (those with 5+ questions)
+- **Clear, actionable frameworks** (not vague descriptions)
+- **Role-specific language** (e.g., DE uses "pipeline", PM uses "user", etc.)
+
+---
+
+## 📝 Question_Bank.md Requirements
+
+**Format**: `{Role}_Question_Bank.md`
+
+### Structure:
+
+1. **Header**
+   - Title with role name
+   - Resource links
+   - Total question count
+
+2. **For EACH Category**:
+   ```markdown
+   ================================================================================
+   {CATEGORY NAME}
+   ================================================================================
+
+   📊 Total Questions: {count}
+
+   🎯 What they're really testing:
+   {Clear explanation}
+
+   🗺️  Mental Model Framework:
+   ```
+   {ASCII tree framework}
+   ```
+
+   📝 All {count} Questions:
+   1. Question text here
+   2. Another question
+   ...
+   ```
+
+3. **Rich Text Features**:
+   - Use **bold** for emphasis
+   - Use `code blocks` for technical terms
+   - Use emoji headers (📊, 🎯, 🗺️, 📝)
+   - Use separator lines (80 equals signs)
+
+---
+
+## 🎨 ASCII Tree Standards
+
+### Good ASCII Tree Example:
+
+```
+Category Name
+├─ Main Step 1
+│  ├─ Sub-step 1a
+│  ├─ Sub-step 1b
+│  └─ Sub-step 1c
+│
+├─ Main Step 2
+│  ├─ Sub-step 2a
+│  │  ├─ Detail 2a1
+│  │  └─ Detail 2a2
+│  └─ Sub-step 2b
+│
+└─ Main Step 3
+   ├─ Sub-step 3a
+   └─ Sub-step 3b
+```
+
+### Rules:
+- Use `├─` for branches
+- Use `└─` for last item
+- Use `│` for vertical continuation
+- Add blank line between major sections (with `│`)
+- Indent consistently (3 spaces per level)
+- Keep it readable and structured
+
+---
+
+## 🔍 Quality Checklist
+
+Before considering a role "complete", verify:
+
+### INTERVIEW_FRAMEWORK.md:
+- [ ] Has 10+ detailed category sections with ASCII trees
+- [ ] Each major category (5+ questions) has its own framework
+- [ ] Includes "What they're really testing" for each
+- [ ] Includes 📌 tips for each category
+- [ ] Matches Data Analyst format and depth
+- [ ] File is 400+ lines (not 70 lines!)
+
+### Question_Bank.md:
+- [ ] Has ASCII framework for EACH category
+- [ ] Uses rich text (bold, code blocks, emojis)
+- [ ] Has 80-char separator lines
+- [ ] Includes "What they're really testing" per category
+- [ ] All questions listed under their category
+
+### README.md:
+- [ ] Explains the two output files
+- [ ] Links to both markdown files
+- [ ] Describes the format
+- [ ] Includes source URL
+
+### Data Files:
+- [ ] questions_raw.json exists
+- [ ] questions_categorized.json exists
+- [ ] questions_by_category.json exists
+
+---
+
+## 🚫 Common Mistakes to Avoid
+
+1. **Short INTERVIEW_FRAMEWORK.md** (< 200 lines)
+   - ❌ BAD: Just meta-structure and 1-2 categories
+   - ✅ GOOD: Detailed frameworks for ALL major categories
+
+2. **Missing ASCII Trees**
+   - ❌ BAD: Text descriptions only
+   - ✅ GOOD: Visual ASCII tree for every category
+
+3. **Vague Frameworks**
+   - ❌ BAD: "Think about the problem and solve it"
+   - ✅ GOOD: "Step 1: Clarify scope → Step 2: Define metrics → ..."
+
+4. **Inconsistent Format**
+   - ❌ BAD: Different emoji, different structure per role
+   - ✅ GOOD: Same format as Data Analyst, adapted for role
+
+5. **Plain Text Question Bank**
+   - ❌ BAD: Just numbered list of questions
+   - ✅ GOOD: Rich text with frameworks, separators, emojis
+
+---
+
+## 🎯 Role-Specific Adaptations
+
+While maintaining the format, adapt content for each role:
+
+### Data Engineer:
+- Focus: Pipelines, scale, batch vs stream
+- Keywords: Ingest, transform, store, serve, monitor
+- Categories: Data Pipeline Design, System Design, ETL/ELT
+
+### Product Manager:
+- Focus: User needs, business impact, trade-offs
+- Keywords: User journey, metrics, prioritization
+- Categories: Product Design, Product Strategy, Analytical
+
+### Software Engineer:
+- Focus: Code quality, algorithms, system design
+- Keywords: Complexity, optimization, scalability
+- Categories: Coding, DSA, System Design
+
+### Technical Program Manager:
+- Focus: Cross-team coordination, execution
+- Keywords: Stakeholders, dependencies, delivery
+- Categories: Program Sense, Execution, Cross-Functional
+
+---
+
+## 📊 Success Metrics
+
+A role is "complete" when:
+
+1. **INTERVIEW_FRAMEWORK.md** is as comprehensive as Data Analyst's (400+ lines)
+2. **Question_Bank.md** has frameworks embedded for each category
+3. **Both files** use rich text formatting (bold, code, emojis)
+4. **All major categories** (5+ questions) have detailed ASCII frameworks
+5. **Format matches** Data Analyst role exactly
+
+---
+
+## 🔄 When Adding New Roles
+
+1. **Scrape questions** → save to `data/questions_raw.json`
+2. **Categorize** → create role-specific categories
+3. **Generate frameworks** → write detailed ASCII trees for EACH category
+4. **Create INTERVIEW_FRAMEWORK.md** → 400+ lines with ALL frameworks
+5. **Create Question_Bank.md** → embed frameworks with questions
+6. **Quality check** → compare to Data Analyst format
+7. **Update main README.md** → add role to table
+
+---
+
+## 💡 Remember
+
+**Data Analyst role is the gold standard.**
+
+When in doubt, open `roles/data-analyst/INTERVIEW_FRAMEWORK.md` and match that quality and depth.
+
+**Every role deserves the same level of detail and care.**
