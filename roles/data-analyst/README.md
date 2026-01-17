@@ -31,7 +31,7 @@ data-analyst/
 Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models for each category.
 
 ### 2. **Practice Questions** 💪
-Use [`Data_Analyst_Question_Bank.md`](./Data_Analyst_Question_Bank.md) to practice questions by category.
+Use [`Data_Analyst_Question_Bank.md`](./Data_Analyst_Question_Bank.md) - includes ASCII tree frameworks + all questions for each category (gold standard format).
 
 ### 3. **Apply the Framework** 🎯
 For each question:
