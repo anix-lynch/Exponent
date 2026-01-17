@@ -21,24 +21,16 @@
       "url": "https://www.tryexponent.com/questions/5529/design-a-document-processing-pipeline"
     },
     {
-      "question": "Employee Earnings.",
-      "url": "https://www.tryexponent.com/questions/3960/employee-earnings"
+      "question": "Reverse a linked list.",
+      "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list"
     },
     {
       "question": "Find the number of users who called three or more people in the last week.",
       "url": "https://www.tryexponent.com/questions/4167/count-users-calls-last-week"
     },
     {
-      "question": "Tell me about yourself.",
-      "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself"
-    },
-    {
-      "question": "What is the project you are most proud of?",
-      "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of"
-    },
-    {
-      "question": "Is this a valid palindrome?",
-      "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check"
+      "question": "Tell me about your past projects.",
+      "url": "https://www.tryexponent.com/questions/4229/past-projects"
     },
     {
       "question": "Find the container with the maximum volume of water.",
@@ -49,220 +41,144 @@
       "url": "https://www.tryexponent.com/questions/1371/time-skill-recently-learned"
     },
     {
-      "question": "Why do you want to work at Anthropic?",
-      "url": "https://www.tryexponent.com/questions/5596/why-anthropic"
+      "question": "Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",
+      "url": "https://www.tryexponent.com/questions/4646/house-robber"
     },
     {
       "question": "+ Share interview experience",
       "url": "https://www.tryexponent.com/questions/contribute"
     },
     {
-      "question": "Monthly Post Success Analysis.",
-      "url": "https://www.tryexponent.com/questions/3955/monthly-post-success-analysis"
+      "question": "SQL Stored Procedures",
+      "url": "https://www.tryexponent.com/questions/3980/sql-stored-procedures"
     },
     {
-      "question": "Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?",
-      "url": "https://www.tryexponent.com/questions/5320/program-management-stakeholder-engagement-alignment"
+      "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
+      "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k"
     },
     {
-      "question": "Instagram Likes",
-      "url": "https://www.tryexponent.com/questions/3049/instagram-likes"
+      "question": "Find the longest substring without repeating characters.",
+      "url": "https://www.tryexponent.com/questions/3260/longest-substring-without-repeat"
     },
     {
-      "question": "Top Earning Employees",
-      "url": "https://www.tryexponent.com/questions/3044/top-earning-employees"
+      "question": "Merge Intervals",
+      "url": "https://www.tryexponent.com/questions/1602/merge-intervals"
     },
     {
-      "question": "Reverse a Sentence",
-      "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence"
+      "question": "Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.",
+      "url": "https://www.tryexponent.com/questions/5088/sql-stadium-consecutive-high-attendance"
     },
     {
-      "question": "Top Salaries by Department",
-      "url": "https://www.tryexponent.com/questions/3045/top-salaries-by-department"
+      "question": "Move all zeros to the end of an array.",
+      "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array"
     },
     {
-      "question": "Lyft Ride Requests",
-      "url": "https://www.tryexponent.com/questions/3082/lyft-ride-requests"
-    },
-    {
-      "question": "Valid Parentheses",
-      "url": "https://www.tryexponent.com/questions/3447/valid-parentheses"
-    },
-    {
-      "question": "Why do you want to work at OpenAI?",
-      "url": "https://www.tryexponent.com/questions/4608/why-openai"
-    },
-    {
-      "question": "Course Schedule",
-      "url": "https://www.tryexponent.com/questions/3313/course-schedule"
-    },
-    {
-      "question": "Employee Hierarchy",
-      "url": "https://www.tryexponent.com/questions/3041/employee-hierarchy"
-    },
-    {
-      "question": "Most Recent Transaction",
-      "url": "https://www.tryexponent.com/questions/3043/most-recent-transaction"
-    },
-    {
-      "question": "Duolingo Leaderboards",
-      "url": "https://www.tryexponent.com/questions/3099/duolingo-leaderboards"
+      "question": "Product of Array Except Self",
+      "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i"
     },
     {
       "question": "On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?",
       "url": "https://www.tryexponent.com/questions/4862/doordash-order-issue-analysis"
     },
     {
-      "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
-      "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock"
-    },
-    {
-      "question": "Tell me about a mistake you made and what you learned from it.",
-      "url": "https://www.tryexponent.com/questions/1509/mistake-and-lessons-learned"
-    },
-    {
-      "question": "Why do you want to work at Visa?",
-      "url": "https://www.tryexponent.com/questions/4627/why-visa"
-    },
-    {
-      "question": "High Volume Low Success.",
-      "url": "https://www.tryexponent.com/questions/3956/high-volume-low-success"
-    },
-    {
-      "question": "Climbing Stairs",
-      "url": "https://www.tryexponent.com/questions/3255/climbing-stairs"
-    },
-    {
-      "question": "Calculate Test Scores",
-      "url": "https://www.tryexponent.com/questions/3047/calculate-test-scores"
+      "question": "Write SQL code to publish the Fibonacci series.",
+      "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series"
     },
     {
       "question": "You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?\n\n(Conversion: From users browsing to placing orders.)",
       "url": "https://www.tryexponent.com/questions/4848/food-delivery-conversion-rate-analysis"
     },
     {
-      "question": "Session Data Analysis.",
-      "url": "https://www.tryexponent.com/questions/2777/session-data-analysis"
+      "question": "Find the median of two sorted arrays.",
+      "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays"
     },
     {
-      "question": "Given an nxn grid of 1s and 0s, return the number of islands in the input.",
-      "url": "https://www.tryexponent.com/questions/1420/number-islands"
+      "question": "Find a triplet in an array with a given sum.",
+      "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum"
     },
     {
       "question": "Design an ETL Pipeline for a ML Platform for AWS",
       "url": "https://www.tryexponent.com/questions/4592/aws-ml-data-pipeline"
     },
     {
-      "question": "Marketing Channel Attribution",
-      "url": "https://www.tryexponent.com/questions/3969/marketing-channel-attribution"
+      "question": "Linked List Cycle",
+      "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle"
     },
     {
-      "question": "Why do you want to work at Atlassian?",
-      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
+      "question": "Given the root of a binary tree of integers, return the maximum path sum.",
+      "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum"
     },
     {
-      "question": "What parts of OpenAI's mission statement resonate with you?",
-      "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement"
+      "question": "Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].",
+      "url": "https://www.tryexponent.com/questions/4822/find-task-pairs-within-time-limit"
     },
     {
-      "question": "Rotating the Box",
-      "url": "https://www.tryexponent.com/questions/4679/rotating-the-box"
-    },
-    {
-      "question": "Post Success By Age Group.",
-      "url": "https://www.tryexponent.com/questions/3962/post-success-by-age-group"
-    },
-    {
-      "question": "Generate Parentheses",
-      "url": "https://www.tryexponent.com/questions/1594/generate-parentheses"
+      "question": "Split an array into equal sum subarrays",
+      "url": "https://www.tryexponent.com/questions/4326/split-an-array-into-equal-sum-subarrays"
     },
     {
       "question": "Design Netflix's Clickstream Data Pipeline",
       "url": "https://www.tryexponent.com/questions/4590/netflix-clickstream-data-pipeline"
     },
     {
-      "question": "Build a Calculator",
-      "url": "https://www.tryexponent.com/questions/3632/calculator"
+      "question": "Which sorting algorithms use divide and conquer?",
+      "url": "https://www.tryexponent.com/questions/4448/which-sorting-algorithms-use-divide-and-conquer"
     },
     {
-      "question": "How do you influence without authority?",
-      "url": "https://www.tryexponent.com/questions/491/influencing-without-authority"
+      "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
+      "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql"
     },
     {
-      "question": "Analyze Monthly Customer Transactions",
-      "url": "https://www.tryexponent.com/questions/3970/mock-interview-analyze-monthly-customer-transactions"
+      "question": "Merge k sorted linked lists.",
+      "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists"
     },
     {
-      "question": "Roman to Integer",
-      "url": "https://www.tryexponent.com/questions/4680/roman-to-integer"
+      "question": "Search in rotated sorted array",
+      "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array"
     },
     {
-      "question": "How do you approach personal growth and learning?",
-      "url": "https://www.tryexponent.com/questions/4669/personal-growth-approach"
+      "question": "Find the maximum subarray sum.",
+      "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum"
     },
     {
-      "question": "Find Customer Lifetime Value (LTV)",
-      "url": "https://www.tryexponent.com/questions/3975/find-customer-lifetime-value"
+      "question": "Squares of sorted array",
+      "url": "https://www.tryexponent.com/questions/3824/square-of-sorted-array"
     },
     {
-      "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
-      "url": "https://www.tryexponent.com/questions/4325/spiral-matrix"
-    },
-    {
-      "question": "Find Campaign Purchases",
-      "url": "https://www.tryexponent.com/questions/3963/find-campaign-purchases"
-    },
-    {
-      "question": "Merge two sorted lists",
-      "url": "https://www.tryexponent.com/questions/966/merge-two-sorted-lists"
+      "question": "Determine if a given binary tree is a binary search tree (BST).",
+      "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst"
     },
     {
       "question": "Design an ETL Pipeline for Slack for School",
       "url": "https://www.tryexponent.com/questions/4591/slack-school-data-pipeline"
     },
     {
-      "question": "Set Matrix Zeroes",
-      "url": "https://www.tryexponent.com/questions/4016/set-matrix-zeroes"
+      "question": "Partition an array into two sub-arrays with equal sum.",
+      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
     },
     {
-      "question": "How do you encourage collaboration among cross-functional teams?",
-      "url": "https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams"
+      "question": "How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?",
+      "url": "https://www.tryexponent.com/questions/4666/manage-dependent-nightly-jobs"
     },
     {
-      "question": "What other companies are you interviewing at and why?",
-      "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies"
+      "question": "Calculate the trapped rainwater between bars in a given array.",
+      "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars"
     },
     {
-      "question": "Solve John Conway's \"Game of Life\".",
-      "url": "https://www.tryexponent.com/questions/4338/game-of-life"
+      "question": "Tell me about your e-commerce experience.",
+      "url": "https://www.tryexponent.com/questions/3380/share-ecommerce-experience"
     },
     {
-      "question": "Why do you want to work at Walmart Labs?",
-      "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs"
+      "question": "How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?",
+      "url": "https://www.tryexponent.com/questions/4665/handle-nightly-job-task-failures"
     },
     {
-      "question": "Fraudulent Transactions",
-      "url": "https://www.tryexponent.com/questions/3071/fraudulent-transactions"
+      "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+      "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree"
     },
     {
-      "question": "Explain the differences between multithreading and multiprocessing.",
-      "url": "https://www.tryexponent.com/questions/3801/differences-multithreading-multiprocessing"
-    },
-    {
-      "question": "Build a Basic Regex Parser",
-      "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser"
-    },
-    {
-      "question": "Why did you become an engineer?",
-      "url": "https://www.tryexponent.com/questions/4668/why-engineer"
-    },
-    {
-      "question": "Why do you want to work at Salesforce?",
-      "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce"
-    },
-    {
-      "question": "Why do you want to work at Discord?",
-      "url": "https://www.tryexponent.com/questions/4671/why-discord"
+      "question": "Find the longest palindromic subsequence using dynamic programming.",
+      "url": "https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming"
     },
     {
       "question": "Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.",
@@ -273,36 +189,20 @@
       "url": "https://www.tryexponent.com/questions/5555/design-gdpr-data-pipeline"
     },
     {
-      "question": "When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?",
-      "url": "https://www.tryexponent.com/questions/4664/delta-live-tables-vs-spark-delta-lake"
+      "question": "Serialize and deserialize binary tree",
+      "url": "https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree"
     },
     {
-      "question": "Top k frequent elements",
-      "url": "https://www.tryexponent.com/questions/2080/top-k-frequent-elements"
+      "question": "Calculate the height of a binary tree.",
+      "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree"
     },
     {
-      "question": "How will you develop yourself professionally as a data engineer?",
-      "url": "https://www.tryexponent.com/questions/5250/develop-as-a-data-engineer"
+      "question": "Print all possible solutions to the N-Queens problem.",
+      "url": "https://www.tryexponent.com/questions/1145/print-all-possible-solutions-n-queens-problem"
     },
     {
-      "question": "Explain the differences between Parquet and Avro.",
-      "url": "https://www.tryexponent.com/questions/3390/differences-between-parquet-and-avro"
-    },
-    {
-      "question": "Sliding Window Maximum",
-      "url": "https://www.tryexponent.com/questions/4687/sliding-window-maximum"
-    },
-    {
-      "question": "Print all combinations of numbers from 1 to n that sum to n.",
-      "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum"
-    },
-    {
-      "question": "When should you use a job cluster instead of an all-purpose cluster?",
-      "url": "https://www.tryexponent.com/questions/4660/job-cluster-vs-all-purpose-cluster"
-    },
-    {
-      "question": "What data tools have you worked with, and what specific projects did you use those tools for?",
-      "url": "https://www.tryexponent.com/questions/3686/data-tools-experience-specific-projects"
+      "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
+      "url": "https://www.tryexponent.com/questions/4491/candy"
     }
   ],
   "ETL/ELT": [
@@ -313,14 +213,6 @@
     {
       "question": "Design an ETL Pipeline for Slack for School",
       "url": "https://www.tryexponent.com/questions/4591/slack-school-data-pipeline"
-    },
-    {
-      "question": "When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?",
-      "url": "https://www.tryexponent.com/questions/4664/delta-live-tables-vs-spark-delta-lake"
-    },
-    {
-      "question": "What is delta lake?",
-      "url": "https://www.tryexponent.com/questions/4662/what-is-delta-lake"
     }
   ],
   "Data Modeling": [
@@ -361,10 +253,6 @@
       "url": "https://www.tryexponent.com/questions/4588/airbnb-data-model"
     },
     {
-      "question": "Tell me about your e-commerce experience.",
-      "url": "https://www.tryexponent.com/questions/3380/share-ecommerce-experience"
-    },
-    {
       "question": "Design a database schema for a ride sharing app.",
       "url": "https://www.tryexponent.com/questions/5545/design-data-schema-ride-sharing"
     },
@@ -375,182 +263,162 @@
   ],
   "SQL": [
     {
-      "question": "SQL Stored Procedures",
-      "url": "https://www.tryexponent.com/questions/3980/sql-stored-procedures"
+      "question": "Employee Earnings.",
+      "url": "https://www.tryexponent.com/questions/3960/employee-earnings"
+    },
+    {
+      "question": "Monthly Post Success Analysis.",
+      "url": "https://www.tryexponent.com/questions/3955/monthly-post-success-analysis"
     },
     {
       "question": "Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.",
       "url": "https://www.tryexponent.com/questions/5087/sql-top-three-salaries-per-department"
     },
     {
-      "question": "Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.",
-      "url": "https://www.tryexponent.com/questions/4776/bookstore-schema-sql-joins-aggregations"
+      "question": "Instagram Likes",
+      "url": "https://www.tryexponent.com/questions/3049/instagram-likes"
     },
     {
-      "question": "Find the longest substring without repeating characters.",
-      "url": "https://www.tryexponent.com/questions/3260/longest-substring-without-repeat"
+      "question": "Top Earning Employees",
+      "url": "https://www.tryexponent.com/questions/3044/top-earning-employees"
     },
     {
-      "question": "Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.",
-      "url": "https://www.tryexponent.com/questions/5088/sql-stadium-consecutive-high-attendance"
+      "question": "Top Salaries by Department",
+      "url": "https://www.tryexponent.com/questions/3045/top-salaries-by-department"
     },
     {
-      "question": "Write SQL code to publish the Fibonacci series.",
-      "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series"
+      "question": "Lyft Ride Requests",
+      "url": "https://www.tryexponent.com/questions/3082/lyft-ride-requests"
     },
     {
-      "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
-      "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql"
+      "question": "Employee Hierarchy",
+      "url": "https://www.tryexponent.com/questions/3041/employee-hierarchy"
     },
     {
-      "question": "What is the difference between NoSQL and SQL?",
-      "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql"
+      "question": "Most Recent Transaction",
+      "url": "https://www.tryexponent.com/questions/3043/most-recent-transaction"
     },
     {
-      "question": "How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?",
-      "url": "https://www.tryexponent.com/questions/4667/optimize-slow-databricks-sql-queries"
+      "question": "Duolingo Leaderboards",
+      "url": "https://www.tryexponent.com/questions/3099/duolingo-leaderboards"
     },
     {
-      "question": "What is the best way to connect SQL databases and why?",
-      "url": "https://www.tryexponent.com/questions/2156/best-way-connect-sql-databases"
+      "question": "High Volume Low Success.",
+      "url": "https://www.tryexponent.com/questions/3956/high-volume-low-success"
     },
     {
-      "question": "How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?",
-      "url": "https://www.tryexponent.com/questions/4666/manage-dependent-nightly-jobs"
+      "question": "Calculate Test Scores",
+      "url": "https://www.tryexponent.com/questions/3047/calculate-test-scores"
     },
     {
-      "question": "How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?",
-      "url": "https://www.tryexponent.com/questions/4665/handle-nightly-job-task-failures"
+      "question": "Session Data Analysis.",
+      "url": "https://www.tryexponent.com/questions/2777/session-data-analysis"
+    },
+    {
+      "question": "Marketing Channel Attribution",
+      "url": "https://www.tryexponent.com/questions/3969/marketing-channel-attribution"
+    },
+    {
+      "question": "Post Success By Age Group.",
+      "url": "https://www.tryexponent.com/questions/3962/post-success-by-age-group"
+    },
+    {
+      "question": "Analyze Monthly Customer Transactions",
+      "url": "https://www.tryexponent.com/questions/3970/mock-interview-analyze-monthly-customer-transactions"
+    },
+    {
+      "question": "Find Customer Lifetime Value (LTV)",
+      "url": "https://www.tryexponent.com/questions/3975/find-customer-lifetime-value"
+    },
+    {
+      "question": "Find Campaign Purchases",
+      "url": "https://www.tryexponent.com/questions/3963/find-campaign-purchases"
+    },
+    {
+      "question": "Fraudulent Transactions",
+      "url": "https://www.tryexponent.com/questions/3071/fraudulent-transactions"
     }
   ],
   "Data Structures & Algorithms": [
     {
-      "question": "Reverse a linked list.",
-      "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list"
+      "question": "Is this a valid palindrome?",
+      "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check"
     },
     {
-      "question": "Implement LRU Cache.",
-      "url": "https://www.tryexponent.com/questions/3625/lru-cache"
+      "question": "Reverse a Sentence",
+      "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence"
     },
     {
-      "question": "Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",
-      "url": "https://www.tryexponent.com/questions/4646/house-robber"
+      "question": "Valid Parentheses",
+      "url": "https://www.tryexponent.com/questions/3447/valid-parentheses"
     },
     {
-      "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
-      "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k"
+      "question": "Course Schedule",
+      "url": "https://www.tryexponent.com/questions/3313/course-schedule"
     },
     {
-      "question": "Merge Intervals",
-      "url": "https://www.tryexponent.com/questions/1602/merge-intervals"
+      "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
+      "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock"
     },
     {
-      "question": "Move all zeros to the end of an array.",
-      "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array"
+      "question": "Climbing Stairs",
+      "url": "https://www.tryexponent.com/questions/3255/climbing-stairs"
     },
     {
-      "question": "Product of Array Except Self",
-      "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i"
-    },
-    {
-      "question": "Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).",
-      "url": "https://www.tryexponent.com/questions/5086/data-warehouse-analytics-dashboards"
-    },
-    {
-      "question": "Find the median of two sorted arrays.",
-      "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays"
-    },
-    {
-      "question": "Find a triplet in an array with a given sum.",
-      "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum"
+      "question": "Given an nxn grid of 1s and 0s, return the number of islands in the input.",
+      "url": "https://www.tryexponent.com/questions/1420/number-islands"
     },
     {
       "question": "Given an array, find the two sum.",
       "url": "https://www.tryexponent.com/questions/1164/find-two-sum"
     },
     {
-      "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
-      "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection"
+      "question": "Rotating the Box",
+      "url": "https://www.tryexponent.com/questions/4679/rotating-the-box"
     },
     {
-      "question": "Linked List Cycle",
-      "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle"
+      "question": "Generate Parentheses",
+      "url": "https://www.tryexponent.com/questions/1594/generate-parentheses"
     },
     {
-      "question": "Given the root of a binary tree of integers, return the maximum path sum.",
-      "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum"
+      "question": "Build a Calculator",
+      "url": "https://www.tryexponent.com/questions/3632/calculator"
     },
     {
-      "question": "Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].",
-      "url": "https://www.tryexponent.com/questions/4822/find-task-pairs-within-time-limit"
+      "question": "Roman to Integer",
+      "url": "https://www.tryexponent.com/questions/4680/roman-to-integer"
     },
     {
-      "question": "Split an array into equal sum subarrays",
-      "url": "https://www.tryexponent.com/questions/4326/split-an-array-into-equal-sum-subarrays"
+      "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
+      "url": "https://www.tryexponent.com/questions/4325/spiral-matrix"
     },
     {
-      "question": "Which sorting algorithms use divide and conquer?",
-      "url": "https://www.tryexponent.com/questions/4448/which-sorting-algorithms-use-divide-and-conquer"
+      "question": "Merge two sorted lists",
+      "url": "https://www.tryexponent.com/questions/966/merge-two-sorted-lists"
     },
     {
-      "question": "Merge k sorted linked lists.",
-      "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists"
+      "question": "Set Matrix Zeroes",
+      "url": "https://www.tryexponent.com/questions/4016/set-matrix-zeroes"
     },
     {
-      "question": "Search in rotated sorted array",
-      "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array"
+      "question": "Solve John Conway's \"Game of Life\".",
+      "url": "https://www.tryexponent.com/questions/4338/game-of-life"
     },
     {
-      "question": "Find the maximum subarray sum.",
-      "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum"
+      "question": "Build a Basic Regex Parser",
+      "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser"
     },
     {
-      "question": "Squares of sorted array",
-      "url": "https://www.tryexponent.com/questions/3824/square-of-sorted-array"
+      "question": "Top k frequent elements",
+      "url": "https://www.tryexponent.com/questions/2080/top-k-frequent-elements"
     },
     {
-      "question": "Determine if a given binary tree is a binary search tree (BST).",
-      "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst"
+      "question": "Sliding Window Maximum",
+      "url": "https://www.tryexponent.com/questions/4687/sliding-window-maximum"
     },
     {
-      "question": "Partition an array into two sub-arrays with equal sum.",
-      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
-    },
-    {
-      "question": "Implement a hashmap without using any libraries.",
-      "url": "https://www.tryexponent.com/questions/4686/design-hashmap"
-    },
-    {
-      "question": "Calculate the trapped rainwater between bars in a given array.",
-      "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars"
-    },
-    {
-      "question": "Determine if an array of integers from 1 to n contains a duplicate in constant time and space.",
-      "url": "https://www.tryexponent.com/questions/965/check-duplicates-in-array-constant-space"
-    },
-    {
-      "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
-      "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree"
-    },
-    {
-      "question": "Find the longest palindromic subsequence using dynamic programming.",
-      "url": "https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming"
-    },
-    {
-      "question": "Serialize and deserialize binary tree",
-      "url": "https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree"
-    },
-    {
-      "question": "Calculate the height of a binary tree.",
-      "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree"
-    },
-    {
-      "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
-      "url": "https://www.tryexponent.com/questions/4491/candy"
-    },
-    {
-      "question": "Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?",
-      "url": "https://www.tryexponent.com/questions/4651/duplicate-paragraph-detection-pipeline"
+      "question": "Print all combinations of numbers from 1 to n that sum to n.",
+      "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum"
     }
   ],
   "System Design": [
@@ -635,12 +503,7 @@
       "url": "https://www.tryexponent.com/questions/5543/data-s3-bucket-pipeline"
     }
   ],
-  "Distributed Systems": [
-    {
-      "question": "Partition an array into two sub-arrays with equal sum.",
-      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
-    }
-  ],
+  "Distributed Systems": [],
   "Data Warehousing": [
     {
       "question": "What's the difference between a data lakehouse and a data warehouse?",
@@ -683,18 +546,9 @@
       "url": "https://www.tryexponent.com/questions/2168/difference-oltp-olap"
     }
   ],
-  "Streaming Data": [
-    {
-      "question": "Design Netflix's Clickstream Data Pipeline",
-      "url": "https://www.tryexponent.com/questions/4590/netflix-clickstream-data-pipeline"
-    }
-  ],
+  "Streaming Data": [],
   "Batch Processing": [],
   "Cloud Platforms": [
-    {
-      "question": "Design an ETL Pipeline for a ML Platform for AWS",
-      "url": "https://www.tryexponent.com/questions/4592/aws-ml-data-pipeline"
-    },
     {
       "question": "How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?",
       "url": "https://www.tryexponent.com/questions/4667/optimize-slow-databricks-sql-queries"
@@ -708,12 +562,20 @@
     {
       "question": "How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?",
       "url": "https://www.tryexponent.com/questions/4667/optimize-slow-databricks-sql-queries"
+    },
+    {
+      "question": "Explain the differences between multithreading and multiprocessing.",
+      "url": "https://www.tryexponent.com/questions/3801/differences-multithreading-multiprocessing"
     }
   ],
   "Data Quality": [
     {
       "question": "Remove Duplicate Emails",
       "url": "https://www.tryexponent.com/questions/3083/remove-duplicate-emails"
+    },
+    {
+      "question": "On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?",
+      "url": "https://www.tryexponent.com/questions/4862/doordash-order-issue-analysis"
     },
     {
       "question": "Find the Duplicates",
@@ -738,8 +600,16 @@
       "url": "https://www.tryexponent.com/questions/1350/time-disagreed-someone-resolved"
     },
     {
-      "question": "Tell me about your past projects.",
-      "url": "https://www.tryexponent.com/questions/4229/past-projects"
+      "question": "Tell me about yourself.",
+      "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself"
+    },
+    {
+      "question": "What is the project you are most proud of?",
+      "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of"
+    },
+    {
+      "question": "Why do you want to work at Anthropic?",
+      "url": "https://www.tryexponent.com/questions/5596/why-anthropic"
     },
     {
       "question": "What types of team members do you find difficult to work with?",
@@ -748,20 +618,88 @@
     {
       "question": "Can you provide an example of how you manage conflict?",
       "url": "https://www.tryexponent.com/questions/1516/example-managing-conflict"
+    },
+    {
+      "question": "Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?",
+      "url": "https://www.tryexponent.com/questions/5320/program-management-stakeholder-engagement-alignment"
+    },
+    {
+      "question": "Why do you want to work at OpenAI?",
+      "url": "https://www.tryexponent.com/questions/4608/why-openai"
+    },
+    {
+      "question": "Tell me about a mistake you made and what you learned from it.",
+      "url": "https://www.tryexponent.com/questions/1509/mistake-and-lessons-learned"
+    },
+    {
+      "question": "Why do you want to work at Visa?",
+      "url": "https://www.tryexponent.com/questions/4627/why-visa"
+    },
+    {
+      "question": "Why do you want to work at Atlassian?",
+      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
+    },
+    {
+      "question": "What parts of OpenAI's mission statement resonate with you?",
+      "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement"
+    },
+    {
+      "question": "How do you influence without authority?",
+      "url": "https://www.tryexponent.com/questions/491/influencing-without-authority"
+    },
+    {
+      "question": "How do you approach personal growth and learning?",
+      "url": "https://www.tryexponent.com/questions/4669/personal-growth-approach"
+    },
+    {
+      "question": "How do you encourage collaboration among cross-functional teams?",
+      "url": "https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams"
+    },
+    {
+      "question": "What other companies are you interviewing at and why?",
+      "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies"
+    },
+    {
+      "question": "Why do you want to work at Walmart Labs?",
+      "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs"
+    },
+    {
+      "question": "Why did you become an engineer?",
+      "url": "https://www.tryexponent.com/questions/4668/why-engineer"
+    },
+    {
+      "question": "Why do you want to work at Salesforce?",
+      "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce"
+    },
+    {
+      "question": "Why do you want to work at Discord?",
+      "url": "https://www.tryexponent.com/questions/4671/why-discord"
+    },
+    {
+      "question": "How will you develop yourself professionally as a data engineer?",
+      "url": "https://www.tryexponent.com/questions/5250/develop-as-a-data-engineer"
+    },
+    {
+      "question": "What data tools have you worked with, and what specific projects did you use those tools for?",
+      "url": "https://www.tryexponent.com/questions/3686/data-tools-experience-specific-projects"
     }
   ],
   "Coding": [
     {
-      "question": "Write SQL code to publish the Fibonacci series.",
-      "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series"
+      "question": "Implement LRU Cache.",
+      "url": "https://www.tryexponent.com/questions/3625/lru-cache"
+    },
+    {
+      "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
+      "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection"
     },
     {
       "question": "Write a function to return all prime numbers up to a given number n.",
       "url": "https://www.tryexponent.com/questions/3629/prime-numbers"
     },
     {
-      "question": "Print all possible solutions to the N-Queens problem.",
-      "url": "https://www.tryexponent.com/questions/1145/print-all-possible-solutions-n-queens-problem"
+      "question": "Implement a hashmap without using any libraries.",
+      "url": "https://www.tryexponent.com/questions/4686/design-hashmap"
     }
   ],
   "Spark/Big Data": [
@@ -778,8 +716,20 @@
       "url": "https://www.tryexponent.com/questions/4664/delta-live-tables-vs-spark-delta-lake"
     },
     {
+      "question": "Explain the differences between Parquet and Avro.",
+      "url": "https://www.tryexponent.com/questions/3390/differences-between-parquet-and-avro"
+    },
+    {
+      "question": "What is delta lake?",
+      "url": "https://www.tryexponent.com/questions/4662/what-is-delta-lake"
+    },
+    {
       "question": "Explain the differences between wide and narrow dependencies in Apache Spark.",
       "url": "https://www.tryexponent.com/questions/3387/differences-wide-narrow-dependencies-apache-spark"
+    },
+    {
+      "question": "When should you use a job cluster instead of an all-purpose cluster?",
+      "url": "https://www.tryexponent.com/questions/4660/job-cluster-vs-all-purpose-cluster"
     }
   ],
   "Database Design": [
@@ -796,26 +746,12 @@
       "url": "https://www.tryexponent.com/questions/3388/types-of-indexes-relational-database"
     }
   ],
-  "Schema Design": [
-    {
-      "question": "What types of indexes are in a relational database?",
-      "url": "https://www.tryexponent.com/questions/3388/types-of-indexes-relational-database"
-    }
-  ],
-  "Data Governance": [
-    {
-      "question": "Design a data pipeline that complies with GDPR.",
-      "url": "https://www.tryexponent.com/questions/5555/design-gdpr-data-pipeline"
-    }
-  ],
+  "Schema Design": [],
+  "Data Governance": [],
   "Monitoring & Observability": [
     {
       "question": "Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).",
       "url": "https://www.tryexponent.com/questions/5086/data-warehouse-analytics-dashboards"
-    },
-    {
-      "question": "Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.",
-      "url": "https://www.tryexponent.com/questions/5542/alexa-request-data-pipeline"
     }
   ]
 }

@@ -11,14 +11,14 @@ engineer interview question. This is your #1 goal role - master these patterns!
 
 Focus on understanding the PATTERN and FRAMEWORK, not memorizing answers.
 
-Total Questions: 195 across 20 categories
+Total Questions: 180 across 20 categories
 
 
 ================================================================================
 DATA PIPELINE DESIGN
 ================================================================================
 
-📊 Total Questions: 76
+📊 Total Questions: 51
 
 🎯 What they're really testing:
 Can you design robust, scalable data pipelines from source to destination?
@@ -72,93 +72,131 @@ Data Pipeline Design
 
 ```
 
-📝 All 76 Questions:
+📝 All 51 Questions:
 
 1. + Share interview
 2. Share interview
 3. Why do you think we should not hire you?
 4. I was asked this
 5. Design a document processing pipeline.
-6. Employee Earnings.
+6. Reverse a linked list.
 7. Find the number of users who called three or more people in the last week.
-8. Tell me about yourself.
-9. What is the project you are most proud of?
-10. Is this a valid palindrome?
-11. Find the container with the maximum volume of water.
-12. Tell me about a skill you recently learned.
-13. Why do you want to work at Anthropic?
-14. + Share interview experience
-15. Monthly Post Success Analysis.
-16. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
-17. Instagram Likes
-18. Top Earning Employees
-19. Reverse a Sentence
-20. Top Salaries by Department
-21. Lyft Ride Requests
-22. Valid Parentheses
-23. Why do you want to work at OpenAI?
-24. Course Schedule
-25. Employee Hierarchy
-26. Most Recent Transaction
-27. Duolingo Leaderboards
-28. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-29. Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
-30. Tell me about a mistake you made and what you learned from it.
-31. Why do you want to work at Visa?
-32. High Volume Low Success.
-33. Climbing Stairs
-34. Calculate Test Scores
-35. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+8. Tell me about your past projects.
+9. Find the container with the maximum volume of water.
+10. Tell me about a skill you recently learned.
+11. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
+12. + Share interview experience
+13. SQL Stored Procedures
+14. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
+15. Find the longest substring without repeating characters.
+16. Merge Intervals
+17. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
+18. Move all zeros to the end of an array.
+19. Product of Array Except Self
+20. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+21. Write SQL code to publish the Fibonacci series.
+22. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
 
 (Conversion: From users browsing to placing orders.)
-36. Session Data Analysis.
-37. Given an nxn grid of 1s and 0s, return the number of islands in the input.
-38. Design an ETL Pipeline for a ML Platform for AWS
-39. Marketing Channel Attribution
-40. Why do you want to work at Atlassian?
-41. What parts of OpenAI's mission statement resonate with you?
-42. Rotating the Box
-43. Post Success By Age Group.
-44. Generate Parentheses
-45. Design Netflix's Clickstream Data Pipeline
-46. Build a Calculator
-47. How do you influence without authority?
-48. Analyze Monthly Customer Transactions
-49. Roman to Integer
-50. How do you approach personal growth and learning?
-51. Find Customer Lifetime Value (LTV)
-52. Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
-53. Find Campaign Purchases
-54. Merge two sorted lists
-55. Design an ETL Pipeline for Slack for School
-56. Set Matrix Zeroes
-57. How do you encourage collaboration among cross-functional teams?
-58. What other companies are you interviewing at and why?
-59. Solve John Conway's "Game of Life".
-60. Why do you want to work at Walmart Labs?
-61. Fraudulent Transactions
-62. Explain the differences between multithreading and multiprocessing.
-63. Build a Basic Regex Parser
-64. Why did you become an engineer?
-65. Why do you want to work at Salesforce?
-66. Why do you want to work at Discord?
-67. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
-68. Design a data pipeline that complies with GDPR.
-69. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
-70. Top k frequent elements
-71. How will you develop yourself professionally as a data engineer?
-72. Explain the differences between Parquet and Avro.
-73. Sliding Window Maximum
-74. Print all combinations of numbers from 1 to n that sum to n.
-75. When should you use a job cluster instead of an all-purpose cluster?
-76. What data tools have you worked with, and what specific projects did you use those tools for?
+23. Find the median of two sorted arrays.
+24. Find a triplet in an array with a given sum.
+25. Design an ETL Pipeline for a ML Platform for AWS
+26. Linked List Cycle
+27. Given the root of a binary tree of integers, return the maximum path sum.
+28. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
+29. Split an array into equal sum subarrays
+30. Design Netflix's Clickstream Data Pipeline
+31. Which sorting algorithms use divide and conquer?
+32. Explain the key differences between BETWEEN and HAVING clauses in SQL.
+33. Merge k sorted linked lists.
+34. Search in rotated sorted array
+35. Find the maximum subarray sum.
+36. Squares of sorted array
+37. Determine if a given binary tree is a binary search tree (BST).
+38. Design an ETL Pipeline for Slack for School
+39. Partition an array into two sub-arrays with equal sum.
+40. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
+41. Calculate the trapped rainwater between bars in a given array.
+42. Tell me about your e-commerce experience.
+43. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+44. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+45. Find the longest palindromic subsequence using dynamic programming.
+46. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+47. Design a data pipeline that complies with GDPR.
+48. Serialize and deserialize binary tree
+49. Calculate the height of a binary tree.
+50. Print all possible solutions to the N-Queens problem.
+51. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
+
+
+================================================================================
+BEHAVIORAL
+================================================================================
+
+📊 Total Questions: 23
+
+🎯 What they're really testing:
+Can you work effectively in a team and handle challenges?
+
+🗺️  Mental Model Framework:
+```
+
+Behavioral (STAR Method)
+├─ Situation
+│  ├─ Context
+│  ├─ Challenge
+│  └─ Stakeholders
+│
+├─ Task
+│  ├─ Your role
+│  ├─ Goal
+│  └─ Constraints
+│
+├─ Action
+│  ├─ What YOU did
+│  ├─ Technical decisions
+│  ├─ Trade-offs considered
+│  └─ Collaboration
+│
+└─ Result
+   ├─ Quantifiable impact
+   ├─ What you learned
+   └─ What you'd do differently
+
+```
+
+📝 All 23 Questions:
+
+1. Tell me about a time you made a mistake.
+2. Tell me about a time you disagreed with someone and how you resolved it.
+3. Tell me about yourself.
+4. What is the project you are most proud of?
+5. Why do you want to work at Anthropic?
+6. What types of team members do you find difficult to work with?
+7. Can you provide an example of how you manage conflict?
+8. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
+9. Why do you want to work at OpenAI?
+10. Tell me about a mistake you made and what you learned from it.
+11. Why do you want to work at Visa?
+12. Why do you want to work at Atlassian?
+13. What parts of OpenAI's mission statement resonate with you?
+14. How do you influence without authority?
+15. How do you approach personal growth and learning?
+16. How do you encourage collaboration among cross-functional teams?
+17. What other companies are you interviewing at and why?
+18. Why do you want to work at Walmart Labs?
+19. Why did you become an engineer?
+20. Why do you want to work at Salesforce?
+21. Why do you want to work at Discord?
+22. How will you develop yourself professionally as a data engineer?
+23. What data tools have you worked with, and what specific projects did you use those tools for?
 
 
 ================================================================================
 DATA STRUCTURES & ALGORITHMS
 ================================================================================
 
-📊 Total Questions: 32
+📊 Total Questions: 20
 
 🎯 What they're really testing:
 Can you write efficient code to process and manipulate data at scale?
@@ -202,40 +240,28 @@ Data Structures & Algorithms
 
 ```
 
-📝 All 32 Questions:
+📝 All 20 Questions:
 
-1. Reverse a linked list.
-2. Implement LRU Cache.
-3. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
-4. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-5. Merge Intervals
-6. Move all zeros to the end of an array.
-7. Product of Array Except Self
-8. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
-9. Find the median of two sorted arrays.
-10. Find a triplet in an array with a given sum.
-11. Given an array, find the two sum.
-12. Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-13. Linked List Cycle
-14. Given the root of a binary tree of integers, return the maximum path sum.
-15. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
-16. Split an array into equal sum subarrays
-17. Which sorting algorithms use divide and conquer?
-18. Merge k sorted linked lists.
-19. Search in rotated sorted array
-20. Find the maximum subarray sum.
-21. Squares of sorted array
-22. Determine if a given binary tree is a binary search tree (BST).
-23. Partition an array into two sub-arrays with equal sum.
-24. Implement a hashmap without using any libraries.
-25. Calculate the trapped rainwater between bars in a given array.
-26. Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
-27. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
-28. Find the longest palindromic subsequence using dynamic programming.
-29. Serialize and deserialize binary tree
-30. Calculate the height of a binary tree.
-31. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
-32. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
+1. Is this a valid palindrome?
+2. Reverse a Sentence
+3. Valid Parentheses
+4. Course Schedule
+5. Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
+6. Climbing Stairs
+7. Given an nxn grid of 1s and 0s, return the number of islands in the input.
+8. Given an array, find the two sum.
+9. Rotating the Box
+10. Generate Parentheses
+11. Build a Calculator
+12. Roman to Integer
+13. Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
+14. Merge two sorted lists
+15. Set Matrix Zeroes
+16. Solve John Conway's "Game of Life".
+17. Build a Basic Regex Parser
+18. Top k frequent elements
+19. Sliding Window Maximum
+20. Print all combinations of numbers from 1 to n that sum to n.
 
 
 ================================================================================
@@ -331,74 +357,10 @@ System Design
 
 
 ================================================================================
-DATA MODELING
-================================================================================
-
-📊 Total Questions: 12
-
-🎯 What they're really testing:
-Can you design schemas that are efficient, maintainable, and support business queries?
-
-🗺️  Mental Model Framework:
-```
-
-Data Modeling
-├─ Understand use cases
-│  ├─ What queries?
-│  ├─ Read vs write heavy?
-│  ├─ OLTP or OLAP?
-│  └─ Users & access patterns
-│
-├─ Identify entities
-│  ├─ Business objects
-│  ├─ Relationships
-│  └─ Attributes
-│
-├─ Choose approach
-│  ├─ Normalized (3NF)
-│  │  ├─ Pros: No redundancy
-│  │  └─ Cons: Complex joins
-│  ├─ Denormalized (Star/Snowflake)
-│  │  ├─ Pros: Fast reads
-│  │  └─ Cons: Data redundancy
-│  └─ Hybrid
-│
-├─ Design schema
-│  ├─ Fact tables (metrics)
-│  ├─ Dimension tables (attributes)
-│  ├─ Primary keys
-│  ├─ Foreign keys
-│  └─ Indexes
-│
-└─ Optimize
-   ├─ Partitioning
-   ├─ Clustering keys
-   ├─ Materialized views
-   └─ Compression
-
-```
-
-📝 All 12 Questions:
-
-1. Design a database schema for a fitness app.
-2. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
-3. Design a data warehouse schema for Instagram.
-4. Design a Data Warehouse Schema for a Ride-Sharing Service
-5. Design a Data Warehouse Schema for Stripe
-6. Design a data warehouse schema for Spotify.
-7. Design a data warehouse schema for Amazon.
-8. Design a Data Warehouse Schema for Customer Support
-9. Design a Data Warehouse Schema for Airbnb
-10. Tell me about your e-commerce experience.
-11. Design a database schema for a ride sharing app.
-12. Design a data warehouse schema for LinkedIn.
-
-
-================================================================================
 SQL
 ================================================================================
 
-📊 Total Questions: 12
+📊 Total Questions: 19
 
 🎯 What they're really testing:
 Can you write complex, optimized SQL queries for data transformation and analysis?
@@ -443,20 +405,90 @@ SQL
 
 ```
 
-📝 All 12 Questions:
+📝 All 19 Questions:
 
-1. SQL Stored Procedures
-2. Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
-3. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
-4. Find the longest substring without repeating characters.
-5. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
-6. Write SQL code to publish the Fibonacci series.
-7. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-8. What is the difference between NoSQL and SQL?
-9. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
-10. What is the best way to connect SQL databases and why?
-11. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
-12. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+1. Employee Earnings.
+2. Monthly Post Success Analysis.
+3. Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
+4. Instagram Likes
+5. Top Earning Employees
+6. Top Salaries by Department
+7. Lyft Ride Requests
+8. Employee Hierarchy
+9. Most Recent Transaction
+10. Duolingo Leaderboards
+11. High Volume Low Success.
+12. Calculate Test Scores
+13. Session Data Analysis.
+14. Marketing Channel Attribution
+15. Post Success By Age Group.
+16. Analyze Monthly Customer Transactions
+17. Find Customer Lifetime Value (LTV)
+18. Find Campaign Purchases
+19. Fraudulent Transactions
+
+
+================================================================================
+DATA MODELING
+================================================================================
+
+📊 Total Questions: 11
+
+🎯 What they're really testing:
+Can you design schemas that are efficient, maintainable, and support business queries?
+
+🗺️  Mental Model Framework:
+```
+
+Data Modeling
+├─ Understand use cases
+│  ├─ What queries?
+│  ├─ Read vs write heavy?
+│  ├─ OLTP or OLAP?
+│  └─ Users & access patterns
+│
+├─ Identify entities
+│  ├─ Business objects
+│  ├─ Relationships
+│  └─ Attributes
+│
+├─ Choose approach
+│  ├─ Normalized (3NF)
+│  │  ├─ Pros: No redundancy
+│  │  └─ Cons: Complex joins
+│  ├─ Denormalized (Star/Snowflake)
+│  │  ├─ Pros: Fast reads
+│  │  └─ Cons: Data redundancy
+│  └─ Hybrid
+│
+├─ Design schema
+│  ├─ Fact tables (metrics)
+│  ├─ Dimension tables (attributes)
+│  ├─ Primary keys
+│  ├─ Foreign keys
+│  └─ Indexes
+│
+└─ Optimize
+   ├─ Partitioning
+   ├─ Clustering keys
+   ├─ Materialized views
+   └─ Compression
+
+```
+
+📝 All 11 Questions:
+
+1. Design a database schema for a fitness app.
+2. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
+3. Design a data warehouse schema for Instagram.
+4. Design a Data Warehouse Schema for a Ride-Sharing Service
+5. Design a Data Warehouse Schema for Stripe
+6. Design a data warehouse schema for Spotify.
+7. Design a data warehouse schema for Amazon.
+8. Design a Data Warehouse Schema for Customer Support
+9. Design a Data Warehouse Schema for Airbnb
+10. Design a database schema for a ride sharing app.
+11. Design a data warehouse schema for LinkedIn.
 
 
 ================================================================================
@@ -520,104 +552,67 @@ Data Warehousing
 
 
 ================================================================================
-BEHAVIORAL
+SPARK/BIG DATA
 ================================================================================
 
-📊 Total Questions: 5
+📊 Total Questions: 7
 
 🎯 What they're really testing:
-Can you work effectively in a team and handle challenges?
+Can you process large-scale data efficiently using distributed computing?
 
 🗺️  Mental Model Framework:
 ```
 
-Behavioral (STAR Method)
-├─ Situation
-│  ├─ Context
-│  ├─ Challenge
-│  └─ Stakeholders
+Spark & Big Data
+├─ Understand Spark
+│  ├─ RDDs (low-level)
+│  ├─ DataFrames (structured)
+│  ├─ Datasets (typed)
+│  └─ Lazy evaluation
 │
-├─ Task
-│  ├─ Your role
-│  ├─ Goal
-│  └─ Constraints
+├─ Transformations
+│  ├─ Narrow (map, filter)
+│  ├─ Wide (groupBy, join)
+│  ├─ Actions (collect, count, save)
+│  └─ Catalyst optimizer
 │
-├─ Action
-│  ├─ What YOU did
-│  ├─ Technical decisions
-│  ├─ Trade-offs considered
-│  └─ Collaboration
+├─ Performance
+│  ├─ Partitioning
+│  ├─ Caching (persist, cache)
+│  ├─ Broadcast joins
+│  ├─ Avoid shuffles
+│  └─ Tune executor memory/cores
 │
-└─ Result
-   ├─ Quantifiable impact
-   ├─ What you learned
-   └─ What you'd do differently
+├─ Data formats
+│  ├─ Parquet (columnar)
+│  ├─ Avro (row-based)
+│  ├─ ORC (optimized)
+│  └─ JSON/CSV
+│
+└─ Cluster management
+   ├─ YARN, Mesos, K8s
+   ├─ Driver vs Executor
+   ├─ Dynamic allocation
+   └─ Resource tuning
 
 ```
 
-📝 All 5 Questions:
+📝 All 7 Questions:
 
-1. Tell me about a time you made a mistake.
-2. Tell me about a time you disagreed with someone and how you resolved it.
-3. Tell me about your past projects.
-4. What types of team members do you find difficult to work with?
-5. Can you provide an example of how you manage conflict?
-
-
-================================================================================
-ETL/ELT
-================================================================================
-
-📊 Total Questions: 4
-
-🎯 What they're really testing:
-Do you understand data transformation workflows and orchestration?
-
-🗺️  Mental Model Framework:
-```
-
-ETL/ELT
-├─ Extract
-│  ├─ Source systems (APIs, DBs, files)
-│  ├─ Full vs incremental
-│  ├─ Change Data Capture (CDC)
-│  └─ Error handling
-│
-├─ Transform
-│  ├─ Data cleaning
-│  ├─ Data validation
-│  ├─ Business logic
-│  ├─ Aggregations
-│  └─ Tools: Spark, dbt, Dataflow
-│
-├─ Load
-│  ├─ Append vs upsert
-│  ├─ Batch vs streaming
-│  ├─ Idempotency
-│  └─ Error recovery
-│
-└─ Orchestration
-   ├─ Airflow, Prefect, Dagster
-   ├─ DAG design
-   ├─ Scheduling
-   ├─ Monitoring
-   └─ Alerting
-
-```
-
-📝 All 4 Questions:
-
-1. Design an ETL Pipeline for a ML Platform for AWS
-2. Design an ETL Pipeline for Slack for School
+1. When is Hadoop better than PySpark?
+2. What is Pyspark?
 3. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
-4. What is delta lake?
+4. Explain the differences between Parquet and Avro.
+5. What is delta lake?
+6. Explain the differences between wide and narrow dependencies in Apache Spark.
+7. When should you use a job cluster instead of an all-purpose cluster?
 
 
 ================================================================================
 DATA QUALITY
 ================================================================================
 
-📊 Total Questions: 4
+📊 Total Questions: 5
 
 🎯 What they're really testing:
 Can you ensure data reliability and trustworthiness?
@@ -661,120 +656,20 @@ Data Quality
 
 ```
 
-📝 All 4 Questions:
+📝 All 5 Questions:
 
 1. Remove Duplicate Emails
-2. Find the Duplicates
-3. Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
-4. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
-
-
-================================================================================
-SPARK/BIG DATA
-================================================================================
-
-📊 Total Questions: 4
-
-🎯 What they're really testing:
-Can you process large-scale data efficiently using distributed computing?
-
-🗺️  Mental Model Framework:
-```
-
-Spark & Big Data
-├─ Understand Spark
-│  ├─ RDDs (low-level)
-│  ├─ DataFrames (structured)
-│  ├─ Datasets (typed)
-│  └─ Lazy evaluation
-│
-├─ Transformations
-│  ├─ Narrow (map, filter)
-│  ├─ Wide (groupBy, join)
-│  ├─ Actions (collect, count, save)
-│  └─ Catalyst optimizer
-│
-├─ Performance
-│  ├─ Partitioning
-│  ├─ Caching (persist, cache)
-│  ├─ Broadcast joins
-│  ├─ Avoid shuffles
-│  └─ Tune executor memory/cores
-│
-├─ Data formats
-│  ├─ Parquet (columnar)
-│  ├─ Avro (row-based)
-│  ├─ ORC (optimized)
-│  └─ JSON/CSV
-│
-└─ Cluster management
-   ├─ YARN, Mesos, K8s
-   ├─ Driver vs Executor
-   ├─ Dynamic allocation
-   └─ Resource tuning
-
-```
-
-📝 All 4 Questions:
-
-1. When is Hadoop better than PySpark?
-2. What is Pyspark?
-3. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
-4. Explain the differences between wide and narrow dependencies in Apache Spark.
-
-
-================================================================================
-CLOUD PLATFORMS
-================================================================================
-
-📊 Total Questions: 3
-
-🎯 What they're really testing:
-Are you familiar with cloud-native data services?
-
-🗺️  Mental Model Framework:
-```
-
-Cloud Platforms
-├─ AWS
-│  ├─ S3 (storage)
-│  ├─ Redshift (DW)
-│  ├─ Glue (ETL)
-│  ├─ Athena (SQL)
-│  ├─ EMR (Spark)
-│  ├─ Kinesis (streaming)
-│  └─ Lambda (serverless)
-│
-├─ GCP
-│  ├─ GCS (storage)
-│  ├─ BigQuery (DW)
-│  ├─ Dataflow (ETL)
-│  ├─ Dataproc (Spark)
-│  ├─ Pub/Sub (messaging)
-│  └─ Cloud Functions
-│
-└─ Azure
-   ├─ ADLS (storage)
-   ├─ Synapse (DW)
-   ├─ Data Factory (ETL)
-   ├─ Databricks (Spark)
-   ├─ Event Hubs (streaming)
-   └─ Functions
-
-```
-
-📝 All 3 Questions:
-
-1. Design an ETL Pipeline for a ML Platform for AWS
-2. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
-3. Design a system to ingest large amounts of JSON data from multiple S3 buckets
+2. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+3. Find the Duplicates
+4. Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
+5. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
 
 
 ================================================================================
 CODING
 ================================================================================
 
-📊 Total Questions: 3
+📊 Total Questions: 4
 
 🎯 What they're really testing:
 Can you write clean, efficient Python/Scala code for data processing?
@@ -809,11 +704,12 @@ Coding
 
 ```
 
-📝 All 3 Questions:
+📝 All 4 Questions:
 
-1. Write SQL code to publish the Fibonacci series.
-2. Write a function to return all prime numbers up to a given number n.
-3. Print all possible solutions to the N-Queens problem.
+1. Implement LRU Cache.
+2. Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
+3. Write a function to return all prime numbers up to a given number n.
+4. Implement a hashmap without using any libraries.
 
 
 ================================================================================
@@ -870,154 +766,103 @@ Database Design
 
 
 ================================================================================
-MONITORING & OBSERVABILITY
+ETL/ELT
 ================================================================================
 
 📊 Total Questions: 2
 
 🎯 What they're really testing:
-Can you ensure pipeline reliability and quickly debug issues?
+Do you understand data transformation workflows and orchestration?
 
 🗺️  Mental Model Framework:
 ```
 
-Monitoring & Observability
-├─ Metrics
-│  ├─ Pipeline success/failure
-│  ├─ Data volume processed
-│  ├─ Processing latency
-│  ├─ Resource utilization
-│  └─ Cost metrics
+ETL/ELT
+├─ Extract
+│  ├─ Source systems (APIs, DBs, files)
+│  ├─ Full vs incremental
+│  ├─ Change Data Capture (CDC)
+│  └─ Error handling
 │
-├─ Logging
-│  ├─ Structured logs (JSON)
-│  ├─ Log levels
-│  ├─ Centralized logging
-│  └─ Retention policies
+├─ Transform
+│  ├─ Data cleaning
+│  ├─ Data validation
+│  ├─ Business logic
+│  ├─ Aggregations
+│  └─ Tools: Spark, dbt, Dataflow
 │
-├─ Alerting
-│  ├─ Data freshness SLAs
-│  ├─ Pipeline failures
-│  ├─ Data quality issues
-│  └─ Anomaly detection
+├─ Load
+│  ├─ Append vs upsert
+│  ├─ Batch vs streaming
+│  ├─ Idempotency
+│  └─ Error recovery
 │
-├─ Tracing
-│  ├─ Data lineage
-│  ├─ Distributed tracing
-│  └─ Bottleneck identification
-│
-└─ Dashboards
-   ├─ Real-time health
-   ├─ Historical trends
-   └─ SLA compliance
+└─ Orchestration
+   ├─ Airflow, Prefect, Dagster
+   ├─ DAG design
+   ├─ Scheduling
+   ├─ Monitoring
+   └─ Alerting
 
 ```
 
 📝 All 2 Questions:
 
-1. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
-2. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+1. Design an ETL Pipeline for a ML Platform for AWS
+2. Design an ETL Pipeline for Slack for School
 
 
 ================================================================================
-DISTRIBUTED SYSTEMS
+CLOUD PLATFORMS
 ================================================================================
 
-📊 Total Questions: 1
+📊 Total Questions: 2
 
 🎯 What they're really testing:
-Do you understand distributed computing principles?
+Are you familiar with cloud-native data services?
 
 🗺️  Mental Model Framework:
 ```
 
-Distributed Systems
-├─ CAP Theorem
-│  ├─ Consistency
-│  ├─ Availability
-│  └─ Partition Tolerance
+Cloud Platforms
+├─ AWS
+│  ├─ S3 (storage)
+│  ├─ Redshift (DW)
+│  ├─ Glue (ETL)
+│  ├─ Athena (SQL)
+│  ├─ EMR (Spark)
+│  ├─ Kinesis (streaming)
+│  └─ Lambda (serverless)
 │
-├─ Consistency models
-│  ├─ Strong consistency
-│  ├─ Eventual consistency
-│  └─ Causal consistency
+├─ GCP
+│  ├─ GCS (storage)
+│  ├─ BigQuery (DW)
+│  ├─ Dataflow (ETL)
+│  ├─ Dataproc (Spark)
+│  ├─ Pub/Sub (messaging)
+│  └─ Cloud Functions
 │
-├─ Replication
-│  ├─ Master-slave
-│  ├─ Multi-master
-│  └─ Quorum-based
-│
-├─ Partitioning
-│  ├─ Hash-based
-│  ├─ Range-based
-│  └─ Consistent hashing
-│
-└─ Fault tolerance
-   ├─ Replication
-   ├─ Checkpointing
-   └─ Retry mechanisms
+└─ Azure
+   ├─ ADLS (storage)
+   ├─ Synapse (DW)
+   ├─ Data Factory (ETL)
+   ├─ Databricks (Spark)
+   ├─ Event Hubs (streaming)
+   └─ Functions
 
 ```
 
-📝 All 1 Questions:
+📝 All 2 Questions:
 
-1. Partition an array into two sub-arrays with equal sum.
-
-
-================================================================================
-STREAMING DATA
-================================================================================
-
-📊 Total Questions: 1
-
-🎯 What they're really testing:
-Can you process real-time data streams?
-
-🗺️  Mental Model Framework:
-```
-
-Streaming Data
-├─ Streaming platforms
-│  ├─ Kafka
-│  ├─ Kinesis
-│  ├─ Pub/Sub
-│  └─ Event Hubs
-│
-├─ Processing frameworks
-│  ├─ Spark Streaming
-│  ├─ Flink
-│  ├─ Storm
-│  └─ Kafka Streams
-│
-├─ Windowing
-│  ├─ Tumbling (fixed)
-│  ├─ Sliding (overlapping)
-│  ├─ Session (gap-based)
-│  └─ Watermarks
-│
-├─ State management
-│  ├─ Stateless operations
-│  ├─ Stateful operations
-│  └─ Checkpointing
-│
-└─ Challenges
-   ├─ Out-of-order events
-   ├─ Late arrivals
-   ├─ Exactly-once semantics
-   └─ Backpressure
-
-```
-
-📝 All 1 Questions:
-
-1. Design Netflix's Clickstream Data Pipeline
+1. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+2. Design a system to ingest large amounts of JSON data from multiple S3 buckets
 
 
 ================================================================================
 PERFORMANCE OPTIMIZATION
 ================================================================================
 
-📊 Total Questions: 1
+📊 Total Questions: 2
 
 🎯 What they're really testing:
 Can you identify and fix performance bottlenecks?
@@ -1059,16 +904,176 @@ Performance Optimization
 
 ```
 
-📝 All 1 Questions:
+📝 All 2 Questions:
 
 1. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+2. Explain the differences between multithreading and multiprocessing.
+
+
+================================================================================
+MONITORING & OBSERVABILITY
+================================================================================
+
+📊 Total Questions: 1
+
+🎯 What they're really testing:
+Can you ensure pipeline reliability and quickly debug issues?
+
+🗺️  Mental Model Framework:
+```
+
+Monitoring & Observability
+├─ Metrics
+│  ├─ Pipeline success/failure
+│  ├─ Data volume processed
+│  ├─ Processing latency
+│  ├─ Resource utilization
+│  └─ Cost metrics
+│
+├─ Logging
+│  ├─ Structured logs (JSON)
+│  ├─ Log levels
+│  ├─ Centralized logging
+│  └─ Retention policies
+│
+├─ Alerting
+│  ├─ Data freshness SLAs
+│  ├─ Pipeline failures
+│  ├─ Data quality issues
+│  └─ Anomaly detection
+│
+├─ Tracing
+│  ├─ Data lineage
+│  ├─ Distributed tracing
+│  └─ Bottleneck identification
+│
+└─ Dashboards
+   ├─ Real-time health
+   ├─ Historical trends
+   └─ SLA compliance
+
+```
+
+📝 All 1 Questions:
+
+1. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
+
+
+================================================================================
+DISTRIBUTED SYSTEMS
+================================================================================
+
+📊 Total Questions: 0
+
+🎯 What they're really testing:
+Do you understand distributed computing principles?
+
+🗺️  Mental Model Framework:
+```
+
+Distributed Systems
+├─ CAP Theorem
+│  ├─ Consistency
+│  ├─ Availability
+│  └─ Partition Tolerance
+│
+├─ Consistency models
+│  ├─ Strong consistency
+│  ├─ Eventual consistency
+│  └─ Causal consistency
+│
+├─ Replication
+│  ├─ Master-slave
+│  ├─ Multi-master
+│  └─ Quorum-based
+│
+├─ Partitioning
+│  ├─ Hash-based
+│  ├─ Range-based
+│  └─ Consistent hashing
+│
+└─ Fault tolerance
+   ├─ Replication
+   ├─ Checkpointing
+   └─ Retry mechanisms
+
+```
+
+📝 All 0 Questions:
+
+
+
+================================================================================
+STREAMING DATA
+================================================================================
+
+📊 Total Questions: 0
+
+🎯 What they're really testing:
+Can you process real-time data streams?
+
+🗺️  Mental Model Framework:
+```
+
+Streaming Data
+├─ Streaming platforms
+│  ├─ Kafka
+│  ├─ Kinesis
+│  ├─ Pub/Sub
+│  └─ Event Hubs
+│
+├─ Processing frameworks
+│  ├─ Spark Streaming
+│  ├─ Flink
+│  ├─ Storm
+│  └─ Kafka Streams
+│
+├─ Windowing
+│  ├─ Tumbling (fixed)
+│  ├─ Sliding (overlapping)
+│  ├─ Session (gap-based)
+│  └─ Watermarks
+│
+├─ State management
+│  ├─ Stateless operations
+│  ├─ Stateful operations
+│  └─ Checkpointing
+│
+└─ Challenges
+   ├─ Out-of-order events
+   ├─ Late arrivals
+   ├─ Exactly-once semantics
+   └─ Backpressure
+
+```
+
+📝 All 0 Questions:
+
+
+
+================================================================================
+BATCH PROCESSING
+================================================================================
+
+📊 Total Questions: 0
+
+🎯 What they're really testing:
+Can you handle this type of question effectively?
+
+🗺️  Mental Model Framework:
+```
+Framework coming soon...
+```
+
+📝 All 0 Questions:
+
 
 
 ================================================================================
 SCHEMA DESIGN
 ================================================================================
 
-📊 Total Questions: 1
+📊 Total Questions: 0
 
 🎯 What they're really testing:
 Can you design flexible, maintainable schemas?
@@ -1105,16 +1110,15 @@ Schema Design
 
 ```
 
-📝 All 1 Questions:
+📝 All 0 Questions:
 
-1. What types of indexes are in a relational database?
 
 
 ================================================================================
 DATA GOVERNANCE
 ================================================================================
 
-📊 Total Questions: 1
+📊 Total Questions: 0
 
 🎯 What they're really testing:
 Do you understand data privacy, security, and compliance?
@@ -1154,25 +1158,6 @@ Data Governance
    ├─ Right to be forgotten
    └─ Audit trails
 
-```
-
-📝 All 1 Questions:
-
-1. Design a data pipeline that complies with GDPR.
-
-
-================================================================================
-BATCH PROCESSING
-================================================================================
-
-📊 Total Questions: 0
-
-🎯 What they're really testing:
-Can you handle this type of question effectively?
-
-🗺️  Mental Model Framework:
-```
-Framework coming soon...
 ```
 
 📝 All 0 Questions:

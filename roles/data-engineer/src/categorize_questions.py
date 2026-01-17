@@ -34,79 +34,96 @@ def categorize_question(question_text, url=""):
     q_lower = question_text.lower()
     categories = []
     
-    # Behavioral Questions
-    if any(phrase in q_lower for phrase in ['tell me about a time', 'describe a time', 'have you ever', 'walk me through', 'past projects', 'made a mistake', 'faced challenges', 'conflict', 'disagreement', 'failure', 'difficult decision', 'skill you learned', 'difficult to work with']):
+    # Company-specific behavioral (Why do you want to work at X?)
+    if 'why do you want to work at' in q_lower or 'why did you become' in q_lower or 'what other companies' in q_lower:
         categories.append("Behavioral")
+        return categories  # Early return for these
     
-    # Data Pipeline Design
-    if any(keyword in q_lower for keyword in ['pipeline', 'data pipeline', 'build a pipeline', 'design a pipeline', 'data flow', 'ingestion', 'orchestration', 'airflow', 'workflow']):
-        categories.append("Data Pipeline Design")
+    # Behavioral Questions (MUST come before other checks)
+    behavioral_phrases = [
+        'tell me about a time', 'describe a time', 'have you ever', 'walk me through',
+        'made a mistake', 'tell me about a mistake', 'faced challenges', 'conflict', 'disagreement', 'failure',
+        'difficult decision', 'skill you learned', 'difficult to work with',
+        'tell me about yourself', 'project you are most proud', 'influence without authority',
+        'encourage collaboration', 'approach personal growth', 'develop yourself professionally',
+        'what parts of', 'mission statement resonate', 'tell me about a relevant complex program'
+    ]
+    if any(phrase in q_lower for phrase in behavioral_phrases):
+        categories.append("Behavioral")
+        return categories  # Early return for behavioral
     
-    # ETL/ELT
-    if any(keyword in q_lower for keyword in ['etl', 'elt', 'extract', 'transform', 'load', 'data integration', 'data migration']):
-        categories.append("ETL/ELT")
-    
-    # Data Modeling
-    if any(keyword in q_lower for keyword in ['data model', 'schema', 'database schema', 'design a database', 'star schema', 'snowflake schema', 'dimensional model', 'fact table', 'dimension table', 'fitness app', 'e-commerce']):
-        categories.append("Data Modeling")
-    
-    # SQL
-    if any(keyword in q_lower for keyword in ['sql', 'query', 'select', 'join', 'group by', 'window function', 'cte', 'subquery']):
-        categories.append("SQL")
-    
-    # Data Structures & Algorithms
-    if any(keyword in q_lower for keyword in ['array', 'linked list', 'tree', 'graph', 'hash', 'heap', 'stack', 'queue', 'binary search', 'sorting', 'dynamic programming', 'lru cache', 'merge intervals', 'two sum', 'robber', 'container with most water']):
+    # Classic LeetCode/DSA problems (MUST come before general coding)
+    dsa_patterns = [
+        'palindrome', 'container with most water', 'two sum', 'merge two sorted',
+        'valid parentheses', 'climbing stairs', 'roman to integer', 'islands',
+        'spiral order', 'set matrix zeroes', 'game of life', 'rotating the box',
+        'generate parentheses', 'top k frequent', 'sliding window maximum',
+        'course schedule', 'reverse a sentence', 'print all combinations',
+        'stock prices', 'maximize your profit', 'regex parser', 'calculator'
+    ]
+    if any(pattern in q_lower for pattern in dsa_patterns):
         categories.append("Data Structures & Algorithms")
+        return categories  # Early return for DSA
     
-    # Coding (general)
-    if any(keyword in q_lower for keyword in ['implement', 'write a function', 'code', 'algorithm', 'solution']):
-        if "Data Structures & Algorithms" not in categories:
-            categories.append("Coding")
+    # SQL-specific questions (table names, SQL operations)
+    sql_indicators = [
+        'employee', 'earnings', 'salaries', 'department', 'hierarchy',
+        'transaction', 'instagram likes', 'lyft ride', 'duolingo leaderboard',
+        'test scores', 'post success', 'session data analysis', 'high volume low success',
+        'marketing channel attribution', 'campaign purchases', 'fraudulent transactions',
+        'customer lifetime value', 'monthly customer transactions'
+    ]
+    if any(indicator in q_lower for indicator in sql_indicators):
+        categories.append("SQL")
+        # Don't return, might also be data analysis
     
-    # System Design
-    if any(keyword in q_lower for keyword in ['design a', 'design an', 'system design', 'architecture', 'how would you build', 'scalability', 'design twitter', 'design uber', 'design netflix']):
+    # ETL/ELT (specific design questions)
+    if 'etl pipeline' in q_lower or 'elt pipeline' in q_lower:
+        categories.append("ETL/ELT")
+        categories.append("Data Pipeline Design")
         categories.append("System Design")
+        return categories
     
-    # Distributed Systems
-    if any(keyword in q_lower for keyword in ['distributed', 'sharding', 'replication', 'consistency', 'partition', 'consensus', 'distributed system', 'distributed database']):
-        categories.append("Distributed Systems")
+    # Data Pipeline Design (specific pipeline questions)
+    pipeline_keywords = [
+        'clickstream data pipeline', 'data pipeline that updates', 'data pipeline that complies',
+        'document processing pipeline', 'design a pipeline', 'build a pipeline'
+    ]
+    if any(keyword in q_lower for keyword in pipeline_keywords):
+        categories.append("Data Pipeline Design")
+        if 'design' in q_lower:
+            categories.append("System Design")
+        return categories
+    
+    # Spark/Big Data specific
+    spark_keywords = ['delta live tables', 'spark', 'delta lake', 'job cluster', 'all-purpose cluster', 'parquet', 'avro']
+    if any(keyword in q_lower for keyword in spark_keywords):
+        categories.append("Spark/Big Data")
+        return categories
     
     # Data Warehousing
     if any(keyword in q_lower for keyword in ['data warehouse', 'warehouse', 'redshift', 'snowflake', 'bigquery', 'olap', 'data mart', 'dimensional']):
         categories.append("Data Warehousing")
     
     # Streaming Data
-    if any(keyword in q_lower for keyword in ['stream', 'streaming', 'kafka', 'kinesis', 'real-time', 'realtime', 'event', 'message queue']):
+    if any(keyword in q_lower for keyword in ['stream', 'streaming', 'kafka', 'kinesis', 'real-time', 'realtime', 'clickstream']):
         categories.append("Streaming Data")
     
-    # Batch Processing
-    if any(keyword in q_lower for keyword in ['batch', 'batch processing', 'scheduled', 'cron', 'daily load']):
-        categories.append("Batch Processing")
-    
     # Cloud Platforms
-    if any(keyword in q_lower for keyword in ['aws', 's3', 'ec2', 'lambda', 'glue', 'emr', 'azure', 'gcp', 'cloud', 'databricks']):
+    if any(keyword in q_lower for keyword in ['aws', 's3', 'ec2', 'lambda', 'glue', 'emr', 'azure', 'gcp', 'cloud', 'databricks', 'alexa']):
         categories.append("Cloud Platforms")
     
-    # Spark/Big Data
-    if any(keyword in q_lower for keyword in ['spark', 'pyspark', 'hadoop', 'mapreduce', 'hive', 'presto', 'big data']):
-        categories.append("Spark/Big Data")
+    # System Design (broader design questions)
+    if any(keyword in q_lower for keyword in ['design a', 'design an', 'system design', 'architecture', 'how would you build', 'scalability']):
+        if "Data Structures & Algorithms" not in categories:  # Don't double-categorize DSA
+            categories.append("System Design")
     
-    # Database Design
-    if any(keyword in q_lower for keyword in ['database', 'db', 'mysql', 'postgresql', 'nosql', 'mongodb', 'cassandra', 'dynamodb', 'redis']):
-        if "Data Modeling" not in categories:
-            categories.append("Database Design")
-    
-    # Schema Design
-    if any(keyword in q_lower for keyword in ['schema', 'table design', 'index', 'primary key', 'foreign key', 'normalization', 'denormalization']):
-        if "Data Modeling" not in categories:
-            categories.append("Schema Design")
-    
-    # Performance Optimization
-    if any(keyword in q_lower for keyword in ['optimize', 'optimization', 'performance', 'speed up', 'improve', 'efficiency', 'bottleneck', 'slow query']):
-        categories.append("Performance Optimization")
+    # Data Modeling
+    if any(keyword in q_lower for keyword in ['data model', 'schema', 'database schema', 'design a database', 'star schema', 'snowflake schema', 'dimensional model', 'fact table', 'dimension table']):
+        categories.append("Data Modeling")
     
     # Data Quality
-    if any(keyword in q_lower for keyword in ['data quality', 'data validation', 'data integrity', 'data cleansing', 'data accuracy', 'missing data', 'duplicate']):
+    if any(keyword in q_lower for keyword in ['data quality', 'data validation', 'data integrity', 'missing data', 'duplicate', 'missing item', 'wrong item']):
         categories.append("Data Quality")
     
     # Data Governance
@@ -117,7 +134,31 @@ def categorize_question(question_text, url=""):
     if any(keyword in q_lower for keyword in ['monitor', 'monitoring', 'observability', 'logging', 'alerting', 'metrics', 'dashboard']):
         categories.append("Monitoring & Observability")
     
-    # Default to Data Pipeline Design if no categories found (most common DE question type)
+    # Performance Optimization
+    if any(keyword in q_lower for keyword in ['optimize', 'optimization', 'performance', 'speed up', 'efficiency', 'bottleneck', 'slow query', 'multithreading', 'multiprocessing']):
+        categories.append("Performance Optimization")
+    
+    # Database Design
+    if any(keyword in q_lower for keyword in ['database', 'db', 'mysql', 'postgresql', 'nosql', 'mongodb', 'cassandra', 'dynamodb', 'redis']):
+        if "Data Modeling" not in categories:
+            categories.append("Database Design")
+    
+    # Coding (general, for questions that don't fit elsewhere)
+    coding_keywords = ['implement', 'write a function', 'build a', 'create a']
+    if any(keyword in q_lower for keyword in coding_keywords):
+        if not categories:  # Only if nothing else matched
+            categories.append("Coding")
+    
+    # Data tools question
+    if 'data tools have you worked with' in q_lower:
+        categories.append("Behavioral")
+        return categories
+    
+    # Analysis questions (PM-style but for DE)
+    if any(keyword in q_lower for keyword in ['how would you investigate', 'how would you analyze', 'conversion rates', 'declined']):
+        categories.append("Data Pipeline Design")  # DE perspective on analysis
+    
+    # Default: if still no categories, mark as Data Pipeline Design
     if not categories:
         categories.append("Data Pipeline Design")
     
