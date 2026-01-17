@@ -13,9 +13,13 @@ This repo is organized by **role branches**:
 ```
 main (master)
 ├── roles/
+│   ├── bizops-strategy/           # BizOps & Strategy questions & frameworks
 │   ├── data-analyst/              # Data Analyst questions & frameworks
 │   ├── data-engineer/             # Data Engineer questions & frameworks 🎯 #1 GOAL
+│   ├── finance-strategy/          # Finance & Strategy questions & frameworks
+│   ├── ml-engineer/               # ML Engineer questions & frameworks
 │   ├── product-manager/           # Product Manager questions & frameworks
+│   ├── program-manager/           # Program Manager questions & frameworks
 │   ├── software-engineer/         # Software Engineer questions & frameworks
 │   └── technical-program-manager/ # Technical Program Manager questions & frameworks
 │
@@ -76,6 +80,34 @@ main (master)
 - Source: https://www.tryexponent.com/questions?page=1&role=tpm
 
 **View**: Switch to `technical-program-manager` branch or check `roles/technical-program-manager/`
+
+### ✅ Machine Learning Engineer (Complete)
+- **137 questions** across 15 categories
+- Mental model frameworks for ML-specific categories
+- Source: https://www.tryexponent.com/questions?page=1&role=ml-engineer
+
+**View**: Check `roles/ml-engineer/`
+
+### ✅ BizOps & Strategy (Complete)
+- **97 questions** across 14 categories
+- Mental model frameworks for BizOps-specific categories
+- Source: https://www.tryexponent.com/questions?page=1&role=bizops
+
+**View**: Check `roles/bizops-strategy/`
+
+### ✅ Program Manager (Complete)
+- **11 questions** across 4 categories
+- Mental model frameworks for Program Management
+- Source: https://www.tryexponent.com/questions?page=1&role=program-manager
+
+**View**: Check `roles/program-manager/`
+
+### ✅ Finance & Strategy (Complete)
+- **7 questions** across 6 categories
+- Mental model frameworks for Finance & Strategy
+- Source: https://www.tryexponent.com/questions?role=finance-strategy
+
+**View**: Check `roles/finance-strategy/`
 
 ---
 
@@ -172,12 +204,17 @@ roles/{role-name}/
 
 ## 🔮 Roadmap
 
-- [x] Data Analyst role complete
-- [ ] Product Manager role
-- [ ] Software Engineer role
+- [x] Data Analyst role complete (118 questions)
+- [x] Product Manager role complete (1,710 questions)
+- [x] Software Engineer role complete (575 questions)
+- [x] Technical Program Manager role complete (189 questions)
+- [x] Data Engineer role complete (151 questions) 🎯 **#1 GOAL**
+- [x] Machine Learning Engineer role complete (137 questions)
+- [x] BizOps & Strategy role complete (97 questions)
+- [x] Program Manager role complete (11 questions)
+- [x] Finance & Strategy role complete (7 questions)
 - [ ] Data Scientist role
 - [ ] Engineering Manager role
-- [ ] System Design role
 
 ---
 

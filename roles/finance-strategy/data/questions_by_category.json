@@ -1,0 +1,59 @@
+{
+  "Behavioral": [
+    {
+      "question": "Tell me about a time when you had to present financial results to non-financial stakeholders.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    },
+    {
+      "question": "Describe a time when you identified a cost-saving opportunity.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    },
+    {
+      "question": "Tell me about a time when your financial analysis changed a business decision.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Financial Analysis": [
+    {
+      "question": "Tell me about a time when you had to present financial results to non-financial stakeholders.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    },
+    {
+      "question": "How would you evaluate whether a new product launch was financially successful?",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    },
+    {
+      "question": "Tell me about a time when your financial analysis changed a business decision.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Financial Modeling": [
+    {
+      "question": "Walk me through how you would build a financial model for a subscription business.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Product Strategy": [
+    {
+      "question": "How would you evaluate whether a new product launch was financially successful?",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Strategic Planning": [
+    {
+      "question": "How do you prioritize strategic initiatives when resources are limited?",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    },
+    {
+      "question": "How would you approach building a 3-year strategic plan for a new business unit?",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Cost Management": [
+    {
+      "question": "Describe a time when you identified a cost-saving opportunity.",
+      "url": "https://www.tryexponent.com/questions?role=finance-strategy"
+    }
+  ],
+  "Business Metrics": []
+}
