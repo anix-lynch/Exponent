@@ -94,9 +94,7 @@ Data Pipeline Design
 18. Product of Array Except Self
 19. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
 20. Write SQL code to publish the Fibonacci series.
-21. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
-
-(Conversion: From users browsing to placing orders.)
+21. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes? (Conversion: From users browsing to placing orders.)
 22. Find the median of two sorted arrays.
 23. Find a triplet in an array with a given sum.
 24. Design an ETL Pipeline for a ML Platform for AWS
