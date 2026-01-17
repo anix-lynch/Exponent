@@ -1,808 +1,1430 @@
-# 📚 Software Engineer Interview Question Bank
 
-**Source**: [Exponent SWE Questions](https://www.tryexponent.com/questions?page=1&role=swe)
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                ║
+║           SOFTWARE ENGINEER INTERVIEW PREPARATION FRAMEWORK                    ║
+║           Mental Models & Complete Question Bank                               ║
+║                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
 
-**Total Questions**: 575 across 19 categories
+This framework provides mental models for approaching each type of software engineer
+interview question. Focus on understanding the PATTERN and FRAMEWORK, not 
+memorizing answers.
 
----
+Total Questions: 575 across 19 categories
 
-## 📊 Question Distribution
 
-- **Problem Solving**: 158 questions
-- **Data Structures & Algorithms**: 102 questions
-- **Coding**: 102 questions
-- **System Design**: 88 questions
-- **Behavioral**: 72 questions
-- **Technical Communication**: 29 questions
-- **APIs**: 25 questions
-- **Project Management**: 19 questions
-- **Leadership**: 16 questions
-- **Databases**: 12 questions
-- **Testing**: 11 questions
-- **Object-Oriented Design**: 10 questions
-- **Distributed Systems**: 9 questions
-- **Code Review**: 7 questions
-- **Debugging**: 6 questions
-- **Concurrency**: 5 questions
-- **Security**: 4 questions
-- **Performance Optimization**: 4 questions
-- **Scalability**: 2 questions
+================================================================================
+PROBLEM SOLVING
+================================================================================
 
----
+📊 Total Questions: 158
 
-## Problem Solving (158 questions)
+🎯 What they're really testing:
+Can you approach unfamiliar problems systematically?
 
-1. [+ Share interview](https://www.tryexponent.com/questions/contribute)
-2. [Share interview](https://www.tryexponent.com/questions/contribute)
-3. [Tell me about something you built end-to-end without relying on others.](https://www.tryexponent.com/questions/5898/independent-project)
-4. [I was asked this](https://www.tryexponent.com/questions/contribute?basedOn=5898)
-5. [Why do you think we should not hire you?](https://www.tryexponent.com/questions/4629/why-no-hire)
-6. [Why do you want to switch jobs now?](https://www.tryexponent.com/questions/5459/reason-switch-jobs)
-7. [Design Google Docs.](https://www.tryexponent.com/questions/5799/design-google-docs)
-8. [+ Share interview experience](https://www.tryexponent.com/questions/contribute)
-9. [Tell me about yourself.](https://www.tryexponent.com/questions/104/tell-me-about-yourself)
-10. [Tell me about the most challenging situation you faced in your career and how you handled it.](https://www.tryexponent.com/questions/3169/most-challenging-situation-career-response)
-11. [Design Robinhood.](https://www.tryexponent.com/questions/5804/design-robinhood)
-12. [Maximum Number of Visible Points](https://www.tryexponent.com/questions/5627/maximum-number-of-visible-points)
-13. [What Gen AI skills do you think will be critical in the next year?](https://www.tryexponent.com/questions/5683/future-gen-ai-skills)
-14. [If you had to work on five different projects, how would you prioritize them?](https://www.tryexponent.com/questions/947/prioritize-five-different-projects)
-15. [How would you approach learning about a task that you're completely unfamiliar with?](https://www.tryexponent.com/questions/5046/approach-learning-unfamiliar-task)
-16. [Why do you want to work at Anthropic?](https://www.tryexponent.com/questions/5596/why-anthropic)
-17. [What's your approach to prompt engineering?](https://www.tryexponent.com/questions/5603/prompt-engineering-approach)
-18. [Redesign the airport experience.](https://www.tryexponent.com/questions/53/redesign-airport-experience)
-19. [Design browser history.](https://www.tryexponent.com/questions/4681/design-browser-history)
-20. [What are the ethical risks of deploying agentic AI systems in high-stakes environments?](https://www.tryexponent.com/questions/5605/agentic-ai-systems-ethical-risk)
-21. [Design Weather App](https://www.tryexponent.com/questions/4315/design-weather-app)
-22. [How would you explain a technical concept to a non-technical person?](https://www.tryexponent.com/questions/4913/explain-technical-concept)
-23. [Design typeahead autocomplete for person search in Linkedin.](https://www.tryexponent.com/questions/5405/system-design-linkedin-people-search-typeahead)
-24. [Why do you want to work at Meta?](https://www.tryexponent.com/questions/3243/why-work-at-meta)
-25. [Why do you want to work at Google?](https://www.tryexponent.com/questions/1377/why-work-at-google)
-26. [Write a program that scans the file system to identify and report duplicate files, handling real files, extensions, and file reading operations.](https://www.tryexponent.com/questions/5790/find-duplicate-files)
-27. [What are the risks of assuming LLMs think or feel like humans?](https://www.tryexponent.com/questions/5600/anthropomorphizing-llms-risks)
-28. [Why is a deep neural network better than a shallow neural network?](https://www.tryexponent.com/questions/4043/deep-vs-shallow-neural-network)
-29. [Design the OpenAI Playground.](https://www.tryexponent.com/questions/5827/design-openai-playground)
-30. [What are your strengths and weaknesses?](https://www.tryexponent.com/questions/1348/strengths-weaknesses)
-31. [Valid Parentheses](https://www.tryexponent.com/questions/3447/valid-parentheses)
-32. [Why do you want to work at Apple?](https://www.tryexponent.com/questions/3208/why-work-at-apple)
-33. [Tell me about a technical challenge that you have overcome.](https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome)
-34. [Why do you want to work at OpenAI?](https://www.tryexponent.com/questions/4608/why-openai)
-35. [Have you gone out of your way to uphold some value or principle?](https://www.tryexponent.com/questions/5796/upholding-values)
-36. [Course Schedule](https://www.tryexponent.com/questions/3313/course-schedule)
-37. [Design Dropbox.](https://www.tryexponent.com/questions/1542/design-dropbox)
-38. [Design live commenting for Facebook.](https://www.tryexponent.com/questions/3822/design-live-commenting-facebook)
-39. [Do you have any critique or concerns about Anthropic's approach or direction?](https://www.tryexponent.com/questions/5793/critique-anthropic-direction)
-40. [Build your own customer service AI agent for a hypothetical outdoors company.](https://www.tryexponent.com/questions/5876/build-customer-service-ai-agent-for-outdoors-company)
-41. [Design Ticketmaster](https://www.tryexponent.com/questions/4318/design-ticketmaster)
-42. [Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?](https://www.tryexponent.com/questions/1731/buy-sell-stock)
-43. [Why do you want to work at Visa?](https://www.tryexponent.com/questions/4627/why-visa)
-44. [You're the PM of Google Doodles. What would your top three metrics be and why?](https://www.tryexponent.com/questions/2714/google-doodles-pm-top-metrics)
-45. [Tell me about the accomplishment you are most proud of.](https://www.tryexponent.com/questions/3018/proudest-accomplishment-interview-question)
-46. [Write functions to serialize and deserialize a list of strings.](https://www.tryexponent.com/questions/1307/serialize-deserialize-list-strings)
-47. [Design Google Drive.](https://www.tryexponent.com/questions/3251/design-google-drive)
-48. [Climbing Stairs](https://www.tryexponent.com/questions/3255/climbing-stairs)
-49. [Degrees of Friendship](https://www.tryexponent.com/questions/3628/degrees-of-friendship)
-50. [Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?](https://www.tryexponent.com/questions/5772/airline-rescheduling-design)
-51. [Design the 'Top Picks' feature for Netflix.](https://www.tryexponent.com/questions/3436/design-netflix-top-picks-feature)
-52. [Has there been work that felt genuinely meaningful to you?](https://www.tryexponent.com/questions/5797/meaningful-work)
-53. [Why do you want to work at Stripe?](https://www.tryexponent.com/questions/3111/why-work-at-stripe)
-54. [Koko eating bananas.](https://www.tryexponent.com/questions/3261/koko-eating-bananas)
-55. [What evidence shows Anthropic's sincerity about their mission?](https://www.tryexponent.com/questions/5792/evidence-for-anthropic-mission)
-56. [Why do you want to work at Atlassian?](https://www.tryexponent.com/questions/5577/why-atlassian)
-57. [What parts of OpenAI's mission statement resonate with you?](https://www.tryexponent.com/questions/4609/openai-mission-statement)
-58. [Rotating the Box](https://www.tryexponent.com/questions/4679/rotating-the-box)
-59. [Why do you think you would be a good fit for Microsoft's mission?](https://www.tryexponent.com/questions/2764/fit-for-microsoft-mission)
-60. [Why should we hire you?](https://www.tryexponent.com/questions/954/why-should-we-hire-you)
-61. [How do you consider the impact of your work on the world?](https://www.tryexponent.com/questions/2273/impact-of-work-on-world)
-62. [How would you choose a programming language to build your product at Google?](https://www.tryexponent.com/questions/232/google-pm-programming-language)
-63. [Why do you want to work at DoorDash?](https://www.tryexponent.com/questions/3341/why-work-at-doordash)
-64. [Generate Parentheses](https://www.tryexponent.com/questions/1594/generate-parentheses)
-65. [Build a Calculator](https://www.tryexponent.com/questions/3632/calculator)
-66. [Why do you want to work at TikTok?](https://www.tryexponent.com/questions/4288/why-tiktok)
-67. [Why do you want to work at Netflix?](https://www.tryexponent.com/questions/4285/why-netflix)
-68. [What are you most proud of in your career?](https://www.tryexponent.com/questions/447/career-highlights-proud-moments)
-69. [How do you deal with ambiguous situations?](https://www.tryexponent.com/questions/503/dealing-with-ambiguous-situations)
-70. [Would you do things based on your values or for profitability?](https://www.tryexponent.com/questions/5810/values-vs-profitability)
-71. [Tell me about your last job.](https://www.tryexponent.com/questions/3211/tell-about-last-job)
-72. [Why did you leave your last role?](https://www.tryexponent.com/questions/2845/why-leave-last-role)
-73. [Tell me about your current role.](https://www.tryexponent.com/questions/3262/describe-your-current-role)
-74. [Design type-ahead search for walmart.com.](https://www.tryexponent.com/questions/5272/system-design-walmart-typeahead-search)
-75. [What's the hardest engineering challenge you've ever solved?](https://www.tryexponent.com/questions/5054/hardest-engineering-challenge)
-76. [Count the number of ways to split a string.](https://www.tryexponent.com/questions/3256/count-ways-to-split-string)
-77. [How do you learn new technologies?](https://www.tryexponent.com/questions/5130/how-you-learn-new-technologies)
-78. [Determine if two sentences are similar.](https://www.tryexponent.com/questions/2280/determine-similar-sentences)
-79. [Roman to Integer](https://www.tryexponent.com/questions/4680/roman-to-integer)
-80. [Why do you want to work at Cursor?](https://www.tryexponent.com/questions/5838/why-cursor)
-81. [Tell me a challenging situation when things went wrong and how you reacted.](https://www.tryexponent.com/questions/5825/things-went-wrong-reaction)
-82. [When have you done something which was against your values?](https://www.tryexponent.com/questions/5811/doing-something-against-your-values)
-83. [A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.](https://www.tryexponent.com/questions/2279/maximize-knapsack-value)
-84. [How do you collect user requirements?](https://www.tryexponent.com/questions/3346/collect-user-requirements)
-85. [Design the system for a ticket selling web application.](https://www.tryexponent.com/questions/2112/design-ticket-selling-web-system)
-86. [What are you looking for in your next opportunity?](https://www.tryexponent.com/questions/536/looking-for-next-opportunity)
-87. [How do you contribute to diversity and inclusion?](https://www.tryexponent.com/questions/1531/contribute-diversity-inclusion)
-88. [What are you passionate about?](https://www.tryexponent.com/questions/273/five-years-passion)
-89. [Set Matrix Zeroes](https://www.tryexponent.com/questions/4016/set-matrix-zeroes)
-90. [What is cloud gaming?](https://www.tryexponent.com/questions/4601/what-is-cloud-gaming)
-91. [Why do you want to work at ElevenLabs?](https://www.tryexponent.com/questions/5773/why-elevenlabs)
-92. [What other companies are you interviewing at and why?](https://www.tryexponent.com/questions/4670/interviewing-at-other-companies)
-93. [What kind of experiences have you built in your career?](https://www.tryexponent.com/questions/5812/experiences-built-in-career)
-94. [Do you believe in Anthropic's mission?](https://www.tryexponent.com/questions/5809/do-you-believe-in-anthropics-mission)
-95. [How do you set priorities with limited resources?](https://www.tryexponent.com/questions/3334/setting-priorities-limited-resources)
-96. [Is there a work process or decision strategy you strongly disliked?](https://www.tryexponent.com/questions/5795/work-process-you-disliked)
-97. [Design Naukri, a job search platform.](https://www.tryexponent.com/questions/3315/design-naukri-job-search-platform)
-98. [Tell me about your experience with Java.](https://www.tryexponent.com/questions/3523/experience-with-java)
-99. [Solve John Conway's "Game of Life".](https://www.tryexponent.com/questions/4338/game-of-life)
-100. [Validate a numeronym.](https://www.tryexponent.com/questions/1853/validate-numeronym)
-101. [Why do you want to work at Nvidia?](https://www.tryexponent.com/questions/4596/why-nvidia)
-102. [Why do you want to work at Walmart Labs?](https://www.tryexponent.com/questions/4675/why-walmart-labs)
-103. [Tell me about your day as a software engineer.](https://www.tryexponent.com/questions/5824/day-as-a-swe)
-104. [How do you cope with dynamically-changing environments?](https://www.tryexponent.com/questions/5120/dynamically-changing-environments)
-105. [What are virtual functions?](https://www.tryexponent.com/questions/4622/what-are-virtual-functions)
-106. [What’s the difference between the Kubernetes control plane and data plane?](https://www.tryexponent.com/questions/5481/kubernetes-control-plane-vs-data-plane)
-107. [What does success look like to you?](https://www.tryexponent.com/questions/5117/what-does-success-look-like-to-you)
-108. [What part of our mission resonates the most with you?](https://www.tryexponent.com/questions/5141/mission-resonate)
-109. [Determine a ship's capacity to ship packages in D days.](https://www.tryexponent.com/questions/3250/calculate-ships-capacity-for-packages-in-days)
-110. [Build a Basic Regex Parser](https://www.tryexponent.com/questions/3064/build-basic-regex-parser)
-111. [What does your confidence level mean when building a confidence interval?](https://www.tryexponent.com/questions/3721/meaning-confidence-level-confidence-interval)
-112. [Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.](https://www.tryexponent.com/questions/4904/coding-water-jug-measurement-problem)
-113. [Minimum Absolute Difference](https://www.tryexponent.com/questions/4678/minimum-absolute-difference)
-114. [Why did you become an engineer?](https://www.tryexponent.com/questions/4668/why-engineer)
-115. [What is a skill you have that is not listed on your resume?](https://www.tryexponent.com/questions/854/skill-not-on-resume)
-116. [Determine if a number is a power of two.](https://www.tryexponent.com/questions/4647/power-of-two)
-117. [Design PasteBin.](https://www.tryexponent.com/questions/2686/design-pastebin)
-118. [What does "belong anywhere" mean to you?](https://www.tryexponent.com/questions/5135/belong-anywhere)
-119. [How do you make important decisions?](https://www.tryexponent.com/questions/5124/making-important-decisions)
-120. [What does your day-to-day look like at your current company?](https://www.tryexponent.com/questions/2395/day-to-day-activities-current-company)
-121. [Design the front page of a newspaper app.](https://www.tryexponent.com/questions/2075/design-newspaper-app-front-page)
-122. [Why do you want to work at Salesforce?](https://www.tryexponent.com/questions/853/why-work-at-salesforce)
-123. [What's the most fun thing you did recently?](https://www.tryexponent.com/questions/5149/most-fun-recently)
-124. [Tell me about your experience with React.](https://www.tryexponent.com/questions/3244/experience-with-react)
-125. [What are the major differences between Java and Go?](https://www.tryexponent.com/questions/2850/major-differences-java-go)
-126. [Why do you want to work at Hinge?](https://www.tryexponent.com/questions/4121/why-work-at-hinge)
-127. [Top k frequent elements](https://www.tryexponent.com/questions/2080/top-k-frequent-elements)
-128. [Discuss your release and branching strategy.](https://www.tryexponent.com/questions/2214/release-branching-strategy-discussion)
-129. [Tell me about your experience with TypeScript.](https://www.tryexponent.com/questions/3245/experience-with-typescript)
-130. [Why did you choose to attend [College]?](https://www.tryexponent.com/questions/2397/why-choose-college)
-131. [What's a memory leak and how can we avoid it?](https://www.tryexponent.com/questions/4619/memory-leak)
-132. [How would you efficiently sum up a massive number of integers?](https://www.tryexponent.com/questions/4212/sum-massive-number-integers)
-133. [How open are you to adapting to changes?](https://www.tryexponent.com/questions/4726/open-adapt-to-changes)
-134. [Tell me about your experience with RxJava.](https://www.tryexponent.com/questions/3265/experience-with-rxjava)
-135. [Why did you become a Software Engineer?](https://www.tryexponent.com/questions/2396/why-become-software-engineer)
-136. [Print all combinations of numbers from 1 to n that sum to n.](https://www.tryexponent.com/questions/1130/combinations-n-n-sum)
-137. [Tell me about your experience with JavaScript.](https://www.tryexponent.com/questions/3246/experience-with-javascript)
-138. [Tell us about one of your trips.](https://www.tryexponent.com/questions/5137/tell-me-about-your-trip)
-139. [What's your experience working with CUDA?](https://www.tryexponent.com/questions/4607/cuda-experience)
-140. [How would you describe what our company does to your grandmother?](https://www.tryexponent.com/questions/5145/describe-company-to-grandmother)
-141. [Solve a Rummy Deck (12-card hand).](https://www.tryexponent.com/questions/3776/solve-rummy-deck-12-card-hand)
-142. [Given a string that doesn't fit into a machine's memory, split it at each space and count the number of spaces.](https://www.tryexponent.com/questions/3227/handle-large-string-split-count-spaces)
-143. [What would you change about your time at [Current Company]?](https://www.tryexponent.com/questions/2399/changes-during-tenure-current-company)
-144. [Print all words from a dictionary that can be found on a given Boggle board.](https://www.tryexponent.com/questions/2274/print-words-from-dictionary-boggle-board)
-145. [How would you create a carousel using vanilla JavaScript?](https://www.tryexponent.com/questions/2077/create-carousel-vanilla-javascript)
-146. [Write a program to count the frequency of each character in a given text file.](https://www.tryexponent.com/questions/1915/write-program-count-character-frequency-text-file)
-147. [If you could go to anywhere in the world, where would you go?](https://www.tryexponent.com/questions/5136/go-where-in-the-world)
-148. [What is your favorite Slack feature?](https://www.tryexponent.com/questions/5148/favorite-slack-feature)
-149. [What's your experience working with AR and/or VR technology?](https://www.tryexponent.com/questions/4603/work-experience-ar-vr)
-150. [What's your experience with DirectX?](https://www.tryexponent.com/questions/4599/directx-experience)
-151. [What's your experience with ray tracing in video games?](https://www.tryexponent.com/questions/4598/ray-tracing-experience)
-152. [Develop a custom data structure with O(1) time complexity for get() and setall() operations.](https://www.tryexponent.com/questions/4058/custom-data-structure-o1-get-setall)
-153. [Maximum Number of Non-Overlapping Substrings](https://www.tryexponent.com/questions/2419/maximum-non-overlapping-substrings)
-154. [What is the difference between multiprogramming, time-sharing, and multi-processing?](https://www.tryexponent.com/questions/4615/multiprogramming-vs-time-sharing-vs-multi-processing)
-155. [What is a front-end assignment?](https://www.tryexponent.com/questions/2323/front-end-assignment)
-156. [Create a function that accepts structured data as input, includes column names, and outputs data suited for generating a pivot table.](https://www.tryexponent.com/questions/3535/create-function-structured-data-input-output-pivot-table)
-157. [What are the differences between RAM and ROM?](https://www.tryexponent.com/questions/4617/ram-vs-rom)
-158. [What are the differences between single core and multicore processors?](https://www.tryexponent.com/questions/4616/single-core-vs-multicore-processor)
+🗺️  Mental Model Framework:
+```
 
----
+Problem Solving
+├─ Understand the problem
+│  ├─ What is being asked?
+│  ├─ What are the constraints?
+│  └─ What's the goal?
+│
+├─ Break it down
+│  ├─ Identify sub-problems
+│  ├─ Find patterns
+│  └─ Simplify
+│
+├─ Explore solutions
+│  ├─ Brainstorm approaches
+│  ├─ Consider trade-offs
+│  └─ Pick best approach
+│
+├─ Implement
+│  ├─ Start simple
+│  ├─ Iterate
+│  └─ Test
+│
+└─ Reflect
+   ├─ Did it work?
+   ├─ Can it be improved?
+   └─ What did you learn?
 
-## Data Structures & Algorithms (102 questions)
+```
 
-1. [Given a sorted array of integers (which may include negatives), return the squares of the numbers in sorted order. As a follow-up, find the k-th smallest squared value.](https://www.tryexponent.com/questions/5802/squares-of-sorted-array-with-follow-up)
-2. [Reverse a linked list.](https://www.tryexponent.com/questions/3247/reverse-linked-list)
-3. [Given an array of integers and a number N, find the length of the longest contiguous subarray such that the difference between any two elements in the subarray is less than N.](https://www.tryexponent.com/questions/5803/longest-contiguous-subarray-with-absolute-difference-less-than-limit)
-4. [Reorder linked list.](https://www.tryexponent.com/questions/5703/reorder-linked-list)
-5. [Find the longest common prefix given two integer arrays.](https://www.tryexponent.com/questions/5639/longest-common-prefix)
-6. [Given an array of numbers where every number occurs twice except one, how would you find the unique number in O(log n) time?](https://www.tryexponent.com/questions/3804/find-unique-number-array-logn-time)
-7. [Find peak element in an array](https://www.tryexponent.com/questions/5582/find-peak-element)
-8. [Find the first missing positive number in an array.](https://www.tryexponent.com/questions/4163/find-missing-positive-number-array)
-9. [Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.](https://www.tryexponent.com/questions/4213/sum-elements-binary-tree-range)
-10. [Given a binary tree, check if each node is the average of all descendants](https://www.tryexponent.com/questions/5571/binary-tree-check-node-average-of-descendants)
-11. [Lexicographic Grid Travel.](https://www.tryexponent.com/questions/5567/lexicographic-grid-travel)
-12. [Print the top view of nodes in a binary tree.](https://www.tryexponent.com/questions/5570/top-view-nodes-binary-tree)
-13. [Given an array of integers, return the pairs with the minimum absolute difference between them.](https://www.tryexponent.com/questions/5443/coding-array-pairs-minimum-difference)
-14. [Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.](https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k)
-15. [Explain how to find a target sum in an array.](https://www.tryexponent.com/questions/1439/find-target-sum-array)
-16. [Write a function that converts stack samples into a trace, given example inputs and outputs, in a Google Colab environment.](https://www.tryexponent.com/questions/5789/convert-stack-samples-to-trace)
-17. [Given a head node of a linked list, delete k-th node from the end of the list.](https://www.tryexponent.com/questions/4847/remove-kth-node-linked-list)
-18. [Given an array of points and a point P, find the k closest points to P.](https://www.tryexponent.com/questions/4289/find-k-closest-points-array)
-19. [Design a system to map IP address ranges to geographic region labels.](https://www.tryexponent.com/questions/5424/system-design-map-ip-address-geographic)
-20. [Move all zeros to the end of an array.](https://www.tryexponent.com/questions/968/move-zeros-to-end-array)
-21. [Given an array of integers, find the next greater integer for each element in the array.](https://www.tryexponent.com/questions/5428/array-next-greater-integer)
-22. [Given an array with objects colored red, white, or blue, sort them so those of the same color are adjacent. Use integers 0, 1, 2 to represent RWB respectively.](https://www.tryexponent.com/questions/4891/find-colors-leetcode)
-23. [Implement inorder traversal for an N-ary tree.](https://www.tryexponent.com/questions/4697/n-ary-inorder-traversal)
-24. [Detect cycle in graph](https://www.tryexponent.com/questions/5464/detect-cycle-in-graph)
-25. [Product of Array Except Self](https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i)
-26. [Sort a nearly sorted (or K sorted) array.](https://www.tryexponent.com/questions/5392/k-sorted-array)
-27. [Delete Node in a Binary Search Tree (BST).](https://www.tryexponent.com/questions/5156/delete-node-binary-search-tree)
-28. [Merge two sorted linked list](https://www.tryexponent.com/questions/5566/merge-two-sorted-linked-list)
-29. [Given the root of a binary tree, return the length of the diameter of the tree.](https://www.tryexponent.com/questions/2705/binary-tree-diameter-length)
-30. [Explain the differences between stack and heap memory allocation.](https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences)
-31. [Find the median of two sorted arrays.](https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays)
-32. [Clone a linked list with a random pointer.](https://www.tryexponent.com/questions/5060/clone-linked-list-with-random-pointer)
-33. [Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...](https://www.tryexponent.com/questions/4817/optimize-parentheses-sequence-efficiency)
-34. [Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.](https://www.tryexponent.com/questions/5429/find-equilibrium-index-in-array)
-35. [Find a triplet in an array with a given sum.](https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum)
-36. [Given an array, find the two sum.](https://www.tryexponent.com/questions/1164/find-two-sum)
-37. [Given the head of two singly linked lists, write a function to return the point where they intersect (if any).](https://www.tryexponent.com/questions/4634/linked-lists-intersection)
-38. [Linked List Cycle](https://www.tryexponent.com/questions/3214/linked-list-cycle)
-39. [Implement a decode and encode function of a general N-ary tree.](https://www.tryexponent.com/questions/4516/decode-encode-function-general-tree)
-40. [Given the root of a binary tree of integers, return the maximum path sum.](https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum)
-41. [Given an array of integers and an integer k, find the kth largest element in the array.](https://www.tryexponent.com/questions/4673/coding-interview-find-kth-largest-element-array)
-42. [Vertical Traversal of a Binary Tree](https://www.tryexponent.com/questions/5462/vertical-traversal-of-a-binary-tree)
-43. [Count items within compartments between specific indices of an array.](https://www.tryexponent.com/questions/4221/count-items-compartments-indices)
-44. [Sort a binary array in linear time.](https://www.tryexponent.com/questions/971/sort-binary-array-linear-time)
-45. [Construct a binary tree given its preorder and inorder traversals.](https://www.tryexponent.com/questions/3417/construct-binary-tree-preorder-inorder-traversal)
-46. [Merge k sorted linked lists.](https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists)
-47. [Find the closest number in a sorted array.](https://www.tryexponent.com/questions/3266/closest-number-sorted-array)
-48. [Search in rotated sorted array](https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array)
-49. [Build a hash tree algorithm.](https://www.tryexponent.com/questions/5839/build-hash-tree-algorithm)
-50. [Find the maximum subarray sum.](https://www.tryexponent.com/questions/973/maximum-subarray-sum)
-51. [Squares of sorted array](https://www.tryexponent.com/questions/3824/square-of-sorted-array)
-52. [Find the number of rotations in a circularly sorted array.](https://www.tryexponent.com/questions/1139/find-number-of-rotations-circularly-sorted-array)
-53. [Print the left view of a binary tree.](https://www.tryexponent.com/questions/1473/print-left-view-binary-tree)
-54. [Determine if a given binary tree is a binary search tree (BST).](https://www.tryexponent.com/questions/1158/determine-binary-tree-bst)
-55. [How can you tell if a graph is not a tree?](https://www.tryexponent.com/questions/2798/determine-graph-not-tree)
-56. [Partition an array into two sub-arrays with equal sum.](https://www.tryexponent.com/questions/969/partition-array-equal-sum)
-57. [Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.](https://www.tryexponent.com/questions/3438/largest-island-perimeter-2d-array)
-58. [Given arrays of varying lengths, how would you pad them efficiently?](https://www.tryexponent.com/questions/5906/array-padding)
-59. [Implement a red-black tree.](https://www.tryexponent.com/questions/3224/implement-red-black-tree)
-60. [What's the difference between LangGraph and LangSmith?](https://www.tryexponent.com/questions/5856/langgraph-vs-langsmith)
-61. [Implement a hashmap without using any libraries.](https://www.tryexponent.com/questions/4686/design-hashmap)
-62. [Given an array 'nums' with n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.](https://www.tryexponent.com/questions/4253/find-missing-number-array-range)
-63. [Given a binary array where an operation cycles a row's elements to the left or right, return the minimum number of operations needed to create a column of 1s. If not possible, return 0.](https://www.tryexponent.com/questions/4187/min-operations-binary-array-column-ones)
-64. [Calculate the trapped rainwater between bars in a given array.](https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars)
-65. [Why use a message queue?](https://www.tryexponent.com/questions/3223/why-use-message-queue)
-66. [Implement a search algorithm for multiple records using backtracking.](https://www.tryexponent.com/questions/4304/search-multiple-records-backtracking)
-67. [Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.](https://www.tryexponent.com/questions/4416/binary-tree-vertical-order-traversal)
-68. [Given an array of n integers and a number k, find the maximum number of elements whose sum is less than k, and return their sum.](https://www.tryexponent.com/questions/4638/max-elements-sum-less-than-k)
-69. [What is a full-stack developer?](https://www.tryexponent.com/questions/3986/what-is-full-stack-developer)
-70. [Find the shortest path in a graph.](https://www.tryexponent.com/questions/2094/find-shortest-path-graph)
-71. [Transform a flat array of objects into a nested list.](https://www.tryexponent.com/questions/4219/transform-flat-array-nested-list)
-72. [Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth...](https://www.tryexponent.com/questions/2411/minimum-iterations-information-distribution-n-ary-tree)
-73. [Find the lowest common ancestor (LCA) of two nodes in a binary tree.](https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree)
-74. [Design a queue using static memory allocation.](https://www.tryexponent.com/questions/4242/design-queue-using-static-memory)
-75. [How does a graphics processing unit (GPU) work?](https://www.tryexponent.com/questions/4606/how-does-a-gpu-work)
-76. [Find the longest palindromic subsequence using dynamic programming.](https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming)
-77. [Array Manipulation: Given an array, implement functions to perform add, remove, update operations and return the resulting array.](https://www.tryexponent.com/questions/4951/coding-array-manipulation)
-78. [Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.](https://www.tryexponent.com/questions/4939/can-jump-game-reach-last-index)
-79. [Given an array, print the Next Greater Element (NGE) for each element. The NGE for an element x is the first greater element on the right side of x in the array, or -1 if none exists.](https://www.tryexponent.com/questions/2356/next-greater-element-array)
-80. [Given two integers represented by two arrays, return the product of the two integers in the same array format.](https://www.tryexponent.com/questions/2237/array-representation-integer-product)
-81. [Explain the time complexity differences between ArrayList and LinkedList.](https://www.tryexponent.com/questions/4211/time-complexity-arraylist-vs-linkedlist)
-82. [Explain how hash maps work.](https://www.tryexponent.com/questions/4209/how-hash-map-works)
-83. [Invert binary tree.](https://www.tryexponent.com/questions/4737/invert-binary-tree)
-84. [Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.](https://www.tryexponent.com/questions/2066/heights-buildings-sea-view-from-beach)
-85. [Implement a queue using stacks.](https://www.tryexponent.com/questions/4684/queue-using-stacks)
-86. [Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...](https://www.tryexponent.com/questions/2065/find-element-given-position-sorted-unsorted-array)
-87. [Serialize and deserialize binary tree](https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree)
-88. [Find the maximum subarray product](https://www.tryexponent.com/questions/5170/find-the-maximum-subarray-product)
-89. [Abbreviate an array of strings.](https://www.tryexponent.com/questions/3221/abbreviate-array-of-strings)
-90. [Implement a doubly linked list.](https://www.tryexponent.com/questions/3220/implement-doubly-linked-list)
-91. [Given a graph with N nodes and M edges, identify its network topology. Return 1 for Bus (linear chain), 2 for Star (one central node), 3 for Ring (circular), or -1 if none match.](https://www.tryexponent.com/questions/4926/coding-identify-network-topology-graph)
-92. [Calculate the height of a binary tree.](https://www.tryexponent.com/questions/1153/calculate-height-binary-tree)
-93. [What are the key concepts and operations associated with trees?](https://www.tryexponent.com/questions/2355/key-concepts-in-trees)
-94. [Find the minimum and maximum elements in an array using minimum comparisons.](https://www.tryexponent.com/questions/1144/find-minimum-maximum-elements-array-minimum-comparisons)
-95. [Closest Subarray Sum to Target.](https://www.tryexponent.com/questions/5556/closest-subarray-sum-to-target)
-96. [Implement a string sorting algorithm, treating digits as numbers.](https://www.tryexponent.com/questions/2059/implement-string-sorting-algorithm-treating-digits-as-numbers)
-97. [Given an unsorted array, find duplicate elements in constant time, without using inbuilt functions of python.](https://www.tryexponent.com/questions/4716/unsorted-array-find-duplicates)
-98. [Find the maximum product subarray in a given array.](https://www.tryexponent.com/questions/1126/maximum-product-subarray)
-99. [What's your experience with 3D graphics?](https://www.tryexponent.com/questions/4605/3d-graphics-experience)
-100. [Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.](https://www.tryexponent.com/questions/4491/candy)
-101. [Implement an in-place merge of two sorted arrays.](https://www.tryexponent.com/questions/1117/in-place-merge-two-sorted-arrays)
-102. [Check if a given binary tree is a complete binary tree.](https://www.tryexponent.com/questions/1154/check-complete-binary-tree)
+📝 All 158 Questions:
 
----
+1. + Share interview
+2. Share interview
+3. Tell me about something you built end-to-end without relying on others.
+4. I was asked this
+5. Why do you think we should not hire you?
+6. Why do you want to switch jobs now?
+7. Design Google Docs.
+8. + Share interview experience
+9. Tell me about yourself.
+10. Tell me about the most challenging situation you faced in your career and how you handled it.
+11. Design Robinhood.
+12. Maximum Number of Visible Points
+13. What Gen AI skills do you think will be critical in the next year?
+14. If you had to work on five different projects, how would you prioritize them?
+15. How would you approach learning about a task that you're completely unfamiliar with?
+16. Why do you want to work at Anthropic?
+17. What's your approach to prompt engineering?
+18. Redesign the airport experience.
+19. Design browser history.
+20. What are the ethical risks of deploying agentic AI systems in high-stakes environments?
+21. Design Weather App
+22. How would you explain a technical concept to a non-technical person?
+23. Design typeahead autocomplete for person search in Linkedin.
+24. Why do you want to work at Meta?
+25. Why do you want to work at Google?
+26. Write a program that scans the file system to identify and report duplicate files, handling real files, extensions, and file reading operations.
+27. What are the risks of assuming LLMs think or feel like humans?
+28. Why is a deep neural network better than a shallow neural network?
+29. Design the OpenAI Playground.
+30. What are your strengths and weaknesses?
+31. Valid Parentheses
+32. Why do you want to work at Apple?
+33. Tell me about a technical challenge that you have overcome.
+34. Why do you want to work at OpenAI?
+35. Have you gone out of your way to uphold some value or principle?
+36. Course Schedule
+37. Design Dropbox.
+38. Design live commenting for Facebook.
+39. Do you have any critique or concerns about Anthropic's approach or direction?
+40. Build your own customer service AI agent for a hypothetical outdoors company.
+41. Design Ticketmaster
+42. Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
+43. Why do you want to work at Visa?
+44. You're the PM of Google Doodles. What would your top three metrics be and why?
+45. Tell me about the accomplishment you are most proud of.
+46. Write functions to serialize and deserialize a list of strings.
+47. Design Google Drive.
+48. Climbing Stairs
+49. Degrees of Friendship
+50. Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?
+51. Design the 'Top Picks' feature for Netflix.
+52. Has there been work that felt genuinely meaningful to you?
+53. Why do you want to work at Stripe?
+54. Koko eating bananas.
+55. What evidence shows Anthropic's sincerity about their mission?
+56. Why do you want to work at Atlassian?
+57. What parts of OpenAI's mission statement resonate with you?
+58. Rotating the Box
+59. Why do you think you would be a good fit for Microsoft's mission?
+60. Why should we hire you?
+61. How do you consider the impact of your work on the world?
+62. How would you choose a programming language to build your product at Google?
+63. Why do you want to work at DoorDash?
+64. Generate Parentheses
+65. Build a Calculator
+66. Why do you want to work at TikTok?
+67. Why do you want to work at Netflix?
+68. What are you most proud of in your career?
+69. How do you deal with ambiguous situations?
+70. Would you do things based on your values or for profitability?
+71. Tell me about your last job.
+72. Why did you leave your last role?
+73. Tell me about your current role.
+74. Design type-ahead search for walmart.com.
+75. What's the hardest engineering challenge you've ever solved?
+76. Count the number of ways to split a string.
+77. How do you learn new technologies?
+78. Determine if two sentences are similar.
+79. Roman to Integer
+80. Why do you want to work at Cursor?
+81. Tell me a challenging situation when things went wrong and how you reacted.
+82. When have you done something which was against your values?
+83. A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.
+84. How do you collect user requirements?
+85. Design the system for a ticket selling web application.
+86. What are you looking for in your next opportunity?
+87. How do you contribute to diversity and inclusion?
+88. What are you passionate about?
+89. Set Matrix Zeroes
+90. What is cloud gaming?
+91. Why do you want to work at ElevenLabs?
+92. What other companies are you interviewing at and why?
+93. What kind of experiences have you built in your career?
+94. Do you believe in Anthropic's mission?
+95. How do you set priorities with limited resources?
+96. Is there a work process or decision strategy you strongly disliked?
+97. Design Naukri, a job search platform.
+98. Tell me about your experience with Java.
+99. Solve John Conway's "Game of Life".
+100. Validate a numeronym.
+101. Why do you want to work at Nvidia?
+102. Why do you want to work at Walmart Labs?
+103. Tell me about your day as a software engineer.
+104. How do you cope with dynamically-changing environments?
+105. What are virtual functions?
+106. What’s the difference between the Kubernetes control plane and data plane?
+107. What does success look like to you?
+108. What part of our mission resonates the most with you?
+109. Determine a ship's capacity to ship packages in D days.
+110. Build a Basic Regex Parser
+111. What does your confidence level mean when building a confidence interval?
+112. Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.
+113. Minimum Absolute Difference
+114. Why did you become an engineer?
+115. What is a skill you have that is not listed on your resume?
+116. Determine if a number is a power of two.
+117. Design PasteBin.
+118. What does "belong anywhere" mean to you?
+119. How do you make important decisions?
+120. What does your day-to-day look like at your current company?
+121. Design the front page of a newspaper app.
+122. Why do you want to work at Salesforce?
+123. What's the most fun thing you did recently?
+124. Tell me about your experience with React.
+125. What are the major differences between Java and Go?
+126. Why do you want to work at Hinge?
+127. Top k frequent elements
+128. Discuss your release and branching strategy.
+129. Tell me about your experience with TypeScript.
+130. Why did you choose to attend [College]?
+131. What's a memory leak and how can we avoid it?
+132. How would you efficiently sum up a massive number of integers?
+133. How open are you to adapting to changes?
+134. Tell me about your experience with RxJava.
+135. Why did you become a Software Engineer?
+136. Print all combinations of numbers from 1 to n that sum to n.
+137. Tell me about your experience with JavaScript.
+138. Tell us about one of your trips.
+139. What's your experience working with CUDA?
+140. How would you describe what our company does to your grandmother?
+141. Solve a Rummy Deck (12-card hand).
+142. Given a string that doesn't fit into a machine's memory, split it at each space and count the number of spaces.
+143. What would you change about your time at [Current Company]?
+144. Print all words from a dictionary that can be found on a given Boggle board.
+145. How would you create a carousel using vanilla JavaScript?
+146. Write a program to count the frequency of each character in a given text file.
+147. If you could go to anywhere in the world, where would you go?
+148. What is your favorite Slack feature?
+149. What's your experience working with AR and/or VR technology?
+150. What's your experience with DirectX?
+151. What's your experience with ray tracing in video games?
+152. Develop a custom data structure with O(1) time complexity for get() and setall() operations.
+153. Maximum Number of Non-Overlapping Substrings
+154. What is the difference between multiprogramming, time-sharing, and multi-processing?
+155. What is a front-end assignment?
+156. Create a function that accepts structured data as input, includes column names, and outputs data suited for generating a pivot table.
+157. What are the differences between RAM and ROM?
+158. What are the differences between single core and multicore processors?
 
-## Coding (102 questions)
 
-1. [Implement an LRU cache with serialization and evolving constraints.](https://www.tryexponent.com/questions/5889/LRU-cache)
-2. [Find the minimum characters to insert to make a string a palindrome.](https://www.tryexponent.com/questions/5878/minimum-insertions-to-make-string-a-palindrome)
-3. [Employee Earnings.](https://www.tryexponent.com/questions/3960/employee-earnings)
-4. [Tell me about a time you took a calculated risk when speed was critical.](https://www.tryexponent.com/questions/996/calculated-risk-taken-speed-critical)
-5. [Reverse a linked list.](https://www.tryexponent.com/questions/3247/reverse-linked-list)
-6. [Tell me about a time you were confident in a solution and later realized it was wrong.](https://www.tryexponent.com/questions/5888/confident-in-wrong-solution)
-7. [Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.](https://www.tryexponent.com/questions/5822/implement-key-value-store)
-8. [Is this a valid palindrome?](https://www.tryexponent.com/questions/4056/validate-palindrome-check)
-9. [Find the container with the maximum volume of water.](https://www.tryexponent.com/questions/4341/container-with-most-water)
-10. [Find the closest palindrome of a given number.](https://www.tryexponent.com/questions/5801/find-closest-palindrome-of-a-given-number)
-11. [Implement LRU Cache.](https://www.tryexponent.com/questions/3625/lru-cache)
-12. [Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.](https://www.tryexponent.com/questions/5859/implement-list-iterator)
-13. [Given a matrix with a rat, bread, cat, and obstacles, find a path from the rat to the bread that maximizes the minimum distance from cat.](https://www.tryexponent.com/questions/5244/safest-path-maximize-minimum-distance-matrix)
-14. [Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.](https://www.tryexponent.com/questions/4646/house-robber)
-15. [What types of team members do you find difficult to work with?](https://www.tryexponent.com/questions/4633/difficult-team-members)
-16. [Code an image-processing pipeline that reads per-image instruction files and applies ordered transformations (e.g., rotate, invert, crop, convert) to large sets of images of varying sizes across mu...](https://www.tryexponent.com/questions/5782/code-image-processing-pipeline)
-17. [Given a list with response time for each server, calculate how long time it will take to process n requests.](https://www.tryexponent.com/questions/5485/calculate-time-to-process-given-server-response-time)
-18. [Tell me about a time when you gave a simple solution to a complex problem.](https://www.tryexponent.com/questions/4790/behavioral-simple-solution-complex-problem)
-19. [Find the longest substring without repeating characters.](https://www.tryexponent.com/questions/3260/longest-substring-without-repeat)
-20. [Build a hit counter that tracks the number of hits in the last 5 minutes, supporting multiple keys (e.g., “a”, “b”). Then, use this counter to implement a simple rate limiter.](https://www.tryexponent.com/questions/5587/build-counter-with-rate-limiter)
-21. [Given a list of items with different sizes, write an algorithm to pack these items into the minimum number of batches without exceeding the capacity of each batch.](https://www.tryexponent.com/questions/4910/batch-packing-bin-optimization)
-22. [Given profiler samples from running code, find the slowest part in the code.](https://www.tryexponent.com/questions/5808/find-slowest-part-in-code-from-profiler-samples)
-23. [Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...](https://www.tryexponent.com/questions/4214/balance-parentheses-minimum-removals)
-24. [Reverse a Sentence](https://www.tryexponent.com/questions/3062/reverse-a-sentence)
-25. [Merge Intervals](https://www.tryexponent.com/questions/1602/merge-intervals)
-26. [Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.](https://www.tryexponent.com/questions/5875/circular-dependencies-in-cells)
-27. [Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.](https://www.tryexponent.com/questions/5138/minimum-distance-kids-ice-cream-sellers)
-28. [Given an m x n grid of characters board and a string word, return true if word exists in the grid.](https://www.tryexponent.com/questions/5874/word-search)
-29. [Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...](https://www.tryexponent.com/questions/5866/code-review-llm-codebase)
-30. [Given an integer, reverse it. Integers are within range [-2^15, 2^15 - 1].](https://www.tryexponent.com/questions/5444/coding-reverse-integer)
-31. [Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.](https://www.tryexponent.com/questions/5427/system-design-meta-audio-system)
-32. [Design an algorithm to predict the next word or phrase one is typing on a phone.](https://www.tryexponent.com/questions/5072/system-design-mobile-text-prediction-algorithm)
-33. [Implement k-means clustering.](https://www.tryexponent.com/questions/1679/implement-k-means-clustering)
-34. [Implement a function to justify a list of words within a given width.](https://www.tryexponent.com/questions/4216/justify-text-given-width)
-35. [Write a function to do Excel-style operations.](https://www.tryexponent.com/questions/5823/function-to-do-excel-style-operations)
-36. [Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user’s remaining credit pool and total avai...](https://www.tryexponent.com/questions/5828/build-credit-management-system)
-37. [Implement a k-nearest neighbors algorithm.](https://www.tryexponent.com/questions/3489/implement-k-nearest-neighbors-algorithm)
-38. [Find the maximum possible stability of any subset of servers. Return the result modulo 10^9+7. E.g. Consider set of servers where reliability = [1, 2, 2], availability = [1, 1, 3].](https://www.tryexponent.com/questions/4818/maximum-server-stability-subset)
-39. [Find Largest Numbers](https://www.tryexponent.com/questions/3623/find-largest-numbers)
-40. [Design and implement logic to synchronize audio playback timing with transcript highlighting.](https://www.tryexponent.com/questions/5882/design-audio-playback)
-41. [Implement a circular buffer.](https://www.tryexponent.com/questions/4228/implement-a-circular-buffer)
-42. [Given an nxn grid of 1s and 0s, return the number of islands in the input.](https://www.tryexponent.com/questions/1420/number-islands)
-43. [Given an array, find the two sum.](https://www.tryexponent.com/questions/1164/find-two-sum)
-44. [Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).](https://www.tryexponent.com/questions/4218/count-prefix-pairs-word-list)
-45. [Given a hierarchical file system with inherited and overridden permissions, write a function to determine whether a user has access to a file at a specific time.](https://www.tryexponent.com/questions/5771/function-check-user-access)
-46. [Write a function to return all prime numbers up to a given number n.](https://www.tryexponent.com/questions/3629/prime-numbers)
-47. [Implement the power function without using pow method or or exponentiation operator.](https://www.tryexponent.com/questions/5431/implement-power-function-without-pow-method)
-48. [Given a castle with rooms named after flowers where each room has an instruction to the next room, write an algorithm to find the rooms containing treasure.](https://www.tryexponent.com/questions/5420/coding-castle-rooms-graph-traversal)
-49. [In a large application, which code branches are more important to be tested and how do you decide?](https://www.tryexponent.com/questions/4931/prioritizing-code-testing-branches)
-50. [Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.](https://www.tryexponent.com/questions/3541/dealing-buggy-code-production)
-51. [What are some new advancements in AI you find interesting?](https://www.tryexponent.com/questions/5679/new-interesting-ai-advancements)
-52. [Fibonacci Numbers](https://www.tryexponent.com/questions/3631/fibonacci)
-53. [Given a list of Nodes, each with a unique string id and a list of subnodes it depends on, find the maximum depth of the dependencies.](https://www.tryexponent.com/questions/3848/find-maximum-depth-dependencies-nodes)
-54. [Tell me about a time when you conceived an innovative solution to a problem.](https://www.tryexponent.com/questions/1363/time-innovative-solution-problem)
-55. [How do you ensure code quality?](https://www.tryexponent.com/questions/3209/ensure-code-quality)
-56. [Given a string, return the number of vowel substrings ('a', 'e', 'i', 'o', 'u') that include all five vowels.](https://www.tryexponent.com/questions/2937/count-vowel-substrings-all-five-vowels)
-57. [Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...](https://www.tryexponent.com/questions/5840/replace-excel-based-process-for-voice-dubbing)
-58. [Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.](https://www.tryexponent.com/questions/4325/spiral-matrix)
-59. [Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.](https://www.tryexponent.com/questions/4503/find-row-maximum-ones-binary-matrix)
-60. [Implement the memcpy() function in C.](https://www.tryexponent.com/questions/4227/implement-memcpy-function)
-61. [Write a function to print 1 to n without using a loop.](https://www.tryexponent.com/questions/4618/print-to-n-no-loop)
-62. [Merge two sorted lists](https://www.tryexponent.com/questions/966/merge-two-sorted-lists)
-63. [Describe a situation where you implemented an idea despite facing resistance.](https://www.tryexponent.com/questions/2026/implementing-idea-despite-resistance)
-64. [You are given m*n matrix, find if any row, column or diagonal has all boolean = True. Find for diagonals and anti diagonals at 45 degrees](https://www.tryexponent.com/questions/5234/you-are-given-m-n-matrix-find-if-any-row-column-or-diagonal-has-all-boolean-true-find-for-diagonals-)
-65. [Find the minimum window substring.](https://www.tryexponent.com/questions/1687/minimum-window-substring)
-66. [Given the row and column, return the value at that position in Pascal's triangle.](https://www.tryexponent.com/questions/5418/return-value-pascal-triangle-position)
-67. [You're given a time-based key-value store that keeps having new key-value pairs added. Implement a windowed average.](https://www.tryexponent.com/questions/4311/implement-windowed-average-time-based-key-value-store)
-68. [Implement a phrase search in a list of documents.](https://www.tryexponent.com/questions/4312/implement-phrase-search-algorithm-documents)
-69. [Write a function to check whether a string contains a substring.](https://www.tryexponent.com/questions/4621/check-substring-in-string)
-70. [Given an integer n, return the number of steps to reach 1 following these rules: if n is even, divide by 2; if odd, multiply by 3 and add 1.](https://www.tryexponent.com/questions/4639/coding-interview-collatz-conjecture-steps-to-one)
-71. [Given a string, return the number of palindromic substrings in it.](https://www.tryexponent.com/questions/4625/palindromic-substrings)
-72. [Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.](https://www.tryexponent.com/questions/4640/shortest-subsequence-cyclic-string)
-73. [Design a module to fetch a unique User ID from a pool of available User IDs and return the ID to the pool for later use.](https://www.tryexponent.com/questions/3536/design-module-fetch-return-unique-user-id-pool)
-74. [Calculate the number of times a pattern appears in a string.](https://www.tryexponent.com/questions/3039/calculate-pattern-frequency-in-string)
-75. [Tell me about a time when your approach was selected and successfully implemented over other alternatives.](https://www.tryexponent.com/questions/5121/your-champion-idea)
-76. [Return all unique substrings of a given string.](https://www.tryexponent.com/questions/1223/unique-substrings-given-string)
-77. [Implement a function to find the minimum number of dice rolls needed to reach the end in a Snakes and Ladders game.](https://www.tryexponent.com/questions/5070/snake-and-ladders-game)
-78. [Given two strings (Word 1 and Word 2) and a list of valid words from a dictionary, return the minimum number of operations required to convert Word 1 to Word 2.](https://www.tryexponent.com/questions/1980/minimum-operations-convert-string)
-79. [Find the length of the shortest word ladder.](https://www.tryexponent.com/questions/3248/shortest-word-ladder-length)
-80. [How do you troubleshoot bugs in your code?](https://www.tryexponent.com/questions/3225/troubleshoot-bugs-in-code)
-81. [Find duplicate files in a file system.](https://www.tryexponent.com/questions/2115/find-duplicate-files-file-system)
-82. [Implement a JavaScript function for Promise.all().](https://www.tryexponent.com/questions/2276/implement-javascript-promise-all)
-83. [Find the palindromes.](https://www.tryexponent.com/questions/3218/find-palindromes)
-84. [Calculate the result of a mathematical expression written as a string.](https://www.tryexponent.com/questions/3254/calculate-result-mathematical-expression-string)
-85. [Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.](https://www.tryexponent.com/questions/4370/minimum-transactions-debt-settlement-algorithm)
-86. [Implement merge-sort](https://www.tryexponent.com/questions/4424/implement-merge-sort)
-87. [Implement wildcard pattern matching for a string (s) and a pattern (p) with '?' and '*' in a way that covers the entire input string.](https://www.tryexponent.com/questions/2793/implement-wildcard-pattern-matching)
-88. [Given a list of integers, return 1 if the integer is a power of 2 and 0 if it is not.](https://www.tryexponent.com/questions/1689/determine-power-of-two)
-89. [How would you code an app that displays the weekly lunch menu?](https://www.tryexponent.com/questions/3934/code-weekly-lunch-menu-app)
-90. [Given a list of conversion items between symbols, write an algorithm to return the conversion ratio for each pair of symbols.](https://www.tryexponent.com/questions/2275/conversion-ratio-symbols)
-91. [Given a fully or partially attempted 9x9 Sudoku board, determine if it is a valid solution.](https://www.tryexponent.com/questions/4310/validate-sudoku-board-solution)
-92. [Find the shortest distance between two points.](https://www.tryexponent.com/questions/3219/find-shortest-distance-between-points)
-93. [Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.](https://www.tryexponent.com/questions/2358/leetcode-1010-pairs-of-songs)
-94. [Given a string S, determine if it can be converted into a palindrome by making at most one swap of two characters.](https://www.tryexponent.com/questions/4644/palindrome-swap)
-95. [Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.](https://www.tryexponent.com/questions/5854/implement-sql-parser)
-96. [Find the distance between two points in 3D space.](https://www.tryexponent.com/questions/3213/find-distance-between-two-points-3d-space)
-97. [Find points closest to the origin.](https://www.tryexponent.com/questions/2095/find-points-closest-origin)
-98. [Print all possible solutions to the N-Queens problem.](https://www.tryexponent.com/questions/1145/print-all-possible-solutions-n-queens-problem)
-99. [How would you implement a child-parent relation for finding the Least Common Ancestor (LCA) without using pointers?](https://www.tryexponent.com/questions/4298/child-parent-relation-lca-without-pointers)
-100. [Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa...](https://www.tryexponent.com/questions/2867/design-system-peak-period-price-calculation)
-101. [Given 2 strings, return the longest common substring.](https://www.tryexponent.com/questions/1168/longest-common-substring)
-102. [Given two dates, return the number of days between them.](https://www.tryexponent.com/questions/4645/number-of-days)
+================================================================================
+DATA STRUCTURES & ALGORITHMS
+================================================================================
 
----
+📊 Total Questions: 102
 
-## System Design (88 questions)
+🎯 What they're really testing:
+Can you solve problems efficiently using the right data structures?
 
-1. [Implement an LRU cache with serialization and evolving constraints.](https://www.tryexponent.com/questions/5889/LRU-cache)
-2. [Design a file upload feature for an AI chat application.](https://www.tryexponent.com/questions/5916/design-file-upload-feature)
-3. [Design a system to log messages in order](https://www.tryexponent.com/questions/4907/design-system-log-messages-in-order)
-4. [Design an inference batching system for a single GPU that can handle up to 100 inputs per batch while users wait synchronously, maximizing utilization under compute constraints.](https://www.tryexponent.com/questions/5780/inference-batching-system)
-5. [Design a document processing pipeline.](https://www.tryexponent.com/questions/5529/design-a-document-processing-pipeline)
-6. [Design a distributed logging system.](https://www.tryexponent.com/questions/4986/design-distributed-logging-system)
-7. [Design Instagram.](https://www.tryexponent.com/questions/1303/design-instagram)
-8. [Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.](https://www.tryexponent.com/questions/4090/design-system-deny-service-banned-ips)
-9. [Design a fire alarm for the deaf.](https://www.tryexponent.com/questions/759/design-fire-alarm-for-deaf)
-10. [Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.](https://www.tryexponent.com/questions/5822/implement-key-value-store)
-11. [Design Amazon Prime video.](https://www.tryexponent.com/questions/4802/design-amazon-prime-video)
-12. [Design a task management system with tasks broken into sub-tasks.](https://www.tryexponent.com/questions/5915/design-task-management-system)
-13. [Design a file cache system.](https://www.tryexponent.com/questions/5597/design-file-cache-system)
-14. [Design a system to schedule jobs in a distributed environment.](https://www.tryexponent.com/questions/3650/design-system-schedule-jobs-distributed-environment)
-15. [Design a banking system to facilitate account creation, deposits, transfers, and listing the most active accounts by total monetary activity, with commands entered via parsing CSV/JSON.](https://www.tryexponent.com/questions/4046/design-banking-system-csv-json-commands)
-16. [Implement LRU Cache.](https://www.tryexponent.com/questions/3625/lru-cache)
-17. [Design an app for renting bicycles.](https://www.tryexponent.com/questions/3571/design-bicycle-rental-app)
-18. [Design a system to upgrade hundreds of thousands of machines on the Moon.](https://www.tryexponent.com/questions/4091/design-system-upgrade-machines-moon)
-19. [Design a reservation and payment system for a parking garage.](https://www.tryexponent.com/questions/1437/design-parking-garage-reservation-payment-system)
-20. [Design a system that ingests book reviews from Amazon.com and provides book recommendations on your website.](https://www.tryexponent.com/questions/3954/design-system-ingest-amazon-book-reviews-recommendations)
-21. [Design a peer-to-peer file distribution system that spreads a 10GB file from a single bandwidth-constrained source to thousands of interconnected hosts, each with limited input/output bandwidth, un...](https://www.tryexponent.com/questions/5781/design-p2p-file-distribution-system)
-22. [Design a file system.](https://www.tryexponent.com/questions/4905/design-file-system)
-23. [Design an end-to-end batching system for LLM queries.](https://www.tryexponent.com/questions/5807/design-end-to-end-batching-system-for-llm-queries)
-24. [Design a Yelp-like restaurant review app.](https://www.tryexponent.com/questions/5621/design-yelp)
-25. [Design a rate limiter.](https://www.tryexponent.com/questions/2703/design-rate-limiter)
-26. [Design a web crawler.](https://www.tryexponent.com/questions/1605/design-web-crawler)
-27. [Design a system for a rock paper scissors game.](https://www.tryexponent.com/questions/5277/system-design-rock-paper-scissors-game)
-28. [Build a hit counter that tracks the number of hits in the last 5 minutes, supporting multiple keys (e.g., “a”, “b”). Then, use this counter to implement a simple rate limiter.](https://www.tryexponent.com/questions/5587/build-counter-with-rate-limiter)
-29. [Design a metrics and logging service.](https://www.tryexponent.com/questions/1675/design-metrics-logging-service)
-30. [Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.](https://www.tryexponent.com/questions/5599/design-scalable-token-generation-service)
-31. [System Design: Design an AirTag system.](https://www.tryexponent.com/questions/3165/system-design-airtag-system)
-32. [Design a distributed file system.](https://www.tryexponent.com/questions/3257/design-distributed-file-system)
-33. [Design a typeahead box for a search engine.](https://www.tryexponent.com/questions/1601/design-typeahead-box-search-engine)
-34. [Design an online banking application.](https://www.tryexponent.com/questions/5461/design-online-banking-application)
-35. [Design a web crawler to download content from www.example.com without detection.](https://www.tryexponent.com/questions/3372/design-web-crawler-download-content-undetected)
-36. [Design a system to map IP address ranges to geographic region labels.](https://www.tryexponent.com/questions/5424/system-design-map-ip-address-geographic)
-37. [Design a key-value store.](https://www.tryexponent.com/questions/455/designing-key-value-store)
-38. [Design a performance tracking app for cyclists.](https://www.tryexponent.com/questions/4712/design-cyclist-performance-tracking-app)
-39. [Design Uber Eats.](https://www.tryexponent.com/questions/2141/design-uber-eats)
-40. [Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.](https://www.tryexponent.com/questions/5427/system-design-meta-audio-system)
-41. [Design an algorithm to predict the next word or phrase one is typing on a phone.](https://www.tryexponent.com/questions/5072/system-design-mobile-text-prediction-algorithm)
-42. [Design a service like Azure Key Vault that securely stores and retrieves secrets, certificates, and keys for applications and users.](https://www.tryexponent.com/questions/5437/system-design-secure-key-vault-service)
-43. [Design a leaderboard system.](https://www.tryexponent.com/questions/4674/design-leaderboard-system)
-44. [Design a truck tracking system that supports filtering by truck number and includes an interface for updating driver status.](https://www.tryexponent.com/questions/4077/design-truck-tracking-system)
-45. [Design a streaming service like Netflix.](https://www.tryexponent.com/questions/1677/design-streaming-service-netflix)
-46. [Design a search system that adapts to constantly changing user interests.](https://www.tryexponent.com/questions/5615/design-search-system-adapting-to-user-interests)
-47. [Design a chair for the disabled.](https://www.tryexponent.com/questions/4330/design-a-chair-for-the-disabled)
-48. [Design a user login system.](https://www.tryexponent.com/questions/4631/design-user-login-system)
-49. [Design and implement logic to synchronize audio playback timing with transcript highlighting.](https://www.tryexponent.com/questions/5882/design-audio-playback)
-50. [Design a URL shortener.](https://www.tryexponent.com/questions/1743/url-shortener)
-51. [Design a DNS cache.](https://www.tryexponent.com/questions/3252/design-dns-cache)
-52. [Design a rate limiter for a microservices API.](https://www.tryexponent.com/questions/3318/design-rate-limiter-microservices-api)
-53. [Design a visual landmark recognition system.](https://www.tryexponent.com/questions/1678/design-visual-landmark-recognition-system)
-54. [You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.](https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects)
-55. [Design APIs for Facebook live commenting.](https://www.tryexponent.com/questions/1747/design-api-facebook-live-commenting)
-56. [Design a metrics service.](https://www.tryexponent.com/questions/2252/design-metrics-service)
-57. [Design a kayak rental service.](https://www.tryexponent.com/questions/2932/design-kayak-rental-service)
-58. [Design an alarm system for streaming metrics.](https://www.tryexponent.com/questions/5855/alarm-system-for-streaming-metrics)
-59. [Design an agent that selects music based on real-world signals like weather.](https://www.tryexponent.com/questions/5909/design-music-agent)
-60. [Design a monitoring system for 1000 web servers.](https://www.tryexponent.com/questions/2078/design-monitoring-system-web-servers)
-61. [Design a web scraping engine.](https://www.tryexponent.com/questions/4840/design-web-scraping-engine)
-62. [Design a system to store multiple images in a single file.](https://www.tryexponent.com/questions/4632/design-image-store)
-63. [Design a plan to migrate an existing authentication system to a new one.](https://www.tryexponent.com/questions/5394/authentication-system-migration)
-64. [Design an AB test system.](https://www.tryexponent.com/questions/3097/design-ab-test-system)
-65. [Design a custom policy extension for an LRU Cache.](https://www.tryexponent.com/questions/4239/design-custom-policy-lru-cache)
-66. [Design a load balancer.](https://www.tryexponent.com/questions/1928/designing-a-load-balancer)
-67. [Design a system like YouTube.](https://www.tryexponent.com/questions/2701/design-system-like-youtube)
-68. [Design an API for searching a folder.](https://www.tryexponent.com/questions/2272/design-api-searching-folder)
-69. [Design a marketplace where freelancers bid on contract jobs with the lowest bid winning the contract.](https://www.tryexponent.com/questions/3879/design-marketplace-freelancers-bid-jobs)
-70. [Design a currency exchange system.](https://www.tryexponent.com/questions/2719/design-currency-exchange-system)
-71. [Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...](https://www.tryexponent.com/questions/5840/replace-excel-based-process-for-voice-dubbing)
-72. [Design a smart electric meter software system for an apartment building featuring separate dashboards for tenants and the owner, showing electricity usage by specific units and floors.](https://www.tryexponent.com/questions/1916/design-smart-electric-meter-software-apartment-building)
-73. [Design the architecture to send chargeback transactions to Visa.](https://www.tryexponent.com/questions/4655/system-design-visa-chargeback-transaction)
-74. [Design a microservices architecture using Java Spring Boot.](https://www.tryexponent.com/questions/5155/java-spring-boot-micro)
-75. [Design an Applicant Tracking System (ATS).](https://www.tryexponent.com/questions/3222/design-applicant-tracking-system)
-76. [Design Amazon Storage.](https://www.tryexponent.com/questions/2076/design-amazon-storage)
-77. [Design an LCU cache.](https://www.tryexponent.com/questions/1210/design-lcu-cache)
-78. [Design a messaging platform.](https://www.tryexponent.com/questions/922/system-design-messaging-platform)
-79. [Design a fitness tracker like Nike Training Club.](https://www.tryexponent.com/questions/3384/design-fitness-tracker-nike-training-club)
-80. [Design a module to fetch a unique User ID from a pool of available User IDs and return the ID to the pool for later use.](https://www.tryexponent.com/questions/3536/design-module-fetch-return-unique-user-id-pool)
-81. [Design a restaurant application that gives the expected waiting time based on waiters, tables, and customers.](https://www.tryexponent.com/questions/2072/design-restaurant-app-waiting-time)
-82. [Design a Tic Tac Toe game that allows remote play.](https://www.tryexponent.com/questions/1608/tic-tac-toe-remote-play-design)
-83. [Design a music player application using the MVC (Model-View-Controller) architecture.](https://www.tryexponent.com/questions/4558/design-music-player-mvc-architecture)
-84. [Design a distributed training system for a trillion-parameter language model.](https://www.tryexponent.com/questions/5907/design-distributed-training-system)
-85. [Design a price alert tracking UI](https://www.tryexponent.com/questions/5334/design-price-alert-tracking-ui)
-86. [Design a queue using static memory allocation.](https://www.tryexponent.com/questions/4242/design-queue-using-static-memory)
-87. [Design an iterator.](https://www.tryexponent.com/questions/3242/design-iterator)
-88. [Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa...](https://www.tryexponent.com/questions/2867/design-system-peak-period-price-calculation)
+🗺️  Mental Model Framework:
+```
 
----
+Data Structures & Algorithms
+├─ Understand the problem
+│  ├─ Read carefully
+│  ├─ Ask clarifying questions
+│  ├─ Identify inputs/outputs
+│  └─ Confirm edge cases
+│
+├─ Choose data structure
+│  ├─ Array / List
+│  ├─ Hash Map / Set
+│  ├─ Stack / Queue
+│  ├─ Tree / Graph
+│  └─ Heap / Priority Queue
+│
+├─ Design algorithm
+│  ├─ Brute force first
+│  ├─ Identify patterns
+│  ├─ Optimize approach
+│  └─ Write pseudocode
+│
+├─ Implement solution
+│  ├─ Write clean code
+│  ├─ Handle edge cases
+│  ├─ Test as you go
+│  └─ Explain your thinking
+│
+└─ Analyze complexity
+   ├─ Time: O(?)
+   ├─ Space: O(?)
+   └─ Can we do better?
 
-## Behavioral (72 questions)
+```
 
-1. [Tell me about a time when you made short-term sacrifices for long-term gains.](https://www.tryexponent.com/questions/653/time-short-term-sacrifices-long-term-gains)
-2. [Tell me about a time you made a mistake.](https://www.tryexponent.com/questions/240/mistake)
-3. [Tell me about a time you disagreed with someone and how you resolved it.](https://www.tryexponent.com/questions/1350/time-disagreed-someone-resolved)
-4. [Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?](https://www.tryexponent.com/questions/140/conflict-resolution-learning)
-5. [Tell me about a time when you worked on a project with a tight deadline.](https://www.tryexponent.com/questions/941/project-with-tight-deadline)
-6. [Tell me about a time you took a calculated risk when speed was critical.](https://www.tryexponent.com/questions/996/calculated-risk-taken-speed-critical)
-7. [Tell me about a time when you solved a complex problem and how you went about it.](https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem)
-8. [Tell me about a time you were confident in a solution and later realized it was wrong.](https://www.tryexponent.com/questions/5888/confident-in-wrong-solution)
-9. [Tell me about a time you failed. What would you have done differently?](https://www.tryexponent.com/questions/3667/time-you-failed-what-to-do-differently)
-10. [Tell me about a time you had a moral conflict with work you are assigned to do.](https://www.tryexponent.com/questions/5785/moral-conflict-work)
-11. [Tell me about a time when you received negative feedback and how you handled it.](https://www.tryexponent.com/questions/775/negative-feedback-how-handled)
-12. [Can you provide an example of how you manage conflict?](https://www.tryexponent.com/questions/1516/example-managing-conflict)
-13. [Tell me about a time when you gave a simple solution to a complex problem.](https://www.tryexponent.com/questions/4790/behavioral-simple-solution-complex-problem)
-14. [Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.](https://www.tryexponent.com/questions/2120/manage-conflicting-priorities-stakeholders)
-15. [Tell me about a time you had a conflict with your manager.](https://www.tryexponent.com/questions/4877/manager-conflict)
-16. [Tell me about a time when you faced a conflict while on a team.](https://www.tryexponent.com/questions/2964/conflict-resolution-team-experience)
-17. [Tell me about a time you had to build something that conflicted with your personal values.](https://www.tryexponent.com/questions/5886/build-personal-conflict)
-18. [Tell me about a time you failed.](https://www.tryexponent.com/questions/2398/describing-a-failure-experience)
-19. [Tell me about a time when you significantly exceeded expectations on a project or task.](https://www.tryexponent.com/questions/4492/exceeded-expectations-project-task)
-20. [Tell me about a time when you had a disagreement with your manager.](https://www.tryexponent.com/questions/241/disagreement-manager)
-21. [Tell me about a time when you made a decision with limited data.](https://www.tryexponent.com/questions/934/decision-with-limited-data)
-22. [Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?](https://www.tryexponent.com/questions/5237/taking-initiative-beyond-responsibility)
-23. [Tell me about a time you couldn't meet your deadline.](https://www.tryexponent.com/questions/5123/cannot-meet-deadline)
-24. [Tell me about a time when you solved a problem innovatively.](https://www.tryexponent.com/questions/275/solved-problem-innovatively)
-25. [Tell me about a time when you underestimated someone you were supposed to work with.](https://www.tryexponent.com/questions/4224/underestimate-coworker-experience)
-26. [Tell me about a time when you missed a deadline.](https://www.tryexponent.com/questions/572/time-you-missed-a-deadline)
-27. [Tell me about a time when you went above and beyond for a customer.](https://www.tryexponent.com/questions/1917/time-you-went-above-beyond-for-customer)
-28. [Tell me about a time when you dealt with a difficult person at work.](https://www.tryexponent.com/questions/274/difficult-person)
-29. [Tell me about a time when you had to solve a difficult problem.](https://www.tryexponent.com/questions/462/solving-difficult-problem-interview-question)
-30. [Tell me about a time you put someone else’s interests above your own.](https://www.tryexponent.com/questions/5119/putting-someones-interest-above-your-own)
-31. [Tell me about your biggest failure.](https://www.tryexponent.com/questions/142/biggest-failure)
-32. [Tell me about a time you had significant disagreement with someone and later realized they were right.](https://www.tryexponent.com/questions/5794/disagreement-and-they-were-right)
-33. [Tell me about a time you faced a moral or ethical dilemma at work.](https://www.tryexponent.com/questions/5887/face-moral-dilemma)
-34. [Tell me about a time when you had to convince team members on something you proposed.](https://www.tryexponent.com/questions/276/convince-team-members)
-35. [Tell me about a time you overcame adversity.](https://www.tryexponent.com/questions/3259/time-overcame-adversity)
-36. [Tell me about a time you had to learn something quickly.](https://www.tryexponent.com/questions/5678/learn-quickly)
-37. [Tell me about a time when you had to deliver negative feedback.](https://www.tryexponent.com/questions/2260/delivering-negative-feedback)
-38. [Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.](https://www.tryexponent.com/questions/3541/dealing-buggy-code-production)
-39. [Tell me about a time when you questioned the status quo.](https://www.tryexponent.com/questions/943/questioned-status-quo)
-40. [Tell me about a time you cut corners to meet a deadline?](https://www.tryexponent.com/questions/5134/cut-corners-meet-deadline)
-41. [How do you overcome conflict during a project?](https://www.tryexponent.com/questions/2178/overcome-conflict-during-project)
-42. [Tell me about a time you received difficult news from a peer or a manager.](https://www.tryexponent.com/questions/3200/handle-difficult-news-peer-manager)
-43. [Tell me about a time when you needed to convince a disagreeing team.](https://www.tryexponent.com/questions/770/convince-disagreeing-team)
-44. [Tell me about a time when you conceived an innovative solution to a problem.](https://www.tryexponent.com/questions/1363/time-innovative-solution-problem)
-45. [Tell me about a time when you went above and beyond your job description.](https://www.tryexponent.com/questions/371/time-you-exceeded-job-description)
-46. [Tell me about a time you stepped in to help a struggling teammate.](https://www.tryexponent.com/questions/1779/helping-struggling-teammate)
-47. [Tell me about a time you gave difficult feedback to others.](https://www.tryexponent.com/questions/5798/give-difficult-feedback-to-others)
-48. [Tell me about a time when project goals changed and how you handled it.](https://www.tryexponent.com/questions/4938/adapt-changing-project-goals)
-49. [Tell me about a time you pushed back on leadership.](https://www.tryexponent.com/questions/5162/behavioral-push-back-on-leadership)
-50. [Tell me about a time when you took on a task outside your job description.](https://www.tryexponent.com/questions/1763/task-outside-job-description)
-51. [Tell me about a time you worked with another team.](https://www.tryexponent.com/questions/5826/working-with-another-team)
-52. [Tell me about a time you did not like the team you were working with and wanted to switch.](https://www.tryexponent.com/questions/5814/time-you-disliked-team)
-53. [Have you ever worked on something without waiting for your manager’s go-ahead? What made you decide to do that?](https://www.tryexponent.com/questions/5142/proceed-without-approval)
-54. [Tell me about a time when you needed to acquire information from someone who was not very responsive. How did you handle it?](https://www.tryexponent.com/questions/3077/acquiring-information-unresponsive-source)
-55. [Tell me about a time you provided feedback that was helpful to a peer.](https://www.tryexponent.com/questions/1777/helpful-feedback-to-peer)
-56. [Tell me about a time when you had to lead your team through a significant change, such as a reorganization or process change. How did you handle it?](https://www.tryexponent.com/questions/2106/lead-team-through-significant-change)
-57. [Tell me about a time you faced a difficult challenge.](https://www.tryexponent.com/questions/5131/facing-difficult-challenge)
-58. [Tell me about a time you got constructive feedback. What did you learn from it?](https://www.tryexponent.com/questions/5113/constructive-feedback-reaction)
-59. [Tell me about a time you overcame a challenge to achieve a goal.](https://www.tryexponent.com/questions/5133/overcome-challenge-achieve-goal)
-60. [Tell me about a time when you worked on a team and demonstrated leadership.](https://www.tryexponent.com/questions/898/teamwork-leadership-example)
-61. [Tell me about a time when you had to deal with a co-worker who struggled to keep up.](https://www.tryexponent.com/questions/1001/time-deal-with-co-worker-struggled)
-62. [Tell me about a time you had to give someone bad news.](https://www.tryexponent.com/questions/5140/bad-news)
-63. [Have you ever pushed back on management's decision?](https://www.tryexponent.com/questions/5128/push-back-management-decision)
-64. [Tell me about a time when your approach was selected and successfully implemented over other alternatives.](https://www.tryexponent.com/questions/5121/your-champion-idea)
-65. [Tell me about a time you were a good host.](https://www.tryexponent.com/questions/5139/good-host)
-66. [Tell me about a time you stood up for someone in the workplace.](https://www.tryexponent.com/questions/5118/standing-up-for-someone)
-67. [Have you ever failed to meet your commitments?](https://www.tryexponent.com/questions/5129/failed-to-meet-commitments)
-68. [Tell me about a time you struggled on a project.](https://www.tryexponent.com/questions/5115/project-struggles)
-69. [Tell me about a time when you worked with someone from a different background.](https://www.tryexponent.com/questions/3892/working-with-diverse-backgrounds)
-70. [Tell me about a time you had an unpopular idea.](https://www.tryexponent.com/questions/5132/unpopular-idea)
-71. [Tell me about a time you predicted something.](https://www.tryexponent.com/questions/5146/predicted-something)
-72. [Tell me about a time where you needed to make a decision with many options and very little time.](https://www.tryexponent.com/questions/5125/decision-many-options-little-time)
+📝 All 102 Questions:
 
----
+1. Given a sorted array of integers (which may include negatives), return the squares of the numbers in sorted order. As a follow-up, find the k-th smallest squared value.
+2. Reverse a linked list.
+3. Given an array of integers and a number N, find the length of the longest contiguous subarray such that the difference between any two elements in the subarray is less than N.
+4. Reorder linked list.
+5. Find the longest common prefix given two integer arrays.
+6. Given an array of numbers where every number occurs twice except one, how would you find the unique number in O(log n) time?
+7. Find peak element in an array
+8. Find the first missing positive number in an array.
+9. Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.
+10. Given a binary tree, check if each node is the average of all descendants
+11. Lexicographic Grid Travel.
+12. Print the top view of nodes in a binary tree.
+13. Given an array of integers, return the pairs with the minimum absolute difference between them.
+14. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
+15. Explain how to find a target sum in an array.
+16. Write a function that converts stack samples into a trace, given example inputs and outputs, in a Google Colab environment.
+17. Given a head node of a linked list, delete k-th node from the end of the list.
+18. Given an array of points and a point P, find the k closest points to P.
+19. Design a system to map IP address ranges to geographic region labels.
+20. Move all zeros to the end of an array.
+21. Given an array of integers, find the next greater integer for each element in the array.
+22. Given an array with objects colored red, white, or blue, sort them so those of the same color are adjacent. Use integers 0, 1, 2 to represent RWB respectively.
+23. Implement inorder traversal for an N-ary tree.
+24. Detect cycle in graph
+25. Product of Array Except Self
+26. Sort a nearly sorted (or K sorted) array.
+27. Delete Node in a Binary Search Tree (BST).
+28. Merge two sorted linked list
+29. Given the root of a binary tree, return the length of the diameter of the tree.
+30. Explain the differences between stack and heap memory allocation.
+31. Find the median of two sorted arrays.
+32. Clone a linked list with a random pointer.
+33. Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...
+34. Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.
+35. Find a triplet in an array with a given sum.
+36. Given an array, find the two sum.
+37. Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
+38. Linked List Cycle
+39. Implement a decode and encode function of a general N-ary tree.
+40. Given the root of a binary tree of integers, return the maximum path sum.
+41. Given an array of integers and an integer k, find the kth largest element in the array.
+42. Vertical Traversal of a Binary Tree
+43. Count items within compartments between specific indices of an array.
+44. Sort a binary array in linear time.
+45. Construct a binary tree given its preorder and inorder traversals.
+46. Merge k sorted linked lists.
+47. Find the closest number in a sorted array.
+48. Search in rotated sorted array
+49. Build a hash tree algorithm.
+50. Find the maximum subarray sum.
+51. Squares of sorted array
+52. Find the number of rotations in a circularly sorted array.
+53. Print the left view of a binary tree.
+54. Determine if a given binary tree is a binary search tree (BST).
+55. How can you tell if a graph is not a tree?
+56. Partition an array into two sub-arrays with equal sum.
+57. Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.
+58. Given arrays of varying lengths, how would you pad them efficiently?
+59. Implement a red-black tree.
+60. What's the difference between LangGraph and LangSmith?
+61. Implement a hashmap without using any libraries.
+62. Given an array 'nums' with n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+63. Given a binary array where an operation cycles a row's elements to the left or right, return the minimum number of operations needed to create a column of 1s. If not possible, return 0.
+64. Calculate the trapped rainwater between bars in a given array.
+65. Why use a message queue?
+66. Implement a search algorithm for multiple records using backtracking.
+67. Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.
+68. Given an array of n integers and a number k, find the maximum number of elements whose sum is less than k, and return their sum.
+69. What is a full-stack developer?
+70. Find the shortest path in a graph.
+71. Transform a flat array of objects into a nested list.
+72. Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth...
+73. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+74. Design a queue using static memory allocation.
+75. How does a graphics processing unit (GPU) work?
+76. Find the longest palindromic subsequence using dynamic programming.
+77. Array Manipulation: Given an array, implement functions to perform add, remove, update operations and return the resulting array.
+78. Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.
+79. Given an array, print the Next Greater Element (NGE) for each element. The NGE for an element x is the first greater element on the right side of x in the array, or -1 if none exists.
+80. Given two integers represented by two arrays, return the product of the two integers in the same array format.
+81. Explain the time complexity differences between ArrayList and LinkedList.
+82. Explain how hash maps work.
+83. Invert binary tree.
+84. Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.
+85. Implement a queue using stacks.
+86. Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...
+87. Serialize and deserialize binary tree
+88. Find the maximum subarray product
+89. Abbreviate an array of strings.
+90. Implement a doubly linked list.
+91. Given a graph with N nodes and M edges, identify its network topology. Return 1 for Bus (linear chain), 2 for Star (one central node), 3 for Ring (circular), or -1 if none match.
+92. Calculate the height of a binary tree.
+93. What are the key concepts and operations associated with trees?
+94. Find the minimum and maximum elements in an array using minimum comparisons.
+95. Closest Subarray Sum to Target.
+96. Implement a string sorting algorithm, treating digits as numbers.
+97. Given an unsorted array, find duplicate elements in constant time, without using inbuilt functions of python.
+98. Find the maximum product subarray in a given array.
+99. What's your experience with 3D graphics?
+100. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
+101. Implement an in-place merge of two sorted arrays.
+102. Check if a given binary tree is a complete binary tree.
 
-## Technical Communication (29 questions)
 
-1. [Explain malloc, calloc, and reelloc.](https://www.tryexponent.com/questions/5562/explain-malloc-calloc-and-relloc)
-2. [How would you explain a technical concept to a non-technical person?](https://www.tryexponent.com/questions/4913/explain-technical-concept)
-3. [Explain how to find a target sum in an array.](https://www.tryexponent.com/questions/1439/find-target-sum-array)
-4. [Describe an experience working in a cross-functional team.](https://www.tryexponent.com/questions/310/experience-cross-functional-team)
-5. [Explain multithreading.](https://www.tryexponent.com/questions/3264/explain-multithreading)
-6. [Explain how RAG works.](https://www.tryexponent.com/questions/5877/explain-rag)
-7. [Explain the differences between an interface and an abstract class.](https://www.tryexponent.com/questions/4230/difference-interface-abstract-class)
-8. [Describe a challenging project you worked on and what made it difficult.](https://www.tryexponent.com/questions/939/challenging-project-description)
-9. [Describe the most technically complex project you have worked on and explain why it was complex.](https://www.tryexponent.com/questions/1518/technically-complex-project-description)
-10. [Explain the differences between stack and heap memory allocation.](https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences)
-11. [Explain the key differences between BETWEEN and HAVING clauses in SQL.](https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql)
-12. [Explain how microservices work.](https://www.tryexponent.com/questions/3249/explain-microservices-functionality)
-13. [Describe a situation where, in hindsight, you would have done things differently.](https://www.tryexponent.com/questions/5143/situation-in-hindsight)
-14. [Describe a situation where you implemented an idea despite facing resistance.](https://www.tryexponent.com/questions/2026/implementing-idea-despite-resistance)
-15. [Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).](https://www.tryexponent.com/questions/3427/difference-cnn-rnn)
-16. [Explain callback functions.](https://www.tryexponent.com/questions/4620/explain-callback-functions)
-17. [Explain how garbage collection works in programming.](https://www.tryexponent.com/questions/4884/garbage-collection-memory-management)
-18. [Explain the sort function.](https://www.tryexponent.com/questions/3215/explain-sort-function)
-19. [Explain a piece of software you built.](https://www.tryexponent.com/questions/3212/explain-a-piece-of-software-you-built)
-20. [Explain the time complexity differences between ArrayList and LinkedList.](https://www.tryexponent.com/questions/4211/time-complexity-arraylist-vs-linkedlist)
-21. [Explain how hash maps work.](https://www.tryexponent.com/questions/4209/how-hash-map-works)
-22. [Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.](https://www.tryexponent.com/questions/2358/leetcode-1010-pairs-of-songs)
-23. [Explain the map function.](https://www.tryexponent.com/questions/3217/explain-map-function)
-24. [Explain tic tac toe end games.](https://www.tryexponent.com/questions/2664/explain-tic-tac-toe-end-games)
-25. [How would you describe what our company does to your grandmother?](https://www.tryexponent.com/questions/5145/describe-company-to-grandmother)
-26. [Explain the filter function.](https://www.tryexponent.com/questions/3216/explain-filter-function)
-27. [Explain the memory changes that occur when executing: Object o = new Object().](https://www.tryexponent.com/questions/4208/memory-changes-object-instantiation-java)
-28. [Explain polymorphism.](https://www.tryexponent.com/questions/4641/explain-polymorphism)
-29. [Describe your GPU programming experience.](https://www.tryexponent.com/questions/4595/describe-gpu-programming-experience)
+================================================================================
+CODING
+================================================================================
 
----
+📊 Total Questions: 102
 
-## APIs (25 questions)
+🎯 What they're really testing:
+Can you write clean, working code?
 
-1. [Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.](https://www.tryexponent.com/questions/4090/design-system-deny-service-banned-ips)
-2. [If you have 2 clients requesting very different features for the same product, how would you prioritize them?](https://www.tryexponent.com/questions/5047/client-feature-request-prioritize)
-3. [Design a banking system to facilitate account creation, deposits, transfers, and listing the most active accounts by total monetary activity, with commands entered via parsing CSV/JSON.](https://www.tryexponent.com/questions/4046/design-banking-system-csv-json-commands)
-4. [Given a list with response time for each server, calculate how long time it will take to process n requests.](https://www.tryexponent.com/questions/5485/calculate-time-to-process-given-server-response-time)
-5. [Design a Yelp-like restaurant review app.](https://www.tryexponent.com/questions/5621/design-yelp)
-6. [Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.](https://www.tryexponent.com/questions/5599/design-scalable-token-generation-service)
-7. [Given a list of car rental requests with start and end times, assign cars to rentals such that the total number of cars used is minimized.](https://www.tryexponent.com/questions/5425/assign-cars-minimize-total-cars-rented)
-8. [What is an API and how does it work?](https://www.tryexponent.com/questions/798/what-is-an-api-and-how-does-it-work)
-9. [Tell me about a time when you underestimated someone you were supposed to work with.](https://www.tryexponent.com/questions/4224/underestimate-coworker-experience)
-10. [Tell me about a time you put someone else’s interests above your own.](https://www.tryexponent.com/questions/5119/putting-someones-interest-above-your-own)
-11. [Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.](https://www.tryexponent.com/questions/5427/system-design-meta-audio-system)
-12. [Design a search system that adapts to constantly changing user interests.](https://www.tryexponent.com/questions/5615/design-search-system-adapting-to-user-interests)
-13. [Implement a k-nearest neighbors algorithm.](https://www.tryexponent.com/questions/3489/implement-k-nearest-neighbors-algorithm)
-14. [Design a rate limiter for a microservices API.](https://www.tryexponent.com/questions/3318/design-rate-limiter-microservices-api)
-15. [Design APIs for Facebook live commenting.](https://www.tryexponent.com/questions/1747/design-api-facebook-live-commenting)
-16. [Get the top API users based on transaction logs.](https://www.tryexponent.com/questions/4220/top-api-users-transaction-logs)
-17. [Design a web scraping engine.](https://www.tryexponent.com/questions/4840/design-web-scraping-engine)
-18. [What are some new advancements in AI you find interesting?](https://www.tryexponent.com/questions/5679/new-interesting-ai-advancements)
-19. [How does an HTTP request work?](https://www.tryexponent.com/questions/1206/how-http-request-works)
-20. [Design an API for searching a folder.](https://www.tryexponent.com/questions/2272/design-api-searching-folder)
-21. [Why are you interested in working at Bloomberg?](https://www.tryexponent.com/questions/4624/why-bloomberg)
-22. [What role does Nvidia play in shaping the tech industry?](https://www.tryexponent.com/questions/4597/nvidia-tech-industry)
-23. [Design a restaurant application that gives the expected waiting time based on waiters, tables, and customers.](https://www.tryexponent.com/questions/2072/design-restaurant-app-waiting-time)
-24. [What activities or strategies do you use to keep yourself motivated and interested in coding?](https://www.tryexponent.com/questions/4626/strategies-to-keep-motivated-at-coding)
-25. [What’s something interesting you could teach me in just a few minutes?](https://www.tryexponent.com/questions/5150/teach-something-interesting)
+🗺️  Mental Model Framework:
+```
 
----
+Coding
+├─ Understand requirements
+│  ├─ Input format
+│  ├─ Output format
+│  ├─ Constraints
+│  └─ Edge cases
+│
+├─ Plan approach
+│  ├─ Break down problem
+│  ├─ Choose algorithm
+│  ├─ Identify data structures
+│  └─ Discuss with interviewer
+│
+├─ Write code
+│  ├─ Start with structure
+│  ├─ Implement logic
+│  ├─ Handle edge cases
+│  └─ Keep it readable
+│
+├─ Test
+│  ├─ Normal cases
+│  ├─ Edge cases
+│  ├─ Error cases
+│  └─ Walk through examples
+│
+└─ Optimize
+   ├─ Time complexity
+   ├─ Space complexity
+   └─ Code quality
 
-## Project Management (19 questions)
+```
 
-1. [What is the project you are most proud of?](https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of)
-2. [Tell me about your past projects.](https://www.tryexponent.com/questions/4229/past-projects)
-3. [If you had to work on five different projects, how would you prioritize them?](https://www.tryexponent.com/questions/947/prioritize-five-different-projects)
-4. [How do you prioritize tasks?](https://www.tryexponent.com/questions/228/how-prioritize-features)
-5. [If you have 2 clients requesting very different features for the same product, how would you prioritize them?](https://www.tryexponent.com/questions/5047/client-feature-request-prioritize)
-6. [Tell me about the most complex project you have led.](https://www.tryexponent.com/questions/611/most-complex-project-led)
-7. [Tell me about a project where you applied the CAP theorem.](https://www.tryexponent.com/questions/4450/project-applying-cap-theorem)
-8. [Describe a challenging project you worked on and what made it difficult.](https://www.tryexponent.com/questions/939/challenging-project-description)
-9. [Describe the most technically complex project you have worked on and explain why it was complex.](https://www.tryexponent.com/questions/1518/technically-complex-project-description)
-10. [You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.](https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects)
-11. [What is a technical challenge you faced in your previous project?](https://www.tryexponent.com/questions/1489/technical-challenge-previous-project)
-12. [Tell me about a technical decision you made and its impact on your project.](https://www.tryexponent.com/questions/927/technical-decision-impact-project)
-13. [Tell me about a project you worked on.](https://www.tryexponent.com/questions/3253/describe-a-project-experience)
-14. [How do you define the right goals/KPIs/success criteria of the project?](https://www.tryexponent.com/questions/5813/define-goals-for-project)
-15. [How do you build and manage a project schedule?](https://www.tryexponent.com/questions/1027/how-to-build-manage-project-schedule)
-16. [Present a shipped project you led end-to-end.](https://www.tryexponent.com/questions/5815/present-project-led-end-to-end)
-17. [Present a recent project with big scale and cross-functional involvement.](https://www.tryexponent.com/questions/5783/present-big-cross-functional-project)
-18. [Prepare a presentation about a complex project you led from start to finish.](https://www.tryexponent.com/questions/1264/presentation-complex-project-led)
-19. [If given a chance, what would you change about a project, and why?](https://www.tryexponent.com/questions/2079/change-project-given-chance)
+📝 All 102 Questions:
 
----
+1. Implement an LRU cache with serialization and evolving constraints.
+2. Find the minimum characters to insert to make a string a palindrome.
+3. Employee Earnings.
+4. Tell me about a time you took a calculated risk when speed was critical.
+5. Reverse a linked list.
+6. Tell me about a time you were confident in a solution and later realized it was wrong.
+7. Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.
+8. Is this a valid palindrome?
+9. Find the container with the maximum volume of water.
+10. Find the closest palindrome of a given number.
+11. Implement LRU Cache.
+12. Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.
+13. Given a matrix with a rat, bread, cat, and obstacles, find a path from the rat to the bread that maximizes the minimum distance from cat.
+14. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
+15. What types of team members do you find difficult to work with?
+16. Code an image-processing pipeline that reads per-image instruction files and applies ordered transformations (e.g., rotate, invert, crop, convert) to large sets of images of varying sizes across mu...
+17. Given a list with response time for each server, calculate how long time it will take to process n requests.
+18. Tell me about a time when you gave a simple solution to a complex problem.
+19. Find the longest substring without repeating characters.
+20. Build a hit counter that tracks the number of hits in the last 5 minutes, supporting multiple keys (e.g., “a”, “b”). Then, use this counter to implement a simple rate limiter.
+21. Given a list of items with different sizes, write an algorithm to pack these items into the minimum number of batches without exceeding the capacity of each batch.
+22. Given profiler samples from running code, find the slowest part in the code.
+23. Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...
+24. Reverse a Sentence
+25. Merge Intervals
+26. Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.
+27. Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.
+28. Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+29. Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...
+30. Given an integer, reverse it. Integers are within range [-2^15, 2^15 - 1].
+31. Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.
+32. Design an algorithm to predict the next word or phrase one is typing on a phone.
+33. Implement k-means clustering.
+34. Implement a function to justify a list of words within a given width.
+35. Write a function to do Excel-style operations.
+36. Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user’s remaining credit pool and total avai...
+37. Implement a k-nearest neighbors algorithm.
+38. Find the maximum possible stability of any subset of servers. Return the result modulo 10^9+7. E.g. Consider set of servers where reliability = [1, 2, 2], availability = [1, 1, 3].
+39. Find Largest Numbers
+40. Design and implement logic to synchronize audio playback timing with transcript highlighting.
+41. Implement a circular buffer.
+42. Given an nxn grid of 1s and 0s, return the number of islands in the input.
+43. Given an array, find the two sum.
+44. Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).
+45. Given a hierarchical file system with inherited and overridden permissions, write a function to determine whether a user has access to a file at a specific time.
+46. Write a function to return all prime numbers up to a given number n.
+47. Implement the power function without using pow method or or exponentiation operator.
+48. Given a castle with rooms named after flowers where each room has an instruction to the next room, write an algorithm to find the rooms containing treasure.
+49. In a large application, which code branches are more important to be tested and how do you decide?
+50. Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.
+51. What are some new advancements in AI you find interesting?
+52. Fibonacci Numbers
+53. Given a list of Nodes, each with a unique string id and a list of subnodes it depends on, find the maximum depth of the dependencies.
+54. Tell me about a time when you conceived an innovative solution to a problem.
+55. How do you ensure code quality?
+56. Given a string, return the number of vowel substrings ('a', 'e', 'i', 'o', 'u') that include all five vowels.
+57. Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...
+58. Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
+59. Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.
+60. Implement the memcpy() function in C.
+61. Write a function to print 1 to n without using a loop.
+62. Merge two sorted lists
+63. Describe a situation where you implemented an idea despite facing resistance.
+64. You are given m*n matrix, find if any row, column or diagonal has all boolean = True. Find for diagonals and anti diagonals at 45 degrees
+65. Find the minimum window substring.
+66. Given the row and column, return the value at that position in Pascal's triangle.
+67. You're given a time-based key-value store that keeps having new key-value pairs added. Implement a windowed average.
+68. Implement a phrase search in a list of documents.
+69. Write a function to check whether a string contains a substring.
+70. Given an integer n, return the number of steps to reach 1 following these rules: if n is even, divide by 2; if odd, multiply by 3 and add 1.
+71. Given a string, return the number of palindromic substrings in it.
+72. Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.
+73. Design a module to fetch a unique User ID from a pool of available User IDs and return the ID to the pool for later use.
+74. Calculate the number of times a pattern appears in a string.
+75. Tell me about a time when your approach was selected and successfully implemented over other alternatives.
+76. Return all unique substrings of a given string.
+77. Implement a function to find the minimum number of dice rolls needed to reach the end in a Snakes and Ladders game.
+78. Given two strings (Word 1 and Word 2) and a list of valid words from a dictionary, return the minimum number of operations required to convert Word 1 to Word 2.
+79. Find the length of the shortest word ladder.
+80. How do you troubleshoot bugs in your code?
+81. Find duplicate files in a file system.
+82. Implement a JavaScript function for Promise.all().
+83. Find the palindromes.
+84. Calculate the result of a mathematical expression written as a string.
+85. Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.
+86. Implement merge-sort
+87. Implement wildcard pattern matching for a string (s) and a pattern (p) with '?' and '*' in a way that covers the entire input string.
+88. Given a list of integers, return 1 if the integer is a power of 2 and 0 if it is not.
+89. How would you code an app that displays the weekly lunch menu?
+90. Given a list of conversion items between symbols, write an algorithm to return the conversion ratio for each pair of symbols.
+91. Given a fully or partially attempted 9x9 Sudoku board, determine if it is a valid solution.
+92. Find the shortest distance between two points.
+93. Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.
+94. Given a string S, determine if it can be converted into a palindrome by making at most one swap of two characters.
+95. Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.
+96. Find the distance between two points in 3D space.
+97. Find points closest to the origin.
+98. Print all possible solutions to the N-Queens problem.
+99. How would you implement a child-parent relation for finding the Least Common Ancestor (LCA) without using pointers?
+100. Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa...
+101. Given 2 strings, return the longest common substring.
+102. Given two dates, return the number of days between them.
 
-## Leadership (16 questions)
 
-1. [Design a task management system with tasks broken into sub-tasks.](https://www.tryexponent.com/questions/5915/design-task-management-system)
-2. [What types of team members do you find difficult to work with?](https://www.tryexponent.com/questions/4633/difficult-team-members)
-3. [How do you earn the trust of your team members?](https://www.tryexponent.com/questions/933/earning-trust-of-team-members)
-4. [Describe an experience working in a cross-functional team.](https://www.tryexponent.com/questions/310/experience-cross-functional-team)
-5. [How do you contribute to a positive team culture?](https://www.tryexponent.com/questions/5680/contribute-positive-team-culture)
-6. [Design a leaderboard system.](https://www.tryexponent.com/questions/4674/design-leaderboard-system)
-7. [What do you do if your team is blocking you?](https://www.tryexponent.com/questions/3263/handling-team-blocking-issues)
-8. [How do you motivate your team to perform better?](https://www.tryexponent.com/questions/1506/motivate-team-perform-better)
-9. [You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.](https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects)
-10. [How do you mentor top talent?](https://www.tryexponent.com/questions/5440/mentor-top-talent-approach)
-11. [How do you hire your team?](https://www.tryexponent.com/questions/492/how-to-hire-team)
-12. [Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...](https://www.tryexponent.com/questions/5840/replace-excel-based-process-for-voice-dubbing)
-13. [How do you build and manage a project schedule?](https://www.tryexponent.com/questions/1027/how-to-build-manage-project-schedule)
-14. [How do you encourage collaboration among cross-functional teams?](https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams)
-15. [Tell me about a situation where a junior team member got stuck. How did you assist them in solving the problem?](https://www.tryexponent.com/questions/5116/helping-juniors-problem-solve)
-16. [Tell me about a situation where you had to take the lead and be accountable for others.](https://www.tryexponent.com/questions/5114/being-accountable-for-others)
+================================================================================
+SYSTEM DESIGN
+================================================================================
 
----
+📊 Total Questions: 88
 
-## Databases (12 questions)
+🎯 What they're really testing:
+Can you design scalable, reliable systems?
 
-1. [Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.](https://www.tryexponent.com/questions/5822/implement-key-value-store)
-2. [Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.](https://www.tryexponent.com/questions/5859/implement-list-iterator)
-3. [Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.](https://www.tryexponent.com/questions/5429/find-equilibrium-index-in-array)
-4. [Get the top API users based on transaction logs.](https://www.tryexponent.com/questions/4220/top-api-users-transaction-logs)
-5. [Explain the key differences between BETWEEN and HAVING clauses in SQL.](https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql)
-6. [What is the difference between NoSQL and SQL?](https://www.tryexponent.com/questions/2167/difference-nosql-sql)
-7. [Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.](https://www.tryexponent.com/questions/4503/find-row-maximum-ones-binary-matrix)
-8. [Design the architecture to send chargeback transactions to Visa.](https://www.tryexponent.com/questions/4655/system-design-visa-chargeback-transaction)
-9. [When designing a chat application, how would you decide between using SQL and NoSQL databases?](https://www.tryexponent.com/questions/5617/chat-app-sql-vs-nosql)
-10. [Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.](https://www.tryexponent.com/questions/4370/minimum-transactions-debt-settlement-algorithm)
-11. [Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.](https://www.tryexponent.com/questions/4939/can-jump-game-reach-last-index)
-12. [Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.](https://www.tryexponent.com/questions/5854/implement-sql-parser)
+🗺️  Mental Model Framework:
+```
 
----
+System Design
+├─ Clarify requirements
+│  ├─ Functional requirements
+│  ├─ Non-functional requirements
+│  ├─ Scale (users, requests, data)
+│  └─ Constraints
+│
+├─ High-level design
+│  ├─ Client
+│  ├─ Load Balancer
+│  ├─ Application Servers
+│  ├─ Database
+│  └─ Cache
+│
+├─ Deep dive components
+│  ├─ API design
+│  ├─ Database schema
+│  ├─ Caching strategy
+│  └─ Data flow
+│
+├─ Scale & optimize
+│  ├─ Horizontal scaling
+│  ├─ Database sharding
+│  ├─ CDN
+│  └─ Message queues
+│
+└─ Address concerns
+   ├─ Bottlenecks
+   ├─ Single points of failure
+   ├─ Monitoring
+   └─ Trade-offs
 
-## Testing (11 questions)
+```
 
-1. [Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...](https://www.tryexponent.com/questions/5866/code-review-llm-codebase)
-2. [Tell me about your greatest success.](https://www.tryexponent.com/questions/141/greatest-success)
-3. [How do you stay up-to-date with the latest developments in AI?](https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai)
-4. [In a large application, which code branches are more important to be tested and how do you decide?](https://www.tryexponent.com/questions/4931/prioritizing-code-testing-branches)
-5. [Design an AB test system.](https://www.tryexponent.com/questions/3097/design-ab-test-system)
-6. [Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.](https://www.tryexponent.com/questions/4640/shortest-subsequence-cyclic-string)
-7. [Find the length of the shortest word ladder.](https://www.tryexponent.com/questions/3248/shortest-word-ladder-length)
-8. [Find the shortest path in a graph.](https://www.tryexponent.com/questions/2094/find-shortest-path-graph)
-9. [Find the shortest distance between two points.](https://www.tryexponent.com/questions/3219/find-shortest-distance-between-points)
-10. [What are the different types of software testing?](https://www.tryexponent.com/questions/4643/software-testing-types)
-11. [How do you test mobile phones?](https://www.tryexponent.com/questions/2775/how-test-mobile-phones)
+📝 All 88 Questions:
 
----
+1. Implement an LRU cache with serialization and evolving constraints.
+2. Design a file upload feature for an AI chat application.
+3. Design a system to log messages in order
+4. Design an inference batching system for a single GPU that can handle up to 100 inputs per batch while users wait synchronously, maximizing utilization under compute constraints.
+5. Design a document processing pipeline.
+6. Design a distributed logging system.
+7. Design Instagram.
+8. Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.
+9. Design a fire alarm for the deaf.
+10. Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.
+11. Design Amazon Prime video.
+12. Design a task management system with tasks broken into sub-tasks.
+13. Design a file cache system.
+14. Design a system to schedule jobs in a distributed environment.
+15. Design a banking system to facilitate account creation, deposits, transfers, and listing the most active accounts by total monetary activity, with commands entered via parsing CSV/JSON.
+16. Implement LRU Cache.
+17. Design an app for renting bicycles.
+18. Design a system to upgrade hundreds of thousands of machines on the Moon.
+19. Design a reservation and payment system for a parking garage.
+20. Design a system that ingests book reviews from Amazon.com and provides book recommendations on your website.
+21. Design a peer-to-peer file distribution system that spreads a 10GB file from a single bandwidth-constrained source to thousands of interconnected hosts, each with limited input/output bandwidth, un...
+22. Design a file system.
+23. Design an end-to-end batching system for LLM queries.
+24. Design a Yelp-like restaurant review app.
+25. Design a rate limiter.
+26. Design a web crawler.
+27. Design a system for a rock paper scissors game.
+28. Build a hit counter that tracks the number of hits in the last 5 minutes, supporting multiple keys (e.g., “a”, “b”). Then, use this counter to implement a simple rate limiter.
+29. Design a metrics and logging service.
+30. Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.
+31. System Design: Design an AirTag system.
+32. Design a distributed file system.
+33. Design a typeahead box for a search engine.
+34. Design an online banking application.
+35. Design a web crawler to download content from www.example.com without detection.
+36. Design a system to map IP address ranges to geographic region labels.
+37. Design a key-value store.
+38. Design a performance tracking app for cyclists.
+39. Design Uber Eats.
+40. Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.
+41. Design an algorithm to predict the next word or phrase one is typing on a phone.
+42. Design a service like Azure Key Vault that securely stores and retrieves secrets, certificates, and keys for applications and users.
+43. Design a leaderboard system.
+44. Design a truck tracking system that supports filtering by truck number and includes an interface for updating driver status.
+45. Design a streaming service like Netflix.
+46. Design a search system that adapts to constantly changing user interests.
+47. Design a chair for the disabled.
+48. Design a user login system.
+49. Design and implement logic to synchronize audio playback timing with transcript highlighting.
+50. Design a URL shortener.
+51. Design a DNS cache.
+52. Design a rate limiter for a microservices API.
+53. Design a visual landmark recognition system.
+54. You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.
+55. Design APIs for Facebook live commenting.
+56. Design a metrics service.
+57. Design a kayak rental service.
+58. Design an alarm system for streaming metrics.
+59. Design an agent that selects music based on real-world signals like weather.
+60. Design a monitoring system for 1000 web servers.
+61. Design a web scraping engine.
+62. Design a system to store multiple images in a single file.
+63. Design a plan to migrate an existing authentication system to a new one.
+64. Design an AB test system.
+65. Design a custom policy extension for an LRU Cache.
+66. Design a load balancer.
+67. Design a system like YouTube.
+68. Design an API for searching a folder.
+69. Design a marketplace where freelancers bid on contract jobs with the lowest bid winning the contract.
+70. Design a currency exchange system.
+71. Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...
+72. Design a smart electric meter software system for an apartment building featuring separate dashboards for tenants and the owner, showing electricity usage by specific units and floors.
+73. Design the architecture to send chargeback transactions to Visa.
+74. Design a microservices architecture using Java Spring Boot.
+75. Design an Applicant Tracking System (ATS).
+76. Design Amazon Storage.
+77. Design an LCU cache.
+78. Design a messaging platform.
+79. Design a fitness tracker like Nike Training Club.
+80. Design a module to fetch a unique User ID from a pool of available User IDs and return the ID to the pool for later use.
+81. Design a restaurant application that gives the expected waiting time based on waiters, tables, and customers.
+82. Design a Tic Tac Toe game that allows remote play.
+83. Design a music player application using the MVC (Model-View-Controller) architecture.
+84. Design a distributed training system for a trillion-parameter language model.
+85. Design a price alert tracking UI
+86. Design a queue using static memory allocation.
+87. Design an iterator.
+88. Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa...
 
-## Object-Oriented Design (10 questions)
 
-1. [Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.](https://www.tryexponent.com/questions/5638/factory-grid-robots)
-2. [Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.](https://www.tryexponent.com/questions/5859/implement-list-iterator)
-3. [Explain the differences between an interface and an abstract class.](https://www.tryexponent.com/questions/4230/difference-interface-abstract-class)
-4. [Write a function to print 1 to n without using a loop.](https://www.tryexponent.com/questions/4618/print-to-n-no-loop)
-5. [What is Object Oriented Programming (OOP)?](https://www.tryexponent.com/questions/5549/what-is-object-oriented-programming)
-6. [How is object-oriented programming (OOP) different from procedural programming?](https://www.tryexponent.com/questions/4628/oop-vs-procedural)
-7. [What is encapsulation?](https://www.tryexponent.com/questions/4930/explain-encapsulation)
-8. [What is the difference between inheritance and composition?](https://www.tryexponent.com/questions/3522/difference-inheritance-composition)
-9. [What happens when the JVM Garbage Collector releases a property static of a class?](https://www.tryexponent.com/questions/3304/what-happens-when-the-jvm-garbage-collector-releases-a-property-static-of-a-class)
-10. [Explain polymorphism.](https://www.tryexponent.com/questions/4641/explain-polymorphism)
+================================================================================
+BEHAVIORAL
+================================================================================
 
----
+📊 Total Questions: 72
 
-## Distributed Systems (9 questions)
+🎯 What they're really testing:
+Can you work well with others and learn from experience?
 
-1. [Design a distributed logging system.](https://www.tryexponent.com/questions/4986/design-distributed-logging-system)
-2. [Design a system to schedule jobs in a distributed environment.](https://www.tryexponent.com/questions/3650/design-system-schedule-jobs-distributed-environment)
-3. [Design a distributed file system.](https://www.tryexponent.com/questions/3257/design-distributed-file-system)
-4. [Tell me about a project where you applied the CAP theorem.](https://www.tryexponent.com/questions/4450/project-applying-cap-theorem)
-5. [Design a rate limiter for a microservices API.](https://www.tryexponent.com/questions/3318/design-rate-limiter-microservices-api)
-6. [Explain how microservices work.](https://www.tryexponent.com/questions/3249/explain-microservices-functionality)
-7. [Partition an array into two sub-arrays with equal sum.](https://www.tryexponent.com/questions/969/partition-array-equal-sum)
-8. [Design a microservices architecture using Java Spring Boot.](https://www.tryexponent.com/questions/5155/java-spring-boot-micro)
-9. [Design a distributed training system for a trillion-parameter language model.](https://www.tryexponent.com/questions/5907/design-distributed-training-system)
+🗺️  Mental Model Framework:
+```
 
----
+Behavioral (STAR Method)
+├─ Situation
+│  ├─ Context
+│  ├─ Challenge
+│  └─ Stakeholders
+│
+├─ Task
+│  ├─ Your role
+│  ├─ Goal
+│  └─ Constraints
+│
+├─ Action
+│  ├─ What YOU did
+│  ├─ Why that approach
+│  ├─ How you executed
+│  └─ Challenges faced
+│
+└─ Result
+   ├─ Outcome (quantify!)
+   ├─ Impact
+   ├─ What you learned
+   └─ What you'd do differently
 
-## Code Review (7 questions)
+```
 
-1. [Tell me about a time when you received negative feedback and how you handled it.](https://www.tryexponent.com/questions/775/negative-feedback-how-handled)
-2. [You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.](https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects)
-3. [Tell me about a time when you had to deliver negative feedback.](https://www.tryexponent.com/questions/2260/delivering-negative-feedback)
-4. [Tell me about a time you gave difficult feedback to others.](https://www.tryexponent.com/questions/5798/give-difficult-feedback-to-others)
-5. [Tell me about a time you provided feedback that was helpful to a peer.](https://www.tryexponent.com/questions/1777/helpful-feedback-to-peer)
-6. [Tell me about a time you got constructive feedback. What did you learn from it?](https://www.tryexponent.com/questions/5113/constructive-feedback-reaction)
-7. [How open are you to critical feedback? Tell me about any critical feedback you've received from past experience.](https://www.tryexponent.com/questions/4725/open-to-critical-feedback)
+📝 All 72 Questions:
 
----
+1. Tell me about a time when you made short-term sacrifices for long-term gains.
+2. Tell me about a time you made a mistake.
+3. Tell me about a time you disagreed with someone and how you resolved it.
+4. Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?
+5. Tell me about a time when you worked on a project with a tight deadline.
+6. Tell me about a time you took a calculated risk when speed was critical.
+7. Tell me about a time when you solved a complex problem and how you went about it.
+8. Tell me about a time you were confident in a solution and later realized it was wrong.
+9. Tell me about a time you failed. What would you have done differently?
+10. Tell me about a time you had a moral conflict with work you are assigned to do.
+11. Tell me about a time when you received negative feedback and how you handled it.
+12. Can you provide an example of how you manage conflict?
+13. Tell me about a time when you gave a simple solution to a complex problem.
+14. Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
+15. Tell me about a time you had a conflict with your manager.
+16. Tell me about a time when you faced a conflict while on a team.
+17. Tell me about a time you had to build something that conflicted with your personal values.
+18. Tell me about a time you failed.
+19. Tell me about a time when you significantly exceeded expectations on a project or task.
+20. Tell me about a time when you had a disagreement with your manager.
+21. Tell me about a time when you made a decision with limited data.
+22. Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?
+23. Tell me about a time you couldn't meet your deadline.
+24. Tell me about a time when you solved a problem innovatively.
+25. Tell me about a time when you underestimated someone you were supposed to work with.
+26. Tell me about a time when you missed a deadline.
+27. Tell me about a time when you went above and beyond for a customer.
+28. Tell me about a time when you dealt with a difficult person at work.
+29. Tell me about a time when you had to solve a difficult problem.
+30. Tell me about a time you put someone else’s interests above your own.
+31. Tell me about your biggest failure.
+32. Tell me about a time you had significant disagreement with someone and later realized they were right.
+33. Tell me about a time you faced a moral or ethical dilemma at work.
+34. Tell me about a time when you had to convince team members on something you proposed.
+35. Tell me about a time you overcame adversity.
+36. Tell me about a time you had to learn something quickly.
+37. Tell me about a time when you had to deliver negative feedback.
+38. Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.
+39. Tell me about a time when you questioned the status quo.
+40. Tell me about a time you cut corners to meet a deadline?
+41. How do you overcome conflict during a project?
+42. Tell me about a time you received difficult news from a peer or a manager.
+43. Tell me about a time when you needed to convince a disagreeing team.
+44. Tell me about a time when you conceived an innovative solution to a problem.
+45. Tell me about a time when you went above and beyond your job description.
+46. Tell me about a time you stepped in to help a struggling teammate.
+47. Tell me about a time you gave difficult feedback to others.
+48. Tell me about a time when project goals changed and how you handled it.
+49. Tell me about a time you pushed back on leadership.
+50. Tell me about a time when you took on a task outside your job description.
+51. Tell me about a time you worked with another team.
+52. Tell me about a time you did not like the team you were working with and wanted to switch.
+53. Have you ever worked on something without waiting for your manager’s go-ahead? What made you decide to do that?
+54. Tell me about a time when you needed to acquire information from someone who was not very responsive. How did you handle it?
+55. Tell me about a time you provided feedback that was helpful to a peer.
+56. Tell me about a time when you had to lead your team through a significant change, such as a reorganization or process change. How did you handle it?
+57. Tell me about a time you faced a difficult challenge.
+58. Tell me about a time you got constructive feedback. What did you learn from it?
+59. Tell me about a time you overcame a challenge to achieve a goal.
+60. Tell me about a time when you worked on a team and demonstrated leadership.
+61. Tell me about a time when you had to deal with a co-worker who struggled to keep up.
+62. Tell me about a time you had to give someone bad news.
+63. Have you ever pushed back on management's decision?
+64. Tell me about a time when your approach was selected and successfully implemented over other alternatives.
+65. Tell me about a time you were a good host.
+66. Tell me about a time you stood up for someone in the workplace.
+67. Have you ever failed to meet your commitments?
+68. Tell me about a time you struggled on a project.
+69. Tell me about a time when you worked with someone from a different background.
+70. Tell me about a time you had an unpopular idea.
+71. Tell me about a time you predicted something.
+72. Tell me about a time where you needed to make a decision with many options and very little time.
 
-## Debugging (6 questions)
 
-1. [Find the longest common prefix given two integer arrays.](https://www.tryexponent.com/questions/5639/longest-common-prefix)
-2. [Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).](https://www.tryexponent.com/questions/4218/count-prefix-pairs-word-list)
-3. [Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.](https://www.tryexponent.com/questions/3541/dealing-buggy-code-production)
-4. [If GPU utilization is low during training, how would you debug and benchmark performance?](https://www.tryexponent.com/questions/5908/debug-benchmark-performance)
-5. [How do you troubleshoot bugs in your code?](https://www.tryexponent.com/questions/3225/troubleshoot-bugs-in-code)
-6. [Debug a build/CI system for a particular scenario or slow builds.](https://www.tryexponent.com/questions/2213/debug-build-ci-system-scenario)
+================================================================================
+TECHNICAL COMMUNICATION
+================================================================================
 
----
+📊 Total Questions: 29
 
-## Concurrency (5 questions)
+🎯 What they're really testing:
+Can you explain technical concepts clearly?
 
-1. [Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.](https://www.tryexponent.com/questions/5638/factory-grid-robots)
-2. [Build a web crawler with multi-threading.](https://www.tryexponent.com/questions/5806/build-web-crawler-with-multi-threading)
-3. [Explain multithreading.](https://www.tryexponent.com/questions/3264/explain-multithreading)
-4. [What do you do if your team is blocking you?](https://www.tryexponent.com/questions/3263/handling-team-blocking-issues)
-5. [Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.](https://www.tryexponent.com/questions/4325/spiral-matrix)
+🗺️  Mental Model Framework:
+```
 
----
+Technical Communication
+├─ Know your audience
+│  ├─ Technical level
+│  ├─ What they care about
+│  └─ Context
+│
+├─ Structure message
+│  ├─ Start with "so what"
+│  ├─ Support with details
+│  └─ End with action
+│
+├─ Use examples
+│  ├─ Analogies
+│  ├─ Diagrams
+│  └─ Real scenarios
+│
+└─ Check understanding
+   ├─ Ask questions
+   ├─ Address concerns
+   └─ Iterate
 
-## Security (4 questions)
+```
 
-1. [Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.](https://www.tryexponent.com/questions/4090/design-system-deny-service-banned-ips)
-2. [Design a plan to migrate an existing authentication system to a new one.](https://www.tryexponent.com/questions/5394/authentication-system-migration)
-3. [How do you balance delivery with security concerns?](https://www.tryexponent.com/questions/5786/delivery-vs-security)
-4. [How much do you care about safety and security?](https://www.tryexponent.com/questions/5784/safety-security-care)
+📝 All 29 Questions:
 
----
+1. Explain malloc, calloc, and reelloc.
+2. How would you explain a technical concept to a non-technical person?
+3. Explain how to find a target sum in an array.
+4. Describe an experience working in a cross-functional team.
+5. Explain multithreading.
+6. Explain how RAG works.
+7. Explain the differences between an interface and an abstract class.
+8. Describe a challenging project you worked on and what made it difficult.
+9. Describe the most technically complex project you have worked on and explain why it was complex.
+10. Explain the differences between stack and heap memory allocation.
+11. Explain the key differences between BETWEEN and HAVING clauses in SQL.
+12. Explain how microservices work.
+13. Describe a situation where, in hindsight, you would have done things differently.
+14. Describe a situation where you implemented an idea despite facing resistance.
+15. Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).
+16. Explain callback functions.
+17. Explain how garbage collection works in programming.
+18. Explain the sort function.
+19. Explain a piece of software you built.
+20. Explain the time complexity differences between ArrayList and LinkedList.
+21. Explain how hash maps work.
+22. Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.
+23. Explain the map function.
+24. Explain tic tac toe end games.
+25. How would you describe what our company does to your grandmother?
+26. Explain the filter function.
+27. Explain the memory changes that occur when executing: Object o = new Object().
+28. Explain polymorphism.
+29. Describe your GPU programming experience.
 
-## Performance Optimization (4 questions)
 
-1. [Design a performance tracking app for cyclists.](https://www.tryexponent.com/questions/4712/design-cyclist-performance-tracking-app)
-2. [Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...](https://www.tryexponent.com/questions/4817/optimize-parentheses-sequence-efficiency)
-3. [What techniques can be used to optimize write performance from memory to disk?](https://www.tryexponent.com/questions/5618/write-performance-memory-disk)
-4. [If GPU utilization is low during training, how would you debug and benchmark performance?](https://www.tryexponent.com/questions/5908/debug-benchmark-performance)
+================================================================================
+APIS
+================================================================================
 
----
+📊 Total Questions: 25
 
-## Scalability (2 questions)
+🎯 What they're really testing:
+Can you design clean, usable APIs?
 
-1. [Present a recent project with big scale and cross-functional involvement.](https://www.tryexponent.com/questions/5783/present-big-cross-functional-project)
-2. [How do you think your supervisor will rate you from a scale of 1-10?](https://www.tryexponent.com/questions/5147/supervisor-rating)
+🗺️  Mental Model Framework:
+```
 
----
+APIs
+├─ Design principles
+│  ├─ RESTful conventions
+│  ├─ Resource naming
+│  ├─ HTTP methods
+│  └─ Status codes
+│
+├─ Define endpoints
+│  ├─ GET /resources
+│  ├─ POST /resources
+│  ├─ PUT /resources/:id
+│  └─ DELETE /resources/:id
+│
+├─ Request/Response
+│  ├─ Headers
+│  ├─ Body format (JSON)
+│  ├─ Pagination
+│  └─ Error handling
+│
+└─ Best practices
+   ├─ Versioning
+   ├─ Authentication
+   ├─ Rate limiting
+   └─ Documentation
+
+```
+
+📝 All 25 Questions:
+
+1. Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.
+2. If you have 2 clients requesting very different features for the same product, how would you prioritize them?
+3. Design a banking system to facilitate account creation, deposits, transfers, and listing the most active accounts by total monetary activity, with commands entered via parsing CSV/JSON.
+4. Given a list with response time for each server, calculate how long time it will take to process n requests.
+5. Design a Yelp-like restaurant review app.
+6. Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.
+7. Given a list of car rental requests with start and end times, assign cars to rentals such that the total number of cars used is minimized.
+8. What is an API and how does it work?
+9. Tell me about a time when you underestimated someone you were supposed to work with.
+10. Tell me about a time you put someone else’s interests above your own.
+11. Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.
+12. Design a search system that adapts to constantly changing user interests.
+13. Implement a k-nearest neighbors algorithm.
+14. Design a rate limiter for a microservices API.
+15. Design APIs for Facebook live commenting.
+16. Get the top API users based on transaction logs.
+17. Design a web scraping engine.
+18. What are some new advancements in AI you find interesting?
+19. How does an HTTP request work?
+20. Design an API for searching a folder.
+21. Why are you interested in working at Bloomberg?
+22. What role does Nvidia play in shaping the tech industry?
+23. Design a restaurant application that gives the expected waiting time based on waiters, tables, and customers.
+24. What activities or strategies do you use to keep yourself motivated and interested in coding?
+25. What’s something interesting you could teach me in just a few minutes?
+
+
+================================================================================
+PROJECT MANAGEMENT
+================================================================================
+
+📊 Total Questions: 19
+
+🎯 What they're really testing:
+Can you plan and deliver projects?
+
+🗺️  Mental Model Framework:
+```
+
+Project Management
+├─ Define scope
+│  ├─ Requirements
+│  ├─ Deliverables
+│  └─ Success criteria
+│
+├─ Plan execution
+│  ├─ Timeline
+│  ├─ Resources
+│  └─ Milestones
+│
+├─ Manage risks
+│  ├─ Dependencies
+│  ├─ Blockers
+│  └─ Mitigation
+│
+└─ Communicate
+   ├─ Status updates
+   ├─ Escalations
+   └─ Retrospectives
+
+```
+
+📝 All 19 Questions:
+
+1. What is the project you are most proud of?
+2. Tell me about your past projects.
+3. If you had to work on five different projects, how would you prioritize them?
+4. How do you prioritize tasks?
+5. If you have 2 clients requesting very different features for the same product, how would you prioritize them?
+6. Tell me about the most complex project you have led.
+7. Tell me about a project where you applied the CAP theorem.
+8. Describe a challenging project you worked on and what made it difficult.
+9. Describe the most technically complex project you have worked on and explain why it was complex.
+10. You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.
+11. What is a technical challenge you faced in your previous project?
+12. Tell me about a technical decision you made and its impact on your project.
+13. Tell me about a project you worked on.
+14. How do you define the right goals/KPIs/success criteria of the project?
+15. How do you build and manage a project schedule?
+16. Present a shipped project you led end-to-end.
+17. Present a recent project with big scale and cross-functional involvement.
+18. Prepare a presentation about a complex project you led from start to finish.
+19. If given a chance, what would you change about a project, and why?
+
+
+================================================================================
+LEADERSHIP
+================================================================================
+
+📊 Total Questions: 16
+
+🎯 What they're really testing:
+Can you influence and guide others?
+
+🗺️  Mental Model Framework:
+```
+
+Leadership
+├─ Set vision
+│  ├─ Clear direction
+│  ├─ Inspire team
+│  └─ Align on goals
+│
+├─ Empower team
+│  ├─ Delegate effectively
+│  ├─ Remove blockers
+│  └─ Support growth
+│
+├─ Drive results
+│  ├─ Hold accountable
+│  ├─ Celebrate wins
+│  └─ Learn from failures
+│
+└─ Build culture
+   ├─ Foster collaboration
+   ├─ Encourage feedback
+   └─ Lead by example
+
+```
+
+📝 All 16 Questions:
+
+1. Design a task management system with tasks broken into sub-tasks.
+2. What types of team members do you find difficult to work with?
+3. How do you earn the trust of your team members?
+4. Describe an experience working in a cross-functional team.
+5. How do you contribute to a positive team culture?
+6. Design a leaderboard system.
+7. What do you do if your team is blocking you?
+8. How do you motivate your team to perform better?
+9. You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.
+10. How do you mentor top talent?
+11. How do you hire your team?
+12. Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...
+13. How do you build and manage a project schedule?
+14. How do you encourage collaboration among cross-functional teams?
+15. Tell me about a situation where a junior team member got stuck. How did you assist them in solving the problem?
+16. Tell me about a situation where you had to take the lead and be accountable for others.
+
+
+================================================================================
+DATABASES
+================================================================================
+
+📊 Total Questions: 12
+
+🎯 What they're really testing:
+Can you design and query databases effectively?
+
+🗺️  Mental Model Framework:
+```
+
+Databases
+├─ Choose database type
+│  ├─ SQL (relational)
+│  ├─ NoSQL (document, key-value)
+│  └─ Graph, Time-series
+│
+├─ Design schema
+│  ├─ Tables/Collections
+│  ├─ Relationships
+│  ├─ Indexes
+│  └─ Normalization
+│
+├─ Write queries
+│  ├─ SELECT / WHERE
+│  ├─ JOIN
+│  ├─ GROUP BY / HAVING
+│  └─ Subqueries / CTEs
+│
+└─ Optimize
+   ├─ Indexing strategy
+   ├─ Query optimization
+   ├─ Caching
+   └─ Partitioning
+
+```
+
+📝 All 12 Questions:
+
+1. Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.
+2. Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.
+3. Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.
+4. Get the top API users based on transaction logs.
+5. Explain the key differences between BETWEEN and HAVING clauses in SQL.
+6. What is the difference between NoSQL and SQL?
+7. Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.
+8. Design the architecture to send chargeback transactions to Visa.
+9. When designing a chat application, how would you decide between using SQL and NoSQL databases?
+10. Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.
+11. Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.
+12. Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.
+
+
+================================================================================
+TESTING
+================================================================================
+
+📊 Total Questions: 11
+
+🎯 What they're really testing:
+Do you write testable, reliable code?
+
+🗺️  Mental Model Framework:
+```
+
+Testing
+├─ Test types
+│  ├─ Unit tests
+│  ├─ Integration tests
+│  ├─ End-to-end tests
+│  └─ Performance tests
+│
+├─ Write test cases
+│  ├─ Happy path
+│  ├─ Edge cases
+│  ├─ Error cases
+│  └─ Boundary conditions
+│
+├─ Test-Driven Development
+│  ├─ Write test first
+│  ├─ Make it fail
+│  ├─ Write minimal code
+│  └─ Refactor
+│
+└─ Best practices
+   ├─ Test coverage
+   ├─ Mocking/Stubbing
+   ├─ Continuous Integration
+   └─ Test maintainability
+
+```
+
+📝 All 11 Questions:
+
+1. Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...
+2. Tell me about your greatest success.
+3. How do you stay up-to-date with the latest developments in AI?
+4. In a large application, which code branches are more important to be tested and how do you decide?
+5. Design an AB test system.
+6. Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.
+7. Find the length of the shortest word ladder.
+8. Find the shortest path in a graph.
+9. Find the shortest distance between two points.
+10. What are the different types of software testing?
+11. How do you test mobile phones?
+
+
+================================================================================
+OBJECT-ORIENTED DESIGN
+================================================================================
+
+📊 Total Questions: 10
+
+🎯 What they're really testing:
+Can you design maintainable, extensible code?
+
+🗺️  Mental Model Framework:
+```
+
+Object-Oriented Design
+├─ Clarify requirements
+│  ├─ Use cases
+│  ├─ Actors
+│  └─ Constraints
+│
+├─ Identify classes
+│  ├─ Nouns → Classes
+│  ├─ Verbs → Methods
+│  └─ Relationships
+│
+├─ Define relationships
+│  ├─ Inheritance (is-a)
+│  ├─ Composition (has-a)
+│  └─ Association
+│
+├─ Apply principles
+│  ├─ Single Responsibility
+│  ├─ Open/Closed
+│  ├─ Liskov Substitution
+│  ├─ Interface Segregation
+│  └─ Dependency Inversion
+│
+└─ Consider patterns
+   ├─ Singleton
+   ├─ Factory
+   ├─ Observer
+   ├─ Strategy
+   └─ Decorator
+
+```
+
+📝 All 10 Questions:
+
+1. Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.
+2. Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.
+3. Explain the differences between an interface and an abstract class.
+4. Write a function to print 1 to n without using a loop.
+5. What is Object Oriented Programming (OOP)?
+6. How is object-oriented programming (OOP) different from procedural programming?
+7. What is encapsulation?
+8. What is the difference between inheritance and composition?
+9. What happens when the JVM Garbage Collector releases a property static of a class?
+10. Explain polymorphism.
+
+
+================================================================================
+DISTRIBUTED SYSTEMS
+================================================================================
+
+📊 Total Questions: 9
+
+🎯 What they're really testing:
+Do you understand challenges of distributed computing?
+
+🗺️  Mental Model Framework:
+```
+
+Distributed Systems
+├─ Understand requirements
+│  ├─ Scale
+│  ├─ Consistency needs
+│  └─ Availability needs
+│
+├─ Key concepts
+│  ├─ CAP Theorem
+│  ├─ Consistency models
+│  ├─ Partition tolerance
+│  └─ Eventual consistency
+│
+├─ Design patterns
+│  ├─ Sharding
+│  ├─ Replication
+│  ├─ Load balancing
+│  └─ Message queues
+│
+└─ Handle failures
+   ├─ Retry logic
+   ├─ Circuit breakers
+   ├─ Fallbacks
+   └─ Monitoring
+
+```
+
+📝 All 9 Questions:
+
+1. Design a distributed logging system.
+2. Design a system to schedule jobs in a distributed environment.
+3. Design a distributed file system.
+4. Tell me about a project where you applied the CAP theorem.
+5. Design a rate limiter for a microservices API.
+6. Explain how microservices work.
+7. Partition an array into two sub-arrays with equal sum.
+8. Design a microservices architecture using Java Spring Boot.
+9. Design a distributed training system for a trillion-parameter language model.
+
+
+================================================================================
+CODE REVIEW
+================================================================================
+
+📊 Total Questions: 7
+
+🎯 What they're really testing:
+Can you handle this aspect of software engineering?
+
+🗺️  Mental Model Framework:
+```
+
+General Approach
+├─ Understand requirements
+├─ Plan approach
+├─ Implement solution
+├─ Test thoroughly
+└─ Communicate clearly
+
+```
+
+📝 All 7 Questions:
+
+1. Tell me about a time when you received negative feedback and how you handled it.
+2. You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.
+3. Tell me about a time when you had to deliver negative feedback.
+4. Tell me about a time you gave difficult feedback to others.
+5. Tell me about a time you provided feedback that was helpful to a peer.
+6. Tell me about a time you got constructive feedback. What did you learn from it?
+7. How open are you to critical feedback? Tell me about any critical feedback you've received from past experience.
+
+
+================================================================================
+DEBUGGING
+================================================================================
+
+📊 Total Questions: 6
+
+🎯 What they're really testing:
+Can you handle this aspect of software engineering?
+
+🗺️  Mental Model Framework:
+```
+
+General Approach
+├─ Understand requirements
+├─ Plan approach
+├─ Implement solution
+├─ Test thoroughly
+└─ Communicate clearly
+
+```
+
+📝 All 6 Questions:
+
+1. Find the longest common prefix given two integer arrays.
+2. Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).
+3. Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.
+4. If GPU utilization is low during training, how would you debug and benchmark performance?
+5. How do you troubleshoot bugs in your code?
+6. Debug a build/CI system for a particular scenario or slow builds.
+
+
+================================================================================
+CONCURRENCY
+================================================================================
+
+📊 Total Questions: 5
+
+🎯 What they're really testing:
+Can you handle this aspect of software engineering?
+
+🗺️  Mental Model Framework:
+```
+
+General Approach
+├─ Understand requirements
+├─ Plan approach
+├─ Implement solution
+├─ Test thoroughly
+└─ Communicate clearly
+
+```
+
+📝 All 5 Questions:
+
+1. Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.
+2. Build a web crawler with multi-threading.
+3. Explain multithreading.
+4. What do you do if your team is blocking you?
+5. Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
+
+
+================================================================================
+SECURITY
+================================================================================
+
+📊 Total Questions: 4
+
+🎯 What they're really testing:
+Can you handle this aspect of software engineering?
+
+🗺️  Mental Model Framework:
+```
+
+General Approach
+├─ Understand requirements
+├─ Plan approach
+├─ Implement solution
+├─ Test thoroughly
+└─ Communicate clearly
+
+```
+
+📝 All 4 Questions:
+
+1. Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.
+2. Design a plan to migrate an existing authentication system to a new one.
+3. How do you balance delivery with security concerns?
+4. How much do you care about safety and security?
+
+
+================================================================================
+PERFORMANCE OPTIMIZATION
+================================================================================
+
+📊 Total Questions: 4
+
+🎯 What they're really testing:
+Can you identify and fix performance bottlenecks?
+
+🗺️  Mental Model Framework:
+```
+
+Performance Optimization
+├─ Identify bottleneck
+│  ├─ Profiling
+│  ├─ Monitoring
+│  └─ Metrics
+│
+├─ Analyze
+│  ├─ Time complexity
+│  ├─ Space complexity
+│  ├─ I/O operations
+│  └─ Network calls
+│
+├─ Optimize
+│  ├─ Algorithm improvement
+│  ├─ Caching
+│  ├─ Database indexing
+│  ├─ Lazy loading
+│  └─ Parallel processing
+│
+└─ Measure
+   ├─ Before/after metrics
+   ├─ A/B testing
+   └─ Continuous monitoring
+
+```
+
+📝 All 4 Questions:
+
+1. Design a performance tracking app for cyclists.
+2. Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...
+3. What techniques can be used to optimize write performance from memory to disk?
+4. If GPU utilization is low during training, how would you debug and benchmark performance?
+
+
+================================================================================
+SCALABILITY
+================================================================================
+
+📊 Total Questions: 2
+
+🎯 What they're really testing:
+Can you handle this aspect of software engineering?
+
+🗺️  Mental Model Framework:
+```
+
+General Approach
+├─ Understand requirements
+├─ Plan approach
+├─ Implement solution
+├─ Test thoroughly
+└─ Communicate clearly
+
+```
+
+📝 All 2 Questions:
+
+1. Present a recent project with big scale and cross-functional involvement.
+2. How do you think your supervisor will rate you from a scale of 1-10?
+
 
