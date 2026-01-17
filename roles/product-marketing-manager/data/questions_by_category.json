@@ -1,0 +1,45 @@
+{
+  "Behavioral": [
+    {
+      "question": "Tell me how you brought a product to market.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Go-To-Market Strategy": [
+    {
+      "question": "Design a GTM strategy for taking a brick-and-mortar rug store online.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Product Positioning": [
+    {
+      "question": "How did you determine your positioning was effective?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Product Launch": [
+    {
+      "question": "Tell me how you brought a product to market.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Messaging & Communication": [],
+  "Market Research": [],
+  "Competitive Analysis": [],
+  "Cross-Functional Collaboration": [
+    {
+      "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Sales Enablement": [],
+  "Customer Insights": []
+}

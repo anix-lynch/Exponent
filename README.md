@@ -13,18 +13,20 @@ This repo is organized by **role branches**:
 ```
 main (master)
 ├── roles/
-│   ├── bizops-strategy/           # BizOps & Strategy questions & frameworks
-│   ├── chief-of-staff/            # Chief of Staff questions & frameworks
-│   ├── data-analyst/              # Data Analyst questions & frameworks
-│   ├── data-engineer/             # Data Engineer questions & frameworks 🎯 #1 GOAL
-│   ├── finance-strategy/          # Finance & Strategy questions & frameworks
-│   ├── ml-engineer/               # ML Engineer questions & frameworks
-│   ├── product-manager/           # Product Manager questions & frameworks
-│   ├── program-manager/           # Program Manager questions & frameworks
-│   ├── software-engineer/         # Software Engineer questions & frameworks
-│   └── technical-program-manager/ # Technical Program Manager questions & frameworks
+│   ├── bizops-strategy/              # BizOps & Strategy questions & frameworks
+│   ├── chief-of-staff/               # Chief of Staff questions & frameworks
+│   ├── data-analyst/                 # Data Analyst questions & frameworks
+│   ├── data-engineer/                # Data Engineer questions & frameworks 🎯 #1 GOAL
+│   ├── finance-strategy/             # Finance & Strategy questions & frameworks
+│   ├── growth-marketing-manager/     # Growth Marketing Manager questions & frameworks
+│   ├── ml-engineer/                  # ML Engineer questions & frameworks
+│   ├── product-manager/              # Product Manager questions & frameworks
+│   ├── product-marketing-manager/    # Product Marketing Manager questions & frameworks
+│   ├── program-manager/              # Program Manager questions & frameworks
+│   ├── software-engineer/            # Software Engineer questions & frameworks
+│   └── technical-program-manager/    # Technical Program Manager questions & frameworks
 │
-├── README.md                      # This file
+├── README.md                         # This file
 └── .gitignore
 ```
 
@@ -116,6 +118,20 @@ main (master)
 - Source: https://www.tryexponent.com/questions?page=1&role=chief-of-staff
 
 **View**: Check `roles/chief-of-staff/`
+
+### ✅ Growth Marketing Manager (Complete)
+- **2 questions** across 1 category
+- Mental model frameworks for Growth Marketing
+- Source: https://www.tryexponent.com/questions?role=growth-marketing-manager
+
+**View**: Check `roles/growth-marketing-manager/`
+
+### ✅ Product Marketing Manager (Complete)
+- **5 questions** (sample) across 5 categories
+- Mental model frameworks for Product Marketing
+- Source: https://www.tryexponent.com/questions?role=pmm
+
+**View**: Check `roles/product-marketing-manager/`
 
 ---
 
@@ -222,6 +238,8 @@ roles/{role-name}/
 - [x] Program Manager role complete (11 questions)
 - [x] Finance & Strategy role complete (7 questions)
 - [x] Chief of Staff role complete (2 questions)
+- [x] Growth Marketing Manager role complete (2 questions)
+- [x] Product Marketing Manager role complete (5 questions sample)
 - [ ] Data Scientist role
 - [ ] Engineering Manager role
 

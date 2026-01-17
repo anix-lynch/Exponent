@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Tell me how you brought a product to market.",
+    "categories": [
+      "Product Launch",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How did you determine your positioning was effective?",
+    "categories": [
+      "Product Positioning"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Design a GTM strategy for taking a brick-and-mortar rug store online.",
+    "categories": [
+      "Go-To-Market Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
+    "categories": [
+      "Product Launch",
+      "Cross-Functional Collaboration"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  }
+]
