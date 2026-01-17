@@ -1,0 +1,100 @@
+[
+  {
+    "question": "Tell me about a time when you worked on a project with a tight deadline.",
+    "categories": [
+      "Program Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline",
+    "page": 1
+  },
+  {
+    "question": "What is the project you are most proud of?",
+    "categories": [
+      "Program Management"
+    ],
+    "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of",
+    "page": 1
+  },
+  {
+    "question": "How do you prioritize tasks?",
+    "categories": [
+      "Program Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you faced significant unexpected obstacles while working toward a key goal. How did you overcome them, and what would you do differently now?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4948/overcome-unexpected-obstacles-significant-goal",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when data helped you make a decision.",
+    "categories": [
+      "Data Analysis",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5630/when-data-helped-you-make-a-decision",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.",
+    "categories": [
+      "Program Management",
+      "Stakeholder Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4953/handle-team-enthusiasm-differences",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you led a project from start to finish.",
+    "categories": [
+      "Program Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/652/time-led-project-start-to-finish",
+    "page": 1
+  },
+  {
+    "question": "What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?",
+    "categories": [
+      "Program Management",
+      "Stakeholder Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5314/manage-low-value-stakeholder-suggestions",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?",
+    "categories": [
+      "Program Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4949/alternative-opportunity-decision-outcome",
+    "page": 1
+  },
+  {
+    "question": "What experience do you have managing global teams?",
+    "categories": [
+      "Stakeholder Management",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5065/experience-managing-global-teams",
+    "page": 1
+  },
+  {
+    "question": "Why do you want to work at LinkedIn?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3370/why-work-at-linkedin",
+    "page": 1
+  }
+]
