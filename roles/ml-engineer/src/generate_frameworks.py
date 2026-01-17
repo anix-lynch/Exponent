@@ -308,3 +308,82 @@ with open(output_file, 'w') as f:
 
 print(f"✅ Generated {output_file}")
 print(f"📊 Total: {sum(len(qs) for qs in questions_by_category.values())} questions")
+
+# Add missing frameworks
+FRAMEWORKS.update({
+    "Feature Engineering": """
+Feature Engineering
+├─ Feature selection
+│  ├─ Filter methods (correlation, chi-square)
+│  ├─ Wrapper methods (RFE)
+│  └─ Embedded methods (Lasso, tree importance)
+│
+├─ Feature extraction
+│  ├─ PCA (Principal Component Analysis)
+│  ├─ t-SNE
+│  └─ Autoencoders
+│
+├─ Feature creation
+│  ├─ Polynomial features
+│  ├─ Interaction terms
+│  └─ Domain-specific features
+│
+└─ Feature transformation
+   ├─ Scaling (standardization, normalization)
+   ├─ Encoding (one-hot, label, target)
+   └─ Binning
+""",
+
+    "Data Processing": """
+Data Processing
+├─ Data collection
+│  ├─ APIs
+│  ├─ Databases
+│  └─ Files (CSV, JSON, Parquet)
+│
+├─ Data cleaning
+│  ├─ Handle missing values
+│  ├─ Remove duplicates
+│  └─ Fix inconsistencies
+│
+├─ Data transformation
+│  ├─ Normalization
+│  ├─ Aggregation
+│  └─ Join/merge
+│
+└─ Data validation
+   ├─ Schema validation
+   ├─ Range checks
+   └─ Quality metrics
+""",
+
+    "Optimization": """
+Optimization
+├─ Gradient descent variants
+│  ├─ SGD (Stochastic Gradient Descent)
+│  ├─ Mini-batch GD
+│  └─ Batch GD
+│
+├─ Adaptive optimizers
+│  ├─ Adam (adaptive moment estimation)
+│  ├─ RMSprop
+│  └─ AdaGrad
+│
+├─ Learning rate strategies
+│  ├─ Fixed
+│  ├─ Decay (step, exponential)
+│  └─ Warmup
+│
+└─ Hyperparameter tuning
+   ├─ Grid search
+   ├─ Random search
+   └─ Bayesian optimization
+"""
+})
+
+# Add missing testing explanations
+TESTING_EXPLANATIONS.update({
+    "Feature Engineering": "Can you create effective features for ML models?",
+    "Data Processing": "Can you process and prepare data for ML?",
+    "Optimization": "Do you understand optimization techniques for ML?"
+})
