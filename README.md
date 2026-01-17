@@ -14,7 +14,8 @@ This repo is organized by **role branches**:
 main (master)
 ├── roles/
 │   ├── data-analyst/      # Data Analyst questions & frameworks
-│   └── product-manager/   # Product Manager questions & frameworks (WIP)
+│   ├── product-manager/   # Product Manager questions & frameworks
+│   └── software-engineer/ # Software Engineer questions & frameworks
 │
 ├── README.md              # This file
 └── .gitignore
@@ -25,6 +26,7 @@ main (master)
 - **`master`** - Main branch with overall documentation
 - **`data-analyst`** - Complete Data Analyst prep (118 questions) ✅
 - **`product-manager`** - Complete Product Manager prep (1,710 questions) ✅
+- **`software-engineer`** - Complete Software Engineer prep (575 questions) ✅
 
 ---
 
@@ -43,6 +45,13 @@ main (master)
 - Source: https://www.tryexponent.com/questions?page=1&role=pm
 
 **View**: Switch to `product-manager` branch or check `roles/product-manager/`
+
+### ✅ Software Engineer (Complete)
+- **575 questions** across 19 categories
+- Mental model frameworks for SWE-specific categories
+- Source: https://www.tryexponent.com/questions?page=1&role=swe
+
+**View**: Switch to `software-engineer` branch or check `roles/software-engineer/`
 
 ---
 
