@@ -100,7 +100,7 @@ python3 src/generate_frameworks.py
 ## 📚 Resources
 
 - **Source**: [Exponent DA Questions](https://www.tryexponent.com/questions?role=data-analyst&src=nav)
-- **GitHub Repo**: [Exponent Interview Prep](https://github.com/anix-lynch/Exponent_DataAnalyst_interview)
+- **GitHub Repo**: [Exponent Interview Prep](https://github.com/anix-lynch/Exponent)
 
 ---
 

@@ -101,7 +101,7 @@ python3 src/generate_frameworks.py
 ## 📚 Resources
 
 - **Source**: [Exponent PM Questions](https://www.tryexponent.com/questions?page=1&role=pm)
-- **GitHub Repo**: [Exponent Interview Prep](https://github.com/anix-lynch/Exponent_DataAnalyst_interview)
+- **GitHub Repo**: [Exponent Interview Prep](https://github.com/anix-lynch/Exponent)
 
 ---
 

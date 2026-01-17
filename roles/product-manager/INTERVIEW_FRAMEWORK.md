@@ -2,7 +2,7 @@
 
 ## 📚 Resources
 
-**GitHub Repo**: https://github.com/anix-lynch/Exponent_DataAnalyst_interview
+**GitHub Repo**: https://github.com/anix-lynch/Exponent
 
 **Source**: https://www.tryexponent.com/questions?page=1&role=pm
 

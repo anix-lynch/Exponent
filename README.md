@@ -151,7 +151,7 @@ roles/{role-name}/
 ## 📚 Resources
 
 - **Source**: [Exponent.com](https://www.tryexponent.com/questions)
-- **GitHub**: https://github.com/anix-lynch/Exponent_DataAnalyst_interview
+- **GitHub**: https://github.com/anix-lynch/Exponent
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Notion Page**: [DATA ANALYST Mental Model](https://www.notion.so/DATA-ANALYST-Mental-Model-2ebae09b6cbd8043aa7cc0eb80800411?pvs=21)
 
-**GitHub Repo**: https://github.com/anix-lynch/Exponent_DataAnalyst_interview
+**GitHub Repo**: https://github.com/anix-lynch/Exponent
 
 **Source**: https://www.tryexponent.com/questions?role=data-analyst&src=nav
 
