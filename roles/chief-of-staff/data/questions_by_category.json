@@ -1,0 +1,27 @@
+{
+  "Behavioral": [
+    {
+      "question": "Tell me about a time when you provided important feedback.",
+      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+    },
+    {
+      "question": "Tell me about a time when you helped someone in need.",
+      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+    }
+  ],
+  "Leadership": [],
+  "Strategic Planning": [],
+  "Communication": [
+    {
+      "question": "Tell me about a time when you provided important feedback.",
+      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+    }
+  ],
+  "Cross-Functional Collaboration": [
+    {
+      "question": "Tell me about a time when you helped someone in need.",
+      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+    }
+  ],
+  "Problem Solving": []
+}

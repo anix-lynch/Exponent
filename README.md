@@ -14,6 +14,7 @@ This repo is organized by **role branches**:
 main (master)
 ├── roles/
 │   ├── bizops-strategy/           # BizOps & Strategy questions & frameworks
+│   ├── chief-of-staff/            # Chief of Staff questions & frameworks
 │   ├── data-analyst/              # Data Analyst questions & frameworks
 │   ├── data-engineer/             # Data Engineer questions & frameworks 🎯 #1 GOAL
 │   ├── finance-strategy/          # Finance & Strategy questions & frameworks
@@ -108,6 +109,13 @@ main (master)
 - Source: https://www.tryexponent.com/questions?role=finance-strategy
 
 **View**: Check `roles/finance-strategy/`
+
+### ✅ Chief of Staff (Complete)
+- **2 questions** across 3 categories
+- Mental model frameworks for Chief of Staff
+- Source: https://www.tryexponent.com/questions?page=1&role=chief-of-staff
+
+**View**: Check `roles/chief-of-staff/`
 
 ---
 
@@ -213,6 +221,7 @@ roles/{role-name}/
 - [x] BizOps & Strategy role complete (97 questions)
 - [x] Program Manager role complete (11 questions)
 - [x] Finance & Strategy role complete (7 questions)
+- [x] Chief of Staff role complete (2 questions)
 - [ ] Data Scientist role
 - [ ] Engineering Manager role
 
