@@ -1,0 +1,2025 @@
+[
+  {
+    "question": "Tell me about a time when you made short-term sacrifices for long-term gains.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/653/time-short-term-sacrifices-long-term-gains",
+    "page": 1
+  },
+  {
+    "question": "Design an ML experiment tracking and analysis platform.",
+    "categories": [
+      "MLOps",
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5883/design-ml-experiment-tracking-analysis-platform",
+    "page": 1
+  },
+  {
+    "question": "Why do you think we should not hire you?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4629/why-no-hire",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you handled a difficult stakeholder.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/551/time-handled-difficult-stakeholder",
+    "page": 1
+  },
+  {
+    "question": "Design an inference batching system for a single GPU that can handle up to 100 inputs per batch while users wait synchronously, maximizing utilization under compute constraints.",
+    "categories": [
+      "Model Deployment",
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5780/inference-batching-system",
+    "page": 1
+  },
+  {
+    "question": "Edit distance",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3891/edit-distance",
+    "page": 1
+  },
+  {
+    "question": "What methods or metrics did you use to evaluate how well your LLM performs?",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5677/evaluate-llm-performance",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you worked on a project with a tight deadline.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline",
+    "page": 1
+  },
+  {
+    "question": "Design an end-to-end ML solution to detect ads selling weapons.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5050/design-ml-detect-ads-selling-weapons",
+    "page": 1
+  },
+  {
+    "question": "Design an evaluation framework for ads ranking.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3095/design-evaluation-framework-ads-ranking",
+    "page": 1
+  },
+  {
+    "question": "Design a next word prediction system.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/4439/design-a-next-word-prediction-system",
+    "page": 1
+  },
+  {
+    "question": "What metrics would you track to evaluate the performance of your ML pipeline?",
+    "categories": [
+      "MLOps"
+    ],
+    "url": "https://www.tryexponent.com/questions/5620/evaluate-ml-pipeline-performance",
+    "page": 1
+  },
+  {
+    "question": "Reverse a linked list.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you solved a complex problem and how you went about it.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem",
+    "page": 1
+  },
+  {
+    "question": "Tell me about yourself.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself",
+    "page": 1
+  },
+  {
+    "question": "Design a denoising system for sounds.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5279/design-denoising-system",
+    "page": 1
+  },
+  {
+    "question": "Tell me about your past projects.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4229/past-projects",
+    "page": 1
+  },
+  {
+    "question": "What's the effect of adjusting an LLM's context window size?",
+    "categories": [
+      "LLMs",
+      "Natural Language Processing"
+    ],
+    "url": "https://www.tryexponent.com/questions/5612/adjust-llm-context-window-size",
+    "page": 1
+  },
+  {
+    "question": "What are the different types of machine learning?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5580/types-of-machine-learning",
+    "page": 1
+  },
+  {
+    "question": "What Gen AI skills do you think will be critical in the next year?",
+    "categories": [
+      "Generative AI"
+    ],
+    "url": "https://www.tryexponent.com/questions/5683/future-gen-ai-skills",
+    "page": 1
+  },
+  {
+    "question": "How do you prioritize tasks?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
+    "page": 2
+  },
+  {
+    "question": "How would you handle hallucinations in a generative AI model deployed to users?",
+    "categories": [
+      "Generative AI",
+      "Model Deployment"
+    ],
+    "url": "https://www.tryexponent.com/questions/5611/handle-hallucinations-deployed-ai-model",
+    "page": 2
+  },
+  {
+    "question": "Design a product recommendation system.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3094/design-product-recommendation-system",
+    "page": 2
+  },
+  {
+    "question": "Implement LRU Cache.",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/3625/lru-cache",
+    "page": 2
+  },
+  {
+    "question": "Design an agentic AI system that can autonomously adapt to new tasks.",
+    "categories": [
+      "System Design",
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5606/design-agentic-ai-system",
+    "page": 2
+  },
+  {
+    "question": "Design a system to detect bot players.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/4987/design-system-detect-bot",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time you convinced someone to change their mind.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/227/convince-someone-change-mind",
+    "page": 2
+  },
+  {
+    "question": "Why do you want to work at Anthropic?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5596/why-anthropic",
+    "page": 2
+  },
+  {
+    "question": "Design a language detection system.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/4546/machine-learning-language-detection-system-design",
+    "page": 2
+  },
+  {
+    "question": "Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4646/house-robber",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time when you received negative feedback and how you handled it.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/775/negative-feedback-how-handled",
+    "page": 2
+  },
+  {
+    "question": "What types of team members do you find difficult to work with?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4633/difficult-team-members",
+    "page": 2
+  },
+  {
+    "question": "What's your approach to prompt engineering?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5603/prompt-engineering-approach",
+    "page": 2
+  },
+  {
+    "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k",
+    "page": 2
+  },
+  {
+    "question": "What are the ethical risks of deploying agentic AI systems in high-stakes environments?",
+    "categories": [
+      "Model Deployment",
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5605/agentic-ai-systems-ethical-risk",
+    "page": 2
+  },
+  {
+    "question": "Find the longest substring without repeating characters.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3260/longest-substring-without-repeat",
+    "page": 2
+  },
+  {
+    "question": "Define hallucinations in LLMs.",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5610/define-llm-hallucinations",
+    "page": 2
+  },
+  {
+    "question": "Design a system that offers discounts to customers.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5403/system-design-offer-customers-discounts",
+    "page": 2
+  },
+  {
+    "question": "Group anagrams",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4676/group-anagrams",
+    "page": 2
+  },
+  {
+    "question": "Tell us about an app you don't like to use. How would you improve the app?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4875/app-dislike-improvement",
+    "page": 2
+  },
+  {
+    "question": "Design a personalized news ranking system.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3093/design-personalized-news-ranking-system",
+    "page": 3
+  },
+  {
+    "question": "Why do you want to work at Meta?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3243/why-work-at-meta",
+    "page": 3
+  },
+  {
+    "question": "How is gradient descent and model optimization used in linear regression?",
+    "categories": [
+      "Deep Learning",
+      "Optimization",
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4359/gradient-descent-and-model-optimization",
+    "page": 3
+  },
+  {
+    "question": "Design a system that recommends the next Confluence pages a user should view.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5457/design-confluence-page-recommender",
+    "page": 3
+  },
+  {
+    "question": "Why do you want to work at Google?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/1377/why-work-at-google",
+    "page": 3
+  },
+  {
+    "question": "Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/4214/balance-parentheses-minimum-removals",
+    "page": 3
+  },
+  {
+    "question": "Reverse a Sentence",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence",
+    "page": 3
+  },
+  {
+    "question": "How would you adapt a generative AI model to perform well in a specific domain?",
+    "categories": [
+      "Generative AI"
+    ],
+    "url": "https://www.tryexponent.com/questions/5608/adapt-gen-ai-model-for-domain",
+    "page": 3
+  },
+  {
+    "question": "Merge Intervals",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1602/merge-intervals",
+    "page": 3
+  },
+  {
+    "question": "What are the challenges in ensuring generative AI doesn\u2019t produce harmful or unsafe content, and how would you address them?",
+    "categories": [
+      "Generative AI"
+    ],
+    "url": "https://www.tryexponent.com/questions/5607/gen-ai-address-harmful-content",
+    "page": 3
+  },
+  {
+    "question": "What are the risks of assuming LLMs think or feel like humans?",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5600/anthropomorphizing-llms-risks",
+    "page": 3
+  },
+  {
+    "question": "Why is a deep neural network better than a shallow neural network?",
+    "categories": [
+      "Deep Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4043/deep-vs-shallow-neural-network",
+    "page": 3
+  },
+  {
+    "question": "Given a head node of a linked list, delete k-th node from the end of the list.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4847/remove-kth-node-linked-list",
+    "page": 3
+  },
+  {
+    "question": "Valid Parentheses",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3447/valid-parentheses",
+    "page": 3
+  },
+  {
+    "question": "Given an array of points and a point P, find the k closest points to P.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4289/find-k-closest-points-array",
+    "page": 3
+  },
+  {
+    "question": "How do you select input for modeling if there are features highly correlated with each other?",
+    "categories": [
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/4358/select-input-modeling-handling-multicollinearity",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a technical challenge that you have overcome.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome",
+    "page": 3
+  },
+  {
+    "question": "Move all zeros to the end of an array.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array",
+    "page": 3
+  },
+  {
+    "question": "Why do you want to work at OpenAI?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4608/why-openai",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a time when you had to solve a difficult problem.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/462/solving-difficult-problem-interview-question",
+    "page": 3
+  },
+  {
+    "question": "Course Schedule",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3313/course-schedule",
+    "page": 4
+  },
+  {
+    "question": "Design a fake news detection system.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/1982/design-fake-news-detection-system",
+    "page": 4
+  },
+  {
+    "question": "Design Facebook Marketplace.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4162/design-facebook-marketplace",
+    "page": 4
+  },
+  {
+    "question": "Explain the differences between linear and logistic regression.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3500/differences-linear-logistic-regression",
+    "page": 4
+  },
+  {
+    "question": "Product of Array Except Self",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i",
+    "page": 4
+  },
+  {
+    "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock",
+    "page": 4
+  },
+  {
+    "question": "Sort a list of natural numbers and their squares in the most efficient way possible.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3503/efficient-sorting-natural-numbers-squares",
+    "page": 4
+  },
+  {
+    "question": "Why do you want to work at Visa?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4627/why-visa",
+    "page": 4
+  },
+  {
+    "question": "Explain Bayes' theorem.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3405/explain-bayes-theorem",
+    "page": 4
+  },
+  {
+    "question": "Design a color propensity model for sponsored products ads at Amazon.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/4523/amazon-ads-color-prediction-model",
+    "page": 4
+  },
+  {
+    "question": "Implement k-means clustering.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1679/implement-k-means-clustering",
+    "page": 4
+  },
+  {
+    "question": "Design a monitoring system for TikTok.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3096/design-monitoring-system-tiktok",
+    "page": 4
+  },
+  {
+    "question": "Find the Duplicates",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3056/find-the-duplicates",
+    "page": 4
+  },
+  {
+    "question": "Design the 'For You' page on TikTok.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3497/design-for-you-page-tiktok",
+    "page": 4
+  },
+  {
+    "question": "Describe a challenging project you worked on and what made it difficult.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/939/challenging-project-description",
+    "page": 4
+  },
+  {
+    "question": "Design an automated comment moderation system.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3440/design-automated-comment-moderation-system",
+    "page": 4
+  },
+  {
+    "question": "Design a search system that adapts to constantly changing user interests.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5615/design-search-system-adapting-to-user-interests",
+    "page": 4
+  },
+  {
+    "question": "How would you design an effective chunking strategy for information in a RAG (Retrieval-Augmented Generation) system?",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5675/design-rag-chunking-strategy",
+    "page": 4
+  },
+  {
+    "question": "Explain the differences between stack and heap memory allocation.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences",
+    "page": 4
+  },
+  {
+    "question": "How do you select the value of 'k' in the k-means algorithm?",
+    "categories": [
+      "Coding",
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/3477/select-value-of-k-k-means-algorithm",
+    "page": 4
+  },
+  {
+    "question": "Implement a k-nearest neighbors algorithm.",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/3489/implement-k-nearest-neighbors-algorithm",
+    "page": 5
+  },
+  {
+    "question": "Design the 'Top Picks' feature for Netflix.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3436/design-netflix-top-picks-feature",
+    "page": 5
+  },
+  {
+    "question": "How do you stay up-to-date with the latest developments in AI?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai",
+    "page": 5
+  },
+  {
+    "question": "Find the median of two sorted arrays.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays",
+    "page": 5
+  },
+  {
+    "question": "Extract and clean a usable dataset from a provided company demo database using only SQL and Python.",
+    "categories": [
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/5787/extract-clean-usable-dataset",
+    "page": 5
+  },
+  {
+    "question": "If you discovered that your model was exposing sensitive data from its training set, what would you do next?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5601/handle-model-exposing-data-from-training-set",
+    "page": 5
+  },
+  {
+    "question": "Find Largest Numbers",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3623/find-largest-numbers",
+    "page": 5
+  },
+  {
+    "question": "What is your leadership style?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/850/what-is-your-leadership-style",
+    "page": 5
+  },
+  {
+    "question": "Given an nxn grid of 1s and 0s, return the number of islands in the input.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1420/number-islands",
+    "page": 5
+  },
+  {
+    "question": "Design a recommendation engine.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3449/design-recommendation-engine",
+    "page": 5
+  },
+  {
+    "question": "Find a triplet in an array with a given sum.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum",
+    "page": 5
+  },
+  {
+    "question": "Given an array, find the two sum.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1164/find-two-sum",
+    "page": 5
+  },
+  {
+    "question": "How would you determine the right criteria for when to forget outdated data, update the model, and evaluate performance?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5616/determine-criteria-to-update-model",
+    "page": 5
+  },
+  {
+    "question": "Design a system to communicate with a bank.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3414/design-system-bank-communication",
+    "page": 5
+  },
+  {
+    "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection",
+    "page": 5
+  },
+  {
+    "question": "Why do you want to work at Atlassian?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5577/why-atlassian",
+    "page": 5
+  },
+  {
+    "question": "Linked List Cycle",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle",
+    "page": 5
+  },
+  {
+    "question": "What parts of OpenAI's mission statement resonate with you?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement",
+    "page": 5
+  },
+  {
+    "question": "Given the root of a binary tree of integers, return the maximum path sum.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum",
+    "page": 5
+  },
+  {
+    "question": "Write a function to return all prime numbers up to a given number n.",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/3629/prime-numbers",
+    "page": 5
+  },
+  {
+    "question": "Given a list of strings, find all strings that encode to the same value using a Caesar Cipher. (A Caesar Cipher rotates characters, e.g. in CC3: a->d, b->e, ..., z->c)",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/4246/find-strings-same-caesar-cipher-encoding",
+    "page": 6
+  },
+  {
+    "question": "What risks might arise from deploying AI systems, and how can they be addressed?",
+    "categories": [
+      "Model Deployment"
+    ],
+    "url": "https://www.tryexponent.com/questions/4614/ai-system-risk-mitigation",
+    "page": 6
+  },
+  {
+    "question": "Longest Increasing Subsequence",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5245/coding-longest-increasing-subsequence",
+    "page": 6
+  },
+  {
+    "question": "How would you design a system for a healthcare agent that summarizes a patient\u2019s medical history?",
+    "categories": [
+      "System Design",
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5674/design-ai-healthcare-agent",
+    "page": 6
+  },
+  {
+    "question": "What is overfitting or underfitting? Which models are most likely to experience this, and why?",
+    "categories": [
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3736/understanding-overfitting-underfitting-model-risks",
+    "page": 6
+  },
+  {
+    "question": "Design a machine learning system that makes stock predictions from Reddit comments.",
+    "categories": [
+      "System Design",
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3530/design-machine-learning-system-stock-predictions-reddit-comments",
+    "page": 6
+  },
+  {
+    "question": "Generate Parentheses",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1594/generate-parentheses",
+    "page": 6
+  },
+  {
+    "question": "Build a Calculator",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3632/calculator",
+    "page": 6
+  },
+  {
+    "question": "Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but ...",
+    "categories": [
+      "Model Deployment",
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5788/fix-overly-confident-model",
+    "page": 6
+  },
+  {
+    "question": "Design an indexer and a retriever",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/5053/design-indexer-and-retriever",
+    "page": 6
+  },
+  {
+    "question": "Given a string with parentheses, write a function that removes the minimum number of characters to balance the parentheses.",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/4537/balance-parentheses-string-manipulation",
+    "page": 6
+  },
+  {
+    "question": "Design a task scheduler in Python.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3504/design-task-scheduler-python",
+    "page": 6
+  },
+  {
+    "question": "How do you adjust the creativity of generative AI models?",
+    "categories": [
+      "Generative AI"
+    ],
+    "url": "https://www.tryexponent.com/questions/5609/adjust-gen-ai-model-creativity",
+    "page": 6
+  },
+  {
+    "question": "Design Instagram's Explore page.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3439/design-instagram-explore-page",
+    "page": 6
+  },
+  {
+    "question": "Design spam detection on Pinterest.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3482/design-spam-detection-pinterest",
+    "page": 6
+  },
+  {
+    "question": "Design an auto-complete feature.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3433/design-auto-complete-feature",
+    "page": 6
+  },
+  {
+    "question": "Construct a binary tree given its preorder and inorder traversals.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3417/construct-binary-tree-preorder-inorder-traversal",
+    "page": 6
+  },
+  {
+    "question": "Design a recommender system feature for Dropbox that suggests files to users when they open the app on their phone.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3898/design-recommender-system-dropbox",
+    "page": 6
+  },
+  {
+    "question": "Tell me about your current role.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3262/describe-your-current-role",
+    "page": 6
+  },
+  {
+    "question": "How would you design or implement memory in an AI agent?",
+    "categories": [
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5676/design-memory-ai-agent",
+    "page": 6
+  },
+  {
+    "question": "Transform an input string into a target tokenized sequence using a tree/graph-based algorithm. Embeddings must be simulated (no ML models allowed). Validate the final output.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/5829/transform-input-string-to-target-tokenized-sequence",
+    "page": 7
+  },
+  {
+    "question": "Detect the language of a text input.",
+    "categories": [
+      "Natural Language Processing"
+    ],
+    "url": "https://www.tryexponent.com/questions/3295/detect-language-text-input",
+    "page": 7
+  },
+  {
+    "question": "Merge k sorted linked lists.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists",
+    "page": 7
+  },
+  {
+    "question": "Given two strings of equal length, determine if it's possible to form a palindrome by cutting them in half.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3502/form-palindrome-from-strings",
+    "page": 7
+  },
+  {
+    "question": "Sort Colors",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4677/sort-colors",
+    "page": 7
+  },
+  {
+    "question": "Explain deep reinforcement learning.",
+    "categories": [
+      "Reinforcement Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4610/explain-deep-reinforcement-learning",
+    "page": 7
+  },
+  {
+    "question": "Roman to Integer",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4680/roman-to-integer",
+    "page": 7
+  },
+  {
+    "question": "How do you keep users\u2019 data safe and private when building AI systems?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5602/build-ai-systems-data-safety-privacy",
+    "page": 7
+  },
+  {
+    "question": "Tell me about a project you worked on.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3253/describe-a-project-experience",
+    "page": 7
+  },
+  {
+    "question": "Explain Deep Learning to a non-technical audience.",
+    "categories": [
+      "Deep Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/541/explain-deep-learning-non-technical-audience",
+    "page": 7
+  },
+  {
+    "question": "Given a list of lexicographically sorted strings in an unknown language, derive the correct order of letters in that language's alphabet.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/5432/coding-lexicographic-order-unknown-language-alphabet",
+    "page": 7
+  },
+  {
+    "question": "Design YouTube advertising.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3448/design-youtube-advertising",
+    "page": 7
+  },
+  {
+    "question": "How do you stay up to date with advancements in machine learning?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3410/staying-updated-machine-learning-advancements",
+    "page": 7
+  },
+  {
+    "question": "Search in rotated sorted array",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array",
+    "page": 7
+  },
+  {
+    "question": "Write a function that takes an array of integers and checks for duplicate values in any contiguous window of size N.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4245/check-duplicate-values-contiguous-window",
+    "page": 7
+  },
+  {
+    "question": "Design an ML monitoring system for a fantasy sports app, focusing on drift, performance, outliers, and quality.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3177/design-ml-monitoring-system-fantasy-sports",
+    "page": 7
+  },
+  {
+    "question": "How would you explain machine learning to your grandmother?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3428/explain-machine-learning-grandmother",
+    "page": 7
+  },
+  {
+    "question": "Find the maximum subarray sum.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum",
+    "page": 7
+  },
+  {
+    "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4325/spiral-matrix",
+    "page": 7
+  },
+  {
+    "question": "What is your favorite Facebook product and why?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/774/favorite-facebook-product",
+    "page": 7
+  },
+  {
+    "question": "How would you decide between using an open-source model in-house versus a commercial API like OpenAI or Claude?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5673/in-house-vs-commercial-gen-ai",
+    "page": 8
+  },
+  {
+    "question": "Suppose your generative model needs to process very long inputs that exceed typical context limits. How would you approach managing or compressing that information effectively?",
+    "categories": [
+      "Model Evaluation",
+      "Generative AI",
+      "Natural Language Processing"
+    ],
+    "url": "https://www.tryexponent.com/questions/5672/gen-ai-handle-large-context",
+    "page": 8
+  },
+  {
+    "question": "Determine if a given binary tree is a binary search tree (BST).",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst",
+    "page": 8
+  },
+  {
+    "question": "Describe your machine learning experience.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3399/describe-machine-learning-experience",
+    "page": 8
+  },
+  {
+    "question": "Find the first common ancestor of two nodes in a binary tree.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4538/binary-tree-first-common-ancestor",
+    "page": 8
+  },
+  {
+    "question": "Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3438/largest-island-perimeter-2d-array",
+    "page": 8
+  },
+  {
+    "question": "How would you explain computer vision to your grandmother?",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3510/explain-computer-vision-grandmother",
+    "page": 8
+  },
+  {
+    "question": "Describe the distribution between the 5th and 6th points in an interval from 0 to 1 containing ten uniformly distributed points.",
+    "categories": [
+      "Statistics & Probability"
+    ],
+    "url": "https://www.tryexponent.com/questions/3528/describe-distribution-between-points-uniformly-distributed-interval",
+    "page": 8
+  },
+  {
+    "question": "What is cloud gaming?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4601/what-is-cloud-gaming",
+    "page": 8
+  },
+  {
+    "question": "Explain how LLMs might be susceptible to adversarial attacks.",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/4287/llm-adversarial-attacks",
+    "page": 8
+  },
+  {
+    "question": "Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).",
+    "categories": [
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3427/difference-cnn-rnn",
+    "page": 8
+  },
+  {
+    "question": "Improve a given system with your specialization: recommendations, natural language processing, or computer vision.",
+    "categories": [
+      "Model Evaluation",
+      "Computer Vision",
+      "Natural Language Processing"
+    ],
+    "url": "https://www.tryexponent.com/questions/3509/improve-system-specialization",
+    "page": 8
+  },
+  {
+    "question": "What other companies are you interviewing at and why?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies",
+    "page": 8
+  },
+  {
+    "question": "Design a product for job search on Facebook.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/2201/design-job-search-product-facebook",
+    "page": 8
+  },
+  {
+    "question": "Tell me about a system design problem you solved with machine learning.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3411/machine-learning-system-design-problem-solution",
+    "page": 8
+  },
+  {
+    "question": "What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?",
+    "categories": [
+      "Model Deployment"
+    ],
+    "url": "https://www.tryexponent.com/questions/5619/testing-ai-models-in-production",
+    "page": 8
+  },
+  {
+    "question": "Explain how you would fit data using logistic regression.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3429/fit-data-logistic-regression",
+    "page": 8
+  },
+  {
+    "question": "Describe a time you displayed 'Googlyness' in your work.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3507/describe-time-displayed-googlyness",
+    "page": 8
+  },
+  {
+    "question": "Explain BERT.",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/3478/explain-bert",
+    "page": 8
+  },
+  {
+    "question": "Why do you want to work at Walmart Labs?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs",
+    "page": 8
+  },
+  {
+    "question": "Implement Trie",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/3441/implement-trie",
+    "page": 9
+  },
+  {
+    "question": "Sudoku Solver",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3057/sudoku-solver",
+    "page": 9
+  },
+  {
+    "question": "Design a system that filters waste by detecting paper and putting it in the correct bin.",
+    "categories": [
+      "System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3092/design-system-filter-waste-detect-paper",
+    "page": 9
+  },
+  {
+    "question": "Explain bias-variance tradeoff.",
+    "categories": [
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3496/explain-bias-variance-tradeoff",
+    "page": 9
+  },
+  {
+    "question": "Can you implement batch normalization using NumPy?",
+    "categories": [
+      "Deep Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3425/implement-batch-normalization-numpy",
+    "page": 9
+  },
+  {
+    "question": "Calculate the trapped rainwater between bars in a given array.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars",
+    "page": 9
+  },
+  {
+    "question": "Display job postings to users in the same city based on their previous searches.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3398/display-job-postings-based-on-search-history",
+    "page": 9
+  },
+  {
+    "question": "Explain a typical computer vision pipeline.",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3526/explain-computer-vision-pipeline",
+    "page": 9
+  },
+  {
+    "question": "Explain semi-supervised learning.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3422/explain-semi-supervised-learning",
+    "page": 9
+  },
+  {
+    "question": "Explain auto-regression.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3426/explain-auto-regression",
+    "page": 9
+  },
+  {
+    "question": "What metrics do you monitor after deploying a machine learning model?",
+    "categories": [
+      "Model Deployment",
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3529/metrics-monitor-after-deploying-machine-learning-model",
+    "page": 9
+  },
+  {
+    "question": "Present a past AI-focused solution that you've worked on.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5830/present-past-ai-focused-solution",
+    "page": 9
+  },
+  {
+    "question": "How would you build an object detection system to identify and locate flowers in images?",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/4108/build-object-detection-flowers",
+    "page": 9
+  },
+  {
+    "question": "Tell me about a machine learning project you worked on.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3407/discuss-machine-learning-project-experience",
+    "page": 9
+  },
+  {
+    "question": "Find the common ancestors in a tree.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3443/find-common-ancestors-tree",
+    "page": 9
+  },
+  {
+    "question": "Why do you want to join Amazon?",
+    "categories": [
+      "SQL"
+    ],
+    "url": "https://www.tryexponent.com/questions/936/why-join-amazon",
+    "page": 9
+  },
+  {
+    "question": "Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4416/binary-tree-vertical-order-traversal",
+    "page": 9
+  },
+  {
+    "question": "Explain the differences between L1 and L2 regression.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3479/differences-l1-l2-regression",
+    "page": 9
+  },
+  {
+    "question": "Explain the differences between ReLU and Sigmoid.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3484/differences-relu-sigmoid",
+    "page": 9
+  },
+  {
+    "question": "Build a Basic Regex Parser",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser",
+    "page": 9
+  },
+  {
+    "question": "How do you manage projects under pressure?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3406/manage-projects-under-pressure",
+    "page": 10
+  },
+  {
+    "question": "Explain transformers.",
+    "categories": [
+      "LLMs"
+    ],
+    "url": "https://www.tryexponent.com/questions/3495/explain-transformers",
+    "page": 10
+  },
+  {
+    "question": "Given a Directed Acyclic Graph (DAG), write a function to return the length of the longest path.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3434/find-longest-path-in-dag",
+    "page": 10
+  },
+  {
+    "question": "Given an array of points on a plane (x,y), write a function to return the distance between the closest pair of points.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4630/closest-pair",
+    "page": 10
+  },
+  {
+    "question": "Determine the minimum number of parentheses needed to balance a given string.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3430/minimum-parentheses-balance-string",
+    "page": 10
+  },
+  {
+    "question": "How would you efficiently sort a list of numbers?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3505/efficiently-sort-list-of-numbers",
+    "page": 10
+  },
+  {
+    "question": "What trends and challenges are in your ML specialty?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3508/trends-challenges-ml-specialty",
+    "page": 10
+  },
+  {
+    "question": "Explain the differences between nonconvex and convex functions.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3483/differences-nonconvex-convex-functions",
+    "page": 10
+  },
+  {
+    "question": "Why do you want to work at Pinterest?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3481/why-work-at-pinterest",
+    "page": 10
+  },
+  {
+    "question": "Design a data structure that supports insert, delete, search, and retrieve in constant time.",
+    "categories": [
+      "ML System Design"
+    ],
+    "url": "https://www.tryexponent.com/questions/3444/design-data-structure-constant-time-operations",
+    "page": 10
+  },
+  {
+    "question": "Explain TF-IDF.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3512/explain-tf-idf",
+    "page": 10
+  },
+  {
+    "question": "Tell me about your experience with computer vision.",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3524/experience-computer-vision",
+    "page": 10
+  },
+  {
+    "question": "Given imbalanced training data, how do you prevent overfitting?",
+    "categories": [
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3420/prevent-overfitting-imbalanced-training-data",
+    "page": 10
+  },
+  {
+    "question": "Determine if an array of integers from 1 to n contains a duplicate in constant time and space.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/965/check-duplicates-in-array-constant-space",
+    "page": 10
+  },
+  {
+    "question": "Why do you want to work at Salesforce?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce",
+    "page": 10
+  },
+  {
+    "question": "How do you handle imbalanced data?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3531/handle-imbalanced-data",
+    "page": 10
+  },
+  {
+    "question": "Tell me about your experience with natural language processing.",
+    "categories": [
+      "Model Evaluation",
+      "Natural Language Processing"
+    ],
+    "url": "https://www.tryexponent.com/questions/3525/experience-natural-language-processing",
+    "page": 10
+  },
+  {
+    "question": "Coin Change",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1142/coin-change",
+    "page": 10
+  },
+  {
+    "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree",
+    "page": 10
+  },
+  {
+    "question": "For a dataset with a million data points, would you use a DNN or KNN? Why?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3480/choice-between-dnn-knn-large-dataset",
+    "page": 11
+  },
+  {
+    "question": "Given a biased coin function, write another function to make it return heads or tails with equal probability.",
+    "categories": [
+      "Statistics & Probability"
+    ],
+    "url": "https://www.tryexponent.com/questions/3397/create-unbiased-coin-from-biased",
+    "page": 11
+  },
+  {
+    "question": "How does a graphics processing unit (GPU) work?",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4606/how-does-a-gpu-work",
+    "page": 11
+  },
+  {
+    "question": "Find the longest palindromic subsequence using dynamic programming.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming",
+    "page": 11
+  },
+  {
+    "question": "What is a perceptron?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3476/what-is-perceptron",
+    "page": 11
+  },
+  {
+    "question": "Tell me about a time when you worked with a difficult team member in a research setting.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/3409/dealing-with-difficult-team-member-research",
+    "page": 11
+  },
+  {
+    "question": "How would you train a model on a large dataset with few labels?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3421/train-model-large-dataset-few-labels",
+    "page": 11
+  },
+  {
+    "question": "How do you choose a loss function for a machine learning problem?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3533/choose-loss-function-machine-learning",
+    "page": 11
+  },
+  {
+    "question": "What are some effective loss functions for computer vision models?",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3423/effective-loss-functions-computer-vision",
+    "page": 11
+  },
+  {
+    "question": "What is your experience with machine learning?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/2322/experience-with-machine-learning",
+    "page": 11
+  },
+  {
+    "question": "Tell me about a machine learning project you worked on and its outcome.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3415/machine-learning-project-outcome",
+    "page": 11
+  },
+  {
+    "question": "Explain data drifting.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3486/explain-data-drifting",
+    "page": 11
+  },
+  {
+    "question": "Explain overfitting.",
+    "categories": [
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3487/explain-overfitting",
+    "page": 11
+  },
+  {
+    "question": "Efficiently find the next greatest element in an array.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3442/find-next-greatest-element-array",
+    "page": 11
+  },
+  {
+    "question": "Explain normalization and Bayes' theorem.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3424/explain-normalization-bayes-theorem",
+    "page": 11
+  },
+  {
+    "question": "Describe your experience with PyTorch.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3418/describe-experience-pytorch",
+    "page": 11
+  },
+  {
+    "question": "Explain the relationship between the log-likelihood loss function for logistic regression and maximum likelihood estimation.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3400/explain-log-likelihood-logistic-regression",
+    "page": 11
+  },
+  {
+    "question": "Describe your ideal work environment.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/5041/ideal-work-environment",
+    "page": 11
+  },
+  {
+    "question": "Explain how you choose a model or algorithm to solve a problem.",
+    "categories": [
+      "Coding"
+    ],
+    "url": "https://www.tryexponent.com/questions/3513/choose-model-algorithm-problem-solving",
+    "page": 11
+  },
+  {
+    "question": "How do convolutional neural networks (CNNs) differ from traditional neural networks in processing image data?",
+    "categories": [
+      "Deep Learning",
+      "Computer Vision",
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3532/differences-cnn-traditional-neural-networks-image-processing",
+    "page": 11
+  },
+  {
+    "question": "Tell me about a machine learning research topic you find interesting.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3475/interesting-machine-learning-research-topic",
+    "page": 12
+  },
+  {
+    "question": "Find the dot product of two sparse vectors.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3432/dot-product-sparse-vectors",
+    "page": 12
+  },
+  {
+    "question": "How do you handle the trade-off between detection accuracy and computational efficiency in a rotated object detection task?",
+    "categories": [
+      "Computer Vision",
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3527/handle-trade-off-detection-accuracy-computational-efficiency-rotated-object-detection",
+    "page": 12
+  },
+  {
+    "question": "Explain how you handle data scarcity.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3446/handle-data-scarcity",
+    "page": 12
+  },
+  {
+    "question": "How do you test your machine learning models for production?",
+    "categories": [
+      "Model Deployment",
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3435/test-machine-learning-models-production",
+    "page": 12
+  },
+  {
+    "question": "Check the correct placement of parentheses in a string.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3506/check-parentheses-placement-string",
+    "page": 12
+  },
+  {
+    "question": "Given an array of integers, find a tuple of three integers that can form a triangle.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3403/find-triangle-tuple-in-array",
+    "page": 12
+  },
+  {
+    "question": "Describe your experience with AWS for machine learning projects.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3501/experience-aws-machine-learning",
+    "page": 12
+  },
+  {
+    "question": "How does Nvidia employ machine learning?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/4604/machine-learning-in-nvidia",
+    "page": 12
+  },
+  {
+    "question": "Explain Mask R-CNN.",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3491/explain-mask-r-cnn",
+    "page": 12
+  },
+  {
+    "question": "Explain the differences between LSTM and traditional neural networks.",
+    "categories": [
+      "Deep Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3416/differences-lstm-traditional-neural-networks",
+    "page": 12
+  },
+  {
+    "question": "Determine if two words are sorted in lexicographic order.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3431/check-lexicographic-order-two-words",
+    "page": 12
+  },
+  {
+    "question": "Print all combinations of numbers from 1 to n that sum to n.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum",
+    "page": 12
+  },
+  {
+    "question": "Convert a matrix to a quad tree.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3493/convert-matrix-to-quad-tree",
+    "page": 12
+  },
+  {
+    "question": "Explain cross-validation and testing in logistic regression.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3404/explain-cross-validation-testing-logistic-regression",
+    "page": 12
+  },
+  {
+    "question": "Explain cross entropy.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3492/explain-cross-entropy",
+    "page": 12
+  },
+  {
+    "question": "How do you clean and prepare troublesome datasets?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3419/clean-prepare-troublesome-datasets",
+    "page": 12
+  },
+  {
+    "question": "Where do vanishing gradients occur in a neural network?",
+    "categories": [
+      "Deep Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3485/where-vanishing-gradients-occur-neural-network",
+    "page": 12
+  },
+  {
+    "question": "How did you hear about this position?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3511/how-did-you-hear-about-position",
+    "page": 12
+  },
+  {
+    "question": "Explain semantic segmentation.",
+    "categories": [
+      "Computer Vision"
+    ],
+    "url": "https://www.tryexponent.com/questions/3490/explain-semantic-segmentation",
+    "page": 12
+  },
+  {
+    "question": "Explain regularization.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3488/explain-regularization",
+    "page": 13
+  },
+  {
+    "question": "Explain the time and space complexities of sorting algorithms.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3408/explain-time-space-complexity-sorting-algorithms",
+    "page": 13
+  },
+  {
+    "question": "How do you detect balanced parentheses in a string using Python?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3413/detect-balanced-parentheses-python",
+    "page": 13
+  },
+  {
+    "question": "What do you know about Qualcomm?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3540/knowledge-about-qualcomm",
+    "page": 13
+  },
+  {
+    "question": "How would you predict delivery times given a dataset of past deliveries?",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3412/predict-delivery-times-past-deliveries-dataset",
+    "page": 13
+  },
+  {
+    "question": "Calculate the height of a binary tree.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree",
+    "page": 13
+  },
+  {
+    "question": "Apply the quadratic formula to a sorted array such that the resulting array is still sorted.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/3401/apply-quadratic-formula-sorted-array",
+    "page": 13
+  },
+  {
+    "question": "How do you avoid overfitting a model?",
+    "categories": [
+      "Model Evaluation"
+    ],
+    "url": "https://www.tryexponent.com/questions/3450/avoid-overfitting-model",
+    "page": 13
+  },
+  {
+    "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
+    "categories": [
+      "Data Structures & Algorithms"
+    ],
+    "url": "https://www.tryexponent.com/questions/4491/candy",
+    "page": 13
+  },
+  {
+    "question": "Compute the binary representation of an integer.",
+    "categories": [
+      "Machine Learning"
+    ],
+    "url": "https://www.tryexponent.com/questions/3445/compute-binary-representation-integer",
+    "page": 13
+  },
+  {
+    "question": "Describe your experience with statistics.",
+    "categories": [
+      "Statistics & Probability"
+    ],
+    "url": "https://www.tryexponent.com/questions/3402/describe-statistics-experience",
+    "page": 13
+  }
+]
