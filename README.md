@@ -13,11 +13,12 @@ This repo is organized by **role branches**:
 ```
 main (master)
 ├── roles/
-│   ├── data-analyst/      # Data Analyst questions & frameworks
-│   ├── product-manager/   # Product Manager questions & frameworks
-│   └── software-engineer/ # Software Engineer questions & frameworks
+│   ├── data-analyst/              # Data Analyst questions & frameworks
+│   ├── product-manager/           # Product Manager questions & frameworks
+│   ├── software-engineer/         # Software Engineer questions & frameworks
+│   └── technical-program-manager/ # Technical Program Manager questions & frameworks
 │
-├── README.md              # This file
+├── README.md                      # This file
 └── .gitignore
 ```
 
@@ -27,6 +28,7 @@ main (master)
 - **`data-analyst`** - Complete Data Analyst prep (118 questions) ✅
 - **`product-manager`** - Complete Product Manager prep (1,710 questions) ✅
 - **`software-engineer`** - Complete Software Engineer prep (575 questions) ✅
+- **`technical-program-manager`** - Complete TPM prep (189 questions) ✅
 
 ---
 
@@ -52,6 +54,13 @@ main (master)
 - Source: https://www.tryexponent.com/questions?page=1&role=swe
 
 **View**: Switch to `software-engineer` branch or check `roles/software-engineer/`
+
+### ✅ Technical Program Manager (Complete)
+- **189 questions** across 17 categories
+- Mental model frameworks for TPM-specific categories
+- Source: https://www.tryexponent.com/questions?page=1&role=tpm
+
+**View**: Switch to `technical-program-manager` branch or check `roles/technical-program-manager/`
 
 ---
 
