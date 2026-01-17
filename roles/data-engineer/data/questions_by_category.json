@@ -9,10 +9,6 @@
       "url": "https://www.tryexponent.com/questions/contribute"
     },
     {
-      "question": "Why do you think we should not hire you?",
-      "url": "https://www.tryexponent.com/questions/4629/why-no-hire"
-    },
-    {
       "question": "I was asked this",
       "url": "https://www.tryexponent.com/questions/contribute?basedOn=4629"
     },
@@ -591,6 +587,10 @@
     }
   ],
   "Behavioral": [
+    {
+      "question": "Why do you think we should not hire you?",
+      "url": "https://www.tryexponent.com/questions/4629/why-no-hire"
+    },
     {
       "question": "Tell me about a time you made a mistake.",
       "url": "https://www.tryexponent.com/questions/240/mistake"

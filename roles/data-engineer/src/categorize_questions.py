@@ -35,7 +35,7 @@ def categorize_question(question_text, url=""):
     categories = []
     
     # Company-specific behavioral (Why do you want to work at X?)
-    if 'why do you want to work at' in q_lower or 'why did you become' in q_lower or 'what other companies' in q_lower:
+    if 'why do you want to work at' in q_lower or 'why did you become' in q_lower or 'what other companies' in q_lower or 'why do you think we should not hire' in q_lower or 'why should we hire' in q_lower or 'why shouldn\'t we hire' in q_lower:
         categories.append("Behavioral")
         return categories  # Early return for these
     

@@ -18,7 +18,7 @@ Total Questions: 180 across 20 categories
 DATA PIPELINE DESIGN
 ================================================================================
 
-📊 Total Questions: 51
+📊 Total Questions: 50
 
 🎯 What they're really testing:
 Can you design robust, scalable data pipelines from source to destination?
@@ -72,68 +72,67 @@ Data Pipeline Design
 
 ```
 
-📝 All 51 Questions:
+📝 All 50 Questions:
 
 1. + Share interview
 2. Share interview
-3. Why do you think we should not hire you?
-4. I was asked this
-5. Design a document processing pipeline.
-6. Reverse a linked list.
-7. Find the number of users who called three or more people in the last week.
-8. Tell me about your past projects.
-9. Find the container with the maximum volume of water.
-10. Tell me about a skill you recently learned.
-11. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
-12. + Share interview experience
-13. SQL Stored Procedures
-14. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-15. Find the longest substring without repeating characters.
-16. Merge Intervals
-17. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
-18. Move all zeros to the end of an array.
-19. Product of Array Except Self
-20. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-21. Write SQL code to publish the Fibonacci series.
-22. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+3. I was asked this
+4. Design a document processing pipeline.
+5. Reverse a linked list.
+6. Find the number of users who called three or more people in the last week.
+7. Tell me about your past projects.
+8. Find the container with the maximum volume of water.
+9. Tell me about a skill you recently learned.
+10. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
+11. + Share interview experience
+12. SQL Stored Procedures
+13. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
+14. Find the longest substring without repeating characters.
+15. Merge Intervals
+16. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
+17. Move all zeros to the end of an array.
+18. Product of Array Except Self
+19. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+20. Write SQL code to publish the Fibonacci series.
+21. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
 
 (Conversion: From users browsing to placing orders.)
-23. Find the median of two sorted arrays.
-24. Find a triplet in an array with a given sum.
-25. Design an ETL Pipeline for a ML Platform for AWS
-26. Linked List Cycle
-27. Given the root of a binary tree of integers, return the maximum path sum.
-28. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
-29. Split an array into equal sum subarrays
-30. Design Netflix's Clickstream Data Pipeline
-31. Which sorting algorithms use divide and conquer?
-32. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-33. Merge k sorted linked lists.
-34. Search in rotated sorted array
-35. Find the maximum subarray sum.
-36. Squares of sorted array
-37. Determine if a given binary tree is a binary search tree (BST).
-38. Design an ETL Pipeline for Slack for School
-39. Partition an array into two sub-arrays with equal sum.
-40. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
-41. Calculate the trapped rainwater between bars in a given array.
-42. Tell me about your e-commerce experience.
-43. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
-44. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
-45. Find the longest palindromic subsequence using dynamic programming.
-46. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
-47. Design a data pipeline that complies with GDPR.
-48. Serialize and deserialize binary tree
-49. Calculate the height of a binary tree.
-50. Print all possible solutions to the N-Queens problem.
-51. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
+22. Find the median of two sorted arrays.
+23. Find a triplet in an array with a given sum.
+24. Design an ETL Pipeline for a ML Platform for AWS
+25. Linked List Cycle
+26. Given the root of a binary tree of integers, return the maximum path sum.
+27. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
+28. Split an array into equal sum subarrays
+29. Design Netflix's Clickstream Data Pipeline
+30. Which sorting algorithms use divide and conquer?
+31. Explain the key differences between BETWEEN and HAVING clauses in SQL.
+32. Merge k sorted linked lists.
+33. Search in rotated sorted array
+34. Find the maximum subarray sum.
+35. Squares of sorted array
+36. Determine if a given binary tree is a binary search tree (BST).
+37. Design an ETL Pipeline for Slack for School
+38. Partition an array into two sub-arrays with equal sum.
+39. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
+40. Calculate the trapped rainwater between bars in a given array.
+41. Tell me about your e-commerce experience.
+42. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+43. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+44. Find the longest palindromic subsequence using dynamic programming.
+45. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+46. Design a data pipeline that complies with GDPR.
+47. Serialize and deserialize binary tree
+48. Calculate the height of a binary tree.
+49. Print all possible solutions to the N-Queens problem.
+50. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
 
 
 ================================================================================
 BEHAVIORAL
 ================================================================================
 
-📊 Total Questions: 23
+📊 Total Questions: 24
 
 🎯 What they're really testing:
 Can you work effectively in a team and handle challenges?
@@ -165,31 +164,32 @@ Behavioral (STAR Method)
 
 ```
 
-📝 All 23 Questions:
+📝 All 24 Questions:
 
-1. Tell me about a time you made a mistake.
-2. Tell me about a time you disagreed with someone and how you resolved it.
-3. Tell me about yourself.
-4. What is the project you are most proud of?
-5. Why do you want to work at Anthropic?
-6. What types of team members do you find difficult to work with?
-7. Can you provide an example of how you manage conflict?
-8. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
-9. Why do you want to work at OpenAI?
-10. Tell me about a mistake you made and what you learned from it.
-11. Why do you want to work at Visa?
-12. Why do you want to work at Atlassian?
-13. What parts of OpenAI's mission statement resonate with you?
-14. How do you influence without authority?
-15. How do you approach personal growth and learning?
-16. How do you encourage collaboration among cross-functional teams?
-17. What other companies are you interviewing at and why?
-18. Why do you want to work at Walmart Labs?
-19. Why did you become an engineer?
-20. Why do you want to work at Salesforce?
-21. Why do you want to work at Discord?
-22. How will you develop yourself professionally as a data engineer?
-23. What data tools have you worked with, and what specific projects did you use those tools for?
+1. Why do you think we should not hire you?
+2. Tell me about a time you made a mistake.
+3. Tell me about a time you disagreed with someone and how you resolved it.
+4. Tell me about yourself.
+5. What is the project you are most proud of?
+6. Why do you want to work at Anthropic?
+7. What types of team members do you find difficult to work with?
+8. Can you provide an example of how you manage conflict?
+9. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
+10. Why do you want to work at OpenAI?
+11. Tell me about a mistake you made and what you learned from it.
+12. Why do you want to work at Visa?
+13. Why do you want to work at Atlassian?
+14. What parts of OpenAI's mission statement resonate with you?
+15. How do you influence without authority?
+16. How do you approach personal growth and learning?
+17. How do you encourage collaboration among cross-functional teams?
+18. What other companies are you interviewing at and why?
+19. Why do you want to work at Walmart Labs?
+20. Why did you become an engineer?
+21. Why do you want to work at Salesforce?
+22. Why do you want to work at Discord?
+23. How will you develop yourself professionally as a data engineer?
+24. What data tools have you worked with, and what specific projects did you use those tools for?
 
 
 ================================================================================
