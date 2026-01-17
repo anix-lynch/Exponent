@@ -1,192 +1,157 @@
-# 🎯 Exponent Data Analyst Interview Prep Framework
+# 🎯 Exponent Interview Prep Framework
 
-**First Major Web Scraping Success! 🚀**
+**Multi-Role Interview Question Bank with Mental Model Frameworks**
 
-A complete mental model framework for Data Analyst interviews with 118 real questions from Exponent, automatically extracted and categorized.
-
----
-
-## 📊 What's Inside
-
-- **118 Interview Questions** - All questions from Exponent's Data Analyst question bank
-- **20 Categories** - Organized into key interview categories
-- **Mental Model Frameworks** - Thinking frameworks for each category type
-- **No Answers** - Focus on patterns and frameworks, not memorization
+A comprehensive collection of interview questions and systematic thinking frameworks for various tech roles, automatically extracted from Exponent.
 
 ---
 
-## 🎉 Project Success Story
+## 📊 Repository Structure
 
-### Challenge
-Extract all Data Analyst interview questions from Exponent's paginated website (6 pages, 120 questions) and organize them by category with mental model frameworks.
-
-### Solution
-**Simple Python Web Scraping** (No browser automation needed!)
-- Used `requests` + `BeautifulSoup` for HTTP scraping
-- Handled pagination across 6 pages
-- Intelligent categorization into 24 categories using keyword matching
-- Generated mental model frameworks for each category
-
-### Tools Used
-- ✅ **Python** - `requests`, `BeautifulSoup`, `json`
-- ✅ **Simple HTTP scraping** - No Selenium, Puppeteer, or browser automation
-- ❌ **NOT used**: Cursor native browser, MCP servers (attempted but not needed)
-
-### Why It Worked
-The Exponent pages render server-side HTML, so simple HTTP requests were sufficient. No JavaScript rendering needed!
-
----
-
-## 📁 Project Structure
+This repo is organized by **role branches**:
 
 ```
-.
+main (master)
+├── roles/
+│   ├── data-analyst/      # Data Analyst questions & frameworks
+│   └── product-manager/   # Product Manager questions & frameworks (WIP)
+│
+├── README.md              # This file
+└── .gitignore
+```
+
+### Branch Strategy
+
+- **`master`** - Main branch with overall documentation
+- **`data-analyst`** - Complete Data Analyst prep (118 questions) ✅
+- **`product-manager`** - Product Manager prep (in progress) 🚧
+
+---
+
+## 🎓 Available Roles
+
+### ✅ Data Analyst (Complete)
+- **118 questions** across 20 categories
+- Mental model frameworks for each category
+- Source: https://www.tryexponent.com/questions?role=data-analyst
+
+**View**: Switch to `data-analyst` branch or check `roles/data-analyst/`
+
+### 🚧 Product Manager (In Progress)
+- Extracting questions from Exponent
+- Will include frameworks for PM-specific categories
+- Source: https://www.tryexponent.com/questions?role=product-manager
+
+**View**: Switch to `product-manager` branch or check `roles/product-manager/`
+
+---
+
+## 🚀 Quick Start
+
+### View Data Analyst Materials
+```bash
+git checkout data-analyst
+cd roles/data-analyst
+```
+
+### View Product Manager Materials
+```bash
+git checkout product-manager
+cd roles/product-manager
+```
+
+---
+
+## 📁 Each Role Contains
+
+```
+roles/{role-name}/
 ├── data/
-│   ├── questions_raw.json              # All 118 extracted questions
+│   ├── questions_raw.json              # All extracted questions
 │   ├── questions_categorized.json      # Questions with categories
 │   ├── questions_by_category.json      # Organized by category
-│   └── frameworks_master.txt           # 🎯 MAIN OUTPUT - Mental models + all questions
+│   ├── frameworks_master.txt           # Complete framework (Notion import)
+│   └── frameworks_master.md            # Rich formatted version (GitHub)
 │
 ├── src/
-│   ├── simple_scraper.py              # Web scraper (requests + BeautifulSoup)
-│   ├── categorize_questions.py        # Intelligent categorization
-│   └── generate_frameworks.py         # Framework generator
+│   ├── scrape_*.py                     # Web scraper
+│   ├── categorize_questions.py         # Categorization logic
+│   └── generate_frameworks.py          # Framework generator
 │
-└── README.md
+└── INTERVIEW_FRAMEWORK.md              # Structured mindmaps
 ```
 
 ---
 
-## 📈 Results
+## 🎯 How to Use
 
-### Questions by Category
-
-```
-Data Analysis........................  39 questions
-Analytical...........................  39 questions
-SQL..................................  24 questions
-Coding...............................  20 questions
-Product Strategy.....................  16 questions
-Product Design.......................  16 questions
-Artificial Intelligence..............  16 questions
-Behavioral...........................  12 questions
-Execution............................   8 questions
-Cross-Functional.....................   8 questions
-Project Management...................   7 questions
-Customer Interaction.................   6 questions
-Concept..............................   5 questions
-Technical............................   4 questions
-Statistics & Experimentation.........   4 questions
-Estimation...........................   4 questions
-Data Structures & Algorithms.........   3 questions
-Data Modeling........................   2 questions
-System Design........................   1 question
-Data Pipeline Design.................   1 question
-```
-
-**Total: 118 questions across 20 categories**
+1. **Choose your role** - Switch to the appropriate branch
+2. **Review frameworks** - Study the mental models for each category
+3. **Practice questions** - Use the categorized questions for practice
+4. **Import to Notion** - Use `frameworks_master.txt` for Notion import
 
 ---
 
-## 🚀 How to Use
+## 🔧 Technical Approach
 
-### 1. View the Complete Framework
-Open `data/frameworks_master.txt` - this contains:
-- Mental model frameworks for each category
-- ALL 118 questions organized by category
-- Ready to import into Notion
+### Web Scraping
+- **Simple Python HTTP scraping** using `requests` + `BeautifulSoup`
+- No browser automation needed (server-side rendered HTML)
+- Handles pagination automatically
+- Respectful rate limiting (1 second between requests)
 
-### 2. Run the Scraper (if you want fresh data)
-```bash
-cd src
-python3 simple_scraper.py
-```
+### Categorization
+- Intelligent keyword matching
+- Context-aware category assignment
+- Multiple categories per question when appropriate
 
-### 3. Categorize Questions
-```bash
-python3 categorize_questions.py
-```
-
-### 4. Generate Frameworks
-```bash
-python3 generate_frameworks.py
-```
+### Framework Generation
+- Mental model mindmaps for systematic thinking
+- Focus on patterns, not memorization
+- Practical tips for each category type
 
 ---
 
-## 💡 Mental Model Approach
+## 📊 Success Metrics
 
-Instead of memorizing answers, this framework teaches you **how to think** about each question type:
+### Data Analyst (Completed)
+- ✅ 118 questions extracted
+- ✅ 20 active categories
+- ✅ Mental model frameworks created
+- ✅ Ready for Notion import
 
-**Example: Data Analysis Framework**
-```
-Data Analysis
-├─ Clarify the question
-│  ├─ What metric/outcome?
-│  ├─ Time period?
-│  └─ Success criteria?
-│
-├─ Identify data sources
-│  ├─ What tables/datasets?
-│  ├─ Data quality check
-│  └─ Missing data?
-│
-├─ Explore & segment
-│  ├─ By time (trends)
-│  ├─ By cohort (user groups)
-│  └─ By dimension (geo, device, etc)
-│
-├─ Diagnose root cause
-│  ├─ External factors
-│  ├─ Internal changes
-│  └─ User behavior shifts
-│
-└─ Recommend action
-   ├─ What to do
-   ├─ Expected impact
-   └─ How to measure
-```
+### Product Manager (In Progress)
+- 🚧 Extracting questions
+- 🚧 Categorizing by PM frameworks
+- 🚧 Generating mental models
 
 ---
 
-## 🎓 Key Learnings
+## 🌟 Key Features
 
-1. **Start Simple** - Tried MCP/browser automation first, but simple HTTP scraping worked better
-2. **Server-side rendering** - Many modern sites still render HTML server-side
-3. **Pattern recognition** - Categorization through keyword matching is surprisingly effective
-4. **Focus on frameworks** - Mental models > memorized answers
-
----
-
-## 🔧 Technical Notes
-
-### Attempted Approaches
-1. ❌ Cursor native browser agent - Configuration issues
-2. ❌ MCP servers (Puppeteer, BrowserBase) - Overcomplicated
-3. ✅ Simple Python HTTP scraping - **Winner!**
-
-### Why Simple Won
-- Exponent renders questions in server-side HTML
-- No JavaScript required to access content
-- Pagination is URL-based (`?page=1`, `?page=2`, etc.)
-- Fast, reliable, no browser overhead
+- **No Answers** - Focus on frameworks and thinking patterns
+- **Categorized** - Questions organized by interview type
+- **Mental Models** - Systematic approaches for each category
+- **Notion-Ready** - Easy import into your note-taking system
+- **GitHub-Formatted** - Beautiful markdown rendering
 
 ---
 
-## 📝 Next Steps
+## 🔮 Roadmap
 
-- [ ] Add more question sources (LeetCode, Glassdoor, etc.)
-- [ ] Create practice schedule generator
-- [ ] Add company-specific question filters
-- [ ] Build flashcard system from frameworks
+- [x] Data Analyst role complete
+- [ ] Product Manager role
+- [ ] Software Engineer role
+- [ ] Data Scientist role
+- [ ] Engineering Manager role
+- [ ] System Design role
 
 ---
 
-## 🙏 Credits
+## 📚 Resources
 
-- **Source**: [Exponent.com](https://www.tryexponent.com/questions?role=data-analyst)
-- **Tool**: Cursor AI + Claude Sonnet 4.5
-- **Approach**: Simple Python web scraping
+- **Source**: [Exponent.com](https://www.tryexponent.com/questions)
+- **GitHub**: https://github.com/anix-lynch/Exponent_DataAnalyst_interview
 
 ---
 
@@ -196,4 +161,12 @@ This is for **personal interview preparation only**. Questions are sourced from 
 
 ---
 
-**Built with 🚀 by learning to keep it simple!**
+## 🙏 Credits
+
+- **Tool**: Cursor AI + Claude Sonnet 4.5
+- **Approach**: Simple Python web scraping (keeping it simple!)
+- **First Major Success**: Data Analyst role extraction
+
+---
+
+**Built with 🚀 - One role at a time!**
