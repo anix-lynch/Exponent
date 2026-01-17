@@ -253,3 +253,36 @@ CATEGORY NAME
 **Last Updated**: January 17, 2026
 **Total Questions**: 2,894 across 5 roles
 **Your Focus**: Data Engineer (151 questions, 19 categories)
+
+---
+
+## 🔄 Recent Updates (Jan 17, 2026)
+
+### ✅ Data Engineer Role - Complete Overhaul
+
+**What was fixed:**
+1. **INTERVIEW_FRAMEWORK.md**: Expanded from 71 lines to 700+ lines
+   - Added 19 detailed category frameworks (was only 1)
+   - Each category now has ASCII tree + explanation + tips
+   - Matches Data Analyst gold standard format
+
+2. **Question_Bank.md**: Properly organized by category
+   - Questions now correctly categorized (not all in "Data Pipeline Design")
+   - Each category has its own framework section
+   - Behavioral questions in Behavioral, SQL in SQL, etc.
+
+3. **.cursorrules**: Added project-wide quality standards
+   - Every role must match Data Analyst format
+   - INTERVIEW_FRAMEWORK.md must be 400+ lines
+   - All major categories need ASCII trees
+   - Prevents short/incomplete files
+
+**Quality Checklist - Data Engineer ✅:**
+- [x] INTERVIEW_FRAMEWORK.md is 700+ lines with 19 frameworks
+- [x] Question_Bank.md has frameworks for each category
+- [x] Questions properly categorized (not all in one bucket)
+- [x] Rich text formatting (bold, code blocks, emojis)
+- [x] Matches Data Analyst gold standard
+
+**Your #1 Goal Role is now production-ready! 🎯**
+
