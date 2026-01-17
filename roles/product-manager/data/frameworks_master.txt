@@ -1,0 +1,2070 @@
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                ║
+║           DATA ANALYST INTERVIEW PREPARATION FRAMEWORK                         ║
+║           Mental Models & Complete Question Bank                               ║
+║                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+This framework provides mental models for approaching each type of data analyst
+interview question. Focus on understanding the PATTERN and FRAMEWORK, not 
+memorizing answers.
+
+Total Questions: 118 across 20 categories
+
+
+================================================================================
+ANALYTICAL
+================================================================================
+
+📊 Total Questions: 598
+
+🎯 What they're really testing:
+Can you break down complex problems and find root causes?
+
+🗺️  Mental Model Framework:
+```
+
+Analytical
+├─ Define the problem
+│  ├─ What changed?
+│  ├─ When?
+│  └─ How much?
+│
+├─ Form hypotheses
+│  ├─ Internal causes
+│  ├─ External causes
+│  └─ User behavior
+│
+├─ Gather evidence
+│  ├─ Segment data
+│  ├─ Compare periods
+│  └─ Look for patterns
+│
+├─ Test hypotheses
+│  ├─ Validate with data
+│  ├─ Rule out alternatives
+│  └─ Identify root cause
+│
+└─ Recommend solution
+   ├─ Fix the issue
+   ├─ Prevent recurrence
+   └─ Monitor going forward
+
+```
+
+📝 All 598 Questions:
+
+1. + Share interview
+2. Share interview
+3. Tell me about something you built end-to-end without relying on others.
+4. I was asked this
+5. What's your favorite product and why?
+6. How would you create a marketing strategy for a Google bus
+7. Why do you think we should not hire you?
+8. How would you 10x Duolingo?
+9. How would you define the role of a product manager?
+10. You're a PM at Meta. Why should Meta continue investing in Reels? What goals and metrics would you set?
+11. Why do you want to switch jobs now?
+12. + Share interview experience
+13. How would you enhance Instagram Stories?
+14. You're a PM for Spotify. How would you increase revenue 5x in the next five years?
+15. Design Netflix for kids.
+16. You realized that Monthly Active Users (MAU) are down for this month. What would you do?
+17. Imagine you're a PM for Meta. Design a product for Volunteering. What would you build? Why?
+18. Brainstorm a product idea with the help of AI.
+19. As a PM at Meta, how would you make users feel less guilty about using Instagram while also increasing revenue?
+20. Tell me about yourself.
+21. Tell me about the most challenging situation you faced in your career and how you handled it.
+22. You're a PM for Gmail. How would you react to a competing product?
+23. As the Product Manager for Google Docs, facing a 10% decrease in the 'Open' metrics, what steps would you take to investigate and address this decline?
+24. You're a PM at Instagram Reels. How would you measure the success of introducing ads?
+25. You have text-to-music capabilities. How would you productize it?
+26. How would you determine success for Instagram Reels?
+27. How would you build any product using Gen AI?
+28. What goals would you set as PM for Facebook marketplaces?
+29. You're a PM for Reels at Meta. With Reels watch time up 20% but Instagram posts down 20%, what would you do?
+30. You're a PM for Facebook Feed. How would you decide if you should split the page into separate tabs for friends and non-friends content?
+31. How would you measure the success of Facebook dating?
+32. What product that you led are you most proud of and why?
+33. Propose solutions to optimize the speed of hiring developers at Revolut.
+34. You're the PM for our stock trading product. With gross profit dropping significantly over the last month, what would you do?
+35. Tell me about your past projects.
+36. You're a PM at Facebook. How would you decide whether to remove the profile photo step from the onboarding experience?
+37. You're a PM for Meta's Verified Badge. Why would Meta build this product and how would you set goals and success metrics for it?
+38. What's the effect of adjusting an LLM's context window size?
+39. As a PM for a gaming console, why would you decide to build the next-generation console, and how would you measure its success?
+40. You're a PM at Google. Which product would you choose to work on?
+41. You're a PM for Facebook Travel. What would you build?
+42. You're a PM at Google. How would you sunset Gmail?
+43. What Gen AI skills do you think will be critical in the next year?
+44. You are the PM of Messenger and notice a significant drop in DAU. How would you investigate the cause?
+45. How would you disrupt the travel industry?
+46. You're a PM at Meta. How would you measure the success of Instagram Live?
+47. Based on the latest AI news, what ideas do you have that are one step beyond what exists today?
+48. How would you handle hallucinations in a generative AI model deployed to users?
+49. If you have allocated budget, how would you solve the climate crisis problem?
+50. How would you build TinyURL?
+51. You're a PM for Instagram Reels. Would you prefer having 100 reels with 1M views each or 1M reels with 100 views each, and why?
+52. Design Facebook Messenger.
+53. You're a PM at YouTube Music. How would you 10x its monthly users in the next 5 years?
+54. What's the biggest threat to YouTube?
+55. As a PM for Instagram Shops, how would you increase the number of transactions?
+56. You're a PM at Meta. How would you measure the success of Facebook's notification bell and its drop-down menu?
+57. You're a PM at Meta. Explain why the company created Meta Pay. How would you set goals and measure the success of this product?
+58. Describe a situation where you negotiated a win-win outcome.
+59. How have you managed risk in a project?
+60. You're a PM for Spotify Podcasts. Why did your team add podcasts to Spotify and why before audiobooks? What metrics were used to track the product's success?
+61. How would you enhance the experience for Airbnb users after a negative booking?
+62. You're a PM for Meta. How would you measure the success of the onboarding and sign up experience for Facebook.
+63. Why do you want to work at Anthropic?
+64. You're a PM at Meta. DAU for Instagram is down while MAU is constant. How do you solve for this?
+65. How would you disrupt the film industry using YouTube?
+66. What happens when you navigate to a website?
+67. You're a PM at Ticketmaster. How would you identify and solve the biggest problem in the post-booking experience?
+68. As a PM for Zepto, how would you develop a strategy to increase the average order value per user?
+69. How would you define human agency?
+70. Tell me about a user need that is not being met by the market. How would you validate a solution for it?
+71. What's your approach to prompt engineering?
+72. How would you set a goal for Facebook reactions and measure it?
+73. Why do you think Meta invested in Workplace Chat? How would you set goals and measure the success of this product? Additionally, consider a scenario where the number of users sending messages on Wo...
+74. What are key skills and types of information a PM should have? What strategies would you use as a PM to understand users?
+75. Click-through rate on Netflix is down by 10%. What would you do?
+76. Redesign the airport experience.
+77. You're a PM for Instagram Reels. Why has Meta invested in this product? Should they invest more? What goals and metrics would you track for the next 12 months?
+78. You're a PM at Trader Joe's. Sales are declining in cities where Instacart and Blue Apron are active. What would you do?
+79. Have you done any “vibe coding” or built anything outside work that shows AI-first product thinking?
+80. If you could only talk to one customer of your product, who would you pick to learn feedback from and why?
+81. What is the product that you dislike the most and why?
+82. A large enterprise customer wants to integrate Sierra, what would you build first and why?
+83. Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?
+84. What are the ethical risks of deploying agentic AI systems in high-stakes environments?
+85. How would you enhance the email notification experience for Facebook users who are tagged in photos?
+86. You're the PM of Revolut's trading platform. Profits have declined to negative for the first time. How would you investigate this issue?
+87. How do you manage difficult conversations?
+88. How would you prevent 'bad' content from being uploaded to a social media platform?
+89. Develop a strategy for OpenAI's fine-tuning capabilities using publicly available docs.
+90. You're a PM for a business intelligence system and it has a low NPS (25%). How would you bring it to 75%?
+91. You're a PM for a ride-sharing app. How would you enhance customer experience and reduce ride cancellations?
+92. How would you reduce cancellations on Uber?
+93. Tell me about how you brought a product to market.
+94. How would you measure the success of Facebook Portal?
+95. You're a PM for Facebook Events. Why would Meta build this product and what metrics would you use to measure its success?
+96. As a YouTube PM, how would you evaluate the suggestion to develop a tool for content creators to generate ideas with scripts automatically?
+97. You're a PM at United Airlines. How would you identify and solve the biggest problem in the post-booking experience?
+98. You're a PM at Meta. Explain why Meta created Rooms, an internal video-chat product similar to Zoom. How would you set goals and measure the success of this product?
+99. Tell me about a tough decision you made during a project.
+100. As a Product Manager at Clipboard Health, how would you adjust Lyft's driver payments to maximize net revenue over 12 months?
+101. What are the key differences between Tiktok, Instagram, and Youtube?
+102. Why is Gmail search slower than Google search?
+103. You are a startup with the technology that translates speech/text to animal language. How do you take this to market?
+104. If you had $1 billion, what would you build using generative AI?
+105. Discuss a strategy to expand Meta's presence in the Virtual Reality market.
+106. What are your weaknesses as a product manager and how do you mitigate them?
+107. Why is Android strategic for Google?
+108. Why should Meta invest in noise-cancelling headphones, and what goals would you set for this product?
+109. You're the CEO of an AI startup. Google offers you $1B in funding. What product would you build?
+110. Why do you want to be a Product Manager?
+111. As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?
+112. Why do you want to work at Google?
+113. YouTube's average video buffering time has increased by 10%. How would you address this issue?
+114. You're a PM for Uber Eats. Cart conversation has dropped by 10% in the last 3 months. How would you find the root cause?
+115. What was the most recent negative feedback you received?
+116. Design Netflix for dogs.
+117. What do you think the global booking cancellation rate is at Booking.com, and why?
+118. What are your strengths and weaknesses as a product manager?
+119. You're on the LA 2028 Olympic Games organizing committee. What product would you build?
+120. How would you adapt a generative AI model to perform well in a specific domain?
+121. Is introducing Meta AI within Instagram DMs a good investment for Meta? If so, why? What are the goals you would set? What metrics would you track to see if it is working and to ensure product health?
+122. How would you detect fake reviews using machine learning?
+123. What are the challenges in ensuring generative AI doesn’t produce harmful or unsafe content, and how would you address them?
+124. What are the risks of assuming LLMs think or feel like humans?
+125. How do you determine the health of the engineering or product backlog?
+126. You're a PM at a SaaS startup. What are the key requirements for integrating with Google Cloud Marketplace?
+127. Why do you want to work at Sierra AI?
+128. What are your strengths and weaknesses?
+129. Do you have any concerns or reservations about this role?
+130. Should LinkedIn acquire Discord? Why or why not?
+131. The usage of Meta AI within Instagram DMs is up while the usage of Meta AI within the Search Bar of IG Discover page is down. How would you investigate?
+132. How would you solve traffic congestion in Seattle?
+133. How would you approach data curation for an LLM training pipeline?
+134. Have you tried tools like Lovable?
+135. What kind of news do you read?
+136. How would you build a tool to authenticate products sold on TikTok Shop?
+137. How do you handle roadblocks or obstacles?
+138. What should LinkedIn build next?
+139. How would you measure the success of Facebook Live?
+140. A key metric is declining—what would you investigate first and how would you prioritize what to build?
+141. Why do you want to work at OpenAI?
+142. Design Lyft for kids.
+143. You're a PM for JP Morgan Chase. Define OKRs, strategy, and goals for a new DevSecOps platform.
+144. If you had unlimited resources at Google, what would you build and why?
+145. You're a PM at Spotify. How would you diagnose a user-reported connection issue?
+146. Google PM Discussion Board.
+147. Enhance any fintech app of your choice for visually impaired users.
+148. How would you measure the success of ChatGPT Search?
+149. Coinbase's net income is 10% less than it was last month. What would you do?
+150. Tell me about a software product that you recently had a bad experience with and why you felt that way as a user.
+151. Tell me about the most complex project you have led.
+152. Design Uber Eats.
+153. How would you improve Venmo? What features would you build and why?
+154. You're the PM for Coinbase. DAU is down by 10%. What do you do to investigate?
+155. Design the recommendation engine for Amazon’s homepage.
+156. Tell me about your greatest success.
+157. As a PM at Airbnb, how would you increase bookings?
+158. How would you develop a strategy to acquire more users for Uber?
+159. You're an Apple product manager. How would you determine the ideal length of the iPhone charging cable?
+160. You're a PM at Google. How would you sunset YouTube?
+161. If you noticed a 10% decrease in an app’s conversion rate, what steps would you take to investigate and resolve the issue?
+162. Design Lyft for college students.
+163. Tell me about a mistake you made and what you learned from it.
+164. Why do you want to work at Visa?
+165. Should Google create a new GCP region in Portugal?
+166. You're a PM for Maps. What product would you build in Maps specifically for farmers?
+167. How would you approach building proactive AI?
+168. You're the PM of Google Doodles. What would your top three metrics be and why?
+169. How would you define success for Airbnb's Experiences?
+170. Tell me about the accomplishment you are most proud of.
+171. Why should Meta build Facebook Events, and what metrics would you use to measure success?
+172. How would you increase sales of Google's wireless headset?
+173. Why do you want to be a PM? What aspects of product management are you most passionate about?
+174. Why do you want to work at Microsoft?
+175. What parameters would you consider when designing UberPool?
+176. You're a PM at an e-commerce site. What percentage discount should different customers get during onboarding?
+177. You're a PM for Google. How would you recruit tutors for a new Google online tutoring service?
+178. How do you measure the success of a project?
+179. You're a PM at an airline. Describe the worst possible post-booking experience.
+180. You're the PM for Agoda. Due to increasing failure rates in newer payment methods like wallets and UPI, how would you investigate the cause and what steps would you take to address it?
+181. If WhatsApp becomes the default OS communication layer, how should Android respond?
+182. If you discovered a colleague's actions were unethical, how would you handle it?
+183. As the PM at Airbnb, how would you enhance the discovery of listings over the next six months?
+184. How do you stay up-to-date with the latest developments in AI?
+185. You're a PM for Meta. How would you build a product that helps users find handypeople?
+186. How would you measure the success of Facebook Rooms?
+187. Design TikTok for the elderly.
+188. What product do you think has good UX design and why?
+189. As an Uber PM, how would you increase revenue for Uber?
+190. What's your favorite food ordering app?
+191. Design E2E experience for elderly travelling through Flights.
+192. As a Product Manager at TikTok, how would you address user concerns regarding the platform's algorithms being excessively addictive?
+193. How do you drive adoption for a new product?
+194. Tell me about your interest in AI.
+195. As a PM for TikTok, design the user journey for third-party services (e.g., restaurants and shops) integrated into the app.
+196. What would you do if you were the PM for Ticketmaster's post-booking experience?
+197. As a Product Manager for Meta, what product would you create to address climate change?
+198. You're a PM at Wikipedia. What product should you build next?
+199. How would you increase Amazon Prime's revenue by 20%?
+200. Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?
+201. How do you collect insights and apply them to products?
+202. Design Google Maps for kids.
+203. You're a PM for TikTok and have noticed a drop in daily active users (DAU). How would you investigate?
+204. You're a PM for a large car manufacturer. Should the company use Generative AI or large language models in its products and workflows?
+205. As Robinhood, how would you disrupt the mortgage industry?
+206. How would you handle a situation where qualitative insights contradict quantitative data?
+207. What's your biggest challenge as a PM, and how did you overcome it?
+208. How would you decide between pagination and infinite scroll on a job board?
+209. You're a financial security product PM. How would you use AI to enhance security across banking systems?
+210. You are a PM at Uber. Which market should Uber expand into next?
+211. As part of the Netflix PM team, how would we investigate the issue of one million active subscribers not logging into the platform?
+212. How would you enhance Google Maps for individuals with disabilities?
+213. Why do you want to work at Atlassian?
+214. As a PM for Instacart, what potential issues do you foresee after a customer places an order?
+215. Considering that 60% of visitors view the store's return policy page on Shopify-powered sites, how would you assist merchants to be more successful as a PM at Shopify?
+216. What parts of OpenAI's mission statement resonate with you?
+217. You're the PM for Safeway. What product would you build to better serve people's needs?
+218. How do you evaluate a Gen AI system?
+219. You're the PM for Facebook. There's been a significant drop in user engagement over the past 10 days. How would you investigate the cause and what steps would you take to address it?
+220. You're a PM for Google News. What would be your product strategy for the upcoming year?
+221. Why do you want to work at Capital One?
+222. How would you set a goal for Facebook Marketplace?
+223. How do you determine the need for a particular product?
+224. You're a PM for Facebook Sports. What would you build?
+225. Where do you think the “data world” is going—what’s coming next?
+226. What do you know about data annotation and collecting data for LLM training?
+227. What would you build and why? Run through an end-to-end “moonshot”-style example.
+228. As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue?
+229. How do you consider the impact of your work on the world?
+230. You're working on a project where deadlines and targets are constantly slipping. How would you handle this?
+231. Why do you think Meta built the bell icon for the mobile app? How would you set goals for it and how measure its success?
+232. You are a Google PM in charge of the next Android keynote product announcement in 3 years. What would you build?
+233. Tell me about an impactful project that you led.
+234. Why do you want to work at DoorDash?
+235. As a PM for Netflix, how would you increase watch time on TVs?
+236. How do you approach building prototypes using AI tools versus traditional coding?
+237. What's your favorite fitness product, and what would you do if you found that its users dropped off after 3 months?
+238. You're the CEO of a healthtech startup with technology that can detect 20 deadly diseases. How would you approach this?
+239. Design LinkedIn for students.
+240. You're a PM for Amazon Fulfillment. Your goal is to save warehouse space by optimizing SKUs. How would you recommend similar products to customers on Amazon Prime?
+241. How would you measure the success of the recommendation engine at Netflix?
+242. How do you handle projects outside your expertise area?
+243. How do you deal with ambiguous situations?
+244. How much does Meta (Facebook) spend to acquire one new user?
+245. Describe the differences between a product manager, project manager, and scrum master.
+246. What's your favorite non-tech product that you use frequently?
+247. How would you increase the Average Order Value (AOV) for Swiggy?
+248. Why did you leave your last role?
+249. As the CPO of ChatGPT, what will your strategy for the next 2 years be?
+250. How do you use AI?
+251. How would you build an ad platform for Robinhood?
+252. How do you decide whether a problem should be solved using AI, generative AI, an agent-based system, traditional programming, or just a simple rule-based approach?
+253. You're a PM at Instagram. How would you diagnose a 10% drop in impressions?
+254. What makes a good product manager?
+255. How would you 10x Google Cloud IoT?
+256. You are PM for Instagram. How would you decide on investing in a verification badge?
+257. As a PM at Netflix, design something for kids.
+258. You're the first product manager at a new startup that has invented teleportation, currently working between two small rooms. What would you do first?
+259. Provide an example of a complex problem you solved.
+260. How would you redesign the Coinbase App to accommodate 10x the number of cryptocurrencies?
+261. How would you determine the success of Facebook Videos?
+262. You are a PM at Amazon and want to increase the NPS. What would you do?
+263. As part of the Netflix PM team, how would you investigate the issue of 1 million inactive but paying users?
+264. Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do?
+265. What are the most important attributes of a Product Manager and why? Provide examples from your past experiences that demonstrate these attributes.
+266. Installs are down 35% on DoorDash's iOS app, what do you do?
+267. What would you do if you were a PM at Google Cloud and could only help 3 out of 10 customers?
+268. How would you determine the success of Instagram search?
+269. Can a university have a lower overall acceptance rate for female-identifying students, even if every department admits them at a higher rate than others?
+270. You're a PM for a payment gateway with a $10 million extra budget for the next 1-1.5 years. Where would you invest it?
+271. You're a PM for ESPN's website and you see a decline in web traffic by 30%. What would you do?
+272. Do you work well in fast-paced environments?
+273. Design the Netflix ads platform.
+274. List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
+275. You're a PM at Airbnb. What would you choose as the company's north star metric and why?
+276. If your grocery store’s foot traffic suddenly increased to 10 times its normal capacity, how would you redesign the store layout and operations?
+277. Describe a situation where you encountered a problem that no one was willing to investigate because it was considered outside their scope.
+278. If you had access to 20 years of geo-related data, such as street view and satellite imagery, what product would you build?
+279. How do you gather feedback from users?
+280. What factors do you evaluate before deciding whether to build, fine-tune, or buy a generative AI model?
+281. What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+282. How would you increase Spotify Premium subscribers?
+283. How long would it take to fill an Olympic swimming pool with water from a garden hose?
+284. Tell me about one of the most complex projects you've been involved in.
+285. How should Adobe Creative Cloud target small businesses in Singapore?
+286. You're a PM for an X-ray analysis software. You face user complaints about slow result processing times. How would you address this?
+287. How would you measure the success of FaceTime?
+288. LinkedIn Stories is a failed product. What would you have done differently?
+289. How do you collect user requirements?
+290. As a PM at Open Table, how would you resolve their biggest booking experience issue?
+291. How could e-commerce platforms enhance the shopping experience to be more inspirational?
+292. As a PM at Zomato, how would you decide if Zomato should integrate with Amazon Alexa?
+293. Suppose your generative model needs to process very long inputs that exceed typical context limits. How would you approach managing or compressing that information effectively?
+294. You are a PM at Intuit. Increase the adoption rate for quickbooks.
+295. Should Facebook remove the mandatory profile picture upload during initial setup?
+296. As a VC offering you $20M to build any technology-enabled product/service, how would you get started?
+297. Uber booking rates have dropped by 10%. How would you address this?
+298. As a PM for Uber when it was a ride-hailing app, would you expand into Uber Eats?
+299. How would you measure the success of a personalized news feed?
+300. What is the best way to connect SQL databases and why?
+301. Describe your machine learning experience.
+302. What's your favorite digital or hardware product and why?
+303. As the PM responsible for the ride experience at Lyft, what would be the most effective solution to address the major issues occurring after the driver-rider match process?
+304. As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
+305. Pick a random object in your room. How would you redesign it?
+306. How would you increase the conversion rate for YouTube Premium?
+307. You're the Head of Product at Spotify. What goals and strategies would you set?
+308. Design the system for a ticket selling web application.
+309. Why do you want to be a product manager?
+310. What are you looking for in your next opportunity?
+311. How do you contribute to diversity and inclusion?
+312. Why are you interested in FinTech?
+313. You're a PM at Nvidia. How would you keep Nvidia's product lineup competitive?
+314. How much storage does Google Maps' Street View require?
+315. How much does it cost Google to run Google Photos?
+316. You're a PM at Airbnb. Design furniture.
+317. What challenge do you anticipate in this role, and what excites you most about it?
+318. You're the CPO of a small bricks-and-mortar supermarket chain with no online presence and declining revenue over the last 5-10 years. What would you do?
+319. What are you passionate about?
+320. Give an example of an idea you advocated for and its outcome.
+321. Would it be beneficial for Google to charge Gmail users?
+322. Tell me about an end-to-end product you worked on.
+323. What are the top 3 to 4 skills a PM should have?
+324. Why did PayPal acquire Honey?
+325. How would you measure the success of Google Calendar?
+326. Tell me about a challenge you faced and how you overcame it.
+327. The conversion ratio on OpenTable dipped by 10% in one day. What could be the cause?
+328. Diagnose a 35% drop in retention on Salesforce.
+329. Tell me about a situation where you didn't reach your goal.
+330. Tell me about your design process.
+331. How would you measure the success of Snap Map?
+332. As a PM, how do you work with users?
+333. What other companies are you interviewing at and why?
+334. How would you build a tool that verifies customer identities?
+335. As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
+336. What goals do you have for Facebook Marketplace?
+337. What's your favorite type of stakeholder and why?
+338. Why work at PayPal?
+339. If there is one Google product you would sunset, what would it be and why?
+340. What do you think are Airbnb's biggest risks?
+341. How would you determine the need for a platform?
+342. Why do you want to work at Walmart Labs?
+343. As a PM for an automotive company interested in exploring the generative AI space, how would you evaluate whether this technology is suitable and beneficial for the business?
+344. How would you triple the revenue of Craigslist over the next 5 years?
+345. What are general applications for AI within customer support?
+346. Facebook is considering adding a 7th reaction. How would you determine its necessity and measure its success?
+347. What are the biggest trends you see in the security industry?
+348. What are Netflix's risks if they expanded to China?
+349. Why do you want to join an AI-first company?
+350. Why is it important for users to complete their LinkedIn profile? Discuss both user and enterprise perspectives.
+351. How much time does a person spend at a traffic intersection during their lifetime?
+352. If the CEO of Google asks for a product that allows meetings in person, what would you create for the next 5-10 years?
+353. How would you mitigate negative experiences on OpenTable?
+354. As a product manager for Uber Eats, what goals do you set?
+355. What Responsible AI considerations are most important for building and maintaining customer trust in our products?
+356. You're an analyst at the government's health department. How would you distribute 5,000 vaccines among 100,000 people?
+357. How would you define the optimal number of ads to show to users on Yelp?
+358. What would you set as the goals for Facebook hashtags?
+359. What product should Google build next?
+360. How would you set goals for an Instagram shop?
+361. How would you measure the success of Google search results?
+362. How do you decide between building a solution in-house or buying an existing one?
+363. You are helping Netflix introduce an ACH payment method in the United States. What test would you conduct to help them determine whether ACH should be generally available?
+364. What type of travel product would you build for Facebook?
+365. It's your first day as a Google PM. Users are complaining that the internet is slow. What will you do?
+366. Spotify installs increased 25%. What happened?
+367. How can we prevent users under 18 years old from lying about their age during signup?
+368. You suggest changing Uber’s driver incentives, but data shows it might hurt supply. How would you proceed?
+369. You are a Gmail PM and discover that traffic has dropped 10% on a Monday morning. What do you do?
+370. How do you expand your product management skills?
+371. Should Meta build it?
+372. Tell me about your most impactful project.
+373. Tell me about a SaaS product you really like using.
+374. What is your favorite music app and why?
+375. What goals would you set for the Reels recommendation engine?
+376. Tell me about a bad experience you had with a low-tech product.
+377. How would you protect Roblox's intellectual property, such as 3D objects, character skins, or accessories?
+378. Why did Stripe launch Stripe Atlas, Stripe Press, and acquire Indie Hackers?
+379. Diagnose a 25% decrease in song listens on Spotify.
+380. How would you triple the revenue of Google Photos?
+381. You're the PM for Facebook Rooms. What goals would you set for the next 6 months?
+382. When do you consider a design review completed?
+383. Tell me about a situation that required you to dig deep to find the root cause.
+384. What experience do you have with AI projects/automations?
+385. Tell me about your e-commerce experience.
+386. Tell me about your product management experience.
+387. You are a PM at Swiggy. What would you build for health conscious users?
+388. How would you evaluate the idea of OpenTable offering reservations for desks and offices?
+389. As the CEO of Google, should the company continue, slow down, maintain, or ramp up investments in the Pixel handset line?
+390. How would you secure resources or funding for your product?
+391. You're a PM at Booking.com. A sales manager reports that the app is returning a 404 error. How would you investigate the issue?
+392. You're a PM at a travel booking platform. Which step of the booking process would you address first to reduce drop-offs?
+393. You're a PM for Facebook Group Travel on mobile. What would you build?
+394. Is high churn okay on Shopify?
+395. How would you compare Disney+ to Hulu?
+396. You received user feedback that Yelp's restaurant recommendation is not personal enough. What would you do?
+397. What would change if internet speed were 100 times faster than today?
+398. How do you write your PRDs?
+399. Uber Eats introduced a new promotional tab in their app. How would you measure its success?
+400. On your first day as a Google PM, how would you increase Google Home sales by 10X?
+401. Should Google invest in developing a capability to assess WiFi quality in various locations? If so, how would you approach building it?
+402. As the PM for the newsfeed, how would you decide whether to show more videos or events?
+403. What do you know about Responsible AI principles and existing regulations governing AI use?
+404. How would Uber expand into the bicycle market?
+405. You are PM in Meta, What is the goal for Facebook Pay in next 6months or 1 years? How would you think about tacking?
+406. Why work at Atlassian?
+407. As the CEO of a healthtech startup, what would you create?
+408. Azure provides HPC and wants to maximize its usage in the energy sector. What would be your strategy to ensure all energy sector clients move to HPC instead of AWS services?
+409. Amazon orders are down 25% - what do you do?
+410. Tell me about a challenge you faced when working with sales.
+411. Tell me about your experience.
+412. Why do you want to be a PM? What experiences have pointed to this being the right role for you?
+413. How do you spend your day at work?
+414. What's your favorite marketplace app?
+415. Evaluate the success of Instagram Stories.
+416. Help Reddit expand into Japan.
+417. How would you disrupt the car wash industry?
+418. Design smart furniture for Google.
+419. What are some endpoints Robinhood has?
+420. How much laundry detergent is used globally each year?
+421. Why did Salesforce acquire Tableau?
+422. Has the work-from-home model and COVID-19 impacted workforce productivity, and by how much?
+423. Tell me about your experience working with Agile, specfically with Kanban
+424. How would you demonstrate success without concrete results to share?
+425. If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
+426. How do you keep up with the evolving landscape of artificial intelligence news?
+427. For Amazon Video Service, would you recommend keeping or removing the offering?
+428. You're a PM at Lyft and want to deploy a ride-sharing service using a self-driving car in Palo Alto. How would you choose around 10 pickup and drop-off locations, assuming routes are safe and pre-p...
+429. Google searches are down 35%. What happened?
+430. Design better support for friendly returns processes to enhance merchant success.
+431. Diagnose a 15% drop in video engagement on YouTube.
+432. Diagnose a 25% decrease in free sign ups on Notion.
+433. You work at Swiggy (3-sided marketplace - consumer, rider, restaurant). How would you create a tool to enable restaurants to create and fund their own promotional offers (% discounts, etc.) on Swiggy?
+434. What do you find to be the most challenging part of being a Product Manager?
+435. As Google, how would you disrupt the movie industry?
+436. As a Product Manager for a calendar application working on better error handling, how would you prepare this user story for the backlog? 'As a user, I want to see when my changes haven't been synch...
+437. How would you integrate LinkedIn with Cisco Webex to display user profiles on Webex during meetings?
+438. Diagnose a 45% drop in ride orders on Lyft.
+439. What's your favorite e-commerce store?
+440. Design Uber for laundry.
+441. Who is your role model?
+442. What do you like about Airbnb?
+443. Design ClassPass for kids.
+444. Why did Microsoft buy LinkedIn?
+445. How should Yelp expand into Asia?
+446. Diagnose a 20% drop in Facebook Groups usage.
+447. Why has Google Maps been so successful and what would you build next on this platform?
+448. What metrics would you track upon launching a new e-commerce website and why?
+449. Build a product automating a three-way matching system for the Procure-to-Pay process, including exceptions handling.
+450. Why does Google Maps exist? What are its opportunities and threats?
+451. Design the best slippers.
+452. How would you debug a decline in sales and decide whether to build a new feature or not?
+453. How would you redesign the gas station experience?
+454. You're the PM of a startup for remote-controlled shower water heaters. Define a problem statement and plan an MVP.
+455. How would you build a monitoring device for elderly people?
+456. What would you do on your first day as a PM?
+457. What are three endpoints on Wayfair?
+458. What competitive advantage does LinkedIn gain from users completing their profiles?
+459. If you could float on water, like a boat, what would you be and why?
+460. You're the CEO or VP of your favorite product. How would you structure your organization and why?
+461. When managing a budget, what are some ways you get more out of less?
+462. Why did Microsoft buy GitHub?
+463. Why did Google acquire YouTube?
+464. How would you build a shared laundry experience?
+465. What aspects do you like about product management and what aspects do you not like?
+466. What should America do about TikTok?
+467. How do you interact with product marketing during a product lifecycle?
+468. How would you build a babysitter service for Facebook?
+469. Why do you want to work at Salesforce?
+470. Why do Netflix users activated by watching series have low retention rates, and what solutions do you propose?
+471. How would you increase adoption of Office for web, considering its limitations compared to the desktop version?
+472. How would you build a marketplace for DocuSign apps?
+473. What product are you most proud of? What problems did you solve and what were the outcomes?
+474. Tell me about your most significant accomplishment. Why was it significant?
+475. Why do you want to work at Discord?
+476. Why do you want to work at DocuSign?
+477. Can you talk us through a product you've scoped and built? Include the goal and your specific role.
+478. If you were to eliminate one USD bill, which would it be and why?
+479. What are three consumer apps you use regularly and why?
+480. Why do you want to work at LinkedIn?
+481. Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target?
+482. How would you increase the frequency of user sessions on YouTube?
+483. You are a PM at Cisco facing supply chain issues. Role play a conversation with your client on how to address this.
+484. What are three endpoints on Discord?
+485. Should Uber Eats be a separate app from Uber Rides?
+486. Tell me about something you're passionate about.
+487. Why do you want to work at Twitch?
+488. How would you approach the process of decommissioning a service or system?
+489. Why do you want to work at Perplexity?
+490. How would you create a business around autonomous vehicles?
+491. Why do you think Facebook built the dating product? How would you measure its overall impact and set North Star metrics?
+492. How would you integrate an email marketing tool with a CRM like Salesforce, HubSpot, or Zoho?
+493. As a Home Page PM at Netflix, how would you measure the success of your product?
+494. What would you do if Dropbox uploads were down 50%?
+495. Design pens for children.
+496. Events created are down 100% on Facebook - why?
+497. Create an app to increase reading.
+498. How do you find the business value from an ambiguous question?
+499. What factors do you consider when trying to integrate two different products or platforms?
+500. What are three endpoints on YouTube?
+501. Build a sushi factory that sells wholesale sushi boxes.
+502. Diagnose a 40% increase in first month churn on HelloFresh.
+503. You're a PM at a company focused on the grocery shopping experience. How would you build a grocery shopping experience for a couple?
+504. How would you measure the success of EdX's search bar?
+505. Should Google provide Google Home devices to hotel room guests?
+506. Why are display ads bad?
+507. Measure the success of the iPad Pro.
+508. Can you introduce yourself?
+509. Help a premium airline with declining bookings in the business category.
+510. What are some reasons why Google acquired Fitbit?
+511. Given the pandemic, how would you build a software product to help parents monitor their child's increasing screen time on laptops and mobiles?
+512. Tell me about your favorite application. How would you build or integrate it within the Facebook platform?
+513. Which of Twilio’s values appeals to you the most?
+514. How does the US-China trade war affect Apple?
+515. How would Notion expand into Europe?
+516. How would you check for bias in your data?
+517. How would Snapchat expand into Indonesia?
+518. Why did WeWork fail?
+519. Why do you want to work at Twilio?
+520. Imagine the providers of Google Glass reduced the production cost to $10; what actions would you take?
+521. List four endpoints on Tinder.
+522. Diagnose a 25% drop in conversion on Wealthsimple's landing page.
+523. Diagnose 23andMe's 33% drop in conversion.
+524. If you had a teleportation device, how would you build a product from it?
+525. Who is your best employee or resource, and what makes them the best?
+526. You're a PM at WhatsApp; how would you capture the market for kids during the lockdown period?
+527. What are the top five traits of a product manager?
+528. Why are online orders on The New Yorker down 30%?
+529. How big is the market for Dropbox for SMBs?
+530. Design the interior of a fully autonomous car that requires no human interaction.
+531. You're a PM for a household device. What three features would you recommend and why?
+532. You just found a magical artifact that predicts the weather for the next 30 days. As a Google PM, what actions would you take?
+533. How did COVID-19 affect Uber?
+534. Should Google maintain both Chrome OS and Android OS?
+535. Why work at Slack?
+536. Why did Amazon start with books first?
+537. Which vertical should Facebook go into next?
+538. What are some endpoints on Amazon.com?
+539. As a Product Manager, how would you measure the success of Toshiba's self-checkout systems used by millions of grocery store shoppers daily?
+540. What would you suggest to make the iPhone the safest cellphone in the market?
+541. As the new CEO of Blue Origin, what actions would you take to make the company break even?
+542. What project risks are you currently unprepared to address?
+543. Why did Yelp sell Eat24?
+544. How much oil, in barrels per year, does the United States import?
+545. Measure the success of the Cybertruck announcement.
+546. Describe a situation where you learned something from media and successfully applied it to your work.
+547. You are in charge of the purchase experience at Back Market. A colleague tells you a lot of users try to buy large quantities of products from sellers. He thinks we need to build a checkout funnel ...
+548. Why did Facebook build the Portal?
+549. How would you increase per user spending by 25% on an e-commerce website?
+550. Why do you want to work at Shure?
+551. What are your core product principles?
+552. Tell me about a non-obvious insight that you had that drove business impact.
+553. What's a tool you think other product managers should use?
+554. Go into detail about a login endpoint.
+555. As a PM for autonomous land-based vehicles at Google, how would you decide on the next market segment and geography? Assume Waymo does not exist.
+556. How did COVID-19 affect Amazon?
+557. Why do you want to work at Twitter?
+558. Describe an endpoint and provide two examples.
+559. Installs on LinkedIn's iOS app are down, what do you do?
+560. You meet the VP of Product in an elevator who suggests Indeed.com should change its results page to infinite scrolling. What would be your next steps?
+561. How did COVID-19 affect HelloFresh?
+562. Diagnose a 25% decrease in conversions on Opencare.
+563. You've just joined a company as a PM. How would you first identify problems to work on?
+564. Tell me about your academic background.
+565. How would you make the internet faster?
+566. What product should Apple announce at their next Keynote?
+567. What have you learned from your experience as a founder that would make you a good product manager?
+568. What can we do with internet speeds in the terabytes in the future?
+569. List an example of one endpoint on Twitch.
+570. How would you identify and address different types of needs in mobile apps?
+571. Identify any pain points you've experienced using an airline's mobile app. How would you address them?
+572. Diagnose a 35% drop in usage on Invision.
+573. Why did Twilio acquire SendGrid?
+574. List four of your favorite Google products. What are some challenges one of them might face?
+575. Why do you want to work at Facebook?
+576. What's a collaboration product your teams use, and why do you like it?
+577. Explain why Airbnb is a good app.
+578. As a PM, how would you name conference rooms for a new office so newcomers can easily navigate?
+579. Diagnose a 35% decrease in email open rates on SendGrid.
+580. Why did Instagram remove the like count on posts?
+581. Why do you want to work at Oculus?
+582. Build a table management system.
+583. What are the advantages and disadvantages of GraphQL?
+584. Discuss version control on Google Docs.
+585. Why did Codecademy's signups increase by 15%?
+586. What problems could an MVP app solve?
+587. What does the Signup endpoint on Facebook do?
+588. Help RealSelf expand into South Korea.
+589. How would you simplify the in-person interview process during a global pandemic when you have to visit the recruiter's office?
+590. How would Hoop expand into South America?
+591. Would you like to apply design thinking in your future role?
+592. List three endpoints on edX.
+593. How would you expand Fiverr into China?
+594. List 3 endpoints on theScore app.
+595. If I know coding.
+596. Measure the success of StickerGiant's webpage.
+597. List three endpoints on Top Hat.
+598. Design something based on a project on your resume.
+
+
+================================================================================
+PRODUCT STRATEGY
+================================================================================
+
+📊 Total Questions: 134
+
+🎯 What they're really testing:
+Do you understand business strategy and market dynamics?
+
+🗺️  Mental Model Framework:
+```
+
+Product Strategy
+├─ Understand goal
+│  ├─ Company objective
+│  ├─ User need
+│  └─ Market opportunity
+│
+├─ Assess landscape
+│  ├─ Competitors
+│  ├─ Market trends
+│  └─ User behavior
+│
+├─ Evaluate options
+│  ├─ Build vs buy
+│  ├─ Prioritization
+│  └─ Tradeoffs
+│
+├─ Define success
+│  ├─ North star metric
+│  ├─ Supporting metrics
+│  └─ Timeline
+│
+└─ Make recommendation
+   ├─ Why this option
+   ├─ Expected impact
+   └─ Risks & mitigation
+
+```
+
+📝 All 134 Questions:
+
+1. You've just launched Facebook Jobs, a marketplace for employees and employers. Job listings are up 20%, but employer response time for applicants is down 20%. How would you approach this?
+2. You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap.  Your engineers are already working hard on a task outlined. What would you do?
+3. As a PM for Meta, how would you measure the success of launching a job marketplace?
+4. Should Google enter the furniture market?
+5. What metrics do you use to measure the success of a product launch?
+6. As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?
+7. You're a PM of Meta Payments. Average price per transaction is dropping significantly after launching in India and Southeast Asia. How would you define success and decide whether to continue this?
+8. Tell me about a product you launched successfully.
+9. Imagine you launched a feature that users really like and find helpful, but it isn’t driving any measurable business value. What would you do?
+10. Should Uber launch an 'Uber for Kids' service? If so, how would you design it?
+11. Imagine you are a PM at Amazon and Walmart is entering your country. How would you respond?
+12. OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?
+13. What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?
+14. Should Google enter into the online furniture-selling market?
+15. You're a PM at Netflix. Should Netflix launch a podcasting app?
+16. OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics for it?
+17. How would you launch a product for the proactivity space in Gemini?
+18. We're considering introducing a new ads placement on our app's homepage. Should we do it?
+19. As a PM at Meta launching a new video conference product, define the success metrics.
+20. You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?
+21. A large enterprise customer wants to integrate Sierra, what would you build first and why?
+22. You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?
+23. You're a PM at Netflix tasked with launching their first ads program. How would you approach this?
+24. Why is Android strategic for Google?
+25. How would you measure the success of a local ads product at launch?
+26. How should Google launch a new teleportation product?
+27. You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
+28. You're a PM at Trader Joe's and you find that sales revenues are down. Design the experience for users based on competitors like Blue Apron.
+29. You're a PM for Walmart building a new fulfillment center. What products would you stock?
+30. Google has just launched a new generational elevator. How would you convince customers to buy the product?
+31. What strategic pillars will you use to keep Maps data fresh through user-generated content?
+32. Should Microsoft Azure build a data center in space?
+33. Should Agoda launch a subscription service called 'Agoda Prime'?
+34. Design a next-generation elevator if Google were to enter this market.
+35. If Google Maps wants to launch in South Korea, how should it choose between three local vendors for map data?
+36. What are the business benefits and strategic reasons for a bank to develop a banking app?
+37. You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do?
+38. As a product manager at OpenAI, build an enterprise product.
+39. Design a direct competitor to your favorite product.
+40. Tell me about a time when you failed to launch a product.
+41. Tell me about a time when you had to change the direction of a project that was 70% complete.
+42. As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?
+43. Walmart's top product, dishwashing liquid, drives strong sales. Now eyeing the laptop market, would you invest in boosting dish soap production or launching a new laptop line?
+44. Who are TikTok's competitors?
+45. Meta wants to build a product for handymen like plumbers and carpenters. How would you design it?
+46. What would make you delay a major launch even under executive pressure?
+47. Uber is planning to launch ride services for children aged 8-12 years in India. What factors would you consider given that kids of this age won't have mobile access? What modifications would you su...
+48. You are the PM for a new product launch, but internal stakeholders won't have their component ready for the next six months. How would you proceed with the launch?
+49. As the PM for Hangouts, what would be your next steps after it launched in 2013 with a 3-star rating and polarized reviews?
+50. Square recently launched a product that helps sellers train their staff. What is your strategy for increasing the revenue of this product by 5x in the next year?
+51. With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?
+52. How would you increase revenue and market share for Skype?
+53. You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
+54. You're a PM on the Google Pixel team. What would justify launching an affordable entry-level Pixel phone?
+55. Determine if we should launch a feature of Instagram Store that allows purchases without logging in.
+56. List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
+57. How have you changed an opinion or direction using data?
+58. As a PM for an elevator company, how would you design new features to adapt your elevators for skyscrapers, distinguishing them from competitors?
+59. Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with me...
+60. You're a PM at a big tech company. You have a product launch in one week, however, the legal team just flagged 100+ potential issues. What would you do?
+61. How would you launch a product for a digital library as a Google PM?
+62. Should Slack enter the education market by launching Slack for education?
+63. Should Uber enter the e-scooter space in SFO, given a timeline from 7-8 years ago?
+64. Tell me about a time when you launched a product.
+65. As a product manager ready for launch, what is a good go-to-market strategy?
+66. If Facebook wants to enter the podcast space, what would you build?
+67. How would Google enter the food delivery space?
+68. Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
+69. Tell me about a project where you recognized the need to alter the strategy or direction.
+70. Share your experience around launching a product from 0 to 1.
+71. Describe what happens when you type a URL into your browser and press Enter.
+72. As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
+73. You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?
+74. What industry do you think could benefit the most from enterprise ChatGPT?
+75. Why is it important for users to complete their LinkedIn profile? Discuss both user and enterprise perspectives.
+76. What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
+77. Should Google offer an Airbnb competitor?
+78. Tell me about a time when you were unable to launch your product on schedule.
+79. Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
+80. Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
+81. How would you determine if launching a new product is worthwhile?
+82. Why did Stripe launch Stripe Atlas, Stripe Press, and acquire Indie Hackers?
+83. How should Google partner with the movie industry to enter the streaming space?
+84. Explain a feature you've launched.
+85. You are a PM for a grocery delivery app and need to launch the first version of the app in 3 months. How would you approach this go-to-market strategy?
+86. How would you price the Amazon Kindle at launch?
+87. How many bikes are needed to launch a bike-sharing service in NYC?
+88. As a PM at Slack, how would you redesign the product to enter the education sector?
+89. You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
+90. Should Google enter the Metaverse space? If so, how?
+91. Help Spotify launch in South Africa.
+92. How would you launch a scheduled rides feature for Uber or Lyft?
+93. Google wants to enter the grocery business. Mr. Sundar Pichai, the CEO, asks for your product design and strategy for this venture over the next 6-9 months. What is your plan?
+94. As a PM at Amazon, how would you decide if the company should enter the smartphone market?
+95. Design a competitor product to Spotify.
+96. If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
+97. Discuss how you managed an end-to-end product design to launch.
+98. Should we build a product for borrowing and lending money on Facebook?
+99. You are tasked to launch a RFI (Request for Information) Tool. How would you plan to develop and launch this product?
+100. Should Google create a Slack competitor?
+101. Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
+102. You're an early PM at Facebook. How would you evaluate the launching of its feed?
+103. Tell me about a time when you changed the direction of the organization through your actions.
+104. How would you launch a new product to our existing user base?
+105. You're a PM at LinkedIn in 2018, launching LinkedIn Live Video. How would you determine success?
+106. What metrics would you track upon launching a new e-commerce website and why?
+107. If a company’s top product is dish soap but it plans to launch laptops, how would you decide where to allocate resources?
+108. If Google wants to enter the market for helping people find lost belongings, what should the product look like, and should it be built?
+109. What's your favorite enterprise app?
+110. Tell me about your favorite product. How would you build its competitor?
+111. Tell me what you know about Hubspot and its market share.
+112. Should Facebook launch a 2D gaming product?
+113. Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?
+114. Design a parking garage for a high-tech shopping center.
+115. Explain how you took or would take a product from ideation to launch.
+116. You’re a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?
+117. How would you launch Amazon in Nigeria?
+118. Estimate how much bandwidth is needed for launching YouTube TV.
+119. How do you define success metrics when launching a new feature?
+120. Do you think Google should launch a driverless car service for children under 16 years old?
+121. What pre-work do you need to do for Google to enter a new bicycle business targeting children?
+122. How would you re-architect WordPerfect as a PM to increase its market share?
+123. Design a Google-branded inflight entertainment system.
+124. Google wants to launch a coding language. How should it go about it?
+125. You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting?
+126. How would you launch a new product in the blue-collar service industry?
+127. You're launching Google Maps in Argentina vs. Brazil. How would you decide between the two markets?
+128. As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct...
+129. Which enterprise product do you look up to?
+130. Diagnose a 35% drop in usage on Invision.
+131. How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?
+132. How should WeChat further expand into America?
+133. Where should the company launch next?
+134. Assess a project's competitors.
+
+
+================================================================================
+PRODUCT DESIGN
+================================================================================
+
+📊 Total Questions: 524
+
+🎯 What they're really testing:
+Do you think from the user's perspective?
+
+🗺️  Mental Model Framework:
+```
+
+Product Design
+├─ Understand user problem
+│  ├─ Who is the user?
+│  ├─ What's the pain point?
+│  └─ Why does it matter?
+│
+├─ Define success
+│  ├─ User value
+│  ├─ Business value
+│  └─ Key metrics
+│
+├─ Ideate solutions
+│  ├─ Brainstorm features
+│  ├─ Consider alternatives
+│  └─ Prioritize
+│
+├─ Design experience
+│  ├─ User journey
+│  ├─ Key interactions
+│  └─ Edge cases
+│
+└─ Measure & iterate
+   ├─ Launch metrics
+   ├─ User feedback
+   └─ Continuous improvement
+
+```
+
+📝 All 524 Questions:
+
+1. How would you improve a water bottle?
+2. How would you improve YouTube’s recommendation algorithm?
+3. Design a system to track reviews abuse on Amazon.com.
+4. How would you define success metrics for an AI-oriented feature or product?
+5. Design a product for borrowing and lending.
+6. Design a time machine.
+7. Design a birthday app.
+8. You're the PM for a calendar app. How would you design metrics for it?
+9. Design a product to help people start exercising again.
+10. Design a washing machine for Google.
+11. How would you design parking features on Google Maps?
+12. Design a product that helps people find contractors.
+13. Design a product to help travelers at airports. How would you go about building it?
+14. Design a garage door opener.
+15. Imagine you're a PM for Meta. Design a product for Volunteering. What would you build? Why?
+16. How do you prioritize competing features?
+17. Design an evaluation framework for ads ranking.
+18. Design a Retrieval-Augmented Generation (RAG) system to help TikTok’s content moderation team detect and handle misinformation.
+19. Design a podcast platform.
+20. Design an educational product for YouTube.
+21. Design a rideshare product or feature specifically for senior citizens.
+22. How would you build a Facebook product for blood donation?
+23. Design a product for air travelers.
+24. You're a PM for Meta's Payments Platform. How would you improve the platform and what north star metric would you use?
+25. How would you improve Spotify?
+26. Design a fire alarm for the deaf.
+27. You're a PM at Spotify considering adding a feature for artists to go live. Should you invest in this?
+28. What signals would you use to improve Meta's News Feed relevance?
+29. Design a new feature for WhatsApp group messages.
+30. Design a next-generation elevator.
+31. How would you improve Spotify as a podcast app?
+32. Design an app for Meta's smart glasses.
+33. You're a PM at Meta. Design a product for musicians.
+34. Design an educational product for Instagram.
+35. Design a LinkedIn for blue collar workers.
+36. How would you improve Google Maps?
+37. How would you improve retention for the Adobe Mobile Scan app?
+38. Only 1 in 5 riders tips their driver after a ride. How would you improve this?
+39. Design a Meta product for space travel.
+40. You're redesigning Capital One's Instant Push Notifications (IPN) system, moving from multiple screens to a single view. How would you improve the user experience?
+41. You're a PM at Revolut. How would you improve our referral program over the next 3 months?
+42. Design a new feature for YouTube.
+43. Imagine you launched a feature that users really like and find helpful, but it isn’t driving any measurable business value. What would you do?
+44. Design a physical product for Airbnb.
+45. Design an app for renting bicycles.
+46. Should Uber launch an 'Uber for Kids' service? If so, how would you design it?
+47. Design an AI agent for a streaming service.
+48. Design a dashboard that helps sales leaders monitor their product's performance.
+49. Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.
+50. You're a PM for Meta. Design a product for group travel.
+51. Design a banking app for kids.
+52. How would you improve our hiring conversion and time to hire from application to offer rollout?
+53. Design a food delivery app for restaurant owners and food vendors.
+54. Design a meditation app.
+55. Design a product for house-switching when traveling.
+56. Design a tablet for a restaurant.
+57. Design a platform for users to enjoy art.
+58. How would you improve fill rate for Flipkart banners?
+59. Design a gardening product for Meta.
+60. Design a product for collaborative audio transcription and dubbing tool?
+61. How would you improve the Amazon shopping experience?
+62. Design a solution to map unmapped places in Google Maps.
+63. How would you launch a product for the proactivity space in Gemini?
+64. Design a vending machine for a hotel lobby.
+65. Design a product for theme parks.
+66. How would you improve Gmail?
+67. Design a product for farms.
+68. You're a PM for Max, HBO's video streaming service. Roku wants to include an HBO button on their new remote control. How much should HBO pay for this feature?
+69. Design a vending machine for hotels, and estimate the market size in your hometown.
+70. Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?
+71. Design a product that encourages people to read more.
+72. Identify a product with untapped potential. Propose three new features for this product and outline how you would assess their effectiveness.
+73. Imagine you're a PM for Meta. Design a product for hobbyists (eg. gardening)
+74. You're a PM for Lyft. How would you improve ride quality?
+75. Design an ATM for London's Heathrow Airport.
+76. Design a product for gardeners.
+77. What is your favorite Google product and how would you improve it?
+78. You're a PM for Tesla. Design the Tesla app for the Apple Watch.
+79. How would you improve the worst post-booking experience for OpenTable?
+80. Design a product that helps people learn to play musical instruments.
+81. Design an app for an amusement park.
+82. Tell us about an app you don't like to use. How would you improve the app?
+83. Design an art-related product for Meta.
+84. How would you improve Stripe Payments?
+85. What are the success metrics for Meta's AI-powered messaging features?
+86. How would you improve the quality of Airbnb over the next six months?
+87. How would you improve your favorite product?
+88. Design a refrigerator for kids.
+89. Design an agentic AI system to power customer support for Spotify.
+90. Design a healthcare product for Meta.
+91. Design a washing machine for Gen Z.
+92. How would you improve YouTube?
+93. Design a touchscreen table for a restaurant.
+94. What metrics would you track to evaluate a new ‘Top Picks’ ML feature for Netflix?
+95. Imagine you're a PM for Facebook. Design a product for teens.
+96. You're PM at Meta. Design a fundraising product for a cause.
+97. Design a personalized user experience for Paytm, a payments and financial services app.
+98. Your largest customer is advocating for a new feature not in your roadmap. What do you do?
+99. Choose a product and tell me how you would prioritize new features for it.
+100. Design a product for museums.
+101. How would you improve Netflix's Help experience using AI?
+102. How would you improve the post-booking experience for TaskRabbit?
+103. How would you improve LinkedIn Messaging?
+104. How would you prioritize between fixing a bug or shipping a new feature?
+105. Design a self-driving car solution for kids.
+106. Redesign a DMV system.
+107. Name three bad products. Then, pick one to improve.
+108. Design a refrigerator for blind people.
+109. Tell me about a time you had to convince engineers to implement a particular feature.
+110. Design a better grocery shopping experience.
+111. As a PM at a vending machine company, design a new line of vending machines for hotels and motels.
+112. Design an art solution for Instagram.
+113. Design a mortgage app.
+114. As a PM for Mastercard, design a product for restaurants to switch to a purchase order system that reduces labor costs.
+115. What are your top three favorite apps? How would you improve one of them?
+116. Design a fitness app.
+117. How would you improve the Doordash post-order experience?
+118. Design a product for celebrity engagement.
+119. How would you prepare a presentation for the CEO, within two weeks, on Microsoft Shifts’ current performance and potential improvements?
+120. You're a PM at Meta. How would you measure the success of the 'Report Ad' feature for Ads, considering false positives and false negatives?
+121. Have you tried PowerPoint and what would you improve about it?
+122. How would you design a hyperlocal feature for Facebook?
+123. Design an educational product for Meta.
+124. Imagine you're a PM for Alaska Airlines. How would you improve the in-flight experience for customers?
+125. How would you determine which features to include in a Minimum Viable Product (MVP)?
+126. Design a travel product for Instagram.
+127. How would you grow the virtual card number feature?
+128. How would you improve airport passengers' experience to address the pain point of time spent at the airport?
+129. How would you improve the customer satisfaction rating (CSAT) for Costco, a membership-only retail store?
+130. You're a PM at the Department of Motor Vehicles (DMV). What improvements would you make to their services?
+131. Design a product for roofers.
+132. How would you improve your favorite music application?
+133. Design a fundraising product.
+134. Design a product for airports.
+135. Design a platform that matches people wanting to learn skills with relevant mentors.
+136. How would you improve Netflix?
+137. How would you redesign Instagram's DM feature?
+138. What is your favorite non-Google product and how would you improve it?
+139. Design a virtual travel product.
+140. How would you improve the Capital One mobile app?
+141. Improve the worst post-booking experience for Ticketmaster.
+142. Design a fitness app for Facebook.
+143. How would you improve Venmo? What features would you build and why?
+144. Design a product for parenting.
+145. How would you build an audio product for Facebook?
+146. Given the increase in travel-related content and the trend of 'revenge travel' post-COVID, design a new product for the travel space.
+147. You're a PM at Apple Maps. How would you improve the overall user experience?
+148. How would you improve the worst post-booking experience at an airline?
+149. How would you prioritize features on TikTok to improve, and how would you approach improving the features you've identified?
+150. Improve the post-booking experience for Turo.
+151. How would you improve supply on Zomato?
+152. Design an elevator.
+153. What is an example of a poorly designed product? How would you improve it?
+154. You're a PM for Instagram. Improve friend group dynamics and how friends socialize.
+155. What metrics would you use to measure the success of the virtual card number feature?
+156. Design a product for chefs to speed up the cooking process.
+157. How would you rollout a new feature for Perplexity?
+158. Design a digital library to encourage kids to read.
+159. A cross-functional team which your feature delivery is dependent on is not working at the expected pace. How would you handle this?
+160. Design a listening product for Meta.
+161. Design an elevator for a skyscraper and estimate the number of elevators needed.
+162. Design a product to address language barriers in India.
+163. How would you design a game for a popular Netflix reality show?
+164. Design a video streaming app for senior citizens.
+165. Build a product for art lovers.
+166. Improve the worst post-booking experience for United Airlines.
+167. How would you improve Google Drive?
+168. Design a Search Engine for Kids
+169. Design a next-generation elevator if Google were to enter this market.
+170. Design an online ticketing platform to compete with Ticketmaster.
+171. How would you improve walmart.com?
+172. You're a PM at Meta. Design a product for skill sharing.
+173. What technical elements are involved in implementing a per-transaction limit for the virtual card feature?
+174. You're a PM for Meta releasing a new Jobs feature in 2 weeks. How will you measure the success of this product in the short and long term?
+175. How would you redesign the worst experience on Ticketmaster to improve it?
+176. How would you design an effective chunking strategy for information in a RAG (Retrieval-Augmented Generation) system?
+177. How would you improve user engagement on Netflix?
+178. Given experiment results, how do you decide whether to ship the feature?
+179. Design a lending library for communities.
+180. How would you measure the success of discovery features on Instagram?
+181. As a PM for JPMorgan Chase's Payments Developer Portal, design a new feature to improve customer adoption.
+182. How do you A/B test a new feature?
+183. Design Airbnb for work.
+184. How would you integrate social features into the Coinbase platform?
+185. Design a solution for borrowing and lending on Facebook.
+186. What product do you think has good UX design and why?
+187. You're a PM at Meta. What product or feature would you build for small or local businesses?
+188. How would you improve the passenger experience at a major metropolitan airport?
+189. How would you improve the experience at amusement parks?
+190. Design an international crypto remittance product.
+191. Design an iron for the blind.
+192. Design a new volunteer feature in the Facebook app.
+193. As a PM at Microsoft, design a B2B customer support product for them.
+194. Design an ATM for the blind.
+195. Design a product for parking, not related to Facebook.
+196. Design an elevator for blind users.
+197. How would you increase revenue for a UPI product (Unified Payments Interface), an Indian instant payment system?
+198. Design a free product. How would you monetize it?
+199. Propose a new feature for Perplexity.
+200. How would you improve the DMV?
+201. You're a growth PM for Chrome Browser. Design a 3-year strategy for the browser.
+202. Design a product for managing and planning budgets.
+203. Design a product for children at your favorite museum.
+204. How would you improve ChatGPT?
+205. How would you improve Uber Eats?
+206. Design a direct competitor to your favorite product.
+207. Design a product for the Department of Motor Vehicles (DMV).
+208. Design a camera for the elderly.
+209. Design a distributed database system, for example, Kafka.
+210. How would you design a system for a healthcare agent that summarizes a patient’s medical history?
+211. You're a PM for Gmail. Design a three-year product roadmap.
+212. Choose your favorite product and explain how you would improve it.
+213. Design a payment screen mockup with virtual card numbers.
+214. How would you improve iOS for the next 3-5 years?
+215. Users are creating more Instagram Stories, but engagement is down. What metrics would you track to improve this?
+216. Design a parking solution for one of your favourite navigation apps.
+217. Design an alarm clock for children 100 years in the future.
+218. You were hired by an airline consortium to improve the perception of air travel. What would you do with a budget of $10M in one year?
+219. Design a virtual learning experience for Meta Reality Labs that teaches hands-on skills like pottery or welding.
+220. Design a financial product for kids.
+221. Design a camera for Instagram users.
+222. You're a PM at Instacart. What would you do to improve retention?
+223. Design Whatsapp for either one of 3 segments: senior citizens, families, or businesses.
+224. Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
+225. Design a smartphone for blind people.
+226. What is a non-technical product you frequently use? How would you improve it?
+227. You're a PM at Lyft. Your team is responsible for setting the default pick-up location. How would you improve it?
+228. How would you improve the Capital One website?
+229. You are a PM at Netflix, design a podcast for Netflix.
+230. Design an app for newcomers in a city to find doctors.
+231. Meta wants to build a product for handymen like plumbers and carpenters. How would you design it?
+232. Design a product for the blind visiting the mall.
+233. How would you improve Facebook Marketplace?
+234. Design an order-assignment system for early-stage last-mile food delivery app.
+235. Design a cookbook app.
+236. You're a PM for Pão de Açúcar supermarkets. How would you improve the in-store customer experience?
+237. Design a web service for asynchronous communication.
+238. Design a task management app for personal use.
+239. Design an ATM for kids.
+240. How would you leverage discovery features like search to acquire users for TikTok Shop?
+241. How would you design the product experience of an ATM machine at an international airport.
+242. You are working for a retail company that wants to improve user engagement on a telemedicine platform by leveraging their retail data. What is your approach?
+243. You're a PM at Instagram responsible for building the Reels feature. How would you define and measure its success?
+244. You're a PM at AllTrails. How would you improve its retention rates, including for its premium subscription service?
+245. What is your least favorite product among the ones you use, and how would you improve it?
+246. Determine if we should launch a feature of Instagram Store that allows purchases without logging in.
+247. How would you improve Zoom?
+248. Design a returns solution for Shopify, considering that most users look for return policies.
+249. Design a new product that Apple could announce in 5-6 years. What features and innovations would it include, and how would it enhance the current Apple ecosystem?
+250. Design a refrigerator for the blind.
+251. How would you improve the Meta Horizon World product?
+252. List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
+253. You're a PM at an elevator construction company. Design an elevator for a client.
+254. As a PM for an elevator company, how would you design new features to adapt your elevators for skyscrapers, distinguishing them from competitors?
+255. What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+256. Design an AI system that integrates with a third-party company’s data and workflows.
+257. Design an automated reimbursement system.
+258. Design an app for buying and selling antiques.
+259. How would you improve the experience at a DMV?
+260. Design a product for handymen for Meta.
+261. Design a bookshelf for children.
+262. How would you improve retention on LinkedIn?
+263. Design an experimentation platform for Google.
+264. How have you worked on quick iterations with UX designers in the past?
+265. As a PM at Meta, design a product for making restaurant reservations.
+266. You're a PM at Meta. Design a product for users to find a handyman.
+267. Design a product for child care.
+268. Design a Smart Lock for Google.
+269. You're a PM at WhatsApp tasked with increasing user engagement. What features will you build and how will you prioritize and evaluate them?
+270. Design a revenue curve for a new Capital One product.
+271. How would you launch a product for a digital library as a Google PM?
+272. How would you implement safety features for Roblox's private messaging between players?
+273. Design a product for board meetings.
+274. Design a mobile app to celebrate birthdays.
+275. Reinvent a pillow with 10 new features.
+276. Design a product to memorialize pets who have passed away.
+277. As a product manager for Meta, design a product for volunteers.
+278. Design a social media application for introverts.
+279. How would you improve the Pinterest experience?
+280. What are 4 features you would build for Netflix?
+281. Improve Pinterest.
+282. Product Sense - Build a product for sports.
+283. Design a referral system for Netflix to drive its user growth.
+284. What is your favorite Microsoft product, what do you dislike about it, and how would you improve it?
+285. As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
+286. What would be your strategy to improve Google Maps as a product?
+287. How would you improve pickups and drop-offs through Uber during large events with over 10,000 people?
+288. Design a clock for children.
+289. How would you improve Shopify for new merchants who have difficulty sourcing products to sell?
+290. Design a voting app.
+291. Design a system for an Alexa-enabled Peloton. Define the APIs, system architecture, and explain the various components.
+292. Design a travel app experience for Meta.
+293. Design an online file storage and sharing platform.
+294. How would you optimize booking.com to improve conversion rates?
+295. How would you prioritize features in a content moderation tool?
+296. How would you improve engagement for a real estate app like Redfin or Zillow?
+297. Design a product that provides podcast recommendations.
+298. If Mark Zuckerberg asked you to create a product for athletes, what would you build?
+299. Given Google Search is just a simple text input and hasn't innovated further, how would you improve the user journey from the landing page?
+300. Design a parking lot.
+301. You're a product manager at Meta. Design a product for hyperlocal experiences.
+302. What would you do if you had to deliver a product or feature in half of the initial timeline?
+303. How would you improve the Facebook feed?
+304. Design a recommendation system for Amazon. What key metrics would you use to measure its success?
+305. Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
+306. Design a product for Facebook to enable charity.
+307. Design a product for job search on Facebook.
+308. How would you improve the parking experience as a product manager for Google Maps?
+309. Design a product to help people feel more rested.
+310. Design a product for managing parking (not limited to cars).
+311. If you were the PM for the search results page, how would you design the relevance?
+312. Design an app for gardening.
+313. How would you design a password management tool for children?
+314. Design a podcast app for Facebook.
+315. Tell me about a product or feature you shipped.
+316. Define the goals and success metrics for the default pick-up location pin feature.
+317. Design an app to search for therapists.
+318. How would you enhance the Facebook Birthdays feature?
+319. Design a better experience for attending large events. How would you implement and test it? What would the user experience look like?
+320. Design an app to read books online.
+321. Design a language learning app for Meta.
+322. How would you improve Apple Music?
+323. How would you improve engagement on the Venmo Social Feed?
+324. What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
+325. How would you improve Rover?
+326. How do you balance engineering foundational work with building new features?
+327. Design an events feature for a kids' messenger app.
+328. Design a fashion product for Facebook.
+329. Design a Google Pixel Tablet for restaurants.
+330. Design a social crypto bank.
+331. Design a product similar to Google Docs for photo editing collaboration.
+332. As a Google PM, how would you design a solution to enhance financial savviness for users?
+333. Design a product for learning to play musical instruments.
+334. Tell me about a time you continuously improved a project.
+335. Design a product to help people connect better with doctors.
+336. What two new features would you add to a car garage?
+337. Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
+338. Design a product for Facebook for the Olympics.
+339. What changes or improvements would you recommend to the company's WFH policies to increase employee productivity and satisfaction?
+340. Design an MVP for Booking's homepage to improve customer lifetime value.
+341. Design a new cane.
+342. You're a PM at Amazon notified of losing customers. How would you improve the customer journey and experience?
+343. Explain a feature you've launched.
+344. Design a product at Facebook to improve the layover experience.
+345. Design a grocery delivery mobile app.
+346. You're a PM at Uber; design a smartwatch app.
+347. Design a restaurant menu application.
+348. Design a GTM strategy for our web-based Documents Processor App.
+349. How would you improve Facebook's timeline?
+350. Design a bookshelf for elderly people.
+351. Design a smart refrigerator.
+352. How might you improve Spotify using social features?
+353. Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.
+354. Improve the Apple Watch.
+355. Improve Google Maps for group travel.
+356. Design an improved version of Google Photos to enhance accessibility for blind users.
+357. Improve Discord.
+358. Design a car for seniors.
+359. When building an app for millions of users, would you deploy the ML model on the server side or client side?
+360. Design a Facebook app to connect users with handymen.
+361. Design an app for a theme park.
+362. Design a video streaming product for senior citizens.
+363. Design a solution for borrowing and lending goods among neighbors on Facebook.
+364. You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
+365. Design a birthday app for Facebook.
+366. Reinvent a backpack with 10 new features.
+367. Design an app for cinema.
+368. Design an application that helps users lose weight.
+369. How would you measure the success of improvements made to Uber's referral system?
+370. Design a smart hat.
+371. Design a grocery list app.
+372. Tell me about something you learned that improved your job performance.
+373. Design a product for gardening enthusiasts.
+374. How would you launch a scheduled rides feature for Uber or Lyft?
+375. Reinvent a trashcan with 10 new features.
+376. Design an employee onboarding product for SaaS companies.
+377. Design an ATS system.
+378. How would you improve the search function on Walmart.com?
+379. Google wants to enter the grocery business. Mr. Sundar Pichai, the CEO, asks for your product design and strategy for this venture over the next 6-9 months. What is your plan?
+380. Design a mobile app for Disney theme parks.
+381. How would you improve someone's dining experience?
+382. Design a competitor product to Spotify.
+383. Design a refrigerator for Meta.
+384. If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
+385. You're the PM for Meta's Social Good team. Design a new product to encourage more volunteering.
+386. The CEO asks you to design a new ATM specifically for their airport segment. What would you do?
+387. How would you market Github's Copilot inline citation feature?
+388. Design an analytics platform.
+389. Design a Google product for individuals living in retirement homes.
+390. Should we build a product for borrowing and lending money on Facebook?
+391. Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
+392. If you were PM for Twitter Spaces, how would you improve it?
+393. Design a product or feature for new or expecting parents on Facebook.
+394. Design a health app within the Microsoft ecosystem.
+395. Airbnb made a feature to increase business travel. How would you measure its success?
+396. Design a product for retailers with the aim of increasing advertiser ROI.
+397. You work at SFO airport, and the CEO asks you to improve the experience from car drop-off to boarding the plane. What's one recommendation you would make?
+398. How would you improve OpenTable?
+399. Design a product roadmap for Flipkart's Seller Hub mobile app.
+400. How would you build out a feature for Viva Engage?
+401. Design a bookshelf.
+402. How would you improve the movie watching experience?
+403. How would you determine the success of LinkedIn's Job feature?
+404. How would you design a coffee machine for use on the International Space Station?
+405. How would you debug a decline in sales and decide whether to build a new feature or not?
+406. Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on.
+407. How would you improve Houzz?
+408. How can Lyft build a product to improve transportation for patients and how will you monetize it?
+409. Design a platform for home-chefs.
+410. Design a product strategy for Netflix for FY23-24.
+411. How would you measure improvements made to Facebook Messenger?
+412. As a Facebook PM, what would you do to design a product for hobbies?
+413. How would you approach your stakeholders if you cannot deliver the feature in the next six months?
+414. You're a PM for a new device, which is a time machine. How would you design the interface?
+415. Design a Google product for the elderly.
+416. As a PM for the health team at Meta, design a product for tissue donation.
+417. Design an app like Uber for Google's driverless cars targeted at children under 16 years old.
+418. Design a product to help flightless birds navigate a big city.
+419. Design a food pickup app for Yelp engineers.
+420. Design an office refrigerator.
+421. Design an application to help people find doctors.
+422. Design a product for junior athletes to connect with their idols.
+423. Design an investment app.
+424. Design a vending machine for use in airports.
+425. Tell me about a feature you shipped and how you influenced its priority.
+426. Improve how Slack enables collaboration.
+427. Design a bike-sharing system for your city.
+428. Design a better alarm clock.
+429. Design a financial app aimed at college students.
+430. How would you improve shipment tracking on Amazon?
+431. As a PM at a teleconferencing company, design a product for working from home.
+432. Design a lawn mower.
+433. The same-store sales are declining for one of your local supermarket chains. As a PM, how will you build products and features to serve the need of users?
+434. How would you measure the success of Discord's new game purchasing feature?
+435. Design a product for parents to moderate their children's phone and screen usage.
+436. Design a smart picture frame.
+437. Design a studio apartment for 3 people.
+438. You're a PM for sponsored product ads. How would you improve the fill rate on listings pages?
+439. What areas would you like to personally improve as a Product Manager?
+440. How would you design an experiment to validate the success of a new landing page?
+441. Design a product to track animals.
+442. Design a parking garage for a high-tech shopping center.
+443. How would you improve the Spotlight feature at Snapchat?
+444. Design a payment system for teenage boys in Italy.
+445. Design an electric car dashboard.
+446. How would you improve Patreon?
+447. Should LinkedIn develop live video features?
+448. Design a feature to locate items.
+449. How would you improve TED?
+450. Design an app to allow book subscriptions with hard copies.
+451. Design a car stereo.
+452. Design a better dog collar.
+453. How do you define success metrics when launching a new feature?
+454. How would you design the YouTube landing page?
+455. You're a PM at LinkedIn. Design features to support India's growing startup ecosystem.
+456. How do you design Amazon's Choice feature?
+457. Design an ATM system that remains operational during natural disasters.
+458. Design a hair comb for elderly (aged over 65).
+459. Design a teleportation device for the year 2050.
+460. Design a product to connect college students.
+461. You are working for a startup to build a product for volunteering.
+462. How would you improve Amazon's homepage?
+463. How would you measure the success of Asana's feature improvement to their ticketing system?
+464. How would you improve airport layovers?
+465. Tell me about a time when you created a product or feature without the client requesting it.
+466. Design a Time Machine for TuSimple.
+467. Design a Google Nest/Home for an elderly person.
+468. How can engagement be improved for the 13-19 age group on Instagram?
+469. Design a product that enables apartment owners to access and manage the usage of shared amenities (e.g. gym, garden, and book club) within their complex?
+470. You're the PM of the Apple Watch; how would you design it?
+471. How would you design a Web browser to increase the sales of your ecommerce company?
+472. How would you build a product for disabled users on LinkedIn?
+473. You are at a well-funded startup. Design a solution to solve the problem of parking.
+474. Improve StubHub.
+475. 1. Cost for a new Facebook customer acquisition. 2. How would you do a database migration? 3. How would you improve the LinkedIn home page?
+476. Design a Google-branded inflight entertainment system.
+477. As a product manager for a meditation app for kids with a 3 to 5 star average rating in the Play Store, how would you improve that rating?
+478. You're a PM for a household device. What three features would you recommend and why?
+479. Design a roadmap for adding or integrating purchase requests to an existing invoice management system.
+480. What's an area you're trying to improve?
+481. Design a food truck's front-end and backend system.
+482. As the Head of Product for a travel incubator, what would you build?
+483. You are a product manager at Facebook working on the news feed. Design a system to determine if Facebook should display an ad or a friend recommendation after every 20 posts in the feed for the users.
+484. Design a wedding registry.
+485. Design a product to help salespeople in the automotive industry close more deals.
+486. You have two high-ranking VIP customers who request different features. What do you do, and which features do you build?
+487. Redesign a TV remote control.
+488. Design a product to help Facebook employees enhance their learning.
+489. Design a search engine for Instagram.
+490. Design a cereal dispenser.
+491. How would you improve SSENSE?
+492. Improve the seller drop-off experience on the GOAT app.
+493. Improve Facebook's Crisis Alert feature.
+494. Design an app for a toy remote control car.
+495. You're called in by the government of India to design the Cowin portal. What top features would you integrate for partner personas? What key metrics would indicate the platform's success and how wo...
+496. How would you improve Day One?
+497. Design a web app to find a cleaner.
+498. You're a PM at Swiggy. How would you design a new segment for liquor on Instamart?
+499. Design a product to gather user feedback from various other products or services.
+500. Design a betting/auction platform for auction houses.
+501. Design a supermarket that caters to older adults.
+502. How can Facebook improve preparing for another pandemic?
+503. Design a bike program for Google's Mountain View campus.
+504. Design a new communication device for the elderly, capturing 80% of the market, excluding smartphones.
+505. Design a better dog bowl.
+506. Design an e-commerce website for SLR cameras.
+507. You're the Product Manager at Beacon. What would you do to build an in-app chat feature?
+508. How would you improve Houseparty?
+509. Design an internal navigation system for Cruise servicing garages.
+510. Intercom introduced a feature to engage with users over SMS. How would you measure its success?
+511. Design an app for an airport that can be monetized.
+512. Design a web app for office workers to book time off.
+513. Design a credit card module for kids.
+514. How would you improve the NBA League Pass for basketball fans?
+515. Improve the Oculus Go.
+516. A potential client asks for a guarantee on a feature’s delivery date. Your team hasn't considered this feature before. What would you do?
+517. Design an open-source content management filtering system governed by a decentralized community.
+518. As a PM at Exponent, how would you design a system to prevent multiple users from sharing the same account or encourage unique accounts?
+519. List improvements for Evernote.
+520. Design a new way for tourists to communicate.
+521. Design a 'maker-checker' feature in a finance platform where each manual action requires two individuals: the executor and the approver.
+522. Tell me about a time when you redesigned the interface of clinical trial software for enhanced user simplicity.
+523. Improve the Oculus Store.
+524. Design an image sharing product.
+
+
+================================================================================
+BEHAVIORAL
+================================================================================
+
+📊 Total Questions: 117
+
+🎯 What they're really testing:
+Do you have relevant experience and learn from it?
+
+🗺️  Mental Model Framework:
+```
+
+Behavioral (STAR Method)
+├─ Situation
+│  ├─ Context
+│  ├─ Challenge
+│  └─ Stakeholders
+│
+├─ Task
+│  ├─ Your role
+│  ├─ Goal
+│  └─ Constraints
+│
+├─ Action
+│  ├─ What YOU did
+│  ├─ Why that approach
+│  └─ How you executed
+│
+└─ Result
+   ├─ Outcome (quantify!)
+   ├─ Impact
+   └─ Learnings
+
+```
+
+📝 All 117 Questions:
+
+1. Tell me about a time when you made short-term sacrifices for long-term gains.
+2. Tell me about a time when you handled a difficult stakeholder.
+3. Tell me about a time you made a mistake.
+4. Tell me about a time you disagreed with someone and how you resolved it.
+5. Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?
+6. Tell me about a time when you worked on a project with a tight deadline.
+7. Tell me about a time you took a calculated risk when speed was critical.
+8. Tell me about a time when you solved a complex problem and how you went about it.
+9. Tell me about a time when you pivoted strategies and stakeholders disagreed.
+10. Tell me about a time you made a bold and difficult decision.
+11. Tell me about a time you used your analytical skills to solve a complex problem in a creative way.
+12. Tell me about a time when you had to manage a difficult customer.
+13. How would you create a short-term roadmap when production issues, sales pressure, and customer demands conflict?
+14. Tell me about a time when you had to make a decision quickly.
+15. Tell me about a time you failed. What would you have done differently?
+16. Tell me about a time when you proposed an idea that was not agreed on.
+17. Tell me about a time you anticipated the needs of a customer.
+18. Describe a time when your project failed.
+19. Tell me about a time when you faced technical and people challenges simultaneously.
+20. Tell me about a time when you made a decision without sufficient customer data.
+21. Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.
+22. Tell me about a time when you received negative feedback and how you handled it.
+23. Tell me about a time when you used a specific metric to drive change in your department.
+24. Tell me about a time when you pushed back against an unreasonable customer request.
+25. Tell me about a time you brought disagreeing teams together.
+26. Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
+27. Tell me about a time when you faced a conflict while on a team.
+28. Tell me about a time you had a problem and had to discover the real cause.
+29. Tell me about a time when your solution was criticized for being something that has been tried before and failed. How did you manage this?
+30. Tell me about a time when you had a disagreement with your manager.
+31. Tell me about a time when you made a decision based on data and were wrong.
+32. Tell me about a time when you had to make a significant decision without your manager.
+33. Tell me about a time when you had to mediate a conflict.
+34. Tell me about a time when an employee gave you negative feedback.
+35. Tell me about a time when you used data to convince stakeholders.
+36. Tell me about a time when you solved a problem innovatively.
+37. Tell me about a time you had to convince engineers to implement a particular feature.
+38. Tell me about a time when you missed a deadline.
+39. Tell me about a time when you taught yourself a skill.
+40. Tell me about a time when you went above and beyond for a customer.
+41. Tell me about a time when you gained trust.
+42. Tell me about a time when you used customer feedback to drive innovation.
+43. How do you resolve conflicting product requirements, and who determines which requirement takes priority?
+44. Tell me about a time you helped someone else succeed. Have you ever succeeded because of someone else's help?
+45. Tell me about a time when you failed as a people manager.
+46. Tell me about a time when you knew you weren't going to meet a goal.
+47. Tell me about your biggest failure.
+48. Tell me about a time when you built out a process.
+49. Tell me about a time when you had to break a complex problem down for different cross-functional teams.
+50. Tell me about a time when you made an important decision without your boss's approval.
+51. Tell me about a time when you had to make a difficult trade-off decision on a roadmap.
+52. Tell me about a time when you had to handle pressure.
+53. You're the PM for Agoda. Due to increasing failure rates in newer payment methods like wallets and UPI, how would you investigate the cause and what steps would you take to address it?
+54. Tell me about a time when you were creative.
+55. Tell me about a time you handled a difficult technical stakeholder.
+56. Tell me about a time when you led a project from start to finish.
+57. How would you manage a latent field failure or bug that impacts customers and increases return rates or support contacts?
+58. Tell me about a time a teammate's actions led to unexpected results. What did you do about it?
+59. Tell me about a time when you failed to launch a product.
+60. Tell me about a time when you had to deliver negative feedback.
+61. Tell me about a time when you had to change the direction of a project that was 70% complete.
+62. How would you resolve a disagreement with a colleague?
+63. Tell me about a time data was the north star metric and how the analysis was performed.
+64. Tell me about a time when you discovered an area of opportunity that hadn't been fully explored. How did you identify it, what actions did you take, and what was the outcome?
+65. Tell me about a time when you questioned the status quo.
+66. Tell me about a time you dealt with a difficult situation or roadblock while designing a product and how you obtained stakeholder buy-in.
+67. Walk me through the technical architecture of your product.
+68. Debug and extend a Python codebase by adding an async exponential retry mechanism with timeouts and backoff so failures are retried until success.
+69. Tell me about a time when you resolved a problem that was outside your team's scope.
+70. Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?
+71. Tell me about a time when you had to motivate a team after a demoralizing event.
+72. Tell me about a time when you influenced a product roadmap.
+73. Tell me about a time when you had to work with an engineering team to make some tradeoffs.
+74. Tell me about a time you stepped in to help a struggling teammate.
+75. Tell me about a time when you had to find a simple solution to solve a very complex problem.
+76. How would you handle a disagreement with an engineer over a product decision, balancing data insights with their technical perspective while preserving collaboration?
+77. Tell me about a time you proposed a non-intuitive solution to a problem and how you identified that it required a different way of thinking.
+78. Tell me about a time when you launched a product.
+79. Tell me about a time you pushed back on leadership.
+80. Tell me about a time when you made a prioritization tradeoff.
+81. Tell me about a time when you took on a task outside your job description.
+82. Tell me about a time when you failed to pitch something to leadership.
+83. Tell me about a time when you had to exert influence to drive a decision.
+84. Tell me about a time you got a project back on track.
+85. Tell me about a time you successfully delivered a project without a budget or resources.
+86. Tell me about a time when you were unable to launch your product on schedule.
+87. Tell me about a time you continuously improved a project.
+88. Tell me about a time you provided feedback that was helpful to a peer.
+89. Tell me about a time when you worked on something you were passionate about.
+90. Tell me about a time when you disagreed with your manager or peer on something important to the business.
+91. Tell me about a time when you had two deadlines at the same time. How did you manage the situation?
+92. Tell me about a time when you succeeded as a product manager.
+93. Describe a time when an experiment you conducted yielded unexpected results. How did you react to the outcome?
+94. Tell me about a time when you worked on a team and demonstrated leadership.
+95. Tell me about a time when you redesigned a process and the reasoning behind it.
+96. Describe your preferred e-commerce platform and walk me through the user journey.
+97. Tell me about a time when you were surprised during your work as a data product manager.
+98. Tell me about a time when your work received criticism.
+99. Tell me about a time when you stepped up into a leadership role.
+100. Tell me about a time when you influenced a peer with a differing opinion.
+101. Tell me about a time when you changed the direction of the organization through your actions.
+102. Tell me about a time when you encountered obstacles in your plan. How did you address them?
+103. Tell me about a time when you convinced your co-worker to adopt your approach. What was the outcome?
+104. Tell me about a time when you worked with limited information to drive customer outcomes.
+105. Tell me about a time when you felt the most challenged.
+106. Tell me about a time you hired or worked with people smarter than you.
+107. Tell me about a time when you had to ask more questions or dig deeper to get to the bottom of something.
+108. Have you ever faced a project deadline that was earlier than expected? How did you handle it and what was the outcome?
+109. Tell me about a time when you decided between customer-centric and business-centric goals.
+110. Tell me about a time when your technical knowledge helped the team make a decision.
+111. Tell me about a time when you created a product or feature without the client requesting it.
+112. Tell me about a time you advocated for a team member with less power than you.
+113. Tell me about a time when you undertook an entrepreneurial endeavor in a personal or professional setting.
+114. Describe a time when you brought two departments together to work more effectively.
+115. Have you ever worked with an external subject matter expert? How did you approach it?
+116. Tell me about a time when you were more proactive than others.
+117. Tell me about a time when you redesigned the interface of clinical trial software for enhanced user simplicity.
+
+
+================================================================================
+EXECUTION
+================================================================================
+
+📊 Total Questions: 77
+
+🎯 What they're really testing:
+Can you turn plans into results?
+
+🗺️  Mental Model Framework:
+```
+
+Execution
+├─ Prioritize tasks
+│  ├─ Impact vs effort
+│  ├─ Dependencies
+│  └─ Urgency
+│
+├─ Break into actions
+│  ├─ Concrete steps
+│  ├─ Owners
+│  └─ Timeline
+│
+├─ Deliver incrementally
+│  ├─ Quick wins
+│  ├─ Iterate
+│  └─ Show progress
+│
+├─ Adapt to changes
+│  ├─ New information
+│  ├─ Blockers
+│  └─ Pivot if needed
+│
+└─ Close the loop
+   ├─ Results
+   ├─ Learnings
+   └─ Next steps
+
+```
+
+📝 All 77 Questions:
+
+1. How would you convince leadership to build a wristwatch for the elderly?
+2. How would you execute the change of moving the 'like' button in photos to a menu under three dots on the picture?
+3. How would you improve our hiring conversion and time to hire from application to offer rollout?
+4. Design a food delivery app for restaurant owners and food vendors.
+5. How would you work cross-functionally to strategize, design, and implement virtual debit and credit cards for Capital One?
+6. Estimate the number of tires purchased annually by a large car dealership in San Jose, California.
+7. Estimate the number of Zomato food delivery drivers in Bangalore, India.
+8. Describe a tough situation where you had to step into a leadership role.
+9. How would you prioritize between fixing a bug or shipping a new feature?
+10. Tell me about a time you had to convince engineers to implement a particular feature.
+11. How would you measure the success of AI implementation at Netflix?
+12. How do you prioritize tasks across the engineering team, product bugs, the product roadmap, and suggestions from leadership?
+13. How would you improve the customer satisfaction rating (CSAT) for Costco, a membership-only retail store?
+14. You have 3 years to make X the best in the world. What strategy would you implement?
+15. You have a new capability that's extremely powerful but potentially risky, how do you decide whether or not to ship it?
+16. How would you rollout a new feature for Perplexity?
+17. A cross-functional team which your feature delivery is dependent on is not working at the expected pace. How would you handle this?
+18. What are the key metrics for a food delivery app, particularly those indicating an oversupply or undersupply of restaurants and orders?
+19. If Meta Pay did not exist, would you recommend that Meta develop its own payment solution internally or seek a partnership? Justify your decision.
+20. What technical elements are involved in implementing a per-transaction limit for the virtual card feature?
+21. Given a nested merchandise catalog dictionary, extract attributes for a specific item and traverse related items recursively to build the full relationship tree.
+22. Given experiment results, how do you decide whether to ship the feature?
+23. You're the PM for 99 Deliveries, the logistics branch of 99 in Brazil. How would you define success for this product?
+24. How would you implement birth date capture for Meta?
+25. What is your leadership style?
+26. How would you ensure a delivery driver delivers over 200 packages in an 8-hour day?
+27. Can you explain how 15-minute speedy delivery apps operate?
+28. You're a PM for a rideshare app's membership program. How would you identify the most negative member experiences?
+29. Tell me about a time when you had to deliver negative feedback.
+30. Pick a product of your choice. What are its goals, and what’s in your monthly business review deck for the leadership team?
+31. Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
+32. Design an order-assignment system for early-stage last-mile food delivery app.
+33. What technical components are needed to implement spending limits for virtual debit cards?
+34. You're a PM for Tesla. What success metrics would you use for Tesla's 'Sales & Delivery' app?
+35. You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?
+36. What is the current strategy of 15-minute delivery apps?
+37. How many drones would be needed to deliver all FedEx packages in the US?
+38. How would you implement safety features for Roblox's private messaging between players?
+39. Describe a situation where you implemented an idea despite facing resistance.
+40. As a product manager ready for launch, what is a good go-to-market strategy?
+41. Tell me about a time you pushed back on leadership.
+42. What is your favorite leadership principle?
+43. You're a PM at Spotify. What metrics would you use to decide whether to ship a new song recommendation algorithm?
+44. How would Google enter the food delivery space?
+45. What would you do if you had to deliver a product or feature in half of the initial timeline?
+46. Tell me about a product you shipped that failed.
+47. Which leadership principle do you least resonate with?
+48. Tell me about a time when you failed to pitch something to leadership.
+49. Tell me about a product or feature you shipped.
+50. Design a better experience for attending large events. How would you implement and test it? What would the user experience look like?
+51. Where do you see the 15-minute delivery app in the next five years?
+52. Tell me about a time you successfully delivered a project without a budget or resources.
+53. Today is Wednesday, and you need to deliver a release on Friday that is crucial for a key customer. The engineering manager reports a major bug. What do you do?
+54. Design a grocery delivery mobile app.
+55. You are a PM for a grocery delivery app and need to launch the first version of the app in 3 months. How would you approach this go-to-market strategy?
+56. Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.
+57. Tell me about a time when you worked on a team and demonstrated leadership.
+58. You're leading a geographically dispersed team. What strategies and practices would you implement to ensure clear and effective communication?
+59. Tell me about a time when you stepped up into a leadership role.
+60. What's the size of the food delivery market in the United States?
+61. Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on.
+62. Have you directly spoken with customers or managed customer relationships yourself?
+63. How would you approach your stakeholders if you cannot deliver the feature in the next six months?
+64. Define the flow from order booking to delivery, including installation, for a customized drinking water purifier.
+65. How many deliveries does Uber Eats make per day?
+66. Can you provide an example of a strategy you developed to address a technology gap at your company, and explain how you decided between build, buy, or partnership?
+67. Tell me about a feature you shipped and how you influenced its priority.
+68. How do you build relationships?
+69. How would you improve shipment tracking on Amazon?
+70. What is a good North Star metric for the COO of a delivery company like FedEx, UPS, or Delhivery to monitor ground operations?
+71. Assuming AR-enabled glasses exist in 2031, how many do you think will ship that year? What factors will you consider in your estimation?
+72. Help Deliveroo expand into the US.
+73. As a PM for Jio Mart, how would you pilot drone delivery?
+74. As a PM at Uber in 2015, how would you decide whether to implement cash payments?
+75. Amazon has noticed that many merchants list products but do not deliver them. How would you solve this problem?
+76. You're a PM at a Tech Startup focused on food delivery for companies, what would you design?
+77. A potential client asks for a guarantee on a feature’s delivery date. Your team hasn't considered this feature before. What would you do?
+
+
+================================================================================
+CONCEPT
+================================================================================
+
+📊 Total Questions: 61
+
+🎯 What they're really testing:
+Do you understand fundamental concepts?
+
+🗺️  Mental Model Framework:
+```
+
+Concept
+├─ Define the term
+│  ├─ What is it?
+│  ├─ Core purpose
+│  └─ When to use
+│
+├─ Key characteristics
+│  ├─ Properties
+│  ├─ Constraints
+│  └─ Behavior
+│
+├─ Compare & contrast
+│  ├─ Similar concepts
+│  ├─ Differences
+│  └─ Tradeoffs
+│
+├─ Real-world example
+│  ├─ Use case
+│  ├─ Benefits
+│  └─ Limitations
+│
+└─ Best practices
+   ├─ When to use
+   ├─ When NOT to use
+   └─ Common pitfalls
+
+```
+
+📝 All 61 Questions:
+
+1. What is DevOps?
+2. What is the project you are most proud of?
+3. Define success metrics for Zoom for Business.
+4. What is the product that you dislike the most and why?
+5. Define hallucinations in LLMs.
+6. What is your favorite Google product and how would you improve it?
+7. What is the value of moving all Capital One customers to use the mobile app?
+8. What is your favorite non-Google product and how would you improve it?
+9. Define success metrics for Facebook Pay.
+10. Define success for Meta's local awareness ads.
+11. What is an example of a poorly designed product? How would you improve it?
+12. What is the most important metric for Airbnb?
+13. What is your leadership style?
+14. What is your team management style?
+15. What is your pet peeve?
+16. What is a technical challenge you faced in your previous project?
+17. What is a non-technical product you frequently use? How would you improve it?
+18. What is your favorite Amazon product?
+19. What is the most innovative thing you have ever done?
+20. Define your ideal workplace and colleagues.
+21. What is the difference between NoSQL and SQL?
+22. What is your least favorite product among the ones you use, and how would you improve it?
+23. What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+24. What is your favorite physical product?
+25. What is the current strategy of 15-minute delivery apps?
+26. What is your favorite app on your phone?
+27. What is the potential market size for a better debit card?
+28. What is your favorite Microsoft product, what do you dislike about it, and how would you improve it?
+29. What is the most important metric for Instagram's verified badges?
+30. What is the best way to connect SQL databases and why?
+31. Define a 10-year roadmap for Google Maps.
+32. What is the difference between a product manager and a product owner?
+33. What is your favorite leadership principle?
+34. What is the customer and business value of Capital One shopping?
+35. What is cloud gaming?
+36. What is the value of a Google Photos user to Google?
+37. What is your product ideation process?
+38. Define the goals and success metrics for the default pick-up location pin feature.
+39. What is the goal of Airbnb hosts?
+40. What is the impact of AI search?
+41. What's the difference between an API and an SDK?
+42. What is the most innovative idea you have ever had?
+43. Define relevant metrics for COVID-related searches on Google.
+44. What is the total number of airports in the US and globally?
+45. What is your favorite music app and why?
+46. What is the most technical initiative you have handled as a Product Manager?
+47. What is the total addressable market (TAM) for Google Translate?
+48. Define a north star metric for Airbnb.
+49. What is a skill you have that is not listed on your resume?
+50. What is your favorite health app and how would you grow it?
+51. Define the flow from order booking to delivery, including installation, for a customized drinking water purifier.
+52. What is the benefit of A/B testing?
+53. What is your process for crafting effective user stories? What practices have you found beneficial?
+54. What is a good North Star metric for the COO of a delivery company like FedEx, UPS, or Delhivery to monitor ground operations?
+55. What is your experience with machine learning?
+56. What is your philosophy of Product Management?
+57. Define a 1-year roadmap for WhatsApp in India.
+58. What is an idea you have used in your career to add value to an organization?
+59. What is the benefit of a control group when testing?
+60. What is the difference between a POST request and a GET request?
+61. What is the size of the micromobility market in the United States?
+
+
+================================================================================
+TECHNICAL
+================================================================================
+
+📊 Total Questions: 61
+
+🎯 What they're really testing:
+Do you have the technical depth needed?
+
+🗺️  Mental Model Framework:
+```
+
+Technical
+├─ Understand the concept
+│  ├─ What is it?
+│  ├─ How does it work?
+│  └─ Why is it used?
+│
+├─ Key components
+│  ├─ Architecture
+│  ├─ Dependencies
+│  └─ Configuration
+│
+├─ Implementation
+│  ├─ Setup
+│  ├─ Code structure
+│  └─ Testing
+│
+├─ Optimization
+│  ├─ Performance
+│  ├─ Scalability
+│  └─ Maintainability
+│
+└─ Troubleshooting
+   ├─ Common issues
+   ├─ Debugging approach
+   └─ Best practices
+
+```
+
+📝 All 61 Questions:
+
+1. How would you expand Capital One Shopping?
+2. You're redesigning Capital One's Instant Push Notifications (IPN) system, moving from multiple screens to a single view. How would you improve the user experience?
+3. How would you convey insights and the methods used to a non-technical audience?
+4. Design a dashboard that helps sales leaders monitor their product's performance.
+5. Tell me about a time when you faced technical and people challenges simultaneously.
+6. How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?
+7. How would you work cross-functionally to strategize, design, and implement virtual debit and credit cards for Capital One?
+8. How would you explain a technical concept to a non-technical person?
+9. What value do virtual card numbers bring to Capital One?
+10. Recommend a growth strategy for Capital One shopping.
+11. Design the SMS API for Twilio.
+12. What is the value of moving all Capital One customers to use the mobile app?
+13. What are the key technical elements and considerations required to develop a push notification system for an app?
+14. How would you prepare a presentation for the CEO, within two weeks, on Microsoft Shifts’ current performance and potential improvements?
+15. Tell me about a technical challenge that you have overcome.
+16. How would you pitch a new database product to a venture capital firm specializing in databases and analytics?
+17. How would you improve the Capital One mobile app?
+18. How does Capital One Shopping create value for Capital One?
+19. Design the backend architecture for Spotify.
+20. What technical contributions have you made to a project?
+21. What technical elements are involved in implementing a per-transaction limit for the virtual card feature?
+22. Pick a Capital One product. Estimate the monthly revenue per customer.
+23. Tell me about a time you handled a difficult technical stakeholder.
+24. Why do you want to work at Capital One?
+25. Design a distributed database system, for example, Kafka.
+26. What is a technical challenge you faced in your previous project?
+27. Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
+28. What is a non-technical product you frequently use? How would you improve it?
+29. How would you improve the Capital One website?
+30. Walk me through the technical architecture of your product.
+31. List five different APIs offered by Spotify.
+32. What technical components are needed to implement spending limits for virtual debit cards?
+33. Explain Deep Learning to a non-technical audience.
+34. How would you use a $100M investment from a venture capital firm to build an OLTP database product, making it cost-neutral and generating growth within 5 years?
+35. Design a revenue curve for a new Capital One product.
+36. How would you decide between using an open-source model in-house versus a commercial API like OpenAI or Claude?
+37. Should Capital One invest in a new mobile app?
+38. What is the best way to connect SQL databases and why?
+39. How would you handle a disagreement with an engineer over a product decision, balancing data insights with their technical perspective while preserving collaboration?
+40. Design a system for an Alexa-enabled Peloton. Define the APIs, system architecture, and explain the various components.
+41. What is the customer and business value of Capital One shopping?
+42. Should Capital One continue to invest in developing markets?
+43. What role does Nvidia play in shaping the tech industry?
+44. You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?
+45. Estimate the monthly profit per user for Capital One shopping.
+46. Design the architecture for a hardware device that measures temperature and social distance among employees in warehouses during COVID.
+47. Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?
+48. Design an app to search for therapists.
+49. Design the architecture for Google Maps to load in under 100ms.
+50. What's the difference between an API and an SDK?
+51. What is the most technical initiative you have handled as a Product Manager?
+52. How would you address a latency problem?
+53. Tell me about something you learned that improved your job performance.
+54. How will you address your API limits? Describe all possible scenarios regarding customers, technology, and suppliers.
+55. Take a technical project you worked on and explain it to a product marketing manager.
+56. Develop an algorithm for a radio station to select the next song from a database of over one million songs, given that only one input is allowed from the user on the landing page.
+57. Tell me about a time when your technical knowledge helped the team make a decision.
+58. What happens, technically, when someone does a Google Search?
+59. 1. Cost for a new Facebook customer acquisition. 2. How would you do a database migration? 3. How would you improve the LinkedIn home page?
+60. How would you explain web cookies to someone non-technical?
+61. What are three APIs on theScore's mobile app?
+
+
+================================================================================
+ESTIMATION
+================================================================================
+
+📊 Total Questions: 82
+
+🎯 What they're really testing:
+Can you make reasonable assumptions and think quantitatively?
+
+🗺️  Mental Model Framework:
+```
+
+Estimation
+├─ Clarify scope
+│  ├─ Geography
+│  ├─ Time period
+│  └─ Target segment
+│
+├─ Break down problem
+│  ├─ Top-down approach
+│  └─ Bottom-up approach
+│
+├─ Make assumptions
+│  ├─ State clearly
+│  ├─ Use round numbers
+│  └─ Be reasonable
+│
+├─ Calculate step by step
+│  ├─ Show your work
+│  ├─ Explain logic
+│  └─ Adjust as needed
+│
+└─ Sanity check
+   ├─ Does it make sense?
+   ├─ Compare to known data
+   └─ Sensitivity analysis
+
+```
+
+📝 All 82 Questions:
+
+1. Estimate how much it costs to run Youtube for a day
+2. Estimate the number of restaurants in San Francisco.
+3. How many elevators are required in a building with 100 floors?
+4. Estimate the annual cost of managing Google Photos. What factors would you consider in your calculation?
+5. How many parking spots are there in San Francisco?
+6. Estimate Airbnb's Revenue
+7. How many grocery stores are required in a metropolitan city?
+8. Design a vending machine for hotels, and estimate the market size in your hometown.
+9. Estimate the number of trees in the city of Delhi.
+10. Estimate the number of people who use Google Search to find a new job.
+11. Estimate the number of tires purchased annually by a large car dealership in San Jose, California.
+12. Estimate the total internet bandwidth required for a campus of 1000 graduate students.
+13. Estimate the number of Zomato food delivery drivers in Bangalore, India.
+14. You're a PM for Gmail. Your team won a communications contract with a 10,000-person colony on Mars. Estimate the necessary network bandwidth.
+15. You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
+16. Estimate the number of restaurants in Bengaluru, India.
+17. Estimate Self-Driving Cars
+18. Estimate the number of apps available in the Play Store.
+19. How many messages does Gmail receive per second?
+20. Estimate the number of credit card users in India.
+21. Design an elevator for a skyscraper and estimate the number of elevators needed.
+22. How many tennis balls can fit in an airplane?
+23. Estimate the bandwidth requirements for Google Maps.
+24. Pick a Capital One product. Estimate the monthly revenue per customer.
+25. Estimate the total number of annual hotel bookings made globally on Expedia.
+26. Estimate the amount of storage needed for Google Photos.
+27. How many ping pong balls can fit in a helicopter?
+28. Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
+29. How many ping pong balls fit in a helicopter?
+30. Estimate the number of mutual follows an average TikTok user has.
+31. Estimate the market size for Google Fi.
+32. You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
+33. Estimate the number of high school students in the US.
+34. How many drones would be needed to deliver all FedEx packages in the US?
+35. What is the potential market size for a better debit card?
+36. Estimate the daily number of transactions in the US.
+37. Estimate Facebook's yearly advertising revenue.
+38. How would you estimate the number of Slack users?
+39. You are a grocery store owner/manager. How do you determine how many self-checkout machines you need?
+40. As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
+41. Estimate the monthly profit per user for Capital One shopping.
+42. Estimate the number of cinema tickets sold in the US in one year.
+43. Pick an airport and estimate the number of people going through the metal detectors in a day.
+44. Estimate the number of Instagram posts per day.
+45. How many bikes are needed to launch a bike-sharing service in NYC?
+46. Estimate how many productivity hours are lost per year due to traffic.
+47. Estimate the total miles run by joggers in Central Park.
+48. Pick an airport and estimate the number of people going through the security scan every day.
+49. What is the total addressable market (TAM) for Google Translate?
+50. Estimate the total storage used by Dropbox.
+51. Estimate the circumference of the Earth at the Equator.
+52. Estimate the number of daily flights from London to Dubai.
+53. How many Slack messages are sent per day?
+54. Estimate the number of potholes in continental USA.
+55. How many windows do you estimate exist in Tehran?
+56. Estimate the bandwidth required to support Spotify.
+57. How many deliveries does Uber Eats make per day?
+58. How many people are listening to songs on Spotify right now?
+59. Estimate the time to move 100 petabytes of data from the East Coast to the West Coast.
+60. How many Hershey's chocolate bars were sold in the US last year?
+61. How many people are flying to and from SFO in a day?
+62. How many rides happen on Uber each month?
+63. How many grains of rice are in a 10kg bag?
+64. Estimate how much bandwidth is needed for launching YouTube TV.
+65. How many weddings does the average American attend in their lifetime?
+66. Assuming AR-enabled glasses exist in 2031, how many do you think will ship that year? What factors will you consider in your estimation?
+67. Estimate the potential number of rides per month for e-scooter rentals in San Francisco.
+68. How many 'likes' happen on Instagram each day?
+69. Estimate the number of pieces of candy given out in your city.
+70. How many chickens are there in the world?
+71. How many bottles of wine are opened per day?
+72. How many calls are received per day?
+73. How many pairs of shoes do we own in our lifetime?
+74. Estimate the market size of the bike market in the United States.
+75. How many people are on Facebook at any given time?
+76. How many tweets are tweeted every day on Twitter?
+77. You're a PM at Swiggy. How would you design a new segment for liquor on Instamart?
+78. How many breaths do we take each day?
+79. Estimate the bandwidth (bits/s) of a 747 crossing the Atlantic filled with CDROMs.
+80. How many lane divider stripes are there on the German autobahn?
+81. How many 'likes' happen on Facebook each day?
+82. How many weddings does someone attend in their life?
+
+
+================================================================================
+SYSTEM DESIGN
+================================================================================
+
+📊 Total Questions: 11
+
+🎯 What they're really testing:
+Do you understand data systems at a high level?
+
+🗺️  Mental Model Framework:
+```
+
+System Design
+├─ Define use case
+│  ├─ What problem?
+│  ├─ Scale requirements
+│  └─ Constraints
+│
+├─ Identify data sources
+│  ├─ Where does data come from?
+│  ├─ Format
+│  └─ Volume
+│
+├─ Data flow
+│  ├─ Ingest (how data enters)
+│  ├─ Store (database/warehouse)
+│  ├─ Transform (ETL/ELT)
+│  └─ Serve (APIs/dashboards)
+│
+├─ Scalability considerations
+│  ├─ Can it handle growth?
+│  ├─ Performance
+│  └─ Reliability
+│
+└─ Tradeoffs
+   ├─ Cost
+   ├─ Complexity
+   └─ Maintenance
+
+```
+
+📝 All 11 Questions:
+
+1. Design a system to track reviews abuse on Amazon.com.
+2. Design the backend architecture for Spotify.
+3. How would you design a system for a healthcare agent that summarizes a patient’s medical history?
+4. Walk me through the technical architecture of your product.
+5. Design a system for an Alexa-enabled Peloton. Define the APIs, system architecture, and explain the various components.
+6. Name your top three favorite products, select one, and outline a plan to scale it by tenfold.
+7. Design the architecture for a hardware device that measures temperature and social distance among employees in warehouses during COVID.
+8. Design the architecture for Google Maps to load in under 100ms.
+9. Design a food truck's front-end and backend system.
+10. You are a product manager at Facebook working on the news feed. Design a system to determine if Facebook should display an ad or a friend recommendation after every 20 posts in the feed for the users.
+11. As a PM at Exponent, how would you design a system to prevent multiple users from sharing the same account or encourage unique accounts?
+

@@ -10,7 +10,7 @@ from typing import List, Dict
 
 def scrape_page(page_num: int = 1) -> List[Dict]:
     """Scrape a single page of PM questions"""
-    url = f"https://www.tryexponent.com/questions?role=product-manager&page={page_num}"
+    url = f"https://www.tryexponent.com/questions?page={page_num}&role=pm"
     
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
