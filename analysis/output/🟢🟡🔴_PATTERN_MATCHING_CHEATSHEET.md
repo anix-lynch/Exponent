@@ -80,16 +80,24 @@
        (risks, metrics, alerts, ownership)
 ```
 
+**If you want, I can next:**
+- map **ALL_CATEGORIES.md → these 12 patterns**, or
+- tag **sample questions** to prove coverage, or
+- generate the **🟢 Top-30 Northstar Questions** list
+
 ---
 
-## 🟡 LOW-HANGING FRUIT (14 Mini-Patterns)
+## 🟡 LOW-HANGING FRUIT (Template-able, Non-Northstar, Non-Coding)
 
-**Medium frequency, cross-role but not universal**
-
-**Template-able, reasoning > implementation**
+**Purpose:**
+• Medium frequency
+• Cross-role but not universal
+• Reasoning > implementation
+• Preserves original skill tags for backward compatibility
+• Each item = a reusable mini-pattern (like Northstar, but narrower)
 
 ```
-🟡 LOW-HANGING FRUIT
+🟡 LHF
 │
 ├─ 1) Data Readiness & Trust Pattern
 │   Tags: #DataQuality #DataWarehousing #DataAnalysis
@@ -164,46 +172,62 @@
 
 ---
 
-## 🔴 IGNORE PATTERNS (7 Anti-Patterns)
+## 🔴 IGNORE PATTERNS — Do NOT optimize for these
 
-**Do NOT optimize for these - low ROI**
+**Low ROI for your target roles**
 
 ```
-🔴 IGNORE PATTERNS
+🔴 IGNORE
 │
 ├─ 1) Pure Coding / Algorithmic Problem Solving
 │   └─ "Can you implement this exactly?"
 │      (LeetCode-style, puzzles, trick logic)
-│   #DataStructuresAlgorithms #Coding #LowLevelAlgorithms
+│   #Data Structures & Algorithms
+│   #Coding
+│   #Low-Level Algorithms
 │
 ├─ 2) ML / AI Theory Depth
 │   └─ "Explain the math behind the model"
 │      (derivations, proofs, internals)
-│   #MachineLearning #DeepLearning #ReinforcementLearning
+│   #Machine Learning (theory-heavy)
+│   #Deep Learning
+│   #Reinforcement Learning
+│   #Model Evaluation (academic)
 │
 ├─ 3) Academic Statistics & Math
 │   └─ "Derive / prove / compute by hand"
 │      (distributions, formulas, exams)
-│   #StatisticsProbability #AcademicStatistics #NicheDomainMath
+│   #Statistics & Probability (theory)
+│   #Academic Statistics
+│   #Niche Domain Math
 │
 ├─ 4) Low-Level Systems Engineering
 │   └─ "How would you implement this at byte-level?"
 │      (memory, threads, kernels)
-│   #Concurrency #DistributedSystems #OperatingSystems
+│   #Concurrency
+│   #Distributed Systems (internals)
+│   #Operating Systems Concepts
 │
 ├─ 5) Framework / Tool Memorization
 │   └─ "Name the exact API / syntax"
 │      (tools change, low signal)
-│   #APIs #ToolSpecific #VendorSpecificTrivia
+│   #APIs (syntax-specific)
+│   #Tool-Specific Questions
+│   #Vendor-Specific Trivia
 │
 ├─ 6) Ultra-Niche Domain Expertise
 │   └─ "Only relevant to one narrow role/company"
-│   #ComputerVision #NLP #GenerativeAI #LLMs
+│   #Computer Vision (specialized)
+│   #Natural Language Processing (research-heavy)
+│   #Generative AI (model internals)
+│   #LLMs (architecture internals)
 │
 └─ 7) Wildcard / Gimmick Questions
     └─ "Clever but not transferable"
        (brain teasers, hypotheticals with no reuse)
-    #BrainTeasers #TrickQuestions #OneOffCaseMath
+    #Brain Teasers
+    #Trick Questions
+    #One-Off Case Math
 ```
 
 ---
