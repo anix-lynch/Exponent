@@ -9,77 +9,8 @@
 This list contains questions specific to your top 3 target roles.
 Study these AFTER mastering ⭐️ TRUE OVERLAPPED QUESTIONS.
 
-Total Questions: 182 across 25 categories
+Total Questions: 139 across 24 categories
 Study Time: 60-90 hours
-
-
-================================================================================
-BEHAVIORAL 🟡
-================================================================================
-
-📊 Total Questions: 39
-🎯 Roles: BizOps Strategy, Chief of Staff, Data Engineer
-
-🎯 What they're really testing:
-Can you demonstrate competence in this area?
-
-🗺️  Mental Model Framework:
-```
-General Framework
-├─ 1. Clarify
-│  └─ Understand the question
-│
-├─ 2. Structure
-│  └─ Break into components
-│
-├─ 3. Analyze
-│  └─ Use data & logic
-│
-└─ 4. Conclude
-   └─ Clear recommendation
-```
-
-📝 All 39 Questions:
-
-1. 🟡 How do you influence without authority?
-2. 🟡 How do you approach personal growth and learning?
-3. 🟡 Why did you become an engineer?
-4. 🟡 How will you develop yourself professionally as a data engineer?
-5. 🟡 What data tools have you worked with, and what specific projects did you use those tools for?
-6. 🟡 Tell me about a time when you gained trust.
-7. 🟡 Tell me about a time when you had to break a complex problem down for different cross-functional teams.
-8. 🟡 Tell me about a time you used data to diagnose and solve a problem.
-9. 🟡 Tell me about a time in your career when you faced ambiguity.
-10. 🟡 How do you handle conflicting priorities and tight deadlines?
-11. 🟡 Tell me about a time you worked on a data-intensive project.
-12. 🟡 Tell me about a time when you had a hypothesis that turned out to be wrong.
-13. 🟡 Tell me about a time when you had to be assertive when communicating with a client or team member.
-14. 🟡 Tell me about a time when you led a team to achieve a goal.
-15. 🟡 Tell me about a time where you ideated and launched a strategy from scratch.
-16. 🟡 Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?
-17. 🟡 Tell me about a time when you welcomed new ways of thinking (Include and Empower core value).
-18. 🟡 What does the Chief of Staff role mean to you?
-19. 🟡 Why are you interested in becoming a Chief of Staff?
-20. 🟡 What experience do you have that prepares you for this role?
-21. 🟡 How would you describe your relationship with the executive you'd support?
-22. 🟡 How do you handle confidential or sensitive information?
-23. 🟡 What's your approach to managing up?
-24. 🟡 Describe your communication style when working with C-suite executives.
-25. 🟡 Tell me about a time you had to make an ethical decision under pressure.
-26. 🟡 How do you stay productive when managing multiple high-priority initiatives?
-27. 🟡 How would you help a CEO scale from 50 to 500 employees?
-28. 🟡 What metrics would you track to measure organizational health?
-29. 🟡 How do you build relationships with board members?
-30. 🟡 Tell me about a time you managed a crisis or urgent situation.
-31. 🟡 How would you structure the CEO's calendar and priorities?
-32. 🟡 Describe your experience with board meeting preparation and follow-up.
-33. 🟡 How would you future-proof the organization against industry disruption?
-34. 🟡 How do you gather and synthesize information from across the organization?
-35. 🟡 How do you maintain your own professional development while supporting others?
-36. 🟡 What's your approach to building a culture of accountability?
-37. 🟡 How do you decide what to delegate vs. what to handle personally?
-38. 🟡 How do you handle situations where you disagree with the CEO's decision?
-39. 🟡 Tell me about a time you improved a broken process or system.
 
 
 ================================================================================
@@ -153,60 +84,6 @@ Strategy/Business Framework
 
 
 ================================================================================
-DATA PIPELINE DESIGN 🟡
-================================================================================
-
-📊 Total Questions: 13
-🎯 Roles: Data Engineer
-
-🎯 What they're really testing:
-Can you demonstrate competence in this area?
-
-🗺️  Mental Model Framework:
-```
-System Design Framework
-├─ 1. Requirements
-│  ├─ Functional (what it does)
-│  ├─ Non-functional (scale, latency)
-│  └─ Constraints (budget, time)
-│
-├─ 2. High-Level Design
-│  ├─ Client → API → Database
-│  ├─ Key components
-│  └─ Data flow
-│
-├─ 3. Deep Dive
-│  ├─ Database schema
-│  ├─ API design
-│  ├─ Caching strategy
-│  └─ Load balancing
-│
-└─ 4. Scale & Optimize
-   ├─ Bottlenecks
-   ├─ Sharding/replication
-   └─ Monitoring
-```
-
-📝 All 13 Questions:
-
-1. 🟡 Tell me about a skill you recently learned.
-2. 🟡 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
-3. 🟡 On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-4. 🟡 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
-
-(Conversion: From users browsing to placing orders.)
-5. 🟡 Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
-6. 🟡 Split an array into equal sum subarrays
-7. 🟡 Which sorting algorithms use divide and conquer?
-8. 🟡 Squares of sorted array
-9. 🟡 How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
-10. 🟡 How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
-11. 🟡 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
-12. 🟡 Design a data pipeline that complies with GDPR.
-13. 🟡 Print all possible solutions to the N-Queens problem.
-
-
-================================================================================
 PROBLEM SOLVING 🟡
 ================================================================================
 
@@ -255,6 +132,56 @@ Problem Solving Framework
 11. 🟡 How would you scale riders in a new location?
 12. 🟡 How would you prepare for and conduct a final presentation for a client?
 13. 🟡 How would you handle a situation where two executives have conflicting priorities?
+
+
+================================================================================
+DATA PIPELINE DESIGN 🟡
+================================================================================
+
+📊 Total Questions: 9
+🎯 Roles: Data Engineer
+
+🎯 What they're really testing:
+Can you demonstrate competence in this area?
+
+🗺️  Mental Model Framework:
+```
+System Design Framework
+├─ 1. Requirements
+│  ├─ Functional (what it does)
+│  ├─ Non-functional (scale, latency)
+│  └─ Constraints (budget, time)
+│
+├─ 2. High-Level Design
+│  ├─ Client → API → Database
+│  ├─ Key components
+│  └─ Data flow
+│
+├─ 3. Deep Dive
+│  ├─ Database schema
+│  ├─ API design
+│  ├─ Caching strategy
+│  └─ Load balancing
+│
+└─ 4. Scale & Optimize
+   ├─ Bottlenecks
+   ├─ Sharding/replication
+   └─ Monitoring
+```
+
+📝 All 9 Questions:
+
+1. 🟡 Tell me about a skill you recently learned.
+2. 🟡 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
+3. 🟡 On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+4. 🟡 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+
+(Conversion: From users browsing to placing orders.)
+5. 🟡 Squares of sorted array
+6. 🟡 How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
+7. 🟡 How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+8. 🟡 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+9. 🟡 Design a data pipeline that complies with GDPR.
 
 
 ================================================================================

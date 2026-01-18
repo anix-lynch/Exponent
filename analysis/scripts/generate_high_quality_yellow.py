@@ -29,6 +29,10 @@ def is_coding_question(question_text, category):
     text_lower = question_text.lower()
     category_lower = category.lower()
     
+    # Exclude Behavioral (should only be in overlapped)
+    if 'behavioral' in category_lower:
+        return True
+    
     # Exclude coding categories
     if any(k in category_lower for k in ['algorithm', 'data structure', 'coding', 'leetcode', 'machine learning', 'deep learning']):
         return True
@@ -38,7 +42,9 @@ def is_coding_question(question_text, category):
         'write a function', 'implement', 'write code',
         'linked list', 'binary tree', 'binary search tree',
         'valid parentheses', 'two sum', 'reverse linked list',
-        'merge sorted', 'search in rotated', 'lru cache'
+        'merge sorted', 'search in rotated', 'lru cache',
+        'given an array', 'split an array', 'return the pairs',
+        'sorting algorithm', 'divide and conquer', 'n-queens'
     ]
     
     for keyword in coding_keywords:
