@@ -14,10 +14,10 @@ ROLE                                TOTAL │    💗    🟢    🔴    🟠   
 🎯 Business Analyst                   110 │   68   38    0    0    0 │    96%
 🎯 Product Analyst                    101 │   67   19    0    0    0 │    85%
 🎯 Data Scientist                     173 │  133    0    0    0   13 │    77%
-🎯 Chief Of Staff                       4 │    2    1    0    0    0 │    75%
 🟡 Program Manager                     21 │   11    3    0    0    0 │    67%
 🟡 Data Analyst                       235 │  130   20    0    0   23 │    64%
 🟡 Finance Strategy                    11 │    4    3    0    0    0 │    64%
+🟡 Chief Of Staff                      53 │   31    2    0    0    0 │    62%
 🟡 Product Manager                   1005 │  251  341    0    0    0 │    59%
    Product Marketing Manager           42 │   19    1    0    0    0 │    48%
    Software Engineer                  681 │  230   29    0    0  204 │    38%

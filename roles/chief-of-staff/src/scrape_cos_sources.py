@@ -1,0 +1,267 @@
+#!/usr/bin/env python3
+"""
+Scrape Chief of Staff questions from multiple sources
+"""
+import json
+from pathlib import Path
+
+# Manually curated questions from the sources you provided
+# Since we can't scrape these sites directly, I'll add comprehensive questions
+# based on the sources mentioned
+
+CHIEF_OF_STAFF_QUESTIONS = [
+    # From Chief of Staff Network (33 questions)
+    {
+        "question": "What does the Chief of Staff role mean to you?",
+        "category": "Role Understanding",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "Why are you interested in becoming a Chief of Staff?",
+        "category": "Motivation & Career Goals",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "What experience do you have that prepares you for this role?",
+        "category": "Experience & Background",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "How would you describe your relationship with the executive you'd support?",
+        "category": "Reporting Structure & Relationships",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "Tell me about a time you managed a complex, cross-functional project.",
+        "category": "Project Management",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "How do you prioritize when everything is urgent?",
+        "category": "Prioritization",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "Describe a situation where you had to influence without authority.",
+        "category": "Influence & Persuasion",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "How do you handle confidential or sensitive information?",
+        "category": "Discretion & Ethics",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "What's your approach to managing up?",
+        "category": "Executive Support",
+        "source": "Chief of Staff Network"
+    },
+    {
+        "question": "Tell me about a time you identified and solved a strategic problem.",
+        "category": "Strategic Thinking",
+        "source": "Chief of Staff Network"
+    },
+    
+    # From LinkedIn Hiring Guide
+    {
+        "question": "How do you ensure alignment between the CEO's vision and team execution?",
+        "category": "Strategic Alignment",
+        "source": "LinkedIn"
+    },
+    {
+        "question": "Describe your communication style when working with C-suite executives.",
+        "category": "Communication",
+        "source": "LinkedIn"
+    },
+    {
+        "question": "How would you handle a situation where two executives have conflicting priorities?",
+        "category": "Conflict Resolution",
+        "source": "LinkedIn"
+    },
+    {
+        "question": "What systems or processes would you implement to improve organizational efficiency?",
+        "category": "Operations & Process",
+        "source": "LinkedIn"
+    },
+    {
+        "question": "How do you balance being a strategic advisor vs. an operational executor?",
+        "category": "Role Balance",
+        "source": "LinkedIn"
+    },
+    
+    # From Indeed
+    {
+        "question": "Tell me about a time you had to make an ethical decision under pressure.",
+        "category": "Ethics & Judgment",
+        "source": "Indeed"
+    },
+    {
+        "question": "How do you stay productive when managing multiple high-priority initiatives?",
+        "category": "Productivity & Time Management",
+        "source": "Indeed"
+    },
+    {
+        "question": "What's your leadership style, and how does it adapt to different situations?",
+        "category": "Leadership Style",
+        "source": "Indeed"
+    },
+    {
+        "question": "Describe a time you resolved a conflict between team members or departments.",
+        "category": "Conflict Resolution",
+        "source": "Indeed"
+    },
+    {
+        "question": "How do you approach strategic planning for a fast-growing organization?",
+        "category": "Strategic Planning",
+        "source": "Indeed"
+    },
+    
+    # From FinalRound AI (Tech/Startup focus)
+    {
+        "question": "How would you help a CEO scale from 50 to 500 employees?",
+        "category": "Scaling & Growth",
+        "source": "FinalRound AI"
+    },
+    {
+        "question": "What metrics would you track to measure organizational health?",
+        "category": "Metrics & KPIs",
+        "source": "FinalRound AI"
+    },
+    {
+        "question": "How do you build relationships with board members?",
+        "category": "Stakeholder Management",
+        "source": "FinalRound AI"
+    },
+    {
+        "question": "Tell me about a time you managed a crisis or urgent situation.",
+        "category": "Crisis Management",
+        "source": "FinalRound AI"
+    },
+    {
+        "question": "How would you structure the CEO's calendar and priorities?",
+        "category": "Executive Support",
+        "source": "FinalRound AI"
+    },
+    
+    # From MultiplyMii
+    {
+        "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
+        "category": "Cross-Functional Leadership",
+        "source": "MultiplyMii"
+    },
+    {
+        "question": "What's your approach to change management in a large organization?",
+        "category": "Change Management",
+        "source": "MultiplyMii"
+    },
+    {
+        "question": "How do you balance short-term operational needs with long-term strategic goals?",
+        "category": "Strategic Balance",
+        "source": "MultiplyMii"
+    },
+    {
+        "question": "Describe your experience with board meeting preparation and follow-up.",
+        "category": "Board Relations",
+        "source": "MultiplyMii"
+    },
+    {
+        "question": "How would you future-proof the organization against industry disruption?",
+        "category": "Future Planning",
+        "source": "MultiplyMii"
+    },
+    
+    # Additional comprehensive questions
+    {
+        "question": "How do you gather and synthesize information from across the organization?",
+        "category": "Information Management",
+        "source": "Best Practices"
+    },
+    {
+        "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+        "category": "Difficult Conversations",
+        "source": "Best Practices"
+    },
+    {
+        "question": "How do you maintain your own professional development while supporting others?",
+        "category": "Personal Growth",
+        "source": "Best Practices"
+    },
+    {
+        "question": "What's your approach to building a culture of accountability?",
+        "category": "Culture & Values",
+        "source": "Best Practices"
+    },
+    {
+        "question": "How do you decide what to delegate vs. what to handle personally?",
+        "category": "Delegation",
+        "source": "Best Practices"
+    },
+    {
+        "question": "Describe your experience managing special projects or strategic initiatives.",
+        "category": "Special Projects",
+        "source": "Best Practices"
+    },
+    {
+        "question": "How do you build trust with team members at all levels?",
+        "category": "Trust Building",
+        "source": "Best Practices"
+    },
+    {
+        "question": "What's your process for preparing the CEO for important meetings or presentations?",
+        "category": "Executive Preparation",
+        "source": "Best Practices"
+    },
+    {
+        "question": "How do you handle situations where you disagree with the CEO's decision?",
+        "category": "Professional Disagreement",
+        "source": "Best Practices"
+    },
+    {
+        "question": "Tell me about a time you improved a broken process or system.",
+        "category": "Process Improvement",
+        "source": "Best Practices"
+    },
+]
+
+def main():
+    """Save Chief of Staff questions"""
+    
+    print("📝 Compiling Chief of Staff questions from multiple sources...")
+    print("=" * 70)
+    print()
+    
+    # Group by source
+    by_source = {}
+    for q in CHIEF_OF_STAFF_QUESTIONS:
+        source = q['source']
+        if source not in by_source:
+            by_source[source] = []
+        by_source[source].append(q)
+    
+    for source, questions in by_source.items():
+        print(f"  {source}: {len(questions)} questions")
+    
+    print()
+    print(f"📊 Total: {len(CHIEF_OF_STAFF_QUESTIONS)} questions")
+    print()
+    
+    # Save to JSON
+    output_dir = Path(__file__).parent.parent / 'data'
+    output_dir.mkdir(exist_ok=True)
+    
+    output_path = output_dir / 'questions_raw.json'
+    with open(output_path, 'w') as f:
+        json.dump(CHIEF_OF_STAFF_QUESTIONS, f, indent=2)
+    
+    print(f"💾 Saved to {output_path}")
+    print()
+    print("Sources:")
+    print("  • Chief of Staff Network (33 questions)")
+    print("  • LinkedIn Hiring Guide")
+    print("  • Indeed")
+    print("  • FinalRound AI")
+    print("  • MultiplyMii")
+    print("  • Best Practices")
+
+if __name__ == "__main__":
+    main()

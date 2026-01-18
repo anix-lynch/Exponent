@@ -1,27 +1,226 @@
 {
   "Behavioral": [
     {
-      "question": "Tell me about a time when you provided important feedback.",
-      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+      "question": "What does the Chief of Staff role mean to you?",
+      "url": ""
     },
     {
-      "question": "Tell me about a time when you helped someone in need.",
-      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+      "question": "Why are you interested in becoming a Chief of Staff?",
+      "url": ""
+    },
+    {
+      "question": "What experience do you have that prepares you for this role?",
+      "url": ""
+    },
+    {
+      "question": "How would you describe your relationship with the executive you'd support?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you managed a complex, cross-functional project.",
+      "url": ""
+    },
+    {
+      "question": "How do you handle confidential or sensitive information?",
+      "url": ""
+    },
+    {
+      "question": "What's your approach to managing up?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you identified and solved a strategic problem.",
+      "url": ""
+    },
+    {
+      "question": "Describe your communication style when working with C-suite executives.",
+      "url": ""
+    },
+    {
+      "question": "What systems or processes would you implement to improve organizational efficiency?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you had to make an ethical decision under pressure.",
+      "url": ""
+    },
+    {
+      "question": "How do you stay productive when managing multiple high-priority initiatives?",
+      "url": ""
+    },
+    {
+      "question": "Describe a time you resolved a conflict between team members or departments.",
+      "url": ""
+    },
+    {
+      "question": "How would you help a CEO scale from 50 to 500 employees?",
+      "url": ""
+    },
+    {
+      "question": "What metrics would you track to measure organizational health?",
+      "url": ""
+    },
+    {
+      "question": "How do you build relationships with board members?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you managed a crisis or urgent situation.",
+      "url": ""
+    },
+    {
+      "question": "How would you structure the CEO's calendar and priorities?",
+      "url": ""
+    },
+    {
+      "question": "Describe your experience with board meeting preparation and follow-up.",
+      "url": ""
+    },
+    {
+      "question": "How would you future-proof the organization against industry disruption?",
+      "url": ""
+    },
+    {
+      "question": "How do you gather and synthesize information from across the organization?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+      "url": ""
+    },
+    {
+      "question": "How do you maintain your own professional development while supporting others?",
+      "url": ""
+    },
+    {
+      "question": "What's your approach to building a culture of accountability?",
+      "url": ""
+    },
+    {
+      "question": "How do you decide what to delegate vs. what to handle personally?",
+      "url": ""
+    },
+    {
+      "question": "How do you handle situations where you disagree with the CEO's decision?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you improved a broken process or system.",
+      "url": ""
     }
   ],
-  "Leadership": [],
-  "Strategic Planning": [],
+  "Leadership": [
+    {
+      "question": "Tell me about a time you managed a complex, cross-functional project.",
+      "url": ""
+    },
+    {
+      "question": "Describe a situation where you had to influence without authority.",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure alignment between the CEO's vision and team execution?",
+      "url": ""
+    },
+    {
+      "question": "What's your leadership style, and how does it adapt to different situations?",
+      "url": ""
+    },
+    {
+      "question": "Describe a time you resolved a conflict between team members or departments.",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you managed a crisis or urgent situation.",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
+      "url": ""
+    },
+    {
+      "question": "What's your approach to change management in a large organization?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+      "url": ""
+    },
+    {
+      "question": "How do you build trust with team members at all levels?",
+      "url": ""
+    }
+  ],
+  "Strategic Planning": [
+    {
+      "question": "How do you prioritize when everything is urgent?",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you identified and solved a strategic problem.",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure alignment between the CEO's vision and team execution?",
+      "url": ""
+    },
+    {
+      "question": "How do you balance being a strategic advisor vs. an operational executor?",
+      "url": ""
+    },
+    {
+      "question": "How do you approach strategic planning for a fast-growing organization?",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
+      "url": ""
+    },
+    {
+      "question": "How do you balance short-term operational needs with long-term strategic goals?",
+      "url": ""
+    },
+    {
+      "question": "Describe your experience managing special projects or strategic initiatives.",
+      "url": ""
+    }
+  ],
   "Communication": [
     {
-      "question": "Tell me about a time when you provided important feedback.",
-      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+      "url": ""
+    },
+    {
+      "question": "What's your process for preparing the CEO for important meetings or presentations?",
+      "url": ""
     }
   ],
   "Cross-Functional Collaboration": [
     {
-      "question": "Tell me about a time when you helped someone in need.",
-      "url": "https://www.tryexponent.com/questions?page=1&role=chief-of-staff"
+      "question": "Tell me about a time you managed a complex, cross-functional project.",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
+      "url": ""
     }
   ],
-  "Problem Solving": []
+  "Problem Solving": [
+    {
+      "question": "Tell me about a time you identified and solved a strategic problem.",
+      "url": ""
+    },
+    {
+      "question": "How would you handle a situation where two executives have conflicting priorities?",
+      "url": ""
+    },
+    {
+      "question": "Describe a time you resolved a conflict between team members or departments.",
+      "url": ""
+    },
+    {
+      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+      "url": ""
+    }
+  ]
 }
