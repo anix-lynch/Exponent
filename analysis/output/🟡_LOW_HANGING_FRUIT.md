@@ -174,9 +174,7 @@ System Design Framework
 1. 🟡 Tell me about a skill you recently learned.
 2. 🟡 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
 3. 🟡 On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-4. 🟡 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
-
-(Conversion: From users browsing to placing orders.)
+4. 🟡 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes? (Conversion: From users browsing to placing orders.)
 5. 🟡 Squares of sorted array
 6. 🟡 How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
 7. 🟡 How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?

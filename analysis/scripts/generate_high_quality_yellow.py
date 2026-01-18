@@ -481,7 +481,9 @@ def main():
         output.append("")
         
         for i, q in enumerate(questions, 1):
-            output.append(f"{i}. 🟡 {q}")
+            # Replace embedded newlines with spaces
+            clean_q = q.replace('\n', ' ').replace('  ', ' ').strip()
+            output.append(f"{i}. 🟡 {clean_q}")
         
         output.append("")
         output.append("")
