@@ -215,8 +215,9 @@ def main():
     print()
     
     # Load all questions from all roles
+    # Track: category -> question -> {count, roles}
     roles_dir = Path(__file__).parent.parent.parent / 'roles'
-    all_questions = defaultdict(lambda: {'questions': [], 'roles': set()})
+    all_questions = defaultdict(lambda: {'questions': defaultdict(lambda: {'count': 0, 'roles': set()}), 'roles': set()})
     
     for role_dir in sorted(roles_dir.iterdir()):
         if not role_dir.is_dir():
@@ -251,12 +252,22 @@ def main():
                             break
                 
                 if not skip:
-                    all_questions[category]['questions'].append(question)
+                    all_questions[category]['questions'][question]['count'] += 1
+                    all_questions[category]['questions'][question]['roles'].add(role_name)
                     all_questions[category]['roles'].add(role_name)
     
-    # Remove duplicates within each category
+    # Convert to list format and sort by frequency
     for category in all_questions:
-        all_questions[category]['questions'] = list(set(all_questions[category]['questions']))
+        questions_list = []
+        for q, data in all_questions[category]['questions'].items():
+            questions_list.append({
+                'question': q,
+                'count': data['count'],
+                'roles': data['roles']
+            })
+        # Sort by frequency (count) descending
+        questions_list.sort(key=lambda x: x['count'], reverse=True)
+        all_questions[category]['questions'] = questions_list
     
     # Sort by question count
     sorted_categories = sorted(
@@ -291,9 +302,9 @@ def main():
     # Add each category
     for category, data in sorted_categories:
         roles = sorted(list(data['roles']))
-        questions = sorted(data['questions'])
+        questions = data['questions']  # Already sorted by frequency
         
-        # Show top 10 questions max per category
+        # Show top 10 MOST FREQUENT questions per category
         display_questions = questions[:10]
         
         output.append("---")
@@ -311,13 +322,15 @@ def main():
         output.append(get_category_framework(category).strip())
         output.append("```")
         output.append("")
-        output.append(f"📝 Sample Questions (showing {len(display_questions)} of {len(questions)}):")
+        output.append(f"📝 Top 10 Most Frequent Questions (by role count):")
         output.append("")
         
-        for i, q in enumerate(display_questions, 1):
+        for i, q_data in enumerate(display_questions, 1):
             # Clean question text
-            clean_q = q.replace('\n', ' ').replace('  ', ' ').strip()
-            output.append(f"{i}. 🔴 {clean_q}")
+            question_text = q_data['question']
+            clean_q = question_text.replace('\n', ' ').replace('  ', ' ').strip()
+            role_count = q_data['count']
+            output.append(f"{i}. 🔴 {clean_q} [{role_count} roles]")
         
         if len(questions) > 10:
             output.append("")
