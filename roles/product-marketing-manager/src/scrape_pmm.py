@@ -21,25 +21,30 @@ def scrape_exponent_page(url, page):
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Find question cards
-        question_elements = soup.find_all('a', class_='question-card')
+        # Find all <a> tags with href containing /questions/
+        all_links = soup.find_all('a', href=True)
         
         page_questions = []
-        for element in question_elements:
-            question_text_tag = element.find(['h3', 'h2'])
-            if question_text_tag:
-                question_text = question_text_tag.get_text(strip=True)
-                
-                # Filter out non-questions
-                if len(question_text) > 20 and '?' in question_text:
-                    question_url = element.get('href', '')
+        for link in all_links:
+            href = link.get('href', '')
+            
+            # Only process links that are question links
+            if '/questions/' in href and 'contribute' not in href.lower():
+                # Get the text from the link (usually in an h3)
+                question_text_tag = link.find(['h3', 'h2'])
+                if question_text_tag:
+                    question_text = question_text_tag.get_text(strip=True)
                     
-                    page_questions.append({
-                        "question": question_text,
-                        "categories": [],  # Will be categorized later
-                        "url": f"https://www.tryexponent.com{question_url}" if question_url and not question_url.startswith('http') else question_url,
-                        "page": page
-                    })
+                    # Basic validation
+                    if len(question_text) > 10:
+                        full_url = f"https://www.tryexponent.com{href}" if not href.startswith('http') else href
+                        
+                        page_questions.append({
+                            "question": question_text,
+                            "categories": [],  # Will be categorized later
+                            "url": full_url,
+                            "page": page
+                        })
         
         print(f"  ✓ Found {len(page_questions)} questions")
         return page_questions

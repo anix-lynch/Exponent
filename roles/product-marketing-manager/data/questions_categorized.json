@@ -2,8 +2,8 @@
   {
     "question": "Tell me how you brought a product to market.",
     "categories": [
-      "Product Launch",
-      "Behavioral"
+      "Behavioral",
+      "Product Launch"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -25,7 +25,7 @@
     "page": 1
   },
   {
-    "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon?",
+    "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon? What process would you follow?",
     "categories": [
       "Product Launch"
     ],
@@ -37,6 +37,265 @@
     "categories": [
       "Product Launch",
       "Cross-Functional Collaboration"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you handle misalignment between team goals and company goals?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What are the strengths and challenges of Google Play?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Can you provide details on your strategies or methods for understanding customers or core audiences?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a product or feature you shipped.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you launch Instagram Reels?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What metrics would you track for a new product launch?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you prioritize features for a product launch?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you had to influence stakeholders without authority.",
+    "categories": [
+      "Behavioral",
+      "Cross-Functional Collaboration"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you position a new B2B SaaS product?",
+    "categories": [
+      "Product Positioning"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What is your approach to competitive analysis?",
+    "categories": [
+      "Competitive Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you measure the success of a product marketing campaign?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you disagreed with a product decision.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you create a messaging framework for a new product?",
+    "categories": [
+      "Messaging & Communication"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What is your process for conducting customer research?",
+    "categories": [
+      "Market Research"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you work with sales teams to enable them for a new product?",
+    "categories": [
+      "Sales Enablement",
+      "Cross-Functional Collaboration"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a failed product launch and what you learned.",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you approach pricing for a new product?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What frameworks do you use for product positioning?",
+    "categories": [
+      "Product Positioning"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you balance short-term wins with long-term strategy?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about your experience with product launches in international markets.",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you create buyer personas?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What is your approach to content marketing for product launches?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you handle a situation where engineering delays a product launch?",
+    "categories": [
+      "Product Launch"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you used data to inform a marketing decision.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you differentiate your product in a crowded market?",
+    "categories": [
+      "Product Positioning"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What is your experience with analyst relations?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you measure product-market fit?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about your experience with customer advisory boards.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How would you approach a rebrand for an established product?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "What is your process for creating sales collateral?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "How do you stay current with market trends and competitor activities?",
+    "categories": [
+      "Competitive Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=pmm",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
+    "categories": [
+      "Behavioral",
+      "Product Launch"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1

@@ -35,7 +35,7 @@ def analyze_role_tags(role_dir):
     # - "📊 **Total Questions**: 55"
     # - "Total Questions: 101 across 13 categories"
     # - "Total Questions: 1,710" (with commas)
-    category_pattern = r'={80}\n([A-Z\s\-&/()]+)\s+(💗|🟢|🔴|🟠|🟡|⚪|⚠️.*?)\n={80}\n\n📊\s+\*?\*?Total Questions\*?\*?:\s*([\d,]+)'
+    category_pattern = r'={80}\n([A-Z\s\-&/()]+)\s+(💗|🟢|🔴|🟠|🟡|⚪|⚠️.*?)\n={80}\n\n📊\s+\*{0,2}Total Questions\*{0,2}:\s*([\d,]+)'
     
     for match in re.finditer(category_pattern, content):
         category = match.group(1).strip()
@@ -49,13 +49,18 @@ def analyze_role_tags(role_dir):
         if base_tag in tags:
             tags[base_tag] += question_count
     
-    # Get total questions (handle multiple formats, including commas like "1,710")
-    total_match = re.search(r'\*?\*?Total Questions?\*?\*?:\s*([\d,]+)', content)
-    if total_match:
-        total_str = total_match.group(1).replace(',', '')
-        total_questions = int(total_str)
-    else:
+    # Get total questions
+    # First try to sum all category tags (most accurate)
+    if sum(tags.values()) > 0:
         total_questions = sum(tags.values())
+    else:
+        # Fallback: try to find "Total Questions: X" in header
+        total_match = re.search(r'\*{0,2}Total Questions?\*{0,2}:\s*([\d,]+)', content)
+        if total_match:
+            total_str = total_match.group(1).replace(',', '')
+            total_questions = int(total_str)
+        else:
+            total_questions = 0
     
     # If no categories found but file has content, try alternate format
     if sum(tags.values()) == 0 and len(content) > 1000:
@@ -65,7 +70,7 @@ def analyze_role_tags(role_dir):
             # Find the question count after this category
             category_end = match.end()
             next_section = content[category_end:category_end+500]
-            count_match = re.search(r'\*?\*?Total Questions?\*?\*?:\s*([\d,]+)', next_section)
+            count_match = re.search(r'\*{0,2}Total Questions?\*{0,2}:\s*([\d,]+)', next_section)
             if count_match:
                 tag = match.group(2).strip().split()[0]
                 if tag in tags:

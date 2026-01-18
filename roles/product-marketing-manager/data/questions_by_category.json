@@ -3,6 +3,74 @@
     {
       "question": "Tell me how you brought a product to market.",
       "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you handle misalignment between team goals and company goals?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What are the strengths and challenges of Google Play?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Can you provide details on your strategies or methods for understanding customers or core audiences?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a product or feature you shipped.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you had to influence stakeholders without authority.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you measure the success of a product marketing campaign?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you disagreed with a product decision.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How would you approach pricing for a new product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you balance short-term wins with long-term strategy?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you create buyer personas?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you used data to inform a marketing decision.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What is your experience with analyst relations?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you measure product-market fit?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about your experience with customer advisory boards.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How would you approach a rebrand for an established product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What is your process for creating sales collateral?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
   "Go-To-Market Strategy": [
@@ -15,6 +83,18 @@
     {
       "question": "How did you determine your positioning was effective?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How would you position a new B2B SaaS product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What frameworks do you use for product positioning?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you differentiate your product in a crowded market?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
   "Product Launch": [
@@ -23,23 +103,87 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
-      "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon?",
+      "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon? What process would you follow?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
       "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How would you launch Instagram Reels?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What metrics would you track for a new product launch?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you prioritize features for a product launch?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a failed product launch and what you learned.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about your experience with product launches in international markets.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "What is your approach to content marketing for product launches?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How would you handle a situation where engineering delays a product launch?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
-  "Messaging & Communication": [],
-  "Market Research": [],
-  "Competitive Analysis": [],
+  "Messaging & Communication": [
+    {
+      "question": "How would you create a messaging framework for a new product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Market Research": [
+    {
+      "question": "What is your process for conducting customer research?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Competitive Analysis": [
+    {
+      "question": "What is your approach to competitive analysis?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you stay current with market trends and competitor activities?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
   "Cross-Functional Collaboration": [
     {
       "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a time you had to influence stakeholders without authority.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you work with sales teams to enable them for a new product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
-  "Sales Enablement": [],
+  "Sales Enablement": [
+    {
+      "question": "How do you work with sales teams to enable them for a new product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
   "Customer Insights": []
 }
