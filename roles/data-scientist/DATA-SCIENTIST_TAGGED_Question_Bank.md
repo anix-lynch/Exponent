@@ -54,106 +54,106 @@ Behavioral (STAR Method)
 
 📝 All 100 Questions:
 
-1. Employee Earnings.
-2. Reverse a linked list.
-3. Find the number of users who called three or more people in the last week.
-4. Tell me about a time when you solved a complex problem and how you went about it.
-5. As the PM for Lyft, what dashboard would you build to track the health of the app?
-6. What is the project you are most proud of?
-7. Remove Duplicate Emails
-8. How would you measure the success of Facebook dating?
-9. Is this a valid palindrome?
-10. Tell me about your past projects.
-11. Find the container with the maximum volume of water.
-12. Tell me about a time when you proposed an idea that was not agreed on.
-13. Tell me about a time you convinced someone to change their mind.
-14. Tell me about a skill you recently learned.
-15. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
-16. Tell me about a time when you received negative feedback and how you handled it.
-17. Tell me about a time when you used a specific metric to drive change in your department.
-18. Monthly Post Success Analysis.
-19. Can you provide an example of how you manage conflict?
-20. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-21. Top Earning Employees
-22. What percentage of users who were active on Messenger yesterday made a video call yesterday?
-23. Find the longest substring without repeating characters.
-24. Imagine you are a data scientist for Instagram. How would you balance ads and follower posts and how would you monitor its effectiveness.
-25. Reverse a Sentence
-26. Top Salaries by Department
-27. Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?
-28. Lyft Ride Requests
-29. Define success for TikTok.
-30. Valid Parentheses
-31. How would you determine if Facebook Messenger should introduce group calling?
-32. Move all zeros to the end of an array.
-33. Employee Hierarchy
-34. Most Recent Transaction
-35. Duolingo Leaderboards
-36. Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
-37. Tell me about a mistake you made and what you learned from it.
-38. Explain Bayes' theorem.
-39. High Volume Low Success.
-40. Calculate Test Scores
-41. Session Data Analysis.
-42. Tell me about a time when you were creative.
-43. Find the median of two sorted arrays.
-44. Given an nxn grid of 1s and 0s, return the number of islands in the input.
-45. Imagine you are a data scientist for Netflix. How would you use data to decide whether a TV series is worth renewing?
-46. Given an array, find the two sum.
-47. Tell me about a time when you had to balance short-term wins with long-term goals.
-48. Marketing Channel Attribution
-49. Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
-50. Linked List Cycle
-51. What parts of OpenAI's mission statement resonate with you?
-52. Given the root of a binary tree of integers, return the maximum path sum.
-53. Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?
-54. Post Success By Age Group.
-55. Tell me about an impactful project that you led.
-56. Analyze Monthly Customer Transactions
-57. Merge k sorted linked lists.
-58. Walk me through a past data science project.
-59. Explain deep reinforcement learning.
-60. Fibonacci Numbers
-61. Roman to Integer
-62. How do you approach personal growth and learning?
-63. How would you enhance Facebook comments?
-64. Find Customer Lifetime Value (LTV)
-65. Describe an experience that you consider most valuable.
-66. Search in rotated sorted array
-67. Find the maximum subarray sum.
-68. How can you improve Facebook’s DAU?
-69. Find Campaign Purchases
-70. Determine if a given binary tree is a binary search tree (BST).
-71. Given a list of sentences, find the top n most frequent words.
-72. Merge two sorted lists
-73. A user advocacy group raises concerns about accessibility for individuals with hearing disabilities. What are some product improvements for Facebook Live and Videos, and how would you define succes...
-74. What are you passionate about?
-75. How do you encourage collaboration among cross-functional teams?
-76. As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?
-77. Fraudulent Transactions
-78. Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...
-79. Calculate the trapped rainwater between bars in a given array.
-80. How would you help the Instagram team decide whether to launch the Rooms feature after a successful launch on Facebook?
-81. Tell me about your experience working with scientists.
-82. In what cases should you use the median instead of the mean?
-83. Would you port Facebook rooms to Instagram?
-84. What motivates you?
-85. Tell me about your e-commerce experience.
-86. How do you generate insights?
-87. Tell me about a time when you were unhappy in your job.
-88. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
-89. Top k frequent elements
-90. How do you deal with interference?
-91. Total Outfit Combinations
-92. Present slides on a past project you've worked on.
-93. Print all combinations of numbers from 1 to n that sum to n.
-94. What about Tinder's vision resonates with you?
-95. Given n employees and an expansion rate r, find the number of employees after t years.
-96. You’re told engagement is flat even though new users are increasing—what questions would you ask and what data would you look at?
-97. If a + b + c + d = 63, what's the maximum value of a * b + b * c + c * d?
-98. How would you measure engagement for a productivity app? What features or behaviors would you track?
-99. You roll a dice until the total reaches 100 or more. Which appears more often in the rolls: 1 or 6?
-100. What is the limit of the ratio of two consecutive Fibonacci numbers as the sequence progresses?
+1. 💗 Employee Earnings.
+2. 💗 Reverse a linked list.
+3. 💗 Find the number of users who called three or more people in the last week.
+4. 💗 Tell me about a time when you solved a complex problem and how you went about it.
+5. 💗 As the PM for Lyft, what dashboard would you build to track the health of the app?
+6. 💗 What is the project you are most proud of?
+7. 💗 Remove Duplicate Emails
+8. 💗 How would you measure the success of Facebook dating?
+9. 💗 Is this a valid palindrome?
+10. 💗 Tell me about your past projects.
+11. 💗 Find the container with the maximum volume of water.
+12. 💗 Tell me about a time when you proposed an idea that was not agreed on.
+13. 💗 Tell me about a time you convinced someone to change their mind.
+14. 💗 Tell me about a skill you recently learned.
+15. 💗 Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
+16. 💗 Tell me about a time when you received negative feedback and how you handled it.
+17. 💗 Tell me about a time when you used a specific metric to drive change in your department.
+18. 💗 Monthly Post Success Analysis.
+19. 💗 Can you provide an example of how you manage conflict?
+20. 💗 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
+21. 💗 Top Earning Employees
+22. 💗 What percentage of users who were active on Messenger yesterday made a video call yesterday?
+23. 💗 Find the longest substring without repeating characters.
+24. 💗 Imagine you are a data scientist for Instagram. How would you balance ads and follower posts and how would you monitor its effectiveness.
+25. 💗 Reverse a Sentence
+26. 💗 Top Salaries by Department
+27. 💗 Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?
+28. 💗 Lyft Ride Requests
+29. 💗 Define success for TikTok.
+30. 💗 Valid Parentheses
+31. 💗 How would you determine if Facebook Messenger should introduce group calling?
+32. 💗 Move all zeros to the end of an array.
+33. 💗 Employee Hierarchy
+34. 💗 Most Recent Transaction
+35. 💗 Duolingo Leaderboards
+36. 💗 Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
+37. 💗 Tell me about a mistake you made and what you learned from it.
+38. 💗 Explain Bayes' theorem.
+39. 💗 High Volume Low Success.
+40. 💗 Calculate Test Scores
+41. 💗 Session Data Analysis.
+42. 💗 Tell me about a time when you were creative.
+43. 💗 Find the median of two sorted arrays.
+44. 💗 Given an nxn grid of 1s and 0s, return the number of islands in the input.
+45. 💗 Imagine you are a data scientist for Netflix. How would you use data to decide whether a TV series is worth renewing?
+46. 💗 Given an array, find the two sum.
+47. 💗 Tell me about a time when you had to balance short-term wins with long-term goals.
+48. 💗 Marketing Channel Attribution
+49. 💗 Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
+50. 💗 Linked List Cycle
+51. 💗 What parts of OpenAI's mission statement resonate with you?
+52. 💗 Given the root of a binary tree of integers, return the maximum path sum.
+53. 💗 Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?
+54. 💗 Post Success By Age Group.
+55. 💗 Tell me about an impactful project that you led.
+56. 💗 Analyze Monthly Customer Transactions
+57. 💗 Merge k sorted linked lists.
+58. 💗 Walk me through a past data science project.
+59. 💗 Explain deep reinforcement learning.
+60. 💗 Fibonacci Numbers
+61. 💗 Roman to Integer
+62. 💗 How do you approach personal growth and learning?
+63. 💗 How would you enhance Facebook comments?
+64. 💗 Find Customer Lifetime Value (LTV)
+65. 💗 Describe an experience that you consider most valuable.
+66. 💗 Search in rotated sorted array
+67. 💗 Find the maximum subarray sum.
+68. 💗 How can you improve Facebook’s DAU?
+69. 💗 Find Campaign Purchases
+70. 💗 Determine if a given binary tree is a binary search tree (BST).
+71. 💗 Given a list of sentences, find the top n most frequent words.
+72. 💗 Merge two sorted lists
+73. 💗 A user advocacy group raises concerns about accessibility for individuals with hearing disabilities. What are some product improvements for Facebook Live and Videos, and how would you define succes...
+74. 💗 What are you passionate about?
+75. 💗 How do you encourage collaboration among cross-functional teams?
+76. 💗 As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?
+77. 💗 Fraudulent Transactions
+78. 💗 Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...
+79. 💗 Calculate the trapped rainwater between bars in a given array.
+80. 💗 How would you help the Instagram team decide whether to launch the Rooms feature after a successful launch on Facebook?
+81. 💗 Tell me about your experience working with scientists.
+82. 💗 In what cases should you use the median instead of the mean?
+83. 💗 Would you port Facebook rooms to Instagram?
+84. 💗 What motivates you?
+85. 💗 Tell me about your e-commerce experience.
+86. 💗 How do you generate insights?
+87. 💗 Tell me about a time when you were unhappy in your job.
+88. 💗 Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+89. 💗 Top k frequent elements
+90. 💗 How do you deal with interference?
+91. 💗 Total Outfit Combinations
+92. 💗 Present slides on a past project you've worked on.
+93. 💗 Print all combinations of numbers from 1 to n that sum to n.
+94. 💗 What about Tinder's vision resonates with you?
+95. 💗 Given n employees and an expansion rate r, find the number of employees after t years.
+96. 💗 You’re told engagement is flat even though new users are increasing—what questions would you ask and what data would you look at?
+97. 💗 If a + b + c + d = 63, what's the maximum value of a * b + b * c + c * d?
+98. 💗 How would you measure engagement for a productivity app? What features or behaviors would you track?
+99. 💗 You roll a dice until the total reaches 100 or more. Which appears more often in the rolls: 1 or 6?
+100. 💗 What is the limit of the ratio of two consecutive Fibonacci numbers as the sequence progresses?
 
 ================================================================================
 DATA ANALYSIS - ROOT CAUSE ⚪
@@ -201,28 +201,28 @@ Data Analysis - Root Cause
 
 📝 All 20 Questions:
 
-1. Why do you think we should not hire you?
-2. What product that you led are you most proud of and why?
-3. Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-4. Why do you want to work at OpenAI?
-5. Why do you want to work at Visa?
-6. Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?
-7. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+1. ⚪ Why do you think we should not hire you?
+2. ⚪ What product that you led are you most proud of and why?
+3. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
+4. ⚪ Why do you want to work at OpenAI?
+5. ⚪ Why do you want to work at Visa?
+6. ⚪ Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?
+7. ⚪ You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
 
 (Conversion: From users browsing to placing orders.)
-8. What is overfitting or underfitting? Which models are most likely to experience this, and why?
-9. Why might Venmo be seeing a decrease in users adding their bank accounts?
-10. What is the best way to connect SQL databases and why?
-11. What other companies are you interviewing at and why?
-12. Why do you want to work at Walmart Labs?
-13. Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.
-14. How would you investigate a week-over-week 10% drop in successful deliveries?
-15. One of your clients has experienced a 20% decline in profits. What would you do?
-16. Why do you want to work at Salesforce?
-17. Why do you want to work at Discord?
-18. Why do you want to work at Tinder?
-19. The product team reports a decline in 30-day user retention. How would you approach this problem?
-20. What factors would you investigate to determine why the app is underperforming in a new geography?
+8. ⚪ What is overfitting or underfitting? Which models are most likely to experience this, and why?
+9. ⚪ Why might Venmo be seeing a decrease in users adding their bank accounts?
+10. ⚪ What is the best way to connect SQL databases and why?
+11. ⚪ What other companies are you interviewing at and why?
+12. ⚪ Why do you want to work at Walmart Labs?
+13. ⚪ Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.
+14. ⚪ How would you investigate a week-over-week 10% drop in successful deliveries?
+15. ⚪ One of your clients has experienced a 20% decline in profits. What would you do?
+16. ⚪ Why do you want to work at Salesforce?
+17. ⚪ Why do you want to work at Discord?
+18. ⚪ Why do you want to work at Tinder?
+19. ⚪ The product team reports a decline in 30-day user retention. How would you approach this problem?
+20. ⚪ What factors would you investigate to determine why the app is underperforming in a new geography?
 
 ================================================================================
 MACHINE LEARNING - MODEL EVALUATION ⚪
@@ -269,17 +269,17 @@ Machine Learning - Model Evaluation
 
 📝 All 11 Questions:
 
-1. You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?
-2. You launched a feature and user behavior changed, how do you define success metrics?
-3. SQL Stored Procedures
-4. The company observes that drivers spend significantly less active time on grocery store orders compared to convenience store orders. What next steps would you take?
-5. How would you evaluate the impact of fake news on Facebook users?
-6. Explain precision and recall to a non technical stakeholder
-7. How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
-8. What is overfitting or underfitting? Which models are most likely to experience this, and why?
-9. What metrics would you use to increase posts with comments in a group?
-10. Metrics moved in different directions, how do you interpret the results and decide next steps?
-11. Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
+1. ⚪ You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?
+2. ⚪ You launched a feature and user behavior changed, how do you define success metrics?
+3. ⚪ SQL Stored Procedures
+4. ⚪ The company observes that drivers spend significantly less active time on grocery store orders compared to convenience store orders. What next steps would you take?
+5. ⚪ How would you evaluate the impact of fake news on Facebook users?
+6. ⚪ Explain precision and recall to a non technical stakeholder
+7. ⚪ How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
+8. ⚪ What is overfitting or underfitting? Which models are most likely to experience this, and why?
+9. ⚪ What metrics would you use to increase posts with comments in a group?
+10. ⚪ Metrics moved in different directions, how do you interpret the results and decide next steps?
+11. ⚪ Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
 
 ================================================================================
 CODING ⚠️ SKIP
@@ -329,16 +329,16 @@ Coding
 
 📝 All 10 Questions:
 
-1. Implement LRU Cache.
-2. Implement k-means clustering.
-3. Write SQL code to publish the Fibonacci series.
-4. In the transformer architecture, what makes the decoder different from the encoder?
-5. Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-6. Write a function to return all prime numbers up to a given number n.
-7. Given a list of numbers, find the median without sorting the entire list. Hint: Use quick sort algorithm.
-8. What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?
-9. Explain all kinds of OOP concepts in Python.
-10. Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...
+1. ⚠️ Implement LRU Cache.
+2. ⚠️ Implement k-means clustering.
+3. ⚠️ Write SQL code to publish the Fibonacci series.
+4. ⚠️ In the transformer architecture, what makes the decoder different from the encoder?
+5. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
+6. ⚠️ Write a function to return all prime numbers up to a given number n.
+7. ⚠️ Given a list of numbers, find the median without sorting the entire list. Hint: Use quick sort algorithm.
+8. ⚠️ What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?
+9. ⚠️ Explain all kinds of OOP concepts in Python.
+10. ⚠️ Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...
 
 ================================================================================
 DATA ANALYSIS - BUSINESS METRICS ⚪
@@ -388,13 +388,13 @@ Data Analysis - Business Metrics
 
 📝 All 7 Questions:
 
-1. Tell me about a time when you used a specific metric to drive change in your department.
-2. You launched a feature and user behavior changed, how do you define success metrics?
-3. How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
-4. What metrics would you use to increase posts with comments in a group?
-5. What are the KPIs for push notifications?
-6. Metrics moved in different directions, how do you interpret the results and decide next steps?
-7. Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
+1. ⚪ Tell me about a time when you used a specific metric to drive change in your department.
+2. ⚪ You launched a feature and user behavior changed, how do you define success metrics?
+3. ⚪ How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
+4. ⚪ What metrics would you use to increase posts with comments in a group?
+5. ⚪ What are the KPIs for push notifications?
+6. ⚪ Metrics moved in different directions, how do you interpret the results and decide next steps?
+7. ⚪ Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
 
 ================================================================================
 SQL 💗
@@ -445,12 +445,12 @@ SQL
 
 📝 All 6 Questions:
 
-1. SQL Stored Procedures
-2. Write SQL code to publish the Fibonacci series.
-3. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-4. What is the difference between NoSQL and SQL?
-5. What is the best way to connect SQL databases and why?
-6. Design a solution for matching incoming 'new restaurant' data with existing entities in a large restaurant database.
+1. 💗 SQL Stored Procedures
+2. 💗 Write SQL code to publish the Fibonacci series.
+3. 💗 Explain the key differences between BETWEEN and HAVING clauses in SQL.
+4. 💗 What is the difference between NoSQL and SQL?
+5. 💗 What is the best way to connect SQL databases and why?
+6. 💗 Design a solution for matching incoming 'new restaurant' data with existing entities in a large restaurant database.
 
 ================================================================================
 MACHINE LEARNING - SUPERVISED ⚪
@@ -497,10 +497,10 @@ Machine Learning - Supervised
 
 📝 All 4 Questions:
 
-1. How can Stripe use data to predict the optimal time to retry a transaction?
-2. What are common linear regression problems?
-3. What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?
-4. Describe how the split in a decision tree works.
+1. ⚪ How can Stripe use data to predict the optimal time to retry a transaction?
+2. ⚪ What are common linear regression problems?
+3. ⚪ What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?
+4. ⚪ Describe how the split in a decision tree works.
 
 ================================================================================
 STATISTICS & EXPERIMENTATION - A/B TESTING ⚪
@@ -548,10 +548,10 @@ Statistics & Experimentation - A/B Testing
 
 📝 All 4 Questions:
 
-1. You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?
-2. When experimentation is constrained, how do you make decisions using imperfect or historical data?
-3. How do you design an experiment to avoid common pitfalls in interpreting results?
-4. Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
+1. ⚪ You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?
+2. ⚪ When experimentation is constrained, how do you make decisions using imperfect or historical data?
+3. ⚪ How do you design an experiment to avoid common pitfalls in interpreting results?
+4. ⚪ Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
 
 ================================================================================
 STATISTICS & EXPERIMENTATION - PROBABILITY ⚪
@@ -597,10 +597,10 @@ Statistics & Experimentation - Probability
 
 📝 All 4 Questions:
 
-1. A $5 discount coupon is given to N riders. The probability of using a coupon is P. What is the expected cost for the company?
-2. A PM at Google asked you to describe the distribution of daily search queries per user. How would you describe it?
-3. A PM at Meta asked you to describe the distribution of daily minutes spent on Facebook per user. How would you describe it?
-4. A discount coupon is given to N riders. The probability of using a coupon is P. What is the probability that one of the coupons will be used?
+1. ⚪ A $5 discount coupon is given to N riders. The probability of using a coupon is P. What is the expected cost for the company?
+2. ⚪ A PM at Google asked you to describe the distribution of daily search queries per user. How would you describe it?
+3. ⚪ A PM at Meta asked you to describe the distribution of daily minutes spent on Facebook per user. How would you describe it?
+4. ⚪ A discount coupon is given to N riders. The probability of using a coupon is P. What is the probability that one of the coupons will be used?
 
 ================================================================================
 DEEP LEARNING ⚠️ DEFER
@@ -650,9 +650,9 @@ Deep Learning
 
 📝 All 3 Questions:
 
-1. In the transformer architecture, what makes the decoder different from the encoder?
-2. Explain Deep Learning to a non-technical audience.
-3. Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...
+1. ⚠️ In the transformer architecture, what makes the decoder different from the encoder?
+2. ⚠️ Explain Deep Learning to a non-technical audience.
+3. ⚠️ Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...
 
 ================================================================================
 MACHINE LEARNING - UNSUPERVISED ⚪
@@ -697,7 +697,7 @@ Machine Learning - Unsupervised
 
 📝 All 1 Questions:
 
-1. Implement k-means clustering.
+1. ⚪ Implement k-means clustering.
 
 ================================================================================
 STATISTICS & EXPERIMENTATION - HYPOTHESIS TESTING ⚪
@@ -743,7 +743,7 @@ Statistics & Experimentation - Hypothesis Testing
 
 📝 All 1 Questions:
 
-1. Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and...
+1. ⚪ Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and...
 
 ================================================================================
 COMPUTER VISION ⚪
@@ -791,7 +791,7 @@ Computer Vision
 
 📝 All 1 Questions:
 
-1. You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de...
+1. ⚪ You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de...
 
 ================================================================================
 RECOMMENDATION SYSTEMS ⚪
@@ -839,5 +839,5 @@ Recommendation Systems
 
 📝 All 1 Questions:
 
-1. After launching a new recommendation engine, how would you measure its impact on revenue?
+1. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
 

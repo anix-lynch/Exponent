@@ -14,7 +14,7 @@ Total Questions: 118 across 20 categories
 
 
 ================================================================================
-DATA ANALYSIS
+DATA ANALYSIS ⚪
 ================================================================================
 
 📊 Total Questions: 39
@@ -55,49 +55,49 @@ Data Analysis
 
 📝 All 39 Questions:
 
-1. How would you convey insights and the methods used to a non-technical audience?
-2. Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-3. Monthly Post Success Analysis.
-4. Describe a data project you worked on. What were some of the challenges you faced?
-5. Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
-6. Define a north star metric for Stripe Connect.
-7. There's a YoY slowdown in transactions. How would you structure your analysis?
-8. Tell me about a time you built a dashboard.
-9. Session Data Analysis.
-10. Tell me about a project where you had to clean and organize a large dataset.
-11. Analyze Monthly Customer Transactions
-12. How would you visualize sales and customer usage?
-13. Walk me through a time you diagnosed a drop in conversion.
-14. How do you generate insights?
-15. Walk me through your process for cleaning a messy dataset.
-16. What questions would you ask before starting an analysis?
-17. You’re launching a new feature—how would you measure its strategic impact on growth?
-18. What metrics would you use to evaluate product adoption and engagement?
-19. Tell me about a time when your analysis influenced a business decision.
-20. How would you analyze why user engagement is declining?
-21. What types of visualizations would you use to identify patterns in churn?
-22. A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
-23. How do you present insights to non-technical stakeholders?
-24. What KPIs would you track to measure company health?
-25. How do you determine which metrics are most important for executives to track?
-26. What KPIs would you track to evaluate the health of a subscription-based business?
-27. How would you explain a sudden drop in revenue to leadership?
-28. You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
-29. Tell me about a time you discovered a trend by drilling into granular data.
-30. What metrics would you track to improve operational cost?
-31. What recommendation did you make based on your analysis, and what was the impact?
-32. How would you measure engagement for a productivity app? What features or behaviors would you track?
-33. Walk me through how you'd segment users for a churn analysis.
-34. Walk me through a dashboard you built. What choices did you make?
-35. After launching a new recommendation engine, how would you measure its impact on revenue?
-36. How do you turn analysis into business action?
-37. The product team reports a decline in 30-day user retention. How would you approach this problem?
-38. A competitor is gaining market share. How would you investigate why?
-39. The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. ⚪ How would you convey insights and the methods used to a non-technical audience?
+2. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
+3. ⚪ Monthly Post Success Analysis.
+4. ⚪ Describe a data project you worked on. What were some of the challenges you faced?
+5. ⚪ Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
+6. ⚪ Define a north star metric for Stripe Connect.
+7. ⚪ There's a YoY slowdown in transactions. How would you structure your analysis?
+8. ⚪ Tell me about a time you built a dashboard.
+9. ⚪ Session Data Analysis.
+10. ⚪ Tell me about a project where you had to clean and organize a large dataset.
+11. ⚪ Analyze Monthly Customer Transactions
+12. ⚪ How would you visualize sales and customer usage?
+13. ⚪ Walk me through a time you diagnosed a drop in conversion.
+14. ⚪ How do you generate insights?
+15. ⚪ Walk me through your process for cleaning a messy dataset.
+16. ⚪ What questions would you ask before starting an analysis?
+17. ⚪ You’re launching a new feature—how would you measure its strategic impact on growth?
+18. ⚪ What metrics would you use to evaluate product adoption and engagement?
+19. ⚪ Tell me about a time when your analysis influenced a business decision.
+20. ⚪ How would you analyze why user engagement is declining?
+21. ⚪ What types of visualizations would you use to identify patterns in churn?
+22. ⚪ A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
+23. ⚪ How do you present insights to non-technical stakeholders?
+24. ⚪ What KPIs would you track to measure company health?
+25. ⚪ How do you determine which metrics are most important for executives to track?
+26. ⚪ What KPIs would you track to evaluate the health of a subscription-based business?
+27. ⚪ How would you explain a sudden drop in revenue to leadership?
+28. ⚪ You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
+29. ⚪ Tell me about a time you discovered a trend by drilling into granular data.
+30. ⚪ What metrics would you track to improve operational cost?
+31. ⚪ What recommendation did you make based on your analysis, and what was the impact?
+32. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
+33. ⚪ Walk me through how you'd segment users for a churn analysis.
+34. ⚪ Walk me through a dashboard you built. What choices did you make?
+35. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
+36. ⚪ How do you turn analysis into business action?
+37. ⚪ The product team reports a decline in 30-day user retention. How would you approach this problem?
+38. ⚪ A competitor is gaining market share. How would you investigate why?
+39. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 
 ================================================================================
-ANALYTICAL
+ANALYTICAL ⚪
 ================================================================================
 
 📊 Total Questions: 39
@@ -138,49 +138,49 @@ Analytical
 
 📝 All 39 Questions:
 
-1. Find the number of users who called three or more people in the last week.
-2. Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-3. How would you approach learning about a task that you're completely unfamiliar with?
-4. Why do you want to work at Anthropic?
-5. Determine if Google should introduce ads to Google Flights.
-6. Choose a product you like and explain how you would identify its competitors.
-7. Most Recent Transaction
-8. High Volume Low Success.
-9. Calculate Test Scores
-10. How would you assess whether a new feature launch was successful?
-11. Why do you want to work at Atlassian?
-12. Post Success By Age Group.
-13. Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
-14. Tell me something that's not in your resume.
-15. What is the best way to connect SQL databases and why?
-16. How would you use data to help Snap engineering improve phone camera speed?
-17. How would you evaluate whether a new feature is worth rolling out to all users?
-18. What would you do if you didn't have access to the exact data you need?
-19. Walk me through how you'd assess the success of a beta launch.
-20. Walk me through a time you diagnosed a drop in conversion.
-21. What sets you apart from other data analysts?
-22. How do you evaluate the ROI of a strategic bet?
-23. What metrics would you use to evaluate product adoption and engagement?
-24. How would you approach evaluating the performance of a specific business unit?
-25. How would you analyze why user engagement is declining?
-26. What types of visualizations would you use to identify patterns in churn?
-27. Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-28. A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
-29. How would you segment users for a new e-commerce platform?
-30. Describe how you’ve used data to identify underperforming business units.
-31. You’re told engagement is flat even though new users are increasing—what questions would you ask and what data would you look at?
-32. How would you use cohorts to identify retention issues?
-33. How do you determine which metrics are most important for executives to track?
-34. What KPIs would you track to evaluate the health of a subscription-based business?
-35. How would you identify inefficiencies in a team’s workflow using data?
-36. A competitor is gaining market share. How would you investigate why?
-37. You’re asked to identify high-value customers—how would you approach this using data?
-38. How would you evaluate our pricing compared to competitors using publicly available data?
-39. You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
+1. ⚪ Find the number of users who called three or more people in the last week.
+2. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
+3. ⚪ How would you approach learning about a task that you're completely unfamiliar with?
+4. ⚪ Why do you want to work at Anthropic?
+5. ⚪ Determine if Google should introduce ads to Google Flights.
+6. ⚪ Choose a product you like and explain how you would identify its competitors.
+7. ⚪ Most Recent Transaction
+8. ⚪ High Volume Low Success.
+9. ⚪ Calculate Test Scores
+10. ⚪ How would you assess whether a new feature launch was successful?
+11. ⚪ Why do you want to work at Atlassian?
+12. ⚪ Post Success By Age Group.
+13. ⚪ Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
+14. ⚪ Tell me something that's not in your resume.
+15. ⚪ What is the best way to connect SQL databases and why?
+16. ⚪ How would you use data to help Snap engineering improve phone camera speed?
+17. ⚪ How would you evaluate whether a new feature is worth rolling out to all users?
+18. ⚪ What would you do if you didn't have access to the exact data you need?
+19. ⚪ Walk me through how you'd assess the success of a beta launch.
+20. ⚪ Walk me through a time you diagnosed a drop in conversion.
+21. ⚪ What sets you apart from other data analysts?
+22. ⚪ How do you evaluate the ROI of a strategic bet?
+23. ⚪ What metrics would you use to evaluate product adoption and engagement?
+24. ⚪ How would you approach evaluating the performance of a specific business unit?
+25. ⚪ How would you analyze why user engagement is declining?
+26. ⚪ What types of visualizations would you use to identify patterns in churn?
+27. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+28. ⚪ A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
+29. ⚪ How would you segment users for a new e-commerce platform?
+30. ⚪ Describe how you’ve used data to identify underperforming business units.
+31. ⚪ You’re told engagement is flat even though new users are increasing—what questions would you ask and what data would you look at?
+32. ⚪ How would you use cohorts to identify retention issues?
+33. ⚪ How do you determine which metrics are most important for executives to track?
+34. ⚪ What KPIs would you track to evaluate the health of a subscription-based business?
+35. ⚪ How would you identify inefficiencies in a team’s workflow using data?
+36. ⚪ A competitor is gaining market share. How would you investigate why?
+37. ⚪ You’re asked to identify high-value customers—how would you approach this using data?
+38. ⚪ How would you evaluate our pricing compared to competitors using publicly available data?
+39. ⚪ You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
 
 
 ================================================================================
-SQL
+SQL 💗
 ================================================================================
 
 📊 Total Questions: 24
@@ -224,34 +224,34 @@ SQL
 
 📝 All 24 Questions:
 
-1. Employee Earnings.
-2. SQL Stored Procedures
-3. Instagram Likes
-4. Top Earning Employees
-5. Top Salaries by Department
-6. Lyft Ride Requests
-7. Employee Hierarchy
-8. Duolingo Leaderboards
-9. Write SQL code to publish the Fibonacci series.
-10. Marketing Channel Attribution
-11. Analyze Monthly Customer Transactions
-12. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-13. What is the difference between NoSQL and SQL?
-14. Find Campaign Purchases
-15. Revenue by Customer City
-16. What is the best way to connect SQL databases and why?
-17. Top Product Lines
-18. How do you handle joining data from different sources with inconsistent IDs?
-19. Fraudulent Transactions
-20. Let’s say a marketing campaign underperformed—what would you do?
-21. Overstretched Employees
-22. What’s the most complex SQL query you’ve written? Walk me through what it did, the key concepts involved, and the types of joins you used.
-23. How would you explain a sudden drop in revenue to leadership?
-24. After launching a new recommendation engine, how would you measure its impact on revenue?
+1. 💗 Employee Earnings.
+2. 💗 SQL Stored Procedures
+3. 💗 Instagram Likes
+4. 💗 Top Earning Employees
+5. 💗 Top Salaries by Department
+6. 💗 Lyft Ride Requests
+7. 💗 Employee Hierarchy
+8. 💗 Duolingo Leaderboards
+9. 💗 Write SQL code to publish the Fibonacci series.
+10. 💗 Marketing Channel Attribution
+11. 💗 Analyze Monthly Customer Transactions
+12. 💗 Explain the key differences between BETWEEN and HAVING clauses in SQL.
+13. 💗 What is the difference between NoSQL and SQL?
+14. 💗 Find Campaign Purchases
+15. 💗 Revenue by Customer City
+16. 💗 What is the best way to connect SQL databases and why?
+17. 💗 Top Product Lines
+18. 💗 How do you handle joining data from different sources with inconsistent IDs?
+19. 💗 Fraudulent Transactions
+20. 💗 Let’s say a marketing campaign underperformed—what would you do?
+21. 💗 Overstretched Employees
+22. 💗 What’s the most complex SQL query you’ve written? Walk me through what it did, the key concepts involved, and the types of joins you used.
+23. 💗 How would you explain a sudden drop in revenue to leadership?
+24. 💗 After launching a new recommendation engine, how would you measure its impact on revenue?
 
 
 ================================================================================
-CODING
+CODING ⚠️ SKIP
 ================================================================================
 
 📊 Total Questions: 20
@@ -290,30 +290,30 @@ Coding
 
 📝 All 20 Questions:
 
-1. Employee Earnings.
-2. Instagram Likes
-3. Top Earning Employees
-4. Top Salaries by Department
-5. Merge Intervals
-6. Lyft Ride Requests
-7. Employee Hierarchy
-8. Duolingo Leaderboards
-9. Write SQL code to publish the Fibonacci series.
-10. Marketing Channel Attribution
-11. Analyze Monthly Customer Transactions
-12. Find Campaign Purchases
-13. Revenue by Customer City
-14. Top Product Lines
-15. Fraudulent Transactions
-16. Let’s say a marketing campaign underperformed—what would you do?
-17. Overstretched Employees
-18. How would you explain a sudden drop in revenue to leadership?
-19. After launching a new recommendation engine, how would you measure its impact on revenue?
-20. Convert Biased Coin to Fair Coin
+1. ⚠️ Employee Earnings.
+2. ⚠️ Instagram Likes
+3. ⚠️ Top Earning Employees
+4. ⚠️ Top Salaries by Department
+5. ⚠️ Merge Intervals
+6. ⚠️ Lyft Ride Requests
+7. ⚠️ Employee Hierarchy
+8. ⚠️ Duolingo Leaderboards
+9. ⚠️ Write SQL code to publish the Fibonacci series.
+10. ⚠️ Marketing Channel Attribution
+11. ⚠️ Analyze Monthly Customer Transactions
+12. ⚠️ Find Campaign Purchases
+13. ⚠️ Revenue by Customer City
+14. ⚠️ Top Product Lines
+15. ⚠️ Fraudulent Transactions
+16. ⚠️ Let’s say a marketing campaign underperformed—what would you do?
+17. ⚠️ Overstretched Employees
+18. ⚠️ How would you explain a sudden drop in revenue to leadership?
+19. ⚠️ After launching a new recommendation engine, how would you measure its impact on revenue?
+20. ⚠️ Convert Biased Coin to Fair Coin
 
 
 ================================================================================
-PRODUCT STRATEGY
+PRODUCT STRATEGY ⚪
 ================================================================================
 
 📊 Total Questions: 16
@@ -354,26 +354,26 @@ Product Strategy
 
 📝 All 16 Questions:
 
-1. How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
-2. Determine if Google should introduce ads to Google Flights.
-3. Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
-4. Choose a product you like and explain how you would identify its competitors.
-5. How would you assess whether a new feature launch was successful?
-6. How would you model the expected ROI of a new product launch?
-7. Walk me through how you'd assess the success of a beta launch.
-8. We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?
-9. You’re launching a new feature—how would you measure its strategic impact on growth?
-10. You have three ideas for expansion but limited resources. How would you help prioritize them?
-11. A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
-12. How would you size the opportunity for launching a grocery delivery service in a new city?
-13. You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
-14. After launching a new recommendation engine, how would you measure its impact on revenue?
-15. A competitor is gaining market share. How would you investigate why?
-16. How would you evaluate our pricing compared to competitors using publicly available data?
+1. ⚪ How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
+2. ⚪ Determine if Google should introduce ads to Google Flights.
+3. ⚪ Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
+4. ⚪ Choose a product you like and explain how you would identify its competitors.
+5. ⚪ How would you assess whether a new feature launch was successful?
+6. ⚪ How would you model the expected ROI of a new product launch?
+7. ⚪ Walk me through how you'd assess the success of a beta launch.
+8. ⚪ We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?
+9. ⚪ You’re launching a new feature—how would you measure its strategic impact on growth?
+10. ⚪ You have three ideas for expansion but limited resources. How would you help prioritize them?
+11. ⚪ A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?
+12. ⚪ How would you size the opportunity for launching a grocery delivery service in a new city?
+13. ⚪ You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
+14. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
+15. ⚪ A competitor is gaining market share. How would you investigate why?
+16. ⚪ How would you evaluate our pricing compared to competitors using publicly available data?
 
 
 ================================================================================
-PRODUCT DESIGN
+PRODUCT DESIGN ⚪
 ================================================================================
 
 📊 Total Questions: 16
@@ -414,26 +414,26 @@ Product Design
 
 📝 All 16 Questions:
 
-1. Define a north star metric for Stripe Connect.
-2. Design an AI data product.
-3. An important feature of a product fails on the release day at a conference. What would you do?
-4. How would you evaluate whether a new feature is worth rolling out to all users?
-5. Top Product Lines
-6. Decide product-market fit for sticky post-its.
-7. What metrics would you use to evaluate product adoption and engagement?
-8. How would you estimate the total addressable market (TAM) for a new product?
-9. How would you analyze why user engagement is declining?
-10. Given a feature data record (FDR), how would you detect anomalies in it?
-11. Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-12. How would you use cohorts to identify retention issues?
-13. How would you measure engagement for a productivity app? What features or behaviors would you track?
-14. The product team reports a decline in 30-day user retention. How would you approach this problem?
-15. The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
-16. You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
+1. ⚪ Define a north star metric for Stripe Connect.
+2. ⚪ Design an AI data product.
+3. ⚪ An important feature of a product fails on the release day at a conference. What would you do?
+4. ⚪ How would you evaluate whether a new feature is worth rolling out to all users?
+5. ⚪ Top Product Lines
+6. ⚪ Decide product-market fit for sticky post-its.
+7. ⚪ What metrics would you use to evaluate product adoption and engagement?
+8. ⚪ How would you estimate the total addressable market (TAM) for a new product?
+9. ⚪ How would you analyze why user engagement is declining?
+10. ⚪ Given a feature data record (FDR), how would you detect anomalies in it?
+11. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+12. ⚪ How would you use cohorts to identify retention issues?
+13. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
+14. ⚪ The product team reports a decline in 30-day user retention. How would you approach this problem?
+15. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+16. ⚪ You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
 
 
 ================================================================================
-ARTIFICIAL INTELLIGENCE
+ARTIFICIAL INTELLIGENCE ⚪
 ================================================================================
 
 📊 Total Questions: 16
@@ -474,26 +474,26 @@ Artificial Intelligence
 
 📝 All 16 Questions:
 
-1. Tell me about a time when you had to make a decision with a lot of uncertainty.
-2. Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-3. How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
-4. Choose a product you like and explain how you would identify its competitors.
-5. Design an AI data product.
-6. How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
-7. An important feature of a product fails on the release day at a conference. What would you do?
-8. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-9. Find Campaign Purchases
-10. Let’s say a marketing campaign underperformed—what would you do?
-11. Given a feature data record (FDR), how would you detect anomalies in it?
-12. How would you explain a sudden drop in revenue to leadership?
-13. After launching a new recommendation engine, how would you measure its impact on revenue?
-14. Convert Biased Coin to Fair Coin
-15. A competitor is gaining market share. How would you investigate why?
-16. How would you evaluate our pricing compared to competitors using publicly available data?
+1. ⚪ Tell me about a time when you had to make a decision with a lot of uncertainty.
+2. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
+3. ⚪ How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
+4. ⚪ Choose a product you like and explain how you would identify its competitors.
+5. ⚪ Design an AI data product.
+6. ⚪ How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
+7. ⚪ An important feature of a product fails on the release day at a conference. What would you do?
+8. ⚪ Explain the key differences between BETWEEN and HAVING clauses in SQL.
+9. ⚪ Find Campaign Purchases
+10. ⚪ Let’s say a marketing campaign underperformed—what would you do?
+11. ⚪ Given a feature data record (FDR), how would you detect anomalies in it?
+12. ⚪ How would you explain a sudden drop in revenue to leadership?
+13. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
+14. ⚪ Convert Biased Coin to Fair Coin
+15. ⚪ A competitor is gaining market share. How would you investigate why?
+16. ⚪ How would you evaluate our pricing compared to competitors using publicly available data?
 
 
 ================================================================================
-BEHAVIORAL
+BEHAVIORAL 💗
 ================================================================================
 
 📊 Total Questions: 12
@@ -529,22 +529,22 @@ Behavioral (STAR Method)
 
 📝 All 12 Questions:
 
-1. Tell me about a time you made a mistake.
-2. Tell me about a time the business problem wasn’t clearly defined. How did you handle it?
-3. Tell me about your past projects.
-4. Tell me about a time when you had to make a decision with a lot of uncertainty.
-5. Tell me about a time you built a dashboard.
-6. Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
-7. Have you ever had to work with poor-quality data or suggest new tracking?
-8. Walk me through a time you diagnosed a drop in conversion.
-9. Tell me about a time when your analysis influenced a business decision.
-10. Have you ever made a decision based on bad data? What did you learn?
-11. Tell me about a time you discovered a trend by drilling into granular data.
-12. Describe a time you used data to improve an internal process.
+1. 💗 Tell me about a time you made a mistake.
+2. 💗 Tell me about a time the business problem wasn’t clearly defined. How did you handle it?
+3. 💗 Tell me about your past projects.
+4. 💗 Tell me about a time when you had to make a decision with a lot of uncertainty.
+5. 💗 Tell me about a time you built a dashboard.
+6. 💗 Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
+7. 💗 Have you ever had to work with poor-quality data or suggest new tracking?
+8. 💗 Walk me through a time you diagnosed a drop in conversion.
+9. 💗 Tell me about a time when your analysis influenced a business decision.
+10. 💗 Have you ever made a decision based on bad data? What did you learn?
+11. 💗 Tell me about a time you discovered a trend by drilling into granular data.
+12. 💗 Describe a time you used data to improve an internal process.
 
 
 ================================================================================
-EXECUTION
+EXECUTION ⚪
 ================================================================================
 
 📊 Total Questions: 8
@@ -585,18 +585,18 @@ Execution
 
 📝 All 8 Questions:
 
-1. How do you prioritize tasks?
-2. Tell me about a time when you had to make a decision with a lot of uncertainty.
-3. Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
-4. We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?
-5. You have three ideas for expansion but limited resources. How would you help prioritize them?
-6. Tell me about a time when your analysis influenced a business decision.
-7. Have you ever made a decision based on bad data? What did you learn?
-8. How do you ensure your data recommendations are actionable and aligned with business goals?
+1. ⚪ How do you prioritize tasks?
+2. ⚪ Tell me about a time when you had to make a decision with a lot of uncertainty.
+3. ⚪ Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
+4. ⚪ We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?
+5. ⚪ You have three ideas for expansion but limited resources. How would you help prioritize them?
+6. ⚪ Tell me about a time when your analysis influenced a business decision.
+7. ⚪ Have you ever made a decision based on bad data? What did you learn?
+8. ⚪ How do you ensure your data recommendations are actionable and aligned with business goals?
 
 
 ================================================================================
-CROSS-FUNCTIONAL
+CROSS-FUNCTIONAL ⚪
 ================================================================================
 
 📊 Total Questions: 8
@@ -637,18 +637,18 @@ Cross-Functional
 
 📝 All 8 Questions:
 
-1. How would you convey insights and the methods used to a non-technical audience?
-2. How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
-3. Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
-4. How do you approach an ambiguous request from a stakeholder?
-5. Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-6. How do you present insights to non-technical stakeholders?
-7. How would you explain a sudden drop in revenue to leadership?
-8. The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. ⚪ How would you convey insights and the methods used to a non-technical audience?
+2. ⚪ How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
+3. ⚪ Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.
+4. ⚪ How do you approach an ambiguous request from a stakeholder?
+5. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+6. ⚪ How do you present insights to non-technical stakeholders?
+7. ⚪ How would you explain a sudden drop in revenue to leadership?
+8. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 
 ================================================================================
-PROJECT MANAGEMENT
+PROJECT MANAGEMENT ⚪
 ================================================================================
 
 📊 Total Questions: 7
@@ -689,17 +689,17 @@ Project Management
 
 📝 All 7 Questions:
 
-1. Describe a data project you worked on. What were some of the challenges you faced?
-2. Tell me about a project where you had to clean and organize a large dataset.
-3. Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
-4. Walk me through your process for cleaning a messy dataset.
-5. How would you identify inefficiencies in a team’s workflow using data?
-6. The product team reports a decline in 30-day user retention. How would you approach this problem?
-7. The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. ⚪ Describe a data project you worked on. What were some of the challenges you faced?
+2. ⚪ Tell me about a project where you had to clean and organize a large dataset.
+3. ⚪ Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
+4. ⚪ Walk me through your process for cleaning a messy dataset.
+5. ⚪ How would you identify inefficiencies in a team’s workflow using data?
+6. ⚪ The product team reports a decline in 30-day user retention. How would you approach this problem?
+7. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 
 ================================================================================
-CUSTOMER INTERACTION
+CUSTOMER INTERACTION ⚪
 ================================================================================
 
 📊 Total Questions: 6
@@ -740,16 +740,16 @@ Customer Interaction
 
 📝 All 6 Questions:
 
-1. Analyze Monthly Customer Transactions
-2. How would you visualize sales and customer usage?
-3. Find Customer Lifetime Value (LTV)
-4. Revenue by Customer City
-5. You’re asked to identify high-value customers—how would you approach this using data?
-6. Tell me how you’d segment customers to support a growth initiative.
+1. ⚪ Analyze Monthly Customer Transactions
+2. ⚪ How would you visualize sales and customer usage?
+3. ⚪ Find Customer Lifetime Value (LTV)
+4. ⚪ Revenue by Customer City
+5. ⚪ You’re asked to identify high-value customers—how would you approach this using data?
+6. ⚪ Tell me how you’d segment customers to support a growth initiative.
 
 
 ================================================================================
-CONCEPT
+CONCEPT ⚪
 ================================================================================
 
 📊 Total Questions: 5
@@ -790,15 +790,15 @@ Concept
 
 📝 All 5 Questions:
 
-1. Why do you want to work at Anthropic?
-2. What is the market size for driverless cars in 2025?
-3. Why do you want to work at Atlassian?
-4. What is the difference between NoSQL and SQL?
-5. What is the best way to connect SQL databases and why?
+1. ⚪ Why do you want to work at Anthropic?
+2. ⚪ What is the market size for driverless cars in 2025?
+3. ⚪ Why do you want to work at Atlassian?
+4. ⚪ What is the difference between NoSQL and SQL?
+5. ⚪ What is the best way to connect SQL databases and why?
 
 
 ================================================================================
-TECHNICAL
+TECHNICAL ⚪
 ================================================================================
 
 📊 Total Questions: 4
@@ -839,14 +839,14 @@ Technical
 
 📝 All 4 Questions:
 
-1. How would you convey insights and the methods used to a non-technical audience?
-2. Write SQL code to publish the Fibonacci series.
-3. How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
-4. How do you present insights to non-technical stakeholders?
+1. ⚪ How would you convey insights and the methods used to a non-technical audience?
+2. ⚪ Write SQL code to publish the Fibonacci series.
+3. ⚪ How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
+4. ⚪ How do you present insights to non-technical stakeholders?
 
 
 ================================================================================
-STATISTICS & EXPERIMENTATION
+STATISTICS & EXPERIMENTATION ⚪
 ================================================================================
 
 📊 Total Questions: 4
@@ -888,14 +888,14 @@ Statistics & Experimentation
 
 📝 All 4 Questions:
 
-1. How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
-2. Walk me through how you'd assess the success of a beta launch.
-3. How would you use cohorts to identify retention issues?
-4. How would you test the impact of expanding into a new international market?
+1. ⚪ How would you test the viability of expanding Airbnb’s "Restaurant" product to a new region?
+2. ⚪ Walk me through how you'd assess the success of a beta launch.
+3. ⚪ How would you use cohorts to identify retention issues?
+4. ⚪ How would you test the impact of expanding into a new international market?
 
 
 ================================================================================
-ESTIMATION
+ESTIMATION ⚪
 ================================================================================
 
 📊 Total Questions: 4
@@ -935,14 +935,14 @@ Estimation
 
 📝 All 4 Questions:
 
-1. What is the market size for driverless cars in 2025?
-2. How would you estimate the total addressable market (TAM) for a new product?
-3. Estimate the TAM for electric scooters in San Francisco.
-4. How would you size the opportunity for launching a grocery delivery service in a new city?
+1. ⚪ What is the market size for driverless cars in 2025?
+2. ⚪ How would you estimate the total addressable market (TAM) for a new product?
+3. ⚪ Estimate the TAM for electric scooters in San Francisco.
+4. ⚪ How would you size the opportunity for launching a grocery delivery service in a new city?
 
 
 ================================================================================
-DATA STRUCTURES & ALGORITHMS
+DATA STRUCTURES & ALGORITHMS ⚠️ SKIP
 ================================================================================
 
 📊 Total Questions: 3
@@ -983,13 +983,13 @@ Data Structures & Algorithms
 
 📝 All 3 Questions:
 
-1. Merge Intervals
-2. Write SQL code to publish the Fibonacci series.
-3. Convert Biased Coin to Fair Coin
+1. ⚠️ Merge Intervals
+2. ⚠️ Write SQL code to publish the Fibonacci series.
+3. ⚠️ Convert Biased Coin to Fair Coin
 
 
 ================================================================================
-DATA MODELING
+DATA MODELING ⚪
 ================================================================================
 
 📊 Total Questions: 2
@@ -1030,12 +1030,12 @@ Data Modeling
 
 📝 All 2 Questions:
 
-1. How would you model the expected ROI of a new product launch?
-2. What is the difference between NoSQL and SQL?
+1. ⚪ How would you model the expected ROI of a new product launch?
+2. ⚪ What is the difference between NoSQL and SQL?
 
 
 ================================================================================
-SYSTEM DESIGN
+SYSTEM DESIGN ⚪
 ================================================================================
 
 📊 Total Questions: 1
@@ -1077,11 +1077,11 @@ System Design
 
 📝 All 1 Questions:
 
-1. Design an AI data product.
+1. ⚪ Design an AI data product.
 
 
 ================================================================================
-DATA PIPELINE DESIGN
+DATA PIPELINE DESIGN ⚪
 ================================================================================
 
 📊 Total Questions: 1
@@ -1122,5 +1122,5 @@ Data Pipeline Design
 
 📝 All 1 Questions:
 
-1. How do you handle joining data from different sources with inconsistent IDs?
+1. ⚪ How do you handle joining data from different sources with inconsistent IDs?
 

@@ -58,8 +58,8 @@ Behavioral (STAR Method)
 
 📝 **All 2 Questions:**
 
-1. Tell me about a time when you provided important feedback.
-2. Tell me about a time when you helped someone in need.
+1. 💗 Tell me about a time when you provided important feedback.
+2. 💗 Tell me about a time when you helped someone in need.
 
 ================================================================================
 COMMUNICATION ⚪
@@ -102,7 +102,7 @@ Communication
 
 📝 **All 1 Question:**
 
-1. Tell me about a time when you provided important feedback.
+1. ⚪ Tell me about a time when you provided important feedback.
 
 ================================================================================
 CROSS-FUNCTIONAL COLLABORATION ⚪
@@ -145,5 +145,5 @@ Cross-Functional Collaboration
 
 📝 **All 1 Question:**
 
-1. Tell me about a time when you helped someone in need.
+1. ⚪ Tell me about a time when you helped someone in need.
 

@@ -15,7 +15,7 @@ Total Questions: 180 across 20 categories
 
 
 ================================================================================
-DATA PIPELINE DESIGN
+DATA PIPELINE DESIGN 🔴
 ================================================================================
 
 📊 Total Questions: 50
@@ -74,60 +74,60 @@ Data Pipeline Design
 
 📝 All 50 Questions:
 
-1. + Share interview
-2. Share interview
-3. I was asked this
-4. Design a document processing pipeline.
-5. Reverse a linked list.
-6. Find the number of users who called three or more people in the last week.
-7. Tell me about your past projects.
-8. Find the container with the maximum volume of water.
-9. Tell me about a skill you recently learned.
-10. Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
-11. + Share interview experience
-12. SQL Stored Procedures
-13. Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-14. Find the longest substring without repeating characters.
-15. Merge Intervals
-16. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
-17. Move all zeros to the end of an array.
-18. Product of Array Except Self
-19. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-20. Write SQL code to publish the Fibonacci series.
-21. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes? (Conversion: From users browsing to placing orders.)
-22. Find the median of two sorted arrays.
-23. Find a triplet in an array with a given sum.
-24. Design an ETL Pipeline for a ML Platform for AWS
-25. Linked List Cycle
-26. Given the root of a binary tree of integers, return the maximum path sum.
-27. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
-28. Split an array into equal sum subarrays
-29. Design Netflix's Clickstream Data Pipeline
-30. Which sorting algorithms use divide and conquer?
-31. Explain the key differences between BETWEEN and HAVING clauses in SQL.
-32. Merge k sorted linked lists.
-33. Search in rotated sorted array
-34. Find the maximum subarray sum.
-35. Squares of sorted array
-36. Determine if a given binary tree is a binary search tree (BST).
-37. Design an ETL Pipeline for Slack for School
-38. Partition an array into two sub-arrays with equal sum.
-39. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
-40. Calculate the trapped rainwater between bars in a given array.
-41. Tell me about your e-commerce experience.
-42. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
-43. Find the lowest common ancestor (LCA) of two nodes in a binary tree.
-44. Find the longest palindromic subsequence using dynamic programming.
-45. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
-46. Design a data pipeline that complies with GDPR.
-47. Serialize and deserialize binary tree
-48. Calculate the height of a binary tree.
-49. Print all possible solutions to the N-Queens problem.
-50. Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
+1. 🔴 + Share interview
+2. 🔴 Share interview
+3. 🔴 I was asked this
+4. 🔴 Design a document processing pipeline.
+5. 🔴 Reverse a linked list.
+6. 🔴 Find the number of users who called three or more people in the last week.
+7. 🔴 Tell me about your past projects.
+8. 🔴 Find the container with the maximum volume of water.
+9. 🔴 Tell me about a skill you recently learned.
+10. 🔴 Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
+11. 🔴 + Share interview experience
+12. 🔴 SQL Stored Procedures
+13. 🔴 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
+14. 🔴 Find the longest substring without repeating characters.
+15. 🔴 Merge Intervals
+16. 🔴 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
+17. 🔴 Move all zeros to the end of an array.
+18. 🔴 Product of Array Except Self
+19. 🔴 On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+20. 🔴 Write SQL code to publish the Fibonacci series.
+21. 🔴 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes? (Conversion: From users browsing to placing orders.)
+22. 🔴 Find the median of two sorted arrays.
+23. 🔴 Find a triplet in an array with a given sum.
+24. 🔴 Design an ETL Pipeline for a ML Platform for AWS
+25. 🔴 Linked List Cycle
+26. 🔴 Given the root of a binary tree of integers, return the maximum path sum.
+27. 🔴 Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
+28. 🔴 Split an array into equal sum subarrays
+29. 🔴 Design Netflix's Clickstream Data Pipeline
+30. 🔴 Which sorting algorithms use divide and conquer?
+31. 🔴 Explain the key differences between BETWEEN and HAVING clauses in SQL.
+32. 🔴 Merge k sorted linked lists.
+33. 🔴 Search in rotated sorted array
+34. 🔴 Find the maximum subarray sum.
+35. 🔴 Squares of sorted array
+36. 🔴 Determine if a given binary tree is a binary search tree (BST).
+37. 🔴 Design an ETL Pipeline for Slack for School
+38. 🔴 Partition an array into two sub-arrays with equal sum.
+39. 🔴 How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
+40. 🔴 Calculate the trapped rainwater between bars in a given array.
+41. 🔴 Tell me about your e-commerce experience.
+42. 🔴 How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+43. 🔴 Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+44. 🔴 Find the longest palindromic subsequence using dynamic programming.
+45. 🔴 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+46. 🔴 Design a data pipeline that complies with GDPR.
+47. 🔴 Serialize and deserialize binary tree
+48. 🔴 Calculate the height of a binary tree.
+49. 🔴 Print all possible solutions to the N-Queens problem.
+50. 🔴 Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
 
 
 ================================================================================
-BEHAVIORAL
+BEHAVIORAL 💗
 ================================================================================
 
 📊 Total Questions: 24
@@ -164,34 +164,34 @@ Behavioral (STAR Method)
 
 📝 All 24 Questions:
 
-1. Why do you think we should not hire you?
-2. Tell me about a time you made a mistake.
-3. Tell me about a time you disagreed with someone and how you resolved it.
-4. Tell me about yourself.
-5. What is the project you are most proud of?
-6. Why do you want to work at Anthropic?
-7. What types of team members do you find difficult to work with?
-8. Can you provide an example of how you manage conflict?
-9. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
-10. Why do you want to work at OpenAI?
-11. Tell me about a mistake you made and what you learned from it.
-12. Why do you want to work at Visa?
-13. Why do you want to work at Atlassian?
-14. What parts of OpenAI's mission statement resonate with you?
-15. How do you influence without authority?
-16. How do you approach personal growth and learning?
-17. How do you encourage collaboration among cross-functional teams?
-18. What other companies are you interviewing at and why?
-19. Why do you want to work at Walmart Labs?
-20. Why did you become an engineer?
-21. Why do you want to work at Salesforce?
-22. Why do you want to work at Discord?
-23. How will you develop yourself professionally as a data engineer?
-24. What data tools have you worked with, and what specific projects did you use those tools for?
+1. 💗 Why do you think we should not hire you?
+2. 💗 Tell me about a time you made a mistake.
+3. 💗 Tell me about a time you disagreed with someone and how you resolved it.
+4. 💗 Tell me about yourself.
+5. 💗 What is the project you are most proud of?
+6. 💗 Why do you want to work at Anthropic?
+7. 💗 What types of team members do you find difficult to work with?
+8. 💗 Can you provide an example of how you manage conflict?
+9. 💗 Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
+10. 💗 Why do you want to work at OpenAI?
+11. 💗 Tell me about a mistake you made and what you learned from it.
+12. 💗 Why do you want to work at Visa?
+13. 💗 Why do you want to work at Atlassian?
+14. 💗 What parts of OpenAI's mission statement resonate with you?
+15. 💗 How do you influence without authority?
+16. 💗 How do you approach personal growth and learning?
+17. 💗 How do you encourage collaboration among cross-functional teams?
+18. 💗 What other companies are you interviewing at and why?
+19. 💗 Why do you want to work at Walmart Labs?
+20. 💗 Why did you become an engineer?
+21. 💗 Why do you want to work at Salesforce?
+22. 💗 Why do you want to work at Discord?
+23. 💗 How will you develop yourself professionally as a data engineer?
+24. 💗 What data tools have you worked with, and what specific projects did you use those tools for?
 
 
 ================================================================================
-DATA STRUCTURES & ALGORITHMS
+DATA STRUCTURES & ALGORITHMS ⚠️ SKIP
 ================================================================================
 
 📊 Total Questions: 20
@@ -240,30 +240,30 @@ Data Structures & Algorithms
 
 📝 All 20 Questions:
 
-1. Is this a valid palindrome?
-2. Reverse a Sentence
-3. Valid Parentheses
-4. Course Schedule
-5. Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
-6. Climbing Stairs
-7. Given an nxn grid of 1s and 0s, return the number of islands in the input.
-8. Given an array, find the two sum.
-9. Rotating the Box
-10. Generate Parentheses
-11. Build a Calculator
-12. Roman to Integer
-13. Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
-14. Merge two sorted lists
-15. Set Matrix Zeroes
-16. Solve John Conway's "Game of Life".
-17. Build a Basic Regex Parser
-18. Top k frequent elements
-19. Sliding Window Maximum
-20. Print all combinations of numbers from 1 to n that sum to n.
+1. ⚠️ Is this a valid palindrome?
+2. ⚠️ Reverse a Sentence
+3. ⚠️ Valid Parentheses
+4. ⚠️ Course Schedule
+5. ⚠️ Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
+6. ⚠️ Climbing Stairs
+7. ⚠️ Given an nxn grid of 1s and 0s, return the number of islands in the input.
+8. ⚠️ Given an array, find the two sum.
+9. ⚠️ Rotating the Box
+10. ⚠️ Generate Parentheses
+11. ⚠️ Build a Calculator
+12. ⚠️ Roman to Integer
+13. ⚠️ Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
+14. ⚠️ Merge two sorted lists
+15. ⚠️ Set Matrix Zeroes
+16. ⚠️ Solve John Conway's "Game of Life".
+17. ⚠️ Build a Basic Regex Parser
+18. ⚠️ Top k frequent elements
+19. ⚠️ Sliding Window Maximum
+20. ⚠️ Print all combinations of numbers from 1 to n that sum to n.
 
 
 ================================================================================
-SYSTEM DESIGN
+SYSTEM DESIGN 🟠
 ================================================================================
 
 📊 Total Questions: 20
@@ -332,30 +332,30 @@ System Design
 
 📝 All 20 Questions:
 
-1. Design a document processing pipeline.
-2. Design a database schema for a fitness app.
-3. Design a data warehouse schema for Instagram.
-4. Design a high-tech gym.
-5. Design a Data Warehouse Schema for a Ride-Sharing Service
-6. Design an ETL Pipeline for a ML Platform for AWS
-7. Design a Data Warehouse Schema for Stripe
-8. Design a data warehouse schema for Spotify.
-9. Design a data warehouse schema for Amazon.
-10. Design Netflix's Clickstream Data Pipeline
-11. Design a Data Warehouse Schema for Customer Support
-12. Design a Data Warehouse Schema for Airbnb
-13. Design an ETL Pipeline for Slack for School
-14. Design a rewarding system.
-15. What is a Medallion Architecture?
-16. Design a database schema for a ride sharing app.
-17. Design a data warehouse schema for LinkedIn.
-18. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
-19. Design a data pipeline that complies with GDPR.
-20. Design a system to ingest large amounts of JSON data from multiple S3 buckets
+1. 🟠 Design a document processing pipeline.
+2. 🟠 Design a database schema for a fitness app.
+3. 🟠 Design a data warehouse schema for Instagram.
+4. 🟠 Design a high-tech gym.
+5. 🟠 Design a Data Warehouse Schema for a Ride-Sharing Service
+6. 🟠 Design an ETL Pipeline for a ML Platform for AWS
+7. 🟠 Design a Data Warehouse Schema for Stripe
+8. 🟠 Design a data warehouse schema for Spotify.
+9. 🟠 Design a data warehouse schema for Amazon.
+10. 🟠 Design Netflix's Clickstream Data Pipeline
+11. 🟠 Design a Data Warehouse Schema for Customer Support
+12. 🟠 Design a Data Warehouse Schema for Airbnb
+13. 🟠 Design an ETL Pipeline for Slack for School
+14. 🟠 Design a rewarding system.
+15. 🟠 What is a Medallion Architecture?
+16. 🟠 Design a database schema for a ride sharing app.
+17. 🟠 Design a data warehouse schema for LinkedIn.
+18. 🟠 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+19. 🟠 Design a data pipeline that complies with GDPR.
+20. 🟠 Design a system to ingest large amounts of JSON data from multiple S3 buckets
 
 
 ================================================================================
-SQL
+SQL 💗
 ================================================================================
 
 📊 Total Questions: 19
@@ -405,29 +405,29 @@ SQL
 
 📝 All 19 Questions:
 
-1. Employee Earnings.
-2. Monthly Post Success Analysis.
-3. Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
-4. Instagram Likes
-5. Top Earning Employees
-6. Top Salaries by Department
-7. Lyft Ride Requests
-8. Employee Hierarchy
-9. Most Recent Transaction
-10. Duolingo Leaderboards
-11. High Volume Low Success.
-12. Calculate Test Scores
-13. Session Data Analysis.
-14. Marketing Channel Attribution
-15. Post Success By Age Group.
-16. Analyze Monthly Customer Transactions
-17. Find Customer Lifetime Value (LTV)
-18. Find Campaign Purchases
-19. Fraudulent Transactions
+1. 💗 Employee Earnings.
+2. 💗 Monthly Post Success Analysis.
+3. 💗 Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
+4. 💗 Instagram Likes
+5. 💗 Top Earning Employees
+6. 💗 Top Salaries by Department
+7. 💗 Lyft Ride Requests
+8. 💗 Employee Hierarchy
+9. 💗 Most Recent Transaction
+10. 💗 Duolingo Leaderboards
+11. 💗 High Volume Low Success.
+12. 💗 Calculate Test Scores
+13. 💗 Session Data Analysis.
+14. 💗 Marketing Channel Attribution
+15. 💗 Post Success By Age Group.
+16. 💗 Analyze Monthly Customer Transactions
+17. 💗 Find Customer Lifetime Value (LTV)
+18. 💗 Find Campaign Purchases
+19. 💗 Fraudulent Transactions
 
 
 ================================================================================
-DATA MODELING
+DATA MODELING 🟡
 ================================================================================
 
 📊 Total Questions: 11
@@ -476,21 +476,21 @@ Data Modeling
 
 📝 All 11 Questions:
 
-1. Design a database schema for a fitness app.
-2. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
-3. Design a data warehouse schema for Instagram.
-4. Design a Data Warehouse Schema for a Ride-Sharing Service
-5. Design a Data Warehouse Schema for Stripe
-6. Design a data warehouse schema for Spotify.
-7. Design a data warehouse schema for Amazon.
-8. Design a Data Warehouse Schema for Customer Support
-9. Design a Data Warehouse Schema for Airbnb
-10. Design a database schema for a ride sharing app.
-11. Design a data warehouse schema for LinkedIn.
+1. 🟡 Design a database schema for a fitness app.
+2. 🟡 Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
+3. 🟡 Design a data warehouse schema for Instagram.
+4. 🟡 Design a Data Warehouse Schema for a Ride-Sharing Service
+5. 🟡 Design a Data Warehouse Schema for Stripe
+6. 🟡 Design a data warehouse schema for Spotify.
+7. 🟡 Design a data warehouse schema for Amazon.
+8. 🟡 Design a Data Warehouse Schema for Customer Support
+9. 🟡 Design a Data Warehouse Schema for Airbnb
+10. 🟡 Design a database schema for a ride sharing app.
+11. 🟡 Design a data warehouse schema for LinkedIn.
 
 
 ================================================================================
-DATA WAREHOUSING
+DATA WAREHOUSING 🟡
 ================================================================================
 
 📊 Total Questions: 10
@@ -537,20 +537,20 @@ Data Warehousing
 
 📝 All 10 Questions:
 
-1. What's the difference between a data lakehouse and a data warehouse?
-2. Design a data warehouse schema for Instagram.
-3. Design a Data Warehouse Schema for a Ride-Sharing Service
-4. Design a Data Warehouse Schema for Stripe
-5. Design a data warehouse schema for Spotify.
-6. Design a data warehouse schema for Amazon.
-7. Design a Data Warehouse Schema for Customer Support
-8. Design a Data Warehouse Schema for Airbnb
-9. Design a data warehouse schema for LinkedIn.
-10. What is the difference between OLTP and OLAP?
+1. 🟡 What's the difference between a data lakehouse and a data warehouse?
+2. 🟡 Design a data warehouse schema for Instagram.
+3. 🟡 Design a Data Warehouse Schema for a Ride-Sharing Service
+4. 🟡 Design a Data Warehouse Schema for Stripe
+5. 🟡 Design a data warehouse schema for Spotify.
+6. 🟡 Design a data warehouse schema for Amazon.
+7. 🟡 Design a Data Warehouse Schema for Customer Support
+8. 🟡 Design a Data Warehouse Schema for Airbnb
+9. 🟡 Design a data warehouse schema for LinkedIn.
+10. 🟡 What is the difference between OLTP and OLAP?
 
 
 ================================================================================
-SPARK/BIG DATA
+SPARK/BIG DATA ⚪
 ================================================================================
 
 📊 Total Questions: 7
@@ -597,17 +597,17 @@ Spark & Big Data
 
 📝 All 7 Questions:
 
-1. When is Hadoop better than PySpark?
-2. What is Pyspark?
-3. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
-4. Explain the differences between Parquet and Avro.
-5. What is delta lake?
-6. Explain the differences between wide and narrow dependencies in Apache Spark.
-7. When should you use a job cluster instead of an all-purpose cluster?
+1. ⚪ When is Hadoop better than PySpark?
+2. ⚪ What is Pyspark?
+3. ⚪ When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
+4. ⚪ Explain the differences between Parquet and Avro.
+5. ⚪ What is delta lake?
+6. ⚪ Explain the differences between wide and narrow dependencies in Apache Spark.
+7. ⚪ When should you use a job cluster instead of an all-purpose cluster?
 
 
 ================================================================================
-DATA QUALITY
+DATA QUALITY ⚪
 ================================================================================
 
 📊 Total Questions: 5
@@ -656,15 +656,15 @@ Data Quality
 
 📝 All 5 Questions:
 
-1. Remove Duplicate Emails
-2. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-3. Find the Duplicates
-4. Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
-5. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
+1. ⚪ Remove Duplicate Emails
+2. ⚪ On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+3. ⚪ Find the Duplicates
+4. ⚪ Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
+5. ⚪ Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
 
 
 ================================================================================
-CODING
+CODING ⚠️ SKIP
 ================================================================================
 
 📊 Total Questions: 4
@@ -704,14 +704,14 @@ Coding
 
 📝 All 4 Questions:
 
-1. Implement LRU Cache.
-2. Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-3. Write a function to return all prime numbers up to a given number n.
-4. Implement a hashmap without using any libraries.
+1. ⚠️ Implement LRU Cache.
+2. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
+3. ⚠️ Write a function to return all prime numbers up to a given number n.
+4. ⚠️ Implement a hashmap without using any libraries.
 
 
 ================================================================================
-DATABASE DESIGN
+DATABASE DESIGN 🟡
 ================================================================================
 
 📊 Total Questions: 3
@@ -758,13 +758,13 @@ Database Design
 
 📝 All 3 Questions:
 
-1. What is the difference between NoSQL and SQL?
-2. What is the best way to connect SQL databases and why?
-3. What types of indexes are in a relational database?
+1. 🟡 What is the difference between NoSQL and SQL?
+2. 🟡 What is the best way to connect SQL databases and why?
+3. 🟡 What types of indexes are in a relational database?
 
 
 ================================================================================
-ETL/ELT
+ETL/ELT 🟡
 ================================================================================
 
 📊 Total Questions: 2
@@ -806,12 +806,12 @@ ETL/ELT
 
 📝 All 2 Questions:
 
-1. Design an ETL Pipeline for a ML Platform for AWS
-2. Design an ETL Pipeline for Slack for School
+1. 🟡 Design an ETL Pipeline for a ML Platform for AWS
+2. 🟡 Design an ETL Pipeline for Slack for School
 
 
 ================================================================================
-CLOUD PLATFORMS
+CLOUD PLATFORMS ⚪
 ================================================================================
 
 📊 Total Questions: 2
@@ -852,12 +852,12 @@ Cloud Platforms
 
 📝 All 2 Questions:
 
-1. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
-2. Design a system to ingest large amounts of JSON data from multiple S3 buckets
+1. ⚪ How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+2. ⚪ Design a system to ingest large amounts of JSON data from multiple S3 buckets
 
 
 ================================================================================
-PERFORMANCE OPTIMIZATION
+PERFORMANCE OPTIMIZATION ⚪
 ================================================================================
 
 📊 Total Questions: 2
@@ -904,12 +904,12 @@ Performance Optimization
 
 📝 All 2 Questions:
 
-1. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
-2. Explain the differences between multithreading and multiprocessing.
+1. ⚪ How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+2. ⚪ Explain the differences between multithreading and multiprocessing.
 
 
 ================================================================================
-MONITORING & OBSERVABILITY
+MONITORING & OBSERVABILITY ⚪
 ================================================================================
 
 📊 Total Questions: 1
@@ -954,11 +954,11 @@ Monitoring & Observability
 
 📝 All 1 Questions:
 
-1. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
+1. ⚪ Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
 
 
 ================================================================================
-DISTRIBUTED SYSTEMS
+DISTRIBUTED SYSTEMS ⚪
 ================================================================================
 
 📊 Total Questions: 0
@@ -1002,7 +1002,7 @@ Distributed Systems
 
 
 ================================================================================
-STREAMING DATA
+STREAMING DATA ⚪
 ================================================================================
 
 📊 Total Questions: 0
@@ -1050,7 +1050,7 @@ Streaming Data
 
 
 ================================================================================
-BATCH PROCESSING
+BATCH PROCESSING ⚪
 ================================================================================
 
 📊 Total Questions: 0
@@ -1068,7 +1068,7 @@ Framework coming soon...
 
 
 ================================================================================
-SCHEMA DESIGN
+SCHEMA DESIGN ⚪
 ================================================================================
 
 📊 Total Questions: 0
@@ -1113,7 +1113,7 @@ Schema Design
 
 
 ================================================================================
-DATA GOVERNANCE
+DATA GOVERNANCE ⚪
 ================================================================================
 
 📊 Total Questions: 0

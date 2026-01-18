@@ -64,24 +64,24 @@ Behavioral (STAR Method)
 
 📝 **All 18 Questions:**
 
-1. Tell me how you brought a product to market.
-2. How do you handle misalignment between team goals and company goals?
-3. What are the strengths and challenges of Google Play?
-4. Can you provide details on your strategies or methods for understanding customers or core audiences?
-5. Tell me about a product or feature you shipped.
-6. Tell me about a time you had to influence stakeholders without authority.
-7. How do you measure the success of a product marketing campaign?
-8. Tell me about a time you disagreed with a product decision.
-9. How would you approach pricing for a new product?
-10. How do you balance short-term wins with long-term strategy?
-11. How do you create buyer personas?
-12. Tell me about a time you used data to inform a marketing decision.
-13. What is your experience with analyst relations?
-14. How do you measure product-market fit?
-15. Tell me about your experience with customer advisory boards.
-16. How would you approach a rebrand for an established product?
-17. What is your process for creating sales collateral?
-18. Tell me about a time you had to pivot your marketing strategy mid-launch.
+1. 💗 Tell me how you brought a product to market.
+2. 💗 How do you handle misalignment between team goals and company goals?
+3. 💗 What are the strengths and challenges of Google Play?
+4. 💗 Can you provide details on your strategies or methods for understanding customers or core audiences?
+5. 💗 Tell me about a product or feature you shipped.
+6. 💗 Tell me about a time you had to influence stakeholders without authority.
+7. 💗 How do you measure the success of a product marketing campaign?
+8. 💗 Tell me about a time you disagreed with a product decision.
+9. 💗 How would you approach pricing for a new product?
+10. 💗 How do you balance short-term wins with long-term strategy?
+11. 💗 How do you create buyer personas?
+12. 💗 Tell me about a time you used data to inform a marketing decision.
+13. 💗 What is your experience with analyst relations?
+14. 💗 How do you measure product-market fit?
+15. 💗 Tell me about your experience with customer advisory boards.
+16. 💗 How would you approach a rebrand for an established product?
+17. 💗 What is your process for creating sales collateral?
+18. 💗 Tell me about a time you had to pivot your marketing strategy mid-launch.
 
 ================================================================================
 PRODUCT LAUNCH ⚪
@@ -134,17 +134,17 @@ Product Launch
 
 📝 **All 11 Questions:**
 
-1. Tell me how you brought a product to market.
-2. As a product marketing manager, how would you launch the new waitlist appointment feature for a salon? What process would you follow?
-3. Facing a new feature launch, the team is not motivated to collaborate. What would you do?
-4. How would you launch Instagram Reels?
-5. What metrics would you track for a new product launch?
-6. How do you prioritize features for a product launch?
-7. Tell me about a failed product launch and what you learned.
-8. Tell me about your experience with product launches in international markets.
-9. What is your approach to content marketing for product launches?
-10. How would you handle a situation where engineering delays a product launch?
-11. Tell me about a time you had to pivot your marketing strategy mid-launch.
+1. ⚪ Tell me how you brought a product to market.
+2. ⚪ As a product marketing manager, how would you launch the new waitlist appointment feature for a salon? What process would you follow?
+3. ⚪ Facing a new feature launch, the team is not motivated to collaborate. What would you do?
+4. ⚪ How would you launch Instagram Reels?
+5. ⚪ What metrics would you track for a new product launch?
+6. ⚪ How do you prioritize features for a product launch?
+7. ⚪ Tell me about a failed product launch and what you learned.
+8. ⚪ Tell me about your experience with product launches in international markets.
+9. ⚪ What is your approach to content marketing for product launches?
+10. ⚪ How would you handle a situation where engineering delays a product launch?
+11. ⚪ Tell me about a time you had to pivot your marketing strategy mid-launch.
 
 ================================================================================
 PRODUCT POSITIONING ⚪
@@ -192,10 +192,10 @@ Product Positioning
 
 📝 **All 4 Questions:**
 
-1. How did you determine your positioning was effective?
-2. How would you position a new B2B SaaS product?
-3. What frameworks do you use for product positioning?
-4. How do you differentiate your product in a crowded market?
+1. ⚪ How did you determine your positioning was effective?
+2. ⚪ How would you position a new B2B SaaS product?
+3. ⚪ What frameworks do you use for product positioning?
+4. ⚪ How do you differentiate your product in a crowded market?
 
 ================================================================================
 CROSS-FUNCTIONAL COLLABORATION ⚪
@@ -243,9 +243,9 @@ Cross-Functional Collaboration
 
 📝 **All 3 Questions:**
 
-1. Facing a new feature launch, the team is not motivated to collaborate. What would you do?
-2. Tell me about a time you had to influence stakeholders without authority.
-3. How do you work with sales teams to enable them for a new product?
+1. ⚪ Facing a new feature launch, the team is not motivated to collaborate. What would you do?
+2. ⚪ Tell me about a time you had to influence stakeholders without authority.
+3. ⚪ How do you work with sales teams to enable them for a new product?
 
 ================================================================================
 COMPETITIVE ANALYSIS ⚪
@@ -294,8 +294,8 @@ Competitive Analysis
 
 📝 **All 2 Questions:**
 
-1. What is your approach to competitive analysis?
-2. How do you stay current with market trends and competitor activities?
+1. ⚪ What is your approach to competitive analysis?
+2. ⚪ How do you stay current with market trends and competitor activities?
 
 ================================================================================
 GO-TO-MARKET STRATEGY ⚪
@@ -343,7 +343,7 @@ Go-To-Market Strategy
 
 📝 **All 1 Question:**
 
-1. Design a GTM strategy for taking a brick-and-mortar rug store online.
+1. ⚪ Design a GTM strategy for taking a brick-and-mortar rug store online.
 
 ================================================================================
 MESSAGING & COMMUNICATION ⚪
@@ -392,7 +392,7 @@ Messaging & Communication
 
 📝 **All 1 Question:**
 
-1. How would you create a messaging framework for a new product?
+1. ⚪ How would you create a messaging framework for a new product?
 
 ================================================================================
 MARKET RESEARCH ⚪
@@ -439,7 +439,7 @@ Market Research
 
 📝 **All 1 Question:**
 
-1. What is your process for conducting customer research?
+1. ⚪ What is your process for conducting customer research?
 
 ================================================================================
 SALES ENABLEMENT ⚪
@@ -490,5 +490,5 @@ Sales Enablement
 
 📝 **All 1 Question:**
 
-1. How do you work with sales teams to enable them for a new product?
+1. ⚪ How do you work with sales teams to enable them for a new product?
 

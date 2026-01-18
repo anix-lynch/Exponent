@@ -56,6 +56,6 @@ Behavioral (STAR Method)
 
 📝 **All 2 Questions:**
 
-1. Tell me about a time when you used customer feedback to drive innovation.
-2. Tell me about a time when you encountered obstacles in your plan. How did you address them?
+1. 💗 Tell me about a time when you used customer feedback to drive innovation.
+2. 💗 Tell me about a time when you encountered obstacles in your plan. How did you address them?
 

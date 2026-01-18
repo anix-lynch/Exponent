@@ -57,9 +57,9 @@ Behavioral (STAR Method)
 
 📝 **All 3 Questions:**
 
-1. Tell me about a time when you had to present financial results to non-financial stakeholders.
-2. Describe a time when you identified a cost-saving opportunity.
-3. Tell me about a time when your financial analysis changed a business decision.
+1. 💗 Tell me about a time when you had to present financial results to non-financial stakeholders.
+2. 💗 Describe a time when you identified a cost-saving opportunity.
+3. 💗 Tell me about a time when your financial analysis changed a business decision.
 
 ================================================================================
 FINANCIAL ANALYSIS 🟢
@@ -99,9 +99,9 @@ Financial Analysis
 
 📝 **All 3 Questions:**
 
-1. Tell me about a time when you had to present financial results to non-financial stakeholders.
-2. How would you evaluate whether a new product launch was financially successful?
-3. Tell me about a time when your financial analysis changed a business decision.
+1. 🟢 Tell me about a time when you had to present financial results to non-financial stakeholders.
+2. 🟢 How would you evaluate whether a new product launch was financially successful?
+3. 🟢 Tell me about a time when your financial analysis changed a business decision.
 
 ================================================================================
 STRATEGIC PLANNING ⚪
@@ -147,8 +147,8 @@ Strategic Planning
 
 📝 **All 2 Questions:**
 
-1. How do you prioritize strategic initiatives when resources are limited?
-2. How would you approach building a 3-year strategic plan for a new business unit?
+1. ⚪ How do you prioritize strategic initiatives when resources are limited?
+2. ⚪ How would you approach building a 3-year strategic plan for a new business unit?
 
 ================================================================================
 FINANCIAL MODELING ⚪
@@ -190,7 +190,7 @@ Financial Modeling
 
 📝 **All 1 Question:**
 
-1. Walk me through how you would build a financial model for a subscription business.
+1. ⚪ Walk me through how you would build a financial model for a subscription business.
 
 ================================================================================
 PRODUCT STRATEGY ⚪
@@ -231,7 +231,7 @@ Product Strategy
 
 📝 **All 1 Question:**
 
-1. How would you evaluate whether a new product launch was financially successful?
+1. ⚪ How would you evaluate whether a new product launch was financially successful?
 
 ================================================================================
 COST MANAGEMENT ⚪
@@ -273,5 +273,5 @@ Cost Management
 
 📝 **All 1 Question:**
 
-1. Describe a time when you identified a cost-saving opportunity.
+1. ⚪ Describe a time when you identified a cost-saving opportunity.
 
