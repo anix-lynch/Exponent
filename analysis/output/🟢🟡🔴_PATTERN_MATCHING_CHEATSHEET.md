@@ -14,6 +14,67 @@
 
 ---
 
+## 🔴 EMOTIONAL TAX FILTER (Read This First)
+
+**This comes before everything else. This is your protection.**
+
+### Makes You Feel:
+
+- **Stuck**
+- **Stupid**
+- **Frozen**
+- **Behind**
+- **"I should know this already"**
+
+### Requires:
+
+- Remembering trivia
+- Recalling formulas
+- Exact syntax
+- Academic precision
+
+### Causes:
+
+- Self-doubt
+- Comparison
+- Rumination
+
+### **The Rule:**
+
+```
+If it hurts and does not compound → 🔴
+```
+
+**This is not weakness.**  
+**This is stoic filtering.**
+
+---
+
+## ⚠️ Redefine IGNORE (This Is Crucial)
+
+```
+IGNORE ≠ useless
+IGNORE = not worth mental pain
+```
+
+**🔴 IGNORE questions are not "bad".**  
+**They are non-compounding under stress.**
+
+### If it:
+
+- ❌ Can't be reused
+- ❌ Can't be templated
+- ❌ Can't be recalled calmly
+
+### → It dies here.
+
+**You are not avoiding hard things.**  
+**You are choosing compounding returns over emotional tax.**
+
+**Protect your confidence. Filter ruthlessly.**
+
+---
+
 ## 🟢 NORTHSTAR PATTERNS (12)
 
 **Master these → answer 80% of all interviews**
