@@ -2,7 +2,28 @@
 
 **Purpose:** Deterministic classification of 2,893 questions into 🟢🟡🔴
 
-**Usage:** Feed this file + ALL_QUESTIONS_RAW.md → Get bucketed output
+**Usage:** Feed this file + ALL_QUESTIONS_NORMALIZED.md → Get bucketed output
+
+**Approach:** Intent-based (not just keyword matching)
+
+---
+
+## 🧠 INTENT-BASED CLASSIFICATION (NOT FINE-TUNING)
+
+**What this means:**
+- Classify the question's **PRIMARY INTENT**, not just surface keywords
+- "Squares of a sorted array" → Intent: ALGORITHM_PUZZLE → 🔴
+- "How would you compute top salaries?" → Intent: REASONING → 🟡
+- "Write a query for top salaries" → Intent: SYNTAX_RECALL → 🔴
+
+**How it works:**
+1. **Layer 1:** Fast keyword triggers (explicit)
+2. **Layer 2:** Intent detection via semantic patterns (deterministic scoring)
+3. **Boundary rules:** Handle edge cases (SQL syntax vs reasoning, etc.)
+
+**Still deterministic. Still auditable. No model training required.**
+
+---
 
 **No creativity. No interpretation. Follow the tree.**
 
@@ -11,14 +32,19 @@
 ## ⚡ 5-SECOND DECISION GUIDE (CHECK THIS FIRST)
 
 ```
-If "implement" OR "write code" OR "write query" → 🔴
+INTENT CHECK (not just keywords):
 
-Else if metric change OR define success OR funnel OR churn OR segment OR prioritize OR experiment OR exec OR influence OR ops → 🟢
+If asking to PRODUCE artifact (code/query/algorithm/proof) → 🔴
+If LeetCode-style shape (given array, return X, constraints) → 🔴
 
-Else if trust data OR scale OR ROI OR constraints OR observability OR risk OR conceptual system → 🟡
+Else if REASONING about metric/success/funnel/churn/segment/prioritize/experiment/exec/influence/ops → 🟢
+
+Else if REASONING about trust/scale/ROI/constraints/observability/risk/conceptual system → 🟡
 
 Else → 🔴
 ```
+
+**Key distinction: "Write a query" vs "How would you compute" = different intents**
 
 **Use this for 90% of questions. Only use full decision tree for edge cases.**
 
@@ -72,77 +98,250 @@ START: Read question
 
 ---
 
-## STEP 1: IMMEDIATE REJECT TRIGGERS (🔴)
+## STEP 1: IMMEDIATE REJECT (🔴) — INTENT-BASED
 
-**Check these FIRST. If ANY match → 🔴 IGNORE immediately.**
+**Reject if the PRIMARY INTENT is to produce an artifact or test implementation skill.**
 
-### Trigger Set A: Code/Implementation Required
+**Two-layer detection: Fast path (keywords) + Intent path (semantic patterns)**
+
+---
+
+### LAYER 1: EXPLICIT TRIGGERS (Fast Path)
+
+**If ANY of these keywords/phrases → 🔴 immediately**
 
 ```python
-REJECT_IF_CONTAINS = [
-    # Explicit code requests
-    "write a function",
-    "implement",
-    "write code",
-    "code this",
-    "write a program",
-    "algorithm to",
-    "pseudocode",
-    
-    # SQL syntax (not conceptual)
-    "write a query",
-    "write sql",
-    "sql query to",
-    "select * from",
-    
-    # Data structures
-    "linked list",
-    "binary tree",
-    "hash table",
-    "array manipulation",
-    "reverse a",
-    "merge k",
-    "valid parentheses",
-    
-    # Algorithms
-    "leetcode",
-    "two sum",
-    "dynamic programming",
-    "sliding window",
-    "backtracking",
+# A) Code Production Verbs
+EXPLICIT_CODE_VERBS = [
+    "write a function", "implement", "write code", "code this",
+    "write a program", "build a", "create a function",
+    "develop an algorithm", "pseudocode"
+]
+
+# B) SQL Syntax Requests
+EXPLICIT_SQL = [
+    "write a query", "write sql", "sql query to",
+    "select * from", "select from", "create table"
+]
+
+# C) Known LeetCode Problems
+LEETCODE_PROBLEMS = [
+    "two sum", "valid parentheses", "reverse a linked list",
+    "merge k sorted", "longest substring", "climbing stairs",
+    "coin change", "word break", "house robber"
+]
+
+# D) Math/Theory Production
+MATH_PRODUCTION = [
+    "derive the", "prove that", "proof of",
+    "calculate by hand", "show the math",
+    "gradient descent", "backpropagation"
+]
+
+# E) Brain Teasers
+BRAIN_TEASERS = [
+    "how many golf balls", "how many piano tuners",
+    "estimate the weight", "riddle"
 ]
 ```
 
-### Trigger Set B: Math/Theory Depth
+---
 
-```python
-REJECT_IF_CONTAINS = [
-    "derive the",
-    "prove that",
-    "proof of",
-    "calculate by hand",
-    "show the math",
-    "loss function",
-    "gradient descent",
-    "backpropagation",
-    "probability distribution",
-    "bayesian",
-]
+### LAYER 2: INTENT DETECTION (Semantic Patterns)
+
+**Even if no explicit keywords, reject if it matches these INTENT patterns:**
+
+#### 🔴 **INTENT A: IMPLEMENTATION_REQUIRED**
+
+**Pattern:** Question asks to PRODUCE executable logic (not discuss it)
+
+**Signals (if 2+ match → 🔴):**
+```
+✓ Contains verb+noun pair:
+  - Verbs: [implement, build, create, develop, optimize, debug, refactor]
+  - Nouns: [function, class, method, program, script, algorithm, data structure, parser, cache, rate limiter]
+  
+✓ Has input/output specification:
+  - "given an array/string/tree/graph"
+  - "return the"
+  - "output should be"
+  
+✓ Mentions constraints:
+  - "O(n)", "O(log n)", "time complexity"
+  - "in-place", "without extra space"
+  - "constraints:", "1 ≤ n ≤ 10^5"
+  
+✓ Problem shape (transformation):
+  - "given X, find Y"
+  - "determine if you can"
+  - "maximize/minimize subject to"
 ```
 
-### Trigger Set C: Niche/One-Off
+**Examples caught by intent:**
+- "Build a regex parser" → build + parser → 🔴
+- "Create a rate limiter" → create + rate limiter → 🔴
+- "Given an array, find the longest increasing subsequence" → given array + return → 🔴
+- "Squares of a sorted array" → transformation problem shape → 🔴
 
-```python
-REJECT_IF_CONTAINS = [
-    "brain teaser",
-    "how many golf balls",
-    "how many piano tuners",
-    "estimate the weight",
-    "riddle",
-]
+---
+
+#### 🔴 **INTENT B: ALGORITHM_PUZZLE**
+
+**Pattern:** Classic CS puzzle with single correct answer
+
+**Signals (if 2+ match → 🔴):**
+```
+✓ Data structure manipulation:
+  - "array", "string", "tree", "graph", "linked list", "heap"
+  - Combined with action: "reverse", "rotate", "merge", "sort"
+  
+✓ Algorithmic patterns:
+  - "dynamic programming", "sliding window", "two pointers"
+  - "backtracking", "greedy", "divide and conquer"
+  
+✓ Optimization problem:
+  - "minimum/maximum number of"
+  - "shortest/longest path"
+  - "most/least efficient"
+  
+✓ Correctness focus (not judgment):
+  - Single testable answer
+  - No business context
+  - No tradeoffs or stakeholder considerations
 ```
 
-**If ANY trigger matches → 🔴 IGNORE (do not proceed to Step 2)**
+**Examples caught by intent:**
+- "Knapsack problem" → optimization + no business context → 🔴
+- "Find element at position in sorted array" → data structure + single answer → 🔴
+- "Abbreviate an array of strings" → transformation + no judgment → 🔴
+
+---
+
+#### 🔴 **INTENT C: SYNTAX_RECALL**
+
+**Pattern:** Testing exact syntax or API knowledge
+
+**Signals (if ANY match → 🔴):**
+```
+✓ SQL syntax:
+  - Contains "SELECT", "JOIN", "GROUP BY", "WHERE" as code
+  - "Write a query to..."
+  
+✓ Framework/library specific:
+  - "using NumPy", "in Pandas", "with React"
+  - "API endpoint for", "REST API that"
+  
+✓ Low-level implementation:
+  - "implement in Python/Java/C++"
+  - "using only built-in functions"
+```
+
+---
+
+#### 🔴 **INTENT D: MATHEMATICAL_PROOF**
+
+**Pattern:** Requires deriving formulas or proving theorems
+
+**Signals (if ANY match → 🔴):**
+```
+✓ Proof language:
+  - "prove", "derive", "show that", "demonstrate"
+  
+✓ Theory depth:
+  - "loss function", "gradient", "bayesian inference"
+  - "probability distribution", "hypothesis testing" (when asking for math)
+  - "p-value calculation", "confidence interval derivation"
+```
+
+---
+
+### INTENT DETECTION LOGIC
+
+```python
+def check_reject_intent(question):
+    """
+    Returns (should_reject: bool, reason: str)
+    """
+    q = question.lower()
+    
+    # LAYER 1: Explicit triggers (fast path)
+    for trigger_list in [EXPLICIT_CODE_VERBS, EXPLICIT_SQL, LEETCODE_PROBLEMS, 
+                          MATH_PRODUCTION, BRAIN_TEASERS]:
+        for trigger in trigger_list:
+            if trigger in q:
+                return (True, f"Explicit trigger: {trigger}")
+    
+    # LAYER 2: Intent detection
+    intent_scores = {
+        'IMPLEMENTATION': 0,
+        'ALGORITHM_PUZZLE': 0,
+        'SYNTAX_RECALL': 0,
+        'MATH_PROOF': 0
+    }
+    
+    # Score IMPLEMENTATION intent
+    impl_verbs = ['implement', 'build', 'create', 'develop', 'optimize', 'debug']
+    impl_nouns = ['function', 'class', 'method', 'program', 'algorithm', 'parser', 'cache']
+    if any(v in q for v in impl_verbs) and any(n in q for n in impl_nouns):
+        intent_scores['IMPLEMENTATION'] += 2
+    
+    if 'given an' in q or 'given a' in q:
+        intent_scores['IMPLEMENTATION'] += 1
+        intent_scores['ALGORITHM_PUZZLE'] += 1
+    
+    if 'return' in q or 'output' in q:
+        intent_scores['IMPLEMENTATION'] += 1
+    
+    if any(x in q for x in ['o(n)', 'o(log', 'time complexity', 'in-place', 'constraints:']):
+        intent_scores['IMPLEMENTATION'] += 2
+        intent_scores['ALGORITHM_PUZZLE'] += 2
+    
+    # Score ALGORITHM_PUZZLE intent
+    ds_words = ['array', 'string', 'tree', 'graph', 'linked list', 'heap']
+    if any(ds in q for ds in ds_words):
+        intent_scores['ALGORITHM_PUZZLE'] += 1
+    
+    if any(x in q for x in ['dynamic programming', 'sliding window', 'backtracking', 'greedy']):
+        intent_scores['ALGORITHM_PUZZLE'] += 2
+    
+    if any(x in q for x in ['minimum', 'maximum', 'shortest', 'longest']) and 'number of' in q:
+        intent_scores['ALGORITHM_PUZZLE'] += 1
+    
+    # Score SYNTAX_RECALL intent
+    if any(x in q for x in ['select', 'join', 'group by', 'where']) and 'write' in q:
+        intent_scores['SYNTAX_RECALL'] += 2
+    
+    # Score MATH_PROOF intent
+    if any(x in q for x in ['prove', 'derive', 'show that', 'demonstrate']):
+        intent_scores['MATH_PROOF'] += 2
+    
+    # Decision: Reject if any intent score >= 2
+    max_intent = max(intent_scores.items(), key=lambda x: x[1])
+    if max_intent[1] >= 2:
+        return (True, f"Intent detected: {max_intent[0]} (score: {max_intent[1]})")
+    
+    return (False, "No reject intent detected")
+```
+
+---
+
+### BOUNDARY CLARIFICATIONS
+
+**SQL: Syntax vs Reasoning**
+- ❌ "Write a SQL query to find top 3 salaries" → 🔴 (syntax)
+- ✅ "How would you compute top 3 salaries per department?" → 🟡 (conceptual)
+
+**System Design: Implementation vs Conceptual**
+- ❌ "Design and implement a rate limiter" → 🔴 (implementation)
+- ✅ "What high-level components would a rate limiter need?" → 🟡 (conceptual)
+
+**Behavioral: Past Story vs Framework**
+- ❌ "Tell me about a time you handled conflict" → 🔴 (past story)
+- ✅ "Stakeholders disagree on priorities — what do you do?" → 🟢 (framework)
+
+---
+
+**If LAYER 1 OR LAYER 2 triggers → 🔴 IGNORE (do not proceed to Step 2)**
 
 ---
 
