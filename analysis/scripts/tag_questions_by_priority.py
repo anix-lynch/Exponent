@@ -53,34 +53,32 @@ SKIP_CATEGORIES = {
 }
 
 def get_priority_tag(category, role='data-engineer'):
-    """Get priority tag for a category"""
+    """Get priority tag for a category - ONE TAG ONLY"""
     category_upper = category.upper()
     
     # Check if should skip
     if category_upper in SKIP_CATEGORIES:
         return SKIP_CATEGORIES[category_upper]
     
-    # Check your strengths
-    if category_upper in YOUR_STRENGTHS:
-        strength_tag = YOUR_STRENGTHS[category_upper]
-    else:
-        strength_tag = ''
+    # PRIORITY 1: Universal + Your Strength = EASIEST (pink heart)
+    if category_upper in UNIVERSAL_CATEGORIES and category_upper in YOUR_STRENGTHS:
+        return '💗'  # Universal + Strength = EASIEST WIN
     
-    # PRIORITY ORDER: Universal first (they're most important!)
-    if category_upper in UNIVERSAL_CATEGORIES:
-        priority_tag = UNIVERSAL_CATEGORIES[category_upper]
+    # PRIORITY 2: Universal (need practice) = LOW HANGING FRUIT (pink heart)
+    elif category_upper in UNIVERSAL_CATEGORIES:
+        return '💗'  # Universal = Master once, use everywhere
+    
+    # PRIORITY 3: Your strength (but not universal) = EASY (green)
+    elif category_upper in YOUR_STRENGTHS:
+        return '🟢'  # Your strength = Easy
+    
+    # PRIORITY 4: DE Critical = STUDY (red)
     elif role == 'data-engineer' and category_upper in DE_PRIORITIES:
-        priority_tag = DE_PRIORITIES[category_upper]
-    else:
-        priority_tag = '⚪'  # Low priority
+        return DE_PRIORITIES[category_upper]
     
-    # Combine tags
-    if strength_tag and priority_tag:
-        return f"{priority_tag} {strength_tag}"
-    elif priority_tag:
-        return priority_tag
+    # PRIORITY 5: Low priority
     else:
-        return '⚪'
+        return '⚪'  # Low priority
 
 def tag_question_bank(role_name, role_dir):
     """Add priority tags to a question bank"""
@@ -126,38 +124,36 @@ def create_legend():
     legend = """
 # 🏷️ QUESTION PRIORITY LEGEND
 
-## Priority Tags (Study Order)
+## Priority Tags (Study Order) - ONE TAG PER CATEGORY
 
-💗 **UNIVERSAL** - Appears in ALL/most roles (80%+) - **LOW HANGING FRUIT!**
-   - Master these once, use everywhere
-   - Behavioral (15/15 roles = 100%)
-   - SQL (12/15 roles = 80%)
-   - Problem Solving (13/15 roles = 87%)
+💗 **EASIEST** - Universal (80%+ roles) - Master once, use everywhere!
+   - Includes categories you're already strong in
+   - Behavioral (15/15 roles, you're 90% ready)
+   - SQL (12/15 roles, need practice)
+   - Problem Solving (13/15 roles, you're 85% ready)
 
-🔴 **CRITICAL** - Critical for your #1 goal (Data Engineer)
-🟠 **HIGH** - Important for multiple roles or key for DE
-🟡 **MEDIUM** - Helpful but not critical
-⚪ **LOW** - Nice to have, lower priority
-⚠️ **SKIP** - Low ROI for your goals (DSA, Coding for DE)
-⚠️ **DEFER** - Long-term learning (ML, Deep Learning)
+🟢 **EASY** - Your strength (85%+ fit from MBA/VC/PE)
+   - Strategy, Business Analysis, Financial Analysis
+   - Just review, you're already ready
 
-## Your Strength Tags
+🔴 **STUDY** - Critical for Data Engineer (your #1 goal)
+   - Data Pipeline Design (50q - 28% of DE role)
+   - Focused study needed
 
-✅ **YOUR STRENGTH** - 85%+ fit based on MBA/VC/PE background
-- Behavioral (90% fit - 20 years experience)
-- Strategy (95% fit - MBA/VC/PE)
-- Business Analysis (85% fit)
-- Financial Analysis (90% fit)
-- Problem Solving (85% fit)
+🟠 **PRACTICE** - Important for DE or multiple roles
+   - System Design, Data Modeling
+   - Need some practice
 
-## Combined Tags Example
+🟡 **OPTIONAL** - Medium priority, if time permits
+   - Nice to have, not critical
 
-💗 ✅ = Universal + Your strength = **EASIEST WIN! Master once, use everywhere**
-💗 = Universal, appears in all roles = **LOW HANGING FRUIT**
-🔴 ✅ = Critical priority + Your strength = **EASY WIN, STUDY FIRST**
-🔴 = Critical priority, need focused study
-🟠 ✅ = High priority + Your strength = **REVIEW & POLISH**
-⚠️ SKIP = Don't waste time here
+⚪ **LOW** - Lower priority
+   - Study last if time
+
+⚠️ **SKIP** - Strategic ignore, low ROI
+   - Data Structures & Algorithms (32q = 18% of DE)
+   - Coding (4q = 2% of DE)
+   - Save 6+ hours by skipping these!
 
 ---
 
@@ -167,15 +163,17 @@ def create_legend():
 
 **Study in this order:**
 
-1. **💗 ✅ Categories** (Universal + Your Strength) - **EASIEST WINS!**
-   - Behavioral (appears in ALL 15 roles + you're 90% ready)
-   - Problem Solving (appears in 13/15 roles + you're 85% ready)
+1. **💗 EASIEST** (Universal - master once, use everywhere!)
+   - Behavioral (15/15 roles, you're 90% ready - just review)
+   - SQL (12/15 roles - practice 15 problems)
+   - Problem Solving (13/15 roles, you're 85% ready - just review)
 
-2. **💗 Categories** (Universal, need practice) - **LOW HANGING FRUIT**
-   - SQL (appears in 12/15 roles - master once, use everywhere)
-
-3. **🔴 Categories** (Critical for DE, need focused study)
+2. **🔴 STUDY** (Critical for DE, need focused study)
    - Data Pipeline Design (50 questions - 28% of DE role)
+
+3. **🟠 PRACTICE** (Important for DE)
+   - System Design (20 questions)
+   - Data Modeling (11 questions)
 
 3. **🟠 Categories** (High priority)
    - Data Modeling
@@ -192,29 +190,39 @@ def create_legend():
 ### For Quick Win Roles (Chief of Staff, BizOps):
 
 **Focus on:**
-- 💗 ✅ Behavioral (universal + your strength)
-- 💗 ✅ Problem Solving (universal + your strength)
-- 🟢 ✅ Strategy (your strength)
-- 🟢 ✅ Business Analysis (your strength)
+- 💗 Behavioral (easiest - just review)
+- 💗 Problem Solving (easiest - just review)
+- 🟢 Strategy (easy - your strength)
+- 🟢 Business Analysis (easy - your strength)
 
 You're 85%+ ready for these roles NOW!
 
-**Bonus**: Master 💗 categories and you're ready for 12+ roles!
+**Bonus**: Master 💗 categories (8 hours) = ready for 12+ roles!
 
 ---
 
 ## Time Allocation (20 hours total)
 
-Based on tags:
-- 💗 ✅ Categories: 2 hours (review/polish - EASIEST WINS)
-- 💗 Categories: 6 hours (practice - LOW HANGING FRUIT)
-- 🔴 Categories: 8 hours (focused study - DE specific)
-- 🟠 Categories: 3 hours (practice)
-- 🟡 Categories: 1 hour (if time permits)
-- ⚠️ SKIP: 0 hours (strategic ignore)
+Based on ONE TAG per category:
+- 💗 EASIEST: 8 hours (universal - master once, use everywhere)
+  - Behavioral (2 hours review)
+  - SQL (6 hours practice)
+  
+- 🔴 STUDY: 8 hours (DE critical - focused study)
+  - Data Pipeline Design (6 hours)
+  - Other critical categories (2 hours)
+  
+- 🟠 PRACTICE: 3 hours (important for DE)
+  - System Design, Data Modeling
+  
+- 🟡 OPTIONAL: 1 hour (if time permits)
 
-**KEY INSIGHT**: Master 💗 categories (8 hours) = ready for 12+ roles!
-Then focus 🔴 categories (8 hours) = ready for Data Engineer!
+- ⚠️ SKIP: 0 hours (strategic ignore - save 6+ hours!)
+
+**KEY INSIGHT**: 
+- 8 hours on 💗 = ready for 12+ roles!
+- 8 hours on 🔴 = ready for Data Engineer!
+- Total: 16 hours to be competitive everywhere!
 
 ---
 

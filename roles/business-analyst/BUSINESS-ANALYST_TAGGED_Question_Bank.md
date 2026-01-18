@@ -14,7 +14,7 @@ Total Questions: 110 across 17 categories
 
 
 ================================================================================
-BEHAVIORAL 💗 ✅
+BEHAVIORAL 💗
 ================================================================================
 
 📊 Total Questions: 38
@@ -217,7 +217,7 @@ Data Analysis - Root Cause Analysis
 9. You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
 
 ================================================================================
-FINANCIAL ANALYSIS ⚪ ✅
+FINANCIAL ANALYSIS 🟢
 ================================================================================
 
 📊 Total Questions: 6
