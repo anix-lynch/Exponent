@@ -2,16 +2,16 @@
 
 ## 📚 Resources
 
-**10 sample Data Scientist questions** (Exponent has 165 total) from [Exponent](https://www.tryexponent.com/questions?role=data-science)
+**157 Data Scientist questions** from [Exponent](https://www.tryexponent.com/questions?role=data-science)
 
-⚠️ **Note**: Sample dataset with comprehensive frameworks. Visit Exponent for full 165 questions.
+✅ **REAL QUESTIONS**: All 157 questions scraped from Exponent (165 total available)
 
 🎯 **TOP-TIER ROLE**: Extra detailed nested categorization
 
 ## 📁 Output Files
 
 ### 1. [Data_Scientist_Question_Bank.md](./Data_Scientist_Question_Bank.md)
-- **10 sample questions** with comprehensive nested categories
+- **157 real questions** with comprehensive nested categories
 - **ASCII framework** for each category
 - **Rich text** formatting
 

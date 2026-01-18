@@ -2,16 +2,16 @@
 
 ## 📚 Resources
 
-**10 sample Business Analyst questions** (Exponent has 88 total) from [Exponent](https://www.tryexponent.com/questions?role=business-analyst)
+**87 Business Analyst questions** from [Exponent](https://www.tryexponent.com/questions?role=business-analyst)
 
-⚠️ **Note**: Sample dataset with comprehensive frameworks. Visit Exponent for full 88 questions.
+✅ **REAL QUESTIONS**: All 87 questions scraped from Exponent (88 total available)
 
 🎯 **TOP-TIER ROLE**: Extra detailed nested categorization
 
 ## 📁 Output Files
 
 ### 1. [Business_Analyst_Question_Bank.md](./Business_Analyst_Question_Bank.md)
-- **10 sample questions** with comprehensive nested categories
+- **87 real questions** with comprehensive nested categories
 - **ASCII framework** for each category
 - **Rich text** formatting
 

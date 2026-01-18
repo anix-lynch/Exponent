@@ -1,89 +1,721 @@
 [
   {
-    "question": "Tell me about a time when you identified a business problem and used data to solve it.",
+    "question": "Tell me about a time when you handled a difficult stakeholder.",
+    "categories": [
+      "Behavioral",
+      "Stakeholder Management"
+    ],
+    "url": "https://www.tryexponent.com/questions/551/time-handled-difficult-stakeholder",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time the business problem wasn\u2019t clearly defined. How did you handle it?",
     "categories": [
       "Behavioral",
       "Data Analysis - Business Problem Solving"
     ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "url": "https://www.tryexponent.com/questions/5266/handling-vague-business-problems",
     "page": 1
   },
   {
-    "question": "How would you measure the success of a new product launch?",
+    "question": "Tell me about yourself.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself",
+    "page": 1
+  },
+  {
+    "question": "What is the project you are most proud of?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you had to make a decision with a lot of uncertainty.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5265/making-a-decision-with-a-lot-of-uncertainty",
+    "page": 1
+  },
+  {
+    "question": "How would you convey insights and the methods used to a non-technical audience?",
+    "categories": [
+      "Communication & Presentation"
+    ],
+    "url": "https://www.tryexponent.com/questions/5521/convey-insights-and-methods-to-non-technical-audience",
+    "page": 1
+  },
+  {
+    "question": "How would you test the viability of expanding Airbnb\u2019s \"Restaurant\" product to a new region?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5398/test-expansion-impact-viability-before-launch",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you failed.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/2398/describing-a-failure-experience",
+    "page": 1
+  },
+  {
+    "question": "Describe a data project you worked on. What were some of the challenges you faced?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5522/challenges-faced-in-a-data-project",
+    "page": 1
+  },
+  {
+    "question": "Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.",
+    "categories": [
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5165/doordash-bike-delivery-metric",
+    "page": 1
+  },
+  {
+    "question": "Suppose you work for a rideshare company like Uber. How would you visually represent correlation between ride duration, ride fare and ratings?",
+    "categories": [
+      "Stakeholder Management",
+      "Communication & Presentation"
+    ],
+    "url": "https://www.tryexponent.com/questions/4740/rideshare-metrics-correlation-visualization",
+    "page": 1
+  },
+  {
+    "question": "Choose a product you like and explain how you would identify its competitors.",
+    "categories": [
+      "Communication & Presentation"
+    ],
+    "url": "https://www.tryexponent.com/questions/4936/product-competitor-identify-analysis",
+    "page": 1
+  },
+  {
+    "question": "How would you determine if Facebook Messenger should introduce group calling?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4169/determine-group-calling-facebook-messenger",
+    "page": 1
+  },
+  {
+    "question": "Estimate the number of apps available in the Play Store.",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions/1790/play-store-apps-estimate",
+    "page": 1
+  },
+  {
+    "question": "There's a YoY slowdown in transactions. How would you structure your analysis?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5261/evaluate-paypals-business-performance",
+    "page": 1
+  },
+  {
+    "question": "Meta\u2019s new app shows 25% drop-off at sign-up. How do you analyze this?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5263/analyze-social-media-app-signups",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you built a dashboard.",
+    "categories": [
+      "Behavioral",
+      "Data Visualization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5258/tell-me-about-a-time-you-built-a-dashboard",
+    "page": 1
+  },
+  {
+    "question": "Why did you choose analytics as a career?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5264/why-data-analytics-as-a-career",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a project where you had to clean and organize a large dataset.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5259/clean-and-organize-a-large-dataset",
+    "page": 1
+  },
+  {
+    "question": "How would you assess whether a new feature launch was successful?",
+    "categories": [
+      "Product Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5191/assess-new-feature-launch-success",
+    "page": 1
+  },
+  {
+    "question": "Why do you want to work at Atlassian?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5577/why-atlassian",
+    "page": 2
+  },
+  {
+    "question": "How would you model the expected ROI of a new product launch?",
+    "categories": [
+      "Product Strategy",
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5232/model-product-launch-roi",
+    "page": 2
+  },
+  {
+    "question": "How do you consider the impact of your work on the world?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/2273/impact-of-work-on-world",
+    "page": 2
+  },
+  {
+    "question": "Design Netflix's Clickstream Data Pipeline",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4590/netflix-clickstream-data-pipeline",
+    "page": 2
+  },
+  {
+    "question": "Have you ever had to work with poor-quality data or suggest new tracking?",
+    "categories": [
+      "Behavioral",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5260/dealing-with-poor-data-or-missing-tracking",
+    "page": 2
+  },
+  {
+    "question": "How would you increase the average order value of a food delivery platform?",
+    "categories": [
+      "SQL - Joins & Aggregation"
+    ],
+    "url": "https://www.tryexponent.com/questions/4856/increase-food-delivery-average-order-value",
+    "page": 2
+  },
+  {
+    "question": "How would you go about customer satisfaction for Gmail?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/4799/measuring-customer-satisfaction-gmail",
+    "page": 2
+  },
+  {
+    "question": "Delivery times vary significantly by city. How would you identify if it\u2019s a partner, process, or market issue?",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5262/analyze-variance-in-food-delivery",
+    "page": 2
+  },
+  {
+    "question": "If an engineering team member isn't contributing as much, what would you do as a PM?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/599/pm-response-engineering-team-member",
+    "page": 2
+  },
+  {
+    "question": "How would you visualize sales and customer usage?",
+    "categories": [
+      "Data Visualization"
+    ],
+    "url": "https://www.tryexponent.com/questions/4404/visualize-sales-and-customer-usage",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a project where you faced data issues and how you handled them.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5169/project-data-issues",
+    "page": 2
+  },
+  {
+    "question": "How do you approach an ambiguous request from a stakeholder?",
+    "categories": [
+      "Stakeholder Management"
+    ],
+    "url": "https://www.tryexponent.com/questions/5173/approach-ambiguous-request-from-stakeholder",
+    "page": 2
+  },
+  {
+    "question": "How would you evaluate whether a new feature is worth rolling out to all users?",
+    "categories": [
+      "Product Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions/5211/evaluate-whether-to-roll-out-new-feature",
+    "page": 2
+  },
+  {
+    "question": "How do you handle joining data from different sources with inconsistent IDs?",
+    "categories": [
+      "SQL - Joins & Aggregation"
+    ],
+    "url": "https://www.tryexponent.com/questions/5178/join-data-with-inconsistent-ids",
+    "page": 2
+  },
+  {
+    "question": "How would you optimize fulfillment time for grocery deliveries in high-traffic zones?",
+    "categories": [
+      "SQL - Query Optimization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5188/optimize-fulfillment-time-for-grocery-deliveries",
+    "page": 2
+  },
+  {
+    "question": "What is the total number of airports in the US and globally?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/1809/total-number-airports-us-global",
+    "page": 2
+  },
+  {
+    "question": "What would you do if you didn't have access to the exact data you need?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5176/no-access-to-exact-data",
+    "page": 2
+  },
+  {
+    "question": "Walk me through how you'd assess the success of a beta launch.",
+    "categories": [
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5212/assess-beta-launch-success",
+    "page": 2
+  },
+  {
+    "question": "Estimate how many productivity hours are lost per year due to traffic.",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions/1792/productivity-loss-traffic-estimate",
+    "page": 2
+  },
+  {
+    "question": "Walk me through a time you diagnosed a drop in conversion.",
+    "categories": [
+      "Behavioral",
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5193/time-you-diagnosed-drop-in-conversion",
+    "page": 2
+  },
+  {
+    "question": "How do you evaluate the ROI of a strategic bet?",
+    "categories": [
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5196/evaluate-roi-strategic-bet",
+    "page": 3
+  },
+  {
+    "question": "Tell me about your experience.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/2668/tell-about-your-experience",
+    "page": 3
+  },
+  {
+    "question": "Walk me through your process for cleaning a messy dataset.",
+    "categories": [
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions/5179/cleaning-a-messy-dataset",
+    "page": 3
+  },
+  {
+    "question": "What questions would you ask before starting an analysis?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5175/questions-before-analysis",
+    "page": 3
+  },
+  {
+    "question": "We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5190/data-to-look-at-for-new-city-launch",
+    "page": 3
+  },
+  {
+    "question": "You\u2019re launching a new feature\u2014how would you measure its strategic impact on growth?",
     "categories": [
       "Product Strategy",
       "Business Metrics & KPIs"
     ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
+    "url": "https://www.tryexponent.com/questions/5230/new-feature-impact-on-growth",
+    "page": 3
   },
   {
-    "question": "Write a SQL query to find the top 10 customers by revenue in the last quarter.",
-    "categories": [
-      "SQL - Joins & Aggregation",
-      "Financial Analysis"
-    ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
-  },
-  {
-    "question": "How would you estimate the market size for a new product category?",
-    "categories": [
-      "Estimation & Market Sizing"
-    ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
-  },
-  {
-    "question": "Describe a time when you had to present data insights to senior leadership.",
-    "categories": [
-      "Behavioral",
-      "Communication & Presentation",
-      "Stakeholder Management",
-      "SQL - Window Functions"
-    ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
-  },
-  {
-    "question": "How would you analyze a sudden drop in user engagement?",
-    "categories": [
-      "Data Analysis - Root Cause Analysis"
-    ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
-  },
-  {
-    "question": "What KPIs would you track for an e-commerce business?",
+    "question": "What metrics would you use to evaluate product adoption and engagement?",
     "categories": [
       "Business Metrics & KPIs"
     ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
+    "url": "https://www.tryexponent.com/questions/5192/metrics-to-evaluate-product-adoption",
+    "page": 3
   },
   {
-    "question": "Walk me through how you would conduct a cohort analysis.",
-    "categories": [
-      "Data Analysis - Cohort Analysis"
-    ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
-  },
-  {
-    "question": "How do you prioritize competing business requests when resources are limited?",
+    "question": "You have three ideas for expansion but limited resources. How would you help prioritize them?",
     "categories": [
       "Prioritization"
     ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
+    "url": "https://www.tryexponent.com/questions/5231/multiple-ideas-limited-resources-prioritization",
+    "page": 3
   },
   {
-    "question": "Describe your process for gathering and documenting business requirements.",
+    "question": "Let\u2019s say a marketing campaign underperformed\u2014what would you do?",
     "categories": [
-      "Requirements Gathering",
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5189/marketing-campaign-underperformed",
+    "page": 3
+  },
+  {
+    "question": "How would you estimate the total addressable market (TAM) for a new product?",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions/5194/estimate-tam-new-product",
+    "page": 3
+  },
+  {
+    "question": "How would you approach evaluating the performance of a specific business unit?",
+    "categories": [
+      "SQL - Query Optimization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5203/evaluate-performance-of-business-unit",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a time when your analysis influenced a business decision.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5209/time-analysis-influenced-business-decision",
+    "page": 3
+  },
+  {
+    "question": "How would you analyze why user engagement is declining?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement",
+    "page": 3
+  },
+  {
+    "question": "Estimate the potential number of rides per month for e-scooter rentals in San Francisco.",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions/2327/estimate-rides-e-scooter-rental-sf",
+    "page": 3
+  },
+  {
+    "question": "Have you ever made a decision based on bad data? What did you learn?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5180/decision-based-on-bad-data",
+    "page": 3
+  },
+  {
+    "question": "What types of visualizations would you use to identify patterns in churn?",
+    "categories": [
+      "Data Analysis - Trend Analysis",
+      "Data Visualization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns",
+    "page": 3
+  },
+  {
+    "question": "Suppose adoption is high, but retention is low\u2014how would you diagnose and communicate the issue?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis",
+      "Communication & Presentation"
+    ],
+    "url": "https://www.tryexponent.com/questions/5213/high-adoption-low-retention",
+    "page": 3
+  },
+  {
+    "question": "How would you segment users for a new e-commerce platform?",
+    "categories": [
+      "Data Analysis - Cohort Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5225/segment-users-e-commerce-platform",
+    "page": 3
+  },
+  {
+    "question": "How do you present insights to non-technical stakeholders?",
+    "categories": [
+      "Stakeholder Management",
+      "Communication & Presentation"
+    ],
+    "url": "https://www.tryexponent.com/questions/5185/present-insights-non-technical-stakeholders",
+    "page": 3
+  },
+  {
+    "question": "Estimate the TAM for electric scooters in San Francisco.",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions/5223/sf-electric-scooter-tam",
+    "page": 4
+  },
+  {
+    "question": "Describe how you\u2019ve used data to identify underperforming business units.",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5202/use-data-identify-underperforming-business-units",
+    "page": 4
+  },
+  {
+    "question": "What KPIs would you track to measure company health?",
+    "categories": [
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5200/kpis-measure-company-health",
+    "page": 4
+  },
+  {
+    "question": "You\u2019re told engagement is flat even though new users are increasing\u2014what questions would you ask and what data would you look at?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5220/increased-users-flat-engagement",
+    "page": 4
+  },
+  {
+    "question": "How would you size the opportunity for launching a grocery delivery service in a new city?",
+    "categories": [
+      "Data Analysis - Business Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions/5224/size-opportunity-launch-grocery-delivery",
+    "page": 4
+  },
+  {
+    "question": "How would you use cohorts to identify retention issues?",
+    "categories": [
+      "Data Analysis - Cohort Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5207/use-cohort-identify-retention-issues",
+    "page": 4
+  },
+  {
+    "question": "How do you ensure your data recommendations are actionable and aligned with business goals?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5210/ensure-data-recommendations-actionable",
+    "page": 4
+  },
+  {
+    "question": "How do you determine which metrics are most important for executives to track?",
+    "categories": [
+      "Stakeholder Management",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives",
+    "page": 4
+  },
+  {
+    "question": "What KPIs would you track to evaluate the health of a subscription-based business?",
+    "categories": [
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5205/kpi-subscription-based-business",
+    "page": 4
+  },
+  {
+    "question": "How would you explain a sudden drop in revenue to leadership?",
+    "categories": [
+      "Communication & Presentation",
+      "Data Analysis - Root Cause Analysis",
+      "SQL - Window Functions",
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5201/explain-revenue-drop-to-leadership",
+    "page": 4
+  },
+  {
+    "question": "How would you test the impact of expanding into a new international market?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5229/test-new-international-market-launch-impact",
+    "page": 4
+  },
+  {
+    "question": "You\u2019ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?",
+    "categories": [
+      "SQL - Query Optimization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5214/analyze-newly-launched-onboarding-experience",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time you discovered a trend by drilling into granular data.",
+    "categories": [
+      "Behavioral",
+      "Data Analysis - Trend Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5204/granular-data-discover-trend",
+    "page": 4
+  },
+  {
+    "question": "What metrics would you track to improve operational cost?",
+    "categories": [
+      "Financial Analysis",
+      "Process Improvement",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost",
+    "page": 4
+  },
+  {
+    "question": "What recommendation did you make based on your analysis, and what was the impact?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5183/recommendation-based-on-analysis",
+    "page": 4
+  },
+  {
+    "question": "How would you identify inefficiencies in a team\u2019s workflow using data?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5198/use-data-to-identify-inefficiencies-in-team-workflow",
+    "page": 4
+  },
+  {
+    "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
+    "categories": [
+      "Product Strategy",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app",
+    "page": 4
+  },
+  {
+    "question": "Walk me through how you'd segment users for a churn analysis.",
+    "categories": [
+      "Data Analysis - Cohort Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5208/segment-users-churn-analysis",
+    "page": 4
+  },
+  {
+    "question": "Walk me through a dashboard you built. What choices did you make?",
+    "categories": [
+      "Data Visualization"
+    ],
+    "url": "https://www.tryexponent.com/questions/5186/walk-through-dashboard",
+    "page": 4
+  },
+  {
+    "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
+    "categories": [
+      "Financial Analysis",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact",
+    "page": 4
+  },
+  {
+    "question": "Describe a time you used data to improve an internal process.",
+    "categories": [
+      "Behavioral",
       "Process Improvement"
     ],
-    "url": "https://www.tryexponent.com/questions?role=business-analyst",
-    "page": 1
+    "url": "https://www.tryexponent.com/questions/5197/time-you-used-data-improve-internal-process",
+    "page": 5
+  },
+  {
+    "question": "How do you turn analysis into business action?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5184/turn-analysis-to-business-action",
+    "page": 5
+  },
+  {
+    "question": "A competitor is gaining market share. How would you investigate why?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5227/investigate-competitor-gain-market-share",
+    "page": 5
+  },
+  {
+    "question": "You\u2019re asked to identify high-value customers\u2014how would you approach this using data?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5226/identify-high-value-customers",
+    "page": 5
+  },
+  {
+    "question": "Tell me how you\u2019d segment customers to support a growth initiative.",
+    "categories": [
+      "Data Analysis - Cohort Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5195/segment-customers-growth-initiative",
+    "page": 5
+  },
+  {
+    "question": "How would you evaluate our pricing compared to competitors using publicly available data?",
+    "categories": [
+      "Behavioral"
+    ],
+    "url": "https://www.tryexponent.com/questions/5228/evaluate-pricing-compared-to-competitors",
+    "page": 5
+  },
+  {
+    "question": "The leadership team wants to understand the ROI of a new feature\u2014how would you structure that analysis?",
+    "categories": [
+      "Product Strategy",
+      "SQL - Window Functions",
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5222/analysis-new-feature-roi",
+    "page": 5
+  },
+  {
+    "question": "You\u2019re given product adoption data across regions\u2014how would you determine where the rollout was most successful and why?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions/5216/determine-successful-rollout-region",
+    "page": 5
   }
 ]

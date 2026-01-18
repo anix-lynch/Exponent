@@ -1,62 +1,944 @@
 [
   {
-    "question": "Tell me about a time when you had to explain a complex statistical concept to a non-technical stakeholder.",
+    "question": "Why do you think we should not hire you?",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/4629/why-no-hire",
     "page": 1
   },
   {
-    "question": "How would you design an A/B test to measure the impact of a new feature?",
+    "question": "Employee Earnings.",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/3960/employee-earnings",
     "page": 1
   },
   {
-    "question": "Explain the bias-variance tradeoff and how it relates to model performance.",
+    "question": "Reverse a linked list.",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list",
     "page": 1
   },
   {
-    "question": "Walk me through how you would build a recommendation system for an e-commerce platform.",
+    "question": "Find the number of users who called three or more people in the last week.",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/4167/count-users-calls-last-week",
     "page": 1
   },
   {
-    "question": "How do you handle imbalanced datasets in classification problems?",
+    "question": "Tell me about a time when you solved a complex problem and how you went about it.",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem",
     "page": 1
   },
   {
-    "question": "What metrics would you use to evaluate a regression model?",
+    "question": "As the PM for Lyft, what dashboard would you build to track the health of the app?",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/84/lyft-pm-dashboard-app-health",
     "page": 1
   },
   {
-    "question": "Describe a time when your model performed poorly in production. What did you do?",
+    "question": "What is the project you are most proud of?",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of",
     "page": 1
   },
   {
-    "question": "How would you detect and handle outliers in a dataset?",
+    "question": "Remove Duplicate Emails",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/3083/remove-duplicate-emails",
     "page": 1
   },
   {
-    "question": "Explain the difference between supervised and unsupervised learning with examples.",
+    "question": "How would you measure the success of Facebook dating?",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/428/measuring-success-facebook-dating",
     "page": 1
   },
   {
-    "question": "How would you approach feature engineering for a time series forecasting problem?",
+    "question": "What product that you led are you most proud of and why?",
     "categories": [],
-    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "url": "https://www.tryexponent.com/questions/215/proud-product",
     "page": 1
+  },
+  {
+    "question": "Is this a valid palindrome?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check",
+    "page": 1
+  },
+  {
+    "question": "Tell me about your past projects.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4229/past-projects",
+    "page": 1
+  },
+  {
+    "question": "Find the container with the maximum volume of water.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4341/container-with-most-water",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you proposed an idea that was not agreed on.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1366/time-proposed-idea-not-agreed",
+    "page": 1
+  },
+  {
+    "question": "Implement LRU Cache.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3625/lru-cache",
+    "page": 1
+  },
+  {
+    "question": "Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4352/investigate-sudden-viewer-drop",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time you convinced someone to change their mind.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/227/convince-someone-change-mind",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a skill you recently learned.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1371/time-skill-recently-learned",
+    "page": 1
+  },
+  {
+    "question": "You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5066/feed-content-ab-test-randomization",
+    "page": 1
+  },
+  {
+    "question": "Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4646/house-robber",
+    "page": 1
+  },
+  {
+    "question": "Tell me about a time when you received negative feedback and how you handled it.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/775/negative-feedback-how-handled",
+    "page": 2
+  },
+  {
+    "question": "Tell me about a time when you used a specific metric to drive change in your department.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/528/using-metrics-to-drive-change",
+    "page": 2
+  },
+  {
+    "question": "Monthly Post Success Analysis.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3955/monthly-post-success-analysis",
+    "page": 2
+  },
+  {
+    "question": "Can you provide an example of how you manage conflict?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1516/example-managing-conflict",
+    "page": 2
+  },
+  {
+    "question": "You launched a feature and user behavior changed, how do you define success metrics?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5901/success-metrics-changed-user-behavior",
+    "page": 2
+  },
+  {
+    "question": "SQL Stored Procedures",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3980/sql-stored-procedures",
+    "page": 2
+  },
+  {
+    "question": "The company observes that drivers spend significantly less active time on grocery store orders compared to convenience store orders. What next steps would you take?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5880/driver-active-time-grocery-vs-convenience",
+    "page": 2
+  },
+  {
+    "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k",
+    "page": 2
+  },
+  {
+    "question": "Top Earning Employees",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3044/top-earning-employees",
+    "page": 2
+  },
+  {
+    "question": "What percentage of users who were active on Messenger yesterday made a video call yesterday?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4168/messenger-users-video-call-percentage",
+    "page": 2
+  },
+  {
+    "question": "Find the longest substring without repeating characters.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3260/longest-substring-without-repeat",
+    "page": 2
+  },
+  {
+    "question": "How would you evaluate the impact of fake news on Facebook users?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3938/evaluate-impact-fake-news-facebook",
+    "page": 2
+  },
+  {
+    "question": "Imagine you are a data scientist for Instagram. How would you balance ads and follower posts and how would you monitor its effectiveness.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4331/balance-instagram-ads-followers",
+    "page": 2
+  },
+  {
+    "question": "Reverse a Sentence",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence",
+    "page": 2
+  },
+  {
+    "question": "Top Salaries by Department",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3045/top-salaries-by-department",
+    "page": 2
+  },
+  {
+    "question": "Explain precision and recall to a non technical stakeholder",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5554/explain-precision-and-recall-to-non-technical-stakeholder",
+    "page": 2
+  },
+  {
+    "question": "Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3010/determine-launch-group-video-calling-facebook",
+    "page": 2
+  },
+  {
+    "question": "Lyft Ride Requests",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3082/lyft-ride-requests",
+    "page": 2
+  },
+  {
+    "question": "Define success for TikTok.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1535/define-success-for-tiktok",
+    "page": 3
+  },
+  {
+    "question": "Valid Parentheses",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3447/valid-parentheses",
+    "page": 3
+  },
+  {
+    "question": "How would you determine if Facebook Messenger should introduce group calling?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4169/determine-group-calling-facebook-messenger",
+    "page": 3
+  },
+  {
+    "question": "A $5 discount coupon is given to N riders. The probability of using a coupon is P. What is the expected cost for the company?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4110/expected-cost-discount-coupon",
+    "page": 3
+  },
+  {
+    "question": "Move all zeros to the end of an array.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array",
+    "page": 3
+  },
+  {
+    "question": "Why do you want to work at OpenAI?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4608/why-openai",
+    "page": 3
+  },
+  {
+    "question": "Employee Hierarchy",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3041/employee-hierarchy",
+    "page": 3
+  },
+  {
+    "question": "Most Recent Transaction",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3043/most-recent-transaction",
+    "page": 3
+  },
+  {
+    "question": "Duolingo Leaderboards",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3099/duolingo-leaderboards",
+    "page": 3
+  },
+  {
+    "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock",
+    "page": 3
+  },
+  {
+    "question": "Tell me about a mistake you made and what you learned from it.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1509/mistake-and-lessons-learned",
+    "page": 3
+  },
+  {
+    "question": "Why do you want to work at Visa?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4627/why-visa",
+    "page": 3
+  },
+  {
+    "question": "Explain Bayes' theorem.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3405/explain-bayes-theorem",
+    "page": 3
+  },
+  {
+    "question": "Implement k-means clustering.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1679/implement-k-means-clustering",
+    "page": 3
+  },
+  {
+    "question": "Write SQL code to publish the Fibonacci series.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series",
+    "page": 3
+  },
+  {
+    "question": "High Volume Low Success.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3956/high-volume-low-success",
+    "page": 3
+  },
+  {
+    "question": "Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5382/diagnosing-instagram-dau-drop",
+    "page": 3
+  },
+  {
+    "question": "Calculate Test Scores",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3047/calculate-test-scores",
+    "page": 3
+  },
+  {
+    "question": "You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?\n\n(Conversion: From users browsing to placing orders.)",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4848/food-delivery-conversion-rate-analysis",
+    "page": 4
+  },
+  {
+    "question": "A PM at Google asked you to describe the distribution of daily search queries per user. How would you describe it?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5368/search-distribution",
+    "page": 4
+  },
+  {
+    "question": "In the transformer architecture, what makes the decoder different from the encoder?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4572/transformer-architecture-decoder-encoder-difference",
+    "page": 4
+  },
+  {
+    "question": "Session Data Analysis.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2777/session-data-analysis",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time when you were creative.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/841/time-you-were-creative",
+    "page": 4
+  },
+  {
+    "question": "Find the median of two sorted arrays.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays",
+    "page": 4
+  },
+  {
+    "question": "How would you evaluate Facebook's emotion scale? What metrics and tests would you use?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5385/evaluating-facebooks-emotion-scale",
+    "page": 4
+  },
+  {
+    "question": "Given an nxn grid of 1s and 0s, return the number of islands in the input.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1420/number-islands",
+    "page": 4
+  },
+  {
+    "question": "Imagine you are a data scientist for Netflix. How would you use data to decide whether a TV series is worth renewing?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4332/use-data-netflix-license-renewal",
+    "page": 4
+  },
+  {
+    "question": "Given an array, find the two sum.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1164/find-two-sum",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time when you had to balance short-term wins with long-term goals.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1870/balance-short-term-wins-long-term-goals",
+    "page": 4
+  },
+  {
+    "question": "Marketing Channel Attribution",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3969/marketing-channel-attribution",
+    "page": 4
+  },
+  {
+    "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection",
+    "page": 4
+  },
+  {
+    "question": "Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2123/communicating-with-stakeholders-aligning-interests",
+    "page": 4
+  },
+  {
+    "question": "How can Stripe use data to predict the optimal time to retry a transaction?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1674/stripe-predict-transaction-retry-time",
+    "page": 4
+  },
+  {
+    "question": "Linked List Cycle",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle",
+    "page": 4
+  },
+  {
+    "question": "What parts of OpenAI's mission statement resonate with you?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement",
+    "page": 4
+  },
+  {
+    "question": "Given the root of a binary tree of integers, return the maximum path sum.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum",
+    "page": 4
+  },
+  {
+    "question": "Write a function to return all prime numbers up to a given number n.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3629/prime-numbers",
+    "page": 4
+  },
+  {
+    "question": "Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4656/robinhood-evaluate-feature-trade-fractional-shares",
+    "page": 4
+  },
+  {
+    "question": "What is overfitting or underfitting? Which models are most likely to experience this, and why?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3736/understanding-overfitting-underfitting-model-risks",
+    "page": 5
+  },
+  {
+    "question": "Post Success By Age Group.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3962/post-success-by-age-group",
+    "page": 5
+  },
+  {
+    "question": "Tell me about an impactful project that you led.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1528/impactful-project-you-led",
+    "page": 5
+  },
+  {
+    "question": "What metrics would you use to increase posts with comments in a group?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1724/metrics-increase-posts-with-comments",
+    "page": 5
+  },
+  {
+    "question": "Analyze Monthly Customer Transactions",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3970/mock-interview-analyze-monthly-customer-transactions",
+    "page": 5
+  },
+  {
+    "question": "A PM at Meta asked you to describe the distribution of daily minutes spent on Facebook per user. How would you describe it?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5367/distribution-of-daily-minutes-on-facebook",
+    "page": 5
+  },
+  {
+    "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql",
+    "page": 5
+  },
+  {
+    "question": "When experimentation is constrained, how do you make decisions using imperfect or historical data?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5905/decision-making-constrained-experimentation",
+    "page": 5
+  },
+  {
+    "question": "What is the difference between NoSQL and SQL?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql",
+    "page": 5
+  },
+  {
+    "question": "Merge k sorted linked lists.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists",
+    "page": 5
+  },
+  {
+    "question": "Walk me through a past data science project.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4796/describe-data-science-project",
+    "page": 5
+  },
+  {
+    "question": "Explain deep reinforcement learning.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4610/explain-deep-reinforcement-learning",
+    "page": 5
+  },
+  {
+    "question": "Fibonacci Numbers",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3631/fibonacci",
+    "page": 5
+  },
+  {
+    "question": "Roman to Integer",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4680/roman-to-integer",
+    "page": 5
+  },
+  {
+    "question": "How do you approach personal growth and learning?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4669/personal-growth-approach",
+    "page": 5
+  },
+  {
+    "question": "Explain Deep Learning to a non-technical audience.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/541/explain-deep-learning-non-technical-audience",
+    "page": 5
+  },
+  {
+    "question": "What are common linear regression problems?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1676/common-linear-regression-problems",
+    "page": 5
+  },
+  {
+    "question": "Why might Venmo be seeing a decrease in users adding their bank accounts?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/636/venmo-users-decreasing-bank-accounts",
+    "page": 5
+  },
+  {
+    "question": "What are the KPIs for push notifications?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1856/push-notification-kpis",
+    "page": 5
+  },
+  {
+    "question": "How would you enhance Facebook comments?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/518/improving-facebook-comments",
+    "page": 6
+  },
+  {
+    "question": "Find Customer Lifetime Value (LTV)",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3975/find-customer-lifetime-value",
+    "page": 6
+  },
+  {
+    "question": "Describe an experience that you consider most valuable.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4286/most-valuable-experience",
+    "page": 6
+  },
+  {
+    "question": "Search in rotated sorted array",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array",
+    "page": 6
+  },
+  {
+    "question": "Metrics moved in different directions, how do you interpret the results and decide next steps?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5903/interpreting-experimentation-results",
+    "page": 6
+  },
+  {
+    "question": "Find the maximum subarray sum.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum",
+    "page": 6
+  },
+  {
+    "question": "How can you improve Facebook\u2019s DAU?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5381/improving-facebooks-dau",
+    "page": 6
+  },
+  {
+    "question": "Find Campaign Purchases",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3963/find-campaign-purchases",
+    "page": 6
+  },
+  {
+    "question": "Determine if a given binary tree is a binary search tree (BST).",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst",
+    "page": 6
+  },
+  {
+    "question": "Given a list of sentences, find the top n most frequent words.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4571/top-n-frequent-words",
+    "page": 6
+  },
+  {
+    "question": "Merge two sorted lists",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/966/merge-two-sorted-lists",
+    "page": 6
+  },
+  {
+    "question": "What is the best way to connect SQL databases and why?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2156/best-way-connect-sql-databases",
+    "page": 6
+  },
+  {
+    "question": "A user advocacy group raises concerns about accessibility for individuals with hearing disabilities. What are some product improvements for Facebook Live and Videos, and how would you define succes...",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5384/facebook-video-for-individuals-with-hearing-disabilities",
+    "page": 6
+  },
+  {
+    "question": "What are you passionate about?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/273/five-years-passion",
+    "page": 6
+  },
+  {
+    "question": "How do you design an experiment to avoid common pitfalls in interpreting results?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5904/experiment-design",
+    "page": 6
+  },
+  {
+    "question": "Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3720/success-metrics-marketing-campaign-experiment-design",
+    "page": 6
+  },
+  {
+    "question": "How do you encourage collaboration among cross-functional teams?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams",
+    "page": 6
+  },
+  {
+    "question": "What other companies are you interviewing at and why?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies",
+    "page": 6
+  },
+  {
+    "question": "As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1938/data-scientist-interpret-recommend-new-feature-revenue-increase",
+    "page": 6
+  },
+  {
+    "question": "Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and...",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5366/hypothesis-testing-for-amazon",
+    "page": 6
+  },
+  {
+    "question": "Given a list of numbers, find the median without sorting the entire list. Hint: Use quick sort algorithm.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4570/find-median-quicksort-algorithm",
+    "page": 7
+  },
+  {
+    "question": "Why do you want to work at Walmart Labs?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs",
+    "page": 7
+  },
+  {
+    "question": "Fraudulent Transactions",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3071/fraudulent-transactions",
+    "page": 7
+  },
+  {
+    "question": "Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3607/tinder-subscription-renewal-variations",
+    "page": 7
+  },
+  {
+    "question": "Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3188/design-system-track-ship-deviations",
+    "page": 7
+  },
+  {
+    "question": "Calculate the trapped rainwater between bars in a given array.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars",
+    "page": 7
+  },
+  {
+    "question": "How would you help the Instagram team decide whether to launch the Rooms feature after a successful launch on Facebook?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1628/instagram-rooms-feature-launch-decision",
+    "page": 7
+  },
+  {
+    "question": "Tell me about your experience working with scientists.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2881/experience-working-with-scientists",
+    "page": 7
+  },
+  {
+    "question": "In what cases should you use the median instead of the mean?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4873/median-over-mean",
+    "page": 7
+  },
+  {
+    "question": "Would you port Facebook rooms to Instagram?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1621/port-facebook-rooms-to-instagram",
+    "page": 7
+  },
+  {
+    "question": "What motivates you?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5006/personal-motivation",
+    "page": 7
+  },
+  {
+    "question": "Tell me about your e-commerce experience.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3380/share-ecommerce-experience",
+    "page": 7
+  },
+  {
+    "question": "How would you investigate a week-over-week 10% drop in successful deliveries?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5052/investigate-successful-deliveries-drop-wow",
+    "page": 7
+  },
+  {
+    "question": "What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4804/random-forest-mechanism-bootstrapping",
+    "page": 7
+  },
+  {
+    "question": "A discount coupon is given to N riders. The probability of using a coupon is P. What is the probability that one of the coupons will be used?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4112/probability-coupon-used",
+    "page": 7
+  },
+  {
+    "question": "You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de...",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3156/create-model-recommend-image-from-new-set",
+    "page": 7
+  },
+  {
+    "question": "How do you generate insights?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1945/how-to-generate-insights",
+    "page": 7
+  },
+  {
+    "question": "Tell me about a time when you were unhappy in your job.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/911/time-you-were-unhappy-in-job",
+    "page": 7
+  },
+  {
+    "question": "One of your clients has experienced a 20% decline in profits. What would you do?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4872/mckinsey-client-profit-decline-analysis",
+    "page": 8
+  },
+  {
+    "question": "Why do you want to work at Salesforce?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce",
+    "page": 8
+  },
+  {
+    "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree",
+    "page": 8
+  },
+  {
+    "question": "Why do you want to work at Discord?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4671/why-discord",
+    "page": 8
+  },
+  {
+    "question": "Why do you want to work at Tinder?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3606/why-work-at-tinder",
+    "page": 8
+  },
+  {
+    "question": "Describe how the split in a decision tree works.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3746/split-decision-tree-explanation",
+    "page": 8
+  },
+  {
+    "question": "Top k frequent elements",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2080/top-k-frequent-elements",
+    "page": 8
+  },
+  {
+    "question": "Explain all kinds of OOP concepts in Python.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/2713/oop-concepts-in-python-explanation",
+    "page": 8
+  },
+  {
+    "question": "How do you deal with interference?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3608/dealing-with-interference",
+    "page": 8
+  },
+  {
+    "question": "Total Outfit Combinations",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3724/total-outfit-combinations",
+    "page": 8
+  },
+  {
+    "question": "Present slides on a past project you've worked on.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5090/present-past-project",
+    "page": 8
+  },
+  {
+    "question": "Print all combinations of numbers from 1 to n that sum to n.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum",
+    "page": 8
+  },
+  {
+    "question": "What about Tinder's vision resonates with you?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3610/tinder-vision-resonance",
+    "page": 8
+  },
+  {
+    "question": "Given n employees and an expansion rate r, find the number of employees after t years.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4642/compound-interest",
+    "page": 8
+  },
+  {
+    "question": "You\u2019re told engagement is flat even though new users are increasing\u2014what questions would you ask and what data would you look at?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5220/increased-users-flat-engagement",
+    "page": 8
+  },
+  {
+    "question": "Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/3189/modify-pytorch-code-negative-sampling",
+    "page": 8
+  },
+  {
+    "question": "If a + b + c + d = 63, what's the maximum value of a * b + b * c + c * d?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4635/max-product-sum-puzzle",
+    "page": 8
+  },
+  {
+    "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app",
+    "page": 8
+  },
+  {
+    "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact",
+    "page": 8
+  },
+  {
+    "question": "The product team reports a decline in 30-day user retention. How would you approach this problem?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/5217/approach-retention-problem",
+    "page": 9
+  },
+  {
+    "question": "You roll a dice until the total reaches 100 or more. Which appears more often in the rolls: 1 or 6?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4636/dice-roll-one-or-six",
+    "page": 9
+  },
+  {
+    "question": "What factors would you investigate to determine why the app is underperforming in a new geography?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1699/investigate-app-underperformance-new-geography",
+    "page": 9
+  },
+  {
+    "question": "Design a solution for matching incoming 'new restaurant' data with existing entities in a large restaurant database.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/1939/design-solution-matching-new-restaurant-data",
+    "page": 9
+  },
+  {
+    "question": "What is the limit of the ratio of two consecutive Fibonacci numbers as the sequence progresses?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions/4637/fibonacci-number-ratio",
+    "page": 9
   }
 ]

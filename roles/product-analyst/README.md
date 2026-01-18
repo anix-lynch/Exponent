@@ -2,16 +2,16 @@
 
 ## 📚 Resources
 
-**10 sample Product Analyst questions** (Exponent has 86 total) from [Exponent](https://www.tryexponent.com/questions?role=product-analyst)
+**85 Product Analyst questions** from [Exponent](https://www.tryexponent.com/questions?role=product-analyst)
 
-⚠️ **Note**: Sample dataset with comprehensive frameworks. Visit Exponent for full 86 questions.
+✅ **REAL QUESTIONS**: All 85 questions scraped from Exponent (86 total available)
 
 🎯 **TOP-TIER ROLE**: Extra detailed nested categorization
 
 ## 📁 Output Files
 
 ### 1. [Product_Analyst_Question_Bank.md](./Product_Analyst_Question_Bank.md)
-- **10 sample questions** with comprehensive nested categories
+- **85 real questions** with comprehensive nested categories
 - **ASCII framework** for each category
 - **Rich text** formatting
 
