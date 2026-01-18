@@ -78,7 +78,7 @@ Product Launch
 3. Facing a new feature launch, the team is not motivated to collaborate. What would you do?
 
 ================================================================================
-BEHAVIORAL 🔴 ✅
+BEHAVIORAL 💗 ✅
 ================================================================================
 
 📊 **Total Questions**: 1

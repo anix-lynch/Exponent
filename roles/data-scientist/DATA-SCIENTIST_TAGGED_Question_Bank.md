@@ -14,7 +14,7 @@ Total Questions: 173 across 14 categories
 
 
 ================================================================================
-BEHAVIORAL 🔴 ✅
+BEHAVIORAL 💗 ✅
 ================================================================================
 
 📊 Total Questions: 100
@@ -397,7 +397,7 @@ Data Analysis - Business Metrics
 7. Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
 
 ================================================================================
-SQL 🟠
+SQL 💗
 ================================================================================
 
 📊 Total Questions: 6
