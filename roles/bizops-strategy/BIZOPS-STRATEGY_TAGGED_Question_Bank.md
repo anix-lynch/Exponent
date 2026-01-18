@@ -179,16 +179,16 @@ Process Improvement
 
 📝 All 10 Questions:
 
-1. ⚪ How would you improve the usage of Revolut's cross-border payment feature?
-2. ⚪ How would you improve our hiring conversion and time to hire from application to offer rollout?
-3. ⚪ How would you improve Uber?
-4. ⚪ How would you reduce attrition in a team/organization?
-5. ⚪ What is the most important part of the flywheel and what happens if the supply of one increases?
-6. ⚪ What advice would you give to a new restaurant looking to increase revenue?
-7. ⚪ Tell us about a time when you received feedback that helped you improve.
-8. ⚪ How would you boost retention for DashPass?
-9. ⚪ How would you reduce the number of customer support tickets from users on our rideshare app?
-10. ⚪ How would you deal with an increased customer sensitivity to cost?
+1. 🟢 How would you improve the usage of Revolut's cross-border payment feature?
+2. 🟢 How would you improve our hiring conversion and time to hire from application to offer rollout?
+3. 🟢 How would you improve Uber?
+4. 🟢 How would you reduce attrition in a team/organization?
+5. 🟢 What is the most important part of the flywheel and what happens if the supply of one increases?
+6. 🟢 What advice would you give to a new restaurant looking to increase revenue?
+7. 🟢 Tell us about a time when you received feedback that helped you improve.
+8. 🟢 How would you boost retention for DashPass?
+9. 🟢 How would you reduce the number of customer support tickets from users on our rideshare app?
+10. 🟢 How would you deal with an increased customer sensitivity to cost?
 
 
 ================================================================================
@@ -284,14 +284,14 @@ Analytical (Root Cause)
 
 📝 All 8 Questions:
 
-1. ⚪ Why is Android strategic for Google?
-2. ⚪ How would you investigate the 10% of inactive Netflix users?
-3. ⚪ Why is Google well positioned for emerging markets?
-4. ⚪ If customer support tickets are increasing, how would you investigate and solve this issue?
-5. ⚪ What is the most important part of the flywheel and what happens if the supply of one increases?
-6. ⚪ What advice would you give to a new restaurant looking to increase revenue?
-7. ⚪ Why are you leaving consulting?
-8. ⚪ How would you deal with an increased customer sensitivity to cost?
+1. 💗 Why is Android strategic for Google?
+2. 💗 How would you investigate the 10% of inactive Netflix users?
+3. 💗 Why is Google well positioned for emerging markets?
+4. 💗 If customer support tickets are increasing, how would you investigate and solve this issue?
+5. 💗 What is the most important part of the flywheel and what happens if the supply of one increases?
+6. 💗 What advice would you give to a new restaurant looking to increase revenue?
+7. 💗 Why are you leaving consulting?
+8. 💗 How would you deal with an increased customer sensitivity to cost?
 
 
 ================================================================================
@@ -317,12 +317,12 @@ Data Analysis
 
 📝 All 6 Questions:
 
-1. ⚪ Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.
-2. ⚪ What metric would you want to know about Instacart, and how would you find the data to answer that?
-3. ⚪ Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.
-4. ⚪ How do you handle working with ambiguous data?
-5. ⚪ If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?
-6. ⚪ Tell me about a project when you had to translate data into insights for the team/client you were working with.
+1. 💗 Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.
+2. 💗 What metric would you want to know about Instacart, and how would you find the data to answer that?
+3. 💗 Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.
+4. 💗 How do you handle working with ambiguous data?
+5. 💗 If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?
+6. 💗 Tell me about a project when you had to translate data into insights for the team/client you were working with.
 
 
 ================================================================================
@@ -374,8 +374,8 @@ Case Study
 
 📝 All 2 Questions:
 
-1. ⚪ Find an interesting problem that you believe Clipboard Health should solve.
-2. ⚪ Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?
+1. 🟢 Find an interesting problem that you believe Clipboard Health should solve.
+2. 🟢 Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?
 
 
 ================================================================================
@@ -427,7 +427,7 @@ Stakeholder Management
 
 📝 All 1 Questions:
 
-1. ⚪ What approach would you take to convince senior stakeholders?
+1. 🟢 What approach would you take to convince senior stakeholders?
 
 
 ================================================================================

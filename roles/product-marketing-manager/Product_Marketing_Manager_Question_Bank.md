@@ -298,7 +298,7 @@ Competitive Analysis
 2. ⚪ How do you stay current with market trends and competitor activities?
 
 ================================================================================
-GO-TO-MARKET STRATEGY ⚪
+GO-TO-MARKET STRATEGY 💗
 ================================================================================
 
 📊 **Total Questions**: 1
@@ -343,10 +343,10 @@ Go-To-Market Strategy
 
 📝 **All 1 Question:**
 
-1. ⚪ Design a GTM strategy for taking a brick-and-mortar rug store online.
+1. 💗 Design a GTM strategy for taking a brick-and-mortar rug store online.
 
 ================================================================================
-MESSAGING & COMMUNICATION ⚪
+MESSAGING & COMMUNICATION 🟢
 ================================================================================
 
 📊 **Total Questions**: 1
@@ -392,7 +392,7 @@ Messaging & Communication
 
 📝 **All 1 Question:**
 
-1. ⚪ How would you create a messaging framework for a new product?
+1. 🟢 How would you create a messaging framework for a new product?
 
 ================================================================================
 MARKET RESEARCH ⚪

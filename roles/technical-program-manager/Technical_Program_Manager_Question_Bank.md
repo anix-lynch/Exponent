@@ -281,16 +281,16 @@ System Design (TPM Focus)
 
 📝 All 38 Questions:
 
-1. ⚪ ~~Design Instagram.~~ *(incomplete - coding problem title only)*
+1. ⚪ Design Instagram.
 2. ⚪ Tell me about the design and architecture of the program you managed. Explain the system end-to-end and various technologies you picked with reason.
 3. ⚪ Design a cashless candy dispensing machine.
-4. ⚪ ~~Design Twitter.~~ *(incomplete - coding problem title only)*
+4. ⚪ Design Twitter.
 5. ⚪ Design a reservation and payment system for a parking garage.
 6. ⚪ You're a PM in the middle of a sprint when a P1 issue arises that impacts the sprint goal due to requirements and design problems. How would you handle this?
-7. ⚪ ~~Design Weather App~~ *(incomplete - coding problem title only)*
+7. ⚪ Design Weather App
 8. ⚪ Design a radar tower model for a moving ship.
 9. ⚪ Design a fake news detection system.
-10. ⚪ ~~Design Uber Eats.~~ *(incomplete - coding problem title only)*
+10. ⚪ Design Uber Eats.
 11. ⚪ Design an elevator.
 12. ⚪ Design a streaming service like Netflix.
 13. ⚪ Design a solution for attending large events and concerts.
@@ -421,7 +421,7 @@ Project Execution
 
 
 ================================================================================
-STAKEHOLDER MANAGEMENT ⚪
+STAKEHOLDER MANAGEMENT 🟢
 ================================================================================
 
 📊 Total Questions: 8
@@ -467,18 +467,18 @@ Stakeholder Management
 
 📝 All 8 Questions:
 
-1. ⚪ Tell me about a time when you handled a difficult stakeholder.
-2. ⚪ If you’re asked to deliver multiple features with half the resources, and stakeholders won’t adjust scope, time, or cost, how would you handle it?
-3. ⚪ Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
-4. ⚪ Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
-5. ⚪ Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
-6. ⚪ Meeting a customer executive for the first time, they question your credentials. How do you respond?
-7. ⚪ Tell me about a time you had to secure stakeholder buy-in despite a conflict of interest.
-8. ⚪ Describe three behavioral leadership principles, two functional competencies, and one technical system design.
+1. 🟢 Tell me about a time when you handled a difficult stakeholder.
+2. 🟢 If you’re asked to deliver multiple features with half the resources, and stakeholders won’t adjust scope, time, or cost, how would you handle it?
+3. 🟢 Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
+4. 🟢 Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
+5. 🟢 Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
+6. 🟢 Meeting a customer executive for the first time, they question your credentials. How do you respond?
+7. 🟢 Tell me about a time you had to secure stakeholder buy-in despite a conflict of interest.
+8. 🟢 Describe three behavioral leadership principles, two functional competencies, and one technical system design.
 
 
 ================================================================================
-TECHNICAL COMMUNICATION ⚪
+TECHNICAL COMMUNICATION 🟢
 ================================================================================
 
 📊 Total Questions: 8
@@ -524,14 +524,14 @@ Technical Communication
 
 📝 All 8 Questions:
 
-1. ⚪ Tell me about the design and architecture of the program you managed. Explain the system end-to-end and various technologies you picked with reason.
-2. ⚪ How would you explain a technical concept to a non-technical person?
-3. ⚪ Describe the most technically complex project you have worked on and explain why it was complex.
-4. ⚪ Explain the most complex product you have built.
-5. ⚪ Can you explain the Agile methodology and its key principles?
-6. ⚪ Explain how you would design Google Play Store, including your choice of database, its structure, and rationale.
-7. ⚪ Explain in detail the architecture of the platform you're working on.
-8. ⚪ Explain your product's technical stacks and the associated trade-offs.
+1. 🟢 Tell me about the design and architecture of the program you managed. Explain the system end-to-end and various technologies you picked with reason.
+2. 🟢 How would you explain a technical concept to a non-technical person?
+3. 🟢 Describe the most technically complex project you have worked on and explain why it was complex.
+4. 🟢 Explain the most complex product you have built.
+5. 🟢 Can you explain the Agile methodology and its key principles?
+6. 🟢 Explain how you would design Google Play Store, including your choice of database, its structure, and rationale.
+7. 🟢 Explain in detail the architecture of the platform you're working on.
+8. 🟢 Explain your product's technical stacks and the associated trade-offs.
 
 
 ================================================================================
@@ -568,7 +568,7 @@ General TPM Approach
 
 
 ================================================================================
-METRICS & KPIS ⚪
+METRICS & KPIS 🟢
 ================================================================================
 
 📊 Total Questions: 7
@@ -590,17 +590,17 @@ General TPM Approach
 
 📝 All 7 Questions:
 
-1. ⚪ How would you measure the success of a program?
-2. ⚪ How do you develop metrics for a project?
-3. ⚪ You’ve joined a program that has gone through many changes. How would you restructure it to get it back on track?
-4. ⚪ What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
-5. ⚪ How do you define success metrics?
-6. ⚪ Debug a metric that was off by x percentage.
-7. ⚪ What metrics would you use for a voting system?
+1. 🟢 How would you measure the success of a program?
+2. 🟢 How do you develop metrics for a project?
+3. 🟢 You’ve joined a program that has gone through many changes. How would you restructure it to get it back on track?
+4. 🟢 What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+5. 🟢 How do you define success metrics?
+6. 🟢 Debug a metric that was off by x percentage.
+7. 🟢 What metrics would you use for a voting system?
 
 
 ================================================================================
-PROCESS IMPROVEMENT ⚪
+PROCESS IMPROVEMENT 🟢
 ================================================================================
 
 📊 Total Questions: 6
@@ -622,12 +622,12 @@ General TPM Approach
 
 📝 All 6 Questions:
 
-1. ⚪ What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
-2. ⚪ Describe a time when you discovered inefficiency midway through a project. What did you do?
-3. ⚪ What would you have done differently in a process you improved?
-4. ⚪ Discuss a broken process in your organization and how you addressed it.
-5. ⚪ How has this program improved or deteriorated because of your involvement?
-6. ⚪ How would you address the issue of unstructured data in the data warehouse to improve report efficiency for clients?
+1. 🟢 What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+2. 🟢 Describe a time when you discovered inefficiency midway through a project. What did you do?
+3. 🟢 What would you have done differently in a process you improved?
+4. 🟢 Discuss a broken process in your organization and how you addressed it.
+5. 🟢 How has this program improved or deteriorated because of your involvement?
+6. 🟢 How would you address the issue of unstructured data in the data warehouse to improve report efficiency for clients?
 
 
 ================================================================================
@@ -766,7 +766,7 @@ General TPM Approach
 
 
 ================================================================================
-PRIORITIZATION ⚪
+PRIORITIZATION 🟢
 ================================================================================
 
 📊 Total Questions: 4
@@ -812,10 +812,10 @@ Prioritization
 
 📝 All 4 Questions:
 
-1. ⚪ How do you prioritize tasks?
-2. ⚪ Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.
-3. ⚪ Tell me about a time when you were forced to prioritize multiple projects.
-4. ⚪ Explain your product's technical stacks and the associated trade-offs.
+1. 🟢 How do you prioritize tasks?
+2. 🟢 Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.
+3. 🟢 Tell me about a time when you were forced to prioritize multiple projects.
+4. 🟢 Explain your product's technical stacks and the associated trade-offs.
 
 
 ================================================================================

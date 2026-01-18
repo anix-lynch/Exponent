@@ -231,7 +231,7 @@ Product Strategy
 
 📝 **All 1 Question:**
 
-1. ⚪ How would you evaluate whether a new product launch was financially successful?
+1. 💗 How would you evaluate whether a new product launch was financially successful?
 
 ================================================================================
 COST MANAGEMENT ⚪

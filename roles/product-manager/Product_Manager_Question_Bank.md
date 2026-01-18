@@ -73,7 +73,7 @@ General Approach
 30. Based on the latest AI news, what ideas do you have that are one step beyond what exists today?
 31. If you have allocated budget, how would you solve the climate crisis problem?
 32. How would you build TinyURL?
-33. ~~Design Facebook Messenger.~~ *(incomplete - coding problem title only)*
+33. Design Facebook Messenger.
 34. What's the biggest threat to YouTube?
 35. As a PM for Instagram Shops, how would you increase the number of transactions?
 36. Describe a situation where you negotiated a win-win outcome.
@@ -129,7 +129,7 @@ General Approach
 86. Google PM Discussion Board.
 87. Coinbase's net income is 10% less than it was last month. What would you do?
 88. Tell me about the most complex project you have led.
-89. ~~Design Uber Eats.~~ *(incomplete - coding problem title only)*
+89. Design Uber Eats.
 90. Design the recommendation engine for Amazon’s homepage.
 91. Tell me about your greatest success.
 92. As a PM at Airbnb, how would you increase bookings?
@@ -1302,7 +1302,7 @@ Feature Design
 112. Reinvent a pillow with 10 new features.
 113. How would you improve the Pinterest experience?
 114. What are 4 features you would build for Netflix?
-115. ~~Improve Pinterest.~~ *(incomplete - coding problem title only)*
+115. Improve Pinterest.
 116. What is your favorite Microsoft product, what do you dislike about it, and how would you improve it?
 117. As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
 118. What would be your strategy to improve Google Maps as a product?
@@ -1334,7 +1334,7 @@ Feature Design
 144. How might you improve Spotify using social features?
 145. Improve the Apple Watch.
 146. Improve Google Maps for group travel.
-147. ~~Improve Discord.~~ *(incomplete - coding problem title only)*
+147. Improve Discord.
 148. You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
 149. Reinvent a backpack with 10 new features.
 150. How would you measure the success of improvements made to Uber's referral system?
@@ -1487,7 +1487,7 @@ General Approach
 
 
 ================================================================================
-PRODUCT STRATEGY ⚪
+PRODUCT STRATEGY 💗
 ================================================================================
 
 📊 Total Questions: 134
@@ -1509,144 +1509,144 @@ General Approach
 
 📝 All 134 Questions:
 
-1. ⚪ You've just launched Facebook Jobs, a marketplace for employees and employers. Job listings are up 20%, but employer response time for applicants is down 20%. How would you approach this?
-2. ⚪ You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap.  Your engineers are already working hard on a task outlined. What would you do?
-3. ⚪ As a PM for Meta, how would you measure the success of launching a job marketplace?
-4. ⚪ Should Google enter the furniture market?
-5. ⚪ What metrics do you use to measure the success of a product launch?
-6. ⚪ As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?
-7. ⚪ You're a PM of Meta Payments. Average price per transaction is dropping significantly after launching in India and Southeast Asia. How would you define success and decide whether to continue this?
-8. ⚪ Tell me about a product you launched successfully.
-9. ⚪ Imagine you launched a feature that users really like and find helpful, but it isn’t driving any measurable business value. What would you do?
-10. ⚪ Should Uber launch an 'Uber for Kids' service? If so, how would you design it?
-11. ⚪ Imagine you are a PM at Amazon and Walmart is entering your country. How would you respond?
-12. ⚪ OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?
-13. ⚪ What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?
-14. ⚪ Should Google enter into the online furniture-selling market?
-15. ⚪ You're a PM at Netflix. Should Netflix launch a podcasting app?
-16. ⚪ OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics for it?
-17. ⚪ How would you launch a product for the proactivity space in Gemini?
-18. ⚪ We're considering introducing a new ads placement on our app's homepage. Should we do it?
-19. ⚪ As a PM at Meta launching a new video conference product, define the success metrics.
-20. ⚪ You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?
-21. ⚪ A large enterprise customer wants to integrate Sierra, what would you build first and why?
-22. ⚪ You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?
-23. ⚪ You're a PM at Netflix tasked with launching their first ads program. How would you approach this?
-24. ⚪ Why is Android strategic for Google?
-25. ⚪ How would you measure the success of a local ads product at launch?
-26. ⚪ How should Google launch a new teleportation product?
-27. ⚪ You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
-28. ⚪ You're a PM at Trader Joe's and you find that sales revenues are down. Design the experience for users based on competitors like Blue Apron.
-29. ⚪ You're a PM for Walmart building a new fulfillment center. What products would you stock?
-30. ⚪ Google has just launched a new generational elevator. How would you convince customers to buy the product?
-31. ⚪ What strategic pillars will you use to keep Maps data fresh through user-generated content?
-32. ⚪ Should Microsoft Azure build a data center in space?
-33. ⚪ Should Agoda launch a subscription service called 'Agoda Prime'?
-34. ⚪ Design a next-generation elevator if Google were to enter this market.
-35. ⚪ If Google Maps wants to launch in South Korea, how should it choose between three local vendors for map data?
-36. ⚪ What are the business benefits and strategic reasons for a bank to develop a banking app?
-37. ⚪ You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do?
-38. ⚪ As a product manager at OpenAI, build an enterprise product.
-39. ⚪ Design a direct competitor to your favorite product.
-40. ⚪ Tell me about a time when you failed to launch a product.
-41. ⚪ Tell me about a time when you had to change the direction of a project that was 70% complete.
-42. ⚪ As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?
-43. ⚪ Walmart's top product, dishwashing liquid, drives strong sales. Now eyeing the laptop market, would you invest in boosting dish soap production or launching a new laptop line?
-44. ⚪ Who are TikTok's competitors?
-45. ⚪ Meta wants to build a product for handymen like plumbers and carpenters. How would you design it?
-46. ⚪ What would make you delay a major launch even under executive pressure?
-47. ⚪ Uber is planning to launch ride services for children aged 8-12 years in India. What factors would you consider given that kids of this age won't have mobile access? What modifications would you su...
-48. ⚪ You are the PM for a new product launch, but internal stakeholders won't have their component ready for the next six months. How would you proceed with the launch?
-49. ⚪ As the PM for Hangouts, what would be your next steps after it launched in 2013 with a 3-star rating and polarized reviews?
-50. ⚪ Square recently launched a product that helps sellers train their staff. What is your strategy for increasing the revenue of this product by 5x in the next year?
-51. ⚪ With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?
-52. ⚪ How would you increase revenue and market share for Skype?
-53. ⚪ You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
-54. ⚪ You're a PM on the Google Pixel team. What would justify launching an affordable entry-level Pixel phone?
-55. ⚪ Determine if we should launch a feature of Instagram Store that allows purchases without logging in.
-56. ⚪ List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
-57. ⚪ How have you changed an opinion or direction using data?
-58. ⚪ As a PM for an elevator company, how would you design new features to adapt your elevators for skyscrapers, distinguishing them from competitors?
-59. ⚪ Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with me...
-60. ⚪ You're a PM at a big tech company. You have a product launch in one week, however, the legal team just flagged 100+ potential issues. What would you do?
-61. ⚪ How would you launch a product for a digital library as a Google PM?
-62. ⚪ Should Slack enter the education market by launching Slack for education?
-63. ⚪ Should Uber enter the e-scooter space in SFO, given a timeline from 7-8 years ago?
-64. ⚪ Tell me about a time when you launched a product.
-65. ⚪ As a product manager ready for launch, what is a good go-to-market strategy?
-66. ⚪ If Facebook wants to enter the podcast space, what would you build?
-67. ⚪ How would Google enter the food delivery space?
-68. ⚪ Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
-69. ⚪ Tell me about a project where you recognized the need to alter the strategy or direction.
-70. ⚪ Share your experience around launching a product from 0 to 1.
-71. ⚪ Describe what happens when you type a URL into your browser and press Enter.
-72. ⚪ As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
-73. ⚪ You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?
-74. ⚪ What industry do you think could benefit the most from enterprise ChatGPT?
-75. ⚪ Why is it important for users to complete their LinkedIn profile? Discuss both user and enterprise perspectives.
-76. ⚪ What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
-77. ⚪ Should Google offer an Airbnb competitor?
-78. ⚪ Tell me about a time when you were unable to launch your product on schedule.
-79. ⚪ Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
-80. ⚪ Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
-81. ⚪ How would you determine if launching a new product is worthwhile?
-82. ⚪ Why did Stripe launch Stripe Atlas, Stripe Press, and acquire Indie Hackers?
-83. ⚪ How should Google partner with the movie industry to enter the streaming space?
-84. ⚪ Explain a feature you've launched.
-85. ⚪ You are a PM for a grocery delivery app and need to launch the first version of the app in 3 months. How would you approach this go-to-market strategy?
-86. ⚪ How would you price the Amazon Kindle at launch?
-87. ⚪ How many bikes are needed to launch a bike-sharing service in NYC?
-88. ⚪ As a PM at Slack, how would you redesign the product to enter the education sector?
-89. ⚪ You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
-90. ⚪ Should Google enter the Metaverse space? If so, how?
-91. ⚪ Help Spotify launch in South Africa.
-92. ⚪ How would you launch a scheduled rides feature for Uber or Lyft?
-93. ⚪ Google wants to enter the grocery business. Mr. Sundar Pichai, the CEO, asks for your product design and strategy for this venture over the next 6-9 months. What is your plan?
-94. ⚪ As a PM at Amazon, how would you decide if the company should enter the smartphone market?
-95. ⚪ Design a competitor product to Spotify.
-96. ⚪ If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
-97. ⚪ Discuss how you managed an end-to-end product design to launch.
-98. ⚪ Should we build a product for borrowing and lending money on Facebook?
-99. ⚪ You are tasked to launch a RFI (Request for Information) Tool. How would you plan to develop and launch this product?
-100. ⚪ Should Google create a Slack competitor?
-101. ⚪ Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
-102. ⚪ You're an early PM at Facebook. How would you evaluate the launching of its feed?
-103. ⚪ Tell me about a time when you changed the direction of the organization through your actions.
-104. ⚪ How would you launch a new product to our existing user base?
-105. ⚪ You're a PM at LinkedIn in 2018, launching LinkedIn Live Video. How would you determine success?
-106. ⚪ What metrics would you track upon launching a new e-commerce website and why?
-107. ⚪ If a company’s top product is dish soap but it plans to launch laptops, how would you decide where to allocate resources?
-108. ⚪ If Google wants to enter the market for helping people find lost belongings, what should the product look like, and should it be built?
-109. ⚪ What's your favorite enterprise app?
-110. ⚪ Tell me about your favorite product. How would you build its competitor?
-111. ⚪ Tell me what you know about Hubspot and its market share.
-112. ⚪ Should Facebook launch a 2D gaming product?
-113. ⚪ Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?
-114. ⚪ Design a parking garage for a high-tech shopping center.
-115. ⚪ Explain how you took or would take a product from ideation to launch.
-116. ⚪ You’re a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?
-117. ⚪ How would you launch Amazon in Nigeria?
-118. ⚪ Estimate how much bandwidth is needed for launching YouTube TV.
-119. ⚪ How do you define success metrics when launching a new feature?
-120. ⚪ Do you think Google should launch a driverless car service for children under 16 years old?
-121. ⚪ What pre-work do you need to do for Google to enter a new bicycle business targeting children?
-122. ⚪ How would you re-architect WordPerfect as a PM to increase its market share?
-123. ⚪ Design a Google-branded inflight entertainment system.
-124. ⚪ Google wants to launch a coding language. How should it go about it?
-125. ⚪ You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting?
-126. ⚪ How would you launch a new product in the blue-collar service industry?
-127. ⚪ You're launching Google Maps in Argentina vs. Brazil. How would you decide between the two markets?
-128. ⚪ As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct...
-129. ⚪ Which enterprise product do you look up to?
-130. ⚪ Diagnose a 35% drop in usage on Invision.
-131. ⚪ How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?
-132. ⚪ How should WeChat further expand into America?
-133. ⚪ Where should the company launch next?
-134. ⚪ Assess a project's competitors.
+1. 💗 You've just launched Facebook Jobs, a marketplace for employees and employers. Job listings are up 20%, but employer response time for applicants is down 20%. How would you approach this?
+2. 💗 You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap.  Your engineers are already working hard on a task outlined. What would you do?
+3. 💗 As a PM for Meta, how would you measure the success of launching a job marketplace?
+4. 💗 Should Google enter the furniture market?
+5. 💗 What metrics do you use to measure the success of a product launch?
+6. 💗 As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?
+7. 💗 You're a PM of Meta Payments. Average price per transaction is dropping significantly after launching in India and Southeast Asia. How would you define success and decide whether to continue this?
+8. 💗 Tell me about a product you launched successfully.
+9. 💗 Imagine you launched a feature that users really like and find helpful, but it isn’t driving any measurable business value. What would you do?
+10. 💗 Should Uber launch an 'Uber for Kids' service? If so, how would you design it?
+11. 💗 Imagine you are a PM at Amazon and Walmart is entering your country. How would you respond?
+12. 💗 OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?
+13. 💗 What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?
+14. 💗 Should Google enter into the online furniture-selling market?
+15. 💗 You're a PM at Netflix. Should Netflix launch a podcasting app?
+16. 💗 OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics for it?
+17. 💗 How would you launch a product for the proactivity space in Gemini?
+18. 💗 We're considering introducing a new ads placement on our app's homepage. Should we do it?
+19. 💗 As a PM at Meta launching a new video conference product, define the success metrics.
+20. 💗 You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?
+21. 💗 A large enterprise customer wants to integrate Sierra, what would you build first and why?
+22. 💗 You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?
+23. 💗 You're a PM at Netflix tasked with launching their first ads program. How would you approach this?
+24. 💗 Why is Android strategic for Google?
+25. 💗 How would you measure the success of a local ads product at launch?
+26. 💗 How should Google launch a new teleportation product?
+27. 💗 You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
+28. 💗 You're a PM at Trader Joe's and you find that sales revenues are down. Design the experience for users based on competitors like Blue Apron.
+29. 💗 You're a PM for Walmart building a new fulfillment center. What products would you stock?
+30. 💗 Google has just launched a new generational elevator. How would you convince customers to buy the product?
+31. 💗 What strategic pillars will you use to keep Maps data fresh through user-generated content?
+32. 💗 Should Microsoft Azure build a data center in space?
+33. 💗 Should Agoda launch a subscription service called 'Agoda Prime'?
+34. 💗 Design a next-generation elevator if Google were to enter this market.
+35. 💗 If Google Maps wants to launch in South Korea, how should it choose between three local vendors for map data?
+36. 💗 What are the business benefits and strategic reasons for a bank to develop a banking app?
+37. 💗 You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do?
+38. 💗 As a product manager at OpenAI, build an enterprise product.
+39. 💗 Design a direct competitor to your favorite product.
+40. 💗 Tell me about a time when you failed to launch a product.
+41. 💗 Tell me about a time when you had to change the direction of a project that was 70% complete.
+42. 💗 As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?
+43. 💗 Walmart's top product, dishwashing liquid, drives strong sales. Now eyeing the laptop market, would you invest in boosting dish soap production or launching a new laptop line?
+44. 💗 Who are TikTok's competitors?
+45. 💗 Meta wants to build a product for handymen like plumbers and carpenters. How would you design it?
+46. 💗 What would make you delay a major launch even under executive pressure?
+47. 💗 Uber is planning to launch ride services for children aged 8-12 years in India. What factors would you consider given that kids of this age won't have mobile access? What modifications would you su...
+48. 💗 You are the PM for a new product launch, but internal stakeholders won't have their component ready for the next six months. How would you proceed with the launch?
+49. 💗 As the PM for Hangouts, what would be your next steps after it launched in 2013 with a 3-star rating and polarized reviews?
+50. 💗 Square recently launched a product that helps sellers train their staff. What is your strategy for increasing the revenue of this product by 5x in the next year?
+51. 💗 With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?
+52. 💗 How would you increase revenue and market share for Skype?
+53. 💗 You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
+54. 💗 You're a PM on the Google Pixel team. What would justify launching an affordable entry-level Pixel phone?
+55. 💗 Determine if we should launch a feature of Instagram Store that allows purchases without logging in.
+56. 💗 List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
+57. 💗 How have you changed an opinion or direction using data?
+58. 💗 As a PM for an elevator company, how would you design new features to adapt your elevators for skyscrapers, distinguishing them from competitors?
+59. 💗 Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with me...
+60. 💗 You're a PM at a big tech company. You have a product launch in one week, however, the legal team just flagged 100+ potential issues. What would you do?
+61. 💗 How would you launch a product for a digital library as a Google PM?
+62. 💗 Should Slack enter the education market by launching Slack for education?
+63. 💗 Should Uber enter the e-scooter space in SFO, given a timeline from 7-8 years ago?
+64. 💗 Tell me about a time when you launched a product.
+65. 💗 As a product manager ready for launch, what is a good go-to-market strategy?
+66. 💗 If Facebook wants to enter the podcast space, what would you build?
+67. 💗 How would Google enter the food delivery space?
+68. 💗 Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
+69. 💗 Tell me about a project where you recognized the need to alter the strategy or direction.
+70. 💗 Share your experience around launching a product from 0 to 1.
+71. 💗 Describe what happens when you type a URL into your browser and press Enter.
+72. 💗 As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
+73. 💗 You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?
+74. 💗 What industry do you think could benefit the most from enterprise ChatGPT?
+75. 💗 Why is it important for users to complete their LinkedIn profile? Discuss both user and enterprise perspectives.
+76. 💗 What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
+77. 💗 Should Google offer an Airbnb competitor?
+78. 💗 Tell me about a time when you were unable to launch your product on schedule.
+79. 💗 Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
+80. 💗 Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
+81. 💗 How would you determine if launching a new product is worthwhile?
+82. 💗 Why did Stripe launch Stripe Atlas, Stripe Press, and acquire Indie Hackers?
+83. 💗 How should Google partner with the movie industry to enter the streaming space?
+84. 💗 Explain a feature you've launched.
+85. 💗 You are a PM for a grocery delivery app and need to launch the first version of the app in 3 months. How would you approach this go-to-market strategy?
+86. 💗 How would you price the Amazon Kindle at launch?
+87. 💗 How many bikes are needed to launch a bike-sharing service in NYC?
+88. 💗 As a PM at Slack, how would you redesign the product to enter the education sector?
+89. 💗 You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
+90. 💗 Should Google enter the Metaverse space? If so, how?
+91. 💗 Help Spotify launch in South Africa.
+92. 💗 How would you launch a scheduled rides feature for Uber or Lyft?
+93. 💗 Google wants to enter the grocery business. Mr. Sundar Pichai, the CEO, asks for your product design and strategy for this venture over the next 6-9 months. What is your plan?
+94. 💗 As a PM at Amazon, how would you decide if the company should enter the smartphone market?
+95. 💗 Design a competitor product to Spotify.
+96. 💗 If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
+97. 💗 Discuss how you managed an end-to-end product design to launch.
+98. 💗 Should we build a product for borrowing and lending money on Facebook?
+99. 💗 You are tasked to launch a RFI (Request for Information) Tool. How would you plan to develop and launch this product?
+100. 💗 Should Google create a Slack competitor?
+101. 💗 Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
+102. 💗 You're an early PM at Facebook. How would you evaluate the launching of its feed?
+103. 💗 Tell me about a time when you changed the direction of the organization through your actions.
+104. 💗 How would you launch a new product to our existing user base?
+105. 💗 You're a PM at LinkedIn in 2018, launching LinkedIn Live Video. How would you determine success?
+106. 💗 What metrics would you track upon launching a new e-commerce website and why?
+107. 💗 If a company’s top product is dish soap but it plans to launch laptops, how would you decide where to allocate resources?
+108. 💗 If Google wants to enter the market for helping people find lost belongings, what should the product look like, and should it be built?
+109. 💗 What's your favorite enterprise app?
+110. 💗 Tell me about your favorite product. How would you build its competitor?
+111. 💗 Tell me what you know about Hubspot and its market share.
+112. 💗 Should Facebook launch a 2D gaming product?
+113. 💗 Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?
+114. 💗 Design a parking garage for a high-tech shopping center.
+115. 💗 Explain how you took or would take a product from ideation to launch.
+116. 💗 You’re a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?
+117. 💗 How would you launch Amazon in Nigeria?
+118. 💗 Estimate how much bandwidth is needed for launching YouTube TV.
+119. 💗 How do you define success metrics when launching a new feature?
+120. 💗 Do you think Google should launch a driverless car service for children under 16 years old?
+121. 💗 What pre-work do you need to do for Google to enter a new bicycle business targeting children?
+122. 💗 How would you re-architect WordPerfect as a PM to increase its market share?
+123. 💗 Design a Google-branded inflight entertainment system.
+124. 💗 Google wants to launch a coding language. How should it go about it?
+125. 💗 You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting?
+126. 💗 How would you launch a new product in the blue-collar service industry?
+127. 💗 You're launching Google Maps in Argentina vs. Brazil. How would you decide between the two markets?
+128. 💗 As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct...
+129. 💗 Which enterprise product do you look up to?
+130. 💗 Diagnose a 35% drop in usage on Invision.
+131. 💗 How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?
+132. 💗 How should WeChat further expand into America?
+133. 💗 Where should the company launch next?
+134. 💗 Assess a project's competitors.
 
 
 ================================================================================
-METRICS ⚪
+METRICS 🟢
 ================================================================================
 
 📊 Total Questions: 128
@@ -1668,134 +1668,134 @@ General Approach
 
 📝 All 128 Questions:
 
-1. ⚪ Design a system to track reviews abuse on Amazon.com.
-2. ⚪ How would you define success metrics for an AI-oriented feature or product?
-3. ⚪ You're a PM at Meta. Why should Meta continue investing in Reels? What goals and metrics would you set?
-4. ⚪ You're the PM for a calendar app. How would you design metrics for it?
-5. ⚪ How would you measure success for Facebook Events?
-6. ⚪ What are the most important metrics for DoorDash?
-7. ⚪ What methods or metrics did you use to evaluate how well your LLM performs?
-8. ⚪ What key metrics would you use to measure the success of Zoom?
-9. ⚪ As the Product Manager for Google Docs, facing a 10% decrease in the 'Open' metrics, what steps would you take to investigate and address this decline?
-10. ⚪ You're a PM for Meta's Payments Platform. How would you improve the platform and what north star metric would you use?
-11. ⚪ What metrics do you use to measure the success of a product launch?
-12. ⚪ You're a PM for Meta's Verified Badge. Why would Meta build this product and how would you set goals and success metrics for it?
-13. ⚪ What are the key metrics you would use to measure the success of Google Sheets?
-14. ⚪ If you could choose 5 metrics for TikTok's customer service platform, what would they be?
-15. ⚪ What metrics would you focus on as the PM for YouTube?
-16. ⚪ Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.
-17. ⚪ OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?
-18. ⚪ Define success metrics for Zoom for Business.
-19. ⚪ You're a PM for Spotify Podcasts. Why did your team add podcasts to Spotify and why before audiobooks? What metrics were used to track the product's success?
-20. ⚪ What should Airbnb's key north star metrics be?
-21. ⚪ What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?
-22. ⚪ Tell me about a time when you used a specific metric to drive change in your department.
-23. ⚪ OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics for it?
-24. ⚪ Imagine you're a PM for Meta. What goals and metrics would you set for Horizon Worlds, a Meta Quest VR game?
-25. ⚪ You're a PM for Instagram Reels. Why has Meta invested in this product? Should they invest more? What goals and metrics would you track for the next 12 months?
-26. ⚪ As a PM at Meta launching a new video conference product, define the success metrics.
-27. ⚪ You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?
-28. ⚪ What metrics would you define for the success of Facebook Lite?
-29. ⚪ As the PM for Ads in Facebook Reels, how would you measure success?
-30. ⚪ You're a PM at Zoom. What goals and metrics would you track?
-31. ⚪ Meta's office in Menlo Park is considering eliminating either a bus route or an Uber-style rideshare. What metrics would you use to decide and what are the tradeoffs?
-32. ⚪ Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?
-33. ⚪ How would you measure success metrics for Facebook Fundraisers?
-34. ⚪ What should be the north star metric for Google Photos?
-35. ⚪ You're a PM for Facebook Events. Why would Meta build this product and what metrics would you use to measure its success?
-36. ⚪ What north star metric would you track for Facebook Events?
-37. ⚪ You're a PM for Netflix's homepage. How would you set goals and what metrics will you use to measure success?
-38. ⚪ You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?
-39. ⚪ If you were PM for a workplace chat app, what metrics would you use to measure its success?
-40. ⚪ As a PM at Meta, what key metrics would you track for Meta's Workplace Chat?
-41. ⚪ What are the success metrics for Meta's AI-powered messaging features?
-42. ⚪ You're the PM for Instagram Reels and want to test new advertising formats. What metrics would you track?
-43. ⚪ You are a Meta PM. Your team is tasked with ensuring no bad ads are displayed on any Meta application. What goals would you set? How would you measure success?
-44. ⚪ As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?
-45. ⚪ What metrics would you track to evaluate a new ‘Top Picks’ ML feature for Netflix?
-46. ⚪ If you were a PM for Workplace, what metrics would you use to define success?
-47. ⚪ Describe the worst customer experience possible with Ticketmaster, Turo, or a major hotel chain. Then, identify a north-star metric and propose an MVP solution.
-48. ⚪ Is introducing Meta AI within Instagram DMs a good investment for Meta? If so, why? What are the goals you would set? What metrics would you track to see if it is working and to ensure product health?
-49. ⚪ Set the success metrics for Google Maps.
-50. ⚪ What metrics would you track if we are strategizing an increase in sales of Google's wireless headset?
-51. ⚪ You're the PM for Instagram Stories. What is your North Star metric?
-52. ⚪ You're PM for Facebook ads. How would you define success metrics for the team? You're considering adding GenAI capabilities to the ad creation process for new sellers. How would you decide whether ...
-53. ⚪ You're the PM for Amazon's shopping cart. What are the most important metrics for this product?
-54. ⚪ How would you define success for Instagram Reels and what metrics would you use? If Instagram Reels engagement is growing but Instagram Feed engagement is declining, what actions would you take?
-55. ⚪ As a PM for Spotify Podcasts, what success metrics would you define? If engagement on Spotify Music is down while engagement on Spotify Podcasts is up, what actions would you take?
-56. ⚪ You're the GM of Google Photos preparing a one-page document. What key metrics would you include?
-57. ⚪ A key metric is declining—what would you investigate first and how would you prioritize what to build?
-58. ⚪ You're a PM for Horizon Worlds. What metrics do you focus on first?
-59. ⚪ How would you measure success for Facebook Reels?
-60. ⚪ Define success metrics for Facebook Pay.
-61. ⚪ As a PM at Uber, what key metrics would you track to measure its success in a new city?
-62. ⚪ What metrics would you use to measure the success of the virtual card number feature?
-63. ⚪ You're the PM of Google Doodles. What would your top three metrics be and why?
-64. ⚪ How would you measure success for Instagram Shops, excluding ad revenue?
-65. ⚪ What are the key metrics for a food delivery app, particularly those indicating an oversupply or undersupply of restaurants and orders?
-66. ⚪ Why should Meta build Facebook Events, and what metrics would you use to measure success?
-67. ⚪ What metrics would you focus on as the PM for an e-commerce store?
-68. ⚪ Tell me about your three favorite apps. As the CEO of one, what would be your most important KPI?
-69. ⚪ What is the most important metric for Airbnb?
-70. ⚪ As a PM at DoorDash, define some goals and metrics for the business.
-71. ⚪ What success metrics would you create for Airbnb's homepage?
-72. ⚪ Imagine you're the PM for Uber Lite in a city of your choice. What metrics would you define to measure success?
-73. ⚪ As the CEO of WhatsApp, what are the top 5 metrics you should focus on to measure the app's success?
-74. ⚪ You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do?
-75. ⚪ As a product manager, what KPIs matter most to you?
-76. ⚪ You're a PM for a video conferencing app. What success metrics would you define for this app?
-77. ⚪ What metrics did you use to train and evaluate your models?
-78. ⚪ Users are creating more Instagram Stories, but engagement is down. What metrics would you track to improve this?
-79. ⚪ As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?
-80. ⚪ If you were the PM for Google Drive, what metrics would you prioritize?
-81. ⚪ Tell me about a time data was the north star metric and how the analysis was performed.
-82. ⚪ How would you define success metrics for Google Flight Search?
-83. ⚪ What metrics would you use to increase posts with comments in a group?
-84. ⚪ If you had to create a dashboard for Netflix with only 3 metrics, what would they be?
-85. ⚪ You're a PM for Tesla. What success metrics would you use for Tesla's 'Sales & Delivery' app?
-86. ⚪ What are the KPIs for push notifications?
-87. ⚪ You're a PM at Airbnb. What would you choose as the company's north star metric and why?
-88. ⚪ How does Uber Eats track success?
-89. ⚪ Tell me about a decision you made based on a metric you were tracking.
-90. ⚪ What are the most important metrics for Yelp?
-91. ⚪ Set goals and metrics for Instagram Store. What if purchases increase but engagement drops in other app areas?
-92. ⚪ What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
-93. ⚪ What is the most important metric for Instagram's verified badges?
-94. ⚪ As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
-95. ⚪ You're a PM at Spotify. What metrics would you use to decide whether to ship a new song recommendation algorithm?
-96. ⚪ How would you measure the metrics for TurboTax?
-97. ⚪ Design a recommendation system for Amazon. What key metrics would you use to measure its success?
-98. ⚪ How would you set goals and metrics for Facebook Work Chat?
-99. ⚪ What are the key metrics you track for the product you currently manage?
-100. ⚪ Define the goals and success metrics for the default pick-up location pin feature.
-101. ⚪ Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou...
-102. ⚪ What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
-103. ⚪ Tell me about a time you got a project back on track.
-104. ⚪ Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
-105. ⚪ Define relevant metrics for COVID-related searches on Google.
-106. ⚪ For a new vertical such as peer-to-peer car rental at a super-app like Grab, what metrics would you examine in the first six months to assess its potential?
-107. ⚪ How would you set goals and metrics for Facebook Rooms?
-108. ⚪ Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.
-109. ⚪ As the PM of a startup that matches people for music collaborations, how would you measure success?
-110. ⚪ Define a north star metric for Airbnb.
-111. ⚪ If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
-112. ⚪ You are in charge of building a national park system in a newly formed country; how would you measure success?
-113. ⚪ You're a PM for FB Audio Room, what metrics would you measure?
-114. ⚪ How would you set goals and measure success for Webex?
-115. ⚪ What metrics would you track upon launching a new e-commerce website and why?
-116. ⚪ How would you track success at Slack?
-117. ⚪ What metrics would you consider for designing a robot at Facebook?
-118. ⚪ How would you improve shipment tracking on Amazon?
-119. ⚪ Why do you think Facebook built the dating product? How would you measure its overall impact and set North Star metrics?
-120. ⚪ Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?
-121. ⚪ How do Amazon price tracker tools like Aarabuy work?
-122. ⚪ Design a product to track animals.
-123. ⚪ What is a good North Star metric for the COO of a delivery company like FedEx, UPS, or Delhivery to monitor ground operations?
-124. ⚪ What are the metrics for contextual search on Instagram?
-125. ⚪ How do you define success metrics when launching a new feature?
-126. ⚪ How would you measure metrics for BART?
-127. ⚪ List your top three favorite products. How will you measure success and mention all possible areas?
-128. ⚪ You're called in by the government of India to design the Cowin portal. What top features would you integrate for partner personas? What key metrics would indicate the platform's success and how wo...
+1. 🟢 Design a system to track reviews abuse on Amazon.com.
+2. 🟢 How would you define success metrics for an AI-oriented feature or product?
+3. 🟢 You're a PM at Meta. Why should Meta continue investing in Reels? What goals and metrics would you set?
+4. 🟢 You're the PM for a calendar app. How would you design metrics for it?
+5. 🟢 How would you measure success for Facebook Events?
+6. 🟢 What are the most important metrics for DoorDash?
+7. 🟢 What methods or metrics did you use to evaluate how well your LLM performs?
+8. 🟢 What key metrics would you use to measure the success of Zoom?
+9. 🟢 As the Product Manager for Google Docs, facing a 10% decrease in the 'Open' metrics, what steps would you take to investigate and address this decline?
+10. 🟢 You're a PM for Meta's Payments Platform. How would you improve the platform and what north star metric would you use?
+11. 🟢 What metrics do you use to measure the success of a product launch?
+12. 🟢 You're a PM for Meta's Verified Badge. Why would Meta build this product and how would you set goals and success metrics for it?
+13. 🟢 What are the key metrics you would use to measure the success of Google Sheets?
+14. 🟢 If you could choose 5 metrics for TikTok's customer service platform, what would they be?
+15. 🟢 What metrics would you focus on as the PM for YouTube?
+16. 🟢 Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.
+17. 🟢 OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?
+18. 🟢 Define success metrics for Zoom for Business.
+19. 🟢 You're a PM for Spotify Podcasts. Why did your team add podcasts to Spotify and why before audiobooks? What metrics were used to track the product's success?
+20. 🟢 What should Airbnb's key north star metrics be?
+21. 🟢 What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?
+22. 🟢 Tell me about a time when you used a specific metric to drive change in your department.
+23. 🟢 OpenAI is launching AirPods-like hardware with built-in voice AI. How would you set goals and success metrics for it?
+24. 🟢 Imagine you're a PM for Meta. What goals and metrics would you set for Horizon Worlds, a Meta Quest VR game?
+25. 🟢 You're a PM for Instagram Reels. Why has Meta invested in this product? Should they invest more? What goals and metrics would you track for the next 12 months?
+26. 🟢 As a PM at Meta launching a new video conference product, define the success metrics.
+27. 🟢 You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?
+28. 🟢 What metrics would you define for the success of Facebook Lite?
+29. 🟢 As the PM for Ads in Facebook Reels, how would you measure success?
+30. 🟢 You're a PM at Zoom. What goals and metrics would you track?
+31. 🟢 Meta's office in Menlo Park is considering eliminating either a bus route or an Uber-style rideshare. What metrics would you use to decide and what are the tradeoffs?
+32. 🟢 Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?
+33. 🟢 How would you measure success metrics for Facebook Fundraisers?
+34. 🟢 What should be the north star metric for Google Photos?
+35. 🟢 You're a PM for Facebook Events. Why would Meta build this product and what metrics would you use to measure its success?
+36. 🟢 What north star metric would you track for Facebook Events?
+37. 🟢 You're a PM for Netflix's homepage. How would you set goals and what metrics will you use to measure success?
+38. 🟢 You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?
+39. 🟢 If you were PM for a workplace chat app, what metrics would you use to measure its success?
+40. 🟢 As a PM at Meta, what key metrics would you track for Meta's Workplace Chat?
+41. 🟢 What are the success metrics for Meta's AI-powered messaging features?
+42. 🟢 You're the PM for Instagram Reels and want to test new advertising formats. What metrics would you track?
+43. 🟢 You are a Meta PM. Your team is tasked with ensuring no bad ads are displayed on any Meta application. What goals would you set? How would you measure success?
+44. 🟢 As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?
+45. 🟢 What metrics would you track to evaluate a new ‘Top Picks’ ML feature for Netflix?
+46. 🟢 If you were a PM for Workplace, what metrics would you use to define success?
+47. 🟢 Describe the worst customer experience possible with Ticketmaster, Turo, or a major hotel chain. Then, identify a north-star metric and propose an MVP solution.
+48. 🟢 Is introducing Meta AI within Instagram DMs a good investment for Meta? If so, why? What are the goals you would set? What metrics would you track to see if it is working and to ensure product health?
+49. 🟢 Set the success metrics for Google Maps.
+50. 🟢 What metrics would you track if we are strategizing an increase in sales of Google's wireless headset?
+51. 🟢 You're the PM for Instagram Stories. What is your North Star metric?
+52. 🟢 You're PM for Facebook ads. How would you define success metrics for the team? You're considering adding GenAI capabilities to the ad creation process for new sellers. How would you decide whether ...
+53. 🟢 You're the PM for Amazon's shopping cart. What are the most important metrics for this product?
+54. 🟢 How would you define success for Instagram Reels and what metrics would you use? If Instagram Reels engagement is growing but Instagram Feed engagement is declining, what actions would you take?
+55. 🟢 As a PM for Spotify Podcasts, what success metrics would you define? If engagement on Spotify Music is down while engagement on Spotify Podcasts is up, what actions would you take?
+56. 🟢 You're the GM of Google Photos preparing a one-page document. What key metrics would you include?
+57. 🟢 A key metric is declining—what would you investigate first and how would you prioritize what to build?
+58. 🟢 You're a PM for Horizon Worlds. What metrics do you focus on first?
+59. 🟢 How would you measure success for Facebook Reels?
+60. 🟢 Define success metrics for Facebook Pay.
+61. 🟢 As a PM at Uber, what key metrics would you track to measure its success in a new city?
+62. 🟢 What metrics would you use to measure the success of the virtual card number feature?
+63. 🟢 You're the PM of Google Doodles. What would your top three metrics be and why?
+64. 🟢 How would you measure success for Instagram Shops, excluding ad revenue?
+65. 🟢 What are the key metrics for a food delivery app, particularly those indicating an oversupply or undersupply of restaurants and orders?
+66. 🟢 Why should Meta build Facebook Events, and what metrics would you use to measure success?
+67. 🟢 What metrics would you focus on as the PM for an e-commerce store?
+68. 🟢 Tell me about your three favorite apps. As the CEO of one, what would be your most important KPI?
+69. 🟢 What is the most important metric for Airbnb?
+70. 🟢 As a PM at DoorDash, define some goals and metrics for the business.
+71. 🟢 What success metrics would you create for Airbnb's homepage?
+72. 🟢 Imagine you're the PM for Uber Lite in a city of your choice. What metrics would you define to measure success?
+73. 🟢 As the CEO of WhatsApp, what are the top 5 metrics you should focus on to measure the app's success?
+74. 🟢 You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do?
+75. 🟢 As a product manager, what KPIs matter most to you?
+76. 🟢 You're a PM for a video conferencing app. What success metrics would you define for this app?
+77. 🟢 What metrics did you use to train and evaluate your models?
+78. 🟢 Users are creating more Instagram Stories, but engagement is down. What metrics would you track to improve this?
+79. 🟢 As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?
+80. 🟢 If you were the PM for Google Drive, what metrics would you prioritize?
+81. 🟢 Tell me about a time data was the north star metric and how the analysis was performed.
+82. 🟢 How would you define success metrics for Google Flight Search?
+83. 🟢 What metrics would you use to increase posts with comments in a group?
+84. 🟢 If you had to create a dashboard for Netflix with only 3 metrics, what would they be?
+85. 🟢 You're a PM for Tesla. What success metrics would you use for Tesla's 'Sales & Delivery' app?
+86. 🟢 What are the KPIs for push notifications?
+87. 🟢 You're a PM at Airbnb. What would you choose as the company's north star metric and why?
+88. 🟢 How does Uber Eats track success?
+89. 🟢 Tell me about a decision you made based on a metric you were tracking.
+90. 🟢 What are the most important metrics for Yelp?
+91. 🟢 Set goals and metrics for Instagram Store. What if purchases increase but engagement drops in other app areas?
+92. 🟢 What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+93. 🟢 What is the most important metric for Instagram's verified badges?
+94. 🟢 As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
+95. 🟢 You're a PM at Spotify. What metrics would you use to decide whether to ship a new song recommendation algorithm?
+96. 🟢 How would you measure the metrics for TurboTax?
+97. 🟢 Design a recommendation system for Amazon. What key metrics would you use to measure its success?
+98. 🟢 How would you set goals and metrics for Facebook Work Chat?
+99. 🟢 What are the key metrics you track for the product you currently manage?
+100. 🟢 Define the goals and success metrics for the default pick-up location pin feature.
+101. 🟢 Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou...
+102. 🟢 What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
+103. 🟢 Tell me about a time you got a project back on track.
+104. 🟢 Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
+105. 🟢 Define relevant metrics for COVID-related searches on Google.
+106. 🟢 For a new vertical such as peer-to-peer car rental at a super-app like Grab, what metrics would you examine in the first six months to assess its potential?
+107. 🟢 How would you set goals and metrics for Facebook Rooms?
+108. 🟢 Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.
+109. 🟢 As the PM of a startup that matches people for music collaborations, how would you measure success?
+110. 🟢 Define a north star metric for Airbnb.
+111. 🟢 If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?
+112. 🟢 You are in charge of building a national park system in a newly formed country; how would you measure success?
+113. 🟢 You're a PM for FB Audio Room, what metrics would you measure?
+114. 🟢 How would you set goals and measure success for Webex?
+115. 🟢 What metrics would you track upon launching a new e-commerce website and why?
+116. 🟢 How would you track success at Slack?
+117. 🟢 What metrics would you consider for designing a robot at Facebook?
+118. 🟢 How would you improve shipment tracking on Amazon?
+119. 🟢 Why do you think Facebook built the dating product? How would you measure its overall impact and set North Star metrics?
+120. 🟢 Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?
+121. 🟢 How do Amazon price tracker tools like Aarabuy work?
+122. 🟢 Design a product to track animals.
+123. 🟢 What is a good North Star metric for the COO of a delivery company like FedEx, UPS, or Delhivery to monitor ground operations?
+124. 🟢 What are the metrics for contextual search on Instagram?
+125. 🟢 How do you define success metrics when launching a new feature?
+126. 🟢 How would you measure metrics for BART?
+127. 🟢 List your top three favorite products. How will you measure success and mention all possible areas?
+128. 🟢 You're called in by the government of India to design the Cowin portal. What top features would you integrate for partner personas? What key metrics would indicate the platform's success and how wo...
 
 
 ================================================================================
@@ -1941,7 +1941,7 @@ General Approach
 
 
 ================================================================================
-ESTIMATION ⚪
+ESTIMATION 🟢
 ================================================================================
 
 📊 Total Questions: 82
@@ -1963,88 +1963,88 @@ General Approach
 
 📝 All 82 Questions:
 
-1. ⚪ Estimate how much it costs to run Youtube for a day
-2. ⚪ Estimate the number of restaurants in San Francisco.
-3. ⚪ How many elevators are required in a building with 100 floors?
-4. ⚪ Estimate the annual cost of managing Google Photos. What factors would you consider in your calculation?
-5. ⚪ How many parking spots are there in San Francisco?
-6. ⚪ Estimate Airbnb's Revenue
-7. ⚪ How many grocery stores are required in a metropolitan city?
-8. ⚪ Design a vending machine for hotels, and estimate the market size in your hometown.
-9. ⚪ Estimate the number of trees in the city of Delhi.
-10. ⚪ Estimate the number of people who use Google Search to find a new job.
-11. ⚪ Estimate the number of tires purchased annually by a large car dealership in San Jose, California.
-12. ⚪ Estimate the total internet bandwidth required for a campus of 1000 graduate students.
-13. ⚪ Estimate the number of Zomato food delivery drivers in Bangalore, India.
-14. ⚪ You're a PM for Gmail. Your team won a communications contract with a 10,000-person colony on Mars. Estimate the necessary network bandwidth.
-15. ⚪ You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
-16. ⚪ Estimate the number of restaurants in Bengaluru, India.
-17. ⚪ Estimate Self-Driving Cars
-18. ⚪ Estimate the number of apps available in the Play Store.
-19. ⚪ How many messages does Gmail receive per second?
-20. ⚪ Estimate the number of credit card users in India.
-21. ⚪ Design an elevator for a skyscraper and estimate the number of elevators needed.
-22. ⚪ How many tennis balls can fit in an airplane?
-23. ⚪ Estimate the bandwidth requirements for Google Maps.
-24. ⚪ Pick a Capital One product. Estimate the monthly revenue per customer.
-25. ⚪ Estimate the total number of annual hotel bookings made globally on Expedia.
-26. ⚪ Estimate the amount of storage needed for Google Photos.
-27. ⚪ How many ping pong balls can fit in a helicopter?
-28. ⚪ Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
-29. ⚪ How many ping pong balls fit in a helicopter?
-30. ⚪ Estimate the number of mutual follows an average TikTok user has.
-31. ⚪ Estimate the market size for Google Fi.
-32. ⚪ You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
-33. ⚪ Estimate the number of high school students in the US.
-34. ⚪ How many drones would be needed to deliver all FedEx packages in the US?
-35. ⚪ What is the potential market size for a better debit card?
-36. ⚪ Estimate the daily number of transactions in the US.
-37. ⚪ Estimate Facebook's yearly advertising revenue.
-38. ⚪ How would you estimate the number of Slack users?
-39. ⚪ You are a grocery store owner/manager. How do you determine how many self-checkout machines you need?
-40. ⚪ As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
-41. ⚪ Estimate the monthly profit per user for Capital One shopping.
-42. ⚪ Estimate the number of cinema tickets sold in the US in one year.
-43. ⚪ Pick an airport and estimate the number of people going through the metal detectors in a day.
-44. ⚪ Estimate the number of Instagram posts per day.
-45. ⚪ How many bikes are needed to launch a bike-sharing service in NYC?
-46. ⚪ Estimate how many productivity hours are lost per year due to traffic.
-47. ⚪ Estimate the total miles run by joggers in Central Park.
-48. ⚪ Pick an airport and estimate the number of people going through the security scan every day.
-49. ⚪ What is the total addressable market (TAM) for Google Translate?
-50. ⚪ Estimate the total storage used by Dropbox.
-51. ⚪ Estimate the circumference of the Earth at the Equator.
-52. ⚪ Estimate the number of daily flights from London to Dubai.
-53. ⚪ How many Slack messages are sent per day?
-54. ⚪ Estimate the number of potholes in continental USA.
-55. ⚪ How many windows do you estimate exist in Tehran?
-56. ⚪ Estimate the bandwidth required to support Spotify.
-57. ⚪ How many deliveries does Uber Eats make per day?
-58. ⚪ How many people are listening to songs on Spotify right now?
-59. ⚪ Estimate the time to move 100 petabytes of data from the East Coast to the West Coast.
-60. ⚪ How many Hershey's chocolate bars were sold in the US last year?
-61. ⚪ How many people are flying to and from SFO in a day?
-62. ⚪ How many rides happen on Uber each month?
-63. ⚪ How many grains of rice are in a 10kg bag?
-64. ⚪ Estimate how much bandwidth is needed for launching YouTube TV.
-65. ⚪ How many weddings does the average American attend in their lifetime?
-66. ⚪ Assuming AR-enabled glasses exist in 2031, how many do you think will ship that year? What factors will you consider in your estimation?
-67. ⚪ Estimate the potential number of rides per month for e-scooter rentals in San Francisco.
-68. ⚪ How many 'likes' happen on Instagram each day?
-69. ⚪ Estimate the number of pieces of candy given out in your city.
-70. ⚪ How many chickens are there in the world?
-71. ⚪ How many bottles of wine are opened per day?
-72. ⚪ How many calls are received per day?
-73. ⚪ How many pairs of shoes do we own in our lifetime?
-74. ⚪ Estimate the market size of the bike market in the United States.
-75. ⚪ How many people are on Facebook at any given time?
-76. ⚪ How many tweets are tweeted every day on Twitter?
-77. ⚪ You're a PM at Swiggy. How would you design a new segment for liquor on Instamart?
-78. ⚪ How many breaths do we take each day?
-79. ⚪ Estimate the bandwidth (bits/s) of a 747 crossing the Atlantic filled with CDROMs.
-80. ⚪ How many lane divider stripes are there on the German autobahn?
-81. ⚪ How many 'likes' happen on Facebook each day?
-82. ⚪ How many weddings does someone attend in their life?
+1. 🟢 Estimate how much it costs to run Youtube for a day
+2. 🟢 Estimate the number of restaurants in San Francisco.
+3. 🟢 How many elevators are required in a building with 100 floors?
+4. 🟢 Estimate the annual cost of managing Google Photos. What factors would you consider in your calculation?
+5. 🟢 How many parking spots are there in San Francisco?
+6. 🟢 Estimate Airbnb's Revenue
+7. 🟢 How many grocery stores are required in a metropolitan city?
+8. 🟢 Design a vending machine for hotels, and estimate the market size in your hometown.
+9. 🟢 Estimate the number of trees in the city of Delhi.
+10. 🟢 Estimate the number of people who use Google Search to find a new job.
+11. 🟢 Estimate the number of tires purchased annually by a large car dealership in San Jose, California.
+12. 🟢 Estimate the total internet bandwidth required for a campus of 1000 graduate students.
+13. 🟢 Estimate the number of Zomato food delivery drivers in Bangalore, India.
+14. 🟢 You're a PM for Gmail. Your team won a communications contract with a 10,000-person colony on Mars. Estimate the necessary network bandwidth.
+15. 🟢 You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...
+16. 🟢 Estimate the number of restaurants in Bengaluru, India.
+17. 🟢 Estimate Self-Driving Cars
+18. 🟢 Estimate the number of apps available in the Play Store.
+19. 🟢 How many messages does Gmail receive per second?
+20. 🟢 Estimate the number of credit card users in India.
+21. 🟢 Design an elevator for a skyscraper and estimate the number of elevators needed.
+22. 🟢 How many tennis balls can fit in an airplane?
+23. 🟢 Estimate the bandwidth requirements for Google Maps.
+24. 🟢 Pick a Capital One product. Estimate the monthly revenue per customer.
+25. 🟢 Estimate the total number of annual hotel bookings made globally on Expedia.
+26. 🟢 Estimate the amount of storage needed for Google Photos.
+27. 🟢 How many ping pong balls can fit in a helicopter?
+28. 🟢 Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.
+29. 🟢 How many ping pong balls fit in a helicopter?
+30. 🟢 Estimate the number of mutual follows an average TikTok user has.
+31. 🟢 Estimate the market size for Google Fi.
+32. 🟢 You're launching a bike-sharing service in a city of your choice. How many bikes would you need?
+33. 🟢 Estimate the number of high school students in the US.
+34. 🟢 How many drones would be needed to deliver all FedEx packages in the US?
+35. 🟢 What is the potential market size for a better debit card?
+36. 🟢 Estimate the daily number of transactions in the US.
+37. 🟢 Estimate Facebook's yearly advertising revenue.
+38. 🟢 How would you estimate the number of Slack users?
+39. 🟢 You are a grocery store owner/manager. How do you determine how many self-checkout machines you need?
+40. 🟢 As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...
+41. 🟢 Estimate the monthly profit per user for Capital One shopping.
+42. 🟢 Estimate the number of cinema tickets sold in the US in one year.
+43. 🟢 Pick an airport and estimate the number of people going through the metal detectors in a day.
+44. 🟢 Estimate the number of Instagram posts per day.
+45. 🟢 How many bikes are needed to launch a bike-sharing service in NYC?
+46. 🟢 Estimate how many productivity hours are lost per year due to traffic.
+47. 🟢 Estimate the total miles run by joggers in Central Park.
+48. 🟢 Pick an airport and estimate the number of people going through the security scan every day.
+49. 🟢 What is the total addressable market (TAM) for Google Translate?
+50. 🟢 Estimate the total storage used by Dropbox.
+51. 🟢 Estimate the circumference of the Earth at the Equator.
+52. 🟢 Estimate the number of daily flights from London to Dubai.
+53. 🟢 How many Slack messages are sent per day?
+54. 🟢 Estimate the number of potholes in continental USA.
+55. 🟢 How many windows do you estimate exist in Tehran?
+56. 🟢 Estimate the bandwidth required to support Spotify.
+57. 🟢 How many deliveries does Uber Eats make per day?
+58. 🟢 How many people are listening to songs on Spotify right now?
+59. 🟢 Estimate the time to move 100 petabytes of data from the East Coast to the West Coast.
+60. 🟢 How many Hershey's chocolate bars were sold in the US last year?
+61. 🟢 How many people are flying to and from SFO in a day?
+62. 🟢 How many rides happen on Uber each month?
+63. 🟢 How many grains of rice are in a 10kg bag?
+64. 🟢 Estimate how much bandwidth is needed for launching YouTube TV.
+65. 🟢 How many weddings does the average American attend in their lifetime?
+66. 🟢 Assuming AR-enabled glasses exist in 2031, how many do you think will ship that year? What factors will you consider in your estimation?
+67. 🟢 Estimate the potential number of rides per month for e-scooter rentals in San Francisco.
+68. 🟢 How many 'likes' happen on Instagram each day?
+69. 🟢 Estimate the number of pieces of candy given out in your city.
+70. 🟢 How many chickens are there in the world?
+71. 🟢 How many bottles of wine are opened per day?
+72. 🟢 How many calls are received per day?
+73. 🟢 How many pairs of shoes do we own in our lifetime?
+74. 🟢 Estimate the market size of the bike market in the United States.
+75. 🟢 How many people are on Facebook at any given time?
+76. 🟢 How many tweets are tweeted every day on Twitter?
+77. 🟢 You're a PM at Swiggy. How would you design a new segment for liquor on Instamart?
+78. 🟢 How many breaths do we take each day?
+79. 🟢 Estimate the bandwidth (bits/s) of a 747 crossing the Atlantic filled with CDROMs.
+80. 🟢 How many lane divider stripes are there on the German autobahn?
+81. 🟢 How many 'likes' happen on Facebook each day?
+82. 🟢 How many weddings does someone attend in their life?
 
 
 ================================================================================
@@ -2411,7 +2411,7 @@ General Approach
 
 
 ================================================================================
-PRIORITIZATION ⚪
+PRIORITIZATION 🟢
 ================================================================================
 
 📊 Total Questions: 53
@@ -2433,59 +2433,59 @@ General Approach
 
 📝 All 53 Questions:
 
-1. ⚪ You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap.  Your engineers are already working hard on a task outlined. What would you do?
-2. ⚪ How do you prioritize competing features?
-3. ⚪ Design an evaluation framework for ads ranking.
-4. ⚪ How would you create a short-term roadmap when production issues, sales pressure, and customer demands conflict?
-5. ⚪ How do you prioritize tasks?
-6. ⚪ Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.
-7. ⚪ Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.
-8. ⚪ You're a PM for a chat messenger app. How would you prioritize between adding emoticons on the chat or adding chat backup?
-9. ⚪ How would you approach creating a product roadmap without prior knowledge of the product?
-10. ⚪ As an OpenTable PM, how would you prioritize improving the worst post-reservation experiences?
-11. ⚪ Your largest customer is advocating for a new feature not in your roadmap. What do you do?
-12. ⚪ Choose a product and tell me how you would prioritize new features for it.
-13. ⚪ How would you prioritize between fixing a bug or shipping a new feature?
-14. ⚪ How would you prioritize solving the worst post booking experience for Google flights?
-15. ⚪ To make the Pixel the best smartphone on the market, what are the main areas (top 3) you would prioritize?
-16. ⚪ How would you determine which features to include in a Minimum Viable Product (MVP)?
-17. ⚪ How do you prioritize tasks across the engineering team, product bugs, the product roadmap, and suggestions from leadership?
-18. ⚪ A key metric is declining—what would you investigate first and how would you prioritize what to build?
-19. ⚪ How do you resolve conflicting product requirements, and who determines which requirement takes priority?
-20. ⚪ If you had unlimited resources at Google, what would you build and why?
-21. ⚪ How would you prioritize features on TikTok to improve, and how would you approach improving the features you've identified?
-22. ⚪ How would you prioritize solving the worst post-booking experience for TaskRabbit?
-23. ⚪ If Google Maps wants to launch in South Korea, how should it choose between three local vendors for map data?
-24. ⚪ Tell me about a time when you had to make a difficult trade-off decision on a roadmap.
-25. ⚪ Develop a roadmap to drive engagement from small business owners for Apple Maps.
-26. ⚪ Given this user funnel, how would you prioritize addressing drop-off points? Come up with design solutions to increase conversion.
-27. ⚪ You're a PM for Gmail. Design a three-year product roadmap.
-28. ⚪ If you were the PM for Google Drive, what metrics would you prioritize?
-29. ⚪ With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?
-30. ⚪ Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?
-31. ⚪ How do you prioritize and structure roadmaps, deciding what to build and when?
-32. ⚪ How would you prioritize multiple requests from different teams?
-33. ⚪ In a multi-step funnel with drop-offs at each stage, which stage would you prioritize addressing first?
-34. ⚪ You're a PM for Google Chrome on large screens. Build the three-year innovation roadmap.
-35. ⚪ Tell me about a time when you influenced a product roadmap.
-36. ⚪ You're a PM of OpenTable's post-booking experience. How would you prioritize and solve their biggest issue?
-37. ⚪ You're a PM at WhatsApp tasked with increasing user engagement. What features will you build and how will you prioritize and evaluate them?
-38. ⚪ Tell me about a project where you prioritized the customer.
-39. ⚪ Define a 10-year roadmap for Google Maps.
-40. ⚪ How would you prioritize features in a content moderation tool?
-41. ⚪ How would you create a three-year roadmap as head of product?
-42. ⚪ Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
-43. ⚪ How do you set priorities with limited resources?
-44. ⚪ What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
-45. ⚪ Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
-46. ⚪ Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
-47. ⚪ Design a product roadmap for Flipkart's Seller Hub mobile app.
-48. ⚪ An engineer wants to make a major change to the ranking algorithm. How would you evaluate it?
-49. ⚪ You're the PM of a non-profit food bank. You've just received a large charitable donation. How do you prioritize where to use the money?
-50. ⚪ Tell me about a feature you shipped and how you influenced its priority.
-51. ⚪ Define a 1-year roadmap for WhatsApp in India.
-52. ⚪ Design a roadmap for adding or integrating purchase requests to an existing invoice management system.
-53. ⚪ You have two high-ranking VIP customers who request different features. What do you do, and which features do you build?
+1. 🟢 You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap.  Your engineers are already working hard on a task outlined. What would you do?
+2. 🟢 How do you prioritize competing features?
+3. 🟢 Design an evaluation framework for ads ranking.
+4. 🟢 How would you create a short-term roadmap when production issues, sales pressure, and customer demands conflict?
+5. 🟢 How do you prioritize tasks?
+6. 🟢 Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.
+7. 🟢 Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.
+8. 🟢 You're a PM for a chat messenger app. How would you prioritize between adding emoticons on the chat or adding chat backup?
+9. 🟢 How would you approach creating a product roadmap without prior knowledge of the product?
+10. 🟢 As an OpenTable PM, how would you prioritize improving the worst post-reservation experiences?
+11. 🟢 Your largest customer is advocating for a new feature not in your roadmap. What do you do?
+12. 🟢 Choose a product and tell me how you would prioritize new features for it.
+13. 🟢 How would you prioritize between fixing a bug or shipping a new feature?
+14. 🟢 How would you prioritize solving the worst post booking experience for Google flights?
+15. 🟢 To make the Pixel the best smartphone on the market, what are the main areas (top 3) you would prioritize?
+16. 🟢 How would you determine which features to include in a Minimum Viable Product (MVP)?
+17. 🟢 How do you prioritize tasks across the engineering team, product bugs, the product roadmap, and suggestions from leadership?
+18. 🟢 A key metric is declining—what would you investigate first and how would you prioritize what to build?
+19. 🟢 How do you resolve conflicting product requirements, and who determines which requirement takes priority?
+20. 🟢 If you had unlimited resources at Google, what would you build and why?
+21. 🟢 How would you prioritize features on TikTok to improve, and how would you approach improving the features you've identified?
+22. 🟢 How would you prioritize solving the worst post-booking experience for TaskRabbit?
+23. 🟢 If Google Maps wants to launch in South Korea, how should it choose between three local vendors for map data?
+24. 🟢 Tell me about a time when you had to make a difficult trade-off decision on a roadmap.
+25. 🟢 Develop a roadmap to drive engagement from small business owners for Apple Maps.
+26. 🟢 Given this user funnel, how would you prioritize addressing drop-off points? Come up with design solutions to increase conversion.
+27. 🟢 You're a PM for Gmail. Design a three-year product roadmap.
+28. 🟢 If you were the PM for Google Drive, what metrics would you prioritize?
+29. 🟢 With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?
+30. 🟢 Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?
+31. 🟢 How do you prioritize and structure roadmaps, deciding what to build and when?
+32. 🟢 How would you prioritize multiple requests from different teams?
+33. 🟢 In a multi-step funnel with drop-offs at each stage, which stage would you prioritize addressing first?
+34. 🟢 You're a PM for Google Chrome on large screens. Build the three-year innovation roadmap.
+35. 🟢 Tell me about a time when you influenced a product roadmap.
+36. 🟢 You're a PM of OpenTable's post-booking experience. How would you prioritize and solve their biggest issue?
+37. 🟢 You're a PM at WhatsApp tasked with increasing user engagement. What features will you build and how will you prioritize and evaluate them?
+38. 🟢 Tell me about a project where you prioritized the customer.
+39. 🟢 Define a 10-year roadmap for Google Maps.
+40. 🟢 How would you prioritize features in a content moderation tool?
+41. 🟢 How would you create a three-year roadmap as head of product?
+42. 🟢 Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?
+43. 🟢 How do you set priorities with limited resources?
+44. 🟢 What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...
+45. 🟢 Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...
+46. 🟢 Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?
+47. 🟢 Design a product roadmap for Flipkart's Seller Hub mobile app.
+48. 🟢 An engineer wants to make a major change to the ranking algorithm. How would you evaluate it?
+49. 🟢 You're the PM of a non-profit food bank. You've just received a large charitable donation. How do you prioritize where to use the money?
+50. 🟢 Tell me about a feature you shipped and how you influenced its priority.
+51. 🟢 Define a 1-year roadmap for WhatsApp in India.
+52. 🟢 Design a roadmap for adding or integrating purchase requests to an existing invoice management system.
+53. 🟢 You have two high-ranking VIP customers who request different features. What do you do, and which features do you build?
 
 
 ================================================================================
@@ -2564,7 +2564,7 @@ General Approach
 
 
 ================================================================================
-COMMUNICATION ⚪
+COMMUNICATION 🟢
 ================================================================================
 
 📊 Total Questions: 35
@@ -2586,41 +2586,41 @@ General Approach
 
 📝 All 35 Questions:
 
-1. ⚪ How would you convey insights and the methods used to a non-technical audience?
-2. ⚪ You're a PM at Meta. Explain why the company created Meta Pay. How would you set goals and measure the success of this product?
-3. ⚪ How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?
-4. ⚪ How would you explain a technical concept to a non-technical person?
-5. ⚪ You're a PM at Meta. Explain why Meta created Rooms, an internal video-chat product similar to Zoom. How would you set goals and measure the success of this product?
-6. ⚪ How would you explain what an OS is to your grandmother?
-7. ⚪ How would you prepare a presentation for the CEO, within two weeks, on Microsoft Shifts’ current performance and potential improvements?
-8. ⚪ Explain what a blockchain is as if to a five-year-old.
-9. ⚪ Can you explain how 15-minute speedy delivery apps operate?
-10. ⚪ How would you explain the role of a product manager to a 4-year-old child?
-11. ⚪ Choose your favorite product and explain how you would improve it.
-12. ⚪ Explain Deep Learning to a non-technical audience.
-13. ⚪ List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
-14. ⚪ Explain the most complex product you have built.
-15. ⚪ How would you explain machine learning to a five-year-old?
-16. ⚪ Design a system for an Alexa-enabled Peloton. Define the APIs, system architecture, and explain the various components.
-17. ⚪ If a vulture’s head size were to double, what impact would this have on its survival and adaptation? Use root cause analysis (RCA) to explain.
-18. ⚪ Prepare a presentation about a complex project you led from start to finish.
-19. ⚪ Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou...
-20. ⚪ Explain what Twitter is and its benefits to someone who isn't familiar with technology and social media.
-21. ⚪ Explain a feature you've launched.
-22. ⚪ Explain how to train and deploy an ML model for license plate detection for customer pick-up orders at a retail store. How do you decide between on-premise versus cloud deployment?
-23. ⚪ How would you measure the success of data insights presented to a B2B customer regarding their organization's health?
-24. ⚪ Explain prime numbers to a five-year-old.
-25. ⚪ Can you provide an example of a strategy you developed to address a technology gap at your company, and explain how you decided between build, buy, or partnership?
-26. ⚪ Take a technical project you worked on and explain it to a product marketing manager.
-27. ⚪ Explain how you took or would take a product from ideation to launch.
-28. ⚪ You're a PM at Fivetran. Prepare a presentation explaining one of Fivetran's connectors.
-29. ⚪ How would you explain web cookies to someone non-technical?
-30. ⚪ As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct...
-31. ⚪ How would you explain cricket to someone who has never encountered the sport?
-32. ⚪ Explain the process of a Google Search.
-33. ⚪ Explain why Airbnb is a good app.
-34. ⚪ Explain how the US-China trade debacle impacts Apple.
-35. ⚪ Design a new way for tourists to communicate.
+1. 🟢 How would you convey insights and the methods used to a non-technical audience?
+2. 🟢 You're a PM at Meta. Explain why the company created Meta Pay. How would you set goals and measure the success of this product?
+3. 🟢 How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?
+4. 🟢 How would you explain a technical concept to a non-technical person?
+5. 🟢 You're a PM at Meta. Explain why Meta created Rooms, an internal video-chat product similar to Zoom. How would you set goals and measure the success of this product?
+6. 🟢 How would you explain what an OS is to your grandmother?
+7. 🟢 How would you prepare a presentation for the CEO, within two weeks, on Microsoft Shifts’ current performance and potential improvements?
+8. 🟢 Explain what a blockchain is as if to a five-year-old.
+9. 🟢 Can you explain how 15-minute speedy delivery apps operate?
+10. 🟢 How would you explain the role of a product manager to a 4-year-old child?
+11. 🟢 Choose your favorite product and explain how you would improve it.
+12. 🟢 Explain Deep Learning to a non-technical audience.
+13. 🟢 List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.
+14. 🟢 Explain the most complex product you have built.
+15. 🟢 How would you explain machine learning to a five-year-old?
+16. 🟢 Design a system for an Alexa-enabled Peloton. Define the APIs, system architecture, and explain the various components.
+17. 🟢 If a vulture’s head size were to double, what impact would this have on its survival and adaptation? Use root cause analysis (RCA) to explain.
+18. 🟢 Prepare a presentation about a complex project you led from start to finish.
+19. 🟢 Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou...
+20. 🟢 Explain what Twitter is and its benefits to someone who isn't familiar with technology and social media.
+21. 🟢 Explain a feature you've launched.
+22. 🟢 Explain how to train and deploy an ML model for license plate detection for customer pick-up orders at a retail store. How do you decide between on-premise versus cloud deployment?
+23. 🟢 How would you measure the success of data insights presented to a B2B customer regarding their organization's health?
+24. 🟢 Explain prime numbers to a five-year-old.
+25. 🟢 Can you provide an example of a strategy you developed to address a technology gap at your company, and explain how you decided between build, buy, or partnership?
+26. 🟢 Take a technical project you worked on and explain it to a product marketing manager.
+27. 🟢 Explain how you took or would take a product from ideation to launch.
+28. 🟢 You're a PM at Fivetran. Prepare a presentation explaining one of Fivetran's connectors.
+29. 🟢 How would you explain web cookies to someone non-technical?
+30. 🟢 As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct...
+31. 🟢 How would you explain cricket to someone who has never encountered the sport?
+32. 🟢 Explain the process of a Google Search.
+33. 🟢 Explain why Airbnb is a good app.
+34. 🟢 Explain how the US-China trade debacle impacts Apple.
+35. 🟢 Design a new way for tourists to communicate.
 
 
 ================================================================================
@@ -2676,7 +2676,7 @@ General Approach
 
 
 ================================================================================
-STAKEHOLDER MANAGEMENT ⚪
+STAKEHOLDER MANAGEMENT 🟢
 ================================================================================
 
 📊 Total Questions: 26
@@ -2698,32 +2698,32 @@ General Approach
 
 📝 All 26 Questions:
 
-1. ⚪ Tell me about a time when you handled a difficult stakeholder.
-2. ⚪ How would you convince leadership to build a wristwatch for the elderly?
-3. ⚪ Tell me about a time when you pivoted strategies and stakeholders disagreed.
-4. ⚪ How did you handle stakeholder management on your past projects?
-5. ⚪ How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?
-6. ⚪ Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
-7. ⚪ Tell me about a time when you used data to convince stakeholders.
-8. ⚪ Tell me about a time you had to convince engineers to implement a particular feature.
-9. ⚪ Google has just launched a new generational elevator. How would you convince customers to buy the product?
-10. ⚪ How have you persuaded others to take action?
-11. ⚪ How would you convince Facebook-only users to also use Instagram?
-12. ⚪ Tell me about a time you handled a difficult technical stakeholder.
-13. ⚪ What milestones would you look for to determine if a product isn’t performing well, and what process would you lay out to sunset the product while handling stakeholders?
-14. ⚪ Meeting a customer executive for the first time, they question your credentials. How do you respond?
-15. ⚪ What would make you delay a major launch even under executive pressure?
-16. ⚪ You are the PM for a new product launch, but internal stakeholders won't have their component ready for the next six months. How would you proceed with the launch?
-17. ⚪ Tell me about a time you dealt with a difficult situation or roadblock while designing a product and how you obtained stakeholder buy-in.
-18. ⚪ How would you manage a project with numerous stakeholders, diverse opinions, and an unclear goal?
-19. ⚪ What's your favorite type of stakeholder and why?
-20. ⚪ Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
-21. ⚪ How have you built trust with your team and cross-functional stakeholders during significant strategy shifts?
-22. ⚪ If a stakeholder or customer gives you a requirement, how would you approach it?
-23. ⚪ Tell me about a time when you convinced your co-worker to adopt your approach. What was the outcome?
-24. ⚪ How would you approach your stakeholders if you cannot deliver the feature in the next six months?
-25. ⚪ Your company excels in display technology, while a dominant market player, like Qualcomm, excels in System on Chip. How would you convince this major player to purchase your product?
-26. ⚪ How would you share experiment results internally so it's digestible by different stakeholders?
+1. 🟢 Tell me about a time when you handled a difficult stakeholder.
+2. 🟢 How would you convince leadership to build a wristwatch for the elderly?
+3. 🟢 Tell me about a time when you pivoted strategies and stakeholders disagreed.
+4. 🟢 How did you handle stakeholder management on your past projects?
+5. 🟢 How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?
+6. 🟢 Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
+7. 🟢 Tell me about a time when you used data to convince stakeholders.
+8. 🟢 Tell me about a time you had to convince engineers to implement a particular feature.
+9. 🟢 Google has just launched a new generational elevator. How would you convince customers to buy the product?
+10. 🟢 How have you persuaded others to take action?
+11. 🟢 How would you convince Facebook-only users to also use Instagram?
+12. 🟢 Tell me about a time you handled a difficult technical stakeholder.
+13. 🟢 What milestones would you look for to determine if a product isn’t performing well, and what process would you lay out to sunset the product while handling stakeholders?
+14. 🟢 Meeting a customer executive for the first time, they question your credentials. How do you respond?
+15. 🟢 What would make you delay a major launch even under executive pressure?
+16. 🟢 You are the PM for a new product launch, but internal stakeholders won't have their component ready for the next six months. How would you proceed with the launch?
+17. 🟢 Tell me about a time you dealt with a difficult situation or roadblock while designing a product and how you obtained stakeholder buy-in.
+18. 🟢 How would you manage a project with numerous stakeholders, diverse opinions, and an unclear goal?
+19. 🟢 What's your favorite type of stakeholder and why?
+20. 🟢 Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.
+21. 🟢 How have you built trust with your team and cross-functional stakeholders during significant strategy shifts?
+22. 🟢 If a stakeholder or customer gives you a requirement, how would you approach it?
+23. 🟢 Tell me about a time when you convinced your co-worker to adopt your approach. What was the outcome?
+24. 🟢 How would you approach your stakeholders if you cannot deliver the feature in the next six months?
+25. 🟢 Your company excels in display technology, while a dominant market player, like Qualcomm, excels in System on Chip. How would you convince this major player to purchase your product?
+26. 🟢 How would you share experiment results internally so it's digestible by different stakeholders?
 
 
 ================================================================================
@@ -2778,7 +2778,7 @@ General Approach
 
 
 ================================================================================
-PRODUCT SENSE ⚪
+PRODUCT SENSE 🟢
 ================================================================================
 
 📊 Total Questions: 17
@@ -2800,23 +2800,23 @@ General Approach
 
 📝 All 17 Questions:
 
-1. ⚪ What's your favorite product and why?
-2. ⚪ You're the PM for one of your favorite products. What is your strategy for the next year?
-3. ⚪ How would you improve your favorite product?
-4. ⚪ Give me three product enhancements for your favorite product.
-5. ⚪ Design a direct competitor to your favorite product.
-6. ⚪ Choose your favorite product and explain how you would improve it.
-7. ⚪ What is your least favorite product among the ones you use, and how would you improve it?
-8. ⚪ What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
-9. ⚪ Describe how you would 10X your favorite product.
-10. ⚪ Name your top three favorite products, select one, and outline a plan to scale it by tenfold.
-11. ⚪ Tell me about your favorite product.
-12. ⚪ What are the company's pain points of your favorite product?
-13. ⚪ How would you measure the success of your favorite product as the PMO?
-14. ⚪ How do we increase revenue (based on favorite product)?
-15. ⚪ You're the CEO or VP of your favorite product. How would you structure your organization and why?
-16. ⚪ Tell me about your favorite product. How would you build its competitor?
-17. ⚪ List your top three favorite products. How will you measure success and mention all possible areas?
+1. 🟢 What's your favorite product and why?
+2. 🟢 You're the PM for one of your favorite products. What is your strategy for the next year?
+3. 🟢 How would you improve your favorite product?
+4. 🟢 Give me three product enhancements for your favorite product.
+5. 🟢 Design a direct competitor to your favorite product.
+6. 🟢 Choose your favorite product and explain how you would improve it.
+7. 🟢 What is your least favorite product among the ones you use, and how would you improve it?
+8. 🟢 What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?
+9. 🟢 Describe how you would 10X your favorite product.
+10. 🟢 Name your top three favorite products, select one, and outline a plan to scale it by tenfold.
+11. 🟢 Tell me about your favorite product.
+12. 🟢 What are the company's pain points of your favorite product?
+13. 🟢 How would you measure the success of your favorite product as the PMO?
+14. 🟢 How do we increase revenue (based on favorite product)?
+15. 🟢 You're the CEO or VP of your favorite product. How would you structure your organization and why?
+16. 🟢 Tell me about your favorite product. How would you build its competitor?
+17. 🟢 List your top three favorite products. How will you measure success and mention all possible areas?
 
 
 ================================================================================

@@ -174,7 +174,7 @@ Root Cause Analysis
 10. ⚪ You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
 
 ================================================================================
-PRODUCT METRICS - TRACKING ⚪
+PRODUCT METRICS - TRACKING 🟢
 ================================================================================
 
 📊 Total Questions: 8
@@ -222,17 +222,17 @@ Product Metrics - Tracking
 
 📝 All 8 Questions:
 
-1. ⚪ Tell me about a time you built a dashboard.
-2. ⚪ Have you ever had to work with poor-quality data or suggest new tracking?
-3. ⚪ What KPIs would you track to measure company health?
-4. ⚪ How do you determine which metrics are most important for executives to track?
-5. ⚪ What KPIs would you track to evaluate the health of a subscription-based business?
-6. ⚪ What metrics would you track to improve operational cost?
-7. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
-8. ⚪ Walk me through a dashboard you built. What choices did you make?
+1. 🟢 Tell me about a time you built a dashboard.
+2. 🟢 Have you ever had to work with poor-quality data or suggest new tracking?
+3. 🟢 What KPIs would you track to measure company health?
+4. 🟢 How do you determine which metrics are most important for executives to track?
+5. 🟢 What KPIs would you track to evaluate the health of a subscription-based business?
+6. 🟢 What metrics would you track to improve operational cost?
+7. 🟢 How would you measure engagement for a productivity app? What features or behaviors would you track?
+8. 🟢 Walk me through a dashboard you built. What choices did you make?
 
 ================================================================================
-PRODUCT METRICS - DEFINITION ⚪
+PRODUCT METRICS - DEFINITION 🟢
 ================================================================================
 
 📊 Total Questions: 6
@@ -283,15 +283,15 @@ Product Metrics - Definition
 
 📝 All 6 Questions:
 
-1. ⚪ You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?
-2. ⚪ What metrics would you use to evaluate product adoption and engagement?
-3. ⚪ What KPIs would you track to measure company health?
-4. ⚪ How do you determine which metrics are most important for executives to track?
-5. ⚪ What KPIs would you track to evaluate the health of a subscription-based business?
-6. ⚪ What metrics would you track to improve operational cost?
+1. 🟢 You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?
+2. 🟢 What metrics would you use to evaluate product adoption and engagement?
+3. 🟢 What KPIs would you track to measure company health?
+4. 🟢 How do you determine which metrics are most important for executives to track?
+5. 🟢 What KPIs would you track to evaluate the health of a subscription-based business?
+6. 🟢 What metrics would you track to improve operational cost?
 
 ================================================================================
-DATA ANALYSIS - FEATURE IMPACT ⚪
+DATA ANALYSIS - FEATURE IMPACT 💗
 ================================================================================
 
 📊 Total Questions: 5
@@ -340,14 +340,14 @@ Data Analysis - Feature Impact
 
 📝 All 5 Questions:
 
-1. ⚪ How would you assess whether a new feature launch was successful?
-2. ⚪ How would you evaluate whether a new feature is worth rolling out to all users?
-3. ⚪ You’re launching a new feature—how would you measure its strategic impact on growth?
-4. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
-5. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. 💗 How would you assess whether a new feature launch was successful?
+2. 💗 How would you evaluate whether a new feature is worth rolling out to all users?
+3. 💗 You’re launching a new feature—how would you measure its strategic impact on growth?
+4. 💗 How would you measure engagement for a productivity app? What features or behaviors would you track?
+5. 💗 The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
-DATA ANALYSIS - RETENTION & CHURN ⚪
+DATA ANALYSIS - RETENTION & CHURN 💗
 ================================================================================
 
 📊 Total Questions: 4
@@ -395,13 +395,13 @@ Data Analysis - Retention & Churn
 
 📝 All 4 Questions:
 
-1. ⚪ What types of visualizations would you use to identify patterns in churn?
-2. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-3. ⚪ How would you use cohorts to identify retention issues?
-4. ⚪ Walk me through how you'd segment users for a churn analysis.
+1. 💗 What types of visualizations would you use to identify patterns in churn?
+2. 💗 Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+3. 💗 How would you use cohorts to identify retention issues?
+4. 💗 Walk me through how you'd segment users for a churn analysis.
 
 ================================================================================
-STAKEHOLDER COMMUNICATION ⚪
+STAKEHOLDER COMMUNICATION 🟢
 ================================================================================
 
 📊 Total Questions: 4
@@ -450,10 +450,10 @@ Stakeholder Communication
 
 📝 All 4 Questions:
 
-1. ⚪ Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
-2. ⚪ How do you approach an ambiguous request from a stakeholder?
-3. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-4. ⚪ How do you present insights to non-technical stakeholders?
+1. 🟢 Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.
+2. 🟢 How do you approach an ambiguous request from a stakeholder?
+3. 🟢 Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+4. 🟢 How do you present insights to non-technical stakeholders?
 
 ================================================================================
 DASHBOARD & VISUALIZATION ⚪
@@ -570,7 +570,7 @@ A/B Testing - Design
 2. ⚪ How would you test the impact of expanding into a new international market?
 
 ================================================================================
-DATA ANALYSIS - USER BEHAVIOR ⚪
+DATA ANALYSIS - USER BEHAVIOR 💗
 ================================================================================
 
 📊 Total Questions: 1
@@ -620,10 +620,10 @@ Data Analysis - User Behavior
 
 📝 All 1 Questions:
 
-1. ⚪ How would you analyze why user engagement is declining?
+1. 💗 How would you analyze why user engagement is declining?
 
 ================================================================================
-DATA ANALYSIS - FUNNEL ANALYSIS ⚪
+DATA ANALYSIS - FUNNEL ANALYSIS 💗
 ================================================================================
 
 📊 Total Questions: 1
@@ -673,10 +673,10 @@ Data Analysis - Funnel Analysis
 
 📝 All 1 Questions:
 
-1. ⚪ Walk me through a time you diagnosed a drop in conversion.
+1. 💗 Walk me through a time you diagnosed a drop in conversion.
 
 ================================================================================
-PRODUCT STRATEGY ⚪
+PRODUCT STRATEGY 💗
 ================================================================================
 
 📊 Total Questions: 1
@@ -725,10 +725,10 @@ Product Strategy
 
 📝 All 1 Questions:
 
-1. ⚪ Tell me about a time when your analysis influenced a business decision.
+1. 💗 Tell me about a time when your analysis influenced a business decision.
 
 ================================================================================
-PRIORITIZATION ⚪
+PRIORITIZATION 🟢
 ================================================================================
 
 📊 Total Questions: 1
@@ -778,5 +778,5 @@ Prioritization
 
 📝 All 1 Questions:
 
-1. ⚪ You have three ideas for expansion but limited resources. How would you help prioritize them?
+1. 🟢 You have three ideas for expansion but limited resources. How would you help prioritize them?
 

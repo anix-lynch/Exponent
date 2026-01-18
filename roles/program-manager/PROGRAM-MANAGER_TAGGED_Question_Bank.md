@@ -102,9 +102,9 @@ Stakeholder Management
 
 📝 All 3 Questions:
 
-1. ⚪ Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.
-2. ⚪ What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?
-3. ⚪ What experience do you have managing global teams?
+1. 🟢 Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.
+2. 🟢 What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?
+3. 🟢 What experience do you have managing global teams?
 
 
 ================================================================================
@@ -129,5 +129,5 @@ Data Analysis
 
 📝 All 1 Questions:
 
-1. ⚪ Tell me about a time when data helped you make a decision.
+1. 💗 Tell me about a time when data helped you make a decision.
 

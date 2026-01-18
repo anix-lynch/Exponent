@@ -102,7 +102,7 @@ Communication
 
 📝 **All 1 Question:**
 
-1. ⚪ Tell me about a time when you provided important feedback.
+1. 🟢 Tell me about a time when you provided important feedback.
 
 ================================================================================
 CROSS-FUNCTIONAL COLLABORATION ⚪

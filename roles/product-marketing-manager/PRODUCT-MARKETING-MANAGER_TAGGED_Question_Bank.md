@@ -343,7 +343,7 @@ Go-To-Market Strategy
 
 📝 **All 1 Question:**
 
-1. ⚪ Design a GTM strategy for taking a brick-and-mortar rug store online.
+1. 💗 Design a GTM strategy for taking a brick-and-mortar rug store online.
 
 ================================================================================
 MESSAGING & COMMUNICATION 🟢
@@ -392,7 +392,7 @@ Messaging & Communication
 
 📝 **All 1 Question:**
 
-1. ⚪ How would you create a messaging framework for a new product?
+1. 🟢 How would you create a messaging framework for a new product?
 
 ================================================================================
 MARKET RESEARCH ⚪

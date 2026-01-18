@@ -62,7 +62,7 @@ Behavioral (STAR Method)
 2. 💗 Tell me about a time when you helped someone in need.
 
 ================================================================================
-COMMUNICATION ⚪
+COMMUNICATION 🟢
 ================================================================================
 
 📊 **Total Questions**: 1
@@ -102,7 +102,7 @@ Communication
 
 📝 **All 1 Question:**
 
-1. ⚪ Tell me about a time when you provided important feedback.
+1. 🟢 Tell me about a time when you provided important feedback.
 
 ================================================================================
 CROSS-FUNCTIONAL COLLABORATION ⚪

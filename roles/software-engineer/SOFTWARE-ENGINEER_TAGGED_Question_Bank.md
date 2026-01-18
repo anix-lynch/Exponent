@@ -804,35 +804,35 @@ Technical Communication
 
 📝 All 29 Questions:
 
-1. ⚪ Explain malloc, calloc, and reelloc.
-2. ⚪ How would you explain a technical concept to a non-technical person?
-3. ⚪ Explain how to find a target sum in an array.
-4. ⚪ Describe an experience working in a cross-functional team.
-5. ⚪ Explain multithreading.
-6. ⚪ Explain how RAG works.
-7. ⚪ Explain the differences between an interface and an abstract class.
-8. ⚪ Describe a challenging project you worked on and what made it difficult.
-9. ⚪ Describe the most technically complex project you have worked on and explain why it was complex.
-10. ⚪ Explain the differences between stack and heap memory allocation.
-11. ⚪ Explain the key differences between BETWEEN and HAVING clauses in SQL.
-12. ⚪ Explain how microservices work.
-13. ⚪ Describe a situation where, in hindsight, you would have done things differently.
-14. ⚪ Describe a situation where you implemented an idea despite facing resistance.
-15. ⚪ Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).
-16. ⚪ Explain callback functions.
-17. ⚪ Explain how garbage collection works in programming.
-18. ⚪ Explain the sort function.
-19. ⚪ Explain a piece of software you built.
-20. ⚪ Explain the time complexity differences between ArrayList and LinkedList.
-21. ⚪ Explain how hash maps work.
-22. ⚪ Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.
-23. ⚪ Explain the map function.
-24. ⚪ Explain tic tac toe end games.
-25. ⚪ How would you describe what our company does to your grandmother?
-26. ⚪ Explain the filter function.
-27. ⚪ Explain the memory changes that occur when executing: Object o = new Object().
-28. ⚪ Explain polymorphism.
-29. ⚪ Describe your GPU programming experience.
+1. 🟢 Explain malloc, calloc, and reelloc.
+2. 🟢 How would you explain a technical concept to a non-technical person?
+3. 🟢 Explain how to find a target sum in an array.
+4. 🟢 Describe an experience working in a cross-functional team.
+5. 🟢 Explain multithreading.
+6. 🟢 Explain how RAG works.
+7. 🟢 Explain the differences between an interface and an abstract class.
+8. 🟢 Describe a challenging project you worked on and what made it difficult.
+9. 🟢 Describe the most technically complex project you have worked on and explain why it was complex.
+10. 🟢 Explain the differences between stack and heap memory allocation.
+11. 🟢 Explain the key differences between BETWEEN and HAVING clauses in SQL.
+12. 🟢 Explain how microservices work.
+13. 🟢 Describe a situation where, in hindsight, you would have done things differently.
+14. 🟢 Describe a situation where you implemented an idea despite facing resistance.
+15. 🟢 Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).
+16. 🟢 Explain callback functions.
+17. 🟢 Explain how garbage collection works in programming.
+18. 🟢 Explain the sort function.
+19. 🟢 Explain a piece of software you built.
+20. 🟢 Explain the time complexity differences between ArrayList and LinkedList.
+21. 🟢 Explain how hash maps work.
+22. 🟢 Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.
+23. 🟢 Explain the map function.
+24. 🟢 Explain tic tac toe end games.
+25. 🟢 How would you describe what our company does to your grandmother?
+26. 🟢 Explain the filter function.
+27. 🟢 Explain the memory changes that occur when executing: Object o = new Object().
+28. 🟢 Explain polymorphism.
+29. 🟢 Describe your GPU programming experience.
 
 
 ================================================================================

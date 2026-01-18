@@ -476,17 +476,17 @@ Data Modeling
 
 📝 All 11 Questions:
 
-1. 🟡 Design a database schema for a fitness app.
-2. 🟡 Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
-3. 🟡 Design a data warehouse schema for Instagram.
-4. 🟡 Design a Data Warehouse Schema for a Ride-Sharing Service
-5. 🟡 Design a Data Warehouse Schema for Stripe
-6. 🟡 Design a data warehouse schema for Spotify.
-7. 🟡 Design a data warehouse schema for Amazon.
-8. 🟡 Design a Data Warehouse Schema for Customer Support
-9. 🟡 Design a Data Warehouse Schema for Airbnb
-10. 🟡 Design a database schema for a ride sharing app.
-11. 🟡 Design a data warehouse schema for LinkedIn.
+1. 🟠 Design a database schema for a fitness app.
+2. 🟠 Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
+3. 🟠 Design a data warehouse schema for Instagram.
+4. 🟠 Design a Data Warehouse Schema for a Ride-Sharing Service
+5. 🟠 Design a Data Warehouse Schema for Stripe
+6. 🟠 Design a data warehouse schema for Spotify.
+7. 🟠 Design a data warehouse schema for Amazon.
+8. 🟠 Design a Data Warehouse Schema for Customer Support
+9. 🟠 Design a Data Warehouse Schema for Airbnb
+10. 🟠 Design a database schema for a ride sharing app.
+11. 🟠 Design a data warehouse schema for LinkedIn.
 
 
 ================================================================================
@@ -537,16 +537,16 @@ Data Warehousing
 
 📝 All 10 Questions:
 
-1. 🟡 What's the difference between a data lakehouse and a data warehouse?
-2. 🟡 Design a data warehouse schema for Instagram.
-3. 🟡 Design a Data Warehouse Schema for a Ride-Sharing Service
-4. 🟡 Design a Data Warehouse Schema for Stripe
-5. 🟡 Design a data warehouse schema for Spotify.
-6. 🟡 Design a data warehouse schema for Amazon.
-7. 🟡 Design a Data Warehouse Schema for Customer Support
-8. 🟡 Design a Data Warehouse Schema for Airbnb
-9. 🟡 Design a data warehouse schema for LinkedIn.
-10. 🟡 What is the difference between OLTP and OLAP?
+1. 🟠 What's the difference between a data lakehouse and a data warehouse?
+2. 🟠 Design a data warehouse schema for Instagram.
+3. 🟠 Design a Data Warehouse Schema for a Ride-Sharing Service
+4. 🟠 Design a Data Warehouse Schema for Stripe
+5. 🟠 Design a data warehouse schema for Spotify.
+6. 🟠 Design a data warehouse schema for Amazon.
+7. 🟠 Design a Data Warehouse Schema for Customer Support
+8. 🟠 Design a Data Warehouse Schema for Airbnb
+9. 🟠 Design a data warehouse schema for LinkedIn.
+10. 🟠 What is the difference between OLTP and OLAP?
 
 
 ================================================================================
@@ -656,11 +656,11 @@ Data Quality
 
 📝 All 5 Questions:
 
-1. ⚪ ~~Remove Duplicate Emails~~ *(incomplete - coding problem title only)*
-2. ⚪ On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
-3. ⚪ Find the Duplicates
-4. ⚪ Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
-5. ⚪ Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
+1. 🟡 ~~Remove Duplicate Emails~~ *(incomplete - coding problem title only)*
+2. 🟡 On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+3. 🟡 Find the Duplicates
+4. 🟡 Determine if an array of integers from 1 to n contains a duplicate in constant time and space.
+5. 🟡 Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
 
 
 ================================================================================
@@ -806,8 +806,8 @@ ETL/ELT
 
 📝 All 2 Questions:
 
-1. 🟡 Design an ETL Pipeline for a ML Platform for AWS
-2. 🟡 Design an ETL Pipeline for Slack for School
+1. 🔴 Design an ETL Pipeline for a ML Platform for AWS
+2. 🔴 Design an ETL Pipeline for Slack for School
 
 
 ================================================================================
@@ -852,8 +852,8 @@ Cloud Platforms
 
 📝 All 2 Questions:
 
-1. ⚪ How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
-2. ⚪ Design a system to ingest large amounts of JSON data from multiple S3 buckets
+1. 🟡 How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+2. 🟡 Design a system to ingest large amounts of JSON data from multiple S3 buckets
 
 
 ================================================================================

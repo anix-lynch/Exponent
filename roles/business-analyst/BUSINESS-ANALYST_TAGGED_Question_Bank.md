@@ -144,17 +144,17 @@ Business Metrics & KPIs
 
 📝 All 11 Questions:
 
-1. ⚪ Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
-2. ⚪ Have you ever had to work with poor-quality data or suggest new tracking?
-3. ⚪ Walk me through how you'd assess the success of a beta launch.
-4. ⚪ You’re launching a new feature—how would you measure its strategic impact on growth?
-5. ⚪ What metrics would you use to evaluate product adoption and engagement?
-6. ⚪ What KPIs would you track to measure company health?
-7. ⚪ How do you determine which metrics are most important for executives to track?
-8. ⚪ What KPIs would you track to evaluate the health of a subscription-based business?
-9. ⚪ What metrics would you track to improve operational cost?
-10. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
-11. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
+1. 🟢 Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
+2. 🟢 Have you ever had to work with poor-quality data or suggest new tracking?
+3. 🟢 Walk me through how you'd assess the success of a beta launch.
+4. 🟢 You’re launching a new feature—how would you measure its strategic impact on growth?
+5. 🟢 What metrics would you use to evaluate product adoption and engagement?
+6. 🟢 What KPIs would you track to measure company health?
+7. 🟢 How do you determine which metrics are most important for executives to track?
+8. 🟢 What KPIs would you track to evaluate the health of a subscription-based business?
+9. 🟢 What metrics would you track to improve operational cost?
+10. 🟢 How would you measure engagement for a productivity app? What features or behaviors would you track?
+11. 🟢 After launching a new recommendation engine, how would you measure its impact on revenue?
 
 ================================================================================
 DATA ANALYSIS - ROOT CAUSE ANALYSIS 💗
@@ -206,15 +206,15 @@ Data Analysis - Root Cause Analysis
 
 📝 All 9 Questions:
 
-1. ⚪ Meta’s new app shows 25% drop-off at sign-up. How do you analyze this?
-2. ⚪ Why did you choose analytics as a career?
-3. ⚪ Why do you want to work at Atlassian?
-4. ⚪ Walk me through a time you diagnosed a drop in conversion.
-5. ⚪ How would you analyze why user engagement is declining?
-6. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-7. ⚪ How would you explain a sudden drop in revenue to leadership?
-8. ⚪ A competitor is gaining market share. How would you investigate why?
-9. ⚪ You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
+1. 💗 Meta’s new app shows 25% drop-off at sign-up. How do you analyze this?
+2. 💗 Why did you choose analytics as a career?
+3. 💗 Why do you want to work at Atlassian?
+4. 💗 Walk me through a time you diagnosed a drop in conversion.
+5. 💗 How would you analyze why user engagement is declining?
+6. 💗 Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+7. 💗 How would you explain a sudden drop in revenue to leadership?
+8. 💗 A competitor is gaining market share. How would you investigate why?
+9. 💗 You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?
 
 ================================================================================
 FINANCIAL ANALYSIS 🟢
@@ -322,12 +322,12 @@ Product Strategy
 
 📝 All 6 Questions:
 
-1. ⚪ How would you assess whether a new feature launch was successful?
-2. ⚪ How would you model the expected ROI of a new product launch?
-3. ⚪ How would you evaluate whether a new feature is worth rolling out to all users?
-4. ⚪ You’re launching a new feature—how would you measure its strategic impact on growth?
-5. ⚪ How would you measure engagement for a productivity app? What features or behaviors would you track?
-6. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. 💗 How would you assess whether a new feature launch was successful?
+2. 💗 How would you model the expected ROI of a new product launch?
+3. 💗 How would you evaluate whether a new feature is worth rolling out to all users?
+4. 💗 You’re launching a new feature—how would you measure its strategic impact on growth?
+5. 💗 How would you measure engagement for a productivity app? What features or behaviors would you track?
+6. 💗 The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
 COMMUNICATION & PRESENTATION 🟢
@@ -380,12 +380,12 @@ Communication & Presentation
 
 📝 All 6 Questions:
 
-1. ⚪ How would you convey insights and the methods used to a non-technical audience?
-2. ⚪ Suppose you work for a rideshare company like Uber. How would you visually represent correlation between ride duration, ride fare and ratings?
-3. ⚪ Choose a product you like and explain how you would identify its competitors.
-4. ⚪ Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
-5. ⚪ How do you present insights to non-technical stakeholders?
-6. ⚪ How would you explain a sudden drop in revenue to leadership?
+1. 🟢 How would you convey insights and the methods used to a non-technical audience?
+2. 🟢 Suppose you work for a rideshare company like Uber. How would you visually represent correlation between ride duration, ride fare and ratings?
+3. 🟢 Choose a product you like and explain how you would identify its competitors.
+4. 🟢 Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
+5. 🟢 How do you present insights to non-technical stakeholders?
+6. 🟢 How would you explain a sudden drop in revenue to leadership?
 
 ================================================================================
 ESTIMATION & MARKET SIZING 🟢
@@ -436,11 +436,11 @@ Estimation & Market Sizing
 
 📝 All 5 Questions:
 
-1. ⚪ Estimate the number of apps available in the Play Store.
-2. ⚪ Estimate how many productivity hours are lost per year due to traffic.
-3. ⚪ How would you estimate the total addressable market (TAM) for a new product?
-4. ⚪ Estimate the potential number of rides per month for e-scooter rentals in San Francisco.
-5. ⚪ Estimate the TAM for electric scooters in San Francisco.
+1. 🟢 Estimate the number of apps available in the Play Store.
+2. 🟢 Estimate how many productivity hours are lost per year due to traffic.
+3. 🟢 How would you estimate the total addressable market (TAM) for a new product?
+4. 🟢 Estimate the potential number of rides per month for e-scooter rentals in San Francisco.
+5. 🟢 Estimate the TAM for electric scooters in San Francisco.
 
 ================================================================================
 STAKEHOLDER MANAGEMENT 🟢
@@ -493,11 +493,11 @@ Stakeholder Management
 
 📝 All 5 Questions:
 
-1. ⚪ Tell me about a time when you handled a difficult stakeholder.
-2. ⚪ Suppose you work for a rideshare company like Uber. How would you visually represent correlation between ride duration, ride fare and ratings?
-3. ⚪ How do you approach an ambiguous request from a stakeholder?
-4. ⚪ How do you present insights to non-technical stakeholders?
-5. ⚪ How do you determine which metrics are most important for executives to track?
+1. 🟢 Tell me about a time when you handled a difficult stakeholder.
+2. 🟢 Suppose you work for a rideshare company like Uber. How would you visually represent correlation between ride duration, ride fare and ratings?
+3. 🟢 How do you approach an ambiguous request from a stakeholder?
+4. 🟢 How do you present insights to non-technical stakeholders?
+5. 🟢 How do you determine which metrics are most important for executives to track?
 
 ================================================================================
 DATA ANALYSIS - COHORT ANALYSIS 💗
@@ -547,10 +547,10 @@ Data Analysis - Cohort Analysis
 
 📝 All 4 Questions:
 
-1. ⚪ How would you segment users for a new e-commerce platform?
-2. ⚪ How would you use cohorts to identify retention issues?
-3. ⚪ Walk me through how you'd segment users for a churn analysis.
-4. ⚪ Tell me how you’d segment customers to support a growth initiative.
+1. 💗 How would you segment users for a new e-commerce platform?
+2. 💗 How would you use cohorts to identify retention issues?
+3. 💗 Walk me through how you'd segment users for a churn analysis.
+4. 💗 Tell me how you’d segment customers to support a growth initiative.
 
 ================================================================================
 PROCESS IMPROVEMENT 🟢
@@ -603,10 +603,10 @@ Process Improvement
 
 📝 All 4 Questions:
 
-1. ⚪ Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
-2. ⚪ Walk me through your process for cleaning a messy dataset.
-3. ⚪ What metrics would you track to improve operational cost?
-4. ⚪ Describe a time you used data to improve an internal process.
+1. 🟢 Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
+2. 🟢 Walk me through your process for cleaning a messy dataset.
+3. 🟢 What metrics would you track to improve operational cost?
+4. 🟢 Describe a time you used data to improve an internal process.
 
 ================================================================================
 DATA VISUALIZATION ⚪
@@ -713,9 +713,9 @@ SQL - Query Optimization
 
 📝 All 3 Questions:
 
-1. ⚪ How would you optimize fulfillment time for grocery deliveries in high-traffic zones?
-2. ⚪ How would you approach evaluating the performance of a specific business unit?
-3. ⚪ You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
+1. 💗 How would you optimize fulfillment time for grocery deliveries in high-traffic zones?
+2. 💗 How would you approach evaluating the performance of a specific business unit?
+3. 💗 You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
 
 ================================================================================
 DATA ANALYSIS - BUSINESS PROBLEM SOLVING 💗
@@ -764,8 +764,8 @@ Data Analysis - Business Problem Solving
 
 📝 All 2 Questions:
 
-1. ⚪ Tell me about a time the business problem wasn’t clearly defined. How did you handle it?
-2. ⚪ How would you size the opportunity for launching a grocery delivery service in a new city?
+1. 💗 Tell me about a time the business problem wasn’t clearly defined. How did you handle it?
+2. 💗 How would you size the opportunity for launching a grocery delivery service in a new city?
 
 ================================================================================
 DATA ANALYSIS - TREND ANALYSIS 💗
@@ -814,8 +814,8 @@ Data Analysis - Trend Analysis
 
 📝 All 2 Questions:
 
-1. ⚪ What types of visualizations would you use to identify patterns in churn?
-2. ⚪ Tell me about a time you discovered a trend by drilling into granular data.
+1. 💗 What types of visualizations would you use to identify patterns in churn?
+2. 💗 Tell me about a time you discovered a trend by drilling into granular data.
 
 ================================================================================
 SQL - JOINS & AGGREGATION 💗
@@ -868,8 +868,8 @@ SQL - Joins & Aggregation
 
 📝 All 2 Questions:
 
-1. ⚪ How would you increase the average order value of a food delivery platform?
-2. ⚪ How do you handle joining data from different sources with inconsistent IDs?
+1. 💗 How would you increase the average order value of a food delivery platform?
+2. 💗 How do you handle joining data from different sources with inconsistent IDs?
 
 ================================================================================
 SQL - WINDOW FUNCTIONS 💗
@@ -917,8 +917,8 @@ SQL - Window Functions
 
 📝 All 2 Questions:
 
-1. ⚪ How would you explain a sudden drop in revenue to leadership?
-2. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
+1. 💗 How would you explain a sudden drop in revenue to leadership?
+2. 💗 The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
 PRIORITIZATION 🟢
@@ -971,5 +971,5 @@ Prioritization
 
 📝 All 1 Questions:
 
-1. ⚪ You have three ideas for expansion but limited resources. How would you help prioritize them?
+1. 🟢 You have three ideas for expansion but limited resources. How would you help prioritize them?
 

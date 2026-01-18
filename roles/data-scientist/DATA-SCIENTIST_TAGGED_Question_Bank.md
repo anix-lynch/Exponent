@@ -201,28 +201,28 @@ Data Analysis - Root Cause
 
 📝 All 20 Questions:
 
-1. ⚪ Why do you think we should not hire you?
-2. ⚪ What product that you led are you most proud of and why?
-3. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-4. ⚪ Why do you want to work at OpenAI?
-5. ⚪ Why do you want to work at Visa?
-6. ⚪ Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?
-7. ⚪ You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+1. 💗 Why do you think we should not hire you?
+2. 💗 What product that you led are you most proud of and why?
+3. 💗 Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
+4. 💗 Why do you want to work at OpenAI?
+5. 💗 Why do you want to work at Visa?
+6. 💗 Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?
+7. 💗 You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
 
 (Conversion: From users browsing to placing orders.)
-8. ⚪ What is overfitting or underfitting? Which models are most likely to experience this, and why?
-9. ⚪ Why might Venmo be seeing a decrease in users adding their bank accounts?
-10. ⚪ What is the best way to connect SQL databases and why?
-11. ⚪ What other companies are you interviewing at and why?
-12. ⚪ Why do you want to work at Walmart Labs?
-13. ⚪ Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.
-14. ⚪ How would you investigate a week-over-week 10% drop in successful deliveries?
-15. ⚪ One of your clients has experienced a 20% decline in profits. What would you do?
-16. ⚪ Why do you want to work at Salesforce?
-17. ⚪ Why do you want to work at Discord?
-18. ⚪ Why do you want to work at Tinder?
-19. ⚪ The product team reports a decline in 30-day user retention. How would you approach this problem?
-20. ⚪ What factors would you investigate to determine why the app is underperforming in a new geography?
+8. 💗 What is overfitting or underfitting? Which models are most likely to experience this, and why?
+9. 💗 Why might Venmo be seeing a decrease in users adding their bank accounts?
+10. 💗 What is the best way to connect SQL databases and why?
+11. 💗 What other companies are you interviewing at and why?
+12. 💗 Why do you want to work at Walmart Labs?
+13. 💗 Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.
+14. 💗 How would you investigate a week-over-week 10% drop in successful deliveries?
+15. 💗 One of your clients has experienced a 20% decline in profits. What would you do?
+16. 💗 Why do you want to work at Salesforce?
+17. 💗 Why do you want to work at Discord?
+18. 💗 Why do you want to work at Tinder?
+19. 💗 The product team reports a decline in 30-day user retention. How would you approach this problem?
+20. 💗 What factors would you investigate to determine why the app is underperforming in a new geography?
 
 ================================================================================
 MACHINE LEARNING - MODEL EVALUATION ⚪
@@ -388,13 +388,13 @@ Data Analysis - Business Metrics
 
 📝 All 7 Questions:
 
-1. ⚪ Tell me about a time when you used a specific metric to drive change in your department.
-2. ⚪ You launched a feature and user behavior changed, how do you define success metrics?
-3. ⚪ How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
-4. ⚪ What metrics would you use to increase posts with comments in a group?
-5. ⚪ What are the KPIs for push notifications?
-6. ⚪ Metrics moved in different directions, how do you interpret the results and decide next steps?
-7. ⚪ Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
+1. 💗 Tell me about a time when you used a specific metric to drive change in your department.
+2. 💗 You launched a feature and user behavior changed, how do you define success metrics?
+3. 💗 How would you evaluate Facebook's emotion scale? What metrics and tests would you use?
+4. 💗 What metrics would you use to increase posts with comments in a group?
+5. 💗 What are the KPIs for push notifications?
+6. 💗 Metrics moved in different directions, how do you interpret the results and decide next steps?
+7. 💗 Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.
 
 ================================================================================
 SQL 💗

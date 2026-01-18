@@ -47,14 +47,12 @@ def add_tags_to_questions(file_path):
             number = question_match.group(1)
             question_text = question_match.group(2)
             
-            # Check if tag already exists
-            if not re.match(r'^(💗|🟢|🔴|🟠|🟡|⚪|⚠️)', question_text):
-                # Add tag after the number
-                new_line = f"{number}. {current_tag} {question_text}"
-                new_content.append(new_line)
-            else:
-                # Tag already exists, keep as is
-                new_content.append(line)
+            # Remove any existing tag from question text
+            clean_text = re.sub(r'^(💗|🟢|🔴|🟠|🟡|⚪|⚠️)\s+', '', question_text)
+            
+            # Add the category's tag
+            new_line = f"{number}. {current_tag} {clean_text}"
+            new_content.append(new_line)
         else:
             # Not a question, keep as is
             new_content.append(line)
