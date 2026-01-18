@@ -67,11 +67,11 @@ Machine Learning
 10. ⚠️ Tell us about an app you don't like to use. How would you improve the app?
 11. ⚠️ How is gradient descent and model optimization used in linear regression?
 12. ⚠️ Reverse a Sentence
-13. ⚠️ Merge Intervals
-14. ⚠️ Valid Parentheses
+13. ⚠️ Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
+14. ⚠️ ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
 15. ⚠️ Tell me about a technical challenge that you have overcome.
-16. ⚠️ Course Schedule
-17. ⚠️ Design Facebook Marketplace.
+16. ⚠️ ~~Course Schedule~~ *(incomplete - coding problem title only)*
+17. ⚠️ ~~Design Facebook Marketplace.~~ *(incomplete - coding problem title only)*
 18. ⚠️ Explain the differences between linear and logistic regression.
 19. ⚠️ Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
 20. ⚠️ Sort a list of natural numbers and their squares in the most efficient way possible.
@@ -84,21 +84,21 @@ Machine Learning
 27. ⚠️ Design the 'Top Picks' feature for Netflix.
 28. ⚠️ How do you stay up-to-date with the latest developments in AI?
 29. ⚠️ If you discovered that your model was exposing sensitive data from its training set, what would you do next?
-30. ⚠️ Find Largest Numbers
+30. ⚠️ ~~Find Largest Numbers~~ *(incomplete - coding problem title only)*
 31. ⚠️ What is your leadership style?
 32. ⚠️ Given an nxn grid of 1s and 0s, return the number of islands in the input.
 33. ⚠️ How would you determine the right criteria for when to forget outdated data, update the model, and evaluate performance?
 34. ⚠️ What parts of OpenAI's mission statement resonate with you?
-35. ⚠️ Longest Increasing Subsequence
+35. ⚠️ ~~Longest Increasing Subsequence~~ *(incomplete - coding problem title only)*
 36. ⚠️ Design a machine learning system that makes stock predictions from Reddit comments.
-37. ⚠️ Generate Parentheses
+37. ⚠️ Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. Example: n=3 → ["((()))","(()())","(())()","()(())","()()()"]
 38. ⚠️ Build a Calculator
 39. ⚠️ Design Instagram's Explore page.
 40. ⚠️ Design spam detection on Pinterest.
 41. ⚠️ Tell me about your current role.
 42. ⚠️ Given two strings of equal length, determine if it's possible to form a palindrome by cutting them in half.
-43. ⚠️ Sort Colors
-44. ⚠️ Roman to Integer
+43. ⚠️ ~~Sort Colors~~ *(incomplete - coding problem title only)*
+44. ⚠️ Given a Roman numeral string (e.g., "MCMXCIV"), convert it to an integer (e.g., 1994).
 45. ⚠️ How do you keep users’ data safe and private when building AI systems?
 46. ⚠️ Tell me about a project you worked on.
 47. ⚠️ Design YouTube advertising.
@@ -112,7 +112,7 @@ Machine Learning
 55. ⚠️ What other companies are you interviewing at and why?
 56. ⚠️ Tell me about a system design problem you solved with machine learning.
 57. ⚠️ Explain how you would fit data using logistic regression.
-58. ⚠️ Sudoku Solver
+58. ⚠️ ~~Sudoku Solver~~ *(incomplete - coding problem title only)*
 59. ⚠️ Display job postings to users in the same city based on their previous searches.
 60. ⚠️ Explain semi-supervised learning.
 61. ⚠️ Explain auto-regression.
@@ -129,7 +129,7 @@ Machine Learning
 72. ⚠️ Explain the differences between nonconvex and convex functions.
 73. ⚠️ Explain TF-IDF.
 74. ⚠️ How do you handle imbalanced data?
-75. ⚠️ Coin Change
+75. ⚠️ ~~Coin Change~~ *(incomplete - coding problem title only)*
 76. ⚠️ For a dataset with a million data points, would you use a DNN or KNN? Why?
 77. ⚠️ What is a perceptron?
 78. ⚠️ How would you train a model on a large dataset with few labels?
@@ -207,13 +207,13 @@ Data Structures & Algorithms
 8. ⚠️ Find a triplet in an array with a given sum.
 9. ⚠️ Given an array, find the two sum.
 10. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-11. ⚠️ Linked List Cycle
+11. ⚠️ Given a linked list, determine if it has a cycle. If yes, return the node where the cycle begins.
 12. ⚠️ Given the root of a binary tree of integers, return the maximum path sum.
 13. ⚠️ Construct a binary tree given its preorder and inorder traversals.
 14. ⚠️ Transform an input string into a target tokenized sequence using a tree/graph-based algorithm. Embeddings must be simulated (no ML models allowed). Validate the final output.
 15. ⚠️ Merge k sorted linked lists.
 16. ⚠️ Given a list of lexicographically sorted strings in an unknown language, derive the correct order of letters in that language's alphabet.
-17. ⚠️ Search in rotated sorted array
+17. ⚠️ Given a rotated sorted array (e.g., [4,5,6,7,0,1,2]), search for a target value in O(log n) time.
 18. ⚠️ Write a function that takes an array of integers and checks for duplicate values in any contiguous window of size N.
 19. ⚠️ Find the maximum subarray sum.
 20. ⚠️ Determine if a given binary tree is a binary search tree (BST).
@@ -510,7 +510,7 @@ Framework coming soon...
 5. ⚠️ Write a function to return all prime numbers up to a given number n.
 6. ⚠️ Given a list of strings, find all strings that encode to the same value using a Caesar Cipher. (A Caesar Cipher rotates characters, e.g. in CC3: a->d, b->e, ..., z->c)
 7. ⚠️ Given a string with parentheses, write a function that removes the minimum number of characters to balance the parentheses.
-8. ⚠️ Implement Trie
+8. ⚠️ ~~Implement Trie~~ *(incomplete - coding problem title only)*
 9. ⚠️ Explain how you choose a model or algorithm to solve a problem.
 
 

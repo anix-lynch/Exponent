@@ -88,7 +88,7 @@ Data Pipeline Design
 12. 🔴 SQL Stored Procedures
 13. 🔴 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
 14. 🔴 Find the longest substring without repeating characters.
-15. 🔴 Merge Intervals
+15. 🔴 Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
 16. 🔴 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
 17. 🔴 Move all zeros to the end of an array.
 18. 🔴 Product of Array Except Self
@@ -98,7 +98,7 @@ Data Pipeline Design
 22. 🔴 Find the median of two sorted arrays.
 23. 🔴 Find a triplet in an array with a given sum.
 24. 🔴 Design an ETL Pipeline for a ML Platform for AWS
-25. 🔴 Linked List Cycle
+25. 🔴 Given a linked list, determine if it has a cycle. If yes, return the node where the cycle begins.
 26. 🔴 Given the root of a binary tree of integers, return the maximum path sum.
 27. 🔴 Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
 28. 🔴 Split an array into equal sum subarrays
@@ -106,9 +106,9 @@ Data Pipeline Design
 30. 🔴 Which sorting algorithms use divide and conquer?
 31. 🔴 Explain the key differences between BETWEEN and HAVING clauses in SQL.
 32. 🔴 Merge k sorted linked lists.
-33. 🔴 Search in rotated sorted array
+33. 🔴 Given a rotated sorted array (e.g., [4,5,6,7,0,1,2]), search for a target value in O(log n) time.
 34. 🔴 Find the maximum subarray sum.
-35. 🔴 Squares of sorted array
+35. 🔴 Given a sorted array of integers (may include negatives), return an array of the squares of each number, also sorted.
 36. 🔴 Determine if a given binary tree is a binary search tree (BST).
 37. 🔴 Design an ETL Pipeline for Slack for School
 38. 🔴 Partition an array into two sub-arrays with equal sum.
@@ -120,7 +120,7 @@ Data Pipeline Design
 44. 🔴 Find the longest palindromic subsequence using dynamic programming.
 45. 🔴 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
 46. 🔴 Design a data pipeline that complies with GDPR.
-47. 🔴 Serialize and deserialize binary tree
+47. 🔴 Design an algorithm to serialize a binary tree to a string and deserialize the string back to the tree structure.
 48. 🔴 Calculate the height of a binary tree.
 49. 🔴 Print all possible solutions to the N-Queens problem.
 50. 🔴 Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
@@ -242,23 +242,23 @@ Data Structures & Algorithms
 
 1. ⚠️ Is this a valid palindrome?
 2. ⚠️ Reverse a Sentence
-3. ⚠️ Valid Parentheses
-4. ⚠️ Course Schedule
+3. ⚠️ ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
+4. ⚠️ ~~Course Schedule~~ *(incomplete - coding problem title only)*
 5. ⚠️ Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
-6. ⚠️ Climbing Stairs
+6. ⚠️ ~~Climbing Stairs~~ *(incomplete - coding problem title only)*
 7. ⚠️ Given an nxn grid of 1s and 0s, return the number of islands in the input.
 8. ⚠️ Given an array, find the two sum.
-9. ⚠️ Rotating the Box
-10. ⚠️ Generate Parentheses
+9. ⚠️ Given an m x n matrix representing a box with obstacles and stones, rotate the box 90 degrees clockwise and let stones fall due to gravity.
+10. ⚠️ Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. Example: n=3 → ["((()))","(()())","(())()","()(())","()()()"]
 11. ⚠️ Build a Calculator
-12. ⚠️ Roman to Integer
+12. ⚠️ Given a Roman numeral string (e.g., "MCMXCIV"), convert it to an integer (e.g., 1994).
 13. ⚠️ Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
 14. ⚠️ Merge two sorted lists
-15. ⚠️ Set Matrix Zeroes
+15. ⚠️ Given an m x n matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
 16. ⚠️ Solve John Conway's "Game of Life".
 17. ⚠️ Build a Basic Regex Parser
 18. ⚠️ Top k frequent elements
-19. ⚠️ Sliding Window Maximum
+19. ⚠️ Given an array of integers and a window size k, find the maximum value in each sliding window as it moves from left to right.
 20. ⚠️ Print all combinations of numbers from 1 to n that sum to n.
 
 
@@ -405,25 +405,25 @@ SQL
 
 📝 All 19 Questions:
 
-1. 💗 Employee Earnings.
-2. 💗 Monthly Post Success Analysis.
+1. 💗 Write a SQL query to find the employees who earn more than their managers.
+2. 💗 Write a SQL query to calculate monthly post engagement metrics: total posts, average likes per post, engagement rate, and month-over-month growth.
 3. 💗 Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
-4. 💗 Instagram Likes
-5. 💗 Top Earning Employees
-6. 💗 Top Salaries by Department
-7. 💗 Lyft Ride Requests
-8. 💗 Employee Hierarchy
-9. 💗 Most Recent Transaction
-10. 💗 Duolingo Leaderboards
-11. 💗 High Volume Low Success.
-12. 💗 Calculate Test Scores
-13. 💗 Session Data Analysis.
-14. 💗 Marketing Channel Attribution
-15. 💗 Post Success By Age Group.
-16. 💗 Analyze Monthly Customer Transactions
+4. 💗 Write a SQL query to find the number of likes for each Instagram post in the last 30 days.
+5. 💗 Write a SQL query to find the top 3 highest-earning employees in each department.
+6. 💗 Write a SQL query to find the employee with the highest salary in each department.
+7. 💗 ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
+8. 💗 ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
+9. 💗 Write a SQL query to find the most recent transaction for each customer.
+10. 💗 ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
+11. 💗 Write a SQL query to identify products with high order volume but low success rate (< 50% fulfillment).
+12. 💗 Write a SQL query to calculate the average test score for each student, excluding their lowest score.
+13. 💗 Write a SQL query to analyze user session data: calculate average session duration, pages per session, and bounce rate by traffic source.
+14. 💗 ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
+15. 💗 Write a SQL query to analyze post engagement metrics (likes, comments, shares) grouped by user age ranges (18-24, 25-34, 35-44, 45+).
+16. 💗 Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
 17. 💗 Find Customer Lifetime Value (LTV)
-18. 💗 Find Campaign Purchases
-19. 💗 Fraudulent Transactions
+18. 💗 Write a SQL query to find all purchases made within 7 days of a marketing campaign click, grouped by campaign.
+19. 💗 Write a SQL query to identify potentially fraudulent transactions: multiple transactions from same card in different cities within 1 hour, or transactions above $10,000.
 
 
 ================================================================================
@@ -656,7 +656,7 @@ Data Quality
 
 📝 All 5 Questions:
 
-1. ⚪ Remove Duplicate Emails
+1. ⚪ ~~Remove Duplicate Emails~~ *(incomplete - coding problem title only)*
 2. ⚪ On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
 3. ⚪ Find the Duplicates
 4. ⚪ Determine if an array of integers from 1 to n contains a duplicate in constant time and space.

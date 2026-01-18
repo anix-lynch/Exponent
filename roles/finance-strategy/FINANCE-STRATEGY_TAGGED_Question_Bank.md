@@ -193,7 +193,7 @@ Financial Modeling
 1. ⚪ Walk me through how you would build a financial model for a subscription business.
 
 ================================================================================
-PRODUCT STRATEGY 🟢
+PRODUCT STRATEGY 💗
 ================================================================================
 
 📊 **Total Questions**: 1

@@ -62,7 +62,7 @@ Behavioral (STAR Method)
 2. 💗 Tell me about a time when you helped someone in need.
 
 ================================================================================
-COMMUNICATION ⚪
+COMMUNICATION 🟢
 ================================================================================
 
 📊 **Total Questions**: 1

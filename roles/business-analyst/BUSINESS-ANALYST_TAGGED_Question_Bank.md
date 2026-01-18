@@ -94,7 +94,7 @@ Behavioral (STAR Method)
 38. 💗 How would you evaluate our pricing compared to competitors using publicly available data?
 
 ================================================================================
-BUSINESS METRICS & KPIS ⚪
+BUSINESS METRICS & KPIS 🟢
 ================================================================================
 
 📊 Total Questions: 11
@@ -157,7 +157,7 @@ Business Metrics & KPIs
 11. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
 
 ================================================================================
-DATA ANALYSIS - ROOT CAUSE ANALYSIS ⚪
+DATA ANALYSIS - ROOT CAUSE ANALYSIS 💗
 ================================================================================
 
 📊 Total Questions: 9
@@ -272,7 +272,7 @@ Financial Analysis
 6. 🟢 The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
-PRODUCT STRATEGY 🟢
+PRODUCT STRATEGY 💗
 ================================================================================
 
 📊 Total Questions: 6
@@ -330,7 +330,7 @@ Product Strategy
 6. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
-COMMUNICATION & PRESENTATION ⚪
+COMMUNICATION & PRESENTATION 🟢
 ================================================================================
 
 📊 Total Questions: 6
@@ -388,7 +388,7 @@ Communication & Presentation
 6. ⚪ How would you explain a sudden drop in revenue to leadership?
 
 ================================================================================
-ESTIMATION & MARKET SIZING ⚪
+ESTIMATION & MARKET SIZING 🟢
 ================================================================================
 
 📊 Total Questions: 5
@@ -443,7 +443,7 @@ Estimation & Market Sizing
 5. ⚪ Estimate the TAM for electric scooters in San Francisco.
 
 ================================================================================
-STAKEHOLDER MANAGEMENT ⚪
+STAKEHOLDER MANAGEMENT 🟢
 ================================================================================
 
 📊 Total Questions: 5
@@ -500,7 +500,7 @@ Stakeholder Management
 5. ⚪ How do you determine which metrics are most important for executives to track?
 
 ================================================================================
-DATA ANALYSIS - COHORT ANALYSIS ⚪
+DATA ANALYSIS - COHORT ANALYSIS 💗
 ================================================================================
 
 📊 Total Questions: 4
@@ -553,7 +553,7 @@ Data Analysis - Cohort Analysis
 4. ⚪ Tell me how you’d segment customers to support a growth initiative.
 
 ================================================================================
-PROCESS IMPROVEMENT ⚪
+PROCESS IMPROVEMENT 🟢
 ================================================================================
 
 📊 Total Questions: 4
@@ -665,7 +665,7 @@ Data Visualization
 4. ⚪ Walk me through a dashboard you built. What choices did you make?
 
 ================================================================================
-SQL - QUERY OPTIMIZATION ⚪
+SQL - QUERY OPTIMIZATION 💗
 ================================================================================
 
 📊 Total Questions: 3
@@ -718,7 +718,7 @@ SQL - Query Optimization
 3. ⚪ You’ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?
 
 ================================================================================
-DATA ANALYSIS - BUSINESS PROBLEM SOLVING ⚪
+DATA ANALYSIS - BUSINESS PROBLEM SOLVING 💗
 ================================================================================
 
 📊 Total Questions: 2
@@ -768,7 +768,7 @@ Data Analysis - Business Problem Solving
 2. ⚪ How would you size the opportunity for launching a grocery delivery service in a new city?
 
 ================================================================================
-DATA ANALYSIS - TREND ANALYSIS ⚪
+DATA ANALYSIS - TREND ANALYSIS 💗
 ================================================================================
 
 📊 Total Questions: 2
@@ -818,7 +818,7 @@ Data Analysis - Trend Analysis
 2. ⚪ Tell me about a time you discovered a trend by drilling into granular data.
 
 ================================================================================
-SQL - JOINS & AGGREGATION ⚪
+SQL - JOINS & AGGREGATION 💗
 ================================================================================
 
 📊 Total Questions: 2
@@ -872,7 +872,7 @@ SQL - Joins & Aggregation
 2. ⚪ How do you handle joining data from different sources with inconsistent IDs?
 
 ================================================================================
-SQL - WINDOW FUNCTIONS ⚪
+SQL - WINDOW FUNCTIONS 💗
 ================================================================================
 
 📊 Total Questions: 2
@@ -921,7 +921,7 @@ SQL - Window Functions
 2. ⚪ The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
-PRIORITIZATION ⚪
+PRIORITIZATION 🟢
 ================================================================================
 
 📊 Total Questions: 1

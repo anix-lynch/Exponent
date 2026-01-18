@@ -57,15 +57,15 @@ Data Analysis
 
 1. ⚪ How would you convey insights and the methods used to a non-technical audience?
 2. ⚪ Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?
-3. ⚪ Monthly Post Success Analysis.
+3. ⚪ Write a SQL query to calculate monthly post engagement metrics: total posts, average likes per post, engagement rate, and month-over-month growth.
 4. ⚪ Describe a data project you worked on. What were some of the challenges you faced?
 5. ⚪ Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.
 6. ⚪ Define a north star metric for Stripe Connect.
 7. ⚪ There's a YoY slowdown in transactions. How would you structure your analysis?
 8. ⚪ Tell me about a time you built a dashboard.
-9. ⚪ Session Data Analysis.
+9. ⚪ Write a SQL query to analyze user session data: calculate average session duration, pages per session, and bounce rate by traffic source.
 10. ⚪ Tell me about a project where you had to clean and organize a large dataset.
-11. ⚪ Analyze Monthly Customer Transactions
+11. ⚪ Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
 12. ⚪ How would you visualize sales and customer usage?
 13. ⚪ Walk me through a time you diagnosed a drop in conversion.
 14. ⚪ How do you generate insights?
@@ -144,12 +144,12 @@ Analytical
 4. ⚪ Why do you want to work at Anthropic?
 5. ⚪ Determine if Google should introduce ads to Google Flights.
 6. ⚪ Choose a product you like and explain how you would identify its competitors.
-7. ⚪ Most Recent Transaction
-8. ⚪ High Volume Low Success.
-9. ⚪ Calculate Test Scores
+7. ⚪ Write a SQL query to find the most recent transaction for each customer.
+8. ⚪ Write a SQL query to identify products with high order volume but low success rate (< 50% fulfillment).
+9. ⚪ Write a SQL query to calculate the average test score for each student, excluding their lowest score.
 10. ⚪ How would you assess whether a new feature launch was successful?
 11. ⚪ Why do you want to work at Atlassian?
-12. ⚪ Post Success By Age Group.
+12. ⚪ Write a SQL query to analyze post engagement metrics (likes, comments, shares) grouped by user age ranges (18-24, 25-34, 35-44, 45+).
 13. ⚪ Delivery times vary significantly by city. How would you identify if it’s a partner, process, or market issue?
 14. ⚪ Tell me something that's not in your resume.
 15. ⚪ What is the best way to connect SQL databases and why?
@@ -224,27 +224,27 @@ SQL
 
 📝 All 24 Questions:
 
-1. 💗 Employee Earnings.
+1. 💗 Write a SQL query to find the employees who earn more than their managers.
 2. 💗 SQL Stored Procedures
-3. 💗 Instagram Likes
-4. 💗 Top Earning Employees
-5. 💗 Top Salaries by Department
-6. 💗 Lyft Ride Requests
-7. 💗 Employee Hierarchy
-8. 💗 Duolingo Leaderboards
+3. 💗 Write a SQL query to find the number of likes for each Instagram post in the last 30 days.
+4. 💗 Write a SQL query to find the top 3 highest-earning employees in each department.
+5. 💗 Write a SQL query to find the employee with the highest salary in each department.
+6. 💗 ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
+7. 💗 ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
+8. 💗 ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
 9. 💗 Write SQL code to publish the Fibonacci series.
-10. 💗 Marketing Channel Attribution
-11. 💗 Analyze Monthly Customer Transactions
+10. 💗 ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
+11. 💗 Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
 12. 💗 Explain the key differences between BETWEEN and HAVING clauses in SQL.
 13. 💗 What is the difference between NoSQL and SQL?
-14. 💗 Find Campaign Purchases
+14. 💗 Write a SQL query to find all purchases made within 7 days of a marketing campaign click, grouped by campaign.
 15. 💗 Revenue by Customer City
 16. 💗 What is the best way to connect SQL databases and why?
-17. 💗 Top Product Lines
+17. 💗 ~~Top Product Lines~~ *(incomplete - coding problem title only)*
 18. 💗 How do you handle joining data from different sources with inconsistent IDs?
-19. 💗 Fraudulent Transactions
+19. 💗 Write a SQL query to identify potentially fraudulent transactions: multiple transactions from same card in different cities within 1 hour, or transactions above $10,000.
 20. 💗 Let’s say a marketing campaign underperformed—what would you do?
-21. 💗 Overstretched Employees
+21. 💗 ~~Overstretched Employees~~ *(incomplete - coding problem title only)*
 22. 💗 What’s the most complex SQL query you’ve written? Walk me through what it did, the key concepts involved, and the types of joins you used.
 23. 💗 How would you explain a sudden drop in revenue to leadership?
 24. 💗 After launching a new recommendation engine, how would you measure its impact on revenue?
@@ -290,30 +290,30 @@ Coding
 
 📝 All 20 Questions:
 
-1. ⚠️ Employee Earnings.
-2. ⚠️ Instagram Likes
-3. ⚠️ Top Earning Employees
-4. ⚠️ Top Salaries by Department
-5. ⚠️ Merge Intervals
-6. ⚠️ Lyft Ride Requests
-7. ⚠️ Employee Hierarchy
-8. ⚠️ Duolingo Leaderboards
+1. ⚠️ Write a SQL query to find the employees who earn more than their managers.
+2. ⚠️ Write a SQL query to find the number of likes for each Instagram post in the last 30 days.
+3. ⚠️ Write a SQL query to find the top 3 highest-earning employees in each department.
+4. ⚠️ Write a SQL query to find the employee with the highest salary in each department.
+5. ⚠️ Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
+6. ⚠️ ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
+7. ⚠️ ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
+8. ⚠️ ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
 9. ⚠️ Write SQL code to publish the Fibonacci series.
-10. ⚠️ Marketing Channel Attribution
-11. ⚠️ Analyze Monthly Customer Transactions
-12. ⚠️ Find Campaign Purchases
+10. ⚠️ ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
+11. ⚠️ Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
+12. ⚠️ Write a SQL query to find all purchases made within 7 days of a marketing campaign click, grouped by campaign.
 13. ⚠️ Revenue by Customer City
-14. ⚠️ Top Product Lines
-15. ⚠️ Fraudulent Transactions
+14. ⚠️ ~~Top Product Lines~~ *(incomplete - coding problem title only)*
+15. ⚠️ Write a SQL query to identify potentially fraudulent transactions: multiple transactions from same card in different cities within 1 hour, or transactions above $10,000.
 16. ⚠️ Let’s say a marketing campaign underperformed—what would you do?
-17. ⚠️ Overstretched Employees
+17. ⚠️ ~~Overstretched Employees~~ *(incomplete - coding problem title only)*
 18. ⚠️ How would you explain a sudden drop in revenue to leadership?
 19. ⚠️ After launching a new recommendation engine, how would you measure its impact on revenue?
-20. ⚠️ Convert Biased Coin to Fair Coin
+20. ⚠️ Given a function that returns 0 with probability p and 1 with probability (1-p), write a function that returns 0 or 1 with equal probability.
 
 
 ================================================================================
-PRODUCT STRATEGY 🟢
+PRODUCT STRATEGY 💗
 ================================================================================
 
 📊 Total Questions: 16
@@ -418,7 +418,7 @@ Product Design
 2. ⚪ Design an AI data product.
 3. ⚪ An important feature of a product fails on the release day at a conference. What would you do?
 4. ⚪ How would you evaluate whether a new feature is worth rolling out to all users?
-5. ⚪ Top Product Lines
+5. ⚪ ~~Top Product Lines~~ *(incomplete - coding problem title only)*
 6. ⚪ Decide product-market fit for sticky post-its.
 7. ⚪ What metrics would you use to evaluate product adoption and engagement?
 8. ⚪ How would you estimate the total addressable market (TAM) for a new product?
@@ -482,12 +482,12 @@ Artificial Intelligence
 6. ⚪ How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?
 7. ⚪ An important feature of a product fails on the release day at a conference. What would you do?
 8. ⚪ Explain the key differences between BETWEEN and HAVING clauses in SQL.
-9. ⚪ Find Campaign Purchases
+9. ⚪ Write a SQL query to find all purchases made within 7 days of a marketing campaign click, grouped by campaign.
 10. ⚪ Let’s say a marketing campaign underperformed—what would you do?
 11. ⚪ Given a feature data record (FDR), how would you detect anomalies in it?
 12. ⚪ How would you explain a sudden drop in revenue to leadership?
 13. ⚪ After launching a new recommendation engine, how would you measure its impact on revenue?
-14. ⚪ Convert Biased Coin to Fair Coin
+14. ⚪ Given a function that returns 0 with probability p and 1 with probability (1-p), write a function that returns 0 or 1 with equal probability.
 15. ⚪ A competitor is gaining market share. How would you investigate why?
 16. ⚪ How would you evaluate our pricing compared to competitors using publicly available data?
 
@@ -740,7 +740,7 @@ Customer Interaction
 
 📝 All 6 Questions:
 
-1. ⚪ Analyze Monthly Customer Transactions
+1. ⚪ Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
 2. ⚪ How would you visualize sales and customer usage?
 3. ⚪ Find Customer Lifetime Value (LTV)
 4. ⚪ Revenue by Customer City
@@ -983,9 +983,9 @@ Data Structures & Algorithms
 
 📝 All 3 Questions:
 
-1. ⚠️ Merge Intervals
+1. ⚠️ Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
 2. ⚠️ Write SQL code to publish the Fibonacci series.
-3. ⚠️ Convert Biased Coin to Fair Coin
+3. ⚠️ Given a function that returns 0 with probability p and 1 with probability (1-p), write a function that returns 0 or 1 with equal probability.
 
 
 ================================================================================

@@ -42,9 +42,16 @@ YOUR_STRENGTHS = {
     'FINANCIAL ANALYSIS': '🟢',  # VC/PE background
     'MARKET ANALYSIS': '🟢',  # VC/PE background
     'ESTIMATION': '🟢',  # Market sizing experience
+    'MARKET SIZING': '🟢',  # Market sizing experience
     'PRODUCT SENSE': '🟢',  # Business understanding
     'METRICS': '🟢',  # You understand KPIs
+    'KPI': '🟢',  # You understand KPIs
     'CASE STUDY': '🟢',  # Consulting-style thinking
+    'STAKEHOLDER': '🟢',  # 20 years experience
+    'COMMUNICATION': '🟢',  # 20 years experience
+    'PRESENTATION': '🟢',  # Executive level
+    'PRIORITIZATION': '🟢',  # Executive decision-making
+    'PROCESS IMPROVEMENT': '🟢',  # Business optimization
 }
 
 # Categories to skip (low ROI for your goals)
@@ -63,25 +70,25 @@ def get_priority_tag(category, role='data-engineer'):
     if category_upper in SKIP_CATEGORIES:
         return SKIP_CATEGORIES[category_upper]
     
-    # PRIORITY 1: Universal + Your Strength = EASIEST (pink heart)
-    if category_upper in UNIVERSAL_CATEGORIES and category_upper in YOUR_STRENGTHS:
-        return '💗'  # Universal + Strength = EASIEST WIN
+    # Check for partial matches (handles nested categories like "DATA ANALYSIS - ROOT CAUSE")
+    # PRIORITY 1: Universal categories (exact or partial match)
+    for universal_cat in UNIVERSAL_CATEGORIES:
+        if universal_cat in category_upper:
+            return '💗'  # Universal = Master once, use everywhere
     
-    # PRIORITY 2: Universal (need practice) = LOW HANGING FRUIT (pink heart)
-    elif category_upper in UNIVERSAL_CATEGORIES:
-        return '💗'  # Universal = Master once, use everywhere
+    # PRIORITY 2: Your strengths (exact or partial match)
+    for strength_cat in YOUR_STRENGTHS:
+        if strength_cat in category_upper:
+            return '🟢'  # Your strength = Easy
     
-    # PRIORITY 3: Your strength (but not universal) = EASY (green)
-    elif category_upper in YOUR_STRENGTHS:
-        return '🟢'  # Your strength = Easy
+    # PRIORITY 3: DE Critical = STUDY (red)
+    if role == 'data-engineer':
+        for de_cat in DE_PRIORITIES:
+            if de_cat in category_upper:
+                return DE_PRIORITIES[de_cat]
     
-    # PRIORITY 4: DE Critical = STUDY (red)
-    elif role == 'data-engineer' and category_upper in DE_PRIORITIES:
-        return DE_PRIORITIES[category_upper]
-    
-    # PRIORITY 5: Low priority
-    else:
-        return '⚪'  # Low priority
+    # PRIORITY 4: Low priority
+    return '⚪'  # Low priority
 
 def tag_question_bank(role_name, role_dir):
     """Add priority tags to a question bank"""
