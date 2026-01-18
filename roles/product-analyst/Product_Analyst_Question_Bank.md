@@ -117,7 +117,48 @@ ROOT CAUSE ANALYSIS
 📊 Total Questions: 10
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you investigate and diagnose product issues systematically?
+
+🗺️  Mental Model Framework:
+```
+Root Cause Analysis
+├─ Define the problem
+│  ├─ What metric changed? (engagement, conversion, retention)
+│  ├─ When did it change? (date, time, event)
+│  ├─ How much did it change? (magnitude, percentage)
+│  ├─ Why does it matter? (user impact, business impact)
+│  └─ What's the baseline?
+│
+├─ Form hypotheses
+│  ├─ Product changes (new feature, UI change, bug)
+│  ├─ Technical issues (performance, crashes, errors)
+│  ├─ User behavior changes (new cohorts, usage patterns)
+│  ├─ External factors (seasonality, competition, market)
+│  ├─ Data quality issues (tracking, instrumentation)
+│  └─ Prioritize hypotheses
+│
+├─ Segment and drill down
+│  ├─ By time (hourly, daily, weekly)
+│  ├─ By user segment (new vs returning, demographics)
+│  ├─ By platform (web, iOS, Android)
+│  ├─ By feature or flow
+│  ├─ By geography or locale
+│  └─ By cohort or acquisition channel
+│
+├─ Test hypotheses
+│  ├─ Gather supporting data
+│  ├─ Look for correlations
+│  ├─ Check logs and events
+│  ├─ Validate with qualitative data (user feedback)
+│  └─ Identify root cause
+│
+└─ Recommend solution
+   ├─ Fix the immediate issue
+   ├─ Prevent recurrence
+   ├─ Monitor going forward
+   ├─ Expected impact
+   └─ Implementation timeline
+```
 
 📝 All 10 Questions:
 
@@ -139,7 +180,45 @@ PRODUCT METRICS - TRACKING
 📊 Total Questions: 8
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you set up tracking and build dashboards for product metrics?
+
+🗺️  Mental Model Framework:
+```
+Product Metrics - Tracking
+├─ Understand the product
+│  ├─ Product vision and goals
+│  ├─ User journey and lifecycle
+│  ├─ Key value propositions
+│  └─ Business model
+│
+├─ Define what to track
+│  ├─ User actions (clicks, views, purchases)
+│  ├─ Product events (feature usage, errors)
+│  ├─ User properties (demographics, cohort)
+│  ├─ Session data (duration, frequency)
+│  └─ Business outcomes (revenue, retention)
+│
+├─ Set up tracking
+│  ├─ Event schema design
+│  ├─ Naming conventions
+│  ├─ User identification (user_id, device_id)
+│  ├─ Data validation and QA
+│  └─ Documentation
+│
+├─ Build dashboards
+│  ├─ Key metrics and KPIs
+│  ├─ Trends over time
+│  ├─ Segmentation and filters
+│  ├─ Alerts and thresholds
+│  └─ Refresh frequency
+│
+└─ Monitor and iterate
+   ├─ Data quality checks
+   ├─ Track coverage and adoption
+   ├─ Gather feedback from stakeholders
+   ├─ Update as product evolves
+   └─ Deprecate unused metrics
+```
 
 📝 All 8 Questions:
 
@@ -159,7 +238,48 @@ PRODUCT METRICS - DEFINITION
 📊 Total Questions: 6
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you define the right metrics to measure product success?
+
+🗺️  Mental Model Framework:
+```
+Product Metrics - Definition
+├─ Understand the product
+│  ├─ Product vision and goals
+│  ├─ User journey and lifecycle
+│  ├─ Key value propositions
+│  ├─ Competitive landscape
+│  └─ Business model
+│
+├─ Define metrics framework
+│  ├─ North Star Metric (primary success indicator)
+│  ├─ Acquisition metrics (signups, installs, traffic)
+│  ├─ Activation metrics (onboarding completion, first action)
+│  ├─ Engagement metrics (DAU, MAU, session length, frequency)
+│  ├─ Retention metrics (D1, D7, D30 retention, churn)
+│  ├─ Revenue metrics (ARPU, LTV, conversion rate)
+│  └─ Referral metrics (viral coefficient, NPS)
+│
+├─ Ensure quality
+│  ├─ Aligned with product goals
+│  ├─ Actionable (can influence)
+│  ├─ Measurable and trackable
+│  ├─ Leading vs lagging indicators
+│  └─ Guardrail metrics (prevent negative impacts)
+│
+├─ Track and analyze
+│  ├─ Set up tracking and instrumentation
+│  ├─ Build dashboards
+│  ├─ Monitor trends over time
+│  ├─ Segment by user cohorts
+│  └─ Benchmark against targets
+│
+└─ Drive product decisions
+   ├─ Identify opportunities
+   ├─ Prioritize features
+   ├─ Measure experiment impact
+   ├─ Inform roadmap
+   └─ Communicate to stakeholders
+```
 
 📝 All 6 Questions:
 
@@ -177,7 +297,46 @@ DATA ANALYSIS - FEATURE IMPACT
 📊 Total Questions: 5
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you measure and evaluate the impact of product features?
+
+🗺️  Mental Model Framework:
+```
+Data Analysis - Feature Impact
+├─ Understand the feature
+│  ├─ What problem does it solve?
+│  ├─ Who is the target user?
+│  ├─ How does it work?
+│  ├─ When was it launched?
+│  └─ What were the goals?
+│
+├─ Define success metrics
+│  ├─ Primary metrics (feature adoption, usage)
+│  ├─ Secondary metrics (engagement, retention)
+│  ├─ Business metrics (revenue, conversion)
+│  ├─ User satisfaction (NPS, feedback)
+│  └─ Guardrail metrics (negative impacts)
+│
+├─ Analyze adoption
+│  ├─ What % of users discovered the feature?
+│  ├─ What % of users tried it?
+│  ├─ What % of users use it regularly?
+│  ├─ Adoption curve over time
+│  └─ Compare to expectations
+│
+├─ Analyze impact
+│  ├─ Did it improve target metrics?
+│  ├─ Segment by user type (power users, new users)
+│  ├─ Compare users who use it vs don't
+│  ├─ Look for unintended consequences
+│  └─ Qualitative feedback
+│
+└─ Recommend next steps
+   ├─ Should we invest more? (iterate, expand)
+   ├─ Should we optimize? (improve adoption, UX)
+   ├─ Should we sunset? (low value, high cost)
+   ├─ What did we learn?
+   └─ Apply learnings to future features
+```
 
 📝 All 5 Questions:
 
@@ -194,7 +353,45 @@ DATA ANALYSIS - RETENTION & CHURN
 📊 Total Questions: 4
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you analyze retention patterns and identify churn drivers?
+
+🗺️  Mental Model Framework:
+```
+Data Analysis - Retention & Churn
+├─ Define retention
+│  ├─ What action defines "retained"? (login, purchase, engagement)
+│  ├─ Time windows (D1, D7, D30, M1, M3, M6)
+│  ├─ Rolling vs calendar retention
+│  └─ Classic vs unbounded retention
+│
+├─ Measure retention
+│  ├─ Overall retention rate
+│  ├─ Retention curves by cohort
+│  ├─ Compare cohorts over time
+│  ├─ Identify improving/declining cohorts
+│  └─ Benchmark against targets
+│
+├─ Analyze churn
+│  ├─ When do users churn? (time to churn)
+│  ├─ Why do users churn? (exit surveys, feedback)
+│  ├─ Churn rate by segment (new vs power users)
+│  ├─ Predictive churn modeling
+│  └─ Reactivation opportunities
+│
+├─ Segment and drill down
+│  ├─ By user type (new, casual, power)
+│  ├─ By acquisition channel
+│  ├─ By platform (web, iOS, Android)
+│  ├─ By geography or locale
+│  └─ By product usage patterns
+│
+└─ Recommend actions
+   ├─ Improve onboarding (activation)
+   ├─ Increase engagement (habit formation)
+   ├─ Target at-risk users (churn prevention)
+   ├─ Win-back campaigns (reactivation)
+   └─ Measure impact of interventions
+```
 
 📝 All 4 Questions:
 
@@ -210,7 +407,46 @@ STAKEHOLDER COMMUNICATION
 📊 Total Questions: 4
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you communicate insights effectively to product teams and leadership?
+
+🗺️  Mental Model Framework:
+```
+Stakeholder Communication
+├─ Know your audience
+│  ├─ Who are they? (PM, eng, exec, design)
+│  ├─ What do they care about?
+│  ├─ What's their level of technical knowledge?
+│  ├─ What decision do they need to make?
+│  └─ How much time do you have?
+│
+├─ Structure your message
+│  ├─ Start with the conclusion (TL;DR)
+│  ├─ Provide context and problem statement
+│  ├─ Present analysis and insights
+│  ├─ Make clear recommendations
+│  └─ End with next steps
+│
+├─ Tell a story with data
+│  ├─ Set the scene (context)
+│  ├─ Introduce the problem
+│  ├─ Show the evidence (data)
+│  ├─ Explain the insights
+│  └─ Recommend the solution
+│
+├─ Visualize effectively
+│  ├─ Choose right chart type
+│  ├─ Keep it simple and focused
+│  ├─ Use clear labels and titles
+│  ├─ Highlight key insights
+│  └─ Remove clutter
+│
+└─ Engage and respond
+   ├─ Anticipate questions
+   ├─ Listen actively
+   ├─ Clarify when needed
+   ├─ Acknowledge concerns
+   └─ Follow up on action items
+```
 
 📝 All 4 Questions:
 
@@ -226,7 +462,51 @@ DASHBOARD & VISUALIZATION
 📊 Total Questions: 3
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you create dashboards that drive product decisions?
+
+🗺️  Mental Model Framework:
+```
+Dashboard & Visualization
+├─ Understand the purpose
+│  ├─ Who is the audience? (PM, exec, eng, ops)
+│  ├─ What decisions will they make?
+│  ├─ What questions are they asking?
+│  ├─ How often will they use it?
+│  └─ What's the key message?
+│
+├─ Choose the right charts
+│  ├─ Trends over time: Line chart, area chart
+│  ├─ Comparison: Bar chart, column chart
+│  ├─ Distribution: Histogram, box plot
+│  ├─ Relationship: Scatter plot
+│  ├─ Composition: Pie chart, stacked bar, treemap
+│  ├─ Funnel: Funnel chart
+│  └─ Cohort: Cohort retention table
+│
+├─ Design effectively
+│  ├─ Clear and descriptive titles
+│  ├─ Labeled axes with units
+│  ├─ Appropriate scale
+│  ├─ Minimal colors (use for emphasis)
+│  ├─ Remove clutter (gridlines, borders)
+│  ├─ Consistent formatting
+│  └─ Mobile-friendly if needed
+│
+├─ Build the dashboard
+│  ├─ Organize logically (most important first)
+│  ├─ Use filters (date range, segment, platform)
+│  ├─ Add interactivity (drill-down, hover)
+│  ├─ Balance detail and overview
+│  ├─ Set refresh frequency
+│  └─ Optimize for performance
+│
+└─ Maintain and iterate
+   ├─ Monitor usage (who's using it?)
+   ├─ Gather feedback
+   ├─ Update as product evolves
+   ├─ Deprecate unused charts
+   └─ Document definitions and calculations
+```
 
 📝 All 3 Questions:
 
@@ -241,7 +521,48 @@ A/B TESTING - DESIGN
 📊 Total Questions: 2
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you design rigorous product experiments?
+
+🗺️  Mental Model Framework:
+```
+A/B Testing - Design
+├─ Define the experiment
+│  ├─ What's the hypothesis?
+│  ├─ What are we testing? (feature, design, copy)
+│  ├─ What's the control vs treatment?
+│  ├─ What's the expected impact?
+│  └─ Why does this matter?
+│
+├─ Choose metrics
+│  ├─ Primary metric (what we're optimizing for)
+│  ├─ Secondary metrics (additional signals)
+│  ├─ Guardrail metrics (prevent negative impacts)
+│  ├─ Leading indicators (early signals)
+│  └─ Ensure metrics are measurable
+│
+├─ Design the experiment
+│  ├─ Randomization unit (user, session, device)
+│  ├─ Sample size calculation (power analysis)
+│  ├─ Traffic allocation (50/50, 90/10)
+│  ├─ Duration (how long to run?)
+│  ├─ Exclusions (bots, internal users)
+│  └─ Instrumentation and tracking
+│
+├─ Analyze results
+│  ├─ Check for statistical significance (p-value < 0.05)
+│  ├─ Calculate effect size (% lift)
+│  ├─ Check secondary and guardrail metrics
+│  ├─ Segment analysis (did it work for all users?)
+│  ├─ Novelty effect (did effect decay over time?)
+│  └─ Validate data quality
+│
+└─ Make decision
+   ├─ Ship (clear win)
+   ├─ Don't ship (no impact or negative)
+   ├─ Iterate (promising but needs work)
+   ├─ Run longer (inconclusive)
+   └─ Document learnings
+```
 
 📝 All 2 Questions:
 
@@ -255,7 +576,47 @@ DATA ANALYSIS - USER BEHAVIOR
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you analyze user behavior to drive product decisions?
+
+🗺️  Mental Model Framework:
+```
+Data Analysis - User Behavior
+├─ Define the question
+│  ├─ What user behavior are we analyzing?
+│  ├─ Why does it matter?
+│  ├─ What decisions will this inform?
+│  └─ What's the scope? (segment, timeframe)
+│
+├─ Map the user journey
+│  ├─ Key touchpoints and actions
+│  ├─ Entry points
+│  ├─ Critical paths
+│  ├─ Exit points
+│  └─ Conversion funnels
+│
+├─ Analyze patterns
+│  ├─ Frequency (how often do users engage?)
+│  ├─ Recency (when was last engagement?)
+│  ├─ Depth (how deeply do they engage?)
+│  ├─ Breadth (what features do they use?)
+│  ├─ Sequences (what paths do they take?)
+│  └─ Cohort analysis (how do cohorts differ?)
+│
+├─ Segment users
+│  ├─ Power users vs casual users
+│  ├─ New users vs returning users
+│  ├─ By demographics (age, location)
+│  ├─ By acquisition channel
+│  ├─ By product usage patterns
+│  └─ Identify key segments
+│
+└─ Generate insights
+   ├─ What drives engagement?
+   ├─ What causes drop-off?
+   ├─ What predicts retention?
+   ├─ What opportunities exist?
+   └─ Recommend product improvements
+```
 
 📝 All 1 Questions:
 
@@ -268,7 +629,47 @@ DATA ANALYSIS - FUNNEL ANALYSIS
 📊 Total Questions: 1
 
 🎯 What they're really testing:
-Your product analytics skills.
+Can you analyze and optimize conversion funnels?
+
+🗺️  Mental Model Framework:
+```
+Data Analysis - Funnel Analysis
+├─ Define the funnel
+│  ├─ What's the goal? (signup, purchase, activation)
+│  ├─ What are the steps?
+│  ├─ Entry point
+│  ├─ Critical milestones
+│  └─ Success event
+│
+├─ Measure conversion
+│  ├─ Overall conversion rate
+│  ├─ Step-by-step conversion
+│  ├─ Drop-off at each step
+│  ├─ Time to convert
+│  └─ Benchmark against targets
+│
+├─ Segment the funnel
+│  ├─ By user type (new vs returning)
+│  ├─ By platform (web, iOS, Android)
+│  ├─ By acquisition channel
+│  ├─ By geography or locale
+│  ├─ By cohort
+│  └─ Identify high/low performing segments
+│
+├─ Identify bottlenecks
+│  ├─ Which step has highest drop-off?
+│  ├─ Why are users dropping off? (UX, friction, confusion)
+│  ├─ What's different about users who convert?
+│  ├─ Are there technical issues?
+│  └─ Qualitative feedback
+│
+└─ Optimize the funnel
+   ├─ Prioritize steps to improve
+   ├─ Hypothesis for improvement
+   ├─ Design experiment
+   ├─ Expected impact
+   └─ Monitor and iterate
+```
 
 📝 All 1 Questions:
 
