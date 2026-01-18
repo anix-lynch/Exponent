@@ -133,6 +133,33 @@ main (master)
 
 **View**: Check `roles/product-marketing-manager/`
 
+### ✅ Data Scientist (Complete) 🎯 **TOP-TIER #2**
+- **157 questions** across 14 categories
+- **Comprehensive frameworks** matching Data Analyst quality
+- Source: https://www.tryexponent.com/questions?role=data-science
+
+**View**: Check `roles/data-scientist/`
+- [Data_Scientist_Question_Bank.md](roles/data-scientist/Data_Scientist_Question_Bank.md)
+- [INTERVIEW_FRAMEWORK.md](roles/data-scientist/INTERVIEW_FRAMEWORK.md)
+
+### ✅ Business Analyst (Complete) 🎯 **TOP-TIER #2**
+- **87 questions** across 17 categories
+- **Comprehensive frameworks** matching Data Analyst quality
+- Source: https://www.tryexponent.com/questions?role=business-analyst
+
+**View**: Check `roles/business-analyst/`
+- [Business_Analyst_Question_Bank.md](roles/business-analyst/Business_Analyst_Question_Bank.md)
+- [INTERVIEW_FRAMEWORK.md](roles/business-analyst/INTERVIEW_FRAMEWORK.md)
+
+### ✅ Product Analyst (Complete) 🎯 **TOP-TIER #2**
+- **85 questions** across 13 categories
+- **Comprehensive frameworks** matching Data Analyst quality
+- Source: https://www.tryexponent.com/questions?role=product-analyst
+
+**View**: Check `roles/product-analyst/`
+- [Product_Analyst_Question_Bank.md](roles/product-analyst/Product_Analyst_Question_Bank.md)
+- [INTERVIEW_FRAMEWORK.md](roles/product-analyst/INTERVIEW_FRAMEWORK.md)
+
 ---
 
 ## 🚀 Quick Start
@@ -240,9 +267,9 @@ roles/{role-name}/
 - [x] Chief of Staff role complete (2 questions)
 - [x] Growth Marketing Manager role complete (2 questions)
 - [x] Product Marketing Manager role complete (5 questions sample)
-- [x] Data Scientist role complete (157 questions) 🎯 **TOP-TIER #2**
-- [x] Business Analyst role complete (87 questions) 🎯 **TOP-TIER #2**
-- [x] Product Analyst role complete (85 questions) 🎯 **TOP-TIER #2**
+- [x] Data Scientist role complete (157 questions) 🎯 **TOP-TIER #2** - Comprehensive quality
+- [x] Business Analyst role complete (87 questions) 🎯 **TOP-TIER #2** - Comprehensive quality
+- [x] Product Analyst role complete (85 questions) 🎯 **TOP-TIER #2** - Comprehensive quality
 - [ ] Engineering Manager role
 
 ---
