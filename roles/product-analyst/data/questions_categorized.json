@@ -1,0 +1,89 @@
+[
+  {
+    "question": "Tell me about a time when you used data to influence a product decision.",
+    "categories": [
+      "Behavioral",
+      "Product Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you measure the success of a new feature?",
+    "categories": [
+      "Data Analysis - Feature Impact"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "Design an A/B test to evaluate a change to the checkout flow.",
+    "categories": [
+      "A/B Testing - Design",
+      "Data Analysis - Funnel Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you investigate a drop in user retention?",
+    "categories": [
+      "Data Analysis - Retention & Churn",
+      "Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "What metrics would you track for a social media app?",
+    "categories": [
+      "Product Metrics - Tracking",
+      "Product Metrics - Definition"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "Walk me through how you would build a product dashboard for executives.",
+    "categories": [
+      "Dashboard & Visualization",
+      "Product Metrics - Tracking"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "Describe a time when you disagreed with a product manager's decision based on data.",
+    "categories": [
+      "Behavioral",
+      "Stakeholder Communication"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you prioritize which product features to analyze first?",
+    "categories": [
+      "Data Analysis - Feature Impact",
+      "Prioritization"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "Explain how you would conduct a funnel analysis for a conversion flow.",
+    "categories": [
+      "Data Analysis - Funnel Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  },
+  {
+    "question": "How do you balance quantitative data with qualitative user feedback in product decisions?",
+    "categories": [
+      "Product Strategy"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=product-analyst",
+    "page": 1
+  }
+]

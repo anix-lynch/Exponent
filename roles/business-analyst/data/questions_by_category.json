@@ -1,0 +1,103 @@
+{
+  "Behavioral": [
+    {
+      "question": "Tell me about a time when you identified a business problem and used data to solve it.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    },
+    {
+      "question": "Describe a time when you had to present data insights to senior leadership.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Data Analysis - Business Problem Solving": [
+    {
+      "question": "Tell me about a time when you identified a business problem and used data to solve it.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Data Analysis - Root Cause Analysis": [
+    {
+      "question": "How would you analyze a sudden drop in user engagement?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Data Analysis - Trend Analysis": [],
+  "Data Analysis - Cohort Analysis": [
+    {
+      "question": "Walk me through how you would conduct a cohort analysis.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "SQL - Joins & Aggregation": [
+    {
+      "question": "Write a SQL query to find the top 10 customers by revenue in the last quarter.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "SQL - Window Functions": [
+    {
+      "question": "Describe a time when you had to present data insights to senior leadership.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "SQL - Query Optimization": [],
+  "Business Metrics & KPIs": [
+    {
+      "question": "How would you measure the success of a new product launch?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    },
+    {
+      "question": "What KPIs would you track for an e-commerce business?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Estimation & Market Sizing": [
+    {
+      "question": "How would you estimate the market size for a new product category?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Requirements Gathering": [
+    {
+      "question": "Describe your process for gathering and documenting business requirements.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Stakeholder Management": [
+    {
+      "question": "Describe a time when you had to present data insights to senior leadership.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Process Improvement": [
+    {
+      "question": "Describe your process for gathering and documenting business requirements.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Financial Analysis": [
+    {
+      "question": "Write a SQL query to find the top 10 customers by revenue in the last quarter.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Product Strategy": [
+    {
+      "question": "How would you measure the success of a new product launch?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Communication & Presentation": [
+    {
+      "question": "Describe a time when you had to present data insights to senior leadership.",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Prioritization": [
+    {
+      "question": "How do you prioritize competing business requests when resources are limited?",
+      "url": "https://www.tryexponent.com/questions?role=business-analyst"
+    }
+  ],
+  "Data Visualization": []
+}

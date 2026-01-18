@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Tell me about a time when you had to explain a complex statistical concept to a non-technical stakeholder.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "How would you design an A/B test to measure the impact of a new feature?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "Explain the bias-variance tradeoff and how it relates to model performance.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "Walk me through how you would build a recommendation system for an e-commerce platform.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "How do you handle imbalanced datasets in classification problems?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "What metrics would you use to evaluate a regression model?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "Describe a time when your model performed poorly in production. What did you do?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "How would you detect and handle outliers in a dataset?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "Explain the difference between supervised and unsupervised learning with examples.",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  },
+  {
+    "question": "How would you approach feature engineering for a time series forecasting problem?",
+    "categories": [],
+    "url": "https://www.tryexponent.com/questions?role=data-science",
+    "page": 1
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "Behavioral": [
+    {
+      "question": "Tell me about a time when you had to explain a complex statistical concept to a non-technical stakeholder.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    },
+    {
+      "question": "Describe a time when your model performed poorly in production. What did you do?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Machine Learning - Supervised": [
+    {
+      "question": "How do you handle imbalanced datasets in classification problems?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    },
+    {
+      "question": "What metrics would you use to evaluate a regression model?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    },
+    {
+      "question": "Explain the difference between supervised and unsupervised learning with examples.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Machine Learning - Unsupervised": [
+    {
+      "question": "Explain the difference between supervised and unsupervised learning with examples.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Machine Learning - Model Evaluation": [
+    {
+      "question": "Explain the bias-variance tradeoff and how it relates to model performance.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    },
+    {
+      "question": "What metrics would you use to evaluate a regression model?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Machine Learning - Feature Engineering": [
+    {
+      "question": "How would you approach feature engineering for a time series forecasting problem?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Statistics & Experimentation - A/B Testing": [
+    {
+      "question": "How would you design an A/B test to measure the impact of a new feature?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Statistics & Experimentation - Hypothesis Testing": [],
+  "Statistics & Experimentation - Probability": [
+    {
+      "question": "Explain the bias-variance tradeoff and how it relates to model performance.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Data Analysis - Exploratory": [],
+  "Data Analysis - Root Cause": [],
+  "Data Analysis - Business Metrics": [
+    {
+      "question": "What metrics would you use to evaluate a regression model?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "SQL": [],
+  "Coding": [],
+  "Model Deployment & Production": [
+    {
+      "question": "Describe a time when your model performed poorly in production. What did you do?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Deep Learning": [],
+  "Time Series": [
+    {
+      "question": "How would you approach feature engineering for a time series forecasting problem?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "NLP": [],
+  "Computer Vision": [],
+  "Recommendation Systems": [
+    {
+      "question": "Walk me through how you would build a recommendation system for an e-commerce platform.",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ],
+  "Data Cleaning & Preprocessing": [
+    {
+      "question": "How do you handle imbalanced datasets in classification problems?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    },
+    {
+      "question": "How would you detect and handle outliers in a dataset?",
+      "url": "https://www.tryexponent.com/questions?role=data-science"
+    }
+  ]
+}

@@ -240,7 +240,9 @@ roles/{role-name}/
 - [x] Chief of Staff role complete (2 questions)
 - [x] Growth Marketing Manager role complete (2 questions)
 - [x] Product Marketing Manager role complete (5 questions sample)
-- [ ] Data Scientist role
+- [x] Data Scientist role complete (10 sample, 165 total on Exponent) 🎯 **TOP-TIER #2**
+- [x] Business Analyst role complete (10 sample, 88 total on Exponent) 🎯 **TOP-TIER #2**
+- [x] Product Analyst role complete (10 sample, 86 total on Exponent) 🎯 **TOP-TIER #2**
 - [ ] Engineering Manager role
 
 ---

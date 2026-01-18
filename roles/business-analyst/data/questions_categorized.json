@@ -1,0 +1,89 @@
+[
+  {
+    "question": "Tell me about a time when you identified a business problem and used data to solve it.",
+    "categories": [
+      "Behavioral",
+      "Data Analysis - Business Problem Solving"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you measure the success of a new product launch?",
+    "categories": [
+      "Product Strategy",
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "Write a SQL query to find the top 10 customers by revenue in the last quarter.",
+    "categories": [
+      "SQL - Joins & Aggregation",
+      "Financial Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you estimate the market size for a new product category?",
+    "categories": [
+      "Estimation & Market Sizing"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "Describe a time when you had to present data insights to senior leadership.",
+    "categories": [
+      "Behavioral",
+      "Communication & Presentation",
+      "Stakeholder Management",
+      "SQL - Window Functions"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "How would you analyze a sudden drop in user engagement?",
+    "categories": [
+      "Data Analysis - Root Cause Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "What KPIs would you track for an e-commerce business?",
+    "categories": [
+      "Business Metrics & KPIs"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "Walk me through how you would conduct a cohort analysis.",
+    "categories": [
+      "Data Analysis - Cohort Analysis"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "How do you prioritize competing business requests when resources are limited?",
+    "categories": [
+      "Prioritization"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  },
+  {
+    "question": "Describe your process for gathering and documenting business requirements.",
+    "categories": [
+      "Requirements Gathering",
+      "Process Improvement"
+    ],
+    "url": "https://www.tryexponent.com/questions?role=business-analyst",
+    "page": 1
+  }
+]
