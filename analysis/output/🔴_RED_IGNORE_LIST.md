@@ -98,6 +98,32 @@ General Problem Framework
    └─ Summarize
 ```
 
+🎯 **Filter Logic (how these 15 were selected):**
+
+```
+High-Impact Question Selection
+├─ 1. High Frequency Patterns
+│  ├─ ✅ "Diagnose a drop in X" (metrics/conversions/churn)
+│  ├─ ✅ "Define success / pick metrics"
+│  ├─ ✅ "Increase revenue / growth / retention"
+│  ├─ ✅ "Market expansion / go-to-market"
+│  ├─ ✅ "Design a product / redesign experience"
+│  ├─ ✅ "Tradeoff decisions" (ads vs UX, pagination vs scroll)
+│  │
+│  └─ ❌ Skip: Weird designs (dogs, slippers), estimation brainteasers, niche domains
+│
+├─ 2. Template-able (1 framework → 20+ variants)
+│  ├─ Metric drop template → applies to any "X is down" question
+│  ├─ Product design template → applies to "Design X for Y user"
+│  └─ Strategy template → "expand into region", "double revenue"
+│
+└─ 3. Coverage Across 4 Core Interview Modes
+   ├─ Diagnostics (analytics)
+   ├─ Metrics / success definition
+   ├─ Product design
+   └─ Strategy / growth
+```
+
 📝 Top 15 High-Value Questions (80% interview coverage, template-able):
 
 **A) Diagnostics / Metric Drops (highest frequency)**
