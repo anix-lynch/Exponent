@@ -364,3 +364,161 @@ SUBTRACT:
 - **ALL_QUESTIONS_RAW.md** - Source of truth (2,893 questions)
 
 **Next:** Tag questions using this cheatsheet → Build Top-30 🟢 list
+
+---
+
+---
+
+# FOOTNOTE: DECISION CLARITY UPGRADE
+
+**Status:** This cheatsheet is **directionally right** and very close to being the "one bible."
+
+**What's missing:** Not *more patterns*, but **decision clarity** — the cheat sheet needs to *force* a bucket outcome, not just describe patterns.
+
+---
+
+## Current State Assessment
+
+**✅ Strengths (keep these):**
+- Clear Northstar Pattern definitions
+- Good "If question sounds like X → use Y pattern"
+- Correct abstraction level (not role-specific, not implementation-heavy)
+- Compatible with Approach B (Pattern-Based)
+
+**❌ Missing piece: BUCKET DECISION CONTRACT**
+
+Right now, nothing *forces* this decision:
+```
+This question MUST be:
+🟢 Northstar
+🟡 LHF
+🔴 Ignore
+```
+
+We need **hard gates**, not vibes.
+
+---
+
+## THE FIX: 3-Step Deterministic Filter
+
+### STEP 1 — Northstar Eligibility Check (🟢)
+
+A question is 🟢 **IFF ALL are true:**
+
+```
+[ ] Can be answered primarily with ONE of the 12 Northstar patterns
+[ ] Requires NO code, NO syntax, NO low-level system internals
+[ ] The same answer structure applies across ≥3 roles
+[ ] Focuses on reasoning, diagnosis, prioritization, or decision-making
+```
+
+**If YES to all → 🟢 NORTHSTAR**
+
+**Examples:**
+- "Orders are down 25%"
+- "Define success for X"
+- "Churn increased"
+- "Which metrics matter?"
+- "How would you prioritize?"
+
+---
+
+### STEP 2 — LHF Eligibility Check (🟡)
+
+**Only evaluate this if NOT 🟢**
+
+A question is 🟡 **IFF ALL are true:**
+
+```
+[ ] Still reasoning-first (not implementation-first)
+[ ] Introduces domain constraints (data, finance, systems, ops)
+[ ] Can be answered conceptually without writing code
+[ ] Maps to a reusable *secondary* pattern (not a one-off trick)
+```
+
+These are **bridge questions** — not universal, not niche.
+
+**Examples:**
+- "Can we trust this data?"
+- "What breaks at 10× scale?"
+- "Is this worth the cost?"
+- "What should we monitor?"
+- "What risks exist?"
+
+---
+
+### STEP 3 — Automatic Ignore Rules (🔴)
+
+**If ANY of the following are true, it is 🔴:**
+
+```
+[ ] Requires writing code or algorithms
+[ ] Tests syntax, APIs, or exact SQL queries
+[ ] Depends on ML math, probability derivations, or proofs
+[ ] Is role-exclusive and not transferable
+[ ] One-off puzzle with no reusable framework
+```
+
+**No exceptions.**
+
+**Examples:**
+- DSA
+- LeetCode
+- ML loss functions
+- Regex parsers
+- SQL join edge cases
+
+---
+
+## How LHF Patterns Should Be Positioned
+
+**🟡 LOW-HANGING FRUIT — Secondary Reasoning Patterns**
+*(Used when Northstar alone is insufficient)*
+
+Each LHF pattern should explicitly state:
+- **Primary:** Which Northstar it supports
+- **Secondary:** What extra constraint it adds
+
+**Example:**
+```
+├─ Data Readiness & Trust Pattern
+│   ├─ Supports: Metric Diagnosis, Experiment Design
+│   └─ Adds: Data quality, bias, freshness constraints
+```
+
+This keeps LHF from drifting or duplicating 🟢.
+
+---
+
+## Why This Becomes a True "Bible"
+
+With these additions, this cheatsheet now:
+
+✅ **Forces a traffic-light outcome**
+✅ Scales to 2,893 questions
+✅ Is usable by humans *and* LLMs
+✅ Prevents category drift
+✅ Makes tagging auditable and consistent
+
+**Most importantly:**
+
+> You can now hand this file to *any model* and say
+> "Bucket ALL_QUESTIONS_RAW.md using this. No creativity."
+
+That's the bar for a real taxonomy.
+
+---
+
+## Final Assessment
+
+- Your **patterns are right** ✅
+- Your **direction is correct** ✅
+- Your **gap was decision enforcement** ⚠️
+- This fix closes it cleanly ✅
+
+**Next steps:**
+- Rewrite cheatsheet with decision gates (verbatim-ready)
+- Produce machine-readable tagging rubric (YAML/JSON)
+- Tag 100-question pilot to validate no drift
+
+**You're building this the right way.**
