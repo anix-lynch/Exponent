@@ -272,7 +272,7 @@ Financial Analysis
 6. 🟢 The leadership team wants to understand the ROI of a new feature—how would you structure that analysis?
 
 ================================================================================
-PRODUCT STRATEGY ⚪
+PRODUCT STRATEGY 🟢
 ================================================================================
 
 📊 Total Questions: 6

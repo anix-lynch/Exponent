@@ -676,7 +676,7 @@ Data Analysis - Funnel Analysis
 1. ⚪ Walk me through a time you diagnosed a drop in conversion.
 
 ================================================================================
-PRODUCT STRATEGY ⚪
+PRODUCT STRATEGY 🟢
 ================================================================================
 
 📊 Total Questions: 1

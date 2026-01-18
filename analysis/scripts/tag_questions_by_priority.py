@@ -9,39 +9,42 @@ import json
 import re
 from pathlib import Path
 
-# Universal categories (study first - appear in 80%+ roles)
+# Universal categories (study first - appear in 80%+ roles OR core skills)
 # 💗 = UNIVERSAL (appears in ALL or nearly all roles - LOW HANGING FRUIT)
 UNIVERSAL_CATEGORIES = {
     'BEHAVIORAL': '💗',  # UNIVERSAL - ALL 15 roles (100%)
-    'SQL': '💗',  # UNIVERSAL - 12/15 roles (80%)
+    'DATA ANALYSIS': '💗',  # CORE - All data roles need this
+    'ANALYTICAL': '💗',  # CORE - Same as data analysis
     'PROBLEM SOLVING': '💗',  # UNIVERSAL - 13/15 roles (87%)
-    'STRATEGIC THINKING': '🟢',  # Medium - 10/15 roles (67%)
-    'STRATEGY': '🟢',
-    'BUSINESS ANALYSIS': '🟢',
+    'SQL': '💗',  # UNIVERSAL - All data roles
+    'STRATEGY': '💗',  # Your MBA/VC/PE strength
+    'BUSINESS ANALYSIS': '💗',  # Your VC/PE strength
+    'STRATEGIC THINKING': '💗',  # Your MBA strength
 }
 
 # Data Engineer specific priorities (for your #1 goal)
 # Don't override UNIVERSAL categories here - let them show 💗
 DE_PRIORITIES = {
     'DATA PIPELINE DESIGN': '🔴',  # Critical for DE - 50 questions
-    'SYSTEM DESIGN': '🟠',  # High for DE - 20 questions
-    'DATA MODELING': '🟡',  # Medium for DE - 11 questions
+    'ETL/ELT': '🔴',  # Critical for DE
+    'SYSTEM DESIGN': '🟠',  # Important for DE - 20 questions
+    'DATA MODELING': '🟠',  # Important for DE - 11 questions
+    'DATA WAREHOUSING': '🟠',  # Important for DE
     'DATABASE DESIGN': '🟡',  # Medium for DE
-    'ETL/ELT': '🟡',  # Medium for DE
-    'DATA WAREHOUSING': '🟡',  # Medium for DE
-    'DATA STRUCTURES & ALGORITHMS': '⚪',  # Skip - 32 questions
-    'CODING': '⚪',  # Skip - 4 questions
+    'CLOUD PLATFORMS': '🟡',  # Medium for DE
+    'DATA QUALITY': '🟡',  # Medium for DE
 }
 
-# Your background strengths
+# Your background strengths (these get 🟢 if not already 💗)
 YOUR_STRENGTHS = {
-    'BEHAVIORAL': '✅',  # 90% fit - 20 years experience
-    'STRATEGY': '✅',  # 95% fit - MBA/VC/PE
-    'STRATEGIC THINKING': '✅',
-    'BUSINESS ANALYSIS': '✅',  # 85% fit
-    'FINANCIAL ANALYSIS': '✅',  # 90% fit - VC/PE
-    'MARKET ANALYSIS': '✅',  # 90% fit
-    'PROBLEM SOLVING': '✅',  # 85% fit
+    'PRODUCT STRATEGY': '🟢',  # You understand business/users
+    'PRODUCT DESIGN': '🟢',  # Business thinking
+    'FINANCIAL ANALYSIS': '🟢',  # VC/PE background
+    'MARKET ANALYSIS': '🟢',  # VC/PE background
+    'ESTIMATION': '🟢',  # Market sizing experience
+    'PRODUCT SENSE': '🟢',  # Business understanding
+    'METRICS': '🟢',  # You understand KPIs
+    'CASE STUDY': '🟢',  # Consulting-style thinking
 }
 
 # Categories to skip (low ROI for your goals)
