@@ -8,6 +8,46 @@
 
 ---
 
+## ⚡ 5-SECOND DECISION GUIDE (CHECK THIS FIRST)
+
+```
+If "implement" OR "write code" OR "write query" → 🔴
+
+Else if metric change OR define success OR funnel OR churn OR segment OR prioritize OR experiment OR exec OR influence OR ops → 🟢
+
+Else if trust data OR scale OR ROI OR constraints OR observability OR risk OR conceptual system → 🟡
+
+Else → 🔴
+```
+
+**Use this for 90% of questions. Only use full decision tree for edge cases.**
+
+---
+
+## 🎯 BOUNDARY EXAMPLES (RISKY EDGES)
+
+**SQL:**
+- ❌ "Write a SQL query to find top 3 salaries" → 🔴 (code required)
+- ✅ "How would you compute top 3 salaries per department?" → 🟡 (conceptual)
+
+**System Design:**
+- ❌ "Design a rate limiter with code" → 🔴 (implementation)
+- ✅ "What high-level components would a rate limiter need?" → 🟡 (conceptual)
+
+**Behavioral:**
+- ❌ "Tell me about a time you handled conflict" → 🔴 (past story, not framework)
+- ✅ "Stakeholders disagree on priorities in this scenario — what do you do?" → 🟢 (framework)
+
+**Metric Questions:**
+- ❌ "Calculate the p-value for this A/B test" → 🔴 (math calculation)
+- ✅ "How would you know if this A/B test result is valid?" → 🟢 (reasoning)
+
+**Ambiguity:**
+- ❌ "How do you handle ambiguity?" → 🔴 (abstract, no scenario)
+- ✅ "Requirements are unclear for this feature — what do you do?" → 🟢 (specific scenario)
+
+---
+
 ## DECISION TREE (EXECUTE IN ORDER)
 
 ```
@@ -377,7 +417,8 @@ Q: "Explain the difference between SQL and NoSQL"
 Question ID: {number}
 Question: {text}
 Bucket: 🟢 | 🟡 | 🔴
-Pattern: {Pattern name or "N/A"}
+Primary_Pattern: {Pattern name or "N/A"}
+Secondary_Pattern: {Optional - only if relevant}
 Reasoning: {1 sentence why}
 Confidence: High | Medium | Low
 ```
@@ -388,10 +429,18 @@ Confidence: High | Medium | Low
 Question ID: 42
 Question: Amazon orders are down 25% — what do you do?
 Bucket: 🟢
-Pattern: Pattern_1_Metric_Drop
+Primary_Pattern: Pattern_1_Metric_Drop
+Secondary_Pattern: LHF_1_Data_Trust (if data quality is mentioned)
 Reasoning: Matches metric drop keywords, no code required, reasoning-first
 Confidence: High
 ```
+
+**Note on Secondary Patterns:**
+- Optional field — only add if question clearly involves a secondary concern
+- Example: "Orders down 25% — how would you check if the data is trustworthy?" 
+  - Primary: 🟢 Pattern_1_Metric_Drop
+  - Secondary: 🟡 LHF_1_Data_Trust
+- Keeps bucketing simple (3 buckets) but adds instructive detail
 
 ---
 

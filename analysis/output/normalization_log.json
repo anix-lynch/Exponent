@@ -1,0 +1,203 @@
+{
+  "stats": {
+    "original_count": 2853,
+    "truncated_count": 34,
+    "multi_question_count": 0,
+    "junk_count": 4,
+    "url_fixed_count": 1,
+    "final_count": 2849
+  },
+  "issues": [
+    {
+      "id": 1,
+      "issue": "junk",
+      "question": "+ Share interview"
+    },
+    {
+      "id": 2,
+      "issue": "junk",
+      "question": "+ Share interview experience"
+    },
+    {
+      "id": 17,
+      "issue": "truncated",
+      "question": "A user advocacy group raises concerns about accessibility for individuals with hearing disabilities. What are some product improvements for Facebook Live and Videos, and how would you define succes..."
+    },
+    {
+      "id": 23,
+      "issue": "truncated",
+      "question": "Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with me..."
+    },
+    {
+      "id": 37,
+      "issue": "truncated",
+      "question": "As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center funct..."
+    },
+    {
+      "id": 80,
+      "issue": "truncated",
+      "question": "As a Product Manager for a calendar application working on better error handling, how would you prepare this user story for the backlog? 'As a user, I want to see when my changes haven't been synch..."
+    },
+    {
+      "id": 82,
+      "issue": "truncated",
+      "question": "As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag..."
+    },
+    {
+      "id": 109,
+      "issue": "truncated",
+      "question": "As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the..."
+    },
+    {
+      "id": 166,
+      "issue": "truncated",
+      "question": "Code an image-processing pipeline that reads per-image instruction files and applies ordered transformations (e.g., rotate, invert, crop, convert) to large sets of images of varying sizes across mu..."
+    },
+    {
+      "id": 387,
+      "issue": "truncated",
+      "question": "Design a peer-to-peer file distribution system that spreads a 10GB file from a single bandwidth-constrained source to thousands of interconnected hosts, each with limited input/output bandwidth, un..."
+    },
+    {
+      "id": 497,
+      "issue": "truncated",
+      "question": "Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t..."
+    },
+    {
+      "id": 502,
+      "issue": "truncated",
+      "question": "Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa..."
+    },
+    {
+      "id": 635,
+      "issue": "truncated",
+      "question": "Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change..."
+    },
+    {
+      "id": 868,
+      "issue": "truncated",
+      "question": "Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e..."
+    },
+    {
+      "id": 921,
+      "issue": "truncated",
+      "question": "Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth..."
+    },
+    {
+      "id": 923,
+      "issue": "truncated",
+      "question": "Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ..."
+    },
+    {
+      "id": 939,
+      "issue": "truncated",
+      "question": "Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user\u2019s remaining credit pool and total avai..."
+    },
+    {
+      "id": 941,
+      "issue": "truncated",
+      "question": "Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ..."
+    },
+    {
+      "id": 1586,
+      "issue": "truncated",
+      "question": "Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and..."
+    },
+    {
+      "id": 1587,
+      "issue": "junk",
+      "question": "I was asked this"
+    },
+    {
+      "id": 1655,
+      "issue": "truncated",
+      "question": "Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but ..."
+    },
+    {
+      "id": 1729,
+      "issue": "truncated",
+      "question": "Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p..."
+    },
+    {
+      "id": 1747,
+      "issue": "truncated",
+      "question": "Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)..."
+    },
+    {
+      "id": 1752,
+      "issue": "truncated",
+      "question": "Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou..."
+    },
+    {
+      "id": 1808,
+      "issue": "junk",
+      "question": "Share interview"
+    },
+    {
+      "id": 1991,
+      "issue": "truncated",
+      "question": "Tell me about a time when you solved a difficult problem; managed a project not going well; were unhappy with the status quo; faced competing priorities or had disagreements with management; had to..."
+    },
+    {
+      "id": 2177,
+      "issue": "truncated",
+      "question": "Uber is planning to launch ride services for children aged 8-12 years in India. What factors would you consider given that kids of this age won't have mobile access? What modifications would you su..."
+    },
+    {
+      "id": 2300,
+      "issue": "truncated",
+      "question": "What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ..."
+    },
+    {
+      "id": 2573,
+      "issue": "truncated",
+      "question": "Why do you think Meta invested in Workplace Chat? How would you set goals and measure the success of this product? Additionally, consider a scenario where the number of users sending messages on Wo..."
+    },
+    {
+      "id": 2641,
+      "issue": "truncated",
+      "question": "Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p..."
+    },
+    {
+      "id": 2674,
+      "issue": "truncated",
+      "question": "You are in charge of the purchase experience at Back Market. A colleague tells you a lot of users try to buy large quantities of products from sellers. He thinks we need to build a checkout funnel ..."
+    },
+    {
+      "id": 2676,
+      "issue": "truncated",
+      "question": "You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op..."
+    },
+    {
+      "id": 2681,
+      "issue": "truncated",
+      "question": "You are the lead for recommending notifications to an existing news app. Describe how the product works, the technologies used, how the system decides what notifications to send, and how you would ..."
+    },
+    {
+      "id": 2690,
+      "issue": "truncated",
+      "question": "You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de..."
+    },
+    {
+      "id": 2744,
+      "issue": "truncated",
+      "question": "You're a PM at Lyft and want to deploy a ride-sharing service using a self-driving car in Palo Alto. How would you choose around 10 pickup and drop-off locations, assuming routes are safe and pre-p..."
+    },
+    {
+      "id": 2840,
+      "issue": "truncated",
+      "question": "You're called in by the government of India to design the Cowin portal. What top features would you integrate for partner personas? What key metrics would indicate the platform's success and how wo..."
+    },
+    {
+      "id": 2850,
+      "issue": "truncated",
+      "question": "You're PM for Facebook ads. How would you define success metrics for the team? You're considering adding GenAI capabilities to the ad creation process for new sellers. How would you decide whether ..."
+    },
+    {
+      "id": 2859,
+      "issue": "truncated",
+      "question": "You're the key decision maker at Google Pay, India. Imagine demonetization has been announced again for the Rs. 100 note. What actions would you take immediately, in the short term, and in the long..."
+    }
+  ],
+  "duplicates": []
+}
