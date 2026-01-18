@@ -29,48 +29,23 @@
 
 ---
 
-## ⚡ 5-SECOND DECISION GUIDE (CHECK THIS FIRST)
+## ⚡ SIMPLE DECISION GUIDE
 
 ```
-INTENT CHECK (not just keywords):
+REJECT (🔴) if:
+- Algorithm/coding question (LeetCode-style, data structures, complexity)
+- Math proof or derivation
+- Brain teaser
 
-If asking to PRODUCE artifact (code/query/algorithm/proof) → 🔴
-If LeetCode-style shape (given array, return X, constraints) → 🔴
-
-Else if REASONING about metric/success/funnel/churn/segment/prioritize/experiment/exec/influence/ops → 🟢
-
-Else if REASONING about trust/scale/ROI/constraints/observability/risk/conceptual system → 🟡
-
-Else → 🔴
+ALLOW (🟢/🟡) everything else:
+- SQL questions (all types - syntax or conceptual)
+- System design questions (all types - implementation or conceptual)
+- Behavioral questions (all types - past stories or frameworks)
+- Product/business reasoning questions
+- Data analysis questions
 ```
 
-**Key distinction: "Write a query" vs "How would you compute" = different intents**
-
-**Use this for 90% of questions. Only use full decision tree for edge cases.**
-
----
-
-## 🎯 BOUNDARY EXAMPLES (RISKY EDGES)
-
-**SQL:**
-- ❌ "Write a SQL query to find top 3 salaries" → 🔴 (code required)
-- ✅ "How would you compute top 3 salaries per department?" → 🟡 (conceptual)
-
-**System Design:**
-- ❌ "Design a rate limiter with code" → 🔴 (implementation)
-- ✅ "What high-level components would a rate limiter need?" → 🟡 (conceptual)
-
-**Behavioral:**
-- ❌ "Tell me about a time you handled conflict" → 🔴 (past story, not framework)
-- ✅ "Stakeholders disagree on priorities in this scenario — what do you do?" → 🟢 (framework)
-
-**Metric Questions:**
-- ❌ "Calculate the p-value for this A/B test" → 🔴 (math calculation)
-- ✅ "How would you know if this A/B test result is valid?" → 🟢 (reasoning)
-
-**Ambiguity:**
-- ❌ "How do you handle ambiguity?" → 🔴 (abstract, no scenario)
-- ✅ "Requirements are unclear for this feature — what do you do?" → 🟢 (specific scenario)
+**Default: If it's not algo/math/brain-teaser → proceed to pattern matching**
 
 ---
 
@@ -118,11 +93,7 @@ EXPLICIT_CODE_VERBS = [
     "develop an algorithm", "pseudocode"
 ]
 
-# B) SQL Syntax Requests
-EXPLICIT_SQL = [
-    "write a query", "write sql", "sql query to",
-    "select * from", "select from", "create table"
-]
+# B) REMOVED - SQL questions are now ALLOWED (all types)
 
 # C) Known LeetCode Problems
 LEETCODE_PROBLEMS = [
@@ -217,24 +188,14 @@ BRAIN_TEASERS = [
 
 ---
 
-#### 🔴 **INTENT C: SYNTAX_RECALL**
+#### 🔴 **INTENT C: REMOVED - System Design & SQL Now Allowed**
 
-**Pattern:** Testing exact syntax or API knowledge
+**All system design and SQL questions are now ALLOWED.**
 
-**Signals (if ANY match → 🔴):**
-```
-✓ SQL syntax:
-  - Contains "SELECT", "JOIN", "GROUP BY", "WHERE" as code
-  - "Write a query to..."
-  
-✓ Framework/library specific:
-  - "using NumPy", "in Pandas", "with React"
-  - "API endpoint for", "REST API that"
-  
-✓ Low-level implementation:
-  - "implement in Python/Java/C++"
-  - "using only built-in functions"
-```
+Only reject:
+- Pure algorithm/coding questions
+- Math proofs
+- Brain teasers
 
 ---
 
@@ -265,35 +226,24 @@ def check_reject_intent(question):
     q = question.lower()
     
     # LAYER 1: Explicit triggers (fast path)
-    for trigger_list in [EXPLICIT_CODE_VERBS, EXPLICIT_SQL, LEETCODE_PROBLEMS, 
+    # NOTE: SQL questions are now ALLOWED, only reject algo/math/brain-teasers
+    for trigger_list in [EXPLICIT_CODE_VERBS, LEETCODE_PROBLEMS, 
                           MATH_PRODUCTION, BRAIN_TEASERS]:
         for trigger in trigger_list:
             if trigger in q:
                 return (True, f"Explicit trigger: {trigger}")
     
-    # LAYER 2: Intent detection
+    # LAYER 2: Intent detection (only algo/math, not SQL/system design)
     intent_scores = {
-        'IMPLEMENTATION': 0,
         'ALGORITHM_PUZZLE': 0,
-        'SYNTAX_RECALL': 0,
         'MATH_PROOF': 0
     }
     
-    # Score IMPLEMENTATION intent
-    impl_verbs = ['implement', 'build', 'create', 'develop', 'optimize', 'debug']
-    impl_nouns = ['function', 'class', 'method', 'program', 'algorithm', 'parser', 'cache']
-    if any(v in q for v in impl_verbs) and any(n in q for n in impl_nouns):
-        intent_scores['IMPLEMENTATION'] += 2
-    
+    # Check for algorithm puzzle signals
     if 'given an' in q or 'given a' in q:
-        intent_scores['IMPLEMENTATION'] += 1
         intent_scores['ALGORITHM_PUZZLE'] += 1
     
-    if 'return' in q or 'output' in q:
-        intent_scores['IMPLEMENTATION'] += 1
-    
     if any(x in q for x in ['o(n)', 'o(log', 'time complexity', 'in-place', 'constraints:']):
-        intent_scores['IMPLEMENTATION'] += 2
         intent_scores['ALGORITHM_PUZZLE'] += 2
     
     # Score ALGORITHM_PUZZLE intent
@@ -307,9 +257,7 @@ def check_reject_intent(question):
     if any(x in q for x in ['minimum', 'maximum', 'shortest', 'longest']) and 'number of' in q:
         intent_scores['ALGORITHM_PUZZLE'] += 1
     
-    # Score SYNTAX_RECALL intent
-    if any(x in q for x in ['select', 'join', 'group by', 'where']) and 'write' in q:
-        intent_scores['SYNTAX_RECALL'] += 2
+    # REMOVED: SQL questions are now allowed
     
     # Score MATH_PROOF intent
     if any(x in q for x in ['prove', 'derive', 'show that', 'demonstrate']):
@@ -322,22 +270,6 @@ def check_reject_intent(question):
     
     return (False, "No reject intent detected")
 ```
-
----
-
-### BOUNDARY CLARIFICATIONS
-
-**SQL: Syntax vs Reasoning**
-- ❌ "Write a SQL query to find top 3 salaries" → 🔴 (syntax)
-- ✅ "How would you compute top 3 salaries per department?" → 🟡 (conceptual)
-
-**System Design: Implementation vs Conceptual**
-- ❌ "Design and implement a rate limiter" → 🔴 (implementation)
-- ✅ "What high-level components would a rate limiter need?" → 🟡 (conceptual)
-
-**Behavioral: Past Story vs Framework**
-- ❌ "Tell me about a time you handled conflict" → 🔴 (past story)
-- ✅ "Stakeholders disagree on priorities — what do you do?" → 🟢 (framework)
 
 ---
 
@@ -868,13 +800,13 @@ Confidence: High
 **After tagging, verify:**
 
 ```
-[ ] All questions with "write", "implement", "code" → 🔴
-[ ] All questions with "down/up X%" → 🟢 (unless code required)
-[ ] All questions with "define success" → 🟢
-[ ] All LeetCode-style → 🔴
-[ ] All ML theory → 🔴
-[ ] All "tell me about a time" → 🔴 (behavioral, not framework)
-[ ] All abstract "how do you" → 🔴 (unless specific scenario)
+[ ] Algorithm/LeetCode-style questions → 🔴
+[ ] Math proofs and derivations → 🔴
+[ ] Brain teasers → 🔴
+[ ] SQL questions (all types) → 🟢 or 🟡 (ALLOWED)
+[ ] System design questions (all types) → 🟢 or 🟡 (ALLOWED)
+[ ] Behavioral questions (all types) → 🟢 or 🟡 (ALLOWED)
+[ ] Product/business questions → Pattern match to 🟢 or 🟡
 ```
 
 ---
