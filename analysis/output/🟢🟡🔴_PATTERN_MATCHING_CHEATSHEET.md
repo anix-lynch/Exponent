@@ -1,6 +1,8 @@
-# 🟢🟡🔴 PATTERN MATCHING CHEATSHEET
+# 🟢🟡🔴 PATTERN MATCHING CHEATSHEET [FOR B'S EYES ONLY]
 
 **Purpose:** Instant pattern recognition for interview questions
+
+**Note:** For LLM tagging algorithm, see `🤖_TAGGING_ALGORITHM_LLM.md`
 
 **How to use:** 
 1. Read question
