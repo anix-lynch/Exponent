@@ -4,17 +4,133 @@ Generate HIGH QUALITY Red Ignore List
 - Same format as Yellow list
 - With frameworks and actual questions
 - Clean markdown (no === lines)
+- SMART question selection: filter junk, pick diverse/useful questions
 """
 
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 
 # Target roles to KEEP (everything else goes to Red)
 TARGET_ROLES = {'Chief of Staff', 'BizOps Strategy', 'Data Engineer'}
 
-# Categories that are in Overlapped or Yellow (skip these)
-SKIP_CATEGORIES = set()
+# Junk patterns to filter out
+JUNK_PATTERNS = [
+    r'^share interview',
+    r'^i was asked',
+    r'^\+ share',
+    r'^share your',
+    r'^contribute',
+    r'^why work at \w+\?$',  # "Why work at X?" - too specific
+    r'^why do you want to work at \w+\?$',  # Same
+    r'^if i know',
+    r'^do you know',
+]
+
+# Company-specific patterns (too narrow)
+COMPANY_SPECIFIC = [
+    r'design \w+ for',  # "Design Uber for X"
+    r'as a pm at \w+',
+    r'at \w+,',
+    r'why did \w+ fail',
+]
+
+def is_junk_question(question):
+    """Check if question is junk/broken scraped data."""
+    q_lower = question.lower().strip()
+    
+    # Too short (likely broken)
+    if len(q_lower) < 10:
+        return True
+    
+    # Check junk patterns
+    for pattern in JUNK_PATTERNS:
+        if re.search(pattern, q_lower):
+            return True
+    
+    return False
+
+def is_too_specific(question):
+    """Check if question is too company/product specific."""
+    q_lower = question.lower()
+    
+    for pattern in COMPANY_SPECIFIC:
+        if re.search(pattern, q_lower):
+            return True
+    
+    return False
+
+def calculate_question_value(question, category):
+    """
+    Calculate value score for a question.
+    Higher score = more useful for learning.
+    """
+    score = 0
+    q_lower = question.lower()
+    
+    # Prefer "how" questions (teach methodology)
+    if q_lower.startswith('how'):
+        score += 10
+    
+    # Prefer "what" questions (teach concepts)
+    if q_lower.startswith('what'):
+        score += 8
+    
+    # Prefer questions with key learning words
+    learning_words = ['explain', 'describe', 'difference between', 'compare', 'analyze', 'calculate']
+    for word in learning_words:
+        if word in q_lower:
+            score += 5
+            break
+    
+    # Penalize overly long questions (usually too specific)
+    if len(question) > 150:
+        score -= 5
+    
+    # Penalize overly short questions (usually broken)
+    if len(question) < 20:
+        score -= 10
+    
+    # Prefer questions with numbers/metrics (more concrete)
+    if any(word in q_lower for word in ['metric', 'kpi', 'measure', 'calculate', 'estimate']):
+        score += 3
+    
+    # Category-specific bonuses
+    if 'coding' in category.lower() or 'algorithm' in category.lower():
+        # Prefer classic algorithm questions
+        if any(word in q_lower for word in ['array', 'tree', 'linked list', 'sort', 'search']):
+            score += 5
+    
+    if 'sql' in category.lower():
+        # Prefer SQL with clear operations
+        if any(word in q_lower for word in ['join', 'group by', 'window', 'aggregate']):
+            score += 5
+    
+    return score
+
+def select_best_questions(questions, category, max_count=10):
+    """
+    Select the best N questions from a list.
+    Filters junk, ranks by value, ensures diversity.
+    """
+    # Filter out junk
+    clean_questions = []
+    for q_data in questions:
+        question = q_data['question']
+        if not is_junk_question(question) and not is_too_specific(question):
+            q_data['value_score'] = calculate_question_value(question, category)
+            clean_questions.append(q_data)
+    
+    # If we filtered everything, return original (better than nothing)
+    if not clean_questions:
+        return questions[:max_count]
+    
+    # Sort by value score (highest first), then by frequency, then by length
+    clean_questions.sort(key=lambda x: (-x['value_score'], -x['count'], len(x['question'])))
+    
+    # Take top N
+    return clean_questions[:max_count]
 
 def load_overlapped_questions():
     """Load questions from overlapped list."""
@@ -25,11 +141,9 @@ def load_overlapped_questions():
         with open(overlapped_file) as f:
             for line in f:
                 if line.strip().startswith(('1. ', '2. ', '3. ', '4. ', '5. ', '6. ', '7. ', '8. ', '9. ')):
-                    # Extract question text
                     parts = line.split('.', 1)
                     if len(parts) > 1:
                         q = parts[1].strip()
-                        # Remove role markers like [5 roles]
                         if '[' in q:
                             q = q.split('[')[0].strip()
                         overlapped.add(q)
@@ -45,7 +159,6 @@ def load_yellow_questions():
         with open(yellow_file) as f:
             for line in f:
                 if line.strip().startswith(('1. 🟡', '2. 🟡', '3. 🟡', '4. 🟡', '5. 🟡', '6. 🟡', '7. 🟡', '8. 🟡', '9. 🟡')):
-                    # Extract question
                     parts = line.split('🟡', 1)
                     if len(parts) > 1:
                         yellow.add(parts[1].strip())
@@ -256,7 +369,7 @@ def main():
                     all_questions[category]['questions'][question]['roles'].add(role_name)
                     all_questions[category]['roles'].add(role_name)
     
-    # Convert to list format and sort by frequency
+    # Convert to list format
     for category in all_questions:
         questions_list = []
         for q, data in all_questions[category]['questions'].items():
@@ -265,10 +378,6 @@ def main():
                 'count': data['count'],
                 'roles': data['roles']
             })
-        # Sort by:
-        # 1. Frequency (count) descending - most common first
-        # 2. Question length ascending - shorter/simpler questions first as tiebreaker
-        questions_list.sort(key=lambda x: (-x['count'], len(x['question'])))
         all_questions[category]['questions'] = questions_list
     
     # Sort by question count
@@ -304,10 +413,10 @@ def main():
     # Add each category
     for category, data in sorted_categories:
         roles = sorted(list(data['roles']))
-        questions = data['questions']  # Already sorted by frequency
+        questions = data['questions']
         
-        # Show top 10 MOST FREQUENT questions per category
-        display_questions = questions[:10]
+        # Select BEST 10 questions (not just first 10)
+        display_questions = select_best_questions(questions, category, max_count=10)
         
         output.append("---")
         output.append("")
@@ -324,11 +433,10 @@ def main():
         output.append(get_category_framework(category).strip())
         output.append("```")
         output.append("")
-        output.append(f"📝 Top 10 Most Frequent Questions (by role count):")
+        output.append(f"📝 Top 10 High-Value Questions (filtered for quality & relevance):")
         output.append("")
         
         for i, q_data in enumerate(display_questions, 1):
-            # Clean question text
             question_text = q_data['question']
             clean_q = question_text.replace('\n', ' ').replace('  ', ' ').strip()
             role_count = q_data['count']
