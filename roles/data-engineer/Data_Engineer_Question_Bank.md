@@ -88,7 +88,7 @@ Data Pipeline Design
 12. 🔴 SQL Stored Procedures
 13. 🔴 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
 14. 🔴 Find the longest substring without repeating characters.
-15. 🔴 Merge Intervals
+15. 🔴 ~~Merge Intervals~~ *(incomplete - coding problem title only)*
 16. 🔴 Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
 17. 🔴 Move all zeros to the end of an array.
 18. 🔴 Product of Array Except Self
@@ -98,7 +98,7 @@ Data Pipeline Design
 22. 🔴 Find the median of two sorted arrays.
 23. 🔴 Find a triplet in an array with a given sum.
 24. 🔴 Design an ETL Pipeline for a ML Platform for AWS
-25. 🔴 Linked List Cycle
+25. 🔴 ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
 26. 🔴 Given the root of a binary tree of integers, return the maximum path sum.
 27. 🔴 Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
 28. 🔴 Split an array into equal sum subarrays
@@ -106,9 +106,9 @@ Data Pipeline Design
 30. 🔴 Which sorting algorithms use divide and conquer?
 31. 🔴 Explain the key differences between BETWEEN and HAVING clauses in SQL.
 32. 🔴 Merge k sorted linked lists.
-33. 🔴 Search in rotated sorted array
+33. 🔴 ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
 34. 🔴 Find the maximum subarray sum.
-35. 🔴 Squares of sorted array
+35. 🔴 ~~Squares of sorted array~~ *(incomplete - coding problem title only)*
 36. 🔴 Determine if a given binary tree is a binary search tree (BST).
 37. 🔴 Design an ETL Pipeline for Slack for School
 38. 🔴 Partition an array into two sub-arrays with equal sum.
@@ -120,7 +120,7 @@ Data Pipeline Design
 44. 🔴 Find the longest palindromic subsequence using dynamic programming.
 45. 🔴 Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
 46. 🔴 Design a data pipeline that complies with GDPR.
-47. 🔴 Serialize and deserialize binary tree
+47. 🔴 ~~Serialize and deserialize binary tree~~ *(incomplete - coding problem title only)*
 48. 🔴 Calculate the height of a binary tree.
 49. 🔴 Print all possible solutions to the N-Queens problem.
 50. 🔴 Given an array of children’s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.
@@ -242,23 +242,23 @@ Data Structures & Algorithms
 
 1. ⚠️ Is this a valid palindrome?
 2. ⚠️ Reverse a Sentence
-3. ⚠️ Valid Parentheses
-4. ⚠️ Course Schedule
+3. ⚠️ ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
+4. ⚠️ ~~Course Schedule~~ *(incomplete - coding problem title only)*
 5. ⚠️ Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
-6. ⚠️ Climbing Stairs
+6. ⚠️ ~~Climbing Stairs~~ *(incomplete - coding problem title only)*
 7. ⚠️ Given an nxn grid of 1s and 0s, return the number of islands in the input.
 8. ⚠️ Given an array, find the two sum.
-9. ⚠️ Rotating the Box
-10. ⚠️ Generate Parentheses
+9. ⚠️ ~~Rotating the Box~~ *(incomplete - coding problem title only)*
+10. ⚠️ ~~Generate Parentheses~~ *(incomplete - coding problem title only)*
 11. ⚠️ Build a Calculator
-12. ⚠️ Roman to Integer
+12. ⚠️ ~~Roman to Integer~~ *(incomplete - coding problem title only)*
 13. ⚠️ Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.
 14. ⚠️ Merge two sorted lists
-15. ⚠️ Set Matrix Zeroes
+15. ⚠️ ~~Set Matrix Zeroes~~ *(incomplete - coding problem title only)*
 16. ⚠️ Solve John Conway's "Game of Life".
 17. ⚠️ Build a Basic Regex Parser
 18. ⚠️ Top k frequent elements
-19. ⚠️ Sliding Window Maximum
+19. ⚠️ ~~Sliding Window Maximum~~ *(incomplete - coding problem title only)*
 20. ⚠️ Print all combinations of numbers from 1 to n that sum to n.
 
 
@@ -405,25 +405,25 @@ SQL
 
 📝 All 19 Questions:
 
-1. 💗 Employee Earnings.
-2. 💗 Monthly Post Success Analysis.
+1. 💗 ~~Employee Earnings.~~ *(incomplete - coding problem title only)*
+2. 💗 ~~Monthly Post Success Analysis.~~ *(incomplete - coding problem title only)*
 3. 💗 Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
-4. 💗 Instagram Likes
-5. 💗 Top Earning Employees
-6. 💗 Top Salaries by Department
-7. 💗 Lyft Ride Requests
-8. 💗 Employee Hierarchy
-9. 💗 Most Recent Transaction
-10. 💗 Duolingo Leaderboards
-11. 💗 High Volume Low Success.
-12. 💗 Calculate Test Scores
-13. 💗 Session Data Analysis.
-14. 💗 Marketing Channel Attribution
-15. 💗 Post Success By Age Group.
-16. 💗 Analyze Monthly Customer Transactions
+4. 💗 ~~Instagram Likes~~ *(incomplete - coding problem title only)*
+5. 💗 ~~Top Earning Employees~~ *(incomplete - coding problem title only)*
+6. 💗 ~~Top Salaries by Department~~ *(incomplete - coding problem title only)*
+7. 💗 ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
+8. 💗 ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
+9. 💗 ~~Most Recent Transaction~~ *(incomplete - coding problem title only)*
+10. 💗 ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
+11. 💗 ~~High Volume Low Success.~~ *(incomplete - coding problem title only)*
+12. 💗 ~~Calculate Test Scores~~ *(incomplete - coding problem title only)*
+13. 💗 ~~Session Data Analysis.~~ *(incomplete - coding problem title only)*
+14. 💗 ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
+15. 💗 ~~Post Success By Age Group.~~ *(incomplete - coding problem title only)*
+16. 💗 ~~Analyze Monthly Customer Transactions~~ *(incomplete - coding problem title only)*
 17. 💗 Find Customer Lifetime Value (LTV)
-18. 💗 Find Campaign Purchases
-19. 💗 Fraudulent Transactions
+18. 💗 ~~Find Campaign Purchases~~ *(incomplete - coding problem title only)*
+19. 💗 ~~Fraudulent Transactions~~ *(incomplete - coding problem title only)*
 
 
 ================================================================================
@@ -656,7 +656,7 @@ Data Quality
 
 📝 All 5 Questions:
 
-1. ⚪ Remove Duplicate Emails
+1. ⚪ ~~Remove Duplicate Emails~~ *(incomplete - coding problem title only)*
 2. ⚪ On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
 3. ⚪ Find the Duplicates
 4. ⚪ Determine if an array of integers from 1 to n contains a duplicate in constant time and space.

@@ -61,11 +61,11 @@ Problem Solving
 4. 💗 I was asked this
 5. 💗 Why do you think we should not hire you?
 6. 💗 Why do you want to switch jobs now?
-7. 💗 Design Google Docs.
+7. 💗 ~~Design Google Docs.~~ *(incomplete - coding problem title only)*
 8. 💗 + Share interview experience
 9. 💗 Tell me about yourself.
 10. 💗 Tell me about the most challenging situation you faced in your career and how you handled it.
-11. 💗 Design Robinhood.
+11. 💗 ~~Design Robinhood.~~ *(incomplete - coding problem title only)*
 12. 💗 Maximum Number of Visible Points
 13. 💗 What Gen AI skills do you think will be critical in the next year?
 14. 💗 If you had to work on five different projects, how would you prioritize them?
@@ -75,7 +75,7 @@ Problem Solving
 18. 💗 Redesign the airport experience.
 19. 💗 Design browser history.
 20. 💗 What are the ethical risks of deploying agentic AI systems in high-stakes environments?
-21. 💗 Design Weather App
+21. 💗 ~~Design Weather App~~ *(incomplete - coding problem title only)*
 22. 💗 How would you explain a technical concept to a non-technical person?
 23. 💗 Design typeahead autocomplete for person search in Linkedin.
 24. 💗 Why do you want to work at Meta?
@@ -85,24 +85,24 @@ Problem Solving
 28. 💗 Why is a deep neural network better than a shallow neural network?
 29. 💗 Design the OpenAI Playground.
 30. 💗 What are your strengths and weaknesses?
-31. 💗 Valid Parentheses
+31. 💗 ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
 32. 💗 Why do you want to work at Apple?
 33. 💗 Tell me about a technical challenge that you have overcome.
 34. 💗 Why do you want to work at OpenAI?
 35. 💗 Have you gone out of your way to uphold some value or principle?
-36. 💗 Course Schedule
-37. 💗 Design Dropbox.
+36. 💗 ~~Course Schedule~~ *(incomplete - coding problem title only)*
+37. 💗 ~~Design Dropbox.~~ *(incomplete - coding problem title only)*
 38. 💗 Design live commenting for Facebook.
 39. 💗 Do you have any critique or concerns about Anthropic's approach or direction?
 40. 💗 Build your own customer service AI agent for a hypothetical outdoors company.
-41. 💗 Design Ticketmaster
+41. 💗 ~~Design Ticketmaster~~ *(incomplete - coding problem title only)*
 42. 💗 Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
 43. 💗 Why do you want to work at Visa?
 44. 💗 You're the PM of Google Doodles. What would your top three metrics be and why?
 45. 💗 Tell me about the accomplishment you are most proud of.
 46. 💗 Write functions to serialize and deserialize a list of strings.
-47. 💗 Design Google Drive.
-48. 💗 Climbing Stairs
+47. 💗 ~~Design Google Drive.~~ *(incomplete - coding problem title only)*
+48. 💗 ~~Climbing Stairs~~ *(incomplete - coding problem title only)*
 49. 💗 Degrees of Friendship
 50. 💗 Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?
 51. 💗 Design the 'Top Picks' feature for Netflix.
@@ -112,13 +112,13 @@ Problem Solving
 55. 💗 What evidence shows Anthropic's sincerity about their mission?
 56. 💗 Why do you want to work at Atlassian?
 57. 💗 What parts of OpenAI's mission statement resonate with you?
-58. 💗 Rotating the Box
+58. 💗 ~~Rotating the Box~~ *(incomplete - coding problem title only)*
 59. 💗 Why do you think you would be a good fit for Microsoft's mission?
 60. 💗 Why should we hire you?
 61. 💗 How do you consider the impact of your work on the world?
 62. 💗 How would you choose a programming language to build your product at Google?
 63. 💗 Why do you want to work at DoorDash?
-64. 💗 Generate Parentheses
+64. 💗 ~~Generate Parentheses~~ *(incomplete - coding problem title only)*
 65. 💗 Build a Calculator
 66. 💗 Why do you want to work at TikTok?
 67. 💗 Why do you want to work at Netflix?
@@ -133,7 +133,7 @@ Problem Solving
 76. 💗 Count the number of ways to split a string.
 77. 💗 How do you learn new technologies?
 78. 💗 Determine if two sentences are similar.
-79. 💗 Roman to Integer
+79. 💗 ~~Roman to Integer~~ *(incomplete - coding problem title only)*
 80. 💗 Why do you want to work at Cursor?
 81. 💗 Tell me a challenging situation when things went wrong and how you reacted.
 82. 💗 When have you done something which was against your values?
@@ -143,7 +143,7 @@ Problem Solving
 86. 💗 What are you looking for in your next opportunity?
 87. 💗 How do you contribute to diversity and inclusion?
 88. 💗 What are you passionate about?
-89. 💗 Set Matrix Zeroes
+89. 💗 ~~Set Matrix Zeroes~~ *(incomplete - coding problem title only)*
 90. 💗 What is cloud gaming?
 91. 💗 Why do you want to work at ElevenLabs?
 92. 💗 What other companies are you interviewing at and why?
@@ -167,7 +167,7 @@ Problem Solving
 110. 💗 Build a Basic Regex Parser
 111. 💗 What does your confidence level mean when building a confidence interval?
 112. 💗 Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.
-113. 💗 Minimum Absolute Difference
+113. 💗 ~~Minimum Absolute Difference~~ *(incomplete - coding problem title only)*
 114. 💗 Why did you become an engineer?
 115. 💗 What is a skill you have that is not listed on your resume?
 116. 💗 Determine if a number is a power of two.
@@ -272,7 +272,7 @@ Data Structures & Algorithms
 8. ⚠️ Find the first missing positive number in an array.
 9. ⚠️ Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.
 10. ⚠️ Given a binary tree, check if each node is the average of all descendants
-11. ⚠️ Lexicographic Grid Travel.
+11. ⚠️ ~~Lexicographic Grid Travel.~~ *(incomplete - coding problem title only)*
 12. ⚠️ Print the top view of nodes in a binary tree.
 13. ⚠️ Given an array of integers, return the pairs with the minimum absolute difference between them.
 14. ⚠️ Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
@@ -299,7 +299,7 @@ Data Structures & Algorithms
 35. ⚠️ Find a triplet in an array with a given sum.
 36. ⚠️ Given an array, find the two sum.
 37. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-38. ⚠️ Linked List Cycle
+38. ⚠️ ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
 39. ⚠️ Implement a decode and encode function of a general N-ary tree.
 40. ⚠️ Given the root of a binary tree of integers, return the maximum path sum.
 41. ⚠️ Given an array of integers and an integer k, find the kth largest element in the array.
@@ -309,10 +309,10 @@ Data Structures & Algorithms
 45. ⚠️ Construct a binary tree given its preorder and inorder traversals.
 46. ⚠️ Merge k sorted linked lists.
 47. ⚠️ Find the closest number in a sorted array.
-48. ⚠️ Search in rotated sorted array
+48. ⚠️ ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
 49. ⚠️ Build a hash tree algorithm.
 50. ⚠️ Find the maximum subarray sum.
-51. ⚠️ Squares of sorted array
+51. ⚠️ ~~Squares of sorted array~~ *(incomplete - coding problem title only)*
 52. ⚠️ Find the number of rotations in a circularly sorted array.
 53. ⚠️ Print the left view of a binary tree.
 54. ⚠️ Determine if a given binary tree is a binary search tree (BST).
@@ -348,7 +348,7 @@ Data Structures & Algorithms
 84. ⚠️ Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.
 85. ⚠️ Implement a queue using stacks.
 86. ⚠️ Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...
-87. ⚠️ Serialize and deserialize binary tree
+87. ⚠️ ~~Serialize and deserialize binary tree~~ *(incomplete - coding problem title only)*
 88. ⚠️ Find the maximum subarray product
 89. ⚠️ Abbreviate an array of strings.
 90. ⚠️ Implement a doubly linked list.
@@ -414,7 +414,7 @@ Coding
 
 1. ⚠️ Implement an LRU cache with serialization and evolving constraints.
 2. ⚠️ Find the minimum characters to insert to make a string a palindrome.
-3. ⚠️ Employee Earnings.
+3. ⚠️ ~~Employee Earnings.~~ *(incomplete - coding problem title only)*
 4. ⚠️ Tell me about a time you took a calculated risk when speed was critical.
 5. ⚠️ Reverse a linked list.
 6. ⚠️ Tell me about a time you were confident in a solution and later realized it was wrong.
@@ -436,7 +436,7 @@ Coding
 22. ⚠️ Given profiler samples from running code, find the slowest part in the code.
 23. ⚠️ Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...
 24. ⚠️ Reverse a Sentence
-25. ⚠️ Merge Intervals
+25. ⚠️ ~~Merge Intervals~~ *(incomplete - coding problem title only)*
 26. ⚠️ Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.
 27. ⚠️ Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.
 28. ⚠️ Given an m x n grid of characters board and a string word, return true if word exists in the grid.
@@ -450,7 +450,7 @@ Coding
 36. ⚠️ Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user’s remaining credit pool and total avai...
 37. ⚠️ Implement a k-nearest neighbors algorithm.
 38. ⚠️ Find the maximum possible stability of any subset of servers. Return the result modulo 10^9+7. E.g. Consider set of servers where reliability = [1, 2, 2], availability = [1, 1, 3].
-39. ⚠️ Find Largest Numbers
+39. ⚠️ ~~Find Largest Numbers~~ *(incomplete - coding problem title only)*
 40. ⚠️ Design and implement logic to synchronize audio playback timing with transcript highlighting.
 41. ⚠️ Implement a circular buffer.
 42. ⚠️ Given an nxn grid of 1s and 0s, return the number of islands in the input.
@@ -463,7 +463,7 @@ Coding
 49. ⚠️ In a large application, which code branches are more important to be tested and how do you decide?
 50. ⚠️ Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.
 51. ⚠️ What are some new advancements in AI you find interesting?
-52. ⚠️ Fibonacci Numbers
+52. ⚠️ ~~Fibonacci Numbers~~ *(incomplete - coding problem title only)*
 53. ⚠️ Given a list of Nodes, each with a unique string id and a list of subnodes it depends on, find the maximum depth of the dependencies.
 54. ⚠️ Tell me about a time when you conceived an innovative solution to a problem.
 55. ⚠️ How do you ensure code quality?
@@ -570,7 +570,7 @@ System Design
 4. ⚪ Design an inference batching system for a single GPU that can handle up to 100 inputs per batch while users wait synchronously, maximizing utilization under compute constraints.
 5. ⚪ Design a document processing pipeline.
 6. ⚪ Design a distributed logging system.
-7. ⚪ Design Instagram.
+7. ⚪ ~~Design Instagram.~~ *(incomplete - coding problem title only)*
 8. ⚪ Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.
 9. ⚪ Design a fire alarm for the deaf.
 10. ⚪ Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.
@@ -602,7 +602,7 @@ System Design
 36. ⚪ Design a system to map IP address ranges to geographic region labels.
 37. ⚪ Design a key-value store.
 38. ⚪ Design a performance tracking app for cyclists.
-39. ⚪ Design Uber Eats.
+39. ⚪ ~~Design Uber Eats.~~ *(incomplete - coding problem title only)*
 40. ⚪ Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.
 41. ⚪ Design an algorithm to predict the next word or phrase one is typing on a phone.
 42. ⚪ Design a service like Azure Key Vault that securely stores and retrieves secrets, certificates, and keys for applications and users.
@@ -639,7 +639,7 @@ System Design
 73. ⚪ Design the architecture to send chargeback transactions to Visa.
 74. ⚪ Design a microservices architecture using Java Spring Boot.
 75. ⚪ Design an Applicant Tracking System (ATS).
-76. ⚪ Design Amazon Storage.
+76. ⚪ ~~Design Amazon Storage.~~ *(incomplete - coding problem title only)*
 77. ⚪ Design an LCU cache.
 78. ⚪ Design a messaging platform.
 79. ⚪ Design a fitness tracker like Nike Training Club.

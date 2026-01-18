@@ -73,7 +73,7 @@ General Approach
 30. Based on the latest AI news, what ideas do you have that are one step beyond what exists today?
 31. If you have allocated budget, how would you solve the climate crisis problem?
 32. How would you build TinyURL?
-33. Design Facebook Messenger.
+33. ~~Design Facebook Messenger.~~ *(incomplete - coding problem title only)*
 34. What's the biggest threat to YouTube?
 35. As a PM for Instagram Shops, how would you increase the number of transactions?
 36. Describe a situation where you negotiated a win-win outcome.
@@ -129,7 +129,7 @@ General Approach
 86. Google PM Discussion Board.
 87. Coinbase's net income is 10% less than it was last month. What would you do?
 88. Tell me about the most complex project you have led.
-89. Design Uber Eats.
+89. ~~Design Uber Eats.~~ *(incomplete - coding problem title only)*
 90. Design the recommendation engine for Amazon’s homepage.
 91. Tell me about your greatest success.
 92. As a PM at Airbnb, how would you increase bookings?
@@ -1302,7 +1302,7 @@ Feature Design
 112. Reinvent a pillow with 10 new features.
 113. How would you improve the Pinterest experience?
 114. What are 4 features you would build for Netflix?
-115. Improve Pinterest.
+115. ~~Improve Pinterest.~~ *(incomplete - coding problem title only)*
 116. What is your favorite Microsoft product, what do you dislike about it, and how would you improve it?
 117. As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...
 118. What would be your strategy to improve Google Maps as a product?
@@ -1334,7 +1334,7 @@ Feature Design
 144. How might you improve Spotify using social features?
 145. Improve the Apple Watch.
 146. Improve Google Maps for group travel.
-147. Improve Discord.
+147. ~~Improve Discord.~~ *(incomplete - coding problem title only)*
 148. You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?
 149. Reinvent a backpack with 10 new features.
 150. How would you measure the success of improvements made to Uber's referral system?

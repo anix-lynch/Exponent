@@ -281,16 +281,16 @@ System Design (TPM Focus)
 
 📝 All 38 Questions:
 
-1. ⚪ Design Instagram.
+1. ⚪ ~~Design Instagram.~~ *(incomplete - coding problem title only)*
 2. ⚪ Tell me about the design and architecture of the program you managed. Explain the system end-to-end and various technologies you picked with reason.
 3. ⚪ Design a cashless candy dispensing machine.
-4. ⚪ Design Twitter.
+4. ⚪ ~~Design Twitter.~~ *(incomplete - coding problem title only)*
 5. ⚪ Design a reservation and payment system for a parking garage.
 6. ⚪ You're a PM in the middle of a sprint when a P1 issue arises that impacts the sprint goal due to requirements and design problems. How would you handle this?
-7. ⚪ Design Weather App
+7. ⚪ ~~Design Weather App~~ *(incomplete - coding problem title only)*
 8. ⚪ Design a radar tower model for a moving ship.
 9. ⚪ Design a fake news detection system.
-10. ⚪ Design Uber Eats.
+10. ⚪ ~~Design Uber Eats.~~ *(incomplete - coding problem title only)*
 11. ⚪ Design an elevator.
 12. ⚪ Design a streaming service like Netflix.
 13. ⚪ Design a solution for attending large events and concerts.

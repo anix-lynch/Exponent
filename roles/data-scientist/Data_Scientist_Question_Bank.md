@@ -54,13 +54,13 @@ Behavioral (STAR Method)
 
 📝 All 100 Questions:
 
-1. 💗 Employee Earnings.
+1. 💗 ~~Employee Earnings.~~ *(incomplete - coding problem title only)*
 2. 💗 Reverse a linked list.
 3. 💗 Find the number of users who called three or more people in the last week.
 4. 💗 Tell me about a time when you solved a complex problem and how you went about it.
 5. 💗 As the PM for Lyft, what dashboard would you build to track the health of the app?
 6. 💗 What is the project you are most proud of?
-7. 💗 Remove Duplicate Emails
+7. 💗 ~~Remove Duplicate Emails~~ *(incomplete - coding problem title only)*
 8. 💗 How would you measure the success of Facebook dating?
 9. 💗 Is this a valid palindrome?
 10. 💗 Tell me about your past projects.
@@ -71,58 +71,58 @@ Behavioral (STAR Method)
 15. 💗 Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
 16. 💗 Tell me about a time when you received negative feedback and how you handled it.
 17. 💗 Tell me about a time when you used a specific metric to drive change in your department.
-18. 💗 Monthly Post Success Analysis.
+18. 💗 ~~Monthly Post Success Analysis.~~ *(incomplete - coding problem title only)*
 19. 💗 Can you provide an example of how you manage conflict?
 20. 💗 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-21. 💗 Top Earning Employees
+21. 💗 ~~Top Earning Employees~~ *(incomplete - coding problem title only)*
 22. 💗 What percentage of users who were active on Messenger yesterday made a video call yesterday?
 23. 💗 Find the longest substring without repeating characters.
 24. 💗 Imagine you are a data scientist for Instagram. How would you balance ads and follower posts and how would you monitor its effectiveness.
 25. 💗 Reverse a Sentence
-26. 💗 Top Salaries by Department
+26. 💗 ~~Top Salaries by Department~~ *(incomplete - coding problem title only)*
 27. 💗 Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?
-28. 💗 Lyft Ride Requests
+28. 💗 ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
 29. 💗 Define success for TikTok.
-30. 💗 Valid Parentheses
+30. 💗 ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
 31. 💗 How would you determine if Facebook Messenger should introduce group calling?
 32. 💗 Move all zeros to the end of an array.
-33. 💗 Employee Hierarchy
-34. 💗 Most Recent Transaction
-35. 💗 Duolingo Leaderboards
+33. 💗 ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
+34. 💗 ~~Most Recent Transaction~~ *(incomplete - coding problem title only)*
+35. 💗 ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
 36. 💗 Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
 37. 💗 Tell me about a mistake you made and what you learned from it.
 38. 💗 Explain Bayes' theorem.
-39. 💗 High Volume Low Success.
-40. 💗 Calculate Test Scores
-41. 💗 Session Data Analysis.
+39. 💗 ~~High Volume Low Success.~~ *(incomplete - coding problem title only)*
+40. 💗 ~~Calculate Test Scores~~ *(incomplete - coding problem title only)*
+41. 💗 ~~Session Data Analysis.~~ *(incomplete - coding problem title only)*
 42. 💗 Tell me about a time when you were creative.
 43. 💗 Find the median of two sorted arrays.
 44. 💗 Given an nxn grid of 1s and 0s, return the number of islands in the input.
 45. 💗 Imagine you are a data scientist for Netflix. How would you use data to decide whether a TV series is worth renewing?
 46. 💗 Given an array, find the two sum.
 47. 💗 Tell me about a time when you had to balance short-term wins with long-term goals.
-48. 💗 Marketing Channel Attribution
+48. 💗 ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
 49. 💗 Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
-50. 💗 Linked List Cycle
+50. 💗 ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
 51. 💗 What parts of OpenAI's mission statement resonate with you?
 52. 💗 Given the root of a binary tree of integers, return the maximum path sum.
 53. 💗 Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?
-54. 💗 Post Success By Age Group.
+54. 💗 ~~Post Success By Age Group.~~ *(incomplete - coding problem title only)*
 55. 💗 Tell me about an impactful project that you led.
-56. 💗 Analyze Monthly Customer Transactions
+56. 💗 ~~Analyze Monthly Customer Transactions~~ *(incomplete - coding problem title only)*
 57. 💗 Merge k sorted linked lists.
 58. 💗 Walk me through a past data science project.
 59. 💗 Explain deep reinforcement learning.
-60. 💗 Fibonacci Numbers
-61. 💗 Roman to Integer
+60. 💗 ~~Fibonacci Numbers~~ *(incomplete - coding problem title only)*
+61. 💗 ~~Roman to Integer~~ *(incomplete - coding problem title only)*
 62. 💗 How do you approach personal growth and learning?
 63. 💗 How would you enhance Facebook comments?
 64. 💗 Find Customer Lifetime Value (LTV)
 65. 💗 Describe an experience that you consider most valuable.
-66. 💗 Search in rotated sorted array
+66. 💗 ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
 67. 💗 Find the maximum subarray sum.
 68. 💗 How can you improve Facebook’s DAU?
-69. 💗 Find Campaign Purchases
+69. 💗 ~~Find Campaign Purchases~~ *(incomplete - coding problem title only)*
 70. 💗 Determine if a given binary tree is a binary search tree (BST).
 71. 💗 Given a list of sentences, find the top n most frequent words.
 72. 💗 Merge two sorted lists
@@ -130,7 +130,7 @@ Behavioral (STAR Method)
 74. 💗 What are you passionate about?
 75. 💗 How do you encourage collaboration among cross-functional teams?
 76. 💗 As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?
-77. 💗 Fraudulent Transactions
+77. 💗 ~~Fraudulent Transactions~~ *(incomplete - coding problem title only)*
 78. 💗 Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...
 79. 💗 Calculate the trapped rainwater between bars in a given array.
 80. 💗 How would you help the Instagram team decide whether to launch the Rooms feature after a successful launch on Facebook?
@@ -144,7 +144,7 @@ Behavioral (STAR Method)
 88. 💗 Find the lowest common ancestor (LCA) of two nodes in a binary tree.
 89. 💗 Top k frequent elements
 90. 💗 How do you deal with interference?
-91. 💗 Total Outfit Combinations
+91. 💗 ~~Total Outfit Combinations~~ *(incomplete - coding problem title only)*
 92. 💗 Present slides on a past project you've worked on.
 93. 💗 Print all combinations of numbers from 1 to n that sum to n.
 94. 💗 What about Tinder's vision resonates with you?
