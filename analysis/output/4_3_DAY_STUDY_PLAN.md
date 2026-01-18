@@ -1,6 +1,9 @@
 # 📅 YOUR PERSONALIZED 3-DAY STUDY PLAN
 
-From 62% → 70%+ ready for Data Engineer + Quick Win roles
+**PRIMARY FOCUS: Data Engineer 🎯 #1 Goal**  
+From 65% → 75%+ ready (you're more ready than you think!)
+
+**SECRET WEAPON**: gozeroshot.dev portfolio proves you can do the work
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════╗
@@ -319,42 +322,42 @@ From 62% → 70%+ ready for Data Engineer + Quick Win roles
 ║                  │                                                            ║
 ║                  │ ✅ Goal: Confident transition narrative                    ║
 ║                  │                                                            ║
-║  ⏰ 1:00-3:00 PM  │ APPLICATION BLITZ 🚀                                      ║
+║  ⏰ 1:00-3:00 PM  │ APPLICATION BLITZ 🚀 (DE FIRST!)                           ║
 ║                  │                                                            ║
-║                  │ 📧 TIER 1: Quick Win Roles (Apply to 5-7)                  ║
-║                  │                                                            ║
-║                  │ Chief of Staff roles:                                     ║
-║                  │ □ Tech companies (Series B-D)                             ║
-║                  │ □ Emphasize: 20 years experience, portfolio management    ║
-║                  │                                                            ║
-║                  │ BizOps & Strategy roles:                                  ║
-║                  │ □ Tech companies needing business + data skills           ║
-║                  │ □ Emphasize: MBA, VC/PE, strategic thinking               ║
-║                  │                                                            ║
-║                  │ Finance & Strategy roles:                                 ║
-║                  │ □ Fintech, data companies                                 ║
-║                  │ □ Emphasize: VC/PE background, financial analysis         ║
-║                  │                                                            ║
-║                  │ Product Analyst roles:                                    ║
-║                  │ □ Companies valuing business + technical hybrid           ║
-║                  │ □ Emphasize: SQL skills, product thinking                 ║
-║                  │                                                            ║
-║                  │ 📧 TIER 2: Data Engineer Roles (Apply to 3-5)              ║
+║                  │ 📧 PRIORITY 1: DATA ENGINEER ROLES (Apply to 8-10) ⭐      ║
 ║                  │                                                            ║
 ║                  │ Junior/Associate Data Engineer:                           ║
+║                  │ □ Startups/mid-size companies (more flexible)             ║
+║                  │ □ LEAD WITH: gozeroshot.dev in cover letter               ║
 ║                  │ □ Focus on: SQL-heavy, pipeline-focused roles             ║
 ║                  │ □ Avoid: Roles requiring heavy Spark/Scala coding         ║
-║                  │ □ Emphasize: Business acumen + data architecture          ║
+║                  │ □ Emphasize: "Business + Technical hybrid"                ║
+║                  │ □ Your story: "20yr VC/PE → Built DE portfolio"           ║
 ║                  │                                                            ║
 ║                  │ Analytics Engineer:                                       ║
-║                  │ □ Bridge between data and business                        ║
-║                  │ □ Emphasize: SQL, dbt, data modeling                      ║
+║                  │ □ Bridge between data and business (YOUR STRENGTH)        ║
+║                  │ □ Emphasize: SQL, dbt, data modeling, stakeholder mgmt    ║
+║                  │ □ Show: gozeroshot.dev demonstrates end-to-end thinking   ║
 ║                  │                                                            ║
-║                  │ BI Engineer:                                              ║
+║                  │ BI Engineer / Data Platform Engineer:                     ║
 ║                  │ □ Dashboard and reporting focus                           ║
-║                  │ □ Emphasize: SQL, data visualization, stakeholder mgmt    ║
+║                  │ □ Emphasize: Business context + technical skills          ║
 ║                  │                                                            ║
-║                  │ ✅ Goal: 8-12 applications submitted                       ║
+║                  │ 📧 PRIORITY 2: Safety Net Roles (Apply to 5-7)             ║
+║                  │                                                            ║
+║                  │ Chief of Staff / BizOps & Strategy:                       ║
+║                  │ □ Tech companies (Series B-D)                             ║
+║                  │ □ Emphasize: 20 years experience, MBA, VC/PE              ║
+║                  │ □ Easy interviews, quick offers likely                    ║
+║                  │                                                            ║
+║                  │ 📧 PRIORITY 3: Bridge Roles (Apply to 3-5)                 ║
+║                  │                                                            ║
+║                  │ Data Analyst / Business Analyst:                          ║
+║                  │ □ Can transition to DE internally                         ║
+║                  │ □ Easier to land with current skills                      ║
+║                  │                                                            ║
+║                  │ ✅ Goal: 16-22 applications submitted                      ║
+║                  │    (8-10 DE, 5-7 CoS/BizOps, 3-5 Analyst)                 ║
 ║                  │                                                            ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║  ✅ DAY 3 SUCCESS METRICS:                                                    ║
@@ -396,17 +399,21 @@ Use this checklist to track your progress:
 
 ---
 
-## 🎯 FINAL CONFIDENCE CHECK
+## 🎯 FINAL CONFIDENCE CHECK - CORRECTED
 
 After completing this plan:
 
-**Behavioral**: 90% → You have 20 years of stories ✅  
+**Behavioral**: 90% → 95% (polished STAR stories) ✅  
 **Strategy**: 95% → Your MBA/VC strength ✅  
-**SQL**: 60% → 75% (15 practice problems) 🟡  
-**Pipelines**: 55% → 70% (7 designs studied) 🟡  
-**System Design**: 65% → 75% (3 designs practiced) 🟡  
+**SQL**: 60% → 80% (25 practice problems over 2 days) 🟡  
+**Pipelines**: 60% → 75% (10+ designs studied) 🟡  
+**System Design**: 65% → 75% (5 designs practiced) 🟡  
+**Data Modeling**: 70% → 80% (3 models created) ✅  
 
-**Overall**: 62% → 72% = **READY TO INTERVIEW** ✅
+**Overall**: 65% → 77% = **VERY HIREABLE** ✅
+
+**SECRET WEAPON**: gozeroshot.dev portfolio = +10% credibility boost  
+**REAL READINESS**: 77% + portfolio = **85%+ effective readiness**
 
 ---
 

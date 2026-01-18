@@ -10,25 +10,27 @@ Based on your MBA/VC/PE background transitioning to Data Engineering
 ║  HIGH MATCH (70%+)              │  MEDIUM MATCH (50-70%)                      ║
 ║  LOW EFFORT                     │  MEDIUM EFFORT                              ║
 ║  ───────────────────────────────│─────────────────────────────────────────── ║
-║  🟢 QUICK WINS - APPLY MONDAY   │  🟡 STUDY & APPLY (3 days)                 ║
+║  🟢 QUICK WINS - APPLY MONDAY   │  ⭐ #1 GOAL - FOCUSED PREP (PRIORITY!)     ║
 ║                                 │                                             ║
-║  • Chief of Staff (2q)          │  • Data Engineer (151q) 🎯 #1 GOAL         ║
-║    └─ Use BizOps proxy (97q)    │    └─ Focus: SQL, Pipelines, System Design ║
-║    └─ Your 20yr background      │    └─ SKIP: DSA (32q), Coding (4q)         ║
-║                                 │                                             ║
-║  • BizOps & Strategy (97q)      │  • Data Analyst (118q)                     ║
-║    └─ Strategy: 36q             │    └─ Bridge role to DE                    ║
-║    └─ Business Analysis: 9q     │    └─ Heavy SQL, light coding              ║
-║                                 │                                             ║
-║  • Finance & Strategy (7q)      │  • Business Analyst (87q)                  ║
-║    └─ VC/PE background          │    └─ MBA-friendly                         ║
-║                                 │                                             ║
-║  • Product Analyst (85q)        │  • Technical Program Manager (189q)        ║
-║    └─ Hybrid business + tech    │    └─ Program execution focus              ║
-║                                 │                                             ║
-║  ACTION: Apply Monday AM        │  ACTION: Focused prep Sat-Mon              ║
-║  PREP TIME: 4 hours             │  PREP TIME: 20 hours                       ║
-║  CONFIDENCE: 85%+               │  CONFIDENCE: 65-75%                        ║
+║  • Chief of Staff (2q)          │  • DATA ENGINEER (151q) 🎯 YOUR #1 GOAL    ║
+║    └─ Use BizOps proxy (97q)    │    └─ You built gozeroshot.dev for THIS   ║
+║    └─ Your 20yr background      │    └─ Portfolio proves real DE work       ║
+║    └─ Safety net while DE hunts │    └─ 62% → 75% with 20hr focused prep    ║
+║                                 │    └─ Strategic 70% of what matters        ║
+║  • BizOps & Strategy (97q)      │    └─ SKIP: DSA (32q), Coding (4q)         ║
+║    └─ Strategy: 36q             │                                             ║
+║    └─ Business Analysis: 9q     │  • Data Analyst (118q)                     ║
+║    └─ Natural MBA fit           │    └─ Bridge role to DE                    ║
+║                                 │    └─ Heavy SQL, light coding              ║
+║  • Finance & Strategy (7q)      │                                             ║
+║    └─ VC/PE background          │  • Technical Program Manager (189q)        ║
+║                                 │    └─ Program execution focus              ║
+║  • Product Analyst (85q)        │                                             ║
+║    └─ Hybrid business + tech    │  ACTION: 20hr intensive prep → APPLY MON   ║
+║                                 │  PREP TIME: 20 hours (YOUR MAIN FOCUS)     ║
+║  ACTION: Apply Monday AM        │  CONFIDENCE: 62% → 75%+ = HIREABLE ✅      ║
+║  PREP TIME: 4 hours (secondary) │  SECRET WEAPON: gozeroshot.dev portfolio   ║
+║  CONFIDENCE: 85%+ (easy wins)   │                                             ║
 ║                                 │                                             ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
 ║                                 │                                             ║
@@ -55,9 +57,19 @@ Based on your MBA/VC/PE background transitioning to Data Engineering
 
 ---
 
-## 🎯 YOUR 3-DAY FOCUS
+## 🎯 YOUR 3-DAY FOCUS - CORRECTED PRIORITY
 
-### **TIER 1: Quick Wins (Apply Monday)**
+### **PRIMARY TARGET: Data Engineer 🎯 #1 GOAL**
+**Why you're more ready than you think:**
+- ✅ You built **gozeroshot.dev** specifically for this role
+- ✅ Portfolio demonstrates real DE work (not just theory)
+- ✅ 20 years business context = huge advantage
+- ✅ MBA strategic thinking = system design strength
+- ✅ Current: 62% → Target: 75%+ with focused prep
+
+**Total prep needed**: 20 hours (YOUR MAIN FOCUS)
+
+### **SECONDARY: Quick Wins (Safety Net)**
 - Chief of Staff
 - BizOps & Strategy  
 - Finance & Strategy
@@ -65,13 +77,12 @@ Based on your MBA/VC/PE background transitioning to Data Engineering
 
 **Total prep needed**: 4 hours (behavioral stories + strategy refresh)
 
-### **TIER 2: Focused Study (Apply by Wednesday)**
-- Data Engineer 🎯 #1 Goal
+### **TIER 3: Bridge Roles (If DE takes time)**
 - Data Analyst
 - Business Analyst
 - Technical Program Manager
 
-**Total prep needed**: 20 hours over 3 days
+**Total prep needed**: Minimal (apply with current prep)
 
 ### **TIER 3: Strategic (Apply Week 2+)**
 - Program Manager
@@ -99,22 +110,51 @@ For Data Engineer (your #1 goal):
 
 ---
 
-## 🚀 IMMEDIATE ACTIONS
+## 🚀 IMMEDIATE ACTIONS - DE FOCUSED
 
-**Tonight (2 hours):**
-1. Write 7 STAR behavioral stories
-2. Review 5 strategy frameworks from BizOps
+**Tonight (4 hours) - DE PREP:**
+1. Polish 7 STAR behavioral stories (1 hour)
+2. SQL intensive practice (2 hours - 15 problems)
+3. Review gozeroshot.dev - explain every design decision (1 hour)
 
-**Tomorrow (8 hours):**
-1. SQL deep dive (15 practice problems)
-2. Data pipeline design patterns (10 examples)
-3. System design frameworks (3 architectures)
+**Tomorrow (8 hours) - DE DEEP DIVE:**
+1. Data Pipeline Design (3 hours - study all 50 questions)
+2. System Design practice (2 hours - 3-4 full designs)
+3. SQL continued (2 hours - harder problems)
+4. Data Modeling (1 hour - star schema, dimensional)
 
-**Monday (4 hours + applications):**
-1. Mock interviews
-2. Apply to Tier 1 roles (5-10 applications)
-3. Apply to Tier 2 roles (3-5 applications)
+**Monday AM (4 hours) - FINAL PREP:**
+1. Mock interview - record yourself (2 hours)
+2. Review weak areas (1 hour)
+3. Prepare "Why DE?" + "Walk through gozeroshot" (1 hour)
+
+**Monday PM (3 hours) - APPLICATION BLITZ:**
+1. **8-10 Data Engineer roles** (PRIMARY TARGET)
+2. 5-7 Chief of Staff/BizOps roles (SAFETY NET)
+3. 3-5 Data Analyst roles (BACKUP)
 
 ---
 
-**You're more ready than you think. Let's go! 🚀**
+## 💪 YOUR DE ADVANTAGE
+
+**What most DE candidates have:**
+- ✅ Can write SQL
+- ✅ Know Spark/Airflow
+- ❌ Don't understand business
+- ❌ Can't communicate with stakeholders
+
+**What YOU have:**
+- 🟡 Can write SQL (learning)
+- 🟡 Know pipelines (learning)
+- ✅✅✅ Understand business (20 years)
+- ✅✅✅ Expert communicator
+- ✅✅✅ **PORTFOLIO: gozeroshot.dev**
+
+**Your killer narrative:**
+> "I spent 20 years in VC/PE making data-driven investment decisions. I got frustrated with how long it took data teams to answer business questions. So I learned data engineering to bridge that gap. Here's my portfolio: gozeroshot.dev - a full end-to-end data platform I built to prove I can do the work."
+
+**← THIS DIFFERENTIATES YOU** 🎯
+
+---
+
+**You're 65% ready NOW. 75%+ after 20 hours. Let's go! 🚀**
