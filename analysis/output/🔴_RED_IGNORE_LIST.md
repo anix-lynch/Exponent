@@ -98,18 +98,36 @@ General Problem Framework
    └─ Summarize
 ```
 
-📝 Top 10 High-Value Questions (filtered for quality & relevance):
+📝 Top 15 High-Value Questions (80% interview coverage, template-able):
 
-1. 🔴 How would you compare Disney+ to Hulu? [1 roles]
-2. 🔴 How would you evaluate our pricing compared to competitors using publicly available data? [1 roles]
-3. 🔴 How would you increase adoption of Office for web, considering its limitations compared to the desktop version? [1 roles]
-4. 🔴 How would you set a goal for Facebook reactions and measure it? [1 roles]
-5. 🔴 How would you 10x Duolingo? [1 roles]
-6. 🔴 How would you build TinyURL? [1 roles]
-7. 🔴 How did COVID-19 affect Uber? [1 roles]
-8. 🔴 How did COVID-19 affect Amazon? [1 roles]
-9. 🔴 How should Yelp expand into Asia? [1 roles]
-10. 🔴 How would you define human agency? [1 roles]
+**A) Diagnostics / Metric Drops (highest frequency)**
+
+1. 🔴 Amazon orders are down 25% — what do you do?
+2. 🔴 Google searches are down 35% — what happened?
+3. 🔴 Click-through rate on Netflix is down by 10% — what would you do?
+4. 🔴 Diagnose a 25% drop in conversion on Wealthsimple's landing page.
+5. 🔴 Diagnose a 40% increase in first month churn on HelloFresh.
+
+**B) Define Success / Metrics (shows up everywhere)**
+
+6. 🔴 How would you define success for Airbnb's Experiences?
+7. 🔴 How would you determine success for Instagram Reels?
+8. 🔴 How would you define the optimal number of ads to show to users on Yelp?
+
+**C) Strategy / Growth / Expansion (very reusable)**
+
+9. 🔴 As a PM for Uber when it was a ride-hailing app, would you expand into Uber Eats?
+10. 🔴 How would you increase Amazon Prime's revenue by 20%?
+11. 🔴 How would Notion expand into Europe?
+12. 🔴 Discuss a strategy to expand Meta's presence in the Virtual Reality market.
+
+**D) Product Design / Tradeoffs (core PM muscle, reusable)**
+
+13. 🔴 Design the recommendation engine for Amazon's homepage.
+14. 🔴 How would you decide between pagination and infinite scroll on a job board?
+15. 🔴 Facebook is considering adding a 7th reaction. How would you determine its necessity and measure its success?
+
+💡 **Why these 15:** Each has a repeatable framework that applies to 20+ similar questions. Covers diagnostics, metrics, strategy, and design — the 4 core interview modes.
 
 *...and 455 more questions in this category*
 
