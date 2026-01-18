@@ -1,1288 +1,1092 @@
-# 🟡 YELLOW - TARGET ROLES ONLY
+# 🟡 YELLOW - TARGET ROLES
 
-**182 questions for your top 3 target roles**
-
-**Target Roles:** Data Engineer, BizOps Strategy, Chief of Staff
+**180 questions for Chief of Staff / BizOps / Data Engineer**
 
 Study these AFTER Star and Green.
-These are specific to your target roles.
 
-**Study Time:** 60-90 hours
-
----
-
-## 1. Remove Duplicate Emails
-
-**Appears in 2 role(s):** Data Engineer, Data Scientist
-**Categories:** Behavioral, Data Quality
+**Study Time:** 40-60 hours
 
 ---
 
-## 2. Tell me about a skill you recently learned.
+## 1. Instagram Likes
 
-**Appears in 2 role(s):** Data Engineer, Data Scientist
-**Categories:** Behavioral, Data Pipeline Design
-
----
-
-## 3. How do you approach personal growth and learning?
-
-**Appears in 2 role(s):** Data Engineer, Data Scientist
-**Categories:** Behavioral
+**Roles:** Data Analyst, Data Engineer
 
 ---
 
-## 4. What motivates you?
+## 2. Remove Duplicate Emails
 
-**Appears in 2 role(s):** BizOps Strategy, Data Scientist
-**Categories:** Behavioral, Strategy
+**Roles:** Data Engineer, Data Scientist
 
 ---
 
-## 5. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
+## 3. Tell me about a skill you recently learned.
+
+**Roles:** Data Engineer, Data Scientist
+
+---
+
+## 4. How do you approach personal growth and learning?
+
+**Roles:** Data Engineer, Data Scientist
+
+---
+
+## 5. What motivates you?
+
+**Roles:** BizOps Strategy, Data Scientist
+
+---
+
+## 6. You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?
 
 (Conversion: From users browsing to placing orders.)
 
-**Appears in 2 role(s):** Data Engineer, Data Scientist
-**Categories:** Data Analysis - Root Cause, Data Pipeline Design
+**Roles:** Data Engineer, Data Scientist
 
 ---
 
-## 6. Design a document processing pipeline.
+## 7. Design a document processing pipeline.
 
-**Appears in 2 role(s):** Data Engineer, Software Engineer
-**Categories:** Data Pipeline Design, System Design
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 7. Design Netflix's Clickstream Data Pipeline
+## 8. Design Netflix's Clickstream Data Pipeline
 
-**Appears in 2 role(s):** Business Analyst, Data Engineer
-**Categories:** Behavioral, Data Pipeline Design, System Design
+**Roles:** Business Analyst, Data Engineer
 
 ---
 
-## 8. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
+## 9. Print all possible solutions to the N-Queens problem.
 
-**Appears in 2 role(s):** Data Engineer, Technical Program Manager
-**Categories:** Behavioral, Program Management, Stakeholder Management, Team Leadership
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 9. How do you influence without authority?
+## 10. Climbing Stairs
 
-**Appears in 2 role(s):** Data Engineer, Product Manager
-**Categories:** Behavioral, Leadership
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 10. Why did you become an engineer?
+## 11. Rotating the Box
 
-**Appears in 2 role(s):** Data Engineer, Software Engineer
-**Categories:** Behavioral, Problem Solving
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 11. How would you improve our hiring conversion and time to hire from application to offer rollout?
+## 12. Set Matrix Zeroes
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Execution, Process Improvement, Product Design
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 12. Why is Android strategic for Google?
+## 13. Solve John Conway's "Game of Life".
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Analytical, Business Analysis, Product Strategy, Strategy
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 13. Tell me about how you brought a product to market.
+## 14. Find the Duplicates
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Analytical, Market Analysis
+**Roles:** Data Engineer, ML Engineer
 
 ---
 
-## 14. What are the key differences between Tiktok, Instagram, and Youtube?
+## 15. Tell me about a relevant complex program you've managed. How did you handle stakeholder & team management, and escalating issues while prioritizing work?
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Analytical, Strategy
+**Roles:** Data Engineer, Technical Program Manager
 
 ---
 
-## 15. Tell me about a time when you gained trust.
+## 16. How do you influence without authority?
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Behavioral
+**Roles:** Data Engineer, Product Manager
 
 ---
 
-## 16. Tell me about a time when you had to break a complex problem down for different cross-functional teams.
+## 17. Why did you become an engineer?
 
-**Appears in 2 role(s):** BizOps Strategy, Product Manager
-**Categories:** Behavioral
+**Roles:** Data Engineer, Software Engineer
 
 ---
 
-## 17. Tell me about a recent program you worked on.
+## 18. Describe your ideal work environment.
 
-**Appears in 2 role(s):** BizOps Strategy, Technical Program Manager
-**Categories:** Program Management, Strategy
+**Roles:** BizOps Strategy, ML Engineer
 
 ---
 
-## 18. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
+## 19. How would you improve our hiring conversion and time to hire from application to offer rollout?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** BizOps Strategy, Product Manager
 
 ---
 
-## 19. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
+## 20. Why is Android strategic for Google?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design, Data Quality
+**Roles:** BizOps Strategy, Product Manager
 
 ---
 
-## 20. Design an ETL Pipeline for a ML Platform for AWS
+## 21. Tell me about how you brought a product to market.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design, ETL/ELT, System Design
+**Roles:** BizOps Strategy, Product Manager
 
 ---
 
-## 21. Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].
+## 22. What are the key differences between Tiktok, Instagram, and Youtube?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** BizOps Strategy, Product Manager
 
 ---
 
-## 22. Split an array into equal sum subarrays
+## 23. Tell me about a time when you gained trust.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** BizOps Strategy, Product Manager
 
 ---
 
-## 23. Which sorting algorithms use divide and conquer?
+## 24. Tell me about a recent program you worked on.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** BizOps Strategy, Technical Program Manager
 
 ---
 
-## 24. Design an ETL Pipeline for Slack for School
+## 25. PATTERN: Leadership
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design, ETL/ELT, System Design
+**Example:** Tell me about a time when you led a team to achieve a goal.
+**Roles:** BizOps Strategy
 
 ---
 
-## 25. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
+## 26. Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** Data Engineer
 
 ---
 
-## 26. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
+## 27. On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design
+**Roles:** Data Engineer
 
 ---
 
-## 27. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
+## 28. Design an ETL Pipeline for a ML Platform for AWS
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 28. Design a data pipeline that complies with GDPR.
+## 29. Which sorting algorithms use divide and conquer?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Pipeline Design, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 29. Design a database schema for a fitness app.
+## 30. Design an ETL Pipeline for Slack for School
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 30. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
+## 31. How would you handle scheduling dependencies between two nightly Jobs to ensure the second Job does not fail if the first Job runs longer than expected?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling
+**Roles:** Data Engineer
 
 ---
 
-## 31. Design a data warehouse schema for Instagram.
+## 32. How would you handle a task in a nightly job that fails unexpectedly during 10 percent of the runs?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 32. Design a Data Warehouse Schema for a Ride-Sharing Service
+## 33. Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 33. Design a Data Warehouse Schema for Stripe
+## 34. Design a data pipeline that complies with GDPR.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 34. Design a data warehouse schema for Spotify.
+## 35. Design a database schema for a fitness app.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 35. Design a data warehouse schema for Amazon.
+## 36. Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 36. Design a Data Warehouse Schema for Customer Support
+## 37. Design a data warehouse schema for Instagram.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 37. Design a Data Warehouse Schema for Airbnb
+## 38. Design a Data Warehouse Schema for a Ride-Sharing Service
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 38. Design a database schema for a ride sharing app.
+## 39. Design a Data Warehouse Schema for Stripe
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 39. Design a data warehouse schema for LinkedIn.
+## 40. Design a data warehouse schema for Spotify.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Modeling, Data Warehousing, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 40. Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
+## 41. Design a data warehouse schema for Amazon.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** SQL
+**Roles:** Data Engineer
 
 ---
 
-## 41. Design a high-tech gym.
+## 42. Design a Data Warehouse Schema for Customer Support
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** System Design
+**Roles:** Data Engineer
 
 ---
 
-## 42. Design a rewarding system.
+## 43. Design a Data Warehouse Schema for Airbnb
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** System Design
+**Roles:** Data Engineer
 
 ---
 
-## 43. What is a Medallion Architecture?
+## 44. Design a database schema for a ride sharing app.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** System Design
+**Roles:** Data Engineer
 
 ---
 
-## 44. Design a system to ingest large amounts of JSON data from multiple S3 buckets
+## 45. Design a data warehouse schema for LinkedIn.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Cloud Platforms, System Design
+**Roles:** Data Engineer
 
 ---
 
-## 45. What's the difference between a data lakehouse and a data warehouse?
+## 46. Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Warehousing
+**Roles:** Data Engineer
 
 ---
 
-## 46. What is the difference between OLTP and OLAP?
+## 47. Sliding Window Maximum
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Warehousing
+**Roles:** Data Engineer
 
 ---
 
-## 47. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
+## 48. Design a high-tech gym.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Cloud Platforms, Performance Optimization
+**Roles:** Data Engineer
 
 ---
 
-## 48. Explain the differences between multithreading and multiprocessing.
+## 49. Design a rewarding system.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Performance Optimization
+**Roles:** Data Engineer
 
 ---
 
-## 49. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
+## 50. What is a Medallion Architecture?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Data Quality
+**Roles:** Data Engineer
 
 ---
 
-## 50. How will you develop yourself professionally as a data engineer?
+## 51. Design a system to ingest large amounts of JSON data from multiple S3 buckets
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 51. What data tools have you worked with, and what specific projects did you use those tools for?
+## 52. What's the difference between a data lakehouse and a data warehouse?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 52. When is Hadoop better than PySpark?
+## 53. What is the difference between OLTP and OLAP?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 53. What is Pyspark?
+## 54. How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 54. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
+## 55. Explain the differences between multithreading and multiprocessing.
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 55. Explain the differences between Parquet and Avro.
+## 56. Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 56. What is delta lake?
+## 57. How will you develop yourself professionally as a data engineer?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 57. Explain the differences between wide and narrow dependencies in Apache Spark.
+## 58. What data tools have you worked with, and what specific projects did you use those tools for?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 58. When should you use a job cluster instead of an all-purpose cluster?
+## 59. When is Hadoop better than PySpark?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Spark/Big Data
+**Roles:** Data Engineer
 
 ---
 
-## 59. What types of indexes are in a relational database?
+## 60. What is Pyspark?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Database Design
+**Roles:** Data Engineer
 
 ---
 
-## 60. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
+## 61. When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
 
-**Appears in 1 role(s):** Data Engineer
-**Categories:** Monitoring & Observability
+**Roles:** Data Engineer
 
 ---
 
-## 61. What does the Chief of Staff role mean to you?
+## 62. Explain the differences between Parquet and Avro.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 62. Why are you interested in becoming a Chief of Staff?
+## 63. What is delta lake?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 63. What experience do you have that prepares you for this role?
+## 64. Explain the differences between wide and narrow dependencies in Apache Spark.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 64. How would you describe your relationship with the executive you'd support?
+## 65. When should you use a job cluster instead of an all-purpose cluster?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 65. Tell me about a time you managed a complex, cross-functional project.
+## 66. What types of indexes are in a relational database?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral, Cross-Functional Collaboration, Leadership
+**Roles:** Data Engineer
 
 ---
 
-## 66. How do you handle confidential or sensitive information?
+## 67. Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Data Engineer
 
 ---
 
-## 67. What's your approach to managing up?
+## 68. What does the Chief of Staff role mean to you?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 68. Tell me about a time you identified and solved a strategic problem.
+## 69. What experience do you have that prepares you for this role?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral, Problem Solving, Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 69. Describe your communication style when working with C-suite executives.
+## 70. How would you describe your relationship with the executive you'd support?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 70. What systems or processes would you implement to improve organizational efficiency?
+## 71. Tell me about a time you managed a complex, cross-functional project.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 71. Tell me about a time you had to make an ethical decision under pressure.
+## 72. How do you handle confidential or sensitive information?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 72. How do you stay productive when managing multiple high-priority initiatives?
+## 73. What's your approach to managing up?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 73. Describe a time you resolved a conflict between team members or departments.
+## 74. Tell me about a time you identified and solved a strategic problem.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral, Leadership, Problem Solving
+**Roles:** Chief of Staff
 
 ---
 
-## 74. How would you help a CEO scale from 50 to 500 employees?
+## 75. Describe your communication style when working with C-suite executives.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 75. What metrics would you track to measure organizational health?
+## 76. Tell me about a time you had to make an ethical decision under pressure.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 76. How do you build relationships with board members?
+## 77. How do you stay productive when managing multiple high-priority initiatives?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 77. Tell me about a time you managed a crisis or urgent situation.
+## 78. How would you help a CEO scale from 50 to 500 employees?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral, Leadership
+**Roles:** Chief of Staff
 
 ---
 
-## 78. How would you structure the CEO's calendar and priorities?
+## 79. What metrics would you track to measure organizational health?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 79. Describe your experience with board meeting preparation and follow-up.
+## 80. How do you build relationships with board members?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 80. How would you future-proof the organization against industry disruption?
+## 81. Tell me about a time you managed a crisis or urgent situation.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 81. How do you gather and synthesize information from across the organization?
+## 82. How would you structure the CEO's calendar and priorities?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 82. Tell me about a time you had to deliver difficult feedback to a senior leader.
+## 83. Describe your experience with board meeting preparation and follow-up.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral, Communication, Leadership, Problem Solving
+**Roles:** Chief of Staff
 
 ---
 
-## 83. How do you maintain your own professional development while supporting others?
+## 84. How would you future-proof the organization against industry disruption?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 84. What's your approach to building a culture of accountability?
+## 85. How do you gather and synthesize information from across the organization?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 85. How do you decide what to delegate vs. what to handle personally?
+## 86. Tell me about a time you had to deliver difficult feedback to a senior leader.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 86. How do you handle situations where you disagree with the CEO's decision?
+## 87. How do you maintain your own professional development while supporting others?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 87. Tell me about a time you improved a broken process or system.
+## 88. What's your approach to building a culture of accountability?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Behavioral
+**Roles:** Chief of Staff
 
 ---
 
-## 88. Describe a situation where you had to influence without authority.
+## 89. How do you decide what to delegate vs. what to handle personally?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Leadership
+**Roles:** Chief of Staff
 
 ---
 
-## 89. How do you ensure alignment between the CEO's vision and team execution?
+## 90. How do you handle situations where you disagree with the CEO's decision?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Leadership, Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 90. What's your leadership style, and how does it adapt to different situations?
+## 91. Tell me about a time you improved a broken process or system.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Leadership
+**Roles:** Chief of Staff
 
 ---
 
-## 91. How do you ensure cross-functional teams stay aligned on strategic initiatives?
+## 92. Describe a situation where you had to influence without authority.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Cross-Functional Collaboration, Leadership, Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 92. What's your approach to change management in a large organization?
+## 93. How do you ensure alignment between the CEO's vision and team execution?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Leadership
+**Roles:** Chief of Staff
 
 ---
 
-## 93. How do you build trust with team members at all levels?
+## 94. What's your leadership style, and how does it adapt to different situations?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Leadership
+**Roles:** Chief of Staff
 
 ---
 
-## 94. How do you prioritize when everything is urgent?
+## 95. How do you ensure cross-functional teams stay aligned on strategic initiatives?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 95. How do you balance being a strategic advisor vs. an operational executor?
+## 96. What's your approach to change management in a large organization?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 96. How do you approach strategic planning for a fast-growing organization?
+## 97. How do you build trust with team members at all levels?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 97. How do you balance short-term operational needs with long-term strategic goals?
+## 98. How do you balance being a strategic advisor vs. an operational executor?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 98. Describe your experience managing special projects or strategic initiatives.
+## 99. How do you approach strategic planning for a fast-growing organization?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Strategic Planning
+**Roles:** Chief of Staff
 
 ---
 
-## 99. What's your process for preparing the CEO for important meetings or presentations?
+## 100. How do you balance short-term operational needs with long-term strategic goals?
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Communication
+**Roles:** Chief of Staff
 
 ---
 
-## 100. How would you handle a situation where two executives have conflicting priorities?
+## 101. Describe your experience managing special projects or strategic initiatives.
 
-**Appears in 1 role(s):** Chief of Staff
-**Categories:** Problem Solving
+**Roles:** Chief of Staff
 
 ---
 
-## 101. How long would 100 cars stopped at a traffic light take to all pass the light?
+## 102. What's your process for preparing the CEO for important meetings or presentations?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** Chief of Staff
 
 ---
 
-## 102. Design a strategy for Google to enter the TV business.
+## 103. How long would 100 cars stopped at a traffic light take to all pass the light?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis, Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 103. How did you scale a local strategy to a global one, and what changed in your approach?
+## 104. Design a strategy for Google to enter the TV business.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 104. What sort of people do you dislike working with?
+## 105. How did you scale a local strategy to a global one, and what changed in your approach?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 105. How do you communicate technical project needs to non-technical teams?
+## 106. What sort of people do you dislike working with?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 106. What is the most impressive thing you have done?
+## 107. How do you communicate technical project needs to non-technical teams?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 107. Explain DoorDash's business model.
+## 108. What is the most impressive thing you have done?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis, Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 108. What might be two macroeconomic trends impacting Uber Eats supply or demand in the near future?
+## 109. Explain DoorDash's business model.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 109. Tell me about a complex project you managed where there was a lot of pressure to deliver.
+## 110. What might be two macroeconomic trends impacting Uber Eats supply or demand in the near future?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 110. If the US government legalized marijuana, estimate the impact on consumption.
+## 111. Tell me about a complex project you managed where there was a lot of pressure to deliver.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 111. How do you mitigate risk on high-visibility projects?
+## 112. If the US government legalized marijuana, estimate the impact on consumption.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 112. Do you have experience managing a team?
+## 113. How do you mitigate risk on high-visibility projects?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 113. What Google products would you deprecate or exit?
+## 114. Do you have experience managing a team?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 114. How do you know that you are getting the right level of resources for your organization?
+## 115. What Google products would you deprecate or exit?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 115. Tell me about an idea you came up with and followed through to implementation.
+## 116. How do you know that you are getting the right level of resources for your organization?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 116. As part of the Udemy product team, write 2 to 3 agile user stories for a new feature allowing learners to submit and view short videos under 2 minutes in courses.
+## 117. As part of the Udemy product team, write 2 to 3 agile user stories for a new feature allowing learners to submit and view short videos under 2 minutes in courses.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 117. What factors would you consider when planning a strategy for a new feature for contractors and freelancers?
+## 118. What factors would you consider when planning a strategy for a new feature for contractors and freelancers?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 118. What got you interested in technology?
+## 119. What got you interested in technology?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 119. How do you explain difficult technical concepts to layman?
+## 120. How do you explain difficult technical concepts to layman?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 120. What does grit mean to you?
+## 121. What does grit mean to you?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 121. How did your last project end?
+## 122. How did your last project end?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 122. How does the automotive category fit into TikTok Shop’s overall ecosystem, and what are the key risks in developing this category?
+## 123. How does the automotive category fit into TikTok Shop’s overall ecosystem, and what are the key risks in developing this category?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 123. Tell me about your analytical skills.
+## 124. Tell me about your analytical skills.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 124. What other areas could Lemonade expand into?
+## 125. What other areas could Lemonade expand into?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 125. What do you do in your free time?
+## 126. What do you do in your free time?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 126. What does strategy mean to you?
+## 127. What does strategy mean to you?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 127. Create a simple model to forecast our headcount needs for the next 12-weeks as we scale up.
+## 128. Create a simple model to forecast our headcount needs for the next 12-weeks as we scale up.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 128. How does OpenTable make money?
+## 129. How does OpenTable make money?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 129. What are the most important industry trends right now? What strategy would you pursue if you were leading Voodoo in the next 5 years?
+## 130. What are the most important industry trends right now? What strategy would you pursue if you were leading Voodoo in the next 5 years?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis, Strategy
+**Roles:** BizOps Strategy
 
 ---
 
-## 130. How can TikTok double its revenue next year? What percentage of the new revenue should be derived from existing advertisers versus new advertisers?
+## 131. How can TikTok double its revenue next year? What percentage of the new revenue should be derived from existing advertisers versus new advertisers?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 131. What advice would you give to a new restaurant looking to increase revenue?
+## 132. What advice would you give to a new restaurant looking to increase revenue?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical, Business Analysis, Process Improvement
+**Roles:** BizOps Strategy
 
 ---
 
-## 132. What are your current KPIs? How do you ensure you meet them?
+## 133. What are your current KPIs? How do you ensure you meet them?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 133. Where would you invest additional budget to drive growth for DoorDash?
+## 134. Where would you invest additional budget to drive growth for DoorDash?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis, Financial Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 134. Do you believe in holding high ethical standards when conducting business or making decisions?
+## 135. Do you believe in holding high ethical standards when conducting business or making decisions?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 135. If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?
+## 136. If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Business Analysis, Data Analysis
-
----
-
-## 136. Tell me about a time you used data to diagnose and solve a problem.
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
 ## 137. Tell me about a time in your career when you faced ambiguity.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
-## 138. How do you handle conflicting priorities and tight deadlines?
+## 138. Tell me about a time you worked on a data-intensive project.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
-
----
-
-## 139. Tell me about a time you worked on a data-intensive project.
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
-## 140. Tell me about a time when you had a hypothesis that turned out to be wrong.
+## 139. Tell me about a time when you had a hypothesis that turned out to be wrong.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
-
----
-
-## 141. Tell me about a time when you had to be assertive when communicating with a client or team member.
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
-## 142. Tell me about a time when you led a team to achieve a goal.
+## 140. Tell me about a time when you had to be assertive when communicating with a client or team member.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
-
----
-
-## 143. Tell me about a time where you ideated and launched a strategy from scratch.
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
-## 144. Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?
+## 141. Tell me about a time where you ideated and launched a strategy from scratch.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
-
----
-
-## 145. Tell me about a time when you welcomed new ways of thinking (Include and Empower core value).
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Behavioral
+**Roles:** BizOps Strategy
 
 ---
 
-## 146. Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.
+## 142. Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Data Analysis, SQL
-
----
-
-## 147. What metric would you want to know about Instacart, and how would you find the data to answer that?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Data Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 148. Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.
+## 143. Tell me about a time when you welcomed new ways of thinking (Include and Empower core value).
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Data Analysis, SQL
-
----
-
-## 149. How do you handle working with ambiguous data?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Data Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 150. Tell me about a project when you had to translate data into insights for the team/client you were working with.
+## 144. Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Data Analysis
-
----
-
-## 151. Why is Google well positioned for emerging markets?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical, Market Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 152. You're on the BizOps team at Uber. What factors would you consider when selecting cities to introduce ridesharing in an emerging market?
+## 145. What metric would you want to know about Instacart, and how would you find the data to answer that?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis
-
----
-
-## 153. What factors would you look at when deciding whether to launch into a market?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 154. If you had $1M to allocate to grow market share in the city, what would you focus on?
+## 146. Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis
-
----
-
-## 155. If you launched in a new market today and none of your drivers showed up, what would you do?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis
+**Roles:** BizOps Strategy
 
 ---
 
-## 156. Within the Blockchain Industry, where do you think Stablecoins have the most potential?
+## 147. How do you handle working with ambiguous data?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Market Analysis
-
----
-
-## 157. How would you deal with an increased customer sensitivity to cost?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical, Financial Analysis, Process Improvement
+**Roles:** BizOps Strategy
 
 ---
 
-## 158. How would you improve the usage of Revolut's cross-border payment feature?
+## 148. Tell me about a project when you had to translate data into insights for the team/client you were working with.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
-
----
-
-## 159. How would you improve Uber?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
+**Roles:** BizOps Strategy
 
 ---
 
-## 160. How would you reduce attrition in a team/organization?
+## 149. Why is Google well positioned for emerging markets?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
-
----
-
-## 161. What is the most important part of the flywheel and what happens if the supply of one increases?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical, Process Improvement
+**Roles:** BizOps Strategy
 
 ---
 
-## 162. Tell us about a time when you received feedback that helped you improve.
+## 150. You're on the BizOps team at Uber. What factors would you consider when selecting cities to introduce ridesharing in an emerging market?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
-
----
-
-## 163. How would you boost retention for DashPass?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
+**Roles:** BizOps Strategy
 
 ---
 
-## 164. How would you reduce the number of customer support tickets from users on our rideshare app?
+## 151. What factors would you look at when deciding whether to launch into a market?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Process Improvement
-
----
-
-## 165. What approach would you take to convince senior stakeholders?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving, Stakeholder Management
+**Roles:** BizOps Strategy
 
 ---
 
-## 166. You need 1000 conversions by next week. What would you do?
+## 152. If you had $1M to allocate to grow market share in the city, what would you focus on?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 167. How would you get more drivers to use the red food bag provided by DoorDash over a weekend?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
+**Roles:** BizOps Strategy
 
 ---
 
-## 168. What type of culture are you looking for, and how would you help build it here?
+## 153. If you launched in a new market today and none of your drivers showed up, what would you do?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 169. How would you organize multiple projects that must be delivered on specified dates?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
+**Roles:** BizOps Strategy
 
 ---
 
-## 170. What would you do if a competitor launched a product before you?
+## 154. Within the Blockchain Industry, where do you think Stablecoins have the most potential?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 171. How would you incentivize more driver presence?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
+**Roles:** BizOps Strategy
 
 ---
 
-## 172. How would you distribute sales reps across the country?
+## 155. How would you deal with an increased customer sensitivity to cost?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 173. How would you address a late delivery by a supplier?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
+**Roles:** BizOps Strategy
 
 ---
 
-## 174. How would you transport 10 kids to school within a limited timeframe?
+## 156. How would you improve the usage of Revolut's cross-border payment feature?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 175. How would you scale riders in a new location?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
+**Roles:** BizOps Strategy
 
 ---
 
-## 176. How would you prepare for and conduct a final presentation for a client?
+## 157. How would you improve Uber?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Problem Solving
-
----
-
-## 177. Find an interesting problem that you believe Clipboard Health should solve.
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Case Study
+**Roles:** BizOps Strategy
 
 ---
 
-## 178. Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?
+## 158. How would you reduce attrition in a team/organization?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Case Study
-
----
-
-## 179. How would you investigate the 10% of inactive Netflix users?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical
+**Roles:** BizOps Strategy
 
 ---
 
-## 180. If customer support tickets are increasing, how would you investigate and solve this issue?
+## 159. What is the most important part of the flywheel and what happens if the supply of one increases?
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical
-
----
-
-## 181. Why are you leaving consulting?
-
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** Analytical
+**Roles:** BizOps Strategy
 
 ---
 
-## 182. Design a group chat application.
+## 160. Tell us about a time when you received feedback that helped you improve.
 
-**Appears in 1 role(s):** BizOps Strategy
-**Categories:** System Design
+**Roles:** BizOps Strategy
+
+---
+
+## 161. How would you boost retention for DashPass?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 162. How would you reduce the number of customer support tickets from users on our rideshare app?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 163. What approach would you take to convince senior stakeholders?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 164. You need 1000 conversions by next week. What would you do?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 165. How would you get more drivers to use the red food bag provided by DoorDash over a weekend?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 166. What type of culture are you looking for, and how would you help build it here?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 167. How would you organize multiple projects that must be delivered on specified dates?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 168. What would you do if a competitor launched a product before you?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 169. How would you incentivize more driver presence?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 170. How would you distribute sales reps across the country?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 171. How would you address a late delivery by a supplier?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 172. How would you transport 10 kids to school within a limited timeframe?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 173. How would you scale riders in a new location?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 174. How would you prepare for and conduct a final presentation for a client?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 175. Find an interesting problem that you believe Clipboard Health should solve.
+
+**Roles:** BizOps Strategy
+
+---
+
+## 176. Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 177. How would you investigate the 10% of inactive Netflix users?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 178. If customer support tickets are increasing, how would you investigate and solve this issue?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 179. Why are you leaving consulting?
+
+**Roles:** BizOps Strategy
+
+---
+
+## 180. Design a group chat application.
+
+**Roles:** BizOps Strategy
 
 ---
