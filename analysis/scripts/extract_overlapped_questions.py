@@ -205,7 +205,12 @@ def main():
             output.append(f"#### {role} ({len(questions)} questions)")
             output.append("")
             for j, question in enumerate(questions, 1):
-                output.append(f"{j}. {question}")
+                # Extract just the question text if it's a dict
+                if isinstance(question, dict):
+                    q_text = question.get('question', str(question))
+                else:
+                    q_text = question
+                output.append(f"{j}. {q_text}")
             output.append("")
         
         output.append("")
