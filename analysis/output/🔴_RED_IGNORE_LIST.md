@@ -69,6 +69,8 @@ General Problem Framework
 📊 Total Questions: 465
 🎯 Roles: Data Analyst, Product Manager
 
+📄 **[VIEW ALL 465 QUESTIONS →](ANALYTICAL_FULL_465.md)**
+
 ❌ Why skip:
 Not aligned with your top 3 target roles (Chief of Staff, BizOps Strategy, Data Engineer). Low ROI for your interview prep.
 
