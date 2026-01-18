@@ -93,8 +93,9 @@ def tag_question_bank(role_name, role_dir):
     with open(qb_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Find all category sections
-    category_pattern = r'(={80}\n)([A-Z\s\-&/()]+)(\n={80})'
+    # Find all category sections (with or without existing tags)
+    # This pattern matches category names that may already have tags
+    category_pattern = r'(={80}\n)([A-Z\s\-&/()]+?)(?:\s+(?:💗|🟢|🔴|🟠|🟡|⚪|⚠️).*?)?(\n={80})'
     
     def add_tag(match):
         separator1 = match.group(1)
@@ -109,7 +110,7 @@ def tag_question_bank(role_name, role_dir):
         
         return f"{separator1}{tagged_name}{separator2}"
     
-    # Add tags to categories
+    # Add tags to categories (replacing any existing tags)
     tagged_content = re.sub(category_pattern, add_tag, content)
     
     # Save tagged version

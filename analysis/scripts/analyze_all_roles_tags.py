@@ -30,12 +30,18 @@ def analyze_role_tags(role_dir):
     }
     
     # Find all category headers with tags
-    category_pattern = r'={80}\n([A-Z\s\-&/()]+)\s+(💗|🟢|🔴|🟠|🟡|⚪|⚠️.*?)\n={80}\n\n📊 Total Questions:\s*(\d+)'
+    # Pattern handles multiple formats:
+    # - "📊 Total Questions: 55"
+    # - "📊 **Total Questions**: 55"
+    # - "Total Questions: 101 across 13 categories"
+    # - "Total Questions: 1,710" (with commas)
+    category_pattern = r'={80}\n([A-Z\s\-&/()]+)\s+(💗|🟢|🔴|🟠|🟡|⚪|⚠️.*?)\n={80}\n\n📊\s+\*?\*?Total Questions\*?\*?:\s*([\d,]+)'
     
     for match in re.finditer(category_pattern, content):
         category = match.group(1).strip()
         tag = match.group(2).strip()
-        question_count = int(match.group(3))
+        question_count_str = match.group(3).replace(',', '')
+        question_count = int(question_count_str)
         
         # Get base tag (handle "⚠️ SKIP" format)
         base_tag = tag.split()[0] if ' ' in tag else tag
@@ -43,9 +49,28 @@ def analyze_role_tags(role_dir):
         if base_tag in tags:
             tags[base_tag] += question_count
     
-    # Get total questions
-    total_match = re.search(r'Total Questions:\s*(\d+)', content)
-    total_questions = int(total_match.group(1)) if total_match else sum(tags.values())
+    # Get total questions (handle multiple formats, including commas like "1,710")
+    total_match = re.search(r'\*?\*?Total Questions?\*?\*?:\s*([\d,]+)', content)
+    if total_match:
+        total_str = total_match.group(1).replace(',', '')
+        total_questions = int(total_str)
+    else:
+        total_questions = sum(tags.values())
+    
+    # If no categories found but file has content, try alternate format
+    if sum(tags.values()) == 0 and len(content) > 1000:
+        # Try without the 📊 emoji
+        alt_pattern = r'={80}\n([A-Z\s\-&/()]+)\s+(💗|🟢|🔴|🟠|🟡|⚪|⚠️.*?)\n={80}'
+        for match in re.finditer(alt_pattern, content):
+            # Find the question count after this category
+            category_end = match.end()
+            next_section = content[category_end:category_end+500]
+            count_match = re.search(r'\*?\*?Total Questions?\*?\*?:\s*([\d,]+)', next_section)
+            if count_match:
+                tag = match.group(2).strip().split()[0]
+                if tag in tags:
+                    count_str = count_match.group(1).replace(',', '')
+                    tags[tag] += int(count_str)
     
     return {
         'tags': tags,

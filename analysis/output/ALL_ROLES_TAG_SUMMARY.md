@@ -9,21 +9,21 @@ Use this to decide which roles to apply to first!
 
 ROLE                                TOTAL │    💗    🟢    🔴    🟠   ⚠️ │  READY
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+🎯 Finance Strategy                     3 │    3    3    0    0    0 │   200%
+🎯 Chief Of Staff                       2 │    2    0    0    0    0 │   100%
+🎯 Growth Marketing Manager             2 │    2    0    0    0    0 │   100%
 🎯 Bizops Strategy                    115 │   77   10    0    0    0 │    76%
 🟡 Data Scientist                     173 │  106    0    0    0   13 │    61%
+🟡 Product Analyst                    101 │   55    0    0    0    0 │    54%
+   Program Manager                     21 │   10    0    0    0    0 │    48%
    Business Analyst                   110 │   38    6    0    0    0 │    40%
+   Software Engineer                  575 │  230    0    0    0  204 │    40%
+   Product Marketing Manager            3 │    1    0    0    0    0 │    33%
    Data Analyst                       118 │   36    0    0    0   23 │    31%
+   Technical Program Manager          189 │   57    0    0    0    0 │    30%
    Data Engineer                      180 │   43    0   50   20   24 │    24%
    Ml Engineer                        273 │   24    0    0    0  159 │     9%
-   Chief Of Staff                       0 │    0    0    0    0    0 │     0%
-   Finance Strategy                     0 │    0    0    0    0    0 │     0%
-   Growth Marketing Manager             0 │    0    0    0    0    0 │     0%
-   Product Analyst                    101 │    0    0    0    0    0 │     0%
-   Product Manager                      1 │    0    0    0    0    0 │     0%
-   Product Marketing Manager            0 │    0    0    0    0    0 │     0%
-   Program Manager                     21 │    0    0    0    0    0 │     0%
-   Software Engineer                  575 │    0    0    0    0  204 │     0%
-   Technical Program Manager          189 │    0    0    0    0    0 │     0%
+   Product Manager                   1710 │  117    0    0    0    0 │     7%
 
 ====================================================================================================
 LEGEND:
