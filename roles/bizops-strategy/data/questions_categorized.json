@@ -42,7 +42,7 @@
   {
     "question": "How do you prioritize tasks?",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
     "page": 1
@@ -82,7 +82,7 @@
   {
     "question": "Tell me about how you brought a product to market.",
     "categories": [
-      "Market Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/755/bringing-product-to-market",
     "page": 1
@@ -223,7 +223,7 @@
   {
     "question": "How do you communicate technical project needs to non-technical teams?",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1514/communicating-technical-needs-non-technical",
     "page": 2
@@ -247,7 +247,7 @@
   {
     "question": "Tell me about a recent program you worked on.",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/925/recent-program-worked-on",
     "page": 2
@@ -272,7 +272,7 @@
   {
     "question": "Tell me about a complex project you managed where there was a lot of pressure to deliver.",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4995/high-pressure-complex-project",
     "page": 2
@@ -304,7 +304,7 @@
   {
     "question": "How do you mitigate risk on high-visibility projects?",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2221/mitigate-risk-high-visibility-projects",
     "page": 2
@@ -320,7 +320,7 @@
   {
     "question": "You're on the BizOps team at Uber. What factors would you consider when selecting cities to introduce ridesharing in an emerging market?",
     "categories": [
-      "Market Analysis"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2218/uber-bizops-selecting-cities-factors",
     "page": 2
@@ -360,7 +360,6 @@
   {
     "question": "Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.",
     "categories": [
-      "Data Analysis",
       "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2219/sql-query-sum-rides-deliveries-zipcode",
@@ -395,7 +394,7 @@
   {
     "question": "How do you know that you are getting the right level of resources for your organization?",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5032/assess-resources-required",
     "page": 3
@@ -444,7 +443,7 @@
   {
     "question": "Tell me about an idea you came up with and followed through to implementation.",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4993/idea-to-implementation",
     "page": 3
@@ -468,7 +467,7 @@
   {
     "question": "What are your current KPIs? How do you ensure you meet them?",
     "categories": [
-      "Business Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5000/how-you-meet-current-kpis",
     "page": 3
@@ -589,7 +588,7 @@
   {
     "question": "What would you do if a competitor launched a product before you?",
     "categories": [
-      "Problem Solving"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5030/competitor-launches-product-first",
     "page": 4
@@ -605,7 +604,6 @@
   {
     "question": "Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.",
     "categories": [
-      "Data Analysis",
       "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2220/sql-query-least-efficient-driver",
@@ -648,7 +646,7 @@
   {
     "question": "How do you explain difficult technical concepts to layman?",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5033/explain-technical-concepts-to-layman",
     "page": 4
@@ -688,7 +686,7 @@
   {
     "question": "How do you handle working with ambiguous data?",
     "categories": [
-      "Data Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4998/working-with-ambiguous-data",
     "page": 5
@@ -712,7 +710,7 @@
   {
     "question": "Tell me about your analytical skills.",
     "categories": [
-      "Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5012/tell-me-about-your-analytical-skills",
     "page": 5
@@ -777,7 +775,7 @@
   {
     "question": "Tell me about a project when you had to translate data into insights for the team/client you were working with.",
     "categories": [
-      "Data Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5023/translate-data-to-insights",
     "page": 5

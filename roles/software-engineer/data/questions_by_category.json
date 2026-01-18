@@ -1,412 +1,1010 @@
 {
-  "Data Structures & Algorithms": [
+  "Problem Solving": [
     {
-      "question": "Given a sorted array of integers (which may include negatives), return the squares of the numbers in sorted order. As a follow-up, find the k-th smallest squared value.",
-      "url": "https://www.tryexponent.com/questions/5802/squares-of-sorted-array-with-follow-up"
+      "question": "+ Share interview",
+      "url": "https://www.tryexponent.com/questions/contribute"
     },
     {
-      "question": "Reverse a linked list.",
-      "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list"
+      "question": "Share interview",
+      "url": "https://www.tryexponent.com/questions/contribute"
     },
     {
-      "question": "Given an array of integers and a number N, find the length of the longest contiguous subarray such that the difference between any two elements in the subarray is less than N.",
-      "url": "https://www.tryexponent.com/questions/5803/longest-contiguous-subarray-with-absolute-difference-less-than-limit"
+      "question": "I was asked this",
+      "url": "https://www.tryexponent.com/questions/contribute?basedOn=5898"
     },
     {
-      "question": "Reorder linked list.",
-      "url": "https://www.tryexponent.com/questions/5703/reorder-linked-list"
+      "question": "Design Google Docs.",
+      "url": "https://www.tryexponent.com/questions/5799/design-google-docs"
     },
     {
-      "question": "Find the longest common prefix given two integer arrays.",
-      "url": "https://www.tryexponent.com/questions/5639/longest-common-prefix"
+      "question": "+ Share interview experience",
+      "url": "https://www.tryexponent.com/questions/contribute"
     },
     {
-      "question": "Given an array of numbers where every number occurs twice except one, how would you find the unique number in O(log n) time?",
-      "url": "https://www.tryexponent.com/questions/3804/find-unique-number-array-logn-time"
+      "question": "Design Robinhood.",
+      "url": "https://www.tryexponent.com/questions/5804/design-robinhood"
     },
     {
-      "question": "Find peak element in an array",
-      "url": "https://www.tryexponent.com/questions/5582/find-peak-element"
+      "question": "Maximum Number of Visible Points",
+      "url": "https://www.tryexponent.com/questions/5627/maximum-number-of-visible-points"
     },
     {
-      "question": "Find the first missing positive number in an array.",
-      "url": "https://www.tryexponent.com/questions/4163/find-missing-positive-number-array"
+      "question": "What Gen AI skills do you think will be critical in the next year?",
+      "url": "https://www.tryexponent.com/questions/5683/future-gen-ai-skills"
     },
     {
-      "question": "Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.",
-      "url": "https://www.tryexponent.com/questions/4213/sum-elements-binary-tree-range"
+      "question": "If you had to work on five different projects, how would you prioritize them?",
+      "url": "https://www.tryexponent.com/questions/947/prioritize-five-different-projects"
     },
     {
-      "question": "Given a binary tree, check if each node is the average of all descendants",
-      "url": "https://www.tryexponent.com/questions/5571/binary-tree-check-node-average-of-descendants"
+      "question": "How would you approach learning about a task that you're completely unfamiliar with?",
+      "url": "https://www.tryexponent.com/questions/5046/approach-learning-unfamiliar-task"
     },
     {
-      "question": "Lexicographic Grid Travel.",
-      "url": "https://www.tryexponent.com/questions/5567/lexicographic-grid-travel"
+      "question": "What's your approach to prompt engineering?",
+      "url": "https://www.tryexponent.com/questions/5603/prompt-engineering-approach"
     },
     {
-      "question": "Print the top view of nodes in a binary tree.",
-      "url": "https://www.tryexponent.com/questions/5570/top-view-nodes-binary-tree"
+      "question": "Redesign the airport experience.",
+      "url": "https://www.tryexponent.com/questions/53/redesign-airport-experience"
     },
     {
-      "question": "Given an array of integers, return the pairs with the minimum absolute difference between them.",
-      "url": "https://www.tryexponent.com/questions/5443/coding-array-pairs-minimum-difference"
+      "question": "Design browser history.",
+      "url": "https://www.tryexponent.com/questions/4681/design-browser-history"
     },
     {
-      "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
-      "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k"
+      "question": "What are the ethical risks of deploying agentic AI systems in high-stakes environments?",
+      "url": "https://www.tryexponent.com/questions/5605/agentic-ai-systems-ethical-risk"
     },
     {
-      "question": "Explain how to find a target sum in an array.",
-      "url": "https://www.tryexponent.com/questions/1439/find-target-sum-array"
+      "question": "Design Weather App",
+      "url": "https://www.tryexponent.com/questions/4315/design-weather-app"
     },
     {
-      "question": "Write a function that converts stack samples into a trace, given example inputs and outputs, in a Google Colab environment.",
-      "url": "https://www.tryexponent.com/questions/5789/convert-stack-samples-to-trace"
+      "question": "How would you explain a technical concept to a non-technical person?",
+      "url": "https://www.tryexponent.com/questions/4913/explain-technical-concept"
     },
     {
-      "question": "Given a head node of a linked list, delete k-th node from the end of the list.",
-      "url": "https://www.tryexponent.com/questions/4847/remove-kth-node-linked-list"
+      "question": "Design typeahead autocomplete for person search in Linkedin.",
+      "url": "https://www.tryexponent.com/questions/5405/system-design-linkedin-people-search-typeahead"
     },
     {
-      "question": "Given an array of points and a point P, find the k closest points to P.",
-      "url": "https://www.tryexponent.com/questions/4289/find-k-closest-points-array"
+      "question": "Write a program that scans the file system to identify and report duplicate files, handling real files, extensions, and file reading operations.",
+      "url": "https://www.tryexponent.com/questions/5790/find-duplicate-files"
     },
     {
-      "question": "Design a system to map IP address ranges to geographic region labels.",
-      "url": "https://www.tryexponent.com/questions/5424/system-design-map-ip-address-geographic"
+      "question": "What are the risks of assuming LLMs think or feel like humans?",
+      "url": "https://www.tryexponent.com/questions/5600/anthropomorphizing-llms-risks"
     },
     {
-      "question": "Move all zeros to the end of an array.",
-      "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array"
+      "question": "Why is a deep neural network better than a shallow neural network?",
+      "url": "https://www.tryexponent.com/questions/4043/deep-vs-shallow-neural-network"
     },
     {
-      "question": "Given an array of integers, find the next greater integer for each element in the array.",
-      "url": "https://www.tryexponent.com/questions/5428/array-next-greater-integer"
+      "question": "Design the OpenAI Playground.",
+      "url": "https://www.tryexponent.com/questions/5827/design-openai-playground"
     },
     {
-      "question": "Given an array with objects colored red, white, or blue, sort them so those of the same color are adjacent. Use integers 0, 1, 2 to represent RWB respectively.",
-      "url": "https://www.tryexponent.com/questions/4891/find-colors-leetcode"
+      "question": "What are your strengths and weaknesses?",
+      "url": "https://www.tryexponent.com/questions/1348/strengths-weaknesses"
     },
     {
-      "question": "Implement inorder traversal for an N-ary tree.",
-      "url": "https://www.tryexponent.com/questions/4697/n-ary-inorder-traversal"
+      "question": "Have you gone out of your way to uphold some value or principle?",
+      "url": "https://www.tryexponent.com/questions/5796/upholding-values"
     },
     {
-      "question": "Detect cycle in graph",
-      "url": "https://www.tryexponent.com/questions/5464/detect-cycle-in-graph"
+      "question": "Course Schedule",
+      "url": "https://www.tryexponent.com/questions/3313/course-schedule"
     },
     {
-      "question": "Product of Array Except Self",
-      "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i"
+      "question": "Design Dropbox.",
+      "url": "https://www.tryexponent.com/questions/1542/design-dropbox"
     },
     {
-      "question": "Sort a nearly sorted (or K sorted) array.",
-      "url": "https://www.tryexponent.com/questions/5392/k-sorted-array"
+      "question": "Design live commenting for Facebook.",
+      "url": "https://www.tryexponent.com/questions/3822/design-live-commenting-facebook"
     },
     {
-      "question": "Delete Node in a Binary Search Tree (BST).",
-      "url": "https://www.tryexponent.com/questions/5156/delete-node-binary-search-tree"
+      "question": "Do you have any critique or concerns about Anthropic's approach or direction?",
+      "url": "https://www.tryexponent.com/questions/5793/critique-anthropic-direction"
     },
     {
-      "question": "Merge two sorted linked list",
-      "url": "https://www.tryexponent.com/questions/5566/merge-two-sorted-linked-list"
+      "question": "Build your own customer service AI agent\u00a0for a hypothetical outdoors company.",
+      "url": "https://www.tryexponent.com/questions/5876/build-customer-service-ai-agent-for-outdoors-company"
     },
     {
-      "question": "Given the root of a binary tree, return the length of the diameter of the tree.",
-      "url": "https://www.tryexponent.com/questions/2705/binary-tree-diameter-length"
+      "question": "Design Ticketmaster",
+      "url": "https://www.tryexponent.com/questions/4318/design-ticketmaster"
     },
     {
-      "question": "Explain the differences between stack and heap memory allocation.",
-      "url": "https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences"
+      "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
+      "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock"
     },
     {
-      "question": "Find the median of two sorted arrays.",
-      "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays"
+      "question": "You're the PM of Google Doodles. What would your top three metrics be and why?",
+      "url": "https://www.tryexponent.com/questions/2714/google-doodles-pm-top-metrics"
     },
     {
-      "question": "Clone a linked list with a random pointer.",
-      "url": "https://www.tryexponent.com/questions/5060/clone-linked-list-with-random-pointer"
+      "question": "Design Google Drive.",
+      "url": "https://www.tryexponent.com/questions/3251/design-google-drive"
     },
     {
-      "question": "Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...",
-      "url": "https://www.tryexponent.com/questions/4817/optimize-parentheses-sequence-efficiency"
+      "question": "Degrees of Friendship",
+      "url": "https://www.tryexponent.com/questions/3628/degrees-of-friendship"
     },
     {
-      "question": "Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.",
-      "url": "https://www.tryexponent.com/questions/5429/find-equilibrium-index-in-array"
+      "question": "Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?",
+      "url": "https://www.tryexponent.com/questions/5772/airline-rescheduling-design"
     },
     {
-      "question": "Find a triplet in an array with a given sum.",
-      "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum"
+      "question": "Design the 'Top Picks' feature for Netflix.",
+      "url": "https://www.tryexponent.com/questions/3436/design-netflix-top-picks-feature"
     },
     {
-      "question": "Given an array, find the two sum.",
-      "url": "https://www.tryexponent.com/questions/1164/find-two-sum"
+      "question": "Has there been work that felt genuinely meaningful to you?",
+      "url": "https://www.tryexponent.com/questions/5797/meaningful-work"
     },
     {
-      "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
-      "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection"
+      "question": "Koko eating bananas.",
+      "url": "https://www.tryexponent.com/questions/3261/koko-eating-bananas"
     },
     {
-      "question": "Linked List Cycle",
-      "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle"
+      "question": "What evidence shows Anthropic's sincerity about their mission?",
+      "url": "https://www.tryexponent.com/questions/5792/evidence-for-anthropic-mission"
     },
     {
-      "question": "Implement a decode and encode function of a general N-ary tree.",
-      "url": "https://www.tryexponent.com/questions/4516/decode-encode-function-general-tree"
+      "question": "What parts of OpenAI's mission statement resonate with you?",
+      "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement"
     },
     {
-      "question": "Given the root of a binary tree of integers, return the maximum path sum.",
-      "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum"
+      "question": "Rotating the Box",
+      "url": "https://www.tryexponent.com/questions/4679/rotating-the-box"
     },
     {
-      "question": "Given an array of integers and an integer k, find the kth largest element in the array.",
-      "url": "https://www.tryexponent.com/questions/4673/coding-interview-find-kth-largest-element-array"
+      "question": "Why should we hire you?",
+      "url": "https://www.tryexponent.com/questions/954/why-should-we-hire-you"
     },
     {
-      "question": "Vertical Traversal of a Binary Tree",
-      "url": "https://www.tryexponent.com/questions/5462/vertical-traversal-of-a-binary-tree"
+      "question": "How would you choose a programming language to build your product at Google?",
+      "url": "https://www.tryexponent.com/questions/232/google-pm-programming-language"
     },
     {
-      "question": "Count items within compartments between specific indices of an array.",
-      "url": "https://www.tryexponent.com/questions/4221/count-items-compartments-indices"
+      "question": "Generate Parentheses",
+      "url": "https://www.tryexponent.com/questions/1594/generate-parentheses"
     },
     {
-      "question": "Sort a binary array in linear time.",
-      "url": "https://www.tryexponent.com/questions/971/sort-binary-array-linear-time"
+      "question": "Build a Calculator",
+      "url": "https://www.tryexponent.com/questions/3632/calculator"
     },
     {
-      "question": "Construct a binary tree given its preorder and inorder traversals.",
-      "url": "https://www.tryexponent.com/questions/3417/construct-binary-tree-preorder-inorder-traversal"
+      "question": "What are you most proud of in your career?",
+      "url": "https://www.tryexponent.com/questions/447/career-highlights-proud-moments"
     },
     {
-      "question": "Merge k sorted linked lists.",
-      "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists"
+      "question": "Would you do things based on your values or for profitability?",
+      "url": "https://www.tryexponent.com/questions/5810/values-vs-profitability"
     },
     {
-      "question": "Find the closest number in a sorted array.",
-      "url": "https://www.tryexponent.com/questions/3266/closest-number-sorted-array"
+      "question": "Why did you leave your last role?",
+      "url": "https://www.tryexponent.com/questions/2845/why-leave-last-role"
     },
     {
-      "question": "Search in rotated sorted array",
-      "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array"
+      "question": "Design type-ahead search for walmart.com.",
+      "url": "https://www.tryexponent.com/questions/5272/system-design-walmart-typeahead-search"
     },
     {
-      "question": "Build a hash tree algorithm.",
-      "url": "https://www.tryexponent.com/questions/5839/build-hash-tree-algorithm"
+      "question": "What's the hardest engineering challenge you've ever solved?",
+      "url": "https://www.tryexponent.com/questions/5054/hardest-engineering-challenge"
     },
     {
-      "question": "Find the maximum subarray sum.",
-      "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum"
+      "question": "Count the number of ways to split a string.",
+      "url": "https://www.tryexponent.com/questions/3256/count-ways-to-split-string"
     },
     {
-      "question": "Squares of sorted array",
-      "url": "https://www.tryexponent.com/questions/3824/square-of-sorted-array"
+      "question": "Determine if two sentences are similar.",
+      "url": "https://www.tryexponent.com/questions/2280/determine-similar-sentences"
     },
     {
-      "question": "Find the number of rotations in a circularly sorted array.",
-      "url": "https://www.tryexponent.com/questions/1139/find-number-of-rotations-circularly-sorted-array"
+      "question": "Roman to Integer",
+      "url": "https://www.tryexponent.com/questions/4680/roman-to-integer"
     },
     {
-      "question": "Print the left view of a binary tree.",
-      "url": "https://www.tryexponent.com/questions/1473/print-left-view-binary-tree"
+      "question": "Tell me a challenging situation when things went wrong and how you reacted.",
+      "url": "https://www.tryexponent.com/questions/5825/things-went-wrong-reaction"
     },
     {
-      "question": "Determine if a given binary tree is a binary search tree (BST).",
-      "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst"
+      "question": "When have you done something which was against your values?",
+      "url": "https://www.tryexponent.com/questions/5811/doing-something-against-your-values"
     },
     {
-      "question": "How can you tell if a graph is not a tree?",
-      "url": "https://www.tryexponent.com/questions/2798/determine-graph-not-tree"
+      "question": "A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.",
+      "url": "https://www.tryexponent.com/questions/2279/maximize-knapsack-value"
     },
     {
-      "question": "Partition an array into two sub-arrays with equal sum.",
-      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
+      "question": "Design the system for a ticket selling web application.",
+      "url": "https://www.tryexponent.com/questions/2112/design-ticket-selling-web-system"
     },
     {
-      "question": "Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.",
-      "url": "https://www.tryexponent.com/questions/3438/largest-island-perimeter-2d-array"
+      "question": "What are you looking for in your next opportunity?",
+      "url": "https://www.tryexponent.com/questions/536/looking-for-next-opportunity"
     },
     {
-      "question": "Given arrays of varying lengths, how would you pad them efficiently?",
-      "url": "https://www.tryexponent.com/questions/5906/array-padding"
+      "question": "What are you passionate about?",
+      "url": "https://www.tryexponent.com/questions/273/five-years-passion"
     },
     {
-      "question": "Implement a red-black tree.",
-      "url": "https://www.tryexponent.com/questions/3224/implement-red-black-tree"
+      "question": "Set Matrix Zeroes",
+      "url": "https://www.tryexponent.com/questions/4016/set-matrix-zeroes"
     },
     {
-      "question": "What's the difference between LangGraph and LangSmith?",
-      "url": "https://www.tryexponent.com/questions/5856/langgraph-vs-langsmith"
+      "question": "What is cloud gaming?",
+      "url": "https://www.tryexponent.com/questions/4601/what-is-cloud-gaming"
     },
     {
-      "question": "Implement a hashmap without using any libraries.",
-      "url": "https://www.tryexponent.com/questions/4686/design-hashmap"
+      "question": "What other companies are you interviewing at and why?",
+      "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies"
     },
     {
-      "question": "Given an array 'nums' with n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",
-      "url": "https://www.tryexponent.com/questions/4253/find-missing-number-array-range"
+      "question": "What kind of experiences have you built in your career?",
+      "url": "https://www.tryexponent.com/questions/5812/experiences-built-in-career"
     },
     {
-      "question": "Given a binary array where an operation cycles a row's elements to the left or right, return the minimum number of operations needed to create a column of 1s. If not possible, return 0.",
-      "url": "https://www.tryexponent.com/questions/4187/min-operations-binary-array-column-ones"
+      "question": "Do you believe in Anthropic's mission?",
+      "url": "https://www.tryexponent.com/questions/5809/do-you-believe-in-anthropics-mission"
     },
     {
-      "question": "Calculate the trapped rainwater between bars in a given array.",
-      "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars"
+      "question": "Is there a work process or decision strategy you strongly disliked?",
+      "url": "https://www.tryexponent.com/questions/5795/work-process-you-disliked"
     },
     {
-      "question": "Why use a message queue?",
-      "url": "https://www.tryexponent.com/questions/3223/why-use-message-queue"
+      "question": "Design Naukri, a job search platform.",
+      "url": "https://www.tryexponent.com/questions/3315/design-naukri-job-search-platform"
     },
     {
-      "question": "Implement a search algorithm for multiple records using backtracking.",
-      "url": "https://www.tryexponent.com/questions/4304/search-multiple-records-backtracking"
+      "question": "Validate a numeronym.",
+      "url": "https://www.tryexponent.com/questions/1853/validate-numeronym"
     },
     {
-      "question": "Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.",
-      "url": "https://www.tryexponent.com/questions/4416/binary-tree-vertical-order-traversal"
+      "question": "What are virtual functions?",
+      "url": "https://www.tryexponent.com/questions/4622/what-are-virtual-functions"
     },
     {
-      "question": "Given an array of n integers and a number k, find the maximum number of elements whose sum is less than k, and return their sum.",
-      "url": "https://www.tryexponent.com/questions/4638/max-elements-sum-less-than-k"
+      "question": "What\u2019s the difference between the Kubernetes control plane and data plane?",
+      "url": "https://www.tryexponent.com/questions/5481/kubernetes-control-plane-vs-data-plane"
     },
     {
-      "question": "What is a full-stack developer?",
-      "url": "https://www.tryexponent.com/questions/3986/what-is-full-stack-developer"
+      "question": "What does success look like to you?",
+      "url": "https://www.tryexponent.com/questions/5117/what-does-success-look-like-to-you"
     },
     {
-      "question": "Find the shortest path in a graph.",
-      "url": "https://www.tryexponent.com/questions/2094/find-shortest-path-graph"
+      "question": "What part of our mission resonates the most with you?",
+      "url": "https://www.tryexponent.com/questions/5141/mission-resonate"
     },
     {
-      "question": "Transform a flat array of objects into a nested list.",
-      "url": "https://www.tryexponent.com/questions/4219/transform-flat-array-nested-list"
+      "question": "Determine a ship's capacity to ship packages in D days.",
+      "url": "https://www.tryexponent.com/questions/3250/calculate-ships-capacity-for-packages-in-days"
     },
     {
-      "question": "Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth...",
-      "url": "https://www.tryexponent.com/questions/2411/minimum-iterations-information-distribution-n-ary-tree"
+      "question": "What does your confidence level mean when building a confidence interval?",
+      "url": "https://www.tryexponent.com/questions/3721/meaning-confidence-level-confidence-interval"
     },
     {
-      "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
-      "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree"
+      "question": "Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.",
+      "url": "https://www.tryexponent.com/questions/4904/coding-water-jug-measurement-problem"
     },
     {
-      "question": "Design a queue using static memory allocation.",
-      "url": "https://www.tryexponent.com/questions/4242/design-queue-using-static-memory"
+      "question": "Minimum Absolute Difference",
+      "url": "https://www.tryexponent.com/questions/4678/minimum-absolute-difference"
     },
     {
-      "question": "How does a graphics processing unit (GPU) work?",
-      "url": "https://www.tryexponent.com/questions/4606/how-does-a-gpu-work"
+      "question": "What is a skill you have that is not listed on your resume?",
+      "url": "https://www.tryexponent.com/questions/854/skill-not-on-resume"
     },
     {
-      "question": "Find the longest palindromic subsequence using dynamic programming.",
-      "url": "https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming"
+      "question": "Determine if a number is a power of two.",
+      "url": "https://www.tryexponent.com/questions/4647/power-of-two"
     },
     {
-      "question": "Array Manipulation: Given an array, implement functions to perform add, remove, update operations and return the resulting array.",
-      "url": "https://www.tryexponent.com/questions/4951/coding-array-manipulation"
+      "question": "Design PasteBin.",
+      "url": "https://www.tryexponent.com/questions/2686/design-pastebin"
     },
     {
-      "question": "Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.",
-      "url": "https://www.tryexponent.com/questions/4939/can-jump-game-reach-last-index"
+      "question": "What does \"belong anywhere\" mean to you?",
+      "url": "https://www.tryexponent.com/questions/5135/belong-anywhere"
     },
     {
-      "question": "Given an array, print the Next Greater Element (NGE) for each element. The NGE for an element x is the first greater element on the right side of x in the array, or -1 if none exists.",
-      "url": "https://www.tryexponent.com/questions/2356/next-greater-element-array"
+      "question": "What does your day-to-day look like at your current company?",
+      "url": "https://www.tryexponent.com/questions/2395/day-to-day-activities-current-company"
     },
     {
-      "question": "Given two integers represented by two arrays, return the product of the two integers in the same array format.",
-      "url": "https://www.tryexponent.com/questions/2237/array-representation-integer-product"
+      "question": "Design the front page of a newspaper app.",
+      "url": "https://www.tryexponent.com/questions/2075/design-newspaper-app-front-page"
     },
     {
-      "question": "Explain the time complexity differences between ArrayList and LinkedList.",
-      "url": "https://www.tryexponent.com/questions/4211/time-complexity-arraylist-vs-linkedlist"
+      "question": "What's the most fun thing you did recently?",
+      "url": "https://www.tryexponent.com/questions/5149/most-fun-recently"
     },
     {
-      "question": "Explain how hash maps work.",
-      "url": "https://www.tryexponent.com/questions/4209/how-hash-map-works"
+      "question": "What are the major differences between Java and Go?",
+      "url": "https://www.tryexponent.com/questions/2850/major-differences-java-go"
     },
     {
-      "question": "Invert binary tree.",
-      "url": "https://www.tryexponent.com/questions/4737/invert-binary-tree"
+      "question": "Top k frequent elements",
+      "url": "https://www.tryexponent.com/questions/2080/top-k-frequent-elements"
     },
     {
-      "question": "Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.",
-      "url": "https://www.tryexponent.com/questions/2066/heights-buildings-sea-view-from-beach"
+      "question": "Discuss your release and branching strategy.",
+      "url": "https://www.tryexponent.com/questions/2214/release-branching-strategy-discussion"
     },
     {
-      "question": "Implement a queue using stacks.",
-      "url": "https://www.tryexponent.com/questions/4684/queue-using-stacks"
+      "question": "Why did you choose to attend [College]?",
+      "url": "https://www.tryexponent.com/questions/2397/why-choose-college"
     },
     {
-      "question": "Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...",
-      "url": "https://www.tryexponent.com/questions/2065/find-element-given-position-sorted-unsorted-array"
+      "question": "What's a memory leak and how can we avoid it?",
+      "url": "https://www.tryexponent.com/questions/4619/memory-leak"
     },
     {
-      "question": "Serialize and deserialize binary tree",
-      "url": "https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree"
+      "question": "How would you efficiently sum up a massive number of integers?",
+      "url": "https://www.tryexponent.com/questions/4212/sum-massive-number-integers"
     },
     {
-      "question": "Find the maximum subarray product",
-      "url": "https://www.tryexponent.com/questions/5170/find-the-maximum-subarray-product"
+      "question": "How open are you to adapting to changes?",
+      "url": "https://www.tryexponent.com/questions/4726/open-adapt-to-changes"
     },
     {
-      "question": "Abbreviate an array of strings.",
-      "url": "https://www.tryexponent.com/questions/3221/abbreviate-array-of-strings"
+      "question": "Print all combinations of numbers from 1 to n that sum to n.",
+      "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum"
     },
     {
-      "question": "Implement a doubly linked list.",
-      "url": "https://www.tryexponent.com/questions/3220/implement-doubly-linked-list"
+      "question": "Tell us about one of your trips.",
+      "url": "https://www.tryexponent.com/questions/5137/tell-me-about-your-trip"
     },
     {
-      "question": "Given a graph with N nodes and M edges, identify its network topology. Return 1 for Bus (linear chain), 2 for Star (one central node), 3 for Ring (circular), or -1 if none match.",
-      "url": "https://www.tryexponent.com/questions/4926/coding-identify-network-topology-graph"
+      "question": "What's your experience working with CUDA?",
+      "url": "https://www.tryexponent.com/questions/4607/cuda-experience"
     },
     {
-      "question": "Calculate the height of a binary tree.",
-      "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree"
+      "question": "How would you describe what our company does to your grandmother?",
+      "url": "https://www.tryexponent.com/questions/5145/describe-company-to-grandmother"
     },
     {
-      "question": "What are the key concepts and operations associated with trees?",
-      "url": "https://www.tryexponent.com/questions/2355/key-concepts-in-trees"
+      "question": "Solve a Rummy Deck (12-card hand).",
+      "url": "https://www.tryexponent.com/questions/3776/solve-rummy-deck-12-card-hand"
     },
     {
-      "question": "Find the minimum and maximum elements in an array using minimum comparisons.",
-      "url": "https://www.tryexponent.com/questions/1144/find-minimum-maximum-elements-array-minimum-comparisons"
+      "question": "Given a string that doesn't fit into a machine's memory, split it at each space and count the number of spaces.",
+      "url": "https://www.tryexponent.com/questions/3227/handle-large-string-split-count-spaces"
     },
     {
-      "question": "Closest Subarray Sum to Target.",
-      "url": "https://www.tryexponent.com/questions/5556/closest-subarray-sum-to-target"
+      "question": "What would you change about your time at [Current Company]?",
+      "url": "https://www.tryexponent.com/questions/2399/changes-during-tenure-current-company"
     },
     {
-      "question": "Implement a string sorting algorithm, treating digits as numbers.",
-      "url": "https://www.tryexponent.com/questions/2059/implement-string-sorting-algorithm-treating-digits-as-numbers"
+      "question": "Print all words from a dictionary that can be found on a given Boggle board.",
+      "url": "https://www.tryexponent.com/questions/2274/print-words-from-dictionary-boggle-board"
     },
     {
-      "question": "Given an unsorted array, find duplicate elements in constant time, without using inbuilt functions of python.",
-      "url": "https://www.tryexponent.com/questions/4716/unsorted-array-find-duplicates"
+      "question": "How would you create a carousel using vanilla JavaScript?",
+      "url": "https://www.tryexponent.com/questions/2077/create-carousel-vanilla-javascript"
     },
     {
-      "question": "Find the maximum product subarray in a given array.",
-      "url": "https://www.tryexponent.com/questions/1126/maximum-product-subarray"
+      "question": "Write a program to count the frequency of each character in a given text file.",
+      "url": "https://www.tryexponent.com/questions/1915/write-program-count-character-frequency-text-file"
     },
     {
-      "question": "What's your experience with 3D graphics?",
-      "url": "https://www.tryexponent.com/questions/4605/3d-graphics-experience"
+      "question": "If you could go to anywhere in the world, where would you go?",
+      "url": "https://www.tryexponent.com/questions/5136/go-where-in-the-world"
     },
     {
-      "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
-      "url": "https://www.tryexponent.com/questions/4491/candy"
+      "question": "What is your favorite Slack feature?",
+      "url": "https://www.tryexponent.com/questions/5148/favorite-slack-feature"
     },
     {
-      "question": "Implement an in-place merge of two sorted arrays.",
-      "url": "https://www.tryexponent.com/questions/1117/in-place-merge-two-sorted-arrays"
+      "question": "What's your experience working with AR and/or VR technology?",
+      "url": "https://www.tryexponent.com/questions/4603/work-experience-ar-vr"
     },
     {
-      "question": "Check if a given binary tree is a complete binary tree.",
-      "url": "https://www.tryexponent.com/questions/1154/check-complete-binary-tree"
+      "question": "What's your experience with DirectX?",
+      "url": "https://www.tryexponent.com/questions/4599/directx-experience"
+    },
+    {
+      "question": "What's your experience with ray tracing in video games?",
+      "url": "https://www.tryexponent.com/questions/4598/ray-tracing-experience"
+    },
+    {
+      "question": "Develop a custom data structure with O(1) time complexity for get() and setall() operations.",
+      "url": "https://www.tryexponent.com/questions/4058/custom-data-structure-o1-get-setall"
+    },
+    {
+      "question": "Maximum Number of Non-Overlapping Substrings",
+      "url": "https://www.tryexponent.com/questions/2419/maximum-non-overlapping-substrings"
+    },
+    {
+      "question": "What is the difference between multiprogramming, time-sharing, and multi-processing?",
+      "url": "https://www.tryexponent.com/questions/4615/multiprogramming-vs-time-sharing-vs-multi-processing"
+    },
+    {
+      "question": "What is a front-end assignment?",
+      "url": "https://www.tryexponent.com/questions/2323/front-end-assignment"
+    },
+    {
+      "question": "Create a function that accepts structured data as input, includes column names, and outputs data suited for generating a pivot table.",
+      "url": "https://www.tryexponent.com/questions/3535/create-function-structured-data-input-output-pivot-table"
+    },
+    {
+      "question": "What are the differences between RAM and ROM?",
+      "url": "https://www.tryexponent.com/questions/4617/ram-vs-rom"
+    },
+    {
+      "question": "What are the differences between single core and multicore processors?",
+      "url": "https://www.tryexponent.com/questions/4616/single-core-vs-multicore-processor"
+    }
+  ],
+  "Behavioral": [
+    {
+      "question": "Tell me about something you built end-to-end without relying on others.",
+      "url": "https://www.tryexponent.com/questions/5898/independent-project"
+    },
+    {
+      "question": "Tell me about a time when you made short-term sacrifices for long-term gains.",
+      "url": "https://www.tryexponent.com/questions/653/time-short-term-sacrifices-long-term-gains"
+    },
+    {
+      "question": "Why do you think we should not hire you?",
+      "url": "https://www.tryexponent.com/questions/4629/why-no-hire"
+    },
+    {
+      "question": "Why do you want to switch jobs now?",
+      "url": "https://www.tryexponent.com/questions/5459/reason-switch-jobs"
+    },
+    {
+      "question": "Tell me about a time you made a mistake.",
+      "url": "https://www.tryexponent.com/questions/240/mistake"
+    },
+    {
+      "question": "Tell me about a time you disagreed with someone and how you resolved it.",
+      "url": "https://www.tryexponent.com/questions/1350/time-disagreed-someone-resolved"
+    },
+    {
+      "question": "Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?",
+      "url": "https://www.tryexponent.com/questions/140/conflict-resolution-learning"
+    },
+    {
+      "question": "Tell me about a time when you worked on a project with a tight deadline.",
+      "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline"
+    },
+    {
+      "question": "Tell me about a time you took a calculated risk when speed was critical.",
+      "url": "https://www.tryexponent.com/questions/996/calculated-risk-taken-speed-critical"
+    },
+    {
+      "question": "Tell me about a time when you solved a complex problem and how you went about it.",
+      "url": "https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem"
+    },
+    {
+      "question": "Tell me about yourself.",
+      "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself"
+    },
+    {
+      "question": "Tell me about the most challenging situation you faced in your career and how you handled it.",
+      "url": "https://www.tryexponent.com/questions/3169/most-challenging-situation-career-response"
+    },
+    {
+      "question": "Tell me about a time you were confident in a solution and later realized it was wrong.",
+      "url": "https://www.tryexponent.com/questions/5888/confident-in-wrong-solution"
+    },
+    {
+      "question": "Tell me about your past projects.",
+      "url": "https://www.tryexponent.com/questions/4229/past-projects"
+    },
+    {
+      "question": "How do you prioritize tasks?",
+      "url": "https://www.tryexponent.com/questions/228/how-prioritize-features"
+    },
+    {
+      "question": "Tell me about a time you failed. What would you have done differently?",
+      "url": "https://www.tryexponent.com/questions/3667/time-you-failed-what-to-do-differently"
+    },
+    {
+      "question": "Tell me about a time you had a moral conflict with work you are assigned to do.",
+      "url": "https://www.tryexponent.com/questions/5785/moral-conflict-work"
+    },
+    {
+      "question": "Why do you want to work at Anthropic?",
+      "url": "https://www.tryexponent.com/questions/5596/why-anthropic"
+    },
+    {
+      "question": "Tell me about a time when you received negative feedback and how you handled it.",
+      "url": "https://www.tryexponent.com/questions/775/negative-feedback-how-handled"
+    },
+    {
+      "question": "What types of team members do you find difficult to work with?",
+      "url": "https://www.tryexponent.com/questions/4633/difficult-team-members"
+    },
+    {
+      "question": "Can you provide an example of how you manage conflict?",
+      "url": "https://www.tryexponent.com/questions/1516/example-managing-conflict"
+    },
+    {
+      "question": "Tell me about a time when you gave a simple solution to a complex problem.",
+      "url": "https://www.tryexponent.com/questions/4790/behavioral-simple-solution-complex-problem"
+    },
+    {
+      "question": "Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.",
+      "url": "https://www.tryexponent.com/questions/2120/manage-conflicting-priorities-stakeholders"
+    },
+    {
+      "question": "Tell me about a time you had a conflict with your manager.",
+      "url": "https://www.tryexponent.com/questions/4877/manager-conflict"
+    },
+    {
+      "question": "Tell me about a time when you faced a conflict while on a team.",
+      "url": "https://www.tryexponent.com/questions/2964/conflict-resolution-team-experience"
+    },
+    {
+      "question": "Tell me about a time you had to build something that conflicted with your personal values.",
+      "url": "https://www.tryexponent.com/questions/5886/build-personal-conflict"
+    },
+    {
+      "question": "Tell me about a time you failed.",
+      "url": "https://www.tryexponent.com/questions/2398/describing-a-failure-experience"
+    },
+    {
+      "question": "Tell me about a time when you significantly exceeded expectations on a project or task.",
+      "url": "https://www.tryexponent.com/questions/4492/exceeded-expectations-project-task"
+    },
+    {
+      "question": "Why do you want to work at Meta?",
+      "url": "https://www.tryexponent.com/questions/3243/why-work-at-meta"
+    },
+    {
+      "question": "Tell me about a time when you had a disagreement with your manager.",
+      "url": "https://www.tryexponent.com/questions/241/disagreement-manager"
+    },
+    {
+      "question": "How do you earn the trust of your team members?",
+      "url": "https://www.tryexponent.com/questions/933/earning-trust-of-team-members"
+    },
+    {
+      "question": "Why do you want to work at Google?",
+      "url": "https://www.tryexponent.com/questions/1377/why-work-at-google"
+    },
+    {
+      "question": "Tell me about a time when you made a decision with limited data.",
+      "url": "https://www.tryexponent.com/questions/934/decision-with-limited-data"
+    },
+    {
+      "question": "Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?",
+      "url": "https://www.tryexponent.com/questions/5237/taking-initiative-beyond-responsibility"
+    },
+    {
+      "question": "Tell me about a time you couldn't meet your deadline.",
+      "url": "https://www.tryexponent.com/questions/5123/cannot-meet-deadline"
+    },
+    {
+      "question": "Tell me about a time when you solved a problem innovatively.",
+      "url": "https://www.tryexponent.com/questions/275/solved-problem-innovatively"
+    },
+    {
+      "question": "Tell me about a time when you underestimated someone you were supposed to work with.",
+      "url": "https://www.tryexponent.com/questions/4224/underestimate-coworker-experience"
+    },
+    {
+      "question": "Tell me about a time when you missed a deadline.",
+      "url": "https://www.tryexponent.com/questions/572/time-you-missed-a-deadline"
+    },
+    {
+      "question": "Tell me about a time when you went above and beyond for a customer.",
+      "url": "https://www.tryexponent.com/questions/1917/time-you-went-above-beyond-for-customer"
+    },
+    {
+      "question": "Why do you want to work at Apple?",
+      "url": "https://www.tryexponent.com/questions/3208/why-work-at-apple"
+    },
+    {
+      "question": "Tell me about a time when you dealt with a difficult person at work.",
+      "url": "https://www.tryexponent.com/questions/274/difficult-person"
+    },
+    {
+      "question": "Tell me about a technical challenge that you have overcome.",
+      "url": "https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome"
+    },
+    {
+      "question": "Why do you want to work at OpenAI?",
+      "url": "https://www.tryexponent.com/questions/4608/why-openai"
+    },
+    {
+      "question": "Tell me about a time when you had to solve a difficult problem.",
+      "url": "https://www.tryexponent.com/questions/462/solving-difficult-problem-interview-question"
+    },
+    {
+      "question": "Tell me about a time you put someone else\u2019s interests above your own.",
+      "url": "https://www.tryexponent.com/questions/5119/putting-someones-interest-above-your-own"
+    },
+    {
+      "question": "How do you contribute to a positive team culture?",
+      "url": "https://www.tryexponent.com/questions/5680/contribute-positive-team-culture"
+    },
+    {
+      "question": "Tell me about the most complex project you have led.",
+      "url": "https://www.tryexponent.com/questions/611/most-complex-project-led"
+    },
+    {
+      "question": "Tell me about your greatest success.",
+      "url": "https://www.tryexponent.com/questions/141/greatest-success"
+    },
+    {
+      "question": "Why do you want to work at Visa?",
+      "url": "https://www.tryexponent.com/questions/4627/why-visa"
+    },
+    {
+      "question": "Tell me about a project where you applied the CAP theorem.",
+      "url": "https://www.tryexponent.com/questions/4450/project-applying-cap-theorem"
+    },
+    {
+      "question": "Tell me about the accomplishment you are most proud of.",
+      "url": "https://www.tryexponent.com/questions/3018/proudest-accomplishment-interview-question"
+    },
+    {
+      "question": "Tell me about your biggest failure.",
+      "url": "https://www.tryexponent.com/questions/142/biggest-failure"
+    },
+    {
+      "question": "Tell me about a time you had significant disagreement with someone and later realized they were right.",
+      "url": "https://www.tryexponent.com/questions/5794/disagreement-and-they-were-right"
+    },
+    {
+      "question": "How do you motivate your team to perform better?",
+      "url": "https://www.tryexponent.com/questions/1506/motivate-team-perform-better"
+    },
+    {
+      "question": "Tell me about a time you faced a moral or ethical dilemma at work.",
+      "url": "https://www.tryexponent.com/questions/5887/face-moral-dilemma"
+    },
+    {
+      "question": "How do you stay up-to-date with the latest developments in AI?",
+      "url": "https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai"
+    },
+    {
+      "question": "Why do you want to work at Stripe?",
+      "url": "https://www.tryexponent.com/questions/3111/why-work-at-stripe"
+    },
+    {
+      "question": "Tell me about a time when you had to convince team members on something you proposed.",
+      "url": "https://www.tryexponent.com/questions/276/convince-team-members"
+    },
+    {
+      "question": "Tell me about a time you overcame adversity.",
+      "url": "https://www.tryexponent.com/questions/3259/time-overcame-adversity"
+    },
+    {
+      "question": "How do you mentor top talent?",
+      "url": "https://www.tryexponent.com/questions/5440/mentor-top-talent-approach"
+    },
+    {
+      "question": "Why do you want to work at Atlassian?",
+      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
+    },
+    {
+      "question": "Tell me about a time you had to learn something quickly.",
+      "url": "https://www.tryexponent.com/questions/5678/learn-quickly"
+    },
+    {
+      "question": "Why do you think you would be a good fit for Microsoft's mission?",
+      "url": "https://www.tryexponent.com/questions/2764/fit-for-microsoft-mission"
+    },
+    {
+      "question": "Tell me about a time when you had to deliver negative feedback.",
+      "url": "https://www.tryexponent.com/questions/2260/delivering-negative-feedback"
+    },
+    {
+      "question": "How do you consider the impact of your work on the world?",
+      "url": "https://www.tryexponent.com/questions/2273/impact-of-work-on-world"
+    },
+    {
+      "question": "Why do you want to work at DoorDash?",
+      "url": "https://www.tryexponent.com/questions/3341/why-work-at-doordash"
+    },
+    {
+      "question": "In a large application, which code branches are more important to be tested and how do you decide?",
+      "url": "https://www.tryexponent.com/questions/4931/prioritizing-code-testing-branches"
+    },
+    {
+      "question": "Why do you want to work at TikTok?",
+      "url": "https://www.tryexponent.com/questions/4288/why-tiktok"
+    },
+    {
+      "question": "Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.",
+      "url": "https://www.tryexponent.com/questions/3541/dealing-buggy-code-production"
+    },
+    {
+      "question": "Why do you want to work at Netflix?",
+      "url": "https://www.tryexponent.com/questions/4285/why-netflix"
+    },
+    {
+      "question": "Tell me about a technical decision you made and its impact on your project.",
+      "url": "https://www.tryexponent.com/questions/927/technical-decision-impact-project"
+    },
+    {
+      "question": "Tell me about a time when you questioned the status quo.",
+      "url": "https://www.tryexponent.com/questions/943/questioned-status-quo"
+    },
+    {
+      "question": "How do you deal with ambiguous situations?",
+      "url": "https://www.tryexponent.com/questions/503/dealing-with-ambiguous-situations"
+    },
+    {
+      "question": "Tell me about your last job.",
+      "url": "https://www.tryexponent.com/questions/3211/tell-about-last-job"
+    },
+    {
+      "question": "Tell me about a time you cut corners to meet a deadline?",
+      "url": "https://www.tryexponent.com/questions/5134/cut-corners-meet-deadline"
+    },
+    {
+      "question": "How do you hire your team?",
+      "url": "https://www.tryexponent.com/questions/492/how-to-hire-team"
+    },
+    {
+      "question": "Tell me about your current role.",
+      "url": "https://www.tryexponent.com/questions/3262/describe-your-current-role"
+    },
+    {
+      "question": "How do you overcome conflict during a project?",
+      "url": "https://www.tryexponent.com/questions/2178/overcome-conflict-during-project"
+    },
+    {
+      "question": "How do you learn new technologies?",
+      "url": "https://www.tryexponent.com/questions/5130/how-you-learn-new-technologies"
+    },
+    {
+      "question": "How do you balance delivery with security concerns?",
+      "url": "https://www.tryexponent.com/questions/5786/delivery-vs-security"
+    },
+    {
+      "question": "Tell me about a time you received difficult news from a peer or a manager.",
+      "url": "https://www.tryexponent.com/questions/3200/handle-difficult-news-peer-manager"
+    },
+    {
+      "question": "Tell me about a project you worked on.",
+      "url": "https://www.tryexponent.com/questions/3253/describe-a-project-experience"
+    },
+    {
+      "question": "Tell me about a time when you needed to convince a disagreeing team.",
+      "url": "https://www.tryexponent.com/questions/770/convince-disagreeing-team"
+    },
+    {
+      "question": "Tell me about a time when you conceived an innovative solution to a problem.",
+      "url": "https://www.tryexponent.com/questions/1363/time-innovative-solution-problem"
+    },
+    {
+      "question": "Tell me about a time when you went above and beyond your job description.",
+      "url": "https://www.tryexponent.com/questions/371/time-you-exceeded-job-description"
+    },
+    {
+      "question": "How do you ensure code quality?",
+      "url": "https://www.tryexponent.com/questions/3209/ensure-code-quality"
+    },
+    {
+      "question": "Why do you want to work at Cursor?",
+      "url": "https://www.tryexponent.com/questions/5838/why-cursor"
+    },
+    {
+      "question": "How do you collect user requirements?",
+      "url": "https://www.tryexponent.com/questions/3346/collect-user-requirements"
+    },
+    {
+      "question": "Tell me about a time you stepped in to help a struggling teammate.",
+      "url": "https://www.tryexponent.com/questions/1779/helping-struggling-teammate"
+    },
+    {
+      "question": "Tell me about a time you gave difficult feedback to others.",
+      "url": "https://www.tryexponent.com/questions/5798/give-difficult-feedback-to-others"
+    },
+    {
+      "question": "Tell me about a time when project goals changed and how you handled it.",
+      "url": "https://www.tryexponent.com/questions/4938/adapt-changing-project-goals"
+    },
+    {
+      "question": "How do you define the right goals/KPIs/success criteria of the project?",
+      "url": "https://www.tryexponent.com/questions/5813/define-goals-for-project"
+    },
+    {
+      "question": "Tell me about a time you pushed back on leadership.",
+      "url": "https://www.tryexponent.com/questions/5162/behavioral-push-back-on-leadership"
+    },
+    {
+      "question": "How do you contribute to diversity and inclusion?",
+      "url": "https://www.tryexponent.com/questions/1531/contribute-diversity-inclusion"
+    },
+    {
+      "question": "How do you build and manage a project schedule?",
+      "url": "https://www.tryexponent.com/questions/1027/how-to-build-manage-project-schedule"
+    },
+    {
+      "question": "Tell me about a time when you took on a task outside your job description.",
+      "url": "https://www.tryexponent.com/questions/1763/task-outside-job-description"
+    },
+    {
+      "question": "How do you encourage collaboration among cross-functional teams?",
+      "url": "https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams"
+    },
+    {
+      "question": "Why do you want to work at ElevenLabs?",
+      "url": "https://www.tryexponent.com/questions/5773/why-elevenlabs"
+    },
+    {
+      "question": "Tell me about a time you worked with another team.",
+      "url": "https://www.tryexponent.com/questions/5826/working-with-another-team"
+    },
+    {
+      "question": "Tell me about a time you did not like the team you were working with and wanted to switch.",
+      "url": "https://www.tryexponent.com/questions/5814/time-you-disliked-team"
+    },
+    {
+      "question": "Have you ever worked on something without waiting for your manager\u2019s go-ahead? What made you decide to do that?",
+      "url": "https://www.tryexponent.com/questions/5142/proceed-without-approval"
+    },
+    {
+      "question": "How do you set priorities with limited resources?",
+      "url": "https://www.tryexponent.com/questions/3334/setting-priorities-limited-resources"
+    },
+    {
+      "question": "Tell me about your experience with Java.",
+      "url": "https://www.tryexponent.com/questions/3523/experience-with-java"
+    },
+    {
+      "question": "Tell me about a time when you needed to acquire information from someone who was not very responsive. How did you handle it?",
+      "url": "https://www.tryexponent.com/questions/3077/acquiring-information-unresponsive-source"
+    },
+    {
+      "question": "Why do you want to work at Nvidia?",
+      "url": "https://www.tryexponent.com/questions/4596/why-nvidia"
+    },
+    {
+      "question": "Why do you want to work at Walmart Labs?",
+      "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs"
+    },
+    {
+      "question": "Tell me about your day as a software engineer.",
+      "url": "https://www.tryexponent.com/questions/5824/day-as-a-swe"
+    },
+    {
+      "question": "How do you cope with dynamically-changing environments?",
+      "url": "https://www.tryexponent.com/questions/5120/dynamically-changing-environments"
+    },
+    {
+      "question": "Tell me about a time you provided feedback that was helpful to a peer.",
+      "url": "https://www.tryexponent.com/questions/1777/helpful-feedback-to-peer"
+    },
+    {
+      "question": "Tell me about a time when you had to lead your team through a significant change, such as a reorganization or process change. How did you handle it?",
+      "url": "https://www.tryexponent.com/questions/2106/lead-team-through-significant-change"
+    },
+    {
+      "question": "Tell me about a time you faced a difficult challenge.",
+      "url": "https://www.tryexponent.com/questions/5131/facing-difficult-challenge"
+    },
+    {
+      "question": "Tell me about a time you got constructive feedback. What did you learn from it?",
+      "url": "https://www.tryexponent.com/questions/5113/constructive-feedback-reaction"
+    },
+    {
+      "question": "Tell me about a time you overcame a challenge to achieve a goal.",
+      "url": "https://www.tryexponent.com/questions/5133/overcome-challenge-achieve-goal"
+    },
+    {
+      "question": "Tell me about a time when you worked on a team and demonstrated leadership.",
+      "url": "https://www.tryexponent.com/questions/898/teamwork-leadership-example"
+    },
+    {
+      "question": "Tell me about a time when you had to deal with a co-worker who struggled to keep up.",
+      "url": "https://www.tryexponent.com/questions/1001/time-deal-with-co-worker-struggled"
+    },
+    {
+      "question": "Tell me about a time you had to give someone bad news.",
+      "url": "https://www.tryexponent.com/questions/5140/bad-news"
+    },
+    {
+      "question": "Have you ever pushed back on management's decision?",
+      "url": "https://www.tryexponent.com/questions/5128/push-back-management-decision"
+    },
+    {
+      "question": "Tell me about a time when your approach was selected and successfully implemented over other alternatives.",
+      "url": "https://www.tryexponent.com/questions/5121/your-champion-idea"
+    },
+    {
+      "question": "Tell me about a time you were a good host.",
+      "url": "https://www.tryexponent.com/questions/5139/good-host"
+    },
+    {
+      "question": "Why did you become an engineer?",
+      "url": "https://www.tryexponent.com/questions/4668/why-engineer"
+    },
+    {
+      "question": "Tell me about a time you stood up for someone in the workplace.",
+      "url": "https://www.tryexponent.com/questions/5118/standing-up-for-someone"
+    },
+    {
+      "question": "Have you ever failed to meet your commitments?",
+      "url": "https://www.tryexponent.com/questions/5129/failed-to-meet-commitments"
+    },
+    {
+      "question": "How do you troubleshoot bugs in your code?",
+      "url": "https://www.tryexponent.com/questions/3225/troubleshoot-bugs-in-code"
+    },
+    {
+      "question": "Tell me about a time you struggled on a project.",
+      "url": "https://www.tryexponent.com/questions/5115/project-struggles"
+    },
+    {
+      "question": "How do you make important decisions?",
+      "url": "https://www.tryexponent.com/questions/5124/making-important-decisions"
+    },
+    {
+      "question": "Tell me about a time when you worked with someone from a different background.",
+      "url": "https://www.tryexponent.com/questions/3892/working-with-diverse-backgrounds"
+    },
+    {
+      "question": "Why do you want to work at Salesforce?",
+      "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce"
+    },
+    {
+      "question": "Tell me about your experience with React.",
+      "url": "https://www.tryexponent.com/questions/3244/experience-with-react"
+    },
+    {
+      "question": "Why do you want to work at Hinge?",
+      "url": "https://www.tryexponent.com/questions/4121/why-work-at-hinge"
+    },
+    {
+      "question": "Tell me about a time you had an unpopular idea.",
+      "url": "https://www.tryexponent.com/questions/5132/unpopular-idea"
+    },
+    {
+      "question": "Tell me about a situation where a junior team member got stuck. How did you assist them in solving the problem?",
+      "url": "https://www.tryexponent.com/questions/5116/helping-juniors-problem-solve"
+    },
+    {
+      "question": "How open are you to critical feedback? Tell me about any critical feedback you've received from past experience.",
+      "url": "https://www.tryexponent.com/questions/4725/open-to-critical-feedback"
+    },
+    {
+      "question": "Tell me about your experience with TypeScript.",
+      "url": "https://www.tryexponent.com/questions/3245/experience-with-typescript"
+    },
+    {
+      "question": "How do you think your supervisor will rate you from a scale of 1-10?",
+      "url": "https://www.tryexponent.com/questions/5147/supervisor-rating"
+    },
+    {
+      "question": "Tell me about your experience with RxJava.",
+      "url": "https://www.tryexponent.com/questions/3265/experience-with-rxjava"
+    },
+    {
+      "question": "Tell me about a situation where you had to take the lead and be accountable for others.",
+      "url": "https://www.tryexponent.com/questions/5114/being-accountable-for-others"
+    },
+    {
+      "question": "Why did you become a Software Engineer?",
+      "url": "https://www.tryexponent.com/questions/2396/why-become-software-engineer"
+    },
+    {
+      "question": "Tell me about a time you predicted something.",
+      "url": "https://www.tryexponent.com/questions/5146/predicted-something"
+    },
+    {
+      "question": "Tell me about a time where you needed to make a decision with many options and very little time.",
+      "url": "https://www.tryexponent.com/questions/5125/decision-many-options-little-time"
+    },
+    {
+      "question": "Tell me about your experience with JavaScript.",
+      "url": "https://www.tryexponent.com/questions/3246/experience-with-javascript"
+    },
+    {
+      "question": "How do you test mobile phones?",
+      "url": "https://www.tryexponent.com/questions/2775/how-test-mobile-phones"
     }
   ],
   "System Design": [
@@ -485,10 +1083,6 @@
     {
       "question": "Design a reservation and payment system for a parking garage.",
       "url": "https://www.tryexponent.com/questions/1437/design-parking-garage-reservation-payment-system"
-    },
-    {
-      "question": "Design a system that ingests book reviews from Amazon.com and provides book recommendations on your website.",
-      "url": "https://www.tryexponent.com/questions/3954/design-system-ingest-amazon-book-reviews-recommendations"
     },
     {
       "question": "Design a peer-to-peer file distribution system that spreads a 10GB file from a single bandwidth-constrained source to thousands of interconnected hosts, each with limited input/output bandwidth, un...",
@@ -571,10 +1165,6 @@
       "url": "https://www.tryexponent.com/questions/5427/system-design-meta-audio-system"
     },
     {
-      "question": "Design an algorithm to predict the next word or phrase one is typing on a phone.",
-      "url": "https://www.tryexponent.com/questions/5072/system-design-mobile-text-prediction-algorithm"
-    },
-    {
       "question": "Design a service like Azure Key Vault that securely stores and retrieves secrets, certificates, and keys for applications and users.",
       "url": "https://www.tryexponent.com/questions/5437/system-design-secure-key-vault-service"
     },
@@ -585,10 +1175,6 @@
     {
       "question": "Design a truck tracking system that supports filtering by truck number and includes an interface for updating driver status.",
       "url": "https://www.tryexponent.com/questions/4077/design-truck-tracking-system"
-    },
-    {
-      "question": "Design a streaming service like Netflix.",
-      "url": "https://www.tryexponent.com/questions/1677/design-streaming-service-netflix"
     },
     {
       "question": "Design a search system that adapts to constantly changing user interests.",
@@ -637,14 +1223,6 @@
     {
       "question": "Design a kayak rental service.",
       "url": "https://www.tryexponent.com/questions/2932/design-kayak-rental-service"
-    },
-    {
-      "question": "Design an alarm system for streaming metrics.",
-      "url": "https://www.tryexponent.com/questions/5855/alarm-system-for-streaming-metrics"
-    },
-    {
-      "question": "Design an agent that selects music based on real-world signals like weather.",
-      "url": "https://www.tryexponent.com/questions/5909/design-music-agent"
     },
     {
       "question": "Design a monitoring system for 1000 web servers.",
@@ -763,328 +1341,42 @@
       "url": "https://www.tryexponent.com/questions/2867/design-system-peak-period-price-calculation"
     }
   ],
-  "Behavioral": [
-    {
-      "question": "Tell me about a time when you made short-term sacrifices for long-term gains.",
-      "url": "https://www.tryexponent.com/questions/653/time-short-term-sacrifices-long-term-gains"
-    },
-    {
-      "question": "Tell me about a time you made a mistake.",
-      "url": "https://www.tryexponent.com/questions/240/mistake"
-    },
-    {
-      "question": "Tell me about a time you disagreed with someone and how you resolved it.",
-      "url": "https://www.tryexponent.com/questions/1350/time-disagreed-someone-resolved"
-    },
-    {
-      "question": "Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?",
-      "url": "https://www.tryexponent.com/questions/140/conflict-resolution-learning"
-    },
-    {
-      "question": "Tell me about a time when you worked on a project with a tight deadline.",
-      "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline"
-    },
-    {
-      "question": "Tell me about a time you took a calculated risk when speed was critical.",
-      "url": "https://www.tryexponent.com/questions/996/calculated-risk-taken-speed-critical"
-    },
-    {
-      "question": "Tell me about a time when you solved a complex problem and how you went about it.",
-      "url": "https://www.tryexponent.com/questions/107/tell-me-about-time-solved-complex-problem"
-    },
-    {
-      "question": "Tell me about a time you were confident in a solution and later realized it was wrong.",
-      "url": "https://www.tryexponent.com/questions/5888/confident-in-wrong-solution"
-    },
-    {
-      "question": "Tell me about a time you failed. What would you have done differently?",
-      "url": "https://www.tryexponent.com/questions/3667/time-you-failed-what-to-do-differently"
-    },
-    {
-      "question": "Tell me about a time you had a moral conflict with work you are assigned to do.",
-      "url": "https://www.tryexponent.com/questions/5785/moral-conflict-work"
-    },
-    {
-      "question": "Tell me about a time when you received negative feedback and how you handled it.",
-      "url": "https://www.tryexponent.com/questions/775/negative-feedback-how-handled"
-    },
-    {
-      "question": "Can you provide an example of how you manage conflict?",
-      "url": "https://www.tryexponent.com/questions/1516/example-managing-conflict"
-    },
-    {
-      "question": "Tell me about a time when you gave a simple solution to a complex problem.",
-      "url": "https://www.tryexponent.com/questions/4790/behavioral-simple-solution-complex-problem"
-    },
-    {
-      "question": "Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.",
-      "url": "https://www.tryexponent.com/questions/2120/manage-conflicting-priorities-stakeholders"
-    },
-    {
-      "question": "Tell me about a time you had a conflict with your manager.",
-      "url": "https://www.tryexponent.com/questions/4877/manager-conflict"
-    },
-    {
-      "question": "Tell me about a time when you faced a conflict while on a team.",
-      "url": "https://www.tryexponent.com/questions/2964/conflict-resolution-team-experience"
-    },
-    {
-      "question": "Tell me about a time you had to build something that conflicted with your personal values.",
-      "url": "https://www.tryexponent.com/questions/5886/build-personal-conflict"
-    },
-    {
-      "question": "Tell me about a time you failed.",
-      "url": "https://www.tryexponent.com/questions/2398/describing-a-failure-experience"
-    },
-    {
-      "question": "Tell me about a time when you significantly exceeded expectations on a project or task.",
-      "url": "https://www.tryexponent.com/questions/4492/exceeded-expectations-project-task"
-    },
-    {
-      "question": "Tell me about a time when you had a disagreement with your manager.",
-      "url": "https://www.tryexponent.com/questions/241/disagreement-manager"
-    },
-    {
-      "question": "Tell me about a time when you made a decision with limited data.",
-      "url": "https://www.tryexponent.com/questions/934/decision-with-limited-data"
-    },
-    {
-      "question": "Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?",
-      "url": "https://www.tryexponent.com/questions/5237/taking-initiative-beyond-responsibility"
-    },
-    {
-      "question": "Tell me about a time you couldn't meet your deadline.",
-      "url": "https://www.tryexponent.com/questions/5123/cannot-meet-deadline"
-    },
-    {
-      "question": "Tell me about a time when you solved a problem innovatively.",
-      "url": "https://www.tryexponent.com/questions/275/solved-problem-innovatively"
-    },
-    {
-      "question": "Tell me about a time when you underestimated someone you were supposed to work with.",
-      "url": "https://www.tryexponent.com/questions/4224/underestimate-coworker-experience"
-    },
-    {
-      "question": "Tell me about a time when you missed a deadline.",
-      "url": "https://www.tryexponent.com/questions/572/time-you-missed-a-deadline"
-    },
-    {
-      "question": "Tell me about a time when you went above and beyond for a customer.",
-      "url": "https://www.tryexponent.com/questions/1917/time-you-went-above-beyond-for-customer"
-    },
-    {
-      "question": "Tell me about a time when you dealt with a difficult person at work.",
-      "url": "https://www.tryexponent.com/questions/274/difficult-person"
-    },
-    {
-      "question": "Tell me about a time when you had to solve a difficult problem.",
-      "url": "https://www.tryexponent.com/questions/462/solving-difficult-problem-interview-question"
-    },
-    {
-      "question": "Tell me about a time you put someone else\u2019s interests above your own.",
-      "url": "https://www.tryexponent.com/questions/5119/putting-someones-interest-above-your-own"
-    },
-    {
-      "question": "Tell me about your biggest failure.",
-      "url": "https://www.tryexponent.com/questions/142/biggest-failure"
-    },
-    {
-      "question": "Tell me about a time you had significant disagreement with someone and later realized they were right.",
-      "url": "https://www.tryexponent.com/questions/5794/disagreement-and-they-were-right"
-    },
-    {
-      "question": "Tell me about a time you faced a moral or ethical dilemma at work.",
-      "url": "https://www.tryexponent.com/questions/5887/face-moral-dilemma"
-    },
-    {
-      "question": "Tell me about a time when you had to convince team members on something you proposed.",
-      "url": "https://www.tryexponent.com/questions/276/convince-team-members"
-    },
-    {
-      "question": "Tell me about a time you overcame adversity.",
-      "url": "https://www.tryexponent.com/questions/3259/time-overcame-adversity"
-    },
-    {
-      "question": "Tell me about a time you had to learn something quickly.",
-      "url": "https://www.tryexponent.com/questions/5678/learn-quickly"
-    },
-    {
-      "question": "Tell me about a time when you had to deliver negative feedback.",
-      "url": "https://www.tryexponent.com/questions/2260/delivering-negative-feedback"
-    },
-    {
-      "question": "Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.",
-      "url": "https://www.tryexponent.com/questions/3541/dealing-buggy-code-production"
-    },
-    {
-      "question": "Tell me about a time when you questioned the status quo.",
-      "url": "https://www.tryexponent.com/questions/943/questioned-status-quo"
-    },
-    {
-      "question": "Tell me about a time you cut corners to meet a deadline?",
-      "url": "https://www.tryexponent.com/questions/5134/cut-corners-meet-deadline"
-    },
-    {
-      "question": "How do you overcome conflict during a project?",
-      "url": "https://www.tryexponent.com/questions/2178/overcome-conflict-during-project"
-    },
-    {
-      "question": "Tell me about a time you received difficult news from a peer or a manager.",
-      "url": "https://www.tryexponent.com/questions/3200/handle-difficult-news-peer-manager"
-    },
-    {
-      "question": "Tell me about a time when you needed to convince a disagreeing team.",
-      "url": "https://www.tryexponent.com/questions/770/convince-disagreeing-team"
-    },
-    {
-      "question": "Tell me about a time when you conceived an innovative solution to a problem.",
-      "url": "https://www.tryexponent.com/questions/1363/time-innovative-solution-problem"
-    },
-    {
-      "question": "Tell me about a time when you went above and beyond your job description.",
-      "url": "https://www.tryexponent.com/questions/371/time-you-exceeded-job-description"
-    },
-    {
-      "question": "Tell me about a time you stepped in to help a struggling teammate.",
-      "url": "https://www.tryexponent.com/questions/1779/helping-struggling-teammate"
-    },
-    {
-      "question": "Tell me about a time you gave difficult feedback to others.",
-      "url": "https://www.tryexponent.com/questions/5798/give-difficult-feedback-to-others"
-    },
-    {
-      "question": "Tell me about a time when project goals changed and how you handled it.",
-      "url": "https://www.tryexponent.com/questions/4938/adapt-changing-project-goals"
-    },
-    {
-      "question": "Tell me about a time you pushed back on leadership.",
-      "url": "https://www.tryexponent.com/questions/5162/behavioral-push-back-on-leadership"
-    },
-    {
-      "question": "Tell me about a time when you took on a task outside your job description.",
-      "url": "https://www.tryexponent.com/questions/1763/task-outside-job-description"
-    },
-    {
-      "question": "Tell me about a time you worked with another team.",
-      "url": "https://www.tryexponent.com/questions/5826/working-with-another-team"
-    },
-    {
-      "question": "Tell me about a time you did not like the team you were working with and wanted to switch.",
-      "url": "https://www.tryexponent.com/questions/5814/time-you-disliked-team"
-    },
-    {
-      "question": "Have you ever worked on something without waiting for your manager\u2019s go-ahead? What made you decide to do that?",
-      "url": "https://www.tryexponent.com/questions/5142/proceed-without-approval"
-    },
-    {
-      "question": "Tell me about a time when you needed to acquire information from someone who was not very responsive. How did you handle it?",
-      "url": "https://www.tryexponent.com/questions/3077/acquiring-information-unresponsive-source"
-    },
-    {
-      "question": "Tell me about a time you provided feedback that was helpful to a peer.",
-      "url": "https://www.tryexponent.com/questions/1777/helpful-feedback-to-peer"
-    },
-    {
-      "question": "Tell me about a time when you had to lead your team through a significant change, such as a reorganization or process change. How did you handle it?",
-      "url": "https://www.tryexponent.com/questions/2106/lead-team-through-significant-change"
-    },
-    {
-      "question": "Tell me about a time you faced a difficult challenge.",
-      "url": "https://www.tryexponent.com/questions/5131/facing-difficult-challenge"
-    },
-    {
-      "question": "Tell me about a time you got constructive feedback. What did you learn from it?",
-      "url": "https://www.tryexponent.com/questions/5113/constructive-feedback-reaction"
-    },
-    {
-      "question": "Tell me about a time you overcame a challenge to achieve a goal.",
-      "url": "https://www.tryexponent.com/questions/5133/overcome-challenge-achieve-goal"
-    },
-    {
-      "question": "Tell me about a time when you worked on a team and demonstrated leadership.",
-      "url": "https://www.tryexponent.com/questions/898/teamwork-leadership-example"
-    },
-    {
-      "question": "Tell me about a time when you had to deal with a co-worker who struggled to keep up.",
-      "url": "https://www.tryexponent.com/questions/1001/time-deal-with-co-worker-struggled"
-    },
-    {
-      "question": "Tell me about a time you had to give someone bad news.",
-      "url": "https://www.tryexponent.com/questions/5140/bad-news"
-    },
-    {
-      "question": "Have you ever pushed back on management's decision?",
-      "url": "https://www.tryexponent.com/questions/5128/push-back-management-decision"
-    },
-    {
-      "question": "Tell me about a time when your approach was selected and successfully implemented over other alternatives.",
-      "url": "https://www.tryexponent.com/questions/5121/your-champion-idea"
-    },
-    {
-      "question": "Tell me about a time you were a good host.",
-      "url": "https://www.tryexponent.com/questions/5139/good-host"
-    },
-    {
-      "question": "Tell me about a time you stood up for someone in the workplace.",
-      "url": "https://www.tryexponent.com/questions/5118/standing-up-for-someone"
-    },
-    {
-      "question": "Have you ever failed to meet your commitments?",
-      "url": "https://www.tryexponent.com/questions/5129/failed-to-meet-commitments"
-    },
-    {
-      "question": "Tell me about a time you struggled on a project.",
-      "url": "https://www.tryexponent.com/questions/5115/project-struggles"
-    },
-    {
-      "question": "Tell me about a time when you worked with someone from a different background.",
-      "url": "https://www.tryexponent.com/questions/3892/working-with-diverse-backgrounds"
-    },
-    {
-      "question": "Tell me about a time you had an unpopular idea.",
-      "url": "https://www.tryexponent.com/questions/5132/unpopular-idea"
-    },
-    {
-      "question": "Tell me about a time you predicted something.",
-      "url": "https://www.tryexponent.com/questions/5146/predicted-something"
-    },
-    {
-      "question": "Tell me about a time where you needed to make a decision with many options and very little time.",
-      "url": "https://www.tryexponent.com/questions/5125/decision-many-options-little-time"
-    }
-  ],
   "Coding": [
-    {
-      "question": "Implement an LRU cache with serialization and evolving constraints.",
-      "url": "https://www.tryexponent.com/questions/5889/LRU-cache"
-    },
     {
       "question": "Find the minimum characters to insert to make a string a palindrome.",
       "url": "https://www.tryexponent.com/questions/5878/minimum-insertions-to-make-string-a-palindrome"
+    },
+    {
+      "question": "Given a sorted array of integers (which may include negatives), return the squares of the numbers in sorted order. As a follow-up, find the k-th smallest squared value.",
+      "url": "https://www.tryexponent.com/questions/5802/squares-of-sorted-array-with-follow-up"
     },
     {
       "question": "Employee Earnings.",
       "url": "https://www.tryexponent.com/questions/3960/employee-earnings"
     },
     {
-      "question": "Tell me about a time you took a calculated risk when speed was critical.",
-      "url": "https://www.tryexponent.com/questions/996/calculated-risk-taken-speed-critical"
-    },
-    {
       "question": "Reverse a linked list.",
       "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list"
     },
     {
-      "question": "Tell me about a time you were confident in a solution and later realized it was wrong.",
-      "url": "https://www.tryexponent.com/questions/5888/confident-in-wrong-solution"
+      "question": "Given an array of integers and a number N, find the length of the longest contiguous subarray such that the difference between any two elements in the subarray is less than N.",
+      "url": "https://www.tryexponent.com/questions/5803/longest-contiguous-subarray-with-absolute-difference-less-than-limit"
     },
     {
-      "question": "Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.",
-      "url": "https://www.tryexponent.com/questions/5822/implement-key-value-store"
+      "question": "Reorder linked list.",
+      "url": "https://www.tryexponent.com/questions/5703/reorder-linked-list"
+    },
+    {
+      "question": "Find the longest common prefix given two integer arrays.",
+      "url": "https://www.tryexponent.com/questions/5639/longest-common-prefix"
     },
     {
       "question": "Is this a valid palindrome?",
       "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check"
+    },
+    {
+      "question": "Given an array of numbers where every number occurs twice except one, how would you find the unique number in O(log n) time?",
+      "url": "https://www.tryexponent.com/questions/3804/find-unique-number-array-logn-time"
     },
     {
       "question": "Find the container with the maximum volume of water.",
@@ -1095,24 +1387,36 @@
       "url": "https://www.tryexponent.com/questions/5801/find-closest-palindrome-of-a-given-number"
     },
     {
-      "question": "Implement LRU Cache.",
-      "url": "https://www.tryexponent.com/questions/3625/lru-cache"
+      "question": "Find peak element in an array",
+      "url": "https://www.tryexponent.com/questions/5582/find-peak-element"
     },
     {
-      "question": "Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.",
-      "url": "https://www.tryexponent.com/questions/5859/implement-list-iterator"
+      "question": "Find the first missing positive number in an array.",
+      "url": "https://www.tryexponent.com/questions/4163/find-missing-positive-number-array"
+    },
+    {
+      "question": "Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.",
+      "url": "https://www.tryexponent.com/questions/4213/sum-elements-binary-tree-range"
+    },
+    {
+      "question": "Given a binary tree, check if each node is the average of all descendants",
+      "url": "https://www.tryexponent.com/questions/5571/binary-tree-check-node-average-of-descendants"
     },
     {
       "question": "Given a matrix with a rat, bread, cat, and obstacles, find a path from the rat to the bread that maximizes the minimum distance from cat.",
       "url": "https://www.tryexponent.com/questions/5244/safest-path-maximize-minimum-distance-matrix"
     },
     {
+      "question": "Print the top view of nodes in a binary tree.",
+      "url": "https://www.tryexponent.com/questions/5570/top-view-nodes-binary-tree"
+    },
+    {
       "question": "Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",
       "url": "https://www.tryexponent.com/questions/4646/house-robber"
     },
     {
-      "question": "What types of team members do you find difficult to work with?",
-      "url": "https://www.tryexponent.com/questions/4633/difficult-team-members"
+      "question": "Given an array of integers, return the pairs with the minimum absolute difference between them.",
+      "url": "https://www.tryexponent.com/questions/5443/coding-array-pairs-minimum-difference"
     },
     {
       "question": "Code an image-processing pipeline that reads per-image instruction files and applies ordered transformations (e.g., rotate, invert, crop, convert) to large sets of images of varying sizes across mu...",
@@ -1123,16 +1427,12 @@
       "url": "https://www.tryexponent.com/questions/5485/calculate-time-to-process-given-server-response-time"
     },
     {
-      "question": "Tell me about a time when you gave a simple solution to a complex problem.",
-      "url": "https://www.tryexponent.com/questions/4790/behavioral-simple-solution-complex-problem"
+      "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
+      "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k"
     },
     {
       "question": "Find the longest substring without repeating characters.",
       "url": "https://www.tryexponent.com/questions/3260/longest-substring-without-repeat"
-    },
-    {
-      "question": "Build a hit counter that tracks the number of hits in the last 5 minutes, supporting multiple keys (e.g., \u201ca\u201d, \u201cb\u201d). Then, use this counter to implement a simple rate limiter.",
-      "url": "https://www.tryexponent.com/questions/5587/build-counter-with-rate-limiter"
     },
     {
       "question": "Given a list of items with different sizes, write an algorithm to pack these items into the minimum number of batches without exceeding the capacity of each batch.",
@@ -1151,12 +1451,20 @@
       "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence"
     },
     {
+      "question": "Explain how to find a target sum in an array.",
+      "url": "https://www.tryexponent.com/questions/1439/find-target-sum-array"
+    },
+    {
       "question": "Merge Intervals",
       "url": "https://www.tryexponent.com/questions/1602/merge-intervals"
     },
     {
       "question": "Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.",
       "url": "https://www.tryexponent.com/questions/5875/circular-dependencies-in-cells"
+    },
+    {
+      "question": "Given a head node of a linked list, delete k-th node from the end of the list.",
+      "url": "https://www.tryexponent.com/questions/4847/remove-kth-node-linked-list"
     },
     {
       "question": "Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.",
@@ -1167,16 +1475,36 @@
       "url": "https://www.tryexponent.com/questions/5874/word-search"
     },
     {
-      "question": "Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...",
-      "url": "https://www.tryexponent.com/questions/5866/code-review-llm-codebase"
+      "question": "Valid Parentheses",
+      "url": "https://www.tryexponent.com/questions/3447/valid-parentheses"
     },
     {
       "question": "Given an integer, reverse it. Integers are within range [-2^15, 2^15 - 1].",
       "url": "https://www.tryexponent.com/questions/5444/coding-reverse-integer"
     },
     {
-      "question": "Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.",
-      "url": "https://www.tryexponent.com/questions/5427/system-design-meta-audio-system"
+      "question": "Given an array of points and a point P, find the k closest points to P.",
+      "url": "https://www.tryexponent.com/questions/4289/find-k-closest-points-array"
+    },
+    {
+      "question": "Move all zeros to the end of an array.",
+      "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array"
+    },
+    {
+      "question": "Given an array of integers, find the next greater integer for each element in the array.",
+      "url": "https://www.tryexponent.com/questions/5428/array-next-greater-integer"
+    },
+    {
+      "question": "Given an array with objects colored red, white, or blue, sort them so those of the same color are adjacent. Use integers 0, 1, 2 to represent RWB respectively.",
+      "url": "https://www.tryexponent.com/questions/4891/find-colors-leetcode"
+    },
+    {
+      "question": "Product of Array Except Self",
+      "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i"
+    },
+    {
+      "question": "Sort a nearly sorted (or K sorted) array.",
+      "url": "https://www.tryexponent.com/questions/5392/k-sorted-array"
     },
     {
       "question": "Design an algorithm to predict the next word or phrase one is typing on a phone.",
@@ -1187,12 +1515,28 @@
       "url": "https://www.tryexponent.com/questions/1679/implement-k-means-clustering"
     },
     {
+      "question": "Merge two sorted linked list",
+      "url": "https://www.tryexponent.com/questions/5566/merge-two-sorted-linked-list"
+    },
+    {
+      "question": "Given the root of a binary tree, return the length of the diameter of the tree.",
+      "url": "https://www.tryexponent.com/questions/2705/binary-tree-diameter-length"
+    },
+    {
+      "question": "Write functions to serialize and deserialize a list of strings.",
+      "url": "https://www.tryexponent.com/questions/1307/serialize-deserialize-list-strings"
+    },
+    {
       "question": "Implement a function to justify a list of words within a given width.",
       "url": "https://www.tryexponent.com/questions/4216/justify-text-given-width"
     },
     {
       "question": "Write a function to do Excel-style operations.",
       "url": "https://www.tryexponent.com/questions/5823/function-to-do-excel-style-operations"
+    },
+    {
+      "question": "Climbing Stairs",
+      "url": "https://www.tryexponent.com/questions/3255/climbing-stairs"
     },
     {
       "question": "Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user\u2019s remaining credit pool and total avai...",
@@ -1203,6 +1547,10 @@
       "url": "https://www.tryexponent.com/questions/3489/implement-k-nearest-neighbors-algorithm"
     },
     {
+      "question": "Find the median of two sorted arrays.",
+      "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays"
+    },
+    {
       "question": "Find the maximum possible stability of any subset of servers. Return the result modulo 10^9+7. E.g. Consider set of servers where reliability = [1, 2, 2], availability = [1, 1, 3].",
       "url": "https://www.tryexponent.com/questions/4818/maximum-server-stability-subset"
     },
@@ -1211,52 +1559,88 @@
       "url": "https://www.tryexponent.com/questions/3623/find-largest-numbers"
     },
     {
-      "question": "Design and implement logic to synchronize audio playback timing with transcript highlighting.",
-      "url": "https://www.tryexponent.com/questions/5882/design-audio-playback"
+      "question": "Clone a linked list with a random pointer.",
+      "url": "https://www.tryexponent.com/questions/5060/clone-linked-list-with-random-pointer"
+    },
+    {
+      "question": "Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...",
+      "url": "https://www.tryexponent.com/questions/4817/optimize-parentheses-sequence-efficiency"
     },
     {
       "question": "Implement a circular buffer.",
       "url": "https://www.tryexponent.com/questions/4228/implement-a-circular-buffer"
     },
     {
+      "question": "Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.",
+      "url": "https://www.tryexponent.com/questions/5429/find-equilibrium-index-in-array"
+    },
+    {
       "question": "Given an nxn grid of 1s and 0s, return the number of islands in the input.",
       "url": "https://www.tryexponent.com/questions/1420/number-islands"
+    },
+    {
+      "question": "Find a triplet in an array with a given sum.",
+      "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum"
     },
     {
       "question": "Given an array, find the two sum.",
       "url": "https://www.tryexponent.com/questions/1164/find-two-sum"
     },
     {
-      "question": "Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).",
-      "url": "https://www.tryexponent.com/questions/4218/count-prefix-pairs-word-list"
-    },
-    {
       "question": "Given a hierarchical file system with inherited and overridden permissions, write a function to determine whether a user has access to a file at a specific time.",
       "url": "https://www.tryexponent.com/questions/5771/function-check-user-access"
+    },
+    {
+      "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
+      "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection"
+    },
+    {
+      "question": "Linked List Cycle",
+      "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle"
+    },
+    {
+      "question": "Given the root of a binary tree of integers, return the maximum path sum.",
+      "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum"
     },
     {
       "question": "Write a function to return all prime numbers up to a given number n.",
       "url": "https://www.tryexponent.com/questions/3629/prime-numbers"
     },
     {
+      "question": "Given an array of integers and an integer k, find the kth largest element in the array.",
+      "url": "https://www.tryexponent.com/questions/4673/coding-interview-find-kth-largest-element-array"
+    },
+    {
       "question": "Implement the power function without using pow method or or exponentiation operator.",
       "url": "https://www.tryexponent.com/questions/5431/implement-power-function-without-pow-method"
+    },
+    {
+      "question": "Vertical Traversal of a Binary Tree",
+      "url": "https://www.tryexponent.com/questions/5462/vertical-traversal-of-a-binary-tree"
     },
     {
       "question": "Given a castle with rooms named after flowers where each room has an instruction to the next room, write an algorithm to find the rooms containing treasure.",
       "url": "https://www.tryexponent.com/questions/5420/coding-castle-rooms-graph-traversal"
     },
     {
-      "question": "In a large application, which code branches are more important to be tested and how do you decide?",
-      "url": "https://www.tryexponent.com/questions/4931/prioritizing-code-testing-branches"
+      "question": "Count items within compartments between specific indices of an array.",
+      "url": "https://www.tryexponent.com/questions/4221/count-items-compartments-indices"
     },
     {
-      "question": "Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.",
-      "url": "https://www.tryexponent.com/questions/3541/dealing-buggy-code-production"
+      "question": "Sort a binary array in linear time.",
+      "url": "https://www.tryexponent.com/questions/971/sort-binary-array-linear-time"
+    },
+    {
+      "question": "Construct a binary tree given its preorder and inorder traversals.",
+      "url": "https://www.tryexponent.com/questions/3417/construct-binary-tree-preorder-inorder-traversal"
     },
     {
       "question": "What are some new advancements in AI you find interesting?",
       "url": "https://www.tryexponent.com/questions/5679/new-interesting-ai-advancements"
+    },
+    {
+      "question": "Merge k sorted linked lists.",
+      "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists"
     },
     {
       "question": "Fibonacci Numbers",
@@ -1267,20 +1651,24 @@
       "url": "https://www.tryexponent.com/questions/3848/find-maximum-depth-dependencies-nodes"
     },
     {
-      "question": "Tell me about a time when you conceived an innovative solution to a problem.",
-      "url": "https://www.tryexponent.com/questions/1363/time-innovative-solution-problem"
-    },
-    {
-      "question": "How do you ensure code quality?",
-      "url": "https://www.tryexponent.com/questions/3209/ensure-code-quality"
+      "question": "Find the closest number in a sorted array.",
+      "url": "https://www.tryexponent.com/questions/3266/closest-number-sorted-array"
     },
     {
       "question": "Given a string, return the number of vowel substrings ('a', 'e', 'i', 'o', 'u') that include all five vowels.",
       "url": "https://www.tryexponent.com/questions/2937/count-vowel-substrings-all-five-vowels"
     },
     {
-      "question": "Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...",
-      "url": "https://www.tryexponent.com/questions/5840/replace-excel-based-process-for-voice-dubbing"
+      "question": "Search in rotated sorted array",
+      "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array"
+    },
+    {
+      "question": "Build a hash tree algorithm.",
+      "url": "https://www.tryexponent.com/questions/5839/build-hash-tree-algorithm"
+    },
+    {
+      "question": "Find the maximum subarray sum.",
+      "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum"
     },
     {
       "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
@@ -1291,12 +1679,24 @@
       "url": "https://www.tryexponent.com/questions/4503/find-row-maximum-ones-binary-matrix"
     },
     {
+      "question": "Squares of sorted array",
+      "url": "https://www.tryexponent.com/questions/3824/square-of-sorted-array"
+    },
+    {
       "question": "Implement the memcpy() function in C.",
       "url": "https://www.tryexponent.com/questions/4227/implement-memcpy-function"
     },
     {
-      "question": "Write a function to print 1 to n without using a loop.",
-      "url": "https://www.tryexponent.com/questions/4618/print-to-n-no-loop"
+      "question": "Find the number of rotations in a circularly sorted array.",
+      "url": "https://www.tryexponent.com/questions/1139/find-number-of-rotations-circularly-sorted-array"
+    },
+    {
+      "question": "Print the left view of a binary tree.",
+      "url": "https://www.tryexponent.com/questions/1473/print-left-view-binary-tree"
+    },
+    {
+      "question": "Determine if a given binary tree is a binary search tree (BST).",
+      "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst"
     },
     {
       "question": "Merge two sorted lists",
@@ -1311,6 +1711,18 @@
       "url": "https://www.tryexponent.com/questions/5234/you-are-given-m-n-matrix-find-if-any-row-column-or-diagonal-has-all-boolean-true-find-for-diagonals-"
     },
     {
+      "question": "Partition an array into two sub-arrays with equal sum.",
+      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
+    },
+    {
+      "question": "Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.",
+      "url": "https://www.tryexponent.com/questions/3438/largest-island-perimeter-2d-array"
+    },
+    {
+      "question": "Given arrays of varying lengths, how would you pad them efficiently?",
+      "url": "https://www.tryexponent.com/questions/5906/array-padding"
+    },
+    {
       "question": "Find the minimum window substring.",
       "url": "https://www.tryexponent.com/questions/1687/minimum-window-substring"
     },
@@ -1319,12 +1731,32 @@
       "url": "https://www.tryexponent.com/questions/5418/return-value-pascal-triangle-position"
     },
     {
+      "question": "Given an array 'nums' with n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",
+      "url": "https://www.tryexponent.com/questions/4253/find-missing-number-array-range"
+    },
+    {
+      "question": "Solve John Conway's \"Game of Life\".",
+      "url": "https://www.tryexponent.com/questions/4338/game-of-life"
+    },
+    {
       "question": "You're given a time-based key-value store that keeps having new key-value pairs added. Implement a windowed average.",
       "url": "https://www.tryexponent.com/questions/4311/implement-windowed-average-time-based-key-value-store"
     },
     {
+      "question": "Given a binary array where an operation cycles a row's elements to the left or right, return the minimum number of operations needed to create a column of 1s. If not possible, return 0.",
+      "url": "https://www.tryexponent.com/questions/4187/min-operations-binary-array-column-ones"
+    },
+    {
+      "question": "Calculate the trapped rainwater between bars in a given array.",
+      "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars"
+    },
+    {
       "question": "Implement a phrase search in a list of documents.",
       "url": "https://www.tryexponent.com/questions/4312/implement-phrase-search-algorithm-documents"
+    },
+    {
+      "question": "Implement a search algorithm for multiple records using backtracking.",
+      "url": "https://www.tryexponent.com/questions/4304/search-multiple-records-backtracking"
     },
     {
       "question": "Write a function to check whether a string contains a substring.",
@@ -1339,20 +1771,20 @@
       "url": "https://www.tryexponent.com/questions/4625/palindromic-substrings"
     },
     {
-      "question": "Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.",
-      "url": "https://www.tryexponent.com/questions/4640/shortest-subsequence-cyclic-string"
-    },
-    {
-      "question": "Design a module to fetch a unique User ID from a pool of available User IDs and return the ID to the pool for later use.",
-      "url": "https://www.tryexponent.com/questions/3536/design-module-fetch-return-unique-user-id-pool"
+      "question": "Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.",
+      "url": "https://www.tryexponent.com/questions/4416/binary-tree-vertical-order-traversal"
     },
     {
       "question": "Calculate the number of times a pattern appears in a string.",
       "url": "https://www.tryexponent.com/questions/3039/calculate-pattern-frequency-in-string"
     },
     {
-      "question": "Tell me about a time when your approach was selected and successfully implemented over other alternatives.",
-      "url": "https://www.tryexponent.com/questions/5121/your-champion-idea"
+      "question": "Build a Basic Regex Parser",
+      "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser"
+    },
+    {
+      "question": "Given an array of n integers and a number k, find the maximum number of elements whose sum is less than k, and return their sum.",
+      "url": "https://www.tryexponent.com/questions/4638/max-elements-sum-less-than-k"
     },
     {
       "question": "Return all unique substrings of a given string.",
@@ -1367,20 +1799,16 @@
       "url": "https://www.tryexponent.com/questions/1980/minimum-operations-convert-string"
     },
     {
-      "question": "Find the length of the shortest word ladder.",
-      "url": "https://www.tryexponent.com/questions/3248/shortest-word-ladder-length"
-    },
-    {
-      "question": "How do you troubleshoot bugs in your code?",
-      "url": "https://www.tryexponent.com/questions/3225/troubleshoot-bugs-in-code"
-    },
-    {
       "question": "Find duplicate files in a file system.",
       "url": "https://www.tryexponent.com/questions/2115/find-duplicate-files-file-system"
     },
     {
       "question": "Implement a JavaScript function for Promise.all().",
       "url": "https://www.tryexponent.com/questions/2276/implement-javascript-promise-all"
+    },
+    {
+      "question": "Transform a flat array of objects into a nested list.",
+      "url": "https://www.tryexponent.com/questions/4219/transform-flat-array-nested-list"
     },
     {
       "question": "Find the palindromes.",
@@ -1399,8 +1827,20 @@
       "url": "https://www.tryexponent.com/questions/4424/implement-merge-sort"
     },
     {
+      "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
+      "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree"
+    },
+    {
       "question": "Implement wildcard pattern matching for a string (s) and a pattern (p) with '?' and '*' in a way that covers the entire input string.",
       "url": "https://www.tryexponent.com/questions/2793/implement-wildcard-pattern-matching"
+    },
+    {
+      "question": "Array Manipulation: Given an array, implement functions to perform add, remove, update operations and return the resulting array.",
+      "url": "https://www.tryexponent.com/questions/4951/coding-array-manipulation"
+    },
+    {
+      "question": "Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.",
+      "url": "https://www.tryexponent.com/questions/4939/can-jump-game-reach-last-index"
     },
     {
       "question": "Given a list of integers, return 1 if the integer is a power of 2 and 0 if it is not.",
@@ -1415,32 +1855,68 @@
       "url": "https://www.tryexponent.com/questions/2275/conversion-ratio-symbols"
     },
     {
+      "question": "Given an array, print the Next Greater Element (NGE) for each element. The NGE for an element x is the first greater element on the right side of x in the array, or -1 if none exists.",
+      "url": "https://www.tryexponent.com/questions/2356/next-greater-element-array"
+    },
+    {
+      "question": "Given two integers represented by two arrays, return the product of the two integers in the same array format.",
+      "url": "https://www.tryexponent.com/questions/2237/array-representation-integer-product"
+    },
+    {
+      "question": "Explain the time complexity differences between ArrayList and LinkedList.",
+      "url": "https://www.tryexponent.com/questions/4211/time-complexity-arraylist-vs-linkedlist"
+    },
+    {
       "question": "Given a fully or partially attempted 9x9 Sudoku board, determine if it is a valid solution.",
       "url": "https://www.tryexponent.com/questions/4310/validate-sudoku-board-solution"
     },
     {
-      "question": "Find the shortest distance between two points.",
-      "url": "https://www.tryexponent.com/questions/3219/find-shortest-distance-between-points"
+      "question": "Invert binary tree.",
+      "url": "https://www.tryexponent.com/questions/4737/invert-binary-tree"
+    },
+    {
+      "question": "Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.",
+      "url": "https://www.tryexponent.com/questions/2066/heights-buildings-sea-view-from-beach"
     },
     {
       "question": "Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.",
       "url": "https://www.tryexponent.com/questions/2358/leetcode-1010-pairs-of-songs"
     },
     {
+      "question": "Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...",
+      "url": "https://www.tryexponent.com/questions/2065/find-element-given-position-sorted-unsorted-array"
+    },
+    {
       "question": "Given a string S, determine if it can be converted into a palindrome by making at most one swap of two characters.",
       "url": "https://www.tryexponent.com/questions/4644/palindrome-swap"
     },
     {
-      "question": "Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.",
-      "url": "https://www.tryexponent.com/questions/5854/implement-sql-parser"
+      "question": "Serialize and deserialize binary tree",
+      "url": "https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree"
+    },
+    {
+      "question": "Find the maximum subarray product",
+      "url": "https://www.tryexponent.com/questions/5170/find-the-maximum-subarray-product"
+    },
+    {
+      "question": "Abbreviate an array of strings.",
+      "url": "https://www.tryexponent.com/questions/3221/abbreviate-array-of-strings"
     },
     {
       "question": "Find the distance between two points in 3D space.",
       "url": "https://www.tryexponent.com/questions/3213/find-distance-between-two-points-3d-space"
     },
     {
+      "question": "Implement a doubly linked list.",
+      "url": "https://www.tryexponent.com/questions/3220/implement-doubly-linked-list"
+    },
+    {
       "question": "Find points closest to the origin.",
       "url": "https://www.tryexponent.com/questions/2095/find-points-closest-origin"
+    },
+    {
+      "question": "Calculate the height of a binary tree.",
+      "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree"
     },
     {
       "question": "Print all possible solutions to the N-Queens problem.",
@@ -1451,23 +1927,167 @@
       "url": "https://www.tryexponent.com/questions/4298/child-parent-relation-lca-without-pointers"
     },
     {
-      "question": "Design a system that calculates the Peak-Period Price (surge pricing), given that it is calculated based on the number of opened apps (users) in some area divided by the number of drivers in the sa...",
-      "url": "https://www.tryexponent.com/questions/2867/design-system-peak-period-price-calculation"
+      "question": "Find the minimum and maximum elements in an array using minimum comparisons.",
+      "url": "https://www.tryexponent.com/questions/1144/find-minimum-maximum-elements-array-minimum-comparisons"
+    },
+    {
+      "question": "Closest Subarray Sum to Target.",
+      "url": "https://www.tryexponent.com/questions/5556/closest-subarray-sum-to-target"
+    },
+    {
+      "question": "Implement a string sorting algorithm, treating digits as numbers.",
+      "url": "https://www.tryexponent.com/questions/2059/implement-string-sorting-algorithm-treating-digits-as-numbers"
+    },
+    {
+      "question": "Given an unsorted array, find duplicate elements in constant time, without using inbuilt functions of python.",
+      "url": "https://www.tryexponent.com/questions/4716/unsorted-array-find-duplicates"
+    },
+    {
+      "question": "Find the maximum product subarray in a given array.",
+      "url": "https://www.tryexponent.com/questions/1126/maximum-product-subarray"
     },
     {
       "question": "Given 2 strings, return the longest common substring.",
       "url": "https://www.tryexponent.com/questions/1168/longest-common-substring"
     },
     {
+      "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
+      "url": "https://www.tryexponent.com/questions/4491/candy"
+    },
+    {
       "question": "Given two dates, return the number of days between them.",
       "url": "https://www.tryexponent.com/questions/4645/number-of-days"
+    },
+    {
+      "question": "Implement an in-place merge of two sorted arrays.",
+      "url": "https://www.tryexponent.com/questions/1117/in-place-merge-two-sorted-arrays"
+    },
+    {
+      "question": "Check if a given binary tree is a complete binary tree.",
+      "url": "https://www.tryexponent.com/questions/1154/check-complete-binary-tree"
     }
   ],
-  "Object-Oriented Design": [
+  "Project Management": [
+    {
+      "question": "What is the project you are most proud of?",
+      "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of"
+    },
+    {
+      "question": "If you have 2 clients requesting very different features for the same product, how would you prioritize them?",
+      "url": "https://www.tryexponent.com/questions/5047/client-feature-request-prioritize"
+    },
+    {
+      "question": "Describe a challenging project you worked on and what made it difficult.",
+      "url": "https://www.tryexponent.com/questions/939/challenging-project-description"
+    },
+    {
+      "question": "Describe the most technically complex project you have worked on and explain why it was complex.",
+      "url": "https://www.tryexponent.com/questions/1518/technically-complex-project-description"
+    },
+    {
+      "question": "What is a technical challenge you faced in your previous project?",
+      "url": "https://www.tryexponent.com/questions/1489/technical-challenge-previous-project"
+    },
+    {
+      "question": "Present a shipped project you led end-to-end.",
+      "url": "https://www.tryexponent.com/questions/5815/present-project-led-end-to-end"
+    },
+    {
+      "question": "Prepare a presentation about a complex project you led from start to finish.",
+      "url": "https://www.tryexponent.com/questions/1264/presentation-complex-project-led"
+    },
+    {
+      "question": "If given a chance, what would you change about a project, and why?",
+      "url": "https://www.tryexponent.com/questions/2079/change-project-given-chance"
+    }
+  ],
+  "Concurrency": [
     {
       "question": "Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.",
       "url": "https://www.tryexponent.com/questions/5638/factory-grid-robots"
     },
+    {
+      "question": "Build a web crawler with multi-threading.",
+      "url": "https://www.tryexponent.com/questions/5806/build-web-crawler-with-multi-threading"
+    },
+    {
+      "question": "Explain multithreading.",
+      "url": "https://www.tryexponent.com/questions/3264/explain-multithreading"
+    },
+    {
+      "question": "What do you do if your team is blocking you?",
+      "url": "https://www.tryexponent.com/questions/3263/handling-team-blocking-issues"
+    }
+  ],
+  "Data Pipeline Design": [
+    {
+      "question": "Design a system that ingests book reviews from Amazon.com and provides book recommendations on your website.",
+      "url": "https://www.tryexponent.com/questions/3954/design-system-ingest-amazon-book-reviews-recommendations"
+    },
+    {
+      "question": "Design a streaming service like Netflix.",
+      "url": "https://www.tryexponent.com/questions/1677/design-streaming-service-netflix"
+    },
+    {
+      "question": "Design an alarm system for streaming metrics.",
+      "url": "https://www.tryexponent.com/questions/5855/alarm-system-for-streaming-metrics"
+    }
+  ],
+  "Technical Communication": [
+    {
+      "question": "Explain malloc, calloc, and reelloc.",
+      "url": "https://www.tryexponent.com/questions/5562/explain-malloc-calloc-and-relloc"
+    },
+    {
+      "question": "Explain how RAG works.",
+      "url": "https://www.tryexponent.com/questions/5877/explain-rag"
+    },
+    {
+      "question": "Describe a situation where, in hindsight, you would have done things differently.",
+      "url": "https://www.tryexponent.com/questions/5143/situation-in-hindsight"
+    },
+    {
+      "question": "Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).",
+      "url": "https://www.tryexponent.com/questions/3427/difference-cnn-rnn"
+    },
+    {
+      "question": "Explain callback functions.",
+      "url": "https://www.tryexponent.com/questions/4620/explain-callback-functions"
+    },
+    {
+      "question": "Explain how garbage collection works in programming.",
+      "url": "https://www.tryexponent.com/questions/4884/garbage-collection-memory-management"
+    },
+    {
+      "question": "Explain the sort function.",
+      "url": "https://www.tryexponent.com/questions/3215/explain-sort-function"
+    },
+    {
+      "question": "Explain a piece of software you built.",
+      "url": "https://www.tryexponent.com/questions/3212/explain-a-piece-of-software-you-built"
+    },
+    {
+      "question": "Explain the map function.",
+      "url": "https://www.tryexponent.com/questions/3217/explain-map-function"
+    },
+    {
+      "question": "Explain tic tac toe end games.",
+      "url": "https://www.tryexponent.com/questions/2664/explain-tic-tac-toe-end-games"
+    },
+    {
+      "question": "Explain the filter function.",
+      "url": "https://www.tryexponent.com/questions/3216/explain-filter-function"
+    },
+    {
+      "question": "Explain the memory changes that occur when executing: Object o = new Object().",
+      "url": "https://www.tryexponent.com/questions/4208/memory-changes-object-instantiation-java"
+    },
+    {
+      "question": "Describe your GPU programming experience.",
+      "url": "https://www.tryexponent.com/questions/4595/describe-gpu-programming-experience"
+    }
+  ],
+  "Object-Oriented Design": [
     {
       "question": "Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.",
       "url": "https://www.tryexponent.com/questions/5859/implement-list-iterator"
@@ -1505,164 +2125,97 @@
       "url": "https://www.tryexponent.com/questions/4641/explain-polymorphism"
     }
   ],
-  "Debugging": [
+  "Data Structures & Algorithms": [
     {
-      "question": "Find the longest common prefix given two integer arrays.",
-      "url": "https://www.tryexponent.com/questions/5639/longest-common-prefix"
+      "question": "Lexicographic Grid Travel.",
+      "url": "https://www.tryexponent.com/questions/5567/lexicographic-grid-travel"
     },
     {
-      "question": "Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).",
-      "url": "https://www.tryexponent.com/questions/4218/count-prefix-pairs-word-list"
+      "question": "Write a function that converts stack samples into a trace, given example inputs and outputs, in a Google Colab environment.",
+      "url": "https://www.tryexponent.com/questions/5789/convert-stack-samples-to-trace"
     },
     {
-      "question": "Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.",
-      "url": "https://www.tryexponent.com/questions/3541/dealing-buggy-code-production"
+      "question": "Implement inorder traversal for an N-ary tree.",
+      "url": "https://www.tryexponent.com/questions/4697/n-ary-inorder-traversal"
     },
     {
-      "question": "If GPU utilization is low during training, how would you debug and benchmark performance?",
-      "url": "https://www.tryexponent.com/questions/5908/debug-benchmark-performance"
+      "question": "Detect cycle in graph",
+      "url": "https://www.tryexponent.com/questions/5464/detect-cycle-in-graph"
     },
     {
-      "question": "How do you troubleshoot bugs in your code?",
-      "url": "https://www.tryexponent.com/questions/3225/troubleshoot-bugs-in-code"
+      "question": "Delete Node in a Binary Search Tree (BST).",
+      "url": "https://www.tryexponent.com/questions/5156/delete-node-binary-search-tree"
     },
     {
-      "question": "Debug a build/CI system for a particular scenario or slow builds.",
-      "url": "https://www.tryexponent.com/questions/2213/debug-build-ci-system-scenario"
-    }
-  ],
-  "Testing": [
-    {
-      "question": "Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...",
-      "url": "https://www.tryexponent.com/questions/5866/code-review-llm-codebase"
+      "question": "Explain the differences between stack and heap memory allocation.",
+      "url": "https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences"
     },
     {
-      "question": "Tell me about your greatest success.",
-      "url": "https://www.tryexponent.com/questions/141/greatest-success"
+      "question": "Implement a decode and encode function of a general N-ary tree.",
+      "url": "https://www.tryexponent.com/questions/4516/decode-encode-function-general-tree"
     },
     {
-      "question": "How do you stay up-to-date with the latest developments in AI?",
-      "url": "https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai"
+      "question": "How can you tell if a graph is not a tree?",
+      "url": "https://www.tryexponent.com/questions/2798/determine-graph-not-tree"
     },
     {
-      "question": "In a large application, which code branches are more important to be tested and how do you decide?",
-      "url": "https://www.tryexponent.com/questions/4931/prioritizing-code-testing-branches"
+      "question": "Implement a red-black tree.",
+      "url": "https://www.tryexponent.com/questions/3224/implement-red-black-tree"
     },
     {
-      "question": "Design an AB test system.",
-      "url": "https://www.tryexponent.com/questions/3097/design-ab-test-system"
+      "question": "What's the difference between LangGraph and LangSmith?",
+      "url": "https://www.tryexponent.com/questions/5856/langgraph-vs-langsmith"
     },
     {
-      "question": "Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.",
-      "url": "https://www.tryexponent.com/questions/4640/shortest-subsequence-cyclic-string"
+      "question": "Implement a hashmap without using any libraries.",
+      "url": "https://www.tryexponent.com/questions/4686/design-hashmap"
     },
     {
-      "question": "Find the length of the shortest word ladder.",
-      "url": "https://www.tryexponent.com/questions/3248/shortest-word-ladder-length"
+      "question": "Why use a message queue?",
+      "url": "https://www.tryexponent.com/questions/3223/why-use-message-queue"
+    },
+    {
+      "question": "What is a full-stack developer?",
+      "url": "https://www.tryexponent.com/questions/3986/what-is-full-stack-developer"
     },
     {
       "question": "Find the shortest path in a graph.",
       "url": "https://www.tryexponent.com/questions/2094/find-shortest-path-graph"
     },
     {
-      "question": "Find the shortest distance between two points.",
-      "url": "https://www.tryexponent.com/questions/3219/find-shortest-distance-between-points"
+      "question": "Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth...",
+      "url": "https://www.tryexponent.com/questions/2411/minimum-iterations-information-distribution-n-ary-tree"
     },
     {
-      "question": "What are the different types of software testing?",
-      "url": "https://www.tryexponent.com/questions/4643/software-testing-types"
+      "question": "How does a graphics processing unit (GPU) work?",
+      "url": "https://www.tryexponent.com/questions/4606/how-does-a-gpu-work"
     },
     {
-      "question": "How do you test mobile phones?",
-      "url": "https://www.tryexponent.com/questions/2775/how-test-mobile-phones"
-    }
-  ],
-  "Architecture": [],
-  "Scalability": [
-    {
-      "question": "Present a recent project with big scale and cross-functional involvement.",
-      "url": "https://www.tryexponent.com/questions/5783/present-big-cross-functional-project"
+      "question": "Find the longest palindromic subsequence using dynamic programming.",
+      "url": "https://www.tryexponent.com/questions/1169/longest-palindromic-subsequence-dynamic-programming"
     },
     {
-      "question": "How do you think your supervisor will rate you from a scale of 1-10?",
-      "url": "https://www.tryexponent.com/questions/5147/supervisor-rating"
-    }
-  ],
-  "Databases": [
-    {
-      "question": "Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.",
-      "url": "https://www.tryexponent.com/questions/5822/implement-key-value-store"
+      "question": "Explain how hash maps work.",
+      "url": "https://www.tryexponent.com/questions/4209/how-hash-map-works"
     },
     {
-      "question": "Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.",
-      "url": "https://www.tryexponent.com/questions/5859/implement-list-iterator"
+      "question": "Implement a queue using stacks.",
+      "url": "https://www.tryexponent.com/questions/4684/queue-using-stacks"
     },
     {
-      "question": "Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.",
-      "url": "https://www.tryexponent.com/questions/5429/find-equilibrium-index-in-array"
+      "question": "Given a graph with N nodes and M edges, identify its network topology. Return 1 for Bus (linear chain), 2 for Star (one central node), 3 for Ring (circular), or -1 if none match.",
+      "url": "https://www.tryexponent.com/questions/4926/coding-identify-network-topology-graph"
     },
     {
-      "question": "Get the top API users based on transaction logs.",
-      "url": "https://www.tryexponent.com/questions/4220/top-api-users-transaction-logs"
+      "question": "What are the key concepts and operations associated with trees?",
+      "url": "https://www.tryexponent.com/questions/2355/key-concepts-in-trees"
     },
     {
-      "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
-      "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql"
-    },
-    {
-      "question": "What is the difference between NoSQL and SQL?",
-      "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql"
-    },
-    {
-      "question": "Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.",
-      "url": "https://www.tryexponent.com/questions/4503/find-row-maximum-ones-binary-matrix"
-    },
-    {
-      "question": "Design the architecture to send chargeback transactions to Visa.",
-      "url": "https://www.tryexponent.com/questions/4655/system-design-visa-chargeback-transaction"
-    },
-    {
-      "question": "When designing a chat application, how would you decide between using SQL and NoSQL databases?",
-      "url": "https://www.tryexponent.com/questions/5617/chat-app-sql-vs-nosql"
-    },
-    {
-      "question": "Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.",
-      "url": "https://www.tryexponent.com/questions/4370/minimum-transactions-debt-settlement-algorithm"
-    },
-    {
-      "question": "Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.",
-      "url": "https://www.tryexponent.com/questions/4939/can-jump-game-reach-last-index"
-    },
-    {
-      "question": "Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.",
-      "url": "https://www.tryexponent.com/questions/5854/implement-sql-parser"
+      "question": "What's your experience with 3D graphics?",
+      "url": "https://www.tryexponent.com/questions/4605/3d-graphics-experience"
     }
   ],
   "APIs": [
-    {
-      "question": "Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.",
-      "url": "https://www.tryexponent.com/questions/4090/design-system-deny-service-banned-ips"
-    },
-    {
-      "question": "If you have 2 clients requesting very different features for the same product, how would you prioritize them?",
-      "url": "https://www.tryexponent.com/questions/5047/client-feature-request-prioritize"
-    },
-    {
-      "question": "Design a banking system to facilitate account creation, deposits, transfers, and listing the most active accounts by total monetary activity, with commands entered via parsing CSV/JSON.",
-      "url": "https://www.tryexponent.com/questions/4046/design-banking-system-csv-json-commands"
-    },
-    {
-      "question": "Given a list with response time for each server, calculate how long time it will take to process n requests.",
-      "url": "https://www.tryexponent.com/questions/5485/calculate-time-to-process-given-server-response-time"
-    },
-    {
-      "question": "Design a Yelp-like restaurant review app.",
-      "url": "https://www.tryexponent.com/questions/5621/design-yelp"
-    },
-    {
-      "question": "Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.",
-      "url": "https://www.tryexponent.com/questions/5599/design-scalable-token-generation-service"
-    },
     {
       "question": "Given a list of car rental requests with start and end times, assign cars to rentals such that the total number of cars used is minimized.",
       "url": "https://www.tryexponent.com/questions/5425/assign-cars-minimize-total-cars-rented"
@@ -1672,52 +2225,12 @@
       "url": "https://www.tryexponent.com/questions/798/what-is-an-api-and-how-does-it-work"
     },
     {
-      "question": "Tell me about a time when you underestimated someone you were supposed to work with.",
-      "url": "https://www.tryexponent.com/questions/4224/underestimate-coworker-experience"
-    },
-    {
-      "question": "Tell me about a time you put someone else\u2019s interests above your own.",
-      "url": "https://www.tryexponent.com/questions/5119/putting-someones-interest-above-your-own"
-    },
-    {
-      "question": "Design a 5:1 audio system for WhatsApp, Instagram, and Messenger, including hardware interfaces, codecs, API endpoints, and the value proposition for Meta.",
-      "url": "https://www.tryexponent.com/questions/5427/system-design-meta-audio-system"
-    },
-    {
-      "question": "Design a search system that adapts to constantly changing user interests.",
-      "url": "https://www.tryexponent.com/questions/5615/design-search-system-adapting-to-user-interests"
-    },
-    {
-      "question": "Implement a k-nearest neighbors algorithm.",
-      "url": "https://www.tryexponent.com/questions/3489/implement-k-nearest-neighbors-algorithm"
-    },
-    {
-      "question": "Design a rate limiter for a microservices API.",
-      "url": "https://www.tryexponent.com/questions/3318/design-rate-limiter-microservices-api"
-    },
-    {
-      "question": "Design APIs for Facebook live commenting.",
-      "url": "https://www.tryexponent.com/questions/1747/design-api-facebook-live-commenting"
-    },
-    {
       "question": "Get the top API users based on transaction logs.",
       "url": "https://www.tryexponent.com/questions/4220/top-api-users-transaction-logs"
     },
     {
-      "question": "Design a web scraping engine.",
-      "url": "https://www.tryexponent.com/questions/4840/design-web-scraping-engine"
-    },
-    {
-      "question": "What are some new advancements in AI you find interesting?",
-      "url": "https://www.tryexponent.com/questions/5679/new-interesting-ai-advancements"
-    },
-    {
       "question": "How does an HTTP request work?",
       "url": "https://www.tryexponent.com/questions/1206/how-http-request-works"
-    },
-    {
-      "question": "Design an API for searching a folder.",
-      "url": "https://www.tryexponent.com/questions/2272/design-api-searching-folder"
     },
     {
       "question": "Why are you interested in working at Bloomberg?",
@@ -1728,10 +2241,6 @@
       "url": "https://www.tryexponent.com/questions/4597/nvidia-tech-industry"
     },
     {
-      "question": "Design a restaurant application that gives the expected waiting time based on waiters, tables, and customers.",
-      "url": "https://www.tryexponent.com/questions/2072/design-restaurant-app-waiting-time"
-    },
-    {
       "question": "What activities or strategies do you use to keep yourself motivated and interested in coding?",
       "url": "https://www.tryexponent.com/questions/4626/strategies-to-keep-motivated-at-coding"
     },
@@ -1740,33 +2249,67 @@
       "url": "https://www.tryexponent.com/questions/5150/teach-something-interesting"
     }
   ],
-  "Security": [
+  "Testing": [
     {
-      "question": "Design a system to deny services to requests from banned IPs, as per information provided by security.gov.x.",
-      "url": "https://www.tryexponent.com/questions/4090/design-system-deny-service-banned-ips"
+      "question": "Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...",
+      "url": "https://www.tryexponent.com/questions/5866/code-review-llm-codebase"
     },
     {
-      "question": "Design a plan to migrate an existing authentication system to a new one.",
-      "url": "https://www.tryexponent.com/questions/5394/authentication-system-migration"
+      "question": "Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.",
+      "url": "https://www.tryexponent.com/questions/4640/shortest-subsequence-cyclic-string"
     },
     {
-      "question": "How do you balance delivery with security concerns?",
-      "url": "https://www.tryexponent.com/questions/5786/delivery-vs-security"
+      "question": "Find the length of the shortest word ladder.",
+      "url": "https://www.tryexponent.com/questions/3248/shortest-word-ladder-length"
     },
     {
-      "question": "How much do you care about safety and security?",
-      "url": "https://www.tryexponent.com/questions/5784/safety-security-care"
+      "question": "Find the shortest distance between two points.",
+      "url": "https://www.tryexponent.com/questions/3219/find-shortest-distance-between-points"
+    },
+    {
+      "question": "What are the different types of software testing?",
+      "url": "https://www.tryexponent.com/questions/4643/software-testing-types"
+    }
+  ],
+  "Leadership": [
+    {
+      "question": "Describe an experience working in a cross-functional team.",
+      "url": "https://www.tryexponent.com/questions/310/experience-cross-functional-team"
+    }
+  ],
+  "Debugging": [
+    {
+      "question": "Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).",
+      "url": "https://www.tryexponent.com/questions/4218/count-prefix-pairs-word-list"
+    },
+    {
+      "question": "Debug a build/CI system for a particular scenario or slow builds.",
+      "url": "https://www.tryexponent.com/questions/2213/debug-build-ci-system-scenario"
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Design an agent that selects music based on real-world signals like weather.",
+      "url": "https://www.tryexponent.com/questions/5909/design-music-agent"
+    },
+    {
+      "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
+      "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql"
+    },
+    {
+      "question": "What is the difference between NoSQL and SQL?",
+      "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql"
+    },
+    {
+      "question": "When designing a chat application, how would you decide between using SQL and NoSQL databases?",
+      "url": "https://www.tryexponent.com/questions/5617/chat-app-sql-vs-nosql"
+    },
+    {
+      "question": "Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.",
+      "url": "https://www.tryexponent.com/questions/5854/implement-sql-parser"
     }
   ],
   "Performance Optimization": [
-    {
-      "question": "Design a performance tracking app for cyclists.",
-      "url": "https://www.tryexponent.com/questions/4712/design-cyclist-performance-tracking-app"
-    },
-    {
-      "question": "Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...",
-      "url": "https://www.tryexponent.com/questions/4817/optimize-parentheses-sequence-efficiency"
-    },
     {
       "question": "What techniques can be used to optimize write performance from memory to disk?",
       "url": "https://www.tryexponent.com/questions/5618/write-performance-memory-disk"
@@ -1776,990 +2319,22 @@
       "url": "https://www.tryexponent.com/questions/5908/debug-benchmark-performance"
     }
   ],
-  "Concurrency": [
-    {
-      "question": "Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.",
-      "url": "https://www.tryexponent.com/questions/5638/factory-grid-robots"
-    },
-    {
-      "question": "Build a web crawler with multi-threading.",
-      "url": "https://www.tryexponent.com/questions/5806/build-web-crawler-with-multi-threading"
-    },
-    {
-      "question": "Explain multithreading.",
-      "url": "https://www.tryexponent.com/questions/3264/explain-multithreading"
-    },
-    {
-      "question": "What do you do if your team is blocking you?",
-      "url": "https://www.tryexponent.com/questions/3263/handling-team-blocking-issues"
-    },
-    {
-      "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
-      "url": "https://www.tryexponent.com/questions/4325/spiral-matrix"
-    }
-  ],
   "Distributed Systems": [
     {
-      "question": "Design a distributed logging system.",
-      "url": "https://www.tryexponent.com/questions/4986/design-distributed-logging-system"
-    },
-    {
-      "question": "Design a system to schedule jobs in a distributed environment.",
-      "url": "https://www.tryexponent.com/questions/3650/design-system-schedule-jobs-distributed-environment"
-    },
-    {
-      "question": "Design a distributed file system.",
-      "url": "https://www.tryexponent.com/questions/3257/design-distributed-file-system"
-    },
-    {
-      "question": "Tell me about a project where you applied the CAP theorem.",
-      "url": "https://www.tryexponent.com/questions/4450/project-applying-cap-theorem"
-    },
-    {
-      "question": "Design a rate limiter for a microservices API.",
-      "url": "https://www.tryexponent.com/questions/3318/design-rate-limiter-microservices-api"
-    },
-    {
       "question": "Explain how microservices work.",
       "url": "https://www.tryexponent.com/questions/3249/explain-microservices-functionality"
-    },
-    {
-      "question": "Partition an array into two sub-arrays with equal sum.",
-      "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum"
-    },
-    {
-      "question": "Design a microservices architecture using Java Spring Boot.",
-      "url": "https://www.tryexponent.com/questions/5155/java-spring-boot-micro"
-    },
-    {
-      "question": "Design a distributed training system for a trillion-parameter language model.",
-      "url": "https://www.tryexponent.com/questions/5907/design-distributed-training-system"
     }
   ],
-  "Problem Solving": [
+  "Security": [
     {
-      "question": "+ Share interview",
-      "url": "https://www.tryexponent.com/questions/contribute"
-    },
-    {
-      "question": "Share interview",
-      "url": "https://www.tryexponent.com/questions/contribute"
-    },
-    {
-      "question": "Tell me about something you built end-to-end without relying on others.",
-      "url": "https://www.tryexponent.com/questions/5898/independent-project"
-    },
-    {
-      "question": "I was asked this",
-      "url": "https://www.tryexponent.com/questions/contribute?basedOn=5898"
-    },
-    {
-      "question": "Why do you think we should not hire you?",
-      "url": "https://www.tryexponent.com/questions/4629/why-no-hire"
-    },
-    {
-      "question": "Why do you want to switch jobs now?",
-      "url": "https://www.tryexponent.com/questions/5459/reason-switch-jobs"
-    },
-    {
-      "question": "Design Google Docs.",
-      "url": "https://www.tryexponent.com/questions/5799/design-google-docs"
-    },
-    {
-      "question": "+ Share interview experience",
-      "url": "https://www.tryexponent.com/questions/contribute"
-    },
-    {
-      "question": "Tell me about yourself.",
-      "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself"
-    },
-    {
-      "question": "Tell me about the most challenging situation you faced in your career and how you handled it.",
-      "url": "https://www.tryexponent.com/questions/3169/most-challenging-situation-career-response"
-    },
-    {
-      "question": "Design Robinhood.",
-      "url": "https://www.tryexponent.com/questions/5804/design-robinhood"
-    },
-    {
-      "question": "Maximum Number of Visible Points",
-      "url": "https://www.tryexponent.com/questions/5627/maximum-number-of-visible-points"
-    },
-    {
-      "question": "What Gen AI skills do you think will be critical in the next year?",
-      "url": "https://www.tryexponent.com/questions/5683/future-gen-ai-skills"
-    },
-    {
-      "question": "If you had to work on five different projects, how would you prioritize them?",
-      "url": "https://www.tryexponent.com/questions/947/prioritize-five-different-projects"
-    },
-    {
-      "question": "How would you approach learning about a task that you're completely unfamiliar with?",
-      "url": "https://www.tryexponent.com/questions/5046/approach-learning-unfamiliar-task"
-    },
-    {
-      "question": "Why do you want to work at Anthropic?",
-      "url": "https://www.tryexponent.com/questions/5596/why-anthropic"
-    },
-    {
-      "question": "What's your approach to prompt engineering?",
-      "url": "https://www.tryexponent.com/questions/5603/prompt-engineering-approach"
-    },
-    {
-      "question": "Redesign the airport experience.",
-      "url": "https://www.tryexponent.com/questions/53/redesign-airport-experience"
-    },
-    {
-      "question": "Design browser history.",
-      "url": "https://www.tryexponent.com/questions/4681/design-browser-history"
-    },
-    {
-      "question": "What are the ethical risks of deploying agentic AI systems in high-stakes environments?",
-      "url": "https://www.tryexponent.com/questions/5605/agentic-ai-systems-ethical-risk"
-    },
-    {
-      "question": "Design Weather App",
-      "url": "https://www.tryexponent.com/questions/4315/design-weather-app"
-    },
-    {
-      "question": "How would you explain a technical concept to a non-technical person?",
-      "url": "https://www.tryexponent.com/questions/4913/explain-technical-concept"
-    },
-    {
-      "question": "Design typeahead autocomplete for person search in Linkedin.",
-      "url": "https://www.tryexponent.com/questions/5405/system-design-linkedin-people-search-typeahead"
-    },
-    {
-      "question": "Why do you want to work at Meta?",
-      "url": "https://www.tryexponent.com/questions/3243/why-work-at-meta"
-    },
-    {
-      "question": "Why do you want to work at Google?",
-      "url": "https://www.tryexponent.com/questions/1377/why-work-at-google"
-    },
-    {
-      "question": "Write a program that scans the file system to identify and report duplicate files, handling real files, extensions, and file reading operations.",
-      "url": "https://www.tryexponent.com/questions/5790/find-duplicate-files"
-    },
-    {
-      "question": "What are the risks of assuming LLMs think or feel like humans?",
-      "url": "https://www.tryexponent.com/questions/5600/anthropomorphizing-llms-risks"
-    },
-    {
-      "question": "Why is a deep neural network better than a shallow neural network?",
-      "url": "https://www.tryexponent.com/questions/4043/deep-vs-shallow-neural-network"
-    },
-    {
-      "question": "Design the OpenAI Playground.",
-      "url": "https://www.tryexponent.com/questions/5827/design-openai-playground"
-    },
-    {
-      "question": "What are your strengths and weaknesses?",
-      "url": "https://www.tryexponent.com/questions/1348/strengths-weaknesses"
-    },
-    {
-      "question": "Valid Parentheses",
-      "url": "https://www.tryexponent.com/questions/3447/valid-parentheses"
-    },
-    {
-      "question": "Why do you want to work at Apple?",
-      "url": "https://www.tryexponent.com/questions/3208/why-work-at-apple"
-    },
-    {
-      "question": "Tell me about a technical challenge that you have overcome.",
-      "url": "https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome"
-    },
-    {
-      "question": "Why do you want to work at OpenAI?",
-      "url": "https://www.tryexponent.com/questions/4608/why-openai"
-    },
-    {
-      "question": "Have you gone out of your way to uphold some value or principle?",
-      "url": "https://www.tryexponent.com/questions/5796/upholding-values"
-    },
-    {
-      "question": "Course Schedule",
-      "url": "https://www.tryexponent.com/questions/3313/course-schedule"
-    },
-    {
-      "question": "Design Dropbox.",
-      "url": "https://www.tryexponent.com/questions/1542/design-dropbox"
-    },
-    {
-      "question": "Design live commenting for Facebook.",
-      "url": "https://www.tryexponent.com/questions/3822/design-live-commenting-facebook"
-    },
-    {
-      "question": "Do you have any critique or concerns about Anthropic's approach or direction?",
-      "url": "https://www.tryexponent.com/questions/5793/critique-anthropic-direction"
-    },
-    {
-      "question": "Build your own customer service AI agent\u00a0for a hypothetical outdoors company.",
-      "url": "https://www.tryexponent.com/questions/5876/build-customer-service-ai-agent-for-outdoors-company"
-    },
-    {
-      "question": "Design Ticketmaster",
-      "url": "https://www.tryexponent.com/questions/4318/design-ticketmaster"
-    },
-    {
-      "question": "Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",
-      "url": "https://www.tryexponent.com/questions/1731/buy-sell-stock"
-    },
-    {
-      "question": "Why do you want to work at Visa?",
-      "url": "https://www.tryexponent.com/questions/4627/why-visa"
-    },
-    {
-      "question": "You're the PM of Google Doodles. What would your top three metrics be and why?",
-      "url": "https://www.tryexponent.com/questions/2714/google-doodles-pm-top-metrics"
-    },
-    {
-      "question": "Tell me about the accomplishment you are most proud of.",
-      "url": "https://www.tryexponent.com/questions/3018/proudest-accomplishment-interview-question"
-    },
-    {
-      "question": "Write functions to serialize and deserialize a list of strings.",
-      "url": "https://www.tryexponent.com/questions/1307/serialize-deserialize-list-strings"
-    },
-    {
-      "question": "Design Google Drive.",
-      "url": "https://www.tryexponent.com/questions/3251/design-google-drive"
-    },
-    {
-      "question": "Climbing Stairs",
-      "url": "https://www.tryexponent.com/questions/3255/climbing-stairs"
-    },
-    {
-      "question": "Degrees of Friendship",
-      "url": "https://www.tryexponent.com/questions/3628/degrees-of-friendship"
-    },
-    {
-      "question": "Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?",
-      "url": "https://www.tryexponent.com/questions/5772/airline-rescheduling-design"
-    },
-    {
-      "question": "Design the 'Top Picks' feature for Netflix.",
-      "url": "https://www.tryexponent.com/questions/3436/design-netflix-top-picks-feature"
-    },
-    {
-      "question": "Has there been work that felt genuinely meaningful to you?",
-      "url": "https://www.tryexponent.com/questions/5797/meaningful-work"
-    },
-    {
-      "question": "Why do you want to work at Stripe?",
-      "url": "https://www.tryexponent.com/questions/3111/why-work-at-stripe"
-    },
-    {
-      "question": "Koko eating bananas.",
-      "url": "https://www.tryexponent.com/questions/3261/koko-eating-bananas"
-    },
-    {
-      "question": "What evidence shows Anthropic's sincerity about their mission?",
-      "url": "https://www.tryexponent.com/questions/5792/evidence-for-anthropic-mission"
-    },
-    {
-      "question": "Why do you want to work at Atlassian?",
-      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
-    },
-    {
-      "question": "What parts of OpenAI's mission statement resonate with you?",
-      "url": "https://www.tryexponent.com/questions/4609/openai-mission-statement"
-    },
-    {
-      "question": "Rotating the Box",
-      "url": "https://www.tryexponent.com/questions/4679/rotating-the-box"
-    },
-    {
-      "question": "Why do you think you would be a good fit for Microsoft's mission?",
-      "url": "https://www.tryexponent.com/questions/2764/fit-for-microsoft-mission"
-    },
-    {
-      "question": "Why should we hire you?",
-      "url": "https://www.tryexponent.com/questions/954/why-should-we-hire-you"
-    },
-    {
-      "question": "How do you consider the impact of your work on the world?",
-      "url": "https://www.tryexponent.com/questions/2273/impact-of-work-on-world"
-    },
-    {
-      "question": "How would you choose a programming language to build your product at Google?",
-      "url": "https://www.tryexponent.com/questions/232/google-pm-programming-language"
-    },
-    {
-      "question": "Why do you want to work at DoorDash?",
-      "url": "https://www.tryexponent.com/questions/3341/why-work-at-doordash"
-    },
-    {
-      "question": "Generate Parentheses",
-      "url": "https://www.tryexponent.com/questions/1594/generate-parentheses"
-    },
-    {
-      "question": "Build a Calculator",
-      "url": "https://www.tryexponent.com/questions/3632/calculator"
-    },
-    {
-      "question": "Why do you want to work at TikTok?",
-      "url": "https://www.tryexponent.com/questions/4288/why-tiktok"
-    },
-    {
-      "question": "Why do you want to work at Netflix?",
-      "url": "https://www.tryexponent.com/questions/4285/why-netflix"
-    },
-    {
-      "question": "What are you most proud of in your career?",
-      "url": "https://www.tryexponent.com/questions/447/career-highlights-proud-moments"
-    },
-    {
-      "question": "How do you deal with ambiguous situations?",
-      "url": "https://www.tryexponent.com/questions/503/dealing-with-ambiguous-situations"
-    },
-    {
-      "question": "Would you do things based on your values or for profitability?",
-      "url": "https://www.tryexponent.com/questions/5810/values-vs-profitability"
-    },
-    {
-      "question": "Tell me about your last job.",
-      "url": "https://www.tryexponent.com/questions/3211/tell-about-last-job"
-    },
-    {
-      "question": "Why did you leave your last role?",
-      "url": "https://www.tryexponent.com/questions/2845/why-leave-last-role"
-    },
-    {
-      "question": "Tell me about your current role.",
-      "url": "https://www.tryexponent.com/questions/3262/describe-your-current-role"
-    },
-    {
-      "question": "Design type-ahead search for walmart.com.",
-      "url": "https://www.tryexponent.com/questions/5272/system-design-walmart-typeahead-search"
-    },
-    {
-      "question": "What's the hardest engineering challenge you've ever solved?",
-      "url": "https://www.tryexponent.com/questions/5054/hardest-engineering-challenge"
-    },
-    {
-      "question": "Count the number of ways to split a string.",
-      "url": "https://www.tryexponent.com/questions/3256/count-ways-to-split-string"
-    },
-    {
-      "question": "How do you learn new technologies?",
-      "url": "https://www.tryexponent.com/questions/5130/how-you-learn-new-technologies"
-    },
-    {
-      "question": "Determine if two sentences are similar.",
-      "url": "https://www.tryexponent.com/questions/2280/determine-similar-sentences"
-    },
-    {
-      "question": "Roman to Integer",
-      "url": "https://www.tryexponent.com/questions/4680/roman-to-integer"
-    },
-    {
-      "question": "Why do you want to work at Cursor?",
-      "url": "https://www.tryexponent.com/questions/5838/why-cursor"
-    },
-    {
-      "question": "Tell me a challenging situation when things went wrong and how you reacted.",
-      "url": "https://www.tryexponent.com/questions/5825/things-went-wrong-reaction"
-    },
-    {
-      "question": "When have you done something which was against your values?",
-      "url": "https://www.tryexponent.com/questions/5811/doing-something-against-your-values"
-    },
-    {
-      "question": "A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.",
-      "url": "https://www.tryexponent.com/questions/2279/maximize-knapsack-value"
-    },
-    {
-      "question": "How do you collect user requirements?",
-      "url": "https://www.tryexponent.com/questions/3346/collect-user-requirements"
-    },
-    {
-      "question": "Design the system for a ticket selling web application.",
-      "url": "https://www.tryexponent.com/questions/2112/design-ticket-selling-web-system"
-    },
-    {
-      "question": "What are you looking for in your next opportunity?",
-      "url": "https://www.tryexponent.com/questions/536/looking-for-next-opportunity"
-    },
-    {
-      "question": "How do you contribute to diversity and inclusion?",
-      "url": "https://www.tryexponent.com/questions/1531/contribute-diversity-inclusion"
-    },
-    {
-      "question": "What are you passionate about?",
-      "url": "https://www.tryexponent.com/questions/273/five-years-passion"
-    },
-    {
-      "question": "Set Matrix Zeroes",
-      "url": "https://www.tryexponent.com/questions/4016/set-matrix-zeroes"
-    },
-    {
-      "question": "What is cloud gaming?",
-      "url": "https://www.tryexponent.com/questions/4601/what-is-cloud-gaming"
-    },
-    {
-      "question": "Why do you want to work at ElevenLabs?",
-      "url": "https://www.tryexponent.com/questions/5773/why-elevenlabs"
-    },
-    {
-      "question": "What other companies are you interviewing at and why?",
-      "url": "https://www.tryexponent.com/questions/4670/interviewing-at-other-companies"
-    },
-    {
-      "question": "What kind of experiences have you built in your career?",
-      "url": "https://www.tryexponent.com/questions/5812/experiences-built-in-career"
-    },
-    {
-      "question": "Do you believe in Anthropic's mission?",
-      "url": "https://www.tryexponent.com/questions/5809/do-you-believe-in-anthropics-mission"
-    },
-    {
-      "question": "How do you set priorities with limited resources?",
-      "url": "https://www.tryexponent.com/questions/3334/setting-priorities-limited-resources"
-    },
-    {
-      "question": "Is there a work process or decision strategy you strongly disliked?",
-      "url": "https://www.tryexponent.com/questions/5795/work-process-you-disliked"
-    },
-    {
-      "question": "Design Naukri, a job search platform.",
-      "url": "https://www.tryexponent.com/questions/3315/design-naukri-job-search-platform"
-    },
-    {
-      "question": "Tell me about your experience with Java.",
-      "url": "https://www.tryexponent.com/questions/3523/experience-with-java"
-    },
-    {
-      "question": "Solve John Conway's \"Game of Life\".",
-      "url": "https://www.tryexponent.com/questions/4338/game-of-life"
-    },
-    {
-      "question": "Validate a numeronym.",
-      "url": "https://www.tryexponent.com/questions/1853/validate-numeronym"
-    },
-    {
-      "question": "Why do you want to work at Nvidia?",
-      "url": "https://www.tryexponent.com/questions/4596/why-nvidia"
-    },
-    {
-      "question": "Why do you want to work at Walmart Labs?",
-      "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs"
-    },
-    {
-      "question": "Tell me about your day as a software engineer.",
-      "url": "https://www.tryexponent.com/questions/5824/day-as-a-swe"
-    },
-    {
-      "question": "How do you cope with dynamically-changing environments?",
-      "url": "https://www.tryexponent.com/questions/5120/dynamically-changing-environments"
-    },
-    {
-      "question": "What are virtual functions?",
-      "url": "https://www.tryexponent.com/questions/4622/what-are-virtual-functions"
-    },
-    {
-      "question": "What\u2019s the difference between the Kubernetes control plane and data plane?",
-      "url": "https://www.tryexponent.com/questions/5481/kubernetes-control-plane-vs-data-plane"
-    },
-    {
-      "question": "What does success look like to you?",
-      "url": "https://www.tryexponent.com/questions/5117/what-does-success-look-like-to-you"
-    },
-    {
-      "question": "What part of our mission resonates the most with you?",
-      "url": "https://www.tryexponent.com/questions/5141/mission-resonate"
-    },
-    {
-      "question": "Determine a ship's capacity to ship packages in D days.",
-      "url": "https://www.tryexponent.com/questions/3250/calculate-ships-capacity-for-packages-in-days"
-    },
-    {
-      "question": "Build a Basic Regex Parser",
-      "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser"
-    },
-    {
-      "question": "What does your confidence level mean when building a confidence interval?",
-      "url": "https://www.tryexponent.com/questions/3721/meaning-confidence-level-confidence-interval"
-    },
-    {
-      "question": "Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.",
-      "url": "https://www.tryexponent.com/questions/4904/coding-water-jug-measurement-problem"
-    },
-    {
-      "question": "Minimum Absolute Difference",
-      "url": "https://www.tryexponent.com/questions/4678/minimum-absolute-difference"
-    },
-    {
-      "question": "Why did you become an engineer?",
-      "url": "https://www.tryexponent.com/questions/4668/why-engineer"
-    },
-    {
-      "question": "What is a skill you have that is not listed on your resume?",
-      "url": "https://www.tryexponent.com/questions/854/skill-not-on-resume"
-    },
-    {
-      "question": "Determine if a number is a power of two.",
-      "url": "https://www.tryexponent.com/questions/4647/power-of-two"
-    },
-    {
-      "question": "Design PasteBin.",
-      "url": "https://www.tryexponent.com/questions/2686/design-pastebin"
-    },
-    {
-      "question": "What does \"belong anywhere\" mean to you?",
-      "url": "https://www.tryexponent.com/questions/5135/belong-anywhere"
-    },
-    {
-      "question": "How do you make important decisions?",
-      "url": "https://www.tryexponent.com/questions/5124/making-important-decisions"
-    },
-    {
-      "question": "What does your day-to-day look like at your current company?",
-      "url": "https://www.tryexponent.com/questions/2395/day-to-day-activities-current-company"
-    },
-    {
-      "question": "Design the front page of a newspaper app.",
-      "url": "https://www.tryexponent.com/questions/2075/design-newspaper-app-front-page"
-    },
-    {
-      "question": "Why do you want to work at Salesforce?",
-      "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce"
-    },
-    {
-      "question": "What's the most fun thing you did recently?",
-      "url": "https://www.tryexponent.com/questions/5149/most-fun-recently"
-    },
-    {
-      "question": "Tell me about your experience with React.",
-      "url": "https://www.tryexponent.com/questions/3244/experience-with-react"
-    },
-    {
-      "question": "What are the major differences between Java and Go?",
-      "url": "https://www.tryexponent.com/questions/2850/major-differences-java-go"
-    },
-    {
-      "question": "Why do you want to work at Hinge?",
-      "url": "https://www.tryexponent.com/questions/4121/why-work-at-hinge"
-    },
-    {
-      "question": "Top k frequent elements",
-      "url": "https://www.tryexponent.com/questions/2080/top-k-frequent-elements"
-    },
-    {
-      "question": "Discuss your release and branching strategy.",
-      "url": "https://www.tryexponent.com/questions/2214/release-branching-strategy-discussion"
-    },
-    {
-      "question": "Tell me about your experience with TypeScript.",
-      "url": "https://www.tryexponent.com/questions/3245/experience-with-typescript"
-    },
-    {
-      "question": "Why did you choose to attend [College]?",
-      "url": "https://www.tryexponent.com/questions/2397/why-choose-college"
-    },
-    {
-      "question": "What's a memory leak and how can we avoid it?",
-      "url": "https://www.tryexponent.com/questions/4619/memory-leak"
-    },
-    {
-      "question": "How would you efficiently sum up a massive number of integers?",
-      "url": "https://www.tryexponent.com/questions/4212/sum-massive-number-integers"
-    },
-    {
-      "question": "How open are you to adapting to changes?",
-      "url": "https://www.tryexponent.com/questions/4726/open-adapt-to-changes"
-    },
-    {
-      "question": "Tell me about your experience with RxJava.",
-      "url": "https://www.tryexponent.com/questions/3265/experience-with-rxjava"
-    },
-    {
-      "question": "Why did you become a Software Engineer?",
-      "url": "https://www.tryexponent.com/questions/2396/why-become-software-engineer"
-    },
-    {
-      "question": "Print all combinations of numbers from 1 to n that sum to n.",
-      "url": "https://www.tryexponent.com/questions/1130/combinations-n-n-sum"
-    },
-    {
-      "question": "Tell me about your experience with JavaScript.",
-      "url": "https://www.tryexponent.com/questions/3246/experience-with-javascript"
-    },
-    {
-      "question": "Tell us about one of your trips.",
-      "url": "https://www.tryexponent.com/questions/5137/tell-me-about-your-trip"
-    },
-    {
-      "question": "What's your experience working with CUDA?",
-      "url": "https://www.tryexponent.com/questions/4607/cuda-experience"
-    },
-    {
-      "question": "How would you describe what our company does to your grandmother?",
-      "url": "https://www.tryexponent.com/questions/5145/describe-company-to-grandmother"
-    },
-    {
-      "question": "Solve a Rummy Deck (12-card hand).",
-      "url": "https://www.tryexponent.com/questions/3776/solve-rummy-deck-12-card-hand"
-    },
-    {
-      "question": "Given a string that doesn't fit into a machine's memory, split it at each space and count the number of spaces.",
-      "url": "https://www.tryexponent.com/questions/3227/handle-large-string-split-count-spaces"
-    },
-    {
-      "question": "What would you change about your time at [Current Company]?",
-      "url": "https://www.tryexponent.com/questions/2399/changes-during-tenure-current-company"
-    },
-    {
-      "question": "Print all words from a dictionary that can be found on a given Boggle board.",
-      "url": "https://www.tryexponent.com/questions/2274/print-words-from-dictionary-boggle-board"
-    },
-    {
-      "question": "How would you create a carousel using vanilla JavaScript?",
-      "url": "https://www.tryexponent.com/questions/2077/create-carousel-vanilla-javascript"
-    },
-    {
-      "question": "Write a program to count the frequency of each character in a given text file.",
-      "url": "https://www.tryexponent.com/questions/1915/write-program-count-character-frequency-text-file"
-    },
-    {
-      "question": "If you could go to anywhere in the world, where would you go?",
-      "url": "https://www.tryexponent.com/questions/5136/go-where-in-the-world"
-    },
-    {
-      "question": "What is your favorite Slack feature?",
-      "url": "https://www.tryexponent.com/questions/5148/favorite-slack-feature"
-    },
-    {
-      "question": "What's your experience working with AR and/or VR technology?",
-      "url": "https://www.tryexponent.com/questions/4603/work-experience-ar-vr"
-    },
-    {
-      "question": "What's your experience with DirectX?",
-      "url": "https://www.tryexponent.com/questions/4599/directx-experience"
-    },
-    {
-      "question": "What's your experience with ray tracing in video games?",
-      "url": "https://www.tryexponent.com/questions/4598/ray-tracing-experience"
-    },
-    {
-      "question": "Develop a custom data structure with O(1) time complexity for get() and setall() operations.",
-      "url": "https://www.tryexponent.com/questions/4058/custom-data-structure-o1-get-setall"
-    },
-    {
-      "question": "Maximum Number of Non-Overlapping Substrings",
-      "url": "https://www.tryexponent.com/questions/2419/maximum-non-overlapping-substrings"
-    },
-    {
-      "question": "What is the difference between multiprogramming, time-sharing, and multi-processing?",
-      "url": "https://www.tryexponent.com/questions/4615/multiprogramming-vs-time-sharing-vs-multi-processing"
-    },
-    {
-      "question": "What is a front-end assignment?",
-      "url": "https://www.tryexponent.com/questions/2323/front-end-assignment"
-    },
-    {
-      "question": "Create a function that accepts structured data as input, includes column names, and outputs data suited for generating a pivot table.",
-      "url": "https://www.tryexponent.com/questions/3535/create-function-structured-data-input-output-pivot-table"
-    },
-    {
-      "question": "What are the differences between RAM and ROM?",
-      "url": "https://www.tryexponent.com/questions/4617/ram-vs-rom"
-    },
-    {
-      "question": "What are the differences between single core and multicore processors?",
-      "url": "https://www.tryexponent.com/questions/4616/single-core-vs-multicore-processor"
+      "question": "How much do you care about safety and security?",
+      "url": "https://www.tryexponent.com/questions/5784/safety-security-care"
     }
   ],
-  "Technical Communication": [
-    {
-      "question": "Explain malloc, calloc, and reelloc.",
-      "url": "https://www.tryexponent.com/questions/5562/explain-malloc-calloc-and-relloc"
-    },
-    {
-      "question": "How would you explain a technical concept to a non-technical person?",
-      "url": "https://www.tryexponent.com/questions/4913/explain-technical-concept"
-    },
-    {
-      "question": "Explain how to find a target sum in an array.",
-      "url": "https://www.tryexponent.com/questions/1439/find-target-sum-array"
-    },
-    {
-      "question": "Describe an experience working in a cross-functional team.",
-      "url": "https://www.tryexponent.com/questions/310/experience-cross-functional-team"
-    },
-    {
-      "question": "Explain multithreading.",
-      "url": "https://www.tryexponent.com/questions/3264/explain-multithreading"
-    },
-    {
-      "question": "Explain how RAG works.",
-      "url": "https://www.tryexponent.com/questions/5877/explain-rag"
-    },
-    {
-      "question": "Explain the differences between an interface and an abstract class.",
-      "url": "https://www.tryexponent.com/questions/4230/difference-interface-abstract-class"
-    },
-    {
-      "question": "Describe a challenging project you worked on and what made it difficult.",
-      "url": "https://www.tryexponent.com/questions/939/challenging-project-description"
-    },
-    {
-      "question": "Describe the most technically complex project you have worked on and explain why it was complex.",
-      "url": "https://www.tryexponent.com/questions/1518/technically-complex-project-description"
-    },
-    {
-      "question": "Explain the differences between stack and heap memory allocation.",
-      "url": "https://www.tryexponent.com/questions/3226/explain-stack-heap-memory-differences"
-    },
-    {
-      "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
-      "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql"
-    },
-    {
-      "question": "Explain how microservices work.",
-      "url": "https://www.tryexponent.com/questions/3249/explain-microservices-functionality"
-    },
-    {
-      "question": "Describe a situation where, in hindsight, you would have done things differently.",
-      "url": "https://www.tryexponent.com/questions/5143/situation-in-hindsight"
-    },
-    {
-      "question": "Describe a situation where you implemented an idea despite facing resistance.",
-      "url": "https://www.tryexponent.com/questions/2026/implementing-idea-despite-resistance"
-    },
-    {
-      "question": "Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).",
-      "url": "https://www.tryexponent.com/questions/3427/difference-cnn-rnn"
-    },
-    {
-      "question": "Explain callback functions.",
-      "url": "https://www.tryexponent.com/questions/4620/explain-callback-functions"
-    },
-    {
-      "question": "Explain how garbage collection works in programming.",
-      "url": "https://www.tryexponent.com/questions/4884/garbage-collection-memory-management"
-    },
-    {
-      "question": "Explain the sort function.",
-      "url": "https://www.tryexponent.com/questions/3215/explain-sort-function"
-    },
-    {
-      "question": "Explain a piece of software you built.",
-      "url": "https://www.tryexponent.com/questions/3212/explain-a-piece-of-software-you-built"
-    },
-    {
-      "question": "Explain the time complexity differences between ArrayList and LinkedList.",
-      "url": "https://www.tryexponent.com/questions/4211/time-complexity-arraylist-vs-linkedlist"
-    },
-    {
-      "question": "Explain how hash maps work.",
-      "url": "https://www.tryexponent.com/questions/4209/how-hash-map-works"
-    },
-    {
-      "question": "Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.",
-      "url": "https://www.tryexponent.com/questions/2358/leetcode-1010-pairs-of-songs"
-    },
-    {
-      "question": "Explain the map function.",
-      "url": "https://www.tryexponent.com/questions/3217/explain-map-function"
-    },
-    {
-      "question": "Explain tic tac toe end games.",
-      "url": "https://www.tryexponent.com/questions/2664/explain-tic-tac-toe-end-games"
-    },
-    {
-      "question": "How would you describe what our company does to your grandmother?",
-      "url": "https://www.tryexponent.com/questions/5145/describe-company-to-grandmother"
-    },
-    {
-      "question": "Explain the filter function.",
-      "url": "https://www.tryexponent.com/questions/3216/explain-filter-function"
-    },
-    {
-      "question": "Explain the memory changes that occur when executing: Object o = new Object().",
-      "url": "https://www.tryexponent.com/questions/4208/memory-changes-object-instantiation-java"
-    },
-    {
-      "question": "Explain polymorphism.",
-      "url": "https://www.tryexponent.com/questions/4641/explain-polymorphism"
-    },
-    {
-      "question": "Describe your GPU programming experience.",
-      "url": "https://www.tryexponent.com/questions/4595/describe-gpu-programming-experience"
-    }
-  ],
-  "Code Review": [
-    {
-      "question": "Tell me about a time when you received negative feedback and how you handled it.",
-      "url": "https://www.tryexponent.com/questions/775/negative-feedback-how-handled"
-    },
-    {
-      "question": "You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.",
-      "url": "https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects"
-    },
-    {
-      "question": "Tell me about a time when you had to deliver negative feedback.",
-      "url": "https://www.tryexponent.com/questions/2260/delivering-negative-feedback"
-    },
-    {
-      "question": "Tell me about a time you gave difficult feedback to others.",
-      "url": "https://www.tryexponent.com/questions/5798/give-difficult-feedback-to-others"
-    },
-    {
-      "question": "Tell me about a time you provided feedback that was helpful to a peer.",
-      "url": "https://www.tryexponent.com/questions/1777/helpful-feedback-to-peer"
-    },
-    {
-      "question": "Tell me about a time you got constructive feedback. What did you learn from it?",
-      "url": "https://www.tryexponent.com/questions/5113/constructive-feedback-reaction"
-    },
-    {
-      "question": "How open are you to critical feedback? Tell me about any critical feedback you've received from past experience.",
-      "url": "https://www.tryexponent.com/questions/4725/open-to-critical-feedback"
-    }
-  ],
-  "Leadership": [
-    {
-      "question": "Design a task management system with tasks broken into sub-tasks.",
-      "url": "https://www.tryexponent.com/questions/5915/design-task-management-system"
-    },
-    {
-      "question": "What types of team members do you find difficult to work with?",
-      "url": "https://www.tryexponent.com/questions/4633/difficult-team-members"
-    },
-    {
-      "question": "How do you earn the trust of your team members?",
-      "url": "https://www.tryexponent.com/questions/933/earning-trust-of-team-members"
-    },
-    {
-      "question": "Describe an experience working in a cross-functional team.",
-      "url": "https://www.tryexponent.com/questions/310/experience-cross-functional-team"
-    },
-    {
-      "question": "How do you contribute to a positive team culture?",
-      "url": "https://www.tryexponent.com/questions/5680/contribute-positive-team-culture"
-    },
-    {
-      "question": "Design a leaderboard system.",
-      "url": "https://www.tryexponent.com/questions/4674/design-leaderboard-system"
-    },
-    {
-      "question": "What do you do if your team is blocking you?",
-      "url": "https://www.tryexponent.com/questions/3263/handling-team-blocking-issues"
-    },
-    {
-      "question": "How do you motivate your team to perform better?",
-      "url": "https://www.tryexponent.com/questions/1506/motivate-team-perform-better"
-    },
-    {
-      "question": "You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.",
-      "url": "https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects"
-    },
-    {
-      "question": "How do you mentor top talent?",
-      "url": "https://www.tryexponent.com/questions/5440/mentor-top-talent-approach"
-    },
-    {
-      "question": "How do you hire your team?",
-      "url": "https://www.tryexponent.com/questions/492/how-to-hire-team"
-    },
-    {
-      "question": "Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...",
-      "url": "https://www.tryexponent.com/questions/5840/replace-excel-based-process-for-voice-dubbing"
-    },
-    {
-      "question": "How do you build and manage a project schedule?",
-      "url": "https://www.tryexponent.com/questions/1027/how-to-build-manage-project-schedule"
-    },
-    {
-      "question": "How do you encourage collaboration among cross-functional teams?",
-      "url": "https://www.tryexponent.com/questions/916/encourage-collaboration-cross-functional-teams"
-    },
-    {
-      "question": "Tell me about a situation where a junior team member got stuck. How did you assist them in solving the problem?",
-      "url": "https://www.tryexponent.com/questions/5116/helping-juniors-problem-solve"
-    },
-    {
-      "question": "Tell me about a situation where you had to take the lead and be accountable for others.",
-      "url": "https://www.tryexponent.com/questions/5114/being-accountable-for-others"
-    }
-  ],
-  "Project Management": [
-    {
-      "question": "What is the project you are most proud of?",
-      "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of"
-    },
-    {
-      "question": "Tell me about your past projects.",
-      "url": "https://www.tryexponent.com/questions/4229/past-projects"
-    },
-    {
-      "question": "If you had to work on five different projects, how would you prioritize them?",
-      "url": "https://www.tryexponent.com/questions/947/prioritize-five-different-projects"
-    },
-    {
-      "question": "How do you prioritize tasks?",
-      "url": "https://www.tryexponent.com/questions/228/how-prioritize-features"
-    },
-    {
-      "question": "If you have 2 clients requesting very different features for the same product, how would you prioritize them?",
-      "url": "https://www.tryexponent.com/questions/5047/client-feature-request-prioritize"
-    },
-    {
-      "question": "Tell me about the most complex project you have led.",
-      "url": "https://www.tryexponent.com/questions/611/most-complex-project-led"
-    },
-    {
-      "question": "Tell me about a project where you applied the CAP theorem.",
-      "url": "https://www.tryexponent.com/questions/4450/project-applying-cap-theorem"
-    },
-    {
-      "question": "Describe a challenging project you worked on and what made it difficult.",
-      "url": "https://www.tryexponent.com/questions/939/challenging-project-description"
-    },
-    {
-      "question": "Describe the most technically complex project you have worked on and explain why it was complex.",
-      "url": "https://www.tryexponent.com/questions/1518/technically-complex-project-description"
-    },
-    {
-      "question": "You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.",
-      "url": "https://www.tryexponent.com/questions/5841/design-interface-for-voice-dubbing-projects"
-    },
-    {
-      "question": "What is a technical challenge you faced in your previous project?",
-      "url": "https://www.tryexponent.com/questions/1489/technical-challenge-previous-project"
-    },
-    {
-      "question": "Tell me about a technical decision you made and its impact on your project.",
-      "url": "https://www.tryexponent.com/questions/927/technical-decision-impact-project"
-    },
-    {
-      "question": "Tell me about a project you worked on.",
-      "url": "https://www.tryexponent.com/questions/3253/describe-a-project-experience"
-    },
-    {
-      "question": "How do you define the right goals/KPIs/success criteria of the project?",
-      "url": "https://www.tryexponent.com/questions/5813/define-goals-for-project"
-    },
-    {
-      "question": "How do you build and manage a project schedule?",
-      "url": "https://www.tryexponent.com/questions/1027/how-to-build-manage-project-schedule"
-    },
-    {
-      "question": "Present a shipped project you led end-to-end.",
-      "url": "https://www.tryexponent.com/questions/5815/present-project-led-end-to-end"
-    },
+  "Scalability": [
     {
       "question": "Present a recent project with big scale and cross-functional involvement.",
       "url": "https://www.tryexponent.com/questions/5783/present-big-cross-functional-project"
-    },
-    {
-      "question": "Prepare a presentation about a complex project you led from start to finish.",
-      "url": "https://www.tryexponent.com/questions/1264/presentation-complex-project-led"
-    },
-    {
-      "question": "If given a chance, what would you change about a project, and why?",
-      "url": "https://www.tryexponent.com/questions/2079/change-project-given-chance"
     }
   ]
 }

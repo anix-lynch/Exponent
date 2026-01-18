@@ -18,7 +18,7 @@
   {
     "question": "Tell me about something you built end-to-end without relying on others.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5898/independent-project",
     "page": 1
@@ -42,7 +42,7 @@
   {
     "question": "How would you improve YouTube\u2019s recommendation algorithm?",
     "categories": [
-      "Product Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/5452/improve-youtube-recommendation-algorithm",
     "page": 1
@@ -94,7 +94,7 @@
   {
     "question": "Why do you think we should not hire you?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4629/why-no-hire",
     "page": 1
@@ -152,7 +152,7 @@
   {
     "question": "Why do you want to switch jobs now?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5459/reason-switch-jobs",
     "page": 1
@@ -267,7 +267,7 @@
   {
     "question": "How would you measure success for Facebook Events?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/94/facebook-events-success-metrics",
     "page": 2
@@ -398,8 +398,7 @@
   {
     "question": "How do you prioritize competing features?",
     "categories": [
-      "Prioritization",
-      "Product Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4880/prioritize-competing-features",
     "page": 3
@@ -465,7 +464,7 @@
   {
     "question": "Tell me about yourself.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/104/tell-me-about-yourself",
     "page": 3
@@ -481,7 +480,7 @@
   {
     "question": "Tell me about the most challenging situation you faced in your career and how you handled it.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3169/most-challenging-situation-career-response",
     "page": 3
@@ -530,7 +529,7 @@
   {
     "question": "You're a PM at Instagram Reels. How would you measure the success of introducing ads?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5241/instagram-reels-ads-success-metrics",
     "page": 4
@@ -571,7 +570,7 @@
   {
     "question": "As a PM for Meta, how would you measure the success of launching a job marketplace?",
     "categories": [
-      "Product Strategy"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4231/meta-job-marketplace-success-metrics%22",
     "page": 4
@@ -628,8 +627,7 @@
   {
     "question": "What metrics do you use to measure the success of a product launch?",
     "categories": [
-      "Product Strategy",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3784/metrics-measure-product-launch-success",
     "page": 4
@@ -661,7 +659,7 @@
   {
     "question": "As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?",
     "categories": [
-      "Product Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3768/measure-success-netflix-podcasts",
     "page": 4
@@ -685,7 +683,7 @@
   {
     "question": "How would you measure the success of Facebook dating?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/428/measuring-success-facebook-dating",
     "page": 4
@@ -765,7 +763,7 @@
   {
     "question": "Tell me about your past projects.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4229/past-projects",
     "page": 5
@@ -838,7 +836,7 @@
   {
     "question": "As a PM for a gaming console, why would you decide to build the next-generation console, and how would you measure its success?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5584/why-build-next-gen-console-and-success-metrics",
     "page": 5
@@ -921,7 +919,7 @@
   {
     "question": "How do you prioritize tasks?",
     "categories": [
-      "Prioritization"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
     "page": 6
@@ -970,7 +968,7 @@
   {
     "question": "Tell me about a product you launched successfully.",
     "categories": [
-      "Product Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3705/describe-successful-product-launch",
     "page": 6
@@ -978,7 +976,7 @@
   {
     "question": "You're a PM at Meta. How would you measure the success of Instagram Live?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3690/measure-instagram-live-success-meta-pm",
     "page": 6
@@ -1026,7 +1024,7 @@
   {
     "question": "What metrics would you focus on as the PM for YouTube?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/81/youtube-pm-metrics",
     "page": 7
@@ -1083,7 +1081,7 @@
   {
     "question": "As a PM, how do you work with your engineering team?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5865/how-do-you-work-with-engineering",
     "page": 7
@@ -1180,7 +1178,7 @@
   {
     "question": "You're a PM at Meta. How would you measure the success of Facebook's notification bell and its drop-down menu?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3551/measure-success-facebook-notification-bell-meta",
     "page": 8
@@ -1206,7 +1204,7 @@
   {
     "question": "Design an AI agent for a streaming service.",
     "categories": [
-      "Product Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/5873/ai-agent-for-streaming-service",
     "page": 8
@@ -1258,9 +1256,7 @@
   {
     "question": "Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.",
     "categories": [
-      "Prioritization",
-      "Product Design",
-      "Metrics"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4188/design-algorithm-rank-ads-google-play",
     "page": 8
@@ -1303,9 +1299,7 @@
   {
     "question": "You're a PM for Spotify Podcasts. Why did your team add podcasts to Spotify and why before audiobooks? What metrics were used to track the product's success?",
     "categories": [
-      "Leadership",
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3619/spotify-podcasts-addition-reason-metrics",
     "page": 8
@@ -1337,7 +1331,7 @@
   {
     "question": "You're a PM for Meta. How would you measure the success of the onboarding and sign up experience for Facebook.",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5588/measure-facebook-onboarding-sign-up-success",
     "page": 8
@@ -1362,7 +1356,7 @@
   {
     "question": "As a manager, how do you handle trade-offs?",
     "categories": [
-      "Trade-offs"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1526/manager-handle-tradeoffs",
     "page": 9
@@ -1370,7 +1364,7 @@
   {
     "question": "Why do you want to work at Anthropic?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5596/why-anthropic",
     "page": 9
@@ -1395,7 +1389,7 @@
   {
     "question": "You're a PM at Meta. DAU for Instagram is down while MAU is constant. How do you solve for this?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4900/meta-monthly-daily-users-analysis",
     "page": 9
@@ -1443,7 +1437,6 @@
   {
     "question": "Tell me about a time when you had to make an important decision and had to choose between moving forward or gathering more information.",
     "categories": [
-      "Prioritization",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4182/decision-making-process-important-choice",
@@ -1516,8 +1509,7 @@
   {
     "question": "What strategic reasons might Meta have for building Meta Pay? What objectives should Meta set for Meta Pay? What metrics would you use to measure its success?",
     "categories": [
-      "Product Strategy",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4053/strategic-reasons-objectives-metrics-meta-pay",
     "page": 10
@@ -1591,7 +1583,7 @@
   {
     "question": "How would you increase user engagement as a PM for Spotify?",
     "categories": [
-      "Growth"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/521/increase-user-engagement-spotify",
     "page": 10
@@ -1624,7 +1616,7 @@
   {
     "question": "Tell me about a user need that is not being met by the market. How would you validate a solution for it?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4777/user-need-unmet-validate-solution",
     "page": 10
@@ -1648,7 +1640,7 @@
   {
     "question": "Why do you think Meta invested in Workplace Chat? How would you set goals and measure the success of this product? Additionally, consider a scenario where the number of users sending messages on Wo...",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3845/meta-investment-workplace-chat-success-goals",
     "page": 10
@@ -1806,7 +1798,7 @@
   {
     "question": "What metrics would you define for the success of Facebook Lite?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/93/facebook-lite-success-metrics",
     "page": 11
@@ -1814,7 +1806,7 @@
   {
     "question": "As the PM for Ads in Facebook Reels, how would you measure success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3028/measure-success-facebook-reels-ads",
     "page": 11
@@ -1846,7 +1838,7 @@
   {
     "question": "You're a PM for Max, HBO's video streaming service. Roku wants to include an HBO button on their new remote control. How much should HBO pay for this feature?",
     "categories": [
-      "Product Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/3640/hbo-payment-roku-remote-feature",
     "page": 12
@@ -1872,8 +1864,7 @@
   {
     "question": "Meta's office in Menlo Park is considering eliminating either a bus route or an Uber-style rideshare. What metrics would you use to decide and what are the tradeoffs?",
     "categories": [
-      "Metrics",
-      "Trade-offs"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3809/meta-menlo-park-transit-choice-metrics-tradeoffs",
     "page": 12
@@ -1881,9 +1872,7 @@
   {
     "question": "Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?",
     "categories": [
-      "Product Design",
-      "Analytical",
-      "Metrics"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4120/why-like-chatgpt-users-metrics-improvements",
     "page": 12
@@ -1982,7 +1971,7 @@
   {
     "question": "How would you measure success metrics for Facebook Fundraisers?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/95/facebook-fundraisers-success-metrics",
     "page": 12
@@ -2023,7 +2012,7 @@
   {
     "question": "How do you manage difficult conversations?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1520/manage-difficult-conversations",
     "page": 13
@@ -2079,7 +2068,7 @@
   {
     "question": "Tell me about how you brought a product to market.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/755/bringing-product-to-market",
     "page": 13
@@ -2103,7 +2092,7 @@
   {
     "question": "How would you measure the success of Facebook Portal?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4076/measure-success-facebook-portal",
     "page": 13
@@ -2119,8 +2108,7 @@
   {
     "question": "You're a PM for Facebook Events. Why would Meta build this product and what metrics would you use to measure its success?",
     "categories": [
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5096/facebook-events-reason-success-metrics",
     "page": 13
@@ -2228,7 +2216,7 @@
   {
     "question": "Tell me about a tough decision you made during a project.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1530/tough-decision-during-project",
     "page": 14
@@ -2236,7 +2224,7 @@
   {
     "question": "You're a PM for Netflix's homepage. How would you set goals and what metrics will you use to measure success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4699/netflix-homepage-goals-measure-success",
     "page": 14
@@ -2335,7 +2323,7 @@
   {
     "question": "If you were PM for a workplace chat app, what metrics would you use to measure its success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4585/workplace-chat-success-metrics",
     "page": 15
@@ -2359,7 +2347,7 @@
   {
     "question": "You are a startup with the technology that translates speech/text to animal language. How do you take this to market?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5832/taking-animal-translator-to-market",
     "page": 15
@@ -2417,7 +2405,7 @@
   {
     "question": "What are your weaknesses as a product manager and how do you mitigate them?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3666/weaknesses-as-product-manager-mitigation",
     "page": 15
@@ -2442,7 +2430,7 @@
   {
     "question": "You're the PM for Instagram Reels and want to test new advertising formats. What metrics would you track?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3305/youre-the-pm-for-instagram-reels-you-are-thinking-about-adding-ads-to-the-platform-what-metrics-woul",
     "page": 15
@@ -2475,8 +2463,7 @@
   {
     "question": "You are a Meta PM. Your team is tasked with ensuring no bad ads are displayed on any Meta application. What goals would you set? How would you measure success?",
     "categories": [
-      "Leadership",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3319/goals-measure-success-prevent-bad-ads-meta",
     "page": 15
@@ -2509,7 +2496,7 @@
   {
     "question": "Why do you want to be a Product Manager?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/230/why-pm",
     "page": 16
@@ -2517,8 +2504,7 @@
   {
     "question": "As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?",
     "categories": [
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4015/pm-meta-ads-violation-community-guidelines",
     "page": 16
@@ -2558,7 +2544,7 @@
   {
     "question": "How do you earn the trust of your team members?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/933/earning-trust-of-team-members",
     "page": 16
@@ -2574,7 +2560,7 @@
   {
     "question": "Why do you want to work at Google?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1377/why-work-at-google",
     "page": 16
@@ -2623,8 +2609,7 @@
   {
     "question": "What metrics would you track to evaluate a new \u2018Top Picks\u2019 ML feature for Netflix?",
     "categories": [
-      "Product Design",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5456/track-metrics-top-picks-netlix-feature",
     "page": 16
@@ -2640,7 +2625,7 @@
   {
     "question": "If you were a PM for Workplace, what metrics would you use to define success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4490/workplace-meta-success-metrics",
     "page": 16
@@ -2664,7 +2649,7 @@
   {
     "question": "How would you measure the success of a local ads product at launch?",
     "categories": [
-      "Product Strategy"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5548/measure-local-ads-launch-success",
     "page": 17
@@ -2820,8 +2805,7 @@
   {
     "question": "Is introducing Meta AI within Instagram DMs a good investment for Meta? If so, why? What are the goals you would set? What metrics would you track to see if it is working and to ensure product health?",
     "categories": [
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5573/meta-ai-ig-dms-investment",
     "page": 17
@@ -2903,7 +2887,7 @@
   {
     "question": "What metrics would you track if we are strategizing an increase in sales of Google's wireless headset?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4816/metrics-sales-google-wireless-headset",
     "page": 18
@@ -2970,7 +2954,7 @@
   {
     "question": "How do you determine the health of the engineering or product backlog?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3657/determine-health-engineering-product-backlog",
     "page": 18
@@ -3035,7 +3019,7 @@
   {
     "question": "Why do you want to work at Sierra AI?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5867/why-sierra-ai",
     "page": 19
@@ -3118,8 +3102,7 @@
   {
     "question": "How would you define success for Instagram Reels and what metrics would you use? If Instagram Reels engagement is growing but Instagram Feed engagement is declining, what actions would you take?",
     "categories": [
-      "Growth",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4171/instagram-reels-success-metrics-decline-actions",
     "page": 19
@@ -3208,7 +3191,7 @@
   {
     "question": "How would you measure the success of AI implementation at Netflix?",
     "categories": [
-      "Execution"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4582/netflix-ai-success-metrics",
     "page": 20
@@ -3234,7 +3217,7 @@
   {
     "question": "You're a PM at Meta. How would you measure the success of the 'Report Ad' feature for Ads, considering false positives and false negatives?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3537/measure-success-report-ad-feature-meta",
     "page": 20
@@ -3348,7 +3331,6 @@
   {
     "question": "Tell me about a time when you used customer feedback to drive innovation.",
     "categories": [
-      "User Research",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/527/using-customer-feedback-for-innovation",
@@ -3389,7 +3371,7 @@
   {
     "question": "How do you handle roadblocks or obstacles?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/490/handling-roadblocks-obstacles",
     "page": 21
@@ -3422,10 +3404,7 @@
   {
     "question": "How do you prioritize tasks across the engineering team, product bugs, the product roadmap, and suggestions from leadership?",
     "categories": [
-      "Prioritization",
-      "Roadmapping",
-      "Leadership",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3306/how-do-you-prioritize-based-on-input-from-engineering-tea-production-bug-leadership-team-directive-e",
     "page": 21
@@ -3450,7 +3429,7 @@
   {
     "question": "Tell me about a technical challenge that you have overcome.",
     "categories": [
-      "Technical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome",
     "page": 21
@@ -3466,7 +3445,7 @@
   {
     "question": "How would you measure the success of Facebook Live?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1888/measure-success-facebook-live",
     "page": 21
@@ -3500,7 +3479,7 @@
   {
     "question": "Why do you want to work at OpenAI?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4608/why-openai",
     "page": 22
@@ -3516,7 +3495,6 @@
   {
     "question": "How do you resolve conflicting product requirements, and who determines which requirement takes priority?",
     "categories": [
-      "Prioritization",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2314/resolving-conflicting-product-requirements",
@@ -3590,7 +3568,7 @@
   {
     "question": "You're a PM for Horizon Worlds. What metrics do you focus on first?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2952/pm-horizon-worlds-initial-metrics-focus",
     "page": 22
@@ -3657,7 +3635,7 @@
   {
     "question": "Tell me about your process for working with design teams.",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5861/process-working-with-design-teams",
     "page": 23
@@ -3665,7 +3643,7 @@
   {
     "question": "How would you measure success for Facebook Reels?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3178/measure-success-facebook-reels",
     "page": 23
@@ -3730,7 +3708,7 @@
   {
     "question": "How would you measure the success of ChatGPT Search?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4612/measure-success-chatgpt-search",
     "page": 23
@@ -3754,7 +3732,7 @@
   {
     "question": "Tell me about a software product that you recently had a bad experience with and why you felt that way as a user.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2855/bad-user-experience-software-product",
     "page": 23
@@ -3794,7 +3772,7 @@
   {
     "question": "You have a new capability that's extremely powerful but potentially risky, how do you decide whether or not to ship it?",
     "categories": [
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5836/decide-ship-new-powerful-risky-capability",
     "page": 23
@@ -3802,7 +3780,7 @@
   {
     "question": "Tell me about the most complex project you have led.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/611/most-complex-project-led",
     "page": 23
@@ -3917,7 +3895,7 @@
   {
     "question": "Tell me about your greatest success.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/141/greatest-success",
     "page": 24
@@ -4055,8 +4033,7 @@
   {
     "question": "What metrics would you use to measure the success of the virtual card number feature?",
     "categories": [
-      "Product Design",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4034/metrics-measure-success-virtual-card-feature",
     "page": 25
@@ -4072,7 +4049,7 @@
   {
     "question": "If you noticed a 10% decrease in an app\u2019s conversion rate, what steps would you take to investigate and resolve the issue?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4258/app-conversion-rate-decrease-action-plan",
     "page": 25
@@ -4104,7 +4081,7 @@
   {
     "question": "Tell me about a mistake you made and what you learned from it.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1509/mistake-and-lessons-learned",
     "page": 25
@@ -4112,7 +4089,7 @@
   {
     "question": "Why do you want to work at Visa?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4627/why-visa",
     "page": 25
@@ -4179,7 +4156,7 @@
   {
     "question": "How would you measure success for Instagram Shops, excluding ad revenue?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1709/measure-success-instagram-shops-excluding-ads",
     "page": 26
@@ -4221,7 +4198,7 @@
   {
     "question": "Tell me about the accomplishment you are most proud of.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3018/proudest-accomplishment-interview-question",
     "page": 26
@@ -4287,8 +4264,7 @@
   {
     "question": "Why should Meta build Facebook Events, and what metrics would you use to measure success?",
     "categories": [
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4693/facebook-events-strategy-metrics",
     "page": 26
@@ -4312,7 +4288,7 @@
   {
     "question": "Why do you want to be a PM? What aspects of product management are you most passionate about?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3664/why-become-pm-passionate-aspects-product-management",
     "page": 27
@@ -4336,7 +4312,7 @@
   {
     "question": "Design a video streaming app for senior citizens.",
     "categories": [
-      "Product Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/3197/design-video-streaming-app-seniors",
     "page": 27
@@ -4352,7 +4328,7 @@
   {
     "question": "Why do you want to work at Microsoft?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1727/why-microsoft",
     "page": 27
@@ -4434,10 +4410,7 @@
   {
     "question": "Tell me about a time when you had to make a difficult trade-off decision on a roadmap.",
     "categories": [
-      "Prioritization",
-      "Behavioral",
-      "Roadmapping",
-      "Trade-offs"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1987/difficult-trade-off-decision-on-roadmap",
     "page": 27
@@ -4487,7 +4460,7 @@
   {
     "question": "How do you measure the success of a project?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2402/measuring-project-success",
     "page": 28
@@ -4511,8 +4484,7 @@
   {
     "question": "How would you improve user engagement on Netflix?",
     "categories": [
-      "Growth",
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4545/improve-netflix-user-engagement",
     "page": 28
@@ -4520,7 +4492,7 @@
   {
     "question": "What metrics would you focus on as the PM for an e-commerce store?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3375/focus-metrics-ecommerce-store-pm",
     "page": 28
@@ -4569,9 +4541,7 @@
   {
     "question": "Given experiment results, how do you decide whether to ship the feature?",
     "categories": [
-      "Product Design",
-      "A/B Testing",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5902/deciding-feature-shipping",
     "page": 28
@@ -4620,7 +4590,7 @@
   {
     "question": "How would you measure the success of discovery features on Instagram?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/91/measure-success-instagram-discovery",
     "page": 28
@@ -4644,7 +4614,7 @@
   {
     "question": "How do you stay up-to-date with the latest developments in AI?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai",
     "page": 29
@@ -4676,7 +4646,7 @@
   {
     "question": "Tell me about your three favorite apps. As the CEO of one, what would be your most important KPI?",
     "categories": [
-      "Metrics"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3877/favorite-apps-ceo-important-kpi",
     "page": 29
@@ -4692,8 +4662,7 @@
   {
     "question": "How do you A/B test a new feature?",
     "categories": [
-      "Product Design",
-      "A/B Testing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3563/how-to-ab-test-new-feature",
     "page": 29
@@ -4742,7 +4711,7 @@
   {
     "question": "How would you measure the success of Facebook Rooms?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1922/measuring-success-of-facebook-rooms",
     "page": 29
@@ -4867,7 +4836,7 @@
   {
     "question": "As a Product Manager at TikTok, how would you address user concerns regarding the platform's algorithms being excessively addictive?",
     "categories": [
-      "Analytical"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4020/pm-tiktok-address-addictive-algorithms",
     "page": 30
@@ -4883,7 +4852,7 @@
   {
     "question": "How do you drive adoption for a new product?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5466/drive-adoption-for-new-product",
     "page": 30
@@ -4907,7 +4876,7 @@
   {
     "question": "Tell me about your interest in AI.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5598/interest-in-ai",
     "page": 30
@@ -4948,7 +4917,7 @@
   {
     "question": "What would you do if you were the PM for Ticketmaster's post-booking experience?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5278/ticketmaster-post-booking-product",
     "page": 30
@@ -5037,7 +5006,7 @@
   {
     "question": "Imagine you're the PM for Uber Lite in a city of your choice. What metrics would you define to measure success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5590/define-uber-lite-success-metrics",
     "page": 31
@@ -5053,7 +5022,7 @@
   {
     "question": "How do you collect insights and apply them to products?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5862/collect-insights-and-apply-to-products",
     "page": 31
@@ -5325,7 +5294,7 @@
   {
     "question": "Why do you want to work at Atlassian?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5577/why-atlassian",
     "page": 33
@@ -5405,7 +5374,7 @@
   {
     "question": "How do you evaluate a Gen AI system?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5692/evaluate-gen-ai-system",
     "page": 33
@@ -5423,8 +5392,7 @@
   {
     "question": "You're the PM for Facebook. There's been a significant drop in user engagement over the past 10 days. How would you investigate the cause and what steps would you take to address it?",
     "categories": [
-      "Growth",
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3998/facebook-pm-investigate-user-engagement-drop",
     "page": 33
@@ -5464,8 +5432,7 @@
   {
     "question": "Why do you want to work at Capital One?",
     "categories": [
-      "Technical",
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3365/why-work-at-capital-one",
     "page": 34
@@ -5481,7 +5448,7 @@
   {
     "question": "How do you determine the need for a particular product?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3659/determine-need-for-product",
     "page": 34
@@ -5489,7 +5456,6 @@
   {
     "question": "Tell me about a time when you failed to launch a product.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3342/time-failed-to-launch-product",
@@ -5498,8 +5464,7 @@
   {
     "question": "Design a distributed database system, for example, Kafka.",
     "categories": [
-      "Product Design",
-      "Technical"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4021/design-distributed-database-system-kafka",
     "page": 34
@@ -5558,7 +5523,7 @@
   {
     "question": "What metrics did you use to train and evaluate your models?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5933/metrics-model-evaluation",
     "page": 34
@@ -5617,7 +5582,7 @@
   {
     "question": "How do you build an effective product-led growth strategy?",
     "categories": [
-      "Growth"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3702/build-product-led-growth-strategy",
     "page": 34
@@ -5641,9 +5606,7 @@
   {
     "question": "Users are creating more Instagram Stories, but engagement is down. What metrics would you track to improve this?",
     "categories": [
-      "Growth",
-      "Product Design",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3317/metrics-track-improve-engagement-instagram-stories",
     "page": 35
@@ -5659,7 +5622,7 @@
   {
     "question": "Describe a situation where using an A/B test would be appropriate.",
     "categories": [
-      "A/B Testing"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3718/appropriate-situation-for-ab-test",
     "page": 35
@@ -5667,7 +5630,7 @@
   {
     "question": "How do you consider the impact of your work on the world?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2273/impact-of-work-on-world",
     "page": 35
@@ -5675,7 +5638,6 @@
   {
     "question": "Tell me about a time when you had to change the direction of a project that was 70% complete.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1003/time-change-direction-project-70-percent",
@@ -5700,7 +5662,7 @@
   {
     "question": "Why do you think Meta built the bell icon for the mobile app? How would you set goals for it and how measure its success?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5328/bell-icon-goals-success-metrics",
     "page": 35
@@ -5724,7 +5686,7 @@
   {
     "question": "Tell me about an impactful project that you led.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1528/impactful-project-you-led",
     "page": 35
@@ -5732,7 +5694,7 @@
   {
     "question": "Why do you want to work at DoorDash?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3341/why-work-at-doordash",
     "page": 35
@@ -5756,7 +5718,7 @@
   {
     "question": "How do you approach building prototypes using AI tools versus traditional coding?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5900/ai-tools-usage",
     "page": 35
@@ -5789,7 +5751,7 @@
   {
     "question": "How do you A/B test product announcement emails?",
     "categories": [
-      "A/B Testing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3345/ab-test-product-announcement-emails",
     "page": 36
@@ -5814,8 +5776,7 @@
   {
     "question": "If you were the PM for Google Drive, what metrics would you prioritize?",
     "categories": [
-      "Prioritization",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2258/metrics-priorities-google-drive",
     "page": 36
@@ -5858,7 +5819,7 @@
   {
     "question": "What's your favorite fitness product, and what would you do if you found that its users dropped off after 3 months?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2704/favorite-fitness-product-user-dropoff",
     "page": 36
@@ -5962,7 +5923,7 @@
   {
     "question": "How do you influence without authority?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/491/influencing-without-authority",
     "page": 37
@@ -6018,7 +5979,7 @@
   {
     "question": "How would you measure the success of the recommendation engine at Netflix?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2487/measure-success-netflix-recommendation-engine",
     "page": 37
@@ -6034,7 +5995,7 @@
   {
     "question": "How do you handle projects outside your expertise area?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2726/handling-projects-outside-expertise",
     "page": 37
@@ -6050,7 +6011,7 @@
   {
     "question": "Meeting a customer executive for the first time, they question your credentials. How do you respond?",
     "categories": [
-      "Stakeholder Management"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1797/responding-to-credentials-question-customer-executive",
     "page": 37
@@ -6058,7 +6019,7 @@
   {
     "question": "What metrics would you use to increase posts with comments in a group?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1724/metrics-increase-posts-with-comments",
     "page": 37
@@ -6066,7 +6027,7 @@
   {
     "question": "How do you deal with ambiguous situations?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/503/dealing-with-ambiguous-situations",
     "page": 37
@@ -6234,7 +6195,7 @@
   {
     "question": "How do you use AI?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5871/how-do-you-use-ai",
     "page": 38
@@ -6266,7 +6227,7 @@
   {
     "question": "How do you decide whether a problem should be solved using AI, generative AI, an agent-based system, traditional programming, or just a simple rule-based approach?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5688/deciding-ai-approach",
     "page": 38
@@ -6443,7 +6404,7 @@
   {
     "question": "What is the difference between NoSQL and SQL?",
     "categories": [
-      "Concept"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql",
     "page": 39
@@ -6459,9 +6420,7 @@
   {
     "question": "Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?",
     "categories": [
-      "Prioritization",
-      "Behavioral",
-      "Roadmapping"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3616/off-roadmap-project-decision-process",
     "page": 40
@@ -6502,8 +6461,7 @@
   {
     "question": "You are working for a retail company that wants to improve user engagement on a telemedicine platform by leveraging their retail data. What is your approach?",
     "categories": [
-      "Growth",
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2864/improve-engagement-telemedicine-leverage-retail-data",
     "page": 40
@@ -6561,8 +6519,7 @@
   {
     "question": "How do you prioritize and structure roadmaps, deciding what to build and when?",
     "categories": [
-      "Prioritization",
-      "Roadmapping"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3019/prioritize-structure-roadmaps-interview-question",
     "page": 40
@@ -6570,7 +6527,7 @@
   {
     "question": "Choosing a mobile app, how would you increase user engagement by 100x?",
     "categories": [
-      "Growth"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3953/increase-user-engagement-mobile-app",
     "page": 40
@@ -6638,7 +6595,7 @@
   {
     "question": "What would you do if you were a PM at Google Cloud and could only help 3 out of 10 customers?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2969/pm-google-cloud-customer-prioritization",
     "page": 41
@@ -6858,7 +6815,7 @@
   {
     "question": "Tell me about a decision you made based on a metric you were tracking.",
     "categories": [
-      "Metrics"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1710/decision-based-on-metric-tracking",
     "page": 42
@@ -6898,7 +6855,7 @@
   {
     "question": "How do you gather feedback from users?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3781/gather-user-feedback",
     "page": 42
@@ -6923,9 +6880,7 @@
   {
     "question": "Tell me about a time when you influenced a product roadmap.",
     "categories": [
-      "Prioritization",
-      "Behavioral",
-      "Roadmapping"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/878/influenced-product-roadmap",
     "page": 42
@@ -7092,7 +7047,7 @@
   {
     "question": "How have you worked with designers to A/B test different iterations?",
     "categories": [
-      "A/B Testing"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5851/working-with-designers-to-ab-test",
     "page": 43
@@ -7117,7 +7072,7 @@
   {
     "question": "Tell me about one of the most complex projects you've been involved in.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/145/most-complex-project",
     "page": 43
@@ -7181,9 +7136,7 @@
   {
     "question": "You're a PM at WhatsApp tasked with increasing user engagement. What features will you build and how will you prioritize and evaluate them?",
     "categories": [
-      "Prioritization",
-      "Product Design",
-      "Growth"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2792/pm-whatsapp-increase-user-engagement",
     "page": 44
@@ -7191,7 +7144,7 @@
   {
     "question": "How would you measure the success of FaceTime?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2592/measure-success-facetime",
     "page": 44
@@ -7207,7 +7160,7 @@
   {
     "question": "Tell me about a project where you prioritized the customer.",
     "categories": [
-      "Prioritization"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1762/project-where-customer-priority",
     "page": 44
@@ -7251,7 +7204,7 @@
   {
     "question": "How do you collect user requirements?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3346/collect-user-requirements",
     "page": 44
@@ -7530,7 +7483,7 @@
   {
     "question": "How would you measure the success of a personalized news feed?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1883/measure-success-personalized-news-feed",
     "page": 46
@@ -7547,9 +7500,7 @@
   {
     "question": "What is the best way to connect SQL databases and why?",
     "categories": [
-      "Technical",
-      "Analytical",
-      "Concept"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2156/best-way-connect-sql-databases",
     "page": 46
@@ -7648,7 +7599,6 @@
   {
     "question": "Tell me about a time when you launched a product.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1955/time-you-launched-a-product",
@@ -7693,7 +7643,7 @@
   {
     "question": "How would you increase the conversion rate for YouTube Premium?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4092/increase-conversion-rate-youtube-premium",
     "page": 47
@@ -7726,7 +7676,7 @@
   {
     "question": "Why do you want to be a product manager?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3866/why-become-a-product-manager",
     "page": 47
@@ -7766,7 +7716,7 @@
   {
     "question": "How do you contribute to diversity and inclusion?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1531/contribute-diversity-inclusion",
     "page": 47
@@ -7801,7 +7751,7 @@
   {
     "question": "How would you optimize booking.com to improve conversion rates?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2771/optimize-booking-improve-conversion-rates",
     "page": 48
@@ -7943,8 +7893,7 @@
   {
     "question": "You're a PM at Spotify. What metrics would you use to decide whether to ship a new song recommendation algorithm?",
     "categories": [
-      "Metrics",
-      "Execution"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2216/spotify-pm-metrics-new-algorithm",
     "page": 48
@@ -7993,8 +7942,7 @@
   {
     "question": "Name your top three favorite products, select one, and outline a plan to scale it by tenfold.",
     "categories": [
-      "System Design",
-      "Product Sense"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2693/scale-favorite-product-tenfold",
     "page": 49
@@ -8010,7 +7958,7 @@
   {
     "question": "How would you measure the metrics for TurboTax?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2531/measure-metrics-turbotax",
     "page": 49
@@ -8067,7 +8015,7 @@
   {
     "question": "Tell me about an end-to-end product you worked on.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1488/end-to-end-product-you-worked-on",
     "page": 49
@@ -8091,9 +8039,7 @@
   {
     "question": "What would you do if you had to deliver a product or feature in half of the initial timeline?",
     "categories": [
-      "Product Design",
-      "Roadmapping",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1889/deliver-product-feature-half-timeline",
     "page": 49
@@ -8126,7 +8072,7 @@
   {
     "question": "How would you measure the success of Google Calendar?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2522/measure-success-google-calendar",
     "page": 50
@@ -8134,7 +8080,7 @@
   {
     "question": "Tell me about a challenge you faced and how you overcame it.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2283/challenge-you-faced-and-overcame",
     "page": 50
@@ -8179,7 +8125,7 @@
   {
     "question": "Tell me about a situation where you didn't reach your goal.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1504/situation-not-reaching-goal",
     "page": 50
@@ -8187,7 +8133,7 @@
   {
     "question": "Tell me about a project where you recognized the need to alter the strategy or direction.",
     "categories": [
-      "Product Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3827/alter-strategy-direction-project",
     "page": 50
@@ -8195,7 +8141,7 @@
   {
     "question": "Tell me about your design process.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3360/describe-your-design-process",
     "page": 50
@@ -8203,7 +8149,7 @@
   {
     "question": "How would you measure the success of Snap Map?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2082/measure-success-snap-map",
     "page": 50
@@ -8211,7 +8157,7 @@
   {
     "question": "As a PM, how do you work with users?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5849/working-with-users",
     "page": 50
@@ -8227,7 +8173,7 @@
   {
     "question": "Share your experience around launching a product from 0 to 1.",
     "categories": [
-      "Product Strategy"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3078/experience-launching-product-from-0-to-1",
     "page": 50
@@ -8283,7 +8229,7 @@
   {
     "question": "Tell me about a product you shipped that failed.",
     "categories": [
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4724/product-ship-failure",
     "page": 50
@@ -8291,7 +8237,7 @@
   {
     "question": "You are a grocery store owner/manager. How do you determine how many self-checkout machines you need?",
     "categories": [
-      "Estimation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2160/determine-self-checkout-machines-needed",
     "page": 51
@@ -8333,8 +8279,7 @@
   {
     "question": "You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?",
     "categories": [
-      "Product Strategy",
-      "Technical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3352/measure-financial-gains-losses-capital-one",
     "page": 51
@@ -8384,7 +8329,7 @@
   {
     "question": "How do you set priorities with limited resources?",
     "categories": [
-      "Prioritization"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3334/setting-priorities-limited-resources",
     "page": 51
@@ -8474,7 +8419,7 @@
   {
     "question": "Why do you want to work at Walmart Labs?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs",
     "page": 52
@@ -8523,7 +8468,7 @@
   {
     "question": "How do you determine the necessary sample size for an A/B test?",
     "categories": [
-      "A/B Testing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3564/determine-sample-size-ab-test",
     "page": 52
@@ -8547,8 +8492,7 @@
   {
     "question": "Tell me about a product or feature you shipped.",
     "categories": [
-      "Product Design",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/379/product-feature-shipped",
     "page": 52
@@ -8556,7 +8500,7 @@
   {
     "question": "How do you plan your team composition?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3235/plan-team-composition",
     "page": 52
@@ -8598,8 +8542,7 @@
   {
     "question": "Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?",
     "categories": [
-      "Technical",
-      "Trade-offs"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1872/technical-debt-consequences-trade-offs",
     "page": 52
@@ -8706,7 +8649,7 @@
   {
     "question": "Why do you want to join an AI-first company?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5844/why-ai-first-company",
     "page": 53
@@ -8731,9 +8674,7 @@
   {
     "question": "Name three software or hardware products you started using in the last three months. I will select one, and I would like you to explain how you will track user engagement with it. What factors shou...",
     "categories": [
-      "Growth",
-      "Communication",
-      "Metrics"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/1717/products-used-user-engagement-tracking",
     "page": 53
@@ -8789,7 +8730,7 @@
   {
     "question": "How do you think TikTok should monetize?",
     "categories": [
-      "Pricing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2604/tiktok-monetization-strategies",
     "page": 54
@@ -8806,7 +8747,7 @@
   {
     "question": "Tell me about your favorite product.",
     "categories": [
-      "Product Sense"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1864/tell-me-about-favorite-product",
     "page": 54
@@ -8857,8 +8798,7 @@
   {
     "question": "How do you balance engineering foundational work with building new features?",
     "categories": [
-      "Product Design",
-      "Trade-offs"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1871/balance-engineering-foundational-work-new-features",
     "page": 54
@@ -8915,7 +8855,7 @@
   {
     "question": "How would you measure the success of Google search results?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4400/how-would-you-measure-the-success-of-google-search-results",
     "page": 54
@@ -8923,7 +8863,7 @@
   {
     "question": "How do you decide between building a solution in-house or buying an existing one?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3882/decide-building-in-house-vs-buying-solution",
     "page": 54
@@ -8995,7 +8935,7 @@
   {
     "question": "How do you handle a team with diverse backgrounds?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2285/handling-diverse-team",
     "page": 55
@@ -9053,7 +8993,6 @@
   {
     "question": "Tell me about a time when you were unable to launch your product on schedule.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3858/product-launch-delay-experience",
@@ -9086,7 +9025,7 @@
   {
     "question": "How do you expand your product management skills?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3347/expand-product-management-skills",
     "page": 55
@@ -9188,7 +9127,7 @@
   {
     "question": "Tell me about your most impactful project.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4302/tell-me-about-your-most-impactful-project",
     "page": 56
@@ -9196,7 +9135,7 @@
   {
     "question": "Tell me about a SaaS product you really like using.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2492/favorite-saas-product-discussion",
     "page": 56
@@ -9245,7 +9184,7 @@
   {
     "question": "For a new vertical such as peer-to-peer car rental at a super-app like Grab, what metrics would you examine in the first six months to assess its potential?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1944/metrics-assess-peer-to-peer-car-rental-success",
     "page": 56
@@ -9261,7 +9200,7 @@
   {
     "question": "Tell me about a bad experience you had with a low-tech product.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2243/bad-experience-low-tech-product",
     "page": 56
@@ -9310,7 +9249,7 @@
   {
     "question": "How should Google partner with the movie industry to enter the streaming space?",
     "categories": [
-      "Product Strategy"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/1734/google-movie-industry-streaming-partnership",
     "page": 57
@@ -9410,7 +9349,7 @@
   {
     "question": "Tell me about a situation that required you to dig deep to find the root cause.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2303/situation-dig-deep-root-cause",
     "page": 57
@@ -9418,7 +9357,7 @@
   {
     "question": "How would you build a system for running experiments such as A/B tests on an app or website?",
     "categories": [
-      "A/B Testing"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2241/build-system-running-ab-tests",
     "page": 57
@@ -9493,7 +9432,7 @@
   {
     "question": "Tell me about your e-commerce experience.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3380/share-ecommerce-experience",
     "page": 58
@@ -9501,7 +9440,7 @@
   {
     "question": "Tell me about your product management experience.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3339/product-management-experience",
     "page": 58
@@ -9509,7 +9448,7 @@
   {
     "question": "Explain how to train and deploy an ML model for license plate detection for customer pick-up orders at a retail store. How do you decide between on-premise versus cloud deployment?",
     "categories": [
-      "Communication"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1746/ml-model-license-plate-detection-deployment",
     "page": 58
@@ -9738,7 +9677,7 @@
   {
     "question": "How do you write your PRDs?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4837/write-product-requirement-doc",
     "page": 59
@@ -9746,7 +9685,7 @@
   {
     "question": "Uber Eats introduced a new promotional tab in their app. How would you measure its success?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2559/measure-success-uber-eats-promo-tab",
     "page": 59
@@ -9795,7 +9734,7 @@
   {
     "question": "Design a video streaming product for senior citizens.",
     "categories": [
-      "Product Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4580/design-video-streaming-senior-citizens",
     "page": 60
@@ -9917,7 +9856,7 @@
   {
     "question": "How would you measure the success of improvements made to Uber's referral system?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2646/measure-success-uber-referral-system-improvements",
     "page": 60
@@ -9974,8 +9913,7 @@
   {
     "question": "Tell me about something you learned that improved your job performance.",
     "categories": [
-      "Product Design",
-      "Technical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1784/improvement-learning-job-performance",
     "page": 61
@@ -9983,7 +9921,7 @@
   {
     "question": "How would you measure the success of data insights presented to a B2B customer regarding their organization's health?",
     "categories": [
-      "Communication"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1884/measure-success-b2b-data-insights",
     "page": 61
@@ -9991,7 +9929,7 @@
   {
     "question": "As the PM of a startup that matches people for music collaborations, how would you measure success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2205/measure-success-music-collab-startup",
     "page": 61
@@ -10047,7 +9985,7 @@
   {
     "question": "How would you measure the success of your favorite product as the PMO?",
     "categories": [
-      "Product Sense"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2197/measure-success-favorite-product-pmo",
     "page": 61
@@ -10063,7 +10001,7 @@
   {
     "question": "Tell me about a challenge you faced when working with sales.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2722/challenge-working-with-sales",
     "page": 61
@@ -10080,7 +10018,7 @@
   {
     "question": "Tell me about your experience.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2668/tell-about-your-experience",
     "page": 61
@@ -10112,7 +10050,7 @@
   {
     "question": "Why do you want to be a PM? What experiences have pointed to this being the right role for you?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1885/why-pm-right-role-experiences",
     "page": 62
@@ -10120,7 +10058,7 @@
   {
     "question": "How do you spend your day at work?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4883/day-spent-work",
     "page": 62
@@ -10283,7 +10221,7 @@
   {
     "question": "Tell me about your experience working with Agile, specfically with Kanban",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5561/tell-me-about-agile-kanban-experience",
     "page": 63
@@ -10353,7 +10291,7 @@
   {
     "question": "How do you keep up with the evolving landscape of artificial intelligence news?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5868/how-you-keep-current-with-ai",
     "page": 63
@@ -10475,7 +10413,7 @@
   {
     "question": "You are in charge of building a national park system in a newly formed country; how would you measure success?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2136/measure-success-national-park-system",
     "page": 64
@@ -10499,7 +10437,7 @@
   {
     "question": "You're a PM for FB Audio Room, what metrics would you measure?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2119/pm-fb-audio-room-metrics-measure",
     "page": 64
@@ -10557,9 +10495,7 @@
   {
     "question": "Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?",
     "categories": [
-      "Product Strategy",
-      "Product Design",
-      "Prioritization"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3191/design-competitor-for-popular-product",
     "page": 64
@@ -10583,7 +10519,6 @@
   {
     "question": "Tell me about a time when you changed the direction of the organization through your actions.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2105/impact-organizational-direction-change",
@@ -10656,7 +10591,7 @@
   {
     "question": "Airbnb made a feature to increase business travel. How would you measure its success?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2645/measure-success-airbnb-business-travel-feature",
     "page": 65
@@ -10746,7 +10681,7 @@
   {
     "question": "An engineer wants to make a major change to the ranking algorithm. How would you evaluate it?",
     "categories": [
-      "Prioritization"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2229/evaluate-changes-ranking-algorithm",
     "page": 65
@@ -10875,9 +10810,7 @@
   {
     "question": "What metrics would you track upon launching a new e-commerce website and why?",
     "categories": [
-      "Product Strategy",
-      "Analytical",
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2730/metrics-track-new-ecommerce-website",
     "page": 66
@@ -11081,7 +11014,7 @@
   {
     "question": "How would you measure improvements made to Facebook Messenger?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2517/measure-improvements-facebook-messenger",
     "page": 68
@@ -11285,7 +11218,7 @@
   {
     "question": "How do you interact with product marketing during a product lifecycle?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2255/interacting-product-marketing-lifecycle",
     "page": 69
@@ -11309,7 +11242,7 @@
   {
     "question": "Why do you want to work at Salesforce?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce",
     "page": 69
@@ -11342,7 +11275,7 @@
   {
     "question": "You're the PM of a non-profit food bank. You've just received a large charitable donation. How do you prioritize where to use the money?",
     "categories": [
-      "Prioritization"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2856/prioritizing-funds-non-profit-food-bank",
     "page": 69
@@ -11374,8 +11307,7 @@
   {
     "question": "Tell me about your favorite product. How would you build its competitor?",
     "categories": [
-      "Product Strategy",
-      "Product Sense"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1873/favorite-product-build-competitor",
     "page": 69
@@ -11399,7 +11331,7 @@
   {
     "question": "Tell me about your most significant accomplishment. Why was it significant?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1775/most-significant-accomplishment",
     "page": 70
@@ -11432,7 +11364,7 @@
   {
     "question": "Why do you want to work at Discord?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4671/why-discord",
     "page": 70
@@ -11440,7 +11372,7 @@
   {
     "question": "Why do you want to work at DocuSign?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3382/why-work-at-docusign",
     "page": 70
@@ -11457,8 +11389,7 @@
   {
     "question": "Can you provide an example of a strategy you developed to address a technology gap at your company, and explain how you decided between build, buy, or partnership?",
     "categories": [
-      "Communication",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2023/strategy-for-technology-gap-build-buy-partnership",
     "page": 70
@@ -11506,7 +11437,7 @@
   {
     "question": "Why do you want to work at LinkedIn?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3370/why-work-at-linkedin",
     "page": 70
@@ -11586,7 +11517,7 @@
   {
     "question": "What metrics would you consider for designing a robot at Facebook?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1725/facebook-robot-design-metrics",
     "page": 71
@@ -11618,10 +11549,7 @@
   {
     "question": "Tell me about a feature you shipped and how you influenced its priority.",
     "categories": [
-      "Prioritization",
-      "Product Design",
-      "Leadership",
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2683/influence-shipping-feature-priority",
     "page": 71
@@ -11653,7 +11581,7 @@
   {
     "question": "How do you build relationships?",
     "categories": [
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3030/how-build-relationships",
     "page": 71
@@ -11669,7 +11597,7 @@
   {
     "question": "Tell me about something you're passionate about.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5276/personal-passion-example",
     "page": 71
@@ -11693,7 +11621,7 @@
   {
     "question": "Why do you want to work at Twitch?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2650/why-work-at-twitch",
     "page": 71
@@ -11743,7 +11671,7 @@
   {
     "question": "Why do you want to work at Perplexity?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5842/why-perplexity",
     "page": 72
@@ -11767,7 +11695,7 @@
   {
     "question": "How do you partner with engineering and data science teams?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2844/partnering-engineering-data-science",
     "page": 72
@@ -11775,8 +11703,7 @@
   {
     "question": "Why do you think Facebook built the dating product? How would you measure its overall impact and set North Star metrics?",
     "categories": [
-      "Analytical",
-      "Metrics"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2049/facebook-dating-product-impact-metrics",
     "page": 72
@@ -11800,7 +11727,7 @@
   {
     "question": "How would you measure the success of Discord's new game purchasing feature?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2566/measure-discord-game-purchase-success",
     "page": 72
@@ -11832,7 +11759,7 @@
   {
     "question": "As a Home Page PM at Netflix, how would you measure the success of your product?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2267/home-page-pm-netflix-measure-success",
     "page": 72
@@ -11856,8 +11783,7 @@
   {
     "question": "What is the benefit of A/B testing?",
     "categories": [
-      "A/B Testing",
-      "Concept"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2541/benefits-ab-testing",
     "page": 72
@@ -11881,7 +11807,7 @@
   {
     "question": "What would you do if Dropbox uploads were down 50%?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2494/dropbox-uploads-down-response",
     "page": 73
@@ -12026,7 +11952,7 @@
   {
     "question": "How do you find the business value from an ambiguous question?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2692/finding-business-value-ambiguous-question",
     "page": 73
@@ -12115,7 +12041,7 @@
   {
     "question": "Develop an algorithm for a radio station to select the next song from a database of over one million songs, given that only one input is allowed from the user on the landing page.",
     "categories": [
-      "Technical"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1718/algorithm-radio-station-select-next-song",
     "page": 74
@@ -12139,7 +12065,7 @@
   {
     "question": "How would you measure the success of EdX's search bar?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2565/measure-success-edx-search-bar",
     "page": 74
@@ -12237,9 +12163,7 @@
   {
     "question": "How do you define success metrics when launching a new feature?",
     "categories": [
-      "Product Strategy",
-      "Product Design",
-      "Metrics"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2784/defining-success-metrics-new-feature",
     "page": 75
@@ -12280,7 +12204,7 @@
   {
     "question": "How would you measure metrics for BART?",
     "categories": [
-      "Metrics"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2653/measure-metrics-for-bart",
     "page": 75
@@ -12296,7 +12220,7 @@
   {
     "question": "How do you design Amazon's Choice feature?",
     "categories": [
-      "Product Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2208/design-amazon-choice-feature",
     "page": 75
@@ -12353,7 +12277,7 @@
   {
     "question": "Tell me about your favorite application. How would you build or integrate it within the Facebook platform?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1737/favorite-application-facebook-integration",
     "page": 75
@@ -12460,7 +12384,7 @@
   {
     "question": "How would you measure the success of Asana's feature improvement to their ticketing system?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2512/measure-success-asana-feature-improvement",
     "page": 76
@@ -12493,7 +12417,7 @@
   {
     "question": "Why do you want to work at Twilio?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4275/why-twilio",
     "page": 76
@@ -12622,7 +12546,7 @@
   {
     "question": "Estimate the number of pieces of candy given out in your city.",
     "categories": [
-      "Estimation"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1788/city-candy-distribution-estimate",
     "page": 77
@@ -13033,7 +12957,7 @@
   {
     "question": "As a Product Manager, how would you measure the success of Toshiba's self-checkout systems used by millions of grocery store shoppers daily?",
     "categories": [
-      "Analytical"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1990/measure-success-toshiba-self-checkout",
     "page": 80
@@ -13311,7 +13235,7 @@
   {
     "question": "Why do you want to work at Shure?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3383/why-work-at-shure",
     "page": 81
@@ -13335,7 +13259,7 @@
   {
     "question": "What would you do if the timelines of a product are scattered?",
     "categories": [
-      "Roadmapping"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2791/handling-scattered-product-timelines",
     "page": 81
@@ -13367,7 +13291,7 @@
   {
     "question": "Tell me about a non-obvious insight that you had that drove business impact.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5161/behavioral-insight-drove-business-impact",
     "page": 82
@@ -13431,7 +13355,7 @@
   {
     "question": "Why do you want to work at Twitter?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2539/reasons-to-work-at-twitter",
     "page": 82
@@ -13511,7 +13435,7 @@
   {
     "question": "You've just joined a company as a PM. How would you first identify problems to work on?",
     "categories": [
-      "Analytical"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/4222/new-pm-identify-problems",
     "page": 82
@@ -13519,7 +13443,7 @@
   {
     "question": "Tell me about your academic background.",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3369/tell-about-academic-background",
     "page": 83
@@ -13665,7 +13589,7 @@
   {
     "question": "Intercom introduced a feature to engage with users over SMS. How would you measure its success?",
     "categories": [
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2561/measure-success-intercom-sms-feature",
     "page": 83
@@ -13714,7 +13638,7 @@
   {
     "question": "Why do you want to work at Facebook?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2647/why-work-at-facebook",
     "page": 84
@@ -13730,8 +13654,7 @@
   {
     "question": "How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?",
     "categories": [
-      "Product Strategy",
-      "Go-to-Market"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1877/measure-success-insights-enterprise-messaging-app",
     "page": 84
@@ -13739,8 +13662,7 @@
   {
     "question": "What's a collaboration product your teams use, and why do you like it?",
     "categories": [
-      "Analytical",
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2636/team-collaboration-tools-preferences",
     "page": 84
@@ -13856,7 +13778,7 @@
   {
     "question": "Why do you want to work at Oculus?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2507/why-work-at-oculus",
     "page": 85
@@ -13897,7 +13819,7 @@
   {
     "question": "How do you align incentives with a team that shares similar goals?",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/2352/align-incentives-team-similar-goals",
     "page": 85

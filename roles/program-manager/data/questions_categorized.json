@@ -2,7 +2,6 @@
   {
     "question": "Tell me about a time when you worked on a project with a tight deadline.",
     "categories": [
-      "Program Management",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline",
@@ -19,7 +18,6 @@
   {
     "question": "How do you prioritize tasks?",
     "categories": [
-      "Program Management",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
@@ -36,7 +34,6 @@
   {
     "question": "Tell me about a time when data helped you make a decision.",
     "categories": [
-      "Data Analysis",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5630/when-data-helped-you-make-a-decision",
@@ -45,8 +42,6 @@
   {
     "question": "Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.",
     "categories": [
-      "Program Management",
-      "Stakeholder Management",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4953/handle-team-enthusiasm-differences",
@@ -55,7 +50,6 @@
   {
     "question": "Tell me about a time when you led a project from start to finish.",
     "categories": [
-      "Program Management",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/652/time-led-project-start-to-finish",
@@ -74,7 +68,6 @@
   {
     "question": "Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?",
     "categories": [
-      "Program Management",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4949/alternative-opportunity-decision-outcome",

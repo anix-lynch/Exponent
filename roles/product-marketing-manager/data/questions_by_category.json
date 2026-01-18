@@ -21,6 +21,10 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
+      "question": "How do you prioritize features for a product launch?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
       "question": "Tell me about a time you had to influence stakeholders without authority.",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
@@ -33,6 +37,14 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
+      "question": "How do you work with sales teams to enable them for a new product?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "Tell me about a failed product launch and what you learned.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
       "question": "How would you approach pricing for a new product?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
@@ -41,11 +53,19 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
+      "question": "Tell me about your experience with product launches in international markets.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
       "question": "How do you create buyer personas?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
       "question": "Tell me about a time you used data to inform a marketing decision.",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    },
+    {
+      "question": "How do you differentiate your product in a crowded market?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
@@ -69,13 +89,11 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
-      "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
+      "question": "How do you stay current with market trends and competitor activities?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
-    }
-  ],
-  "Go-To-Market Strategy": [
+    },
     {
-      "question": "Design a GTM strategy for taking a brick-and-mortar rug store online.",
+      "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
@@ -91,17 +109,15 @@
     {
       "question": "What frameworks do you use for product positioning?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
+    }
+  ],
+  "Go-To-Market Strategy": [
     {
-      "question": "How do you differentiate your product in a crowded market?",
+      "question": "Design a GTM strategy for taking a brick-and-mortar rug store online.",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
   "Product Launch": [
-    {
-      "question": "Tell me how you brought a product to market.",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
     {
       "question": "As a product marketing manager, how would you launch the new waitlist appointment feature for a salon? What process would you follow?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
@@ -115,31 +131,23 @@
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
-      "question": "What metrics would you track for a new product launch?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "How do you prioritize features for a product launch?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "Tell me about a failed product launch and what you learned.",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "Tell me about your experience with product launches in international markets.",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
       "question": "What is your approach to content marketing for product launches?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     },
     {
       "question": "How would you handle a situation where engineering delays a product launch?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
+    }
+  ],
+  "Product Analytics": [
     {
-      "question": "Tell me about a time you had to pivot your marketing strategy mid-launch.",
+      "question": "What metrics would you track for a new product launch?",
+      "url": "https://www.tryexponent.com/questions?role=pmm"
+    }
+  ],
+  "Competitive Analysis": [
+    {
+      "question": "What is your approach to competitive analysis?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     }
   ],
@@ -154,36 +162,5 @@
       "question": "What is your process for conducting customer research?",
       "url": "https://www.tryexponent.com/questions?role=pmm"
     }
-  ],
-  "Competitive Analysis": [
-    {
-      "question": "What is your approach to competitive analysis?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "How do you stay current with market trends and competitor activities?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    }
-  ],
-  "Cross-Functional Collaboration": [
-    {
-      "question": "Facing a new feature launch, the team is not motivated to collaborate. What would you do?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "Tell me about a time you had to influence stakeholders without authority.",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    },
-    {
-      "question": "How do you work with sales teams to enable them for a new product?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    }
-  ],
-  "Sales Enablement": [
-    {
-      "question": "How do you work with sales teams to enable them for a new product?",
-      "url": "https://www.tryexponent.com/questions?role=pmm"
-    }
-  ],
-  "Customer Insights": []
+  ]
 }

@@ -57,12 +57,20 @@
       "url": "https://www.tryexponent.com/questions/4849/social-media-content-engagement-analysis"
     },
     {
+      "question": "Meta\u2019s new app shows 25% drop-off at sign-up. How do you analyze this?",
+      "url": "https://www.tryexponent.com/questions/5263/analyze-social-media-app-signups"
+    },
+    {
       "question": "Tell me about a time you built a dashboard.",
       "url": "https://www.tryexponent.com/questions/5258/tell-me-about-a-time-you-built-a-dashboard"
     },
     {
       "question": "Tell me about a project where you had to clean and organize a large dataset.",
       "url": "https://www.tryexponent.com/questions/5259/clean-and-organize-a-large-dataset"
+    },
+    {
+      "question": "Why do you want to work at Atlassian?",
+      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
     },
     {
       "question": "How would you model the expected ROI of a new product launch?",
@@ -81,12 +89,20 @@
       "url": "https://www.tryexponent.com/questions/5262/analyze-variance-in-food-delivery"
     },
     {
+      "question": "55% of users do not complete the application from the application page to the submission page. Why do you think this is the case?",
+      "url": "https://www.tryexponent.com/questions/4179/user-dropoff-application-submission-reasons"
+    },
+    {
       "question": "How would you visualize sales and customer usage?",
       "url": "https://www.tryexponent.com/questions/4404/visualize-sales-and-customer-usage"
     },
     {
       "question": "Tell me about a project where you faced data issues and how you handled them.",
       "url": "https://www.tryexponent.com/questions/5169/project-data-issues"
+    },
+    {
+      "question": "How do you approach an ambiguous request from a stakeholder?",
+      "url": "https://www.tryexponent.com/questions/5173/approach-ambiguous-request-from-stakeholder"
     },
     {
       "question": "How do you handle joining data from different sources with inconsistent IDs?",
@@ -157,8 +173,16 @@
       "url": "https://www.tryexponent.com/questions/5180/decision-based-on-bad-data"
     },
     {
+      "question": "What types of visualizations would you use to identify patterns in churn?",
+      "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns"
+    },
+    {
       "question": "How would you segment users for a new e-commerce platform?",
       "url": "https://www.tryexponent.com/questions/5225/segment-users-e-commerce-platform"
+    },
+    {
+      "question": "How do you present insights to non-technical stakeholders?",
+      "url": "https://www.tryexponent.com/questions/5185/present-insights-non-technical-stakeholders"
     },
     {
       "question": "Estimate the TAM for electric scooters in San Francisco.",
@@ -181,6 +205,10 @@
       "url": "https://www.tryexponent.com/questions/5210/ensure-data-recommendations-actionable"
     },
     {
+      "question": "How do you determine which metrics are most important for executives to track?",
+      "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives"
+    },
+    {
       "question": "You\u2019ve been asked to analyze the performance of a newly launched onboarding experience. What steps would you take?",
       "url": "https://www.tryexponent.com/questions/5214/analyze-newly-launched-onboarding-experience"
     },
@@ -195,10 +223,6 @@
     {
       "question": "How would you identify inefficiencies in a team\u2019s workflow using data?",
       "url": "https://www.tryexponent.com/questions/5198/use-data-to-identify-inefficiencies-in-team-workflow"
-    },
-    {
-      "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
-      "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact"
     },
     {
       "question": "Describe a time you used data to improve an internal process.",
@@ -221,67 +245,6 @@
       "url": "https://www.tryexponent.com/questions/5228/evaluate-pricing-compared-to-competitors"
     }
   ],
-  "Product Metrics - Definition": [
-    {
-      "question": "You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?",
-      "url": "https://www.tryexponent.com/questions/2958/google-ads-pm-success-metrics"
-    },
-    {
-      "question": "What metrics would you use to evaluate product adoption and engagement?",
-      "url": "https://www.tryexponent.com/questions/5192/metrics-to-evaluate-product-adoption"
-    },
-    {
-      "question": "What KPIs would you track to measure company health?",
-      "url": "https://www.tryexponent.com/questions/5200/kpis-measure-company-health"
-    },
-    {
-      "question": "How do you determine which metrics are most important for executives to track?",
-      "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives"
-    },
-    {
-      "question": "What KPIs would you track to evaluate the health of a subscription-based business?",
-      "url": "https://www.tryexponent.com/questions/5205/kpi-subscription-based-business"
-    },
-    {
-      "question": "What metrics would you track to improve operational cost?",
-      "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost"
-    }
-  ],
-  "Product Metrics - Tracking": [
-    {
-      "question": "Tell me about a time you built a dashboard.",
-      "url": "https://www.tryexponent.com/questions/5258/tell-me-about-a-time-you-built-a-dashboard"
-    },
-    {
-      "question": "Have you ever had to work with poor-quality data or suggest new tracking?",
-      "url": "https://www.tryexponent.com/questions/5260/dealing-with-poor-data-or-missing-tracking"
-    },
-    {
-      "question": "What KPIs would you track to measure company health?",
-      "url": "https://www.tryexponent.com/questions/5200/kpis-measure-company-health"
-    },
-    {
-      "question": "How do you determine which metrics are most important for executives to track?",
-      "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives"
-    },
-    {
-      "question": "What KPIs would you track to evaluate the health of a subscription-based business?",
-      "url": "https://www.tryexponent.com/questions/5205/kpi-subscription-based-business"
-    },
-    {
-      "question": "What metrics would you track to improve operational cost?",
-      "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost"
-    },
-    {
-      "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
-      "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app"
-    },
-    {
-      "question": "Walk me through a dashboard you built. What choices did you make?",
-      "url": "https://www.tryexponent.com/questions/5186/walk-through-dashboard"
-    }
-  ],
-  "Product Metrics - Interpretation": [],
   "A/B Testing - Design": [
     {
       "question": "How would you test the viability of expanding Airbnb\u2019s \"Restaurant\" product to a new region?",
@@ -292,130 +255,40 @@
       "url": "https://www.tryexponent.com/questions/5229/test-new-international-market-launch-impact"
     }
   ],
-  "A/B Testing - Analysis": [],
-  "A/B Testing - Interpretation": [],
-  "Data Analysis - Feature Impact": [
+  "Product Analytics": [
     {
-      "question": "How would you assess whether a new feature launch was successful?",
-      "url": "https://www.tryexponent.com/questions/5191/assess-new-feature-launch-success"
-    },
-    {
-      "question": "How would you evaluate whether a new feature is worth rolling out to all users?",
-      "url": "https://www.tryexponent.com/questions/5211/evaluate-whether-to-roll-out-new-feature"
+      "question": "You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?",
+      "url": "https://www.tryexponent.com/questions/2958/google-ads-pm-success-metrics"
     },
     {
       "question": "You\u2019re launching a new feature\u2014how would you measure its strategic impact on growth?",
       "url": "https://www.tryexponent.com/questions/5230/new-feature-impact-on-growth"
     },
     {
+      "question": "What metrics would you use to evaluate product adoption and engagement?",
+      "url": "https://www.tryexponent.com/questions/5192/metrics-to-evaluate-product-adoption"
+    },
+    {
+      "question": "How would you analyze why user engagement is declining?",
+      "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement"
+    },
+    {
+      "question": "What metrics would you track to improve operational cost?",
+      "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost"
+    },
+    {
       "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
       "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app"
     },
     {
-      "question": "The leadership team wants to understand the ROI of a new feature\u2014how would you structure that analysis?",
-      "url": "https://www.tryexponent.com/questions/5222/analysis-new-feature-roi"
-    }
-  ],
-  "Data Analysis - User Behavior": [
-    {
-      "question": "How would you analyze why user engagement is declining?",
-      "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement"
-    }
-  ],
-  "Data Analysis - Funnel Analysis": [
-    {
-      "question": "Walk me through a time you diagnosed a drop in conversion.",
-      "url": "https://www.tryexponent.com/questions/5193/time-you-diagnosed-drop-in-conversion"
-    }
-  ],
-  "Data Analysis - Retention & Churn": [
-    {
-      "question": "What types of visualizations would you use to identify patterns in churn?",
-      "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns"
-    },
-    {
-      "question": "Suppose adoption is high, but retention is low\u2014how would you diagnose and communicate the issue?",
-      "url": "https://www.tryexponent.com/questions/5213/high-adoption-low-retention"
-    },
-    {
-      "question": "How would you use cohorts to identify retention issues?",
-      "url": "https://www.tryexponent.com/questions/5207/use-cohort-identify-retention-issues"
-    },
-    {
-      "question": "Walk me through how you'd segment users for a churn analysis.",
-      "url": "https://www.tryexponent.com/questions/5208/segment-users-churn-analysis"
-    }
-  ],
-  "SQL": [],
-  "Product Strategy": [
-    {
-      "question": "Tell me about a time when your analysis influenced a business decision.",
-      "url": "https://www.tryexponent.com/questions/5209/time-analysis-influenced-business-decision"
-    }
-  ],
-  "Product Sense": [],
-  "Dashboard & Visualization": [
-    {
-      "question": "Tell me about a time you built a dashboard.",
-      "url": "https://www.tryexponent.com/questions/5258/tell-me-about-a-time-you-built-a-dashboard"
-    },
-    {
-      "question": "What types of visualizations would you use to identify patterns in churn?",
-      "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns"
-    },
-    {
-      "question": "Walk me through a dashboard you built. What choices did you make?",
-      "url": "https://www.tryexponent.com/questions/5186/walk-through-dashboard"
-    }
-  ],
-  "Stakeholder Communication": [
-    {
-      "question": "Tell me about a time when you had to deal with conflicting priorities with your stakeholders and how you secured alignment with them.",
-      "url": "https://www.tryexponent.com/questions/2120/manage-conflicting-priorities-stakeholders"
-    },
-    {
-      "question": "How do you approach an ambiguous request from a stakeholder?",
-      "url": "https://www.tryexponent.com/questions/5173/approach-ambiguous-request-from-stakeholder"
-    },
-    {
-      "question": "Suppose adoption is high, but retention is low\u2014how would you diagnose and communicate the issue?",
-      "url": "https://www.tryexponent.com/questions/5213/high-adoption-low-retention"
-    },
-    {
-      "question": "How do you present insights to non-technical stakeholders?",
-      "url": "https://www.tryexponent.com/questions/5185/present-insights-non-technical-stakeholders"
-    }
-  ],
-  "Prioritization": [
-    {
-      "question": "You have three ideas for expansion but limited resources. How would you help prioritize them?",
-      "url": "https://www.tryexponent.com/questions/5231/multiple-ideas-limited-resources-prioritization"
+      "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
+      "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact"
     }
   ],
   "Root Cause Analysis": [
     {
-      "question": "Meta\u2019s new app shows 25% drop-off at sign-up. How do you analyze this?",
-      "url": "https://www.tryexponent.com/questions/5263/analyze-social-media-app-signups"
-    },
-    {
       "question": "Why did you choose analytics as a career?",
       "url": "https://www.tryexponent.com/questions/5264/why-data-analytics-as-a-career"
-    },
-    {
-      "question": "Why do you want to work at Atlassian?",
-      "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
-    },
-    {
-      "question": "55% of users do not complete the application from the application page to the submission page. Why do you think this is the case?",
-      "url": "https://www.tryexponent.com/questions/4179/user-dropoff-application-submission-reasons"
-    },
-    {
-      "question": "Walk me through a time you diagnosed a drop in conversion.",
-      "url": "https://www.tryexponent.com/questions/5193/time-you-diagnosed-drop-in-conversion"
-    },
-    {
-      "question": "How would you analyze why user engagement is declining?",
-      "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement"
     },
     {
       "question": "A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?",
@@ -432,6 +305,58 @@
     {
       "question": "You\u2019re given product adoption data across regions\u2014how would you determine where the rollout was most successful and why?",
       "url": "https://www.tryexponent.com/questions/5216/determine-successful-rollout-region"
+    }
+  ],
+  "Data Analysis - Feature Impact": [
+    {
+      "question": "How would you assess whether a new feature launch was successful?",
+      "url": "https://www.tryexponent.com/questions/5191/assess-new-feature-launch-success"
+    },
+    {
+      "question": "How would you evaluate whether a new feature is worth rolling out to all users?",
+      "url": "https://www.tryexponent.com/questions/5211/evaluate-whether-to-roll-out-new-feature"
+    },
+    {
+      "question": "The leadership team wants to understand the ROI of a new feature\u2014how would you structure that analysis?",
+      "url": "https://www.tryexponent.com/questions/5222/analysis-new-feature-roi"
+    }
+  ],
+  "Prioritization": [
+    {
+      "question": "You have three ideas for expansion but limited resources. How would you help prioritize them?",
+      "url": "https://www.tryexponent.com/questions/5231/multiple-ideas-limited-resources-prioritization"
+    }
+  ],
+  "Stakeholder Communication": [
+    {
+      "question": "Suppose adoption is high, but retention is low\u2014how would you diagnose and communicate the issue?",
+      "url": "https://www.tryexponent.com/questions/5213/high-adoption-low-retention"
+    }
+  ],
+  "Product Metrics - Definition": [
+    {
+      "question": "What KPIs would you track to measure company health?",
+      "url": "https://www.tryexponent.com/questions/5200/kpis-measure-company-health"
+    },
+    {
+      "question": "What KPIs would you track to evaluate the health of a subscription-based business?",
+      "url": "https://www.tryexponent.com/questions/5205/kpi-subscription-based-business"
+    }
+  ],
+  "Data Analysis - Retention & Churn": [
+    {
+      "question": "How would you use cohorts to identify retention issues?",
+      "url": "https://www.tryexponent.com/questions/5207/use-cohort-identify-retention-issues"
+    },
+    {
+      "question": "Walk me through how you'd segment users for a churn analysis.",
+      "url": "https://www.tryexponent.com/questions/5208/segment-users-churn-analysis"
+    }
+  ],
+  "Dashboard & Visualization": [
+    {
+      "question": "Walk me through a dashboard you built. What choices did you make?",
+      "url": "https://www.tryexponent.com/questions/5186/walk-through-dashboard"
     }
   ]
 }

@@ -25,16 +25,8 @@
       "url": "https://www.tryexponent.com/questions/652/time-led-project-start-to-finish"
     },
     {
-      "question": "What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?",
-      "url": "https://www.tryexponent.com/questions/5314/manage-low-value-stakeholder-suggestions"
-    },
-    {
       "question": "Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?",
       "url": "https://www.tryexponent.com/questions/4949/alternative-opportunity-decision-outcome"
-    },
-    {
-      "question": "What experience do you have managing global teams?",
-      "url": "https://www.tryexponent.com/questions/5065/experience-managing-global-teams"
     },
     {
       "question": "Why do you want to work at LinkedIn?",
@@ -43,54 +35,18 @@
   ],
   "Program Management": [
     {
-      "question": "Tell me about a time when you worked on a project with a tight deadline.",
-      "url": "https://www.tryexponent.com/questions/941/project-with-tight-deadline"
-    },
-    {
       "question": "What is the project you are most proud of?",
       "url": "https://www.tryexponent.com/questions/1031/project-you-are-most-proud-of"
     },
     {
-      "question": "How do you prioritize tasks?",
-      "url": "https://www.tryexponent.com/questions/228/how-prioritize-features"
-    },
-    {
-      "question": "Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.",
-      "url": "https://www.tryexponent.com/questions/4953/handle-team-enthusiasm-differences"
-    },
-    {
-      "question": "Tell me about a time when you led a project from start to finish.",
-      "url": "https://www.tryexponent.com/questions/652/time-led-project-start-to-finish"
-    },
-    {
       "question": "What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?",
       "url": "https://www.tryexponent.com/questions/5314/manage-low-value-stakeholder-suggestions"
-    },
-    {
-      "question": "Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?",
-      "url": "https://www.tryexponent.com/questions/4949/alternative-opportunity-decision-outcome"
-    }
-  ],
-  "Data Analysis": [
-    {
-      "question": "Tell me about a time when data helped you make a decision.",
-      "url": "https://www.tryexponent.com/questions/5630/when-data-helped-you-make-a-decision"
     }
   ],
   "Stakeholder Management": [
     {
-      "question": "Tell me about a time when you felt inspired about an idea or project even when your team wasn't as enthusiastic.",
-      "url": "https://www.tryexponent.com/questions/4953/handle-team-enthusiasm-differences"
-    },
-    {
-      "question": "What is a suggestion that a stakeholder provided that did not add much value? How did you handle this & what did you recommend to move the project forward?",
-      "url": "https://www.tryexponent.com/questions/5314/manage-low-value-stakeholder-suggestions"
-    },
-    {
       "question": "What experience do you have managing global teams?",
       "url": "https://www.tryexponent.com/questions/5065/experience-managing-global-teams"
     }
-  ],
-  "Project Planning": [],
-  "Risk Management": []
+  ]
 }

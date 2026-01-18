@@ -19,7 +19,7 @@
   {
     "question": "Why do you think we should not hire you?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4629/why-no-hire",
     "page": 1
@@ -92,7 +92,7 @@
   {
     "question": "What metrics would you track to evaluate the performance of your ML pipeline?",
     "categories": [
-      "MLOps"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5620/evaluate-ml-pipeline-performance",
     "page": 1
@@ -100,7 +100,7 @@
   {
     "question": "Reverse a linked list.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list",
     "page": 1
@@ -165,7 +165,7 @@
   {
     "question": "How do you prioritize tasks?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/228/how-prioritize-features",
     "page": 2
@@ -255,7 +255,7 @@
   {
     "question": "What types of team members do you find difficult to work with?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4633/difficult-team-members",
     "page": 2
@@ -271,7 +271,7 @@
   {
     "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k",
     "page": 2
@@ -378,7 +378,7 @@
   {
     "question": "Reverse a Sentence",
     "categories": [
-      "Machine Learning"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence",
     "page": 3
@@ -426,7 +426,7 @@
   {
     "question": "Given a head node of a linked list, delete k-th node from the end of the list.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4847/remove-kth-node-linked-list",
     "page": 3
@@ -434,7 +434,7 @@
   {
     "question": "Valid Parentheses",
     "categories": [
-      "Machine Learning"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3447/valid-parentheses",
     "page": 3
@@ -442,7 +442,7 @@
   {
     "question": "Given an array of points and a point P, find the k closest points to P.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4289/find-k-closest-points-array",
     "page": 3
@@ -450,7 +450,7 @@
   {
     "question": "How do you select input for modeling if there are features highly correlated with each other?",
     "categories": [
-      "SQL"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4358/select-input-modeling-handling-multicollinearity",
     "page": 3
@@ -458,7 +458,7 @@
   {
     "question": "Tell me about a technical challenge that you have overcome.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/687/technical-challenge-you-have-overcome",
     "page": 3
@@ -466,7 +466,7 @@
   {
     "question": "Move all zeros to the end of an array.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array",
     "page": 3
@@ -522,7 +522,7 @@
   {
     "question": "Product of Array Except Self",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i",
     "page": 4
@@ -642,8 +642,7 @@
   {
     "question": "How do you select the value of 'k' in the k-means algorithm?",
     "categories": [
-      "Coding",
-      "SQL"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3477/select-value-of-k-k-means-algorithm",
     "page": 4
@@ -667,7 +666,7 @@
   {
     "question": "How do you stay up-to-date with the latest developments in AI?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5604/stay-up-to-date-in-ai",
     "page": 5
@@ -675,7 +674,7 @@
   {
     "question": "Find the median of two sorted arrays.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays",
     "page": 5
@@ -731,7 +730,7 @@
   {
     "question": "Find a triplet in an array with a given sum.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum",
     "page": 5
@@ -739,7 +738,7 @@
   {
     "question": "Given an array, find the two sum.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1164/find-two-sum",
     "page": 5
@@ -763,7 +762,7 @@
   {
     "question": "Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4634/linked-lists-intersection",
     "page": 5
@@ -779,7 +778,7 @@
   {
     "question": "Linked List Cycle",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle",
     "page": 5
@@ -795,7 +794,7 @@
   {
     "question": "Given the root of a binary tree of integers, return the maximum path sum.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum",
     "page": 5
@@ -910,7 +909,7 @@
   {
     "question": "How do you adjust the creativity of generative AI models?",
     "categories": [
-      "Generative AI"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5609/adjust-gen-ai-model-creativity",
     "page": 6
@@ -942,7 +941,7 @@
   {
     "question": "Construct a binary tree given its preorder and inorder traversals.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3417/construct-binary-tree-preorder-inorder-traversal",
     "page": 6
@@ -958,7 +957,7 @@
   {
     "question": "Tell me about your current role.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3262/describe-your-current-role",
     "page": 6
@@ -974,7 +973,7 @@
   {
     "question": "Transform an input string into a target tokenized sequence using a tree/graph-based algorithm. Embeddings must be simulated (no ML models allowed). Validate the final output.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/5829/transform-input-string-to-target-tokenized-sequence",
     "page": 7
@@ -990,7 +989,7 @@
   {
     "question": "Merge k sorted linked lists.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists",
     "page": 7
@@ -998,7 +997,7 @@
   {
     "question": "Given two strings of equal length, determine if it's possible to form a palindrome by cutting them in half.",
     "categories": [
-      "Machine Learning"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3502/form-palindrome-from-strings",
     "page": 7
@@ -1030,7 +1029,7 @@
   {
     "question": "How do you keep users\u2019 data safe and private when building AI systems?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5602/build-ai-systems-data-safety-privacy",
     "page": 7
@@ -1038,7 +1037,7 @@
   {
     "question": "Tell me about a project you worked on.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3253/describe-a-project-experience",
     "page": 7
@@ -1070,7 +1069,7 @@
   {
     "question": "How do you stay up to date with advancements in machine learning?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3410/staying-updated-machine-learning-advancements",
     "page": 7
@@ -1078,7 +1077,7 @@
   {
     "question": "Search in rotated sorted array",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array",
     "page": 7
@@ -1086,7 +1085,7 @@
   {
     "question": "Write a function that takes an array of integers and checks for duplicate values in any contiguous window of size N.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4245/check-duplicate-values-contiguous-window",
     "page": 7
@@ -1110,7 +1109,7 @@
   {
     "question": "Find the maximum subarray sum.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum",
     "page": 7
@@ -1118,7 +1117,7 @@
   {
     "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
     "categories": [
-      "Machine Learning"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4325/spiral-matrix",
     "page": 7
@@ -1152,7 +1151,7 @@
   {
     "question": "Determine if a given binary tree is a binary search tree (BST).",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst",
     "page": 8
@@ -1168,7 +1167,7 @@
   {
     "question": "Find the first common ancestor of two nodes in a binary tree.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4538/binary-tree-first-common-ancestor",
     "page": 8
@@ -1176,7 +1175,7 @@
   {
     "question": "Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3438/largest-island-perimeter-2d-array",
     "page": 8
@@ -1251,7 +1250,7 @@
   {
     "question": "Tell me about a system design problem you solved with machine learning.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3411/machine-learning-system-design-problem-solution",
     "page": 8
@@ -1339,7 +1338,7 @@
   {
     "question": "Calculate the trapped rainwater between bars in a given array.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars",
     "page": 9
@@ -1379,8 +1378,7 @@
   {
     "question": "What metrics do you monitor after deploying a machine learning model?",
     "categories": [
-      "Model Deployment",
-      "Machine Learning"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/3529/metrics-monitor-after-deploying-machine-learning-model",
     "page": 9
@@ -1404,7 +1402,7 @@
   {
     "question": "Tell me about a machine learning project you worked on.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3407/discuss-machine-learning-project-experience",
     "page": 9
@@ -1420,7 +1418,7 @@
   {
     "question": "Why do you want to join Amazon?",
     "categories": [
-      "SQL"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/936/why-join-amazon",
     "page": 9
@@ -1428,7 +1426,7 @@
   {
     "question": "Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4416/binary-tree-vertical-order-traversal",
     "page": 9
@@ -1452,7 +1450,7 @@
   {
     "question": "Build a Basic Regex Parser",
     "categories": [
-      "Machine Learning"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser",
     "page": 9
@@ -1460,7 +1458,7 @@
   {
     "question": "How do you manage projects under pressure?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3406/manage-projects-under-pressure",
     "page": 10
@@ -1484,7 +1482,7 @@
   {
     "question": "Given an array of points on a plane (x,y), write a function to return the distance between the closest pair of points.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4630/closest-pair",
     "page": 10
@@ -1548,7 +1546,7 @@
   {
     "question": "Tell me about your experience with computer vision.",
     "categories": [
-      "Computer Vision"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3524/experience-computer-vision",
     "page": 10
@@ -1556,7 +1554,7 @@
   {
     "question": "Given imbalanced training data, how do you prevent overfitting?",
     "categories": [
-      "Model Evaluation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3420/prevent-overfitting-imbalanced-training-data",
     "page": 10
@@ -1564,7 +1562,7 @@
   {
     "question": "Determine if an array of integers from 1 to n contains a duplicate in constant time and space.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/965/check-duplicates-in-array-constant-space",
     "page": 10
@@ -1580,7 +1578,7 @@
   {
     "question": "How do you handle imbalanced data?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3531/handle-imbalanced-data",
     "page": 10
@@ -1588,8 +1586,7 @@
   {
     "question": "Tell me about your experience with natural language processing.",
     "categories": [
-      "Model Evaluation",
-      "Natural Language Processing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3525/experience-natural-language-processing",
     "page": 10
@@ -1605,7 +1602,7 @@
   {
     "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree",
     "page": 10
@@ -1669,7 +1666,7 @@
   {
     "question": "How do you choose a loss function for a machine learning problem?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3533/choose-loss-function-machine-learning",
     "page": 11
@@ -1693,7 +1690,7 @@
   {
     "question": "Tell me about a machine learning project you worked on and its outcome.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3415/machine-learning-project-outcome",
     "page": 11
@@ -1717,7 +1714,7 @@
   {
     "question": "Efficiently find the next greatest element in an array.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3442/find-next-greatest-element-array",
     "page": 11
@@ -1775,7 +1772,7 @@
   {
     "question": "Tell me about a machine learning research topic you find interesting.",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3475/interesting-machine-learning-research-topic",
     "page": 12
@@ -1791,8 +1788,7 @@
   {
     "question": "How do you handle the trade-off between detection accuracy and computational efficiency in a rotated object detection task?",
     "categories": [
-      "Computer Vision",
-      "Model Evaluation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3527/handle-trade-off-detection-accuracy-computational-efficiency-rotated-object-detection",
     "page": 12
@@ -1808,8 +1804,7 @@
   {
     "question": "How do you test your machine learning models for production?",
     "categories": [
-      "Model Deployment",
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3435/test-machine-learning-models-production",
     "page": 12
@@ -1825,7 +1820,7 @@
   {
     "question": "Given an array of integers, find a tuple of three integers that can form a triangle.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3403/find-triangle-tuple-in-array",
     "page": 12
@@ -1905,7 +1900,7 @@
   {
     "question": "How do you clean and prepare troublesome datasets?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3419/clean-prepare-troublesome-datasets",
     "page": 12
@@ -1945,7 +1940,7 @@
   {
     "question": "Explain the time and space complexities of sorting algorithms.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3408/explain-time-space-complexity-sorting-algorithms",
     "page": 13
@@ -1953,7 +1948,7 @@
   {
     "question": "How do you detect balanced parentheses in a string using Python?",
     "categories": [
-      "Machine Learning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3413/detect-balanced-parentheses-python",
     "page": 13
@@ -1977,7 +1972,7 @@
   {
     "question": "Calculate the height of a binary tree.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree",
     "page": 13
@@ -1985,7 +1980,7 @@
   {
     "question": "Apply the quadratic formula to a sorted array such that the resulting array is still sorted.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3401/apply-quadratic-formula-sorted-array",
     "page": 13
@@ -1993,7 +1988,7 @@
   {
     "question": "How do you avoid overfitting a model?",
     "categories": [
-      "Model Evaluation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3450/avoid-overfitting-model",
     "page": 13
@@ -2001,7 +1996,7 @@
   {
     "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4491/candy",
     "page": 13

@@ -67,7 +67,7 @@
   {
     "question": "Reverse a linked list.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list",
     "page": 1
@@ -107,7 +107,7 @@
   {
     "question": "Is this a valid palindrome?",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check",
     "page": 1
@@ -115,7 +115,7 @@
   {
     "question": "Tell me about your past projects.",
     "categories": [
-      "Data Pipeline Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4229/past-projects",
     "page": 1
@@ -123,7 +123,7 @@
   {
     "question": "Find the container with the maximum volume of water.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4341/container-with-most-water",
     "page": 1
@@ -139,7 +139,7 @@
   {
     "question": "Tell me about a skill you recently learned.",
     "categories": [
-      "Data Pipeline Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1371/time-skill-recently-learned",
     "page": 1
@@ -204,7 +204,7 @@
   {
     "question": "SQL Stored Procedures",
     "categories": [
-      "Data Pipeline Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/3980/sql-stored-procedures",
     "page": 2
@@ -236,7 +236,7 @@
   {
     "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k",
     "page": 2
@@ -252,7 +252,7 @@
   {
     "question": "Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.",
     "categories": [
-      "Data Modeling"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/4776/bookstore-schema-sql-joins-aggregations",
     "page": 2
@@ -268,7 +268,7 @@
   {
     "question": "Reverse a Sentence",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence",
     "page": 2
@@ -292,7 +292,7 @@
   {
     "question": "Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.",
     "categories": [
-      "Data Pipeline Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/5088/sql-stadium-consecutive-high-attendance",
     "page": 2
@@ -308,7 +308,7 @@
   {
     "question": "Valid Parentheses",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3447/valid-parentheses",
     "page": 2
@@ -316,7 +316,7 @@
   {
     "question": "Move all zeros to the end of an array.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array",
     "page": 2
@@ -372,7 +372,7 @@
   {
     "question": "Product of Array Except Self",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2278/product-of-all-elements-except-i",
     "page": 3
@@ -380,8 +380,7 @@
   {
     "question": "On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?",
     "categories": [
-      "Data Quality",
-      "Data Pipeline Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4862/doordash-order-issue-analysis",
     "page": 3
@@ -423,7 +422,7 @@
   {
     "question": "Write SQL code to publish the Fibonacci series.",
     "categories": [
-      "Data Pipeline Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2779/sql-code-fibonacci-series",
     "page": 3
@@ -463,7 +462,7 @@
   {
     "question": "Climbing Stairs",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3255/climbing-stairs",
     "page": 3
@@ -479,7 +478,7 @@
   {
     "question": "You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?\n\n(Conversion: From users browsing to placing orders.)",
     "categories": [
-      "Data Pipeline Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4848/food-delivery-conversion-rate-analysis",
     "page": 3
@@ -505,7 +504,7 @@
   {
     "question": "Find the median of two sorted arrays.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays",
     "page": 4
@@ -521,7 +520,7 @@
   {
     "question": "Find a triplet in an array with a given sum.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1127/find-triplet-with-given-sum",
     "page": 4
@@ -529,9 +528,7 @@
   {
     "question": "Design an ETL Pipeline for a ML Platform for AWS",
     "categories": [
-      "ETL/ELT",
-      "Data Pipeline Design",
-      "System Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4592/aws-ml-data-pipeline",
     "page": 4
@@ -539,7 +536,7 @@
   {
     "question": "Given an array, find the two sum.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1164/find-two-sum",
     "page": 4
@@ -581,7 +578,7 @@
   {
     "question": "Linked List Cycle",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle",
     "page": 4
@@ -597,7 +594,7 @@
   {
     "question": "Given the root of a binary tree of integers, return the maximum path sum.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum",
     "page": 4
@@ -641,7 +638,7 @@
   {
     "question": "Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4822/find-task-pairs-within-time-limit",
     "page": 4
@@ -649,7 +646,7 @@
   {
     "question": "Split an array into equal sum subarrays",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4326/split-an-array-into-equal-sum-subarrays",
     "page": 4
@@ -706,7 +703,7 @@
   {
     "question": "Which sorting algorithms use divide and conquer?",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4448/which-sorting-algorithms-use-divide-and-conquer",
     "page": 5
@@ -714,7 +711,7 @@
   {
     "question": "Explain the key differences between BETWEEN and HAVING clauses in SQL.",
     "categories": [
-      "Data Pipeline Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/4736/difference-between-between-and-having-sql",
     "page": 5
@@ -722,7 +719,7 @@
   {
     "question": "What is the difference between NoSQL and SQL?",
     "categories": [
-      "Database Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2167/difference-nosql-sql",
     "page": 5
@@ -730,8 +727,7 @@
   {
     "question": "How would you handle slow query performance for a single-user SQL endpoint in Databricks, where all sequentially run queries are affected?",
     "categories": [
-      "Performance Optimization",
-      "Cloud Platforms"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/4667/optimize-slow-databricks-sql-queries",
     "page": 5
@@ -739,7 +735,7 @@
   {
     "question": "Merge k sorted linked lists.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists",
     "page": 5
@@ -781,7 +777,7 @@
   {
     "question": "Search in rotated sorted array",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array",
     "page": 5
@@ -799,7 +795,7 @@
   {
     "question": "Find the maximum subarray sum.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum",
     "page": 5
@@ -807,7 +803,7 @@
   {
     "question": "Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4325/spiral-matrix",
     "page": 5
@@ -815,7 +811,7 @@
   {
     "question": "Squares of sorted array",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3824/square-of-sorted-array",
     "page": 5
@@ -831,7 +827,7 @@
   {
     "question": "Determine if a given binary tree is a binary search tree (BST).",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst",
     "page": 6
@@ -855,7 +851,7 @@
   {
     "question": "What is the best way to connect SQL databases and why?",
     "categories": [
-      "Database Design"
+      "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/2156/best-way-connect-sql-databases",
     "page": 6
@@ -863,9 +859,7 @@
   {
     "question": "Design an ETL Pipeline for Slack for School",
     "categories": [
-      "ETL/ELT",
-      "Data Pipeline Design",
-      "System Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4591/slack-school-data-pipeline",
     "page": 6
@@ -873,7 +867,7 @@
   {
     "question": "Partition an array into two sub-arrays with equal sum.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/969/partition-array-equal-sum",
     "page": 6
@@ -921,7 +915,7 @@
   {
     "question": "Solve John Conway's \"Game of Life\".",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4338/game-of-life",
     "page": 6
@@ -953,7 +947,7 @@
   {
     "question": "Calculate the trapped rainwater between bars in a given array.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars",
     "page": 6
@@ -969,7 +963,7 @@
   {
     "question": "Tell me about your e-commerce experience.",
     "categories": [
-      "Data Pipeline Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3380/share-ecommerce-experience",
     "page": 7
@@ -985,7 +979,7 @@
   {
     "question": "Build a Basic Regex Parser",
     "categories": [
-      "Data Structures & Algorithms"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3064/build-basic-regex-parser",
     "page": 7
@@ -1044,7 +1038,7 @@
   {
     "question": "Determine if an array of integers from 1 to n contains a duplicate in constant time and space.",
     "categories": [
-      "Data Quality"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/965/check-duplicates-in-array-constant-space",
     "page": 7
@@ -1060,7 +1054,7 @@
   {
     "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree",
     "page": 7
@@ -1102,7 +1096,7 @@
   {
     "question": "What types of indexes are in a relational database?",
     "categories": [
-      "Database Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3388/types-of-indexes-relational-database",
     "page": 7
@@ -1110,8 +1104,7 @@
   {
     "question": "Design a system to ingest large amounts of JSON data from multiple S3 buckets",
     "categories": [
-      "Cloud Platforms",
-      "System Design"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/5543/data-s3-bucket-pipeline",
     "page": 7
@@ -1119,7 +1112,7 @@
   {
     "question": "When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?",
     "categories": [
-      "Spark/Big Data"
+      "Data Pipeline Design"
     ],
     "url": "https://www.tryexponent.com/questions/4664/delta-live-tables-vs-spark-delta-lake",
     "page": 7
@@ -1175,7 +1168,7 @@
   {
     "question": "Serialize and deserialize binary tree",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4682/serialize-deserialize-binary-tree",
     "page": 8
@@ -1207,7 +1200,7 @@
   {
     "question": "Calculate the height of a binary tree.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1153/calculate-height-binary-tree",
     "page": 8
@@ -1215,7 +1208,7 @@
   {
     "question": "Print all possible solutions to the N-Queens problem.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1145/print-all-possible-solutions-n-queens-problem",
     "page": 8
@@ -1223,7 +1216,7 @@
   {
     "question": "Given an array of children\u2019s ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",
     "categories": [
-      "Data Pipeline Design"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4491/candy",
     "page": 8

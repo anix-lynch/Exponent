@@ -2,7 +2,7 @@
   {
     "question": "Why do you think we should not hire you?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4629/why-no-hire",
     "page": 1
@@ -18,7 +18,7 @@
   {
     "question": "Reverse a linked list.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3247/reverse-linked-list",
     "page": 1
@@ -66,7 +66,7 @@
   {
     "question": "How would you measure the success of Facebook dating?",
     "categories": [
-      "Behavioral"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/428/measuring-success-facebook-dating",
     "page": 1
@@ -82,7 +82,7 @@
   {
     "question": "Is this a valid palindrome?",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4056/validate-palindrome-check",
     "page": 1
@@ -98,7 +98,7 @@
   {
     "question": "Find the container with the maximum volume of water.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4341/container-with-most-water",
     "page": 1
@@ -146,8 +146,7 @@
   {
     "question": "You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?",
     "categories": [
-      "Machine Learning - Model Evaluation",
-      "Statistics & Experimentation - A/B Testing"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5066/feed-content-ab-test-randomization",
     "page": 1
@@ -171,7 +170,6 @@
   {
     "question": "Tell me about a time when you used a specific metric to drive change in your department.",
     "categories": [
-      "Data Analysis - Business Metrics",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/528/using-metrics-to-drive-change",
@@ -196,8 +194,7 @@
   {
     "question": "You launched a feature and user behavior changed, how do you define success metrics?",
     "categories": [
-      "Data Analysis - Business Metrics",
-      "Machine Learning - Model Evaluation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5901/success-metrics-changed-user-behavior",
     "page": 2
@@ -205,7 +202,6 @@
   {
     "question": "SQL Stored Procedures",
     "categories": [
-      "Machine Learning - Model Evaluation",
       "SQL"
     ],
     "url": "https://www.tryexponent.com/questions/3980/sql-stored-procedures",
@@ -222,7 +218,7 @@
   {
     "question": "Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/2765/subarray-sum-multiple-of-k",
     "page": 2
@@ -270,7 +266,7 @@
   {
     "question": "Reverse a Sentence",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3062/reverse-a-sentence",
     "page": 2
@@ -318,7 +314,7 @@
   {
     "question": "Valid Parentheses",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3447/valid-parentheses",
     "page": 3
@@ -342,7 +338,7 @@
   {
     "question": "Move all zeros to the end of an array.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/968/move-zeros-to-end-array",
     "page": 3
@@ -350,7 +346,7 @@
   {
     "question": "Why do you want to work at OpenAI?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4608/why-openai",
     "page": 3
@@ -398,7 +394,7 @@
   {
     "question": "Why do you want to work at Visa?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4627/why-visa",
     "page": 3
@@ -440,7 +436,7 @@
   {
     "question": "Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5382/diagnosing-instagram-dau-drop",
     "page": 3
@@ -456,7 +452,7 @@
   {
     "question": "You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes?\n\n(Conversion: From users browsing to placing orders.)",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/4848/food-delivery-conversion-rate-analysis",
     "page": 4
@@ -497,7 +493,7 @@
   {
     "question": "Find the median of two sorted arrays.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4322/median-of-two-sorted-arrays",
     "page": 4
@@ -505,8 +501,7 @@
   {
     "question": "How would you evaluate Facebook's emotion scale? What metrics and tests would you use?",
     "categories": [
-      "Data Analysis - Business Metrics",
-      "Machine Learning - Model Evaluation"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5385/evaluating-facebooks-emotion-scale",
     "page": 4
@@ -530,7 +525,7 @@
   {
     "question": "Given an array, find the two sum.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1164/find-two-sum",
     "page": 4
@@ -578,7 +573,7 @@
   {
     "question": "Linked List Cycle",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/3214/linked-list-cycle",
     "page": 4
@@ -594,7 +589,7 @@
   {
     "question": "Given the root of a binary tree of integers, return the maximum path sum.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4342/binary-tree-maximum-path-sum",
     "page": 4
@@ -643,8 +638,7 @@
   {
     "question": "What metrics would you use to increase posts with comments in a group?",
     "categories": [
-      "Data Analysis - Business Metrics",
-      "Machine Learning - Model Evaluation"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/1724/metrics-increase-posts-with-comments",
     "page": 5
@@ -676,7 +670,7 @@
   {
     "question": "When experimentation is constrained, how do you make decisions using imperfect or historical data?",
     "categories": [
-      "Statistics & Experimentation - A/B Testing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5905/decision-making-constrained-experimentation",
     "page": 5
@@ -692,7 +686,7 @@
   {
     "question": "Merge k sorted linked lists.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1167/merge-k-sorted-linked-lists",
     "page": 5
@@ -796,7 +790,7 @@
   {
     "question": "Search in rotated sorted array",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4447/search-in-rotated-sorted-array",
     "page": 6
@@ -804,8 +798,7 @@
   {
     "question": "Metrics moved in different directions, how do you interpret the results and decide next steps?",
     "categories": [
-      "Data Analysis - Business Metrics",
-      "Machine Learning - Model Evaluation"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5903/interpreting-experimentation-results",
     "page": 6
@@ -813,7 +806,7 @@
   {
     "question": "Find the maximum subarray sum.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/973/maximum-subarray-sum",
     "page": 6
@@ -837,7 +830,7 @@
   {
     "question": "Determine if a given binary tree is a binary search tree (BST).",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1158/determine-binary-tree-bst",
     "page": 6
@@ -886,7 +879,7 @@
   {
     "question": "How do you design an experiment to avoid common pitfalls in interpreting results?",
     "categories": [
-      "Statistics & Experimentation - A/B Testing"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5904/experiment-design",
     "page": 6
@@ -944,7 +937,7 @@
   {
     "question": "Why do you want to work at Walmart Labs?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4675/why-walmart-labs",
     "page": 7
@@ -976,7 +969,7 @@
   {
     "question": "Calculate the trapped rainwater between bars in a given array.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1124/trapping-rain-water-in-bars",
     "page": 7
@@ -1040,7 +1033,6 @@
   {
     "question": "What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?",
     "categories": [
-      "Machine Learning - Supervised",
       "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/4804/random-forest-mechanism-bootstrapping",
@@ -1089,7 +1081,7 @@
   {
     "question": "Why do you want to work at Salesforce?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/853/why-work-at-salesforce",
     "page": 8
@@ -1097,7 +1089,7 @@
   {
     "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree.",
     "categories": [
-      "Behavioral"
+      "Coding"
     ],
     "url": "https://www.tryexponent.com/questions/1156/lowest-common-ancestor-binary-tree",
     "page": 8
@@ -1105,7 +1097,7 @@
   {
     "question": "Why do you want to work at Discord?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4671/why-discord",
     "page": 8
@@ -1113,7 +1105,7 @@
   {
     "question": "Why do you want to work at Tinder?",
     "categories": [
-      "Data Analysis - Root Cause"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/3606/why-work-at-tinder",
     "page": 8
@@ -1218,7 +1210,7 @@
   {
     "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
     "categories": [
-      "Behavioral"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app",
     "page": 8
@@ -1226,7 +1218,7 @@
   {
     "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
     "categories": [
-      "Recommendation Systems"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact",
     "page": 8

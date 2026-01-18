@@ -36,9 +36,7 @@
     "category": "Project Management",
     "source": "Chief of Staff Network",
     "categories": [
-      "Leadership",
-      "Behavioral",
-      "Cross-Functional Collaboration"
+      "Behavioral"
     ]
   },
   {
@@ -46,7 +44,7 @@
     "category": "Prioritization",
     "source": "Chief of Staff Network",
     "categories": [
-      "Strategic Planning"
+      "Behavioral"
     ]
   },
   {
@@ -78,9 +76,7 @@
     "category": "Strategic Thinking",
     "source": "Chief of Staff Network",
     "categories": [
-      "Strategic Planning",
-      "Behavioral",
-      "Problem Solving"
+      "Behavioral"
     ]
   },
   {
@@ -88,8 +84,7 @@
     "category": "Strategic Alignment",
     "source": "LinkedIn",
     "categories": [
-      "Leadership",
-      "Strategic Planning"
+      "Behavioral"
     ]
   },
   {
@@ -121,7 +116,7 @@
     "category": "Role Balance",
     "source": "LinkedIn",
     "categories": [
-      "Strategic Planning"
+      "Behavioral"
     ]
   },
   {
@@ -153,9 +148,7 @@
     "category": "Conflict Resolution",
     "source": "Indeed",
     "categories": [
-      "Leadership",
-      "Behavioral",
-      "Problem Solving"
+      "Behavioral"
     ]
   },
   {
@@ -163,7 +156,7 @@
     "category": "Strategic Planning",
     "source": "Indeed",
     "categories": [
-      "Strategic Planning"
+      "Behavioral"
     ]
   },
   {
@@ -179,7 +172,7 @@
     "category": "Metrics & KPIs",
     "source": "FinalRound AI",
     "categories": [
-      "Behavioral"
+      "Product Analytics"
     ]
   },
   {
@@ -195,7 +188,6 @@
     "category": "Crisis Management",
     "source": "FinalRound AI",
     "categories": [
-      "Leadership",
       "Behavioral"
     ]
   },
@@ -212,9 +204,7 @@
     "category": "Cross-Functional Leadership",
     "source": "MultiplyMii",
     "categories": [
-      "Leadership",
-      "Strategic Planning",
-      "Cross-Functional Collaboration"
+      "Behavioral"
     ]
   },
   {
@@ -230,7 +220,7 @@
     "category": "Strategic Balance",
     "source": "MultiplyMii",
     "categories": [
-      "Strategic Planning"
+      "Behavioral"
     ]
   },
   {
@@ -262,10 +252,7 @@
     "category": "Difficult Conversations",
     "source": "Best Practices",
     "categories": [
-      "Leadership",
-      "Behavioral",
-      "Communication",
-      "Problem Solving"
+      "Behavioral"
     ]
   },
   {
@@ -305,7 +292,7 @@
     "category": "Trust Building",
     "source": "Best Practices",
     "categories": [
-      "Leadership"
+      "Behavioral"
     ]
   },
   {

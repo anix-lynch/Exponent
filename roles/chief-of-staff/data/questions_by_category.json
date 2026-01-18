@@ -21,6 +21,10 @@
       "url": ""
     },
     {
+      "question": "How do you prioritize when everything is urgent?",
+      "url": ""
+    },
+    {
       "question": "How do you handle confidential or sensitive information?",
       "url": ""
     },
@@ -33,11 +37,19 @@
       "url": ""
     },
     {
+      "question": "How do you ensure alignment between the CEO's vision and team execution?",
+      "url": ""
+    },
+    {
       "question": "Describe your communication style when working with C-suite executives.",
       "url": ""
     },
     {
       "question": "What systems or processes would you implement to improve organizational efficiency?",
+      "url": ""
+    },
+    {
+      "question": "How do you balance being a strategic advisor vs. an operational executor?",
       "url": ""
     },
     {
@@ -53,11 +65,11 @@
       "url": ""
     },
     {
-      "question": "How would you help a CEO scale from 50 to 500 employees?",
+      "question": "How do you approach strategic planning for a fast-growing organization?",
       "url": ""
     },
     {
-      "question": "What metrics would you track to measure organizational health?",
+      "question": "How would you help a CEO scale from 50 to 500 employees?",
       "url": ""
     },
     {
@@ -70,6 +82,14 @@
     },
     {
       "question": "How would you structure the CEO's calendar and priorities?",
+      "url": ""
+    },
+    {
+      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
+      "url": ""
+    },
+    {
+      "question": "How do you balance short-term operational needs with long-term strategic goals?",
       "url": ""
     },
     {
@@ -101,6 +121,10 @@
       "url": ""
     },
     {
+      "question": "How do you build trust with team members at all levels?",
+      "url": ""
+    },
+    {
       "question": "How do you handle situations where you disagree with the CEO's decision?",
       "url": ""
     },
@@ -111,15 +135,7 @@
   ],
   "Leadership": [
     {
-      "question": "Tell me about a time you managed a complex, cross-functional project.",
-      "url": ""
-    },
-    {
       "question": "Describe a situation where you had to influence without authority.",
-      "url": ""
-    },
-    {
-      "question": "How do you ensure alignment between the CEO's vision and team execution?",
       "url": ""
     },
     {
@@ -127,59 +143,23 @@
       "url": ""
     },
     {
-      "question": "Describe a time you resolved a conflict between team members or departments.",
-      "url": ""
-    },
-    {
-      "question": "Tell me about a time you managed a crisis or urgent situation.",
-      "url": ""
-    },
-    {
-      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
-      "url": ""
-    },
-    {
       "question": "What's your approach to change management in a large organization?",
       "url": ""
-    },
+    }
+  ],
+  "Problem Solving": [
     {
-      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
+      "question": "How would you handle a situation where two executives have conflicting priorities?",
       "url": ""
-    },
+    }
+  ],
+  "Product Analytics": [
     {
-      "question": "How do you build trust with team members at all levels?",
+      "question": "What metrics would you track to measure organizational health?",
       "url": ""
     }
   ],
   "Strategic Planning": [
-    {
-      "question": "How do you prioritize when everything is urgent?",
-      "url": ""
-    },
-    {
-      "question": "Tell me about a time you identified and solved a strategic problem.",
-      "url": ""
-    },
-    {
-      "question": "How do you ensure alignment between the CEO's vision and team execution?",
-      "url": ""
-    },
-    {
-      "question": "How do you balance being a strategic advisor vs. an operational executor?",
-      "url": ""
-    },
-    {
-      "question": "How do you approach strategic planning for a fast-growing organization?",
-      "url": ""
-    },
-    {
-      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
-      "url": ""
-    },
-    {
-      "question": "How do you balance short-term operational needs with long-term strategic goals?",
-      "url": ""
-    },
     {
       "question": "Describe your experience managing special projects or strategic initiatives.",
       "url": ""
@@ -187,39 +167,7 @@
   ],
   "Communication": [
     {
-      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
-      "url": ""
-    },
-    {
       "question": "What's your process for preparing the CEO for important meetings or presentations?",
-      "url": ""
-    }
-  ],
-  "Cross-Functional Collaboration": [
-    {
-      "question": "Tell me about a time you managed a complex, cross-functional project.",
-      "url": ""
-    },
-    {
-      "question": "How do you ensure cross-functional teams stay aligned on strategic initiatives?",
-      "url": ""
-    }
-  ],
-  "Problem Solving": [
-    {
-      "question": "Tell me about a time you identified and solved a strategic problem.",
-      "url": ""
-    },
-    {
-      "question": "How would you handle a situation where two executives have conflicting priorities?",
-      "url": ""
-    },
-    {
-      "question": "Describe a time you resolved a conflict between team members or departments.",
-      "url": ""
-    },
-    {
-      "question": "Tell me about a time you had to deliver difficult feedback to a senior leader.",
       "url": ""
     }
   ]

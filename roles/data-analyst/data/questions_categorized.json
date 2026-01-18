@@ -38,7 +38,7 @@
   {
     "question": "How do you prioritize tasks?",
     "categories": [
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/228/how-prioritize-features"
   },
@@ -79,8 +79,7 @@
   {
     "question": "Why do you want to work at Anthropic?",
     "categories": [
-      "Analytical",
-      "Concept"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5596/why-anthropic"
   },
@@ -277,8 +276,7 @@
   {
     "question": "Tell me about a project where you had to clean and organize a large dataset.",
     "categories": [
-      "Data Analysis",
-      "Project Management"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5259/clean-and-organize-a-large-dataset"
   },
@@ -327,8 +325,7 @@
   {
     "question": "Why do you want to work at Atlassian?",
     "categories": [
-      "Analytical",
-      "Concept"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5577/why-atlassian"
   },
@@ -441,7 +438,7 @@
   {
     "question": "How do you approach an ambiguous request from a stakeholder?",
     "categories": [
-      "Cross-Functional"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5173/approach-ambiguous-request-from-stakeholder"
   },
@@ -472,8 +469,7 @@
   {
     "question": "How do you handle joining data from different sources with inconsistent IDs?",
     "categories": [
-      "SQL",
-      "Data Pipeline Design"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5178/join-data-with-inconsistent-ids"
   },
@@ -488,7 +484,7 @@
   {
     "question": "What would you do if you didn't have access to the exact data you need?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5176/no-access-to-exact-data"
   },
@@ -520,7 +516,7 @@
   {
     "question": "How do you generate insights?",
     "categories": [
-      "Data Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/1945/how-to-generate-insights"
   },
@@ -534,7 +530,7 @@
   {
     "question": "How do you evaluate the ROI of a strategic bet?",
     "categories": [
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5196/evaluate-roi-strategic-bet"
   },
@@ -564,17 +560,14 @@
   {
     "question": "You\u2019re launching a new feature\u2014how would you measure its strategic impact on growth?",
     "categories": [
-      "Data Analysis",
-      "Product Strategy"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5230/new-feature-impact-on-growth"
   },
   {
     "question": "What metrics would you use to evaluate product adoption and engagement?",
     "categories": [
-      "Data Analysis",
-      "Analytical",
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5192/metrics-to-evaluate-product-adoption"
   },
@@ -622,9 +615,7 @@
   {
     "question": "How would you analyze why user engagement is declining?",
     "categories": [
-      "Data Analysis",
-      "Analytical",
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement"
   },
@@ -639,8 +630,7 @@
   {
     "question": "What types of visualizations would you use to identify patterns in churn?",
     "categories": [
-      "Analytical",
-      "Data Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns"
   },
@@ -680,9 +670,7 @@
   {
     "question": "How do you present insights to non-technical stakeholders?",
     "categories": [
-      "Data Analysis",
-      "Technical",
-      "Cross-Functional"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5185/present-insights-non-technical-stakeholders"
   },
@@ -749,15 +737,14 @@
   {
     "question": "How do you ensure your data recommendations are actionable and aligned with business goals?",
     "categories": [
-      "Execution"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5210/ensure-data-recommendations-actionable"
   },
   {
     "question": "How do you determine which metrics are most important for executives to track?",
     "categories": [
-      "Data Analysis",
-      "Analytical"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives"
   },
@@ -806,7 +793,7 @@
   {
     "question": "What metrics would you track to improve operational cost?",
     "categories": [
-      "Data Analysis"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost"
   },
@@ -828,8 +815,7 @@
   {
     "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
     "categories": [
-      "Data Analysis",
-      "Product Design"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app"
   },
@@ -850,11 +836,7 @@
   {
     "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
     "categories": [
-      "SQL",
-      "Coding",
-      "Data Analysis",
-      "Product Strategy",
-      "Artificial Intelligence"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact"
   },
@@ -868,7 +850,7 @@
   {
     "question": "How do you turn analysis into business action?",
     "categories": [
-      "Data Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5184/turn-analysis-to-business-action"
   },

@@ -84,7 +84,7 @@
   {
     "question": "What metrics would you track for a new product launch?",
     "categories": [
-      "Product Launch"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -92,7 +92,7 @@
   {
     "question": "How do you prioritize features for a product launch?",
     "categories": [
-      "Product Launch"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -157,8 +157,7 @@
   {
     "question": "How do you work with sales teams to enable them for a new product?",
     "categories": [
-      "Sales Enablement",
-      "Cross-Functional Collaboration"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -166,7 +165,7 @@
   {
     "question": "Tell me about a failed product launch and what you learned.",
     "categories": [
-      "Product Launch"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -198,7 +197,7 @@
   {
     "question": "Tell me about your experience with product launches in international markets.",
     "categories": [
-      "Product Launch"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -238,7 +237,7 @@
   {
     "question": "How do you differentiate your product in a crowded market?",
     "categories": [
-      "Product Positioning"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1
@@ -286,7 +285,7 @@
   {
     "question": "How do you stay current with market trends and competitor activities?",
     "categories": [
-      "Competitive Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions?role=pmm",
     "page": 1

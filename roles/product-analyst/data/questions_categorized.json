@@ -123,7 +123,7 @@
   {
     "question": "Meta\u2019s new app shows 25% drop-off at sign-up. How do you analyze this?",
     "categories": [
-      "Root Cause Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5263/analyze-social-media-app-signups",
     "page": 1
@@ -141,7 +141,7 @@
   {
     "question": "You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?",
     "categories": [
-      "Product Metrics - Definition"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/2958/google-ads-pm-success-metrics",
     "page": 1
@@ -173,7 +173,7 @@
   {
     "question": "Why do you want to work at Atlassian?",
     "categories": [
-      "Root Cause Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5577/why-atlassian",
     "page": 2
@@ -214,7 +214,7 @@
   {
     "question": "55% of users do not complete the application from the application page to the submission page. Why do you think this is the case?",
     "categories": [
-      "Root Cause Analysis"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/4179/user-dropoff-application-submission-reasons",
     "page": 2
@@ -238,7 +238,7 @@
   {
     "question": "How do you approach an ambiguous request from a stakeholder?",
     "categories": [
-      "Stakeholder Communication"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5173/approach-ambiguous-request-from-stakeholder",
     "page": 2
@@ -344,7 +344,7 @@
   {
     "question": "You\u2019re launching a new feature\u2014how would you measure its strategic impact on growth?",
     "categories": [
-      "Data Analysis - Feature Impact"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5230/new-feature-impact-on-growth",
     "page": 3
@@ -352,7 +352,7 @@
   {
     "question": "What metrics would you use to evaluate product adoption and engagement?",
     "categories": [
-      "Product Metrics - Definition"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5192/metrics-to-evaluate-product-adoption",
     "page": 3
@@ -392,7 +392,6 @@
   {
     "question": "Tell me about a time when your analysis influenced a business decision.",
     "categories": [
-      "Product Strategy",
       "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5209/time-analysis-influenced-business-decision",
@@ -401,8 +400,7 @@
   {
     "question": "How would you analyze why user engagement is declining?",
     "categories": [
-      "Data Analysis - User Behavior",
-      "Root Cause Analysis"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5181/how-to-analyze-declining-user-engagement",
     "page": 3
@@ -426,8 +424,7 @@
   {
     "question": "What types of visualizations would you use to identify patterns in churn?",
     "categories": [
-      "Dashboard & Visualization",
-      "Data Analysis - Retention & Churn"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5182/visualizations-to-analyze-churn-patterns",
     "page": 3
@@ -460,7 +457,7 @@
   {
     "question": "How do you present insights to non-technical stakeholders?",
     "categories": [
-      "Stakeholder Communication"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5185/present-insights-non-technical-stakeholders",
     "page": 3
@@ -525,8 +522,7 @@
   {
     "question": "How do you determine which metrics are most important for executives to track?",
     "categories": [
-      "Product Metrics - Definition",
-      "Product Metrics - Tracking"
+      "Behavioral"
     ],
     "url": "https://www.tryexponent.com/questions/5206/determine-metrics-for-executives",
     "page": 4
@@ -575,8 +571,7 @@
   {
     "question": "What metrics would you track to improve operational cost?",
     "categories": [
-      "Product Metrics - Definition",
-      "Product Metrics - Tracking"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5199/metrics-improve-operational-cost",
     "page": 4
@@ -600,8 +595,7 @@
   {
     "question": "How would you measure engagement for a productivity app? What features or behaviors would you track?",
     "categories": [
-      "Data Analysis - Feature Impact",
-      "Product Metrics - Tracking"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5219/measure-engagement-productivity-app",
     "page": 4
@@ -626,7 +620,7 @@
   {
     "question": "After launching a new recommendation engine, how would you measure its impact on revenue?",
     "categories": [
-      "Behavioral"
+      "Product Analytics"
     ],
     "url": "https://www.tryexponent.com/questions/5221/recommendation-engine-revenue-impact",
     "page": 4
