@@ -19,6 +19,8 @@
 📊 Total Questions: 653
 🎯 Roles: Bizops Strategy, Business Analyst, Chief Of Staff, Data Analyst, Data Engineer, Data Scientist, Finance Strategy, Growth Marketing Manager, Ml Engineer, Product Analyst, Product Manager, Product Marketing Manager, Program Manager, Software Engineer, Technical Program Manager
 
+📄 **[VIEW ALL 653 QUESTIONS →](BEHAVIORAL_FULL_653.md)**
+
 ❌ Why skip:
 Already covered in ⭐️ Overlapped list. These behavioral questions are specific to non-target roles (PM, Software Engineer, etc.).
 
