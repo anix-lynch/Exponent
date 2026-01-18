@@ -67,7 +67,7 @@ Machine Learning
 10. ⚠️ Tell us about an app you don't like to use. How would you improve the app?
 11. ⚠️ How is gradient descent and model optimization used in linear regression?
 12. ⚠️ Reverse a Sentence
-13. ⚠️ ~~Merge Intervals~~ *(incomplete - coding problem title only)*
+13. ⚠️ Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
 14. ⚠️ ~~Valid Parentheses~~ *(incomplete - coding problem title only)*
 15. ⚠️ Tell me about a technical challenge that you have overcome.
 16. ⚠️ ~~Course Schedule~~ *(incomplete - coding problem title only)*
@@ -91,14 +91,14 @@ Machine Learning
 34. ⚠️ What parts of OpenAI's mission statement resonate with you?
 35. ⚠️ ~~Longest Increasing Subsequence~~ *(incomplete - coding problem title only)*
 36. ⚠️ Design a machine learning system that makes stock predictions from Reddit comments.
-37. ⚠️ ~~Generate Parentheses~~ *(incomplete - coding problem title only)*
+37. ⚠️ Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. Example: n=3 → ["((()))","(()())","(())()","()(())","()()()"]
 38. ⚠️ Build a Calculator
 39. ⚠️ Design Instagram's Explore page.
 40. ⚠️ Design spam detection on Pinterest.
 41. ⚠️ Tell me about your current role.
 42. ⚠️ Given two strings of equal length, determine if it's possible to form a palindrome by cutting them in half.
 43. ⚠️ ~~Sort Colors~~ *(incomplete - coding problem title only)*
-44. ⚠️ ~~Roman to Integer~~ *(incomplete - coding problem title only)*
+44. ⚠️ Given a Roman numeral string (e.g., "MCMXCIV"), convert it to an integer (e.g., 1994).
 45. ⚠️ How do you keep users’ data safe and private when building AI systems?
 46. ⚠️ Tell me about a project you worked on.
 47. ⚠️ Design YouTube advertising.
@@ -207,13 +207,13 @@ Data Structures & Algorithms
 8. ⚠️ Find a triplet in an array with a given sum.
 9. ⚠️ Given an array, find the two sum.
 10. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-11. ⚠️ ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
+11. ⚠️ Given a linked list, determine if it has a cycle. If yes, return the node where the cycle begins.
 12. ⚠️ Given the root of a binary tree of integers, return the maximum path sum.
 13. ⚠️ Construct a binary tree given its preorder and inorder traversals.
 14. ⚠️ Transform an input string into a target tokenized sequence using a tree/graph-based algorithm. Embeddings must be simulated (no ML models allowed). Validate the final output.
 15. ⚠️ Merge k sorted linked lists.
 16. ⚠️ Given a list of lexicographically sorted strings in an unknown language, derive the correct order of letters in that language's alphabet.
-17. ⚠️ ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
+17. ⚠️ Given a rotated sorted array (e.g., [4,5,6,7,0,1,2]), search for a target value in O(log n) time.
 18. ⚠️ Write a function that takes an array of integers and checks for duplicate values in any contiguous window of size N.
 19. ⚠️ Find the maximum subarray sum.
 20. ⚠️ Determine if a given binary tree is a binary search tree (BST).

@@ -112,13 +112,13 @@ Problem Solving
 55. 💗 What evidence shows Anthropic's sincerity about their mission?
 56. 💗 Why do you want to work at Atlassian?
 57. 💗 What parts of OpenAI's mission statement resonate with you?
-58. 💗 ~~Rotating the Box~~ *(incomplete - coding problem title only)*
+58. 💗 Given an m x n matrix representing a box with obstacles and stones, rotate the box 90 degrees clockwise and let stones fall due to gravity.
 59. 💗 Why do you think you would be a good fit for Microsoft's mission?
 60. 💗 Why should we hire you?
 61. 💗 How do you consider the impact of your work on the world?
 62. 💗 How would you choose a programming language to build your product at Google?
 63. 💗 Why do you want to work at DoorDash?
-64. 💗 ~~Generate Parentheses~~ *(incomplete - coding problem title only)*
+64. 💗 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. Example: n=3 → ["((()))","(()())","(())()","()(())","()()()"]
 65. 💗 Build a Calculator
 66. 💗 Why do you want to work at TikTok?
 67. 💗 Why do you want to work at Netflix?
@@ -133,7 +133,7 @@ Problem Solving
 76. 💗 Count the number of ways to split a string.
 77. 💗 How do you learn new technologies?
 78. 💗 Determine if two sentences are similar.
-79. 💗 ~~Roman to Integer~~ *(incomplete - coding problem title only)*
+79. 💗 Given a Roman numeral string (e.g., "MCMXCIV"), convert it to an integer (e.g., 1994).
 80. 💗 Why do you want to work at Cursor?
 81. 💗 Tell me a challenging situation when things went wrong and how you reacted.
 82. 💗 When have you done something which was against your values?
@@ -143,7 +143,7 @@ Problem Solving
 86. 💗 What are you looking for in your next opportunity?
 87. 💗 How do you contribute to diversity and inclusion?
 88. 💗 What are you passionate about?
-89. 💗 ~~Set Matrix Zeroes~~ *(incomplete - coding problem title only)*
+89. 💗 Given an m x n matrix, if an element is 0, set its entire row and column to 0. Do it in-place.
 90. 💗 What is cloud gaming?
 91. 💗 Why do you want to work at ElevenLabs?
 92. 💗 What other companies are you interviewing at and why?
@@ -299,7 +299,7 @@ Data Structures & Algorithms
 35. ⚠️ Find a triplet in an array with a given sum.
 36. ⚠️ Given an array, find the two sum.
 37. ⚠️ Given the head of two singly linked lists, write a function to return the point where they intersect (if any).
-38. ⚠️ ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
+38. ⚠️ Given a linked list, determine if it has a cycle. If yes, return the node where the cycle begins.
 39. ⚠️ Implement a decode and encode function of a general N-ary tree.
 40. ⚠️ Given the root of a binary tree of integers, return the maximum path sum.
 41. ⚠️ Given an array of integers and an integer k, find the kth largest element in the array.
@@ -309,10 +309,10 @@ Data Structures & Algorithms
 45. ⚠️ Construct a binary tree given its preorder and inorder traversals.
 46. ⚠️ Merge k sorted linked lists.
 47. ⚠️ Find the closest number in a sorted array.
-48. ⚠️ ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
+48. ⚠️ Given a rotated sorted array (e.g., [4,5,6,7,0,1,2]), search for a target value in O(log n) time.
 49. ⚠️ Build a hash tree algorithm.
 50. ⚠️ Find the maximum subarray sum.
-51. ⚠️ ~~Squares of sorted array~~ *(incomplete - coding problem title only)*
+51. ⚠️ Given a sorted array of integers (may include negatives), return an array of the squares of each number, also sorted.
 52. ⚠️ Find the number of rotations in a circularly sorted array.
 53. ⚠️ Print the left view of a binary tree.
 54. ⚠️ Determine if a given binary tree is a binary search tree (BST).
@@ -348,7 +348,7 @@ Data Structures & Algorithms
 84. ⚠️ Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.
 85. ⚠️ Implement a queue using stacks.
 86. ⚠️ Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...
-87. ⚠️ ~~Serialize and deserialize binary tree~~ *(incomplete - coding problem title only)*
+87. ⚠️ Design an algorithm to serialize a binary tree to a string and deserialize the string back to the tree structure.
 88. ⚠️ Find the maximum subarray product
 89. ⚠️ Abbreviate an array of strings.
 90. ⚠️ Implement a doubly linked list.
@@ -414,7 +414,7 @@ Coding
 
 1. ⚠️ Implement an LRU cache with serialization and evolving constraints.
 2. ⚠️ Find the minimum characters to insert to make a string a palindrome.
-3. ⚠️ ~~Employee Earnings.~~ *(incomplete - coding problem title only)*
+3. ⚠️ Write a SQL query to find the employees who earn more than their managers.
 4. ⚠️ Tell me about a time you took a calculated risk when speed was critical.
 5. ⚠️ Reverse a linked list.
 6. ⚠️ Tell me about a time you were confident in a solution and later realized it was wrong.
@@ -436,7 +436,7 @@ Coding
 22. ⚠️ Given profiler samples from running code, find the slowest part in the code.
 23. ⚠️ Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...
 24. ⚠️ Reverse a Sentence
-25. ⚠️ ~~Merge Intervals~~ *(incomplete - coding problem title only)*
+25. ⚠️ Given a collection of intervals, merge all overlapping intervals. Example: [[1,3],[2,6],[8,10]] → [[1,6],[8,10]]
 26. ⚠️ Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.
 27. ⚠️ Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.
 28. ⚠️ Given an m x n grid of characters board and a string word, return true if word exists in the grid.

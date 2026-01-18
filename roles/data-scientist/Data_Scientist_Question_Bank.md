@@ -54,7 +54,7 @@ Behavioral (STAR Method)
 
 📝 All 100 Questions:
 
-1. 💗 ~~Employee Earnings.~~ *(incomplete - coding problem title only)*
+1. 💗 Write a SQL query to find the employees who earn more than their managers.
 2. 💗 Reverse a linked list.
 3. 💗 Find the number of users who called three or more people in the last week.
 4. 💗 Tell me about a time when you solved a complex problem and how you went about it.
@@ -71,15 +71,15 @@ Behavioral (STAR Method)
 15. 💗 Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.
 16. 💗 Tell me about a time when you received negative feedback and how you handled it.
 17. 💗 Tell me about a time when you used a specific metric to drive change in your department.
-18. 💗 ~~Monthly Post Success Analysis.~~ *(incomplete - coding problem title only)*
+18. 💗 Write a SQL query to calculate monthly post engagement metrics: total posts, average likes per post, engagement rate, and month-over-month growth.
 19. 💗 Can you provide an example of how you manage conflict?
 20. 💗 Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.
-21. 💗 ~~Top Earning Employees~~ *(incomplete - coding problem title only)*
+21. 💗 Write a SQL query to find the top 3 highest-earning employees in each department.
 22. 💗 What percentage of users who were active on Messenger yesterday made a video call yesterday?
 23. 💗 Find the longest substring without repeating characters.
 24. 💗 Imagine you are a data scientist for Instagram. How would you balance ads and follower posts and how would you monitor its effectiveness.
 25. 💗 Reverse a Sentence
-26. 💗 ~~Top Salaries by Department~~ *(incomplete - coding problem title only)*
+26. 💗 Write a SQL query to find the employee with the highest salary in each department.
 27. 💗 Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?
 28. 💗 ~~Lyft Ride Requests~~ *(incomplete - coding problem title only)*
 29. 💗 Define success for TikTok.
@@ -87,14 +87,14 @@ Behavioral (STAR Method)
 31. 💗 How would you determine if Facebook Messenger should introduce group calling?
 32. 💗 Move all zeros to the end of an array.
 33. 💗 ~~Employee Hierarchy~~ *(incomplete - coding problem title only)*
-34. 💗 ~~Most Recent Transaction~~ *(incomplete - coding problem title only)*
+34. 💗 Write a SQL query to find the most recent transaction for each customer.
 35. 💗 ~~Duolingo Leaderboards~~ *(incomplete - coding problem title only)*
 36. 💗 Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?
 37. 💗 Tell me about a mistake you made and what you learned from it.
 38. 💗 Explain Bayes' theorem.
-39. 💗 ~~High Volume Low Success.~~ *(incomplete - coding problem title only)*
-40. 💗 ~~Calculate Test Scores~~ *(incomplete - coding problem title only)*
-41. 💗 ~~Session Data Analysis.~~ *(incomplete - coding problem title only)*
+39. 💗 Write a SQL query to identify products with high order volume but low success rate (< 50% fulfillment).
+40. 💗 Write a SQL query to calculate the average test score for each student, excluding their lowest score.
+41. 💗 Write a SQL query to analyze user session data: calculate average session duration, pages per session, and bounce rate by traffic source.
 42. 💗 Tell me about a time when you were creative.
 43. 💗 Find the median of two sorted arrays.
 44. 💗 Given an nxn grid of 1s and 0s, return the number of islands in the input.
@@ -103,26 +103,26 @@ Behavioral (STAR Method)
 47. 💗 Tell me about a time when you had to balance short-term wins with long-term goals.
 48. 💗 ~~Marketing Channel Attribution~~ *(incomplete - coding problem title only)*
 49. 💗 Tell me about a time when you had difficulty communicating with key stakeholders and how you aligned with them.
-50. 💗 ~~Linked List Cycle~~ *(incomplete - coding problem title only)*
+50. 💗 Given a linked list, determine if it has a cycle. If yes, return the node where the cycle begins.
 51. 💗 What parts of OpenAI's mission statement resonate with you?
 52. 💗 Given the root of a binary tree of integers, return the maximum path sum.
 53. 💗 Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?
-54. 💗 ~~Post Success By Age Group.~~ *(incomplete - coding problem title only)*
+54. 💗 Write a SQL query to analyze post engagement metrics (likes, comments, shares) grouped by user age ranges (18-24, 25-34, 35-44, 45+).
 55. 💗 Tell me about an impactful project that you led.
-56. 💗 ~~Analyze Monthly Customer Transactions~~ *(incomplete - coding problem title only)*
+56. 💗 Write a SQL query to analyze customer transaction patterns: monthly revenue, average order value, customer retention rate, and identify top 10% customers by spend.
 57. 💗 Merge k sorted linked lists.
 58. 💗 Walk me through a past data science project.
 59. 💗 Explain deep reinforcement learning.
 60. 💗 ~~Fibonacci Numbers~~ *(incomplete - coding problem title only)*
-61. 💗 ~~Roman to Integer~~ *(incomplete - coding problem title only)*
+61. 💗 Given a Roman numeral string (e.g., "MCMXCIV"), convert it to an integer (e.g., 1994).
 62. 💗 How do you approach personal growth and learning?
 63. 💗 How would you enhance Facebook comments?
 64. 💗 Find Customer Lifetime Value (LTV)
 65. 💗 Describe an experience that you consider most valuable.
-66. 💗 ~~Search in rotated sorted array~~ *(incomplete - coding problem title only)*
+66. 💗 Given a rotated sorted array (e.g., [4,5,6,7,0,1,2]), search for a target value in O(log n) time.
 67. 💗 Find the maximum subarray sum.
 68. 💗 How can you improve Facebook’s DAU?
-69. 💗 ~~Find Campaign Purchases~~ *(incomplete - coding problem title only)*
+69. 💗 Write a SQL query to find all purchases made within 7 days of a marketing campaign click, grouped by campaign.
 70. 💗 Determine if a given binary tree is a binary search tree (BST).
 71. 💗 Given a list of sentences, find the top n most frequent words.
 72. 💗 Merge two sorted lists
@@ -130,7 +130,7 @@ Behavioral (STAR Method)
 74. 💗 What are you passionate about?
 75. 💗 How do you encourage collaboration among cross-functional teams?
 76. 💗 As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?
-77. 💗 ~~Fraudulent Transactions~~ *(incomplete - coding problem title only)*
+77. 💗 Write a SQL query to identify potentially fraudulent transactions: multiple transactions from same card in different cities within 1 hour, or transactions above $10,000.
 78. 💗 Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...
 79. 💗 Calculate the trapped rainwater between bars in a given array.
 80. 💗 How would you help the Instagram team decide whether to launch the Rooms feature after a successful launch on Facebook?
