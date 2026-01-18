@@ -265,8 +265,10 @@ def main():
                 'count': data['count'],
                 'roles': data['roles']
             })
-        # Sort by frequency (count) descending
-        questions_list.sort(key=lambda x: x['count'], reverse=True)
+        # Sort by:
+        # 1. Frequency (count) descending - most common first
+        # 2. Question length ascending - shorter/simpler questions first as tiebreaker
+        questions_list.sort(key=lambda x: (-x['count'], len(x['question'])))
         all_questions[category]['questions'] = questions_list
     
     # Sort by question count
