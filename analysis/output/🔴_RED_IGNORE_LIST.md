@@ -19,7 +19,7 @@
 📊 Total Questions: 653
 🎯 Roles: Bizops Strategy, Business Analyst, Chief Of Staff, Data Analyst, Data Engineer, Data Scientist, Finance Strategy, Growth Marketing Manager, Ml Engineer, Product Analyst, Product Manager, Product Marketing Manager, Program Manager, Software Engineer, Technical Program Manager
 
-📄 **[VIEW ALL 653 QUESTIONS →](BEHAVIORAL_FULL_653.md)**
+📄 **[VIEW ALL 653 QUESTIONS →](ignore-full/BEHAVIORAL_FULL_653.md)**
 
 ❌ Why skip:
 Already covered in ⭐️ Overlapped list. These behavioral questions are specific to non-target roles (PM, Software Engineer, etc.).
@@ -71,7 +71,7 @@ General Problem Framework
 📊 Total Questions: 465
 🎯 Roles: Data Analyst, Product Manager
 
-📄 **[VIEW ALL 465 QUESTIONS →](ANALYTICAL_FULL_465.md)**
+📄 **[VIEW ALL 465 QUESTIONS →](ignore-full/ANALYTICAL_FULL_465.md)**
 
 ❌ Why skip:
 Not aligned with your top 3 target roles (Chief of Staff, BizOps Strategy, Data Engineer). Low ROI for your interview prep.
