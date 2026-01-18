@@ -13,9 +13,9 @@ Total Questions: 116 across 22 categories
 Study Time: 60-90 hours
 
 
-================================================================================
-STRATEGY 🟡
-================================================================================
+---
+
+## STRATEGY 🟡
 
 📊 Total Questions: 26
 🎯 Roles: BizOps Strategy
@@ -77,9 +77,9 @@ Strategy/Business Framework
 26. 🟡 What are the most important industry trends right now? What strategy would you pursue if you were leading Voodoo in the next 5 years?
 
 
-================================================================================
-PROBLEM SOLVING 🟡
-================================================================================
+---
+
+## PROBLEM SOLVING 🟡
 
 📊 Total Questions: 12
 🎯 Roles: BizOps Strategy, Chief of Staff
@@ -127,9 +127,9 @@ Problem Solving Framework
 12. 🟡 How would you handle a situation where two executives have conflicting priorities?
 
 
-================================================================================
-DATA PIPELINE DESIGN 🟡
-================================================================================
+---
+
+## DATA PIPELINE DESIGN 🟡
 
 📊 Total Questions: 10
 🎯 Roles: Data Engineer
@@ -176,9 +176,9 @@ System Design Framework
 10. 🟡 When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?
 
 
-================================================================================
-DATA MODELING 🟡
-================================================================================
+---
+
+## DATA MODELING 🟡
 
 📊 Total Questions: 10
 🎯 Roles: Data Engineer
@@ -216,9 +216,9 @@ General Framework
 10. 🟡 Design a data warehouse schema for LinkedIn.
 
 
-================================================================================
-SQL 🟡
-================================================================================
+---
+
+## SQL 🟡
 
 📊 Total Questions: 8
 🎯 Roles: BizOps Strategy, Data Engineer
@@ -264,9 +264,9 @@ SQL Problem Framework
 8. 🟡 Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.
 
 
-================================================================================
-PROCESS IMPROVEMENT 🟡
-================================================================================
+---
+
+## PROCESS IMPROVEMENT 🟡
 
 📊 Total Questions: 7
 🎯 Roles: BizOps Strategy
@@ -301,9 +301,9 @@ General Framework
 7. 🟡 How would you reduce the number of customer support tickets from users on our rideshare app?
 
 
-================================================================================
-SPARK/BIG DATA 🟡
-================================================================================
+---
+
+## SPARK/BIG DATA 🟡
 
 📊 Total Questions: 6
 🎯 Roles: Data Engineer
@@ -337,9 +337,9 @@ General Framework
 6. 🟡 When should you use a job cluster instead of an all-purpose cluster?
 
 
-================================================================================
-MARKET ANALYSIS 🟡
-================================================================================
+---
+
+## MARKET ANALYSIS 🟡
 
 📊 Total Questions: 5
 🎯 Roles: BizOps Strategy
@@ -372,9 +372,9 @@ General Framework
 5. 🟡 Within the Blockchain Industry, where do you think Stablecoins have the most potential?
 
 
-================================================================================
-BUSINESS ANALYSIS 🟡
-================================================================================
+---
+
+## BUSINESS ANALYSIS 🟡
 
 📊 Total Questions: 5
 🎯 Roles: BizOps Strategy
@@ -415,9 +415,9 @@ Strategy/Business Framework
 5. 🟡 If rider price changed, what should a ride-sharing app use and/or analyze to maximize revenue?
 
 
-================================================================================
-SYSTEM DESIGN 🟡
-================================================================================
+---
+
+## SYSTEM DESIGN 🟡
 
 📊 Total Questions: 4
 🎯 Roles: BizOps Strategy, Data Engineer
@@ -458,9 +458,9 @@ System Design Framework
 4. 🟡 Design a group chat application.
 
 
-================================================================================
-ANALYTICAL 🟡
-================================================================================
+---
+
+## ANALYTICAL 🟡
 
 📊 Total Questions: 4
 🎯 Roles: BizOps Strategy
@@ -500,9 +500,9 @@ Problem Solving Framework
 4. 🟡 Why are you leaving consulting?
 
 
-================================================================================
-DATA QUALITY 🟡
-================================================================================
+---
+
+## DATA QUALITY 🟡
 
 📊 Total Questions: 3
 🎯 Roles: Data Engineer
@@ -533,9 +533,9 @@ General Framework
 3. 🟡 Given a large set of CSV files with thousands of paragraphs each, how would you detect duplicates within each file, and how would you scale this solution for many files?
 
 
-================================================================================
-PRODUCT ANALYTICS 🟡
-================================================================================
+---
+
+## PRODUCT ANALYTICS 🟡
 
 📊 Total Questions: 3
 🎯 Roles: Chief of Staff, Data Engineer
@@ -566,9 +566,9 @@ General Framework
 3. 🟡 What metrics would you track to measure organizational health?
 
 
-================================================================================
-LEADERSHIP 🟡
-================================================================================
+---
+
+## LEADERSHIP 🟡
 
 📊 Total Questions: 3
 🎯 Roles: Chief of Staff
@@ -607,9 +607,9 @@ Leadership Framework
 3. 🟡 What's your approach to change management in a large organization?
 
 
-================================================================================
-DATA WAREHOUSING 🟡
-================================================================================
+---
+
+## DATA WAREHOUSING 🟡
 
 📊 Total Questions: 2
 🎯 Roles: Data Engineer
@@ -639,9 +639,9 @@ General Framework
 2. 🟡 What is the difference between OLTP and OLAP?
 
 
-================================================================================
-CASE STUDY 🟡
-================================================================================
+---
+
+## CASE STUDY 🟡
 
 📊 Total Questions: 2
 🎯 Roles: BizOps Strategy
@@ -671,9 +671,9 @@ General Framework
 2. 🟡 Imagine you're deploying a new routine for the sales reps. How would you handle a situation where someone is not onboard?
 
 
-================================================================================
-MONITORING & OBSERVABILITY 🟡
-================================================================================
+---
+
+## MONITORING & OBSERVABILITY 🟡
 
 📊 Total Questions: 1
 🎯 Roles: Data Engineer
@@ -702,9 +702,9 @@ General Framework
 1. 🟡 Create geographic and demographic dashboards for weekly, monthly, and yearly analytics using order data (100M daily records for 5 years) and customer data (1B customers).
 
 
-================================================================================
-PERFORMANCE OPTIMIZATION 🟡
-================================================================================
+---
+
+## PERFORMANCE OPTIMIZATION 🟡
 
 📊 Total Questions: 1
 🎯 Roles: Data Engineer
@@ -733,9 +733,9 @@ General Framework
 1. 🟡 Explain the differences between multithreading and multiprocessing.
 
 
-================================================================================
-DATA ANALYSIS 🟡
-================================================================================
+---
+
+## DATA ANALYSIS 🟡
 
 📊 Total Questions: 1
 🎯 Roles: BizOps Strategy
@@ -777,9 +777,9 @@ Data Analysis Framework
 1. 🟡 What metric would you want to know about Instacart, and how would you find the data to answer that?
 
 
-================================================================================
-FINANCIAL ANALYSIS 🟡
-================================================================================
+---
+
+## FINANCIAL ANALYSIS 🟡
 
 📊 Total Questions: 1
 🎯 Roles: BizOps Strategy
@@ -808,9 +808,9 @@ General Framework
 1. 🟡 How would you deal with an increased customer sensitivity to cost?
 
 
-================================================================================
-STRATEGIC PLANNING 🟡
-================================================================================
+---
+
+## STRATEGIC PLANNING 🟡
 
 📊 Total Questions: 1
 🎯 Roles: Chief of Staff
@@ -839,9 +839,9 @@ General Framework
 1. 🟡 Describe your experience managing special projects or strategic initiatives.
 
 
-================================================================================
-COMMUNICATION 🟡
-================================================================================
+---
+
+## COMMUNICATION 🟡
 
 📊 Total Questions: 1
 🎯 Roles: Chief of Staff

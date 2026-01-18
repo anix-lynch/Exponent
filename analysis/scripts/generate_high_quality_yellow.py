@@ -462,9 +462,9 @@ def main():
         roles = sorted(list(data['roles']))
         questions = data['questions']
         
-        output.append("=" * 80)
-        output.append(f"{category.upper()} 🟡")
-        output.append("=" * 80)
+        output.append("---")
+        output.append("")
+        output.append(f"## {category.upper()} 🟡")
         output.append("")
         output.append(f"📊 Total Questions: {len(questions)}")
         output.append(f"🎯 Roles: {', '.join(roles)}")
