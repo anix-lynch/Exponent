@@ -40,15 +40,21 @@ Based on your MBA/VC/PE background transitioning to Data Engineering
 ║  🟠 STRATEGIC ROLES             │  🔴 DEFER (Post Week 1)                    ║
 ║     (after quick wins)          │                                             ║
 ║                                 │  • Software Engineer (575q)                ║
-║  • Program Manager (11q)        │    └─ Heavy coding focus                   ║
-║    └─ Execution + coordination  │                                             ║
+║  • Business Analyst (87q)       │    └─ Heavy coding focus                   ║
+║    └─ MBA-friendly              │                                             ║
 ║                                 │  • ML Engineer (137q)                      ║
-║  • Data Scientist (157q)        │    └─ Requires ML depth                    ║
-║    └─ If analytics-focused      │                                             ║
+║  • Program Manager (11q)        │    └─ Requires ML depth                    ║
+║    └─ Execution + coordination  │                                             ║
 ║                                 │  • Product Manager (1,710q)                ║
-║  ACTION: Apply Week 2           │    └─ Massive question bank                ║
+║  • Data Scientist (157q)        │    └─ Massive question bank                ║
+║    └─ If analytics-focused      │                                             ║
+║                                 │  • Growth Marketing Manager (2q)           ║
+║  ACTION: Apply Week 2           │    └─ Limited data, marketing focus        ║
 ║  PREP TIME: 1-2 weeks           │                                             ║
-║  CONFIDENCE: 60-70%             │  ACTION: Long-term skill building          ║
+║  CONFIDENCE: 60-70%             │  • Product Marketing Manager (5q)          ║
+║                                 │    └─ Marketing focus                      ║
+║                                 │                                             ║
+║                                 │  ACTION: Long-term skill building          ║
 ║                                 │  PREP TIME: 4-8 weeks                      ║
 ║                                 │  CONFIDENCE: <50%                          ║
 ║                                 │                                             ║
@@ -158,3 +164,34 @@ For Data Engineer (your #1 goal):
 ---
 
 **You're 65% ready NOW. 75%+ after 20 hours. Let's go! 🚀**
+
+---
+
+## 📊 COMPLETE ROLE INVENTORY (All 15 Roles)
+
+### 🟢 Quick Wins (4 roles) - Apply Monday AM
+1. Chief of Staff (2q) - 90% match
+2. BizOps & Strategy (97q) - 85% match
+3. Finance & Strategy (7q) - 85% match
+4. Product Analyst (85q) - 75% match
+
+### ⭐ #1 Goal (1 role) - PRIMARY FOCUS
+5. **Data Engineer (151q)** - 65% → 77% with prep
+
+### 🟡 Study & Apply (2 roles) - Apply Monday PM
+6. Data Analyst (118q) - 70% match
+7. Technical Program Manager (189q) - 65% match
+
+### 🟠 Strategic (3 roles) - Apply Week 2
+8. Business Analyst (87q) - 70% match
+9. Program Manager (11q) - 65% match
+10. Data Scientist (157q) - 60% match (if analytics-focused)
+
+### 🔴 Defer (5 roles) - Long-term (4-8 weeks)
+11. Software Engineer (575q) - 40% match (heavy coding)
+12. ML Engineer (137q) - 45% match (requires ML depth)
+13. Product Manager (1,710q) - 50% match (massive prep needed)
+14. Growth Marketing Manager (2q) - 40% match (marketing focus)
+15. Product Marketing Manager (5q) - 40% match (marketing focus)
+
+**Total: 15 roles | Immediate targets: 7 roles | Total questions: 1,856**
