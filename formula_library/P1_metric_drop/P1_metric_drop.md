@@ -4,15 +4,6 @@
 
 ---
 
-## Quick Links
-
-- [📊 ASCII Tree Mental Model](./cheatsheets/ascii_tree.md)
-- [📝 Sample Questions & Answers](./samples/)
-- [💡 Detailed Examples](./examples/)
-- [🎯 Micro Cheat Sheet](./cheatsheets/micro_cheat_sheet.md)
-
----
-
 ## P1 ASCII TREE (copy/paste mental model)
 
 ```text
