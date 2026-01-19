@@ -1,0 +1,442 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+3.2,How would you do a database migration?,🔴,N/A,N/A,N/A,Technical implementation; likely coding
+5,A $5 discount coupon is given to N riders. The probability of using a coupon is P. What is the expected cost for the company?,🔴,N/A,N/A,N/A,Math calculation; probability theory
+8,A discount coupon is given to N riders. The probability of using a coupon is P. What is the probability that one of the coupons will be used?,🔴,N/A,N/A,N/A,Math calculation; probability theory
+10,A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.,🔴,N/A,N/A,N/A,Algorithm puzzle; classic knapsack problem
+14,A PM at Google asked you to describe the distribution of daily search queries per user. How would you describe it?,🔴,N/A,N/A,N/A,Statistics theory; distribution description
+15,A PM at Meta asked you to describe the distribution of daily minutes spent on Facebook per user. How would you describe it?,🔴,N/A,N/A,N/A,Statistics theory; distribution description
+18,Abbreviate an array of strings.,🔴,N/A,N/A,N/A,Coding problem; string manipulation
+23,"Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with metrics?",🔴,N/A,N/A,N/A,Behavioral self-assessment
+27,Analyze Monthly Customer Transactions,🔴,N/A,N/A,N/A,Vague; likely SQL or coding task
+28,Apply the quadratic formula to a sorted array such that the resulting array is still sorted.,🔴,N/A,N/A,N/A,Algorithm problem; math + sorting
+29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,N/A,N/A,N/A,Behavioral; tool familiarity
+30,"Array Manipulation: Given an array, implement functions to perform add, remove, update operations and return the resulting array.",🔴,N/A,N/A,N/A,Coding problem; array operations
+36,"As a manager, how do you handle trade-offs?",🔴,N/A,N/A,N/A,Abstract behavioral; no specific scenario
+128,Build a Basic Regex Parser,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+129,Build a Calculator,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+131,Build a hash tree algorithm.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+137,Build a web crawler with multi-threading.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+139,Calculate Test Scores,🔴,N/A,N/A,N/A,Math calculation; coding question
+140,Calculate the height of a binary tree.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+141,Calculate the number of times a pattern appears in a string.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+142,Calculate the result of a mathematical expression written as a string.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+143,Calculate the trapped rainwater between bars in a given array.,🔴,N/A,N/A,N/A,Algorithm implementation; LeetCode problem
+145,"Can Jump - Given an array of non-negative integers, you're initially at the first index. Each element represents your maximum jump length at that position. Determine if you can reach the last index.",🔴,N/A,N/A,N/A,Algorithm implementation; LeetCode problem
+148,Can you implement batch normalization using NumPy?,🔴,N/A,N/A,N/A,Algorithm implementation; ML coding question
+155,Check if a given binary tree is a complete binary tree.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+156,Check the correct placement of parentheses in a string.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+163,Climbing Stairs,🔴,N/A,N/A,N/A,Algorithm implementation; LeetCode problem
+164,Clone a linked list with a random pointer.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+165,Closest Subarray Sum to Target.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+166,"Code an image-processing pipeline that reads per-image instruction files and applies ordered transformations (e.g., rotate, invert, crop, convert) to large sets of images of varying sizes across mu...",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+167,Coin Change,🔴,N/A,N/A,N/A,Algorithm implementation; LeetCode problem
+169,Compute the binary representation of an integer.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+171,Construct a binary tree given its preorder and inorder traversals.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+172,Convert a matrix to a quad tree.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+173,Convert Biased Coin to Fair Coin,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+174,Count items within compartments between specific indices of an array.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+175,Count the number of ways to split a string.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+176,Course Schedule,🔴,N/A,N/A,N/A,Algorithm implementation; LeetCode problem
+177,"Create a function that accepts structured data as input, includes column names, and outputs data suited for generating a pivot table.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+184,Debug and extend a Python codebase by adding an async exponential retry mechanism with timeouts and backoff so failures are retried until success.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+190,Define hallucinations in LLMs.,🔴,N/A,N/A,N/A,Technical definition; ML theory
+199,Degrees of Friendship,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+200,Delete Node in a Binary Search Tree (BST).,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+233,Describe how the split in a decision tree works.,🔴,N/A,N/A,N/A,ML theory explanation; technical definition
+237,Describe the distribution between the 5th and 6th points in an interval from 0 to 1 containing ten uniformly distributed points.,🔴,N/A,N/A,N/A,Math calculation; probability theory
+284,Design a custom policy extension for an LRU Cache.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+288,"Design a data structure that supports insert, delete, search, and retrieve in constant time.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+452,Design a queue using static memory allocation.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+519,Design a task scheduler in Python.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+566,Design an algorithm to predict the next word or phrase one is typing on a phone.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+623,Design an iterator.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+624,Design an LCU cache.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+635,"Design and implement an in-memory key-value store that supports set, transactional begin, commit, and abort operations.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+636,Design and implement logic to synchronize audio playback timing with transcript highlighting.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+692,Detect cycle in graph,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+694,Determine a ship's capacity to ship packages in D days.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+695,Determine if a given binary tree is a binary search tree (BST).,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+696,Determine if a number is a power of two.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+697,Determine if an array of integers from 1 to n contains a duplicate in constant time and space.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+699,Determine if two sentences are similar.,🔴,N/A,N/A,N/A,Algorithm implementation; NLP coding
+700,Determine if two words are sorted in lexicographic order.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+702,Determine the minimum number of parentheses needed to balance a given string.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+703,Develop a custom data structure with O(1) time complexity for get() and setall() operations.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+706,"Develop an algorithm for a radio station to select the next song from a database of over one million songs, given that only one input is allowed from the user on the landing page.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+733,Duolingo Leaderboards,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+734,Edit distance,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+735,Efficiently find the next greatest element in an array.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+750,Estimate the circumference of the Earth at the Equator.,🔴,N/A,N/A,N/A,Math calculation; brain teaser
+763,Estimate the number of pieces of candy given out in your city.,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+764,Estimate the number of potholes in continental USA.,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+768,Estimate the number of trees in the city of Delhi.,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+774,Estimate the total miles run by joggers in Central Park.,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+782,Explain all kinds of OOP concepts in Python.,🔴,N/A,N/A,N/A,Technical explanation; programming concepts
+783,Explain auto-regression.,🔴,N/A,N/A,N/A,ML theory explanation; technical definition
+784,Explain Bayes' theorem.,🔴,N/A,N/A,N/A,Math theory explanation; probability
+785,Explain BERT.,🔴,N/A,N/A,N/A,ML theory explanation; NLP
+786,Explain bias-variance tradeoff.,🔴,N/A,N/A,N/A,ML theory explanation; model evaluation
+787,Explain callback functions.,🔴,N/A,N/A,N/A,Programming concept; technical definition
+788,Explain cross entropy.,🔴,N/A,N/A,N/A,ML theory explanation; loss function
+789,Explain cross-validation and testing in logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; model validation
+792,Explain deep reinforcement learning.,🔴,N/A,N/A,N/A,ML theory explanation; RL
+794,Explain how garbage collection works in programming.,🔴,N/A,N/A,N/A,Technical explanation; programming internals
+795,Explain how hash maps work.,🔴,N/A,N/A,N/A,Technical explanation; data structures
+800,Explain how to find a target sum in an array.,🔴,N/A,N/A,N/A,Algorithm explanation; coding question
+802,Explain how you choose a model or algorithm to solve a problem.,🔴,N/A,N/A,N/A,ML theory explanation; technical decision
+806,Explain how you would fit data using logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; model fitting
+808,"Explain malloc, calloc, and reelloc.",🔴,N/A,N/A,N/A,Technical explanation; memory management
+809,Explain Mask R-CNN.,🔴,N/A,N/A,N/A,ML theory explanation; computer vision
+810,Explain multithreading.,🔴,N/A,N/A,N/A,Technical explanation; concurrency
+811,Explain normalization and Bayes' theorem.,🔴,N/A,N/A,N/A,ML theory explanation; probability
+812,Explain overfitting.,🔴,N/A,N/A,N/A,ML theory explanation; model evaluation
+813,Explain polymorphism.,🔴,N/A,N/A,N/A,Programming concept; OOP
+815,Explain prime numbers to a five-year-old.,🔴,N/A,N/A,N/A,Math explanation; brain teaser
+816,Explain regularization.,🔴,N/A,N/A,N/A,ML theory explanation; model optimization
+817,Explain semantic segmentation.,🔴,N/A,N/A,N/A,ML theory explanation; computer vision
+818,Explain semi-supervised learning.,🔴,N/A,N/A,N/A,ML theory explanation; learning paradigm
+819,Explain TF-IDF.,🔴,N/A,N/A,N/A,ML theory explanation; NLP
+820,Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).,🔴,N/A,N/A,N/A,ML theory explanation; neural networks
+821,Explain the differences between an interface and an abstract class.,🔴,N/A,N/A,N/A,Programming concept; OOP
+822,Explain the differences between L1 and L2 regression.,🔴,N/A,N/A,N/A,ML theory explanation; regularization
+823,Explain the differences between linear and logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; regression
+824,Explain the differences between LSTM and traditional neural networks.,🔴,N/A,N/A,N/A,ML theory explanation; neural networks
+825,Explain the differences between multithreading and multiprocessing.,🔴,N/A,N/A,N/A,Technical explanation; concurrency
+826,Explain the differences between nonconvex and convex functions.,🔴,N/A,N/A,N/A,Math theory explanation; optimization
+828,Explain the differences between ReLU and Sigmoid.,🔴,N/A,N/A,N/A,ML theory explanation; activation functions
+829,Explain the differences between stack and heap memory allocation.,🔴,N/A,N/A,N/A,Technical explanation; memory management
+831,Explain the filter function.,🔴,N/A,N/A,N/A,Programming concept; functional programming
+833,Explain the map function.,🔴,N/A,N/A,N/A,Programming concept; functional programming
+834,Explain the memory changes that occur when executing: Object o = new Object().,🔴,N/A,N/A,N/A,Technical explanation; memory management
+837,Explain the relationship between the log-likelihood loss function for logistic regression and maximum likelihood estimation.,🔴,N/A,N/A,N/A,ML theory explanation; mathematical proof
+838,Explain the solution for Leetcode problem 1010: Pairs of Songs With Total Durations Divisible by 60.,🔴,N/A,N/A,N/A,Algorithm explanation; coding question
+839,Explain the sort function.,🔴,N/A,N/A,N/A,Programming concept; algorithms
+840,Explain the time and space complexities of sorting algorithms.,🔴,N/A,N/A,N/A,Algorithm theory explanation; complexity analysis
+841,Explain the time complexity differences between ArrayList and LinkedList.,🔴,N/A,N/A,N/A,Data structure explanation; complexity analysis
+842,Explain tic tac toe end games.,🔴,N/A,N/A,N/A,Game theory explanation; brain teaser
+843,Explain transformers.,🔴,N/A,N/A,N/A,ML theory explanation; NLP
+851,Fibonacci Numbers,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+852,Find a triplet in an array with a given sum.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+856,Find duplicate files in a file system.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+857,Find Largest Numbers,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+858,Find peak element in an array,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+859,Find points closest to the origin.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+860,Find the closest number in a sorted array.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+861,Find the closest palindrome of a given number.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+862,Find the common ancestors in a tree.,🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+863,Find the container with the maximum volume of water.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+864,Find the distance between two points in 3D space.,🔴,N/A,N/A,N/A,Algorithm implementation; math calculation
+865,Find the dot product of two sparse vectors.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+866,Find the Duplicates,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+867,"Find the element at a given position in a sorted version of an unsorted array. Example: Input: {5,1,7,19,0,16}, k=3 Output: 5 (Explanation: Sorted array is {0,1,5,7,16,19}, and the 3rd positioned e...",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+868,Find the equilibrium index in an array where sum of elements to the left is equal to sum of elements to the right.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+869,Find the first common ancestor of two nodes in a binary tree.,🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+870,Find the first missing positive number in an array.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+871,Find the largest perimeter of an island given a two-dimensional array of 1's and 0's representing land and water.,🔴,N/A,N/A,N/A,Algorithm implementation; graph problem
+872,Find the length of the shortest word ladder.,🔴,N/A,N/A,N/A,Algorithm implementation; graph problem
+873,Find the longest common prefix given two integer arrays.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+874,Find the longest palindromic subsequence using dynamic programming.,🔴,N/A,N/A,N/A,Algorithm implementation; dynamic programming
+875,Find the longest substring without repeating characters.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+876,Find the lowest common ancestor (LCA) of two nodes in a binary tree.,🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+877,"Find the maximum possible stability of any subset of servers. Return the result modulo 10^9+7. E.g. Consider set of servers where reliability = [1, 2, 2], availability = [1, 1, 3].",🔴,N/A,N/A,N/A,Algorithm implementation; optimization problem
+878,Find the maximum product subarray in a given array.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+879,Find the maximum subarray product,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+880,Find the maximum subarray sum.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+881,Find the median of two sorted arrays.,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+882,Find the minimum and maximum elements in an array using minimum comparisons.,🔴,N/A,N/A,N/A,Algorithm implementation; optimization
+883,Find the minimum characters to insert to make a string a palindrome.,🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+884,Find the minimum window substring.,🔴,N/A,N/A,N/A,Algorithm implementation; sliding window
+885,Find the number of rotations in a circularly sorted array.,🔴,N/A,N/A,N/A,Algorithm implementation; binary search
+887,Find the palindromes.,🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+888,Find the shortest distance between two points.,🔴,N/A,N/A,N/A,Algorithm implementation; math calculation
+889,Find the shortest path in a graph.,🔴,N/A,N/A,N/A,Algorithm implementation; graph algorithm
+890,Find the shortest subsequence of a cyclic string S that contains all characters of a pattern k.,🔴,N/A,N/A,N/A,Algorithm implementation; string matching
+891,"Find the sum of all elements in a binary tree that fall within the range [low, high], where 'low' and 'high' are integers.",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+892,Find the total number of unique paths in a maze from the source to the destination.,🔴,N/A,N/A,N/A,Algorithm implementation; dynamic programming
+893,"For a dataset with a million data points, would you use a DNN or KNN? Why?",🔴,N/A,N/A,N/A,ML theory explanation; algorithm selection
+898,Generate Parentheses,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+906,"Given 2 strings, return the longest common substring.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+907,"Given a biased coin function, write another function to make it return heads or tails with equal probability.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+908,"Given a binary array where an operation cycles a row's elements to the left or right, return the minimum number of operations needed to create a column of 1s. If not possible, return 0.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+909,"Given a binary matrix with every row sorted, find the index of the row containing the most number of 1s.",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+910,"Given a binary tree, check if each node is the average of all descendants",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+912,"Given a castle with rooms named after flowers where each room has an instruction to the next room, write an algorithm to find the rooms containing treasure.",🔴,N/A,N/A,N/A,Algorithm implementation; graph traversal
+913,"Given a Directed Acyclic Graph (DAG), write a function to return the length of the longest path.",🔴,N/A,N/A,N/A,Algorithm implementation; graph algorithm
+914,"Given a factory represented as a 2D grid with some cells blocked and some containing robots, determine if the robots can collectively reach all unblocked cells.",🔴,N/A,N/A,N/A,Algorithm implementation; graph problem
+916,"Given a fully or partially attempted 9x9 Sudoku board, determine if it is a valid solution.",🔴,N/A,N/A,N/A,Algorithm implementation; constraint satisfaction
+917,"Given a graph with N nodes and M edges, identify its network topology. Return 1 for Bus (linear chain), 2 for Star (one central node), 3 for Ring (circular), or -1 if none match.",🔴,N/A,N/A,N/A,Algorithm implementation; graph analysis
+918,"Given a head node of a linked list, delete k-th node from the end of the list.",🔴,N/A,N/A,N/A,Algorithm implementation; linked list
+919,"Given a hierarchical file system with inherited and overridden permissions, write a function to determine whether a user has access to a file at a specific time.",🔴,N/A,N/A,N/A,Algorithm implementation; access control
+920,"Given a large n-ary tree where the root node can pass information to one child per iteration, and in subsequent iterations, nodes can pass information to one child while the root continues with oth...",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+922,"Given a large, partially implemented LLM/agentic codebase, identify the intended behavior and implement a missing function by reading and reasoning through the existing code, without explicit test ...",🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+923,"Given a list of car rental requests with start and end times, assign cars to rentals such that the total number of cars used is minimized.",🔴,N/A,N/A,N/A,Algorithm implementation; interval scheduling
+924,"Given a list of conversion items between symbols, write an algorithm to return the conversion ratio for each pair of symbols.",🔴,N/A,N/A,N/A,Algorithm implementation; graph problem
+925,"Given a list of integers, return 1 if the integer is a power of 2 and 0 if it is not.",🔴,N/A,N/A,N/A,Algorithm implementation; bit manipulation
+926,"Given a list of items with different sizes, write an algorithm to pack these items into the minimum number of batches without exceeding the capacity of each batch.",🔴,N/A,N/A,N/A,Algorithm implementation; bin packing
+927,"Given a list of lexicographically sorted strings in an unknown language, derive the correct order of letters in that language's alphabet.",🔴,N/A,N/A,N/A,Algorithm implementation; topological sort
+928,"Given a list of Nodes, each with a unique string id and a list of subnodes it depends on, find the maximum depth of the dependencies.",🔴,N/A,N/A,N/A,Algorithm implementation; tree/graph depth
+929,"Given a list of numbers, find the median without sorting the entire list. Hint: Use quick sort algorithm.",🔴,N/A,N/A,N/A,Algorithm implementation; selection algorithm
+930,"Given a list of sentences, find the top n most frequent words.",🔴,N/A,N/A,N/A,Algorithm implementation; frequency counting
+931,"Given a list of strings, find all strings that encode to the same value using a Caesar Cipher. (A Caesar Cipher rotates characters, e.g. in CC3: a->d, b->e, ..., z->c)",🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+932,"Given a list of transactions between friends, return the minimum number of transactions required to settle the debts. For e.g. Alice gave $5 to Bob and Bob gave $5 to Bill. Answer will be 1.",🔴,N/A,N/A,N/A,Algorithm implementation; graph optimization
+933,"Given a list of words, find the number of prefix pairs, i.e. pairs i, j where words[i] == words[j] or words[i].startswith(words[j]) or words[j].startswith(words[i]).",🔴,N/A,N/A,N/A,Algorithm implementation; string matching
+935,"Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in clockwise spiral order.",🔴,N/A,N/A,N/A,Algorithm implementation; matrix traversal
+936,"Given a matrix with a rat, bread, cat, and obstacles, find a path from the rat to the bread that maximizes the minimum distance from cat.",🔴,N/A,N/A,N/A,Algorithm implementation; pathfinding
+937,"Given a nested merchandise catalog dictionary, extract attributes for a specific item and traverse related items recursively to build the full relationship tree.",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+938,"Given a sequence of credit issuance and usage events, where credits may expire or have usage constraints, write a function to translate the list into the user's remaining credit pool and total avai...",🔴,N/A,N/A,N/A,Algorithm implementation; state machine
+939,"Given a sorted array of integers (which may include negatives), return the squares of the numbers in sorted order. As a follow-up, find the k-th smallest squared value.",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+940,"Given a string of parentheses types and an array of their efficiency ratings, write a function to find the most efficient valid parentheses sequence that can be formed. Return its total efficiency ...",🔴,N/A,N/A,N/A,Algorithm implementation; dynamic programming
+941,"Given a string S, determine if it can be converted into a palindrome by making at most one swap of two characters.",🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+943,"Given a string with parentheses, write a function that removes the minimum number of characters to balance the parentheses.",🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+944,"Given a string, return the number of palindromic substrings in it.",🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+945,"Given a string, return the number of vowel substrings ('a', 'e', 'i', 'o', 'u') that include all five vowels.",🔴,N/A,N/A,N/A,Algorithm implementation; string matching
+946,"Given an array 'nums' with n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+947,"Given an array of children's ratings, assign at least one candy to each child so that higher-rated children get more than their neighbors, and return the minimum total candies needed.",🔴,N/A,N/A,N/A,Algorithm implementation; greedy algorithm
+948,"Given an array of integers and a number N, find the length of the longest contiguous subarray such that the difference between any two elements in the subarray is less than N.",🔴,N/A,N/A,N/A,Algorithm implementation; sliding window
+949,"Given an array of integers and an integer k, find the kth largest element in the array.",🔴,N/A,N/A,N/A,Algorithm implementation; selection algorithm
+950,"Given an array of integers, find a tuple of three integers that can form a triangle.",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+951,"Given an array of integers, find the next greater integer for each element in the array.",🔴,N/A,N/A,N/A,Algorithm implementation; stack
+952,"Given an array of integers, return the pairs with the minimum absolute difference between them.",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+953,"Given an array of n integers and a number k, find the maximum number of elements whose sum is less than k, and return their sum.",🔴,N/A,N/A,N/A,Algorithm implementation; subset sum
+954,"Given an array of numbers where every number occurs twice except one, how would you find the unique number in O(log n) time?",🔴,N/A,N/A,N/A,Algorithm implementation; bit manipulation
+955,"Given an array of points and a point P, find the k closest points to P.",🔴,N/A,N/A,N/A,Algorithm implementation; geometric algorithm
+956,"Given an array of points on a plane (x,y), write a function to return the distance between the closest pair of points.",🔴,N/A,N/A,N/A,Algorithm implementation; geometric algorithm
+957,"Given an array of task durations (in minutes), return the pairs of tasks that can be completed within 60 minutes. For example, for [1, 43, 20, 59, 30, 30], return [[0, 3], [4, 5]].",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+958,"Given an array representing the height of buildings from a sea beach, return an array of heights of the buildings that have a sea view.",🔴,N/A,N/A,N/A,Algorithm implementation; array manipulation
+959,"Given an array with objects colored red, white, or blue, sort them so those of the same color are adjacent. Use integers 0, 1, 2 to represent RWB respectively.",🔴,N/A,N/A,N/A,Algorithm implementation; sorting
+960,"Given an array, find the two sum.",🔴,N/A,N/A,N/A,Algorithm implementation; hash map
+961,"Given an array, print the Next Greater Element (NGE) for each element. The NGE for an element x is the first greater element on the right side of x in the array, or -1 if none exists.",🔴,N/A,N/A,N/A,Algorithm implementation; stack
+962,"Given an integer array nums and an integer k, return true if nums has a subarray of at least two elements whose sum is a multiple of k.",🔴,N/A,N/A,N/A,Algorithm implementation; prefix sum
+963,"Given an integer n, return the number of steps to reach 1 following these rules: if n is even, divide by 2; if odd, multiply by 3 and add 1.",🔴,N/A,N/A,N/A,Algorithm implementation; math sequence
+964,"Given an integer, reverse it. Integers are within range [-2^15, 2^15 - 1].",🔴,N/A,N/A,N/A,Algorithm implementation; number manipulation
+965,"Given an m x n grid of characters board and a string word, return true if word exists in the grid.",🔴,N/A,N/A,N/A,Algorithm implementation; backtracking
+966,"Given an nxn grid of 1s and 0s, return the number of islands in the input.",🔴,N/A,N/A,N/A,Algorithm implementation; graph traversal
+967,"Given an unsorted array, find duplicate elements in constant time, without using inbuilt functions of python.",🔴,N/A,N/A,N/A,Algorithm implementation; hash set
+971,"Given imbalanced training data, how do you prevent overfitting?",🔴,N/A,N/A,N/A,ML theory explanation; model training
+972,"Given n employees and an expansion rate r, find the number of employees after t years.",🔴,N/A,N/A,N/A,Math calculation; exponential growth
+973,"Given n houses in a line with money in each, find the maximum amount a robber can steal, without stealing from two adjacent houses.",🔴,N/A,N/A,N/A,Algorithm implementation; dynamic programming
+974,"Given positions of N kids and M ice cream sellers on a 1D line, find the smallest distance E such that every kid lies within the range [P - E, P + E] of at least one seller.",🔴,N/A,N/A,N/A,Algorithm implementation; binary search
+976,"Given stock prices for the next n days, how can you maximize your profit by buying or selling one share per day?",🔴,N/A,N/A,N/A,Algorithm implementation; dynamic programming
+978,"Given the head of two singly linked lists, write a function to return the point where they intersect (if any).",🔴,N/A,N/A,N/A,Algorithm implementation; linked list
+981,"Given the root of a binary tree of integers, return the maximum path sum.",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+982,"Given the root of a binary tree, return the length of the diameter of the tree.",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+983,"Given the root of a binary tree, return the vertical order traversal of its node values from top to bottom, column by column. Nodes in the same row and column should be ordered left to right.",🔴,N/A,N/A,N/A,Algorithm implementation; tree traversal
+984,"Given the row and column, return the value at that position in Pascal's triangle.",🔴,N/A,N/A,N/A,Algorithm implementation; math calculation
+986,"Given two dates, return the number of days between them.",🔴,N/A,N/A,N/A,Algorithm implementation; date calculation
+987,"Given two empty jugs with capacities a and b liters and an infinite water supply, determine a way to end up with exactly X liters of water.",🔴,N/A,N/A,N/A,Algorithm implementation; graph problem
+988,"Given two integers represented by two arrays, return the product of the two integers in the same array format.",🔴,N/A,N/A,N/A,Algorithm implementation; big integer
+989,"Given two strings (Word 1 and Word 2) and a list of valid words from a dictionary, return the minimum number of operations required to convert Word 1 to Word 2.",🔴,N/A,N/A,N/A,Algorithm implementation; edit distance
+990,"Given two strings of equal length, determine if it's possible to form a palindrome by cutting them in half.",🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+999,Group anagrams,🔴,N/A,N/A,N/A,Algorithm implementation; string manipulation
+1028,How can you tell if a graph is not a tree?,🔴,N/A,N/A,N/A,Graph theory; algorithm question
+1039,How do convolutional neural networks (CNNs) differ from traditional neural networks in processing image data?,🔴,N/A,N/A,N/A,ML theory explanation; neural networks
+1043,How do you adjust the creativity of generative AI models?,🔴,N/A,N/A,N/A,ML theory explanation; model tuning
+1049,How do you avoid overfitting a model?,🔴,N/A,N/A,N/A,ML theory explanation; model training
+1060,How do you choose a loss function for a machine learning problem?,🔴,N/A,N/A,N/A,ML theory explanation; model selection
+1080,How do you detect balanced parentheses in a string using Python?,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+1107,How do you handle imbalanced data?,🔴,N/A,N/A,N/A,ML theory explanation; data preprocessing
+1145,How do you select input for modeling if there are features highly correlated with each other?,🔴,N/A,N/A,N/A,ML theory explanation; feature selection
+1146,How do you select the value of 'k' in the k-means algorithm?,🔴,N/A,N/A,N/A,ML theory explanation; clustering
+1155,How do you test your machine learning models for production?,🔴,N/A,N/A,N/A,ML theory explanation; model testing
+1158,How do you troubleshoot bugs in your code?,🔴,N/A,N/A,N/A,Technical debugging; coding question
+1163,How does a graphics processing unit (GPU) work?,🔴,N/A,N/A,N/A,Technical explanation; hardware
+1179,How is gradient descent and model optimization used in linear regression?,🔴,N/A,N/A,N/A,ML theory explanation; optimization
+1180,How is object-oriented programming (OOP) different from procedural programming?,🔴,N/A,N/A,N/A,Programming concept; OOP
+1181,How long would 100 cars stopped at a traffic light take to all pass the light?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1182,How long would it take to fill an Olympic swimming pool with water from a garden hose?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1186,How many bottles of wine are opened per day?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1187,How many breaths do we take each day?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1189,How many chickens are there in the world?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1193,How many grains of rice are in a 10kg bag?,🔴,N/A,N/A,N/A,Math calculation; brain teaser
+1196,How many lane divider stripes are there on the German autobahn?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1198,How many pairs of shoes do we own in our lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1199,How many parking spots are there in San Francisco?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1203,How many ping pong balls can fit in a helicopter?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1204,How many ping pong balls fit in a helicopter?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1207,How many tennis balls can fit in an airplane?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1209,How many weddings does someone attend in their life?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1210,How many weddings does the average American attend in their lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1211,How many windows do you estimate exist in Tehran?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1216,How much laundry detergent is used globally each year?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1217,"How much oil, in barrels per year, does the United States import?",🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1219,How much time does a person spend at a traffic intersection during their lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser
+1237,How would you adapt a generative AI model to perform well in a specific domain?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1269,How would you build an object detection system to identify and locate flowers in images?,🔴,N/A,N/A,N/A,ML implementation; computer vision
+1275,How would you code an app that displays the weekly lunch menu?,🔴,N/A,N/A,N/A,Coding implementation; programming question
+1282,How would you create a carousel using vanilla JavaScript?,🔴,N/A,N/A,N/A,Coding implementation; programming question
+1291,How would you define human agency?,🔴,N/A,N/A,N/A,Philosophical question; abstract concept
+1307,How would you design an effective chunking strategy for information in a RAG (Retrieval-Augmented Generation) system?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1309,How would you design or implement memory in an AI agent?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1313,How would you detect fake reviews using machine learning?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1319,"How would you determine the right criteria for when to forget outdated data, update the model, and evaluate performance?",🔴,N/A,N/A,N/A,ML implementation; technical question
+1329,How would you efficiently sort a list of numbers?,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+1330,How would you efficiently sum up a massive number of integers?,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+1372,How would you handle hallucinations in a generative AI model deployed to users?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1380,How would you implement a child-parent relation for finding the Least Common Ancestor (LCA) without using pointers?,🔴,N/A,N/A,N/A,Algorithm implementation; coding question
+1527,How would you predict delivery times given a dataset of past deliveries?,🔴,N/A,N/A,N/A,ML implementation; prediction model
+1575,How would you train a model on a large dataset with few labels?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1576,How would you transport 10 kids to school within a limited timeframe?,🔴,N/A,N/A,N/A,Math/logic puzzle; brain teaser
+1585,"Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and...",🔴,N/A,N/A,N/A,Statistical hypothesis testing; math question
+1589,"If a + b + c + d = 63, what's the maximum value of a * b + b * c + c * d?",🔴,N/A,N/A,N/A,Math optimization; brain teaser
+1593,"If a vulture's head size were to double, what impact would this have on its survival and adaptation? Use root cause analysis (RCA) to explain.",🔴,N/A,N/A,N/A,Hypothetical biology; brain teaser
+1600,"If GPU utilization is low during training, how would you debug and benchmark performance?",🔴,N/A,N/A,N/A,ML debugging; technical question
+1601,If I know coding.,🔴,N/A,N/A,N/A,Incomplete question; unclear
+1611,"If you could float on water, like a boat, what would you be and why?",🔴,N/A,N/A,N/A,Creative/abstract question; brain teaser
+1612,"If you could go to anywhere in the world, where would you go?",🔴,N/A,N/A,N/A,Personal question; not relevant
+1615,"If you discovered that your model was exposing sensitive data from its training set, what would you do next?",🔴,N/A,N/A,N/A,ML security; technical question
+1633,"If you were to eliminate one USD bill, which would it be and why?",🔴,N/A,N/A,N/A,Hypothetical policy; brain teaser
+1653,"Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but ...",🔴,N/A,N/A,N/A,ML safety; technical question
+1655,Implement a circular buffer.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1656,Implement a decode and encode function of a general N-ary tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1657,Implement a doubly linked list.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1658,Implement a function to find the minimum number of dice rolls needed to reach the end in a Snakes and Ladders game.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1659,Implement a function to justify a list of words within a given width.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1660,Implement a function to traverse cell dependencies in an Excel-like spreadsheet and detect circular references between cells.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1661,Implement a hashmap without using any libraries.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1662,Implement a JavaScript function for Promise.all().,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1663,Implement a k-nearest neighbors algorithm.,🔴,N/A,N/A,N/A,ML implementation; algorithm
+1664,Implement a phrase search in a list of documents.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1665,Implement a queue using stacks.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1666,Implement a red-black tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1667,Implement a search algorithm for multiple records using backtracking.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1668,Implement a SQL parser that converts raw SQL strings into programming objects or ORM primitives.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1669,"Implement a string sorting algorithm, treating digits as numbers.",🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1670,Implement an in-place merge of two sorted arrays.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1671,"Implement an iterator class that supports next, hasNext, getState, and setState, then extend it to treat a list of iterators as one continuous iterator with a global index.",🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1672,Implement an LRU cache with serialization and evolving constraints.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1673,Implement inorder traversal for an N-ary tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1674,Implement k-means clustering.,🔴,N/A,N/A,N/A,ML implementation; algorithm
+1675,Implement LRU Cache.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1676,Implement merge-sort,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1677,Implement the memcpy() function in C.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1678,Implement the power function without using pow method or or exponentiation operator.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1679,Implement Trie,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1680,Implement wildcard pattern matching for a string (s) and a pattern (p) with '?' and '*' in a way that covers the entire input string.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1681,"Improve a given system with your specialization: recommendations, natural language processing, or computer vision.",🔴,N/A,N/A,N/A,ML implementation; technical question
+1697,"In the transformer architecture, what makes the decoder different from the encoder?",🔴,N/A,N/A,N/A,ML theory; technical question
+1698,In what cases should you use the median instead of the mean?,🔴,N/A,N/A,N/A,Statistics theory; math question
+1704,Invert binary tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1708,Is this a valid palindrome?,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1710,Koko eating bananas.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1712,Lexicographic Grid Travel.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1713,Linked List Cycle,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1725,Longest Increasing Subsequence,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1730,Maximum Number of Non-Overlapping Substrings,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1731,Maximum Number of Visible Points,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1736,Merge Intervals,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1737,Merge k sorted linked lists.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1738,Merge two sorted linked list,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1739,Merge two sorted lists,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1744,Minimum Absolute Difference,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1745,"Modify this PyTorch pseudo-code to perform negative sampling if the pos_ids are known: label #shape=[batch_s, pos_ids] hidden #shape=[batch_s, ch] logits #shape=[ch, C] out=np.dot(logits, hidden(X)...",🔴,N/A,N/A,N/A,ML implementation; technical question
+1748,Move all zeros to the end of an array.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1760,Partition an array into two sub-arrays with equal sum.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1772,Print all combinations of numbers from 1 to n that sum to n.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1773,Print all possible solutions to the N-Queens problem.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1774,Print all words from a dictionary that can be found on a given Boggle board.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1775,Print the left view of a binary tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1776,Print the top view of nodes in a binary tree.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1777,Product of Array Except Self,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1791,Remove Duplicate Emails,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1792,Reorder linked list.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1793,Return all unique substrings of a given string.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1795,Reverse a linked list.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1796,Reverse a Sentence,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1798,Roman to Integer,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1799,Rotating the Box,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1800,Search in rotated sorted array,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1801,Serialize and deserialize binary tree,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1804,Set Matrix Zeroes,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1833,Sliding Window Maximum,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1834,Solve a Rummy Deck (12-card hand).,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1835,"Solve John Conway's ""Game of Life"".",🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1836,Sort a binary array in linear time.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1837,Sort a list of natural numbers and their squares in the most efficient way possible.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1838,Sort a nearly sorted (or K sorted) array.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1839,Sort Colors,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1840,Split an array into equal sum subarrays,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1844,Squares of sorted array,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1845,Sudoku Solver,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+1848,Suppose your generative model needs to process very long inputs that exceed typical context limits. How would you approach managing or compressing that information effectively?,🔴,N/A,N/A,N/A,ML implementation; technical question
+1860,Tell me about a machine learning project you worked on and its outcome.,🔴,N/A,N/A,N/A,ML project; technical question
+1861,Tell me about a machine learning project you worked on.,🔴,N/A,N/A,N/A,ML project; technical question
+1862,Tell me about a machine learning research topic you find interesting.,🔴,N/A,N/A,N/A,ML research; technical question
+1870,Tell me about a project where you applied the CAP theorem.,🔴,N/A,N/A,N/A,System design theory; technical question
+1885,Tell me about a system design problem you solved with machine learning.,🔴,N/A,N/A,N/A,ML system design; technical question
+2116,Tell me about your day as a software engineer.,🔴,N/A,N/A,N/A,Technical role description; not relevant for data analyst
+2119,Tell me about your experience with computer vision.,🔴,N/A,N/A,N/A,ML specialization; technical question
+2121,Tell me about your experience with Java.,🔴,N/A,N/A,N/A,Programming language; technical question
+2122,Tell me about your experience with JavaScript.,🔴,N/A,N/A,N/A,Programming language; technical question
+2123,Tell me about your experience with natural language processing.,🔴,N/A,N/A,N/A,ML specialization; technical question
+2125,Tell me about your experience with React.,🔴,N/A,N/A,N/A,Programming framework; technical question
+2126,Tell me about your experience with RxJava.,🔴,N/A,N/A,N/A,Programming framework; technical question
+2127,Tell me about your experience with TypeScript.,🔴,N/A,N/A,N/A,Programming language; technical question
+2152,Tell us about one of your trips.,🔴,N/A,N/A,N/A,Personal question; not relevant
+2165,Top k frequent elements,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+2169,Transform a flat array of objects into a nested list.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+2170,Transform an input string into a target tokenized sequence using a tree/graph-based algorithm. Embeddings must be simulated (no ML models allowed). Validate the final output.,🔴,N/A,N/A,N/A,ML implementation; technical question
+2176,Valid Parentheses,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+2177,Validate a numeronym.,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+2178,Vertical Traversal of a Binary Tree,🔴,N/A,N/A,N/A,Coding implementation; algorithm
+2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,N/A,N/A,N/A,Coding motivation; not relevant for data analyst
+2195,What are common linear regression problems?,🔴,N/A,N/A,N/A,ML theory; technical question
+2200,What are some effective loss functions for computer vision models?,🔴,N/A,N/A,N/A,ML theory; technical question
+2210,What are the differences between RAM and ROM?,🔴,N/A,N/A,N/A,Hardware theory; technical question
+2211,What are the differences between single core and multicore processors?,🔴,N/A,N/A,N/A,Hardware theory; technical question
+2212,What are the different types of machine learning?,🔴,N/A,N/A,N/A,ML theory; technical question
+2213,What are the different types of software testing?,🔴,N/A,N/A,N/A,Software testing theory; technical question
+2216,What are the key concepts and operations associated with trees?,🔴,N/A,N/A,N/A,Data structure theory; technical question
+2223,What are the major differences between Java and Go?,🔴,N/A,N/A,N/A,Programming language comparison; technical question
+2241,What are virtual functions?,🔴,N/A,N/A,N/A,OOP theory; technical question
+2280,What does your confidence level mean when building a confidence interval?,🔴,N/A,N/A,N/A,Statistics theory; math question
+2302,What happens when the JVM Garbage Collector releases a property static of a class?,🔴,N/A,N/A,N/A,JVM internals; technical question
+2307,What is a front-end assignment?,🔴,N/A,N/A,N/A,Front-end development; technical question
+2308,What is a full-stack developer?,🔴,N/A,N/A,N/A,Developer role; technical question
+2312,What is a perceptron?,🔴,N/A,N/A,N/A,ML theory; technical question
+2322,What is encapsulation?,🔴,N/A,N/A,N/A,OOP theory; technical question
+2323,What is Object Oriented Programming (OOP)?,🔴,N/A,N/A,N/A,OOP theory; technical question
+2324,"What is overfitting or underfitting? Which models are most likely to experience this, and why?",🔴,N/A,N/A,N/A,ML theory; technical question
+2334,What is the difference between inheritance and composition?,🔴,N/A,N/A,N/A,OOP theory; technical question
+2335,"What is the difference between multiprogramming, time-sharing, and multi-processing?",🔴,N/A,N/A,N/A,OS theory; technical question
+2340,What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?,🔴,N/A,N/A,N/A,ML theory; technical question
+2341,What is the limit of the ratio of two consecutive Fibonacci numbers as the sequence progresses?,🔴,N/A,N/A,N/A,Math proof; brain teaser
+2361,What is your experience with machine learning?,🔴,N/A,N/A,N/A,ML experience; technical question
+2390,What methods or metrics did you use to evaluate how well your LLM performs?,🔴,N/A,N/A,N/A,ML evaluation; technical question
+2392,What metrics did you use to train and evaluate your models?,🔴,N/A,N/A,N/A,ML metrics; technical question
+2393,What metrics do you monitor after deploying a machine learning model?,🔴,N/A,N/A,N/A,ML monitoring; technical question
+2402,What metrics would you track to evaluate the performance of your ML pipeline?,🔴,N/A,N/A,N/A,ML pipeline metrics; technical question
+2448,What techniques can be used to optimize write performance from memory to disk?,🔴,N/A,N/A,N/A,System optimization; technical question
+2449,What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?,🔴,N/A,N/A,N/A,ML testing; technical question
+2453,What trends and challenges are in your ML specialty?,🔴,N/A,N/A,N/A,ML trends; technical question
+2481,What's a memory leak and how can we avoid it?,🔴,N/A,N/A,N/A,Memory management; technical question
+2488,What's the difference between LangGraph and LangSmith?,🔴,N/A,N/A,N/A,ML framework comparison; technical question
+2489,What's the effect of adjusting an LLM's context window size?,🔴,N/A,N/A,N/A,LLM theory; technical question
+2496,What's your approach to prompt engineering?,🔴,N/A,N/A,N/A,Prompt engineering; ML technical question
+2498,What's your experience with 3D graphics?,🔴,N/A,N/A,N/A,3D graphics; technical question
+2499,What's your experience with DirectX?,🔴,N/A,N/A,N/A,DirectX; technical question
+2500,What's your experience with ray tracing in video games?,🔴,N/A,N/A,N/A,Ray tracing; technical question
+2501,What's your experience working with AR and/or VR technology?,🔴,N/A,N/A,N/A,AR/VR experience; technical question
+2502,What's your experience working with CUDA?,🔴,N/A,N/A,N/A,CUDA experience; technical question
+2527,Where do vanishing gradients occur in a neural network?,🔴,N/A,N/A,N/A,ML theory; technical question
+2536,Which sorting algorithms use divide and conquer?,🔴,N/A,N/A,N/A,Algorithm theory; technical question
+2561,Why did you become a Software Engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst
+2562,Why did you become an engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst
+2617,Why is a deep neural network better than a shallow neural network?,🔴,N/A,N/A,N/A,ML theory; technical question
+2636,"Write a function that converts stack samples into a trace, given example inputs and outputs, in a Google Colab environment.",🔴,N/A,N/A,N/A,Coding question; implementation required
+2637,Write a function that takes an array of integers and checks for duplicate values in any contiguous window of size N.,🔴,N/A,N/A,N/A,Algorithm question; implementation required
+2638,Write a function to balance parentheses in a given string by removing the fewest characters possible. Ensure that each opening parenthesis has a corresponding closing parenthesis and each pair is p...,🔴,N/A,N/A,N/A,Algorithm question; implementation required
+2639,Write a function to check whether a string contains a substring.,🔴,N/A,N/A,N/A,Coding question; implementation required
+2640,Write a function to do Excel-style operations.,🔴,N/A,N/A,N/A,Coding question; implementation required
+2641,Write a function to print 1 to n without using a loop.,🔴,N/A,N/A,N/A,Algorithm question; implementation required
+2642,Write a function to return all prime numbers up to a given number n.,🔴,N/A,N/A,N/A,Algorithm question; implementation required
+2643,"Write a program that scans the file system to identify and report duplicate files, handling real files, extensions, and file reading operations.",🔴,N/A,N/A,N/A,Coding question; implementation required
+2644,Write a program to count the frequency of each character in a given text file.,🔴,N/A,N/A,N/A,Coding question; implementation required
+2649,Write functions to serialize and deserialize a list of strings.,🔴,N/A,N/A,N/A,Coding question; implementation required
+2650,Write SQL code to publish the Fibonacci series.,🔴,N/A,N/A,N/A,Algorithm question; Fibonacci is algorithmic
+2668,"You are given m*n matrix, find if any row, column or diagonal has all boolean = True. Find for diagonals and anti diagonals at 45 degrees",🔴,N/A,N/A,N/A,Algorithm question; implementation required
+2687,"You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de...",🔴,N/A,N/A,N/A,ML model creation; implementation required
+2700,You roll a dice until the total reaches 100 or more. Which appears more often in the rolls: 1 or 6?,🔴,N/A,N/A,N/A,Brain teaser; probability puzzle
+2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required
+2764,You're a PM at Spotify. What metrics would you use to decide whether to ship a new song recommendation algorithm?,🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required
+2842,You're given a time-based key-value store that keeps having new key-value pairs added. Implement a windowed average.,🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required
+2846,You're leading a geographically dispersed team. What strategies and practices would you implement to ensure clear and effective communication?,🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required

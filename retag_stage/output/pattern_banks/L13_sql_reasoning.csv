@@ -1,0 +1,14 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+736,Employee Earnings.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; employee data
+737,Employee Hierarchy,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; hierarchical data
+832,Explain the key differences between BETWEEN and HAVING clauses in SQL.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL explanation; query optimization
+848,Extract and clean a usable dataset from a provided company demo database using only SQL and Python.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,Data extraction; SQL + Python
+854,Find Campaign Purchases,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; campaign analysis
+886,Find the number of users who called three or more people in the last week.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; user analysis
+897,Fraudulent Transactions,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; fraud detection
+899,Get the top API users based on transaction logs.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; API usage analysis
+911,"Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.",🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; database schema
+2645,Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning
+2646,Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning
+2647,Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning
+2648,Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning

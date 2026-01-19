@@ -1,0 +1,27 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+183,Debug a metric that was off by x percentage.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Metric debugging; data quality
+248,Describe your experience with statistics.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Statistics experience; technical background
+790,Explain data drifting.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data quality explanation; ML monitoring
+803,Explain how you handle data scarcity.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data quality; ML problem
+915,"Given a feature data record (FDR), how would you detect anomalies in it?",🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Anomaly detection; data quality
+1006,Have you ever had to work with poor-quality data or suggest new tracking?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data quality; behavioral question
+1007,Have you ever made a decision based on bad data? What did you learn?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data decision; behavioral question
+1061,How do you clean and prepare troublesome datasets?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data cleaning; data quality
+1093,How do you ensure data governance policies are applied consistently across different data sources?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data governance; data quality
+1108,How do you handle joining data from different sources with inconsistent IDs?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data integration; data quality
+1114,How do you handle working with ambiguous data?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Ambiguous data; data quality
+1240,How would you address the issue of unstructured data in the data warehouse to improve report efficiency for clients?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data quality; data warehouse
+1248,How would you approach data curation for an LLM training pipeline?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data curation; data quality
+1273,How would you check for bias in your data?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data bias; data quality
+1871,Tell me about a project where you faced data issues and how you handled them.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data issues; behavioral question
+1872,Tell me about a project where you had to clean and organize a large dataset.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data cleaning; behavioral question
+2095,Tell me about a time you worked on a data-intensive project.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data project; behavioral question
+2180,Walk me through a past data science project.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data science project; behavioral question
+2186,Walk me through your process for cleaning a messy dataset.,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data cleaning; behavioral question
+2215,What are the implications of collecting excessive user data or too many survey responses?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data collection; data quality
+2257,"What data tools have you worked with, and what specific projects did you use those tools for?",🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data tools; behavioral question
+2263,What do you know about data annotation and collecting data for LLM training?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data annotation; data quality
+2325,What is Pyspark?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data tool; data quality
+2471,What would you do if you didn't have access to the exact data you need?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data access; data quality
+2517,"What's the most complex SQL query you've written? Walk me through what it did, the key concepts involved, and the types of joins you used.",🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,SQL query; behavioral question
+2523,When is Hadoop better than PySpark?,🟡,L1,Data Trust,Source → Freshness → Completeness → Bias → Sanity Checks,Data tool comparison; data quality

@@ -1,0 +1,352 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+82,"As a Product Manager for Clickup, analyze the scenario of low return rate of new users and propose solutions to improve metrics such as return rate, average new user sign-up, and daily average usag...",🟢,P4,Cohort / Retention / Churn,Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix,Retention problem; new user churn
+97,"As part of the Netflix PM team, how would we investigate the issue of one million active subscribers not logging into the platform?",🟢,P4,Cohort / Retention / Churn,Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix,Engagement drop; inactive users
+98,"As part of the Netflix PM team, how would you investigate the issue of 1 million inactive but paying users?",🟢,P4,Cohort / Retention / Churn,Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix,Retention problem; paying but not using
+715,Diagnose a 35% drop in retention on Salesforce.,🟢,P4,Cohort / Retention / Churn,Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix,Retention drop; churn analysis
+717,Diagnose a 40% increase in first month churn on HelloFresh.,🟢,P4,Cohort / Retention / Churn,Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix,Churn increase; retention analysis
+1212,How might you improve Spotify using social features?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; social features
+1222,How should Adobe Creative Cloud target small businesses in Singapore?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1223,How should Google launch a new teleportation product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; hypothetical product
+1225,How should WeChat further expand into America?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1226,How should Yelp expand into Asia?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1230,How would Google enter the food delivery space?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market entry; product strategy
+1231,How would Hoop expand into South America?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1232,How would Notion expand into Europe?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1233,How would Snapchat expand into Indonesia?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1234,How would Uber expand into the bicycle market?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1243,How would you approach a rebrand for an established product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Rebranding; product strategy
+1245,How would you approach building a 3-year strategic plan for a new business unit?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Strategic planning; product strategy
+1246,How would you approach building proactive AI?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,AI product design; product strategy
+1257,How would you build a babysitter service for Facebook?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1258,How would you build a Facebook product for blood donation?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1259,How would you build a marketplace for DocuSign apps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; marketplace
+1260,How would you build a monitoring device for elderly people?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1261,How would you build a product for disabled users on LinkedIn?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; accessibility
+1263,How would you build a shared laundry experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1267,How would you build an ad platform for Robinhood?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; ad platform
+1268,How would you build an audio product for Facebook?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1270,How would you build any product using Gen AI?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; AI product
+1271,How would you build out a feature for Viva Engage?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature design; product improvement
+1277,How would you compare Disney+ to Hulu?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product comparison; competitive analysis
+1281,How would you create a business around autonomous vehicles?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Business strategy; product design
+1301,How would you design a coffee machine for use on the International Space Station?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; space constraints
+1302,How would you design a game for a popular Netflix reality show?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; game design
+1303,How would you design a hyperlocal feature for Facebook?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature design; product improvement
+1304,How would you design a password management tool for children?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; security
+1306,How would you design a Web browser to increase the sales of your ecommerce company?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; revenue optimization
+1310,How would you design parking features on Google Maps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature design; product improvement
+1311,How would you design the product experience of an ATM machine at an international airport.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; UX design
+1312,How would you design the YouTube landing page?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; UX design
+1325,How would you disrupt the car wash industry?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Industry disruption; product strategy
+1326,How would you disrupt the film industry using YouTube?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Industry disruption; product strategy
+1327,How would you disrupt the travel industry?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Industry disruption; product strategy
+1331,How would you enhance Facebook comments?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature enhancement; product improvement
+1332,How would you enhance Google Maps for individuals with disabilities?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Accessibility; product improvement
+1333,How would you enhance Instagram Stories?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature enhancement; product improvement
+1334,How would you enhance the email notification experience for Facebook users who are tagged in photos?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature enhancement; product improvement
+1335,How would you enhance the experience for Airbnb users after a negative booking?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,User experience; product improvement
+1336,How would you enhance the Facebook Birthdays feature?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature enhancement; product improvement
+1347,How would you expand Capital One Shopping?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product expansion; growth strategy
+1348,How would you expand Fiverr into China?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1359,How would you future-proof the organization against industry disruption?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Strategic planning; product strategy
+1377,How would you identify and address different types of needs in mobile apps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,User needs; product design
+1382,How would you implement birth date capture for Meta?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature implementation; product design
+1383,How would you implement safety features for Roblox's private messaging between players?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Safety features; product design
+1384,How would you improve a water bottle?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1385,How would you improve airport layovers?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1386,How would you improve airport passengers' experience to address the pain point of time spent at the airport?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1387,How would you improve Amazon's homepage?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1388,How would you improve Apple Music?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1389,How would you improve ChatGPT?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1390,How would you improve Day One?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1393,How would you improve Facebook Marketplace?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1394,How would you improve Facebook's timeline?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1396,How would you improve Gmail?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1397,How would you improve Google Drive?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1398,How would you improve Google Maps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1399,How would you improve Houseparty?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1400,How would you improve Houzz?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1401,How would you improve iOS for the next 3-5 years?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1402,How would you improve LinkedIn Messaging?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1403,How would you improve Netflix's Help experience using AI?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; AI integration
+1404,How would you improve Netflix?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1405,How would you improve OpenTable?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1407,How would you improve Patreon?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1411,How would you improve Rover?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1412,How would you improve shipment tracking on Amazon?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature improvement; product design
+1413,How would you improve Shopify for new merchants who have difficulty sourcing products to sell?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1414,How would you improve someone's dining experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1415,How would you improve Spotify as a podcast app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1416,How would you improve Spotify?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1417,How would you improve SSENSE?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1418,How would you improve Stripe Payments?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1420,How would you improve TED?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1421,How would you improve the Amazon shopping experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1422,How would you improve the Capital One mobile app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1423,How would you improve the Capital One website?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1425,How would you improve the DMV?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1426,How would you improve the Doordash post-order experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1427,How would you improve the experience at a DMV?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1428,How would you improve the experience at amusement parks?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1429,How would you improve the Facebook feed?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1430,How would you improve the Meta Horizon World product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1431,How would you improve the movie watching experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1432,How would you improve the NBA League Pass for basketball fans?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1433,How would you improve the parking experience as a product manager for Google Maps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1434,How would you improve the passenger experience at a major metropolitan airport?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1435,How would you improve the Pinterest experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1436,How would you improve the post-booking experience for TaskRabbit?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1437,How would you improve the quality of Airbnb over the next six months?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1438,How would you improve the search function on Walmart.com?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature improvement; product design
+1439,How would you improve the Spotlight feature at Snapchat?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature improvement; product design
+1441,How would you improve the worst post-booking experience at an airline?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1442,How would you improve the worst post-booking experience for OpenTable?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1443,How would you improve Uber Eats?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1444,How would you improve Uber?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1446,How would you improve Venmo? What features would you build and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1447,How would you improve walmart.com?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1448,How would you improve your favorite music application?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1449,How would you improve your favorite product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1450,How would you improve YouTube?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1452,How would you improve Zoom?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1471,How would you integrate social features into the Coinbase platform?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature integration; product design
+1474,How would you launch a Copilot Plus feature in Surface?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature launch; product design
+1475,How would you launch a new product in the blue-collar service industry?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+1476,How would you launch a new product to our existing user base?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+1477,How would you launch a product for a digital library as a Google PM?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+1478,How would you launch a product for the proactivity space in Gemini?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+1479,How would you launch a scheduled rides feature for Uber or Lyft?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature launch; product design
+1480,How would you launch Amazon in Nigeria?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+1481,How would you launch Instagram Reels?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+1526,How would you position a new B2B SaaS product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product positioning; product strategy
+1543,How would you re-architect WordPerfect as a PM to increase its market share?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product redesign; product strategy
+1545,How would you redesign Instagram's DM feature?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature redesign; product design
+1547,How would you redesign the gas station experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience redesign; product design
+1548,How would you redesign the worst experience on Ticketmaster to improve it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience redesign; product design
+1570,How would you solve traffic congestion in Seattle?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Problem solving; product strategy
+1586,Identify a product with untapped potential. Propose three new features for this product and outline how you would assess their effectiveness.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+1587,Identify any pain points you've experienced using an airline's mobile app. How would you address them?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Pain point identification; product design
+1596,"If Facebook wants to enter the podcast space, what would you build?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1599,"If Google wants to enter the market for helping people find lost belongings, what should the product look like, and should it be built?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1602,"If Mark Zuckerberg asked you to create a product for athletes, what would you build?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1605,"If the CEO of Google asks for a product that allows meetings in person, what would you create for the next 5-10 years?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1609,"If WhatsApp becomes the default OS communication layer, how should Android respond?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Strategic response; product strategy
+1616,"If you had $1 billion, what would you build using generative AI?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+1618,"If you had a teleportation device, how would you build a product from it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+1619,"If you had access to 20 years of geo-related data, such as street view and satellite imagery, what product would you build?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+1622,"If you had unlimited resources at Google, what would you build and why?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+1624,"If you have allocated budget, how would you solve the climate crisis problem?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Problem solving; product strategy
+1630,"If you were PM for Twitter Spaces, how would you improve it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1632,"If you were the PM for the search results page, how would you design the relevance?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Search design; product design
+1638,Imagine the providers of Google Glass reduced the production cost to $10; what actions would you take?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Cost change response; product strategy
+1641,Imagine you are a PM at Amazon and Walmart is entering your country. How would you respond?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive response; product strategy
+1645,Imagine you're a PM for Alaska Airlines. How would you improve the in-flight experience for customers?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1646,Imagine you're a PM for Facebook. Design a product for teens.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1647,Imagine you're a PM for Meta. Design a product for hobbyists (eg. gardening),🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1648,Imagine you're a PM for Meta. Design a product for Volunteering. What would you build? Why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1650,Imagine you're a startup founder and a VC asked you to build a company in the space of an AI career coaching. What would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1682,Improve Discord.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1683,Improve Facebook's Crisis Alert feature.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature improvement; product design
+1684,Improve Google Maps for group travel.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1685,Improve how Slack enables collaboration.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1686,Improve Pinterest.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1687,Improve StubHub.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1688,Improve the Apple Watch.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1689,Improve the Oculus Go.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1690,Improve the Oculus Store.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1691,Improve the post-booking experience for Turo.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1692,Improve the seller drop-off experience on the GOAT app.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1693,Improve the worst post-booking experience for Ticketmaster.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1694,Improve the worst post-booking experience for United Airlines.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience improvement; product design
+1719,List four of your favorite Google products. What are some challenges one of them might face?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+1720,List improvements for Evernote.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1723,"List three products you're fond of and knowledgeable about. Choose one to explain why you like it, and outline your approach to tailoring this product for a new market segment.",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product adaptation; product design
+1727,"Lyft wants to invest in vertical take-off vehicles that can fit up to 4 people. How should we approach the market, who should be our target audience, and what features should we prioritize in our p...",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+1740,Meta wants to build a product for handymen like plumbers and carpenters. How would you design it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1749,"Name three bad products. Then, pick one to improve.",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+1763,Pick a random object in your room. How would you redesign it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product redesign; product design
+1778,Product Sense - Build a product for sports.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1779,Propose a new feature for Perplexity.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature proposal; product design
+1784,Redesign a DMV system.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,System redesign; product design
+1785,Redesign a TV remote control.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product redesign; product design
+1786,Redesign Google Maps to increase engagement with small businesses.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product redesign; product design
+1787,Redesign the airport experience.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Experience redesign; product design
+1788,Reinvent a backpack with 10 new features.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product reinvention; product design
+1789,Reinvent a pillow with 10 new features.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product reinvention; product design
+1790,Reinvent a trashcan with 10 new features.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product reinvention; product design
+1817,"Should Google enter the Metaverse space? If so, how?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market entry; product strategy
+1831,"Should Uber launch an 'Uber for Kids' service? If so, how would you design it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+1852,Tell me about a bad experience you had with a low-tech product.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product critique; product design
+1865,Tell me about a popular product you use. How would you design a competitor and what features would you prioritize?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive design; product design
+1878,Tell me about a SaaS product you really like using.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+1884,Tell me about a software product that you recently had a bad experience with and why you felt that way as a user.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product critique; product design
+1904,Tell me about a time when you created a product or feature without the client requesting it.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Proactive product; behavioral question
+1983,Tell me about a time when you redesigned the interface of clinical trial software for enhanced user simplicity.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Interface redesign; behavioral question
+1999,Tell me about a time when you used customer feedback to drive innovation.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Customer-driven innovation; behavioral question
+2027,Tell me about a time where you ideated and launched a strategy from scratch.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Strategy launch; behavioral question
+2030,Tell me about a time you anticipated the needs of a customer.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Customer anticipation; behavioral question
+2100,Tell me about an idea you came up with and followed through to implementation.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Idea implementation; behavioral question
+2117,Tell me about your design process.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Design process; behavioral question
+2124,Tell me about your experience with product launches in international markets.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,International launch; behavioral question
+2131,Tell me about your favorite application. How would you build or integrate it within the Facebook platform?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product integration; product design
+2132,Tell me about your favorite product.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2133,Tell me about your favorite product. How would you build its competitor?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive design; product design
+2151,Tell us about an app you don't like to use. How would you improve the app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2153,The CEO asks you to design a new ATM specifically for their airport segment. What would you do?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2173,"Uber is planning to launch a shuttle service in Bangalore, India. How should Uber go about it and which key metrics should they track to measure success?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product launch; product strategy
+2174,Uber is planning to launch ride services for children aged 8-12 years in India. What factors would you consider given that kids of this age won't have mobile access? What modifications would you su...,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2194,What are 4 features you would build for Netflix?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature ideation; product design
+2196,What are general applications for AI within customer support?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,AI applications; product design
+2209,What are the company's pain points of your favorite product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2217,"What are the key differences between Tiktok, Instagram, and Youtube?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product comparison; product design
+2226,What are the most important industry trends right now? What strategy would you pursue if you were leading Voodoo in the next 5 years?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Industry trends; product strategy
+2231,What are the strengths and challenges of Google Play?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2237,What are three consumer apps you use regularly and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2249,What are your top three favorite apps? How would you improve one of them?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2253,What can we do with internet speeds in the terabytes in the future?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Future technology; product design
+2266,What do you like about Airbnb?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2290,What factors would you consider when planning a strategy for a new feature for contractors and freelancers?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature strategy; product design
+2293,What frameworks do you use for product positioning?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product positioning; product design
+2306,What industry do you think could benefit the most from enterprise ChatGPT?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Industry analysis; product design
+2311,What is a non-technical product you frequently use? How would you improve it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2317,What is an example of a poorly designed product? How would you improve it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product critique; product design
+2329,What is the current strategy of 15-minute delivery apps?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Strategy analysis; product design
+2339,What is the impact of AI search?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,AI impact; product design
+2351,What is the product that you dislike the most and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product critique; product design
+2358,What is your approach to competitive analysis?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive analysis; product design
+2362,What is your favorite Amazon product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2363,What is your favorite app on your phone?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2364,What is your favorite Facebook product and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2365,What is your favorite Google product and how would you improve it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2368,"What is your favorite Microsoft product, what do you dislike about it, and how would you improve it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2369,What is your favorite music app and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2370,What is your favorite non-Google product and how would you improve it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2371,What is your favorite physical product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2372,What is your favorite product and why? How would you improve it? What considerations and metrics would be involved in rolling out these improvements?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2373,What is your favorite Slack feature?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature analysis; product design
+2376,"What is your least favorite product among the ones you use, and how would you improve it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2379,What is your process for conducting customer research?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Customer research; product design
+2380,What is your process for crafting effective user stories? What practices have you found beneficial?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,User stories; product design
+2382,What is your product ideation process?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+2415,What other areas could Lemonade expand into?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+2417,What parameters would you consider when designing UberPool?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2421,What pre-work do you need to do for Google to enter a new bicycle business targeting children?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market entry; product strategy
+2422,What problems could an MVP app solve?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,MVP ideation; product design
+2424,What product do you think has good UX design and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,UX analysis; product design
+2425,What product should Apple announce at their next Keynote?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+2426,What product should Google build next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+2436,What should America do about TikTok?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Policy/product strategy; product design
+2438,What should LinkedIn build next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product ideation; product design
+2441,What strategic pillars will you use to keep Maps data fresh through user-generated content?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Data freshness; product strategy
+2454,What two new features would you add to a car garage?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Feature ideation; product design
+2456,What type of travel product would you build for Facebook?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2462,What would be your strategy to improve Google Maps as a product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2463,What would change if internet speed were 100 times faster than today?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Future technology; product design
+2465,"What would you build and why? Run through an end-to-end ""moonshot""-style example.",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Moonshot product; product design
+2467,What would you do if a competitor launched a product before you?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive response; product strategy
+2474,What would you do if you were the PM for Ticketmaster's post-booking experience?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; experience improvement
+2478,What would you suggest to make the iPhone the safest cellphone in the market?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product improvement; product design
+2480,"What's a collaboration product your teams use, and why do you like it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2485,What's the biggest threat to YouTube?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Threat analysis; product strategy
+2503,What's your favorite digital or hardware product and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2504,What's your favorite e-commerce store?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2505,What's your favorite enterprise app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2507,What's your favorite food ordering app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2508,What's your favorite marketplace app?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2509,What's your favorite non-tech product that you use frequently?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2510,What's your favorite product and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2511,What's your favorite subscription-based product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2528,Where do you see the 15-minute delivery app in the next five years?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Future vision; product strategy
+2530,Where should the company launch next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+2533,Which enterprise product do you look up to?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2537,Which vertical should Facebook go into next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+2538,Who are TikTok's competitors?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Competitive analysis; product design
+2567,"Why do you like ChatGPT? Who are its users, what metrics would you use to track its success, and how would you improve it?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product analysis; product design
+2615,Why does Google Maps exist? What are its opportunities and threats?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2616,Why has Google Maps been so successful and what would you build next on this platform?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2621,Why is it important for users to complete their LinkedIn profile? Discuss both user and enterprise perspectives.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2624,"Why should Meta invest in noise-cancelling headphones, and what goals would you set for this product?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2635,Would you port Facebook rooms to Instagram?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2652,You are a Google PM in charge of the next Android keynote product announcement in 3 years. What would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2659,"You are a PM at Netflix, design a podcast for Netflix.",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2660,You are a PM at Swiggy. What would you build for health conscious users?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2661,You are a PM at Uber. Which market should Uber expand into next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Market expansion; product strategy
+2664,You are a startup with the technology that translates speech/text to animal language. How do you take this to market?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Go-to-market; product strategy
+2665,"You are an editor managing a voice-dubbing project currently tracked in Excel. Design a new interface to review progress, manage feedback, and collaborate with voice actors.",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2666,You are at a well-funded startup. Design a solution to solve the problem of parking.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2680,You are the PM for the payments team at Booking.com. How would you introduce cryptocurrency as a new payment method?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Payment feature; product design
+2682,You are working for a retail company that wants to improve user engagement on a telemedicine platform by leveraging their retail data. What is your approach?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Engagement improvement; product design
+2683,You are working for a startup to build a product for volunteering.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2686,You have 3 years to make X the best in the world. What strategy would you implement?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product strategy; product design
+2690,You have text-to-music capabilities. How would you productize it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2694,"You just found a magical artifact that predicts the weather for the next 30 days. As a Google PM, what actions would you take?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design; new product
+2699,You received user feedback that Yelp's restaurant recommendation is not personal enough. What would you do?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Personalization; product design
+2708,You're a financial security product PM. How would you use AI to enhance security across banking systems?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2710,You're a growth PM for Chrome Browser. Design a 3-year strategy for the browser.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2711,You're a leader at DoorDash. What should DoorDash build next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2713,"You're a PM at a big tech company. You have a product launch in one week, however, the legal team just flagged 100+ potential issues. What would you do?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2714,You're a PM at a company focused on the grocery shopping experience. How would you build a grocery shopping experience for a couple?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2716,"You're a PM at a pharma company; your product helps cows produce 20% more milk, lasting a month. What pricing strategy and price would you set for the product?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2718,"You're a PM at a Tech Startup focused on food delivery for companies, what would you design?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2721,You're a PM at Airbnb. Design furniture.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2727,You're a PM at an elevator construction company. Design an elevator for a client.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2730,You're a PM at Capital One. How do you measure financial gains or losses in the first year after launching a new product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2735,You're a PM at Google. Which product would you choose to work on?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2740,You're a PM at Instagram responsible for building the Reels feature. How would you define and measure its success?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2743,You're a PM at LinkedIn. Design features to support India's growing startup ecosystem.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2747,You're a PM at Meta. Design a product for musicians.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2748,You're a PM at Meta. Design a product for skill sharing.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2749,You're a PM at Meta. Design a product for users to find a handyman.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2754,"You're a PM at Meta. How would you measure the success of the 'Report Ad' feature for Ads, considering false positives and false negatives?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2755,You're a PM at Meta. What product or feature would you build for small or local businesses?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2759,You're a PM at Nvidia. How would you keep Nvidia's product lineup competitive?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2761,You're a PM at Spotify considering adding a feature for artists to go live. Should you invest in this?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2765,You're a PM at Swiggy. How would you design a new segment for liquor on Instamart?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2768,You're a PM at Trader Joe's and you find that sales revenues are down. Design the experience for users based on competitors like Blue Apron.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2771,You're a PM at Uber; design a smartwatch app.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2773,You're a PM at WhatsApp tasked with increasing user engagement. What features will you build and how will you prioritize and evaluate them?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2775,You're a PM at Wikipedia. What product should you build next?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2780,You're a PM for a household device. What three features would you recommend and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2781,You're a PM for a large car manufacturer. Should the company use Generative AI or large language models in its products and workflows?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2782,"You're a PM for a new device, which is a time machine. How would you design the interface?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2787,You're a PM for Amazon Fulfillment. Your goal is to save warehouse space by optimizing SKUs. How would you recommend similar products to customers on Amazon Prime?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2792,You're a PM for Facebook Group Travel on mobile. What would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2793,You're a PM for Facebook Sports. What would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2794,You're a PM for Facebook Travel. What would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2796,You're a PM for Gmail. Design a three-year product roadmap.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2797,You're a PM for Gmail. How would you react to a competing product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2799,You're a PM for Google Chrome on large screens. Build the three-year innovation roadmap.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2800,You're a PM for Google News. What would be your product strategy for the upcoming year?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2801,You're a PM for Google Search. How would you grow this product?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2810,You're a PM for Maps. What product would you build in Maps specifically for farmers?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2811,"You're a PM for Max, HBO's video streaming service. Roku wants to include an HBO button on their new remote control. How much should HBO pay for this feature?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2812,You're a PM for Meta releasing a new Jobs feature in 2 weeks. How will you measure the success of this product in the short and long term?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2815,You're a PM for Meta. Design a product for group travel.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2816,You're a PM for Meta. How would you build a product that helps users find handypeople?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2821,You're a PM for sponsored product ads. How would you improve the fill rate on listings pages?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2824,You're a PM for Tesla. Design the Tesla app for the Apple Watch.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2828,You're a PM for Walmart building a new fulfillment center. What products would you stock?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2829,You're a PM in the middle of a sprint when a P1 issue arises that impacts the sprint goal due to requirements and design problems. How would you handle this?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2834,"You're a PM with two engineers, and enterprise customers won't adopt your product due to an unclear roadmap. Your engineers are already working hard on a task outlined. What would you do?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2836,You're a product manager at Meta. Design a product for hyperlocal experiences.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2838,You're an Apple product manager. How would you determine the ideal length of the iPhone charging cable?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2841,You're designing an A/B test to evaluate the impact of showing content from non-friends in users' feeds. How would you test this with proper randomization?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2848,You're on the LA 2028 Olympic Games organizing committee. What product would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2849,You're PM at Meta. Design a fundraising product for a cause.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2851,"You're redesigning Capital One's Instant Push Notifications (IPN) system, moving from multiple screens to a single view. How would you improve the user experience?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2853,You're the CEO of an AI startup. Google offers you $1B in funding. What product would you build?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2854,You're the CEO or VP of your favorite product. How would you structure your organization and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2856,"You're the first product manager at a new startup that has invented teleportation, currently working between two small rooms. What would you do first?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2860,"You're the PM for 99 Deliveries, the logistics branch of 99 in Brazil. How would you define success for this product?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2869,You're the PM for Meta's Social Good team. Design a new product to encourage more volunteering.,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2870,You're the PM for one of your favorite products. What is your strategy for the next year?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2871,"You're the PM for our stock trading product. With gross profit dropping significantly over the last month, what would you do?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2872,You're the PM for Safeway. What product would you build to better serve people's needs?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2875,"You're the PM of a stock trading app like Fidelity or Zerodha. To increase the number of customers who complete their first trade after installing the app, what two new features would you launch?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2878,You're the PM of the Apple Watch; how would you design it?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2879,You're the Product Manager at Beacon. What would you do to build an in-app chat feature?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2883,"Your company excels in display technology, while a dominant market player, like Qualcomm, excels in System on Chip. How would you convince this major player to purchase your product?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2884,Your largest customer is advocating for a new feature not in your roadmap. What do you do?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2885,"Your recently launched feature isn't meeting customer expectations, but your engineering team and roadmap are at capacity. How would you address this?",🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2889,You’re given product adoption data across regions—how would you determine where the rollout was most successful and why?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design
+2890,You’re launching a new feature—how would you measure its strategic impact on growth?,🟢,P4,Product Design,User Needs → Jobs-to-be-Done → Features → Prioritize → Test,Product design

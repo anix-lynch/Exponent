@@ -1,0 +1,12 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+279,Design a color propensity model for sponsored products ads at Amazon.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,ML model design; advertising
+289,Design a Data Warehouse Schema for a Ride-Sharing Service,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; ride-sharing
+290,Design a Data Warehouse Schema for Airbnb,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; Airbnb
+291,Design a data warehouse schema for Amazon.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; Amazon
+292,Design a Data Warehouse Schema for Customer Support,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; customer support
+293,Design a data warehouse schema for Instagram.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; Instagram
+294,Design a data warehouse schema for LinkedIn.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; LinkedIn
+295,Design a data warehouse schema for Spotify.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; Spotify
+296,Design a Data Warehouse Schema for Stripe,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Data warehouse design; Stripe
+297,Design a database schema for a fitness app.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Database schema; fitness app
+298,Design a database schema for a ride sharing app.,🟡,L7,Data Modeling,Entities → Relationships → Metrics → Grain → Validate,Database schema; ride sharing

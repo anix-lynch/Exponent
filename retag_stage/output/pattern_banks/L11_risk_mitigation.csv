@@ -1,0 +1,27 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+61,"As a PM for Instacart, what potential issues do you foresee after a customer places an order?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk enumeration; operational issues
+796,Explain how LLMs might be susceptible to adversarial attacks.,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Security explanation; risk analysis
+1026,How can we prevent users under 18 years old from lying about their age during signup?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Age verification; risk mitigation
+1116,How do you identify and account for risks in a program?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk management; program management
+1120,How do you keep users' data safe and private when building AI systems?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Data privacy; risk mitigation
+1131,How do you mitigate risk on high-visibility projects?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk mitigation; project management
+1175,How have you managed risk in a project?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk management; behavioral question
+1253,How would you approach the process of decommissioning a service or system?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Decommissioning; risk management
+1371,How would you handle an API migration where customers need to do some development work?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,API migration; risk management
+1381,How would you implement a GDPR program for Google Services?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,GDPR compliance; risk management
+1484,How would you manage a latent field failure or bug that impacts customers and increases return rates or support contacts?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Bug management; risk mitigation
+1517,How would you mitigate negative experiences on OpenTable?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Experience mitigation; risk management
+1531,How would you prevent 'bad' content from being uploaded to a social media platform?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Content moderation; risk management
+1542,"How would you protect Roblox's intellectual property, such as 3D objects, character skins, or accessories?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,IP protection; risk management
+1695,"In a large application, which code branches are more important to be tested and how do you decide?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Testing prioritization; risk management
+1907,Tell me about a time when you dealt with buggy code in production that couldn't be fixed with a rollback.,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Production bug; behavioral question
+2198,What are Netflix's risks if they expanded to China?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Market expansion risks; risk management
+2208,"What are the challenges in ensuring generative AI doesn't produce harmful or unsafe content, and how would you address them?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,AI safety; risk management
+2214,What are the ethical risks of deploying agentic AI systems in high-stakes environments?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,AI ethics; risk management
+2230,What are the risks of assuming LLMs think or feel like humans?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,LLM risks; risk management
+2265,What do you know about Responsible AI principles and existing regulations governing AI use?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,AI regulations; risk management
+2270,What do you think are Airbnb's biggest risks?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Company risks; risk management
+2428,What project risks are you currently unprepared to address?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk awareness; risk management
+2431,What Responsible AI considerations are most important for building and maintaining customer trust in our products?,🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,AI ethics; risk management
+2432,"What risks might arise from deploying AI systems, and how can they be addressed?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,AI risks; risk management
+2688,"You have a new capability that's extremely powerful but potentially risky, how do you decide whether or not to ship it?",🟡,L11,Risk Mitigation,Enumerate Risks → Blast Radius → Mitigations → Monitor,Risk assessment; risk mitigation

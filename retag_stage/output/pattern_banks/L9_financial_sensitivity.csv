@@ -1,0 +1,11 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+34,"As a leader at Spotify, how would you triple its revenue in the next three years?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Revenue growth strategy; 3× target
+35,"As a leader at Target, how would you increase revenue?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Revenue growth strategy
+52,"As a PM at Reddit, how would you develop a strategy to monetize end consumers?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Monetization strategy
+73,"As a PM for Zepto, how would you develop a strategy to increase the average order value per user?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",AOV increase; revenue optimization
+77,"As a Product Manager at Clipboard Health, how would you adjust Lyft's driver payments to maximize net revenue over 12 months?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Pricing optimization; revenue maximization
+95,"As an Uber PM, how would you increase revenue for Uber?",🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Revenue growth strategy
+469,Design a revenue curve for a new Capital One product.,🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Revenue modeling; financial product
+754,Estimate the monthly profit per user for Capital One shopping.,🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Profit estimation; unit economics
+855,Find Customer Lifetime Value (LTV),🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",LTV calculation; financial analysis
+2676,You are responsible for pricing at physical Walmart stores. How would you increase revenue by decreasing prices?,🟡,L9,Financial Sensitivity,"Levers (Price, Volume, Churn) → Impact → Prioritize",Pricing strategy; financial analysis

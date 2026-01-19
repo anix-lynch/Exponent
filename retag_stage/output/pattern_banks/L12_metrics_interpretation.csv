@@ -1,0 +1,2 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+144,"Can a university have a lower overall acceptance rate for female-identifying students, even if every department admits them at a higher rate than others?",🟡,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Simpson's paradox; metric interpretation

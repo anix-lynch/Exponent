@@ -1,0 +1,6 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+122,Assess a project's competitors.,🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Competitive analysis; market assessment
+159,Choose a product you like and explain how you would identify its competitors.,🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Competitive analysis; market research
+2631,"Within the Blockchain Industry, where do you think Stablecoins have the most potential?",🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market analysis; business analysis
+2673,"You are launching an autonomous vehicle service in Austin. Estimate market size, demand, and optimal fleet size, plan for peak and off-peak periods, and explore business strategy options such as op...",🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market sizing; market analysis
+2717,You're a PM at a SaaS startup. What are the key requirements for integrating with Google Cloud Marketplace?,🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market analysis

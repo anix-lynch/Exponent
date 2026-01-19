@@ -1,0 +1,15 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+60,"As a PM for autonomous land-based vehicles at Google, how would you decide on the next market segment and geography? Assume Waymo does not exist.",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Market segmentation; geographic expansion
+123,"Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target?",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Market opportunity; segment targeting
+153,Can you provide details on your strategies or methods for understanding customers or core audiences?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Customer understanding; user research
+690,"Design Whatsapp for either one of 3 segments: senior citizens, families, or businesses.",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Product design; segmented messaging
+895,"For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement?",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Engagement analysis; segmentation
+995,"Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do?",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Review analysis; segmentation
+1021,How can engagement be improved for the 13-19 age group on Instagram?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Engagement improvement; segmentation
+1069,How do you create buyer personas?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Persona creation; segmentation
+1559,How would you segment users for a new e-commerce platform?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,User segmentation; segmentation
+1766,Post Success By Age Group.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Age segmentation; segmentation
+1794,Revenue by Customer City,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Geographic segmentation; segmentation
+2147,Tell me how you'd segment customers to support a growth initiative.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Customer segmentation; segmentation
+2184,Walk me through how you'd segment users for a churn analysis.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Churn segmentation; segmentation
+2459,What types of visualizations would you use to identify patterns in churn?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Churn visualization; segmentation

@@ -1,0 +1,3 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+286,Design a data pipeline that complies with GDPR.,🟡,L4,Constraints,Legal → Technical → Organizational → Timeline → Prioritize,Data pipeline; GDPR compliance
+392,Design a plan to migrate an existing authentication system to a new one.,🟡,L4,Constraints,Legal → Technical → Organizational → Timeline → Prioritize,System migration; authentication

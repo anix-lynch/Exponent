@@ -1,0 +1,40 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+179,Create a simple model to forecast our headcount needs for the next 12-weeks as we scale up.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Headcount forecasting; scaling model
+473,"Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second.",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,System design; high-scale token service
+742,Estimate how much bandwidth is needed for launching YouTube TV.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Bandwidth estimation; capacity planning
+745,Estimate the amount of storage needed for Google Photos.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Storage estimation; capacity planning
+747,Estimate the bandwidth (bits/s) of a 747 crossing the Atlantic filled with CDROMs.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Bandwidth estimation; capacity planning
+748,Estimate the bandwidth required to support Spotify.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Bandwidth estimation; capacity planning
+749,Estimate the bandwidth requirements for Google Maps.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Bandwidth estimation; capacity planning
+760,Estimate the number of Instagram posts per day.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+772,Estimate the time to move 100 petabytes of data from the East Coast to the West Coast.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Data transfer estimation; capacity planning
+773,Estimate the total internet bandwidth required for a campus of 1000 graduate students.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Bandwidth estimation; capacity planning
+776,Estimate the total storage used by Dropbox.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Storage estimation; capacity planning
+934,"Given a list with response time for each server, calculate how long time it will take to process n requests.",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Performance calculation; capacity planning
+942,"Given a string that doesn't fit into a machine's memory, split it at each space and count the number of spaces.",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Streaming processing; memory constraints
+968,"Given arrays of varying lengths, how would you pad them efficiently?",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Data preprocessing; efficiency
+1183,How many 'likes' happen on Facebook each day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1184,How many 'likes' happen on Instagram each day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1185,How many bikes are needed to launch a bike-sharing service in NYC?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Capacity estimation; launch planning
+1188,How many calls are received per day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1190,How many deliveries does Uber Eats make per day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1191,How many drones would be needed to deliver all FedEx packages in the US?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Capacity estimation; logistics
+1192,How many elevators are required in a building with 100 floors?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Capacity estimation; system design
+1197,How many messages does Gmail receive per second?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1200,How many people are flying to and from SFO in a day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1201,How many people are listening to songs on Spotify right now?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1202,How many people are on Facebook at any given time?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1205,How many rides happen on Uber each month?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1206,How many Slack messages are sent per day?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1208,How many tweets are tweeted every day on Twitter?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1218,How much storage does Google Maps' Street View require?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Storage estimation; capacity planning
+1338,How would you estimate the number of Slack users?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,User estimation; capacity planning
+1408,"How would you improve pickups and drop-offs through Uber during large events with over 10,000 people?",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Event scaling; capacity planning
+1546,How would you redesign the Coinbase App to accommodate 10x the number of cryptocurrencies?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Scale redesign; capacity planning
+1556,How would you scale riders in a new location?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Location scaling; capacity planning
+1579,How would you upgrade 5000 servers?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Server upgrade; capacity planning
+1634,"If your grocery store's foot traffic suddenly increased to 10 times its normal capacity, how would you redesign the store layout and operations?",🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Capacity scaling; scale planning
+1764,Pick an airport and estimate the number of people going through the metal detectors in a day.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+1765,Pick an airport and estimate the number of people going through the security scan every day.,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Volume estimation; capacity planning
+2355,What is the total number of airports in the US and globally?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Market estimation; capacity planning
+2653,You are a grocery store owner/manager. How do you determine how many self-checkout machines you need?,🟡,L2,Scale & Capacity,Current Load → 10× Projection → Bottlenecks → Mitigation,Capacity planning; scale analysis

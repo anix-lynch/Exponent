@@ -1,0 +1,14 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+24,An amusement park has a ride with a long queue that is a growing concern. How would you address this issue?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Queue = bottleneck; process optimization
+76,"As a PM, how would you name conference rooms for a new office so newcomers can easily navigate?",🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Wayfinding problem; process design
+147,Can you explain the Agile methodology and its key principles?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Methodology explanation; process framework
+182,Debug a build/CI system for a particular scenario or slow builds.,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,CI/CD optimization; build system
+196,"Define the flow from order booking to delivery, including installation, for a customized drinking water purifier.",🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Process definition; order-to-delivery flow
+236,"Describe the differences between a product manager, project manager, and scrum master.",🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Role definitions; process understanding
+723,Discuss your release and branching strategy.,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Process explanation; release strategy
+1091,How do you ensure code quality?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Code quality; process optimization
+1154,How do you test mobile phones?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Testing process; quality assurance
+1337,How would you ensure a delivery driver delivers over 200 packages in an 8-hour day?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Process optimization; operational efficiency
+1522,How would you optimize fulfillment time for grocery deliveries in high-traffic zones?,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Fulfillment optimization; process improvement
+1642,"Imagine you are the CTO of an airline. Flights sometimes need rescheduling due to delays or breakdowns. Currently, this is done manually. How would you automate it?",🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Process automation; process optimization
+1780,Propose solutions to optimize the speed of hiring developers at Revolut.,🟡,L10,Process Optimization,Map Workflow → Identify Bottlenecks → Optimize → Measure,Hiring optimization; process improvement
