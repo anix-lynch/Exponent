@@ -13,7 +13,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [growth_marketing_framework.md](./growth_marketing_framework.md)
 - **Frameworks** for all 8 core categories
 - **Study strategy** guide
 - **Comprehensive format** (despite small dataset)
@@ -26,7 +26,7 @@ Behavioral..............................   2 questions
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [growth_marketing_framework.md](./growth_marketing_framework.md) for frameworks
 2. Practice with [Growth_Marketing_Manager_Question_Bank.md](./Growth_Marketing_Manager_Question_Bank.md)
 3. Focus on: Growth Strategy, Customer Acquisition, Retention, Analytics
 

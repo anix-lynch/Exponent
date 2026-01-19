@@ -13,7 +13,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [product_marketing_framework.md](./product_marketing_framework.md)
 - **Frameworks** for all 10 core categories
 - **Study strategy** guide
 - **Comprehensive format**
@@ -30,7 +30,7 @@ Cross-Functional Collaboration..........   1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [product_marketing_framework.md](./product_marketing_framework.md) for frameworks
 2. Practice with [Product_Marketing_Manager_Question_Bank.md](./Product_Marketing_Manager_Question_Bank.md)
 3. Focus on: GTM Strategy, Product Positioning, Product Launch, Messaging
 

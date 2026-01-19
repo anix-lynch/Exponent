@@ -13,7 +13,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [program_manager_framework.md](./program_manager_framework.md)
 - **Frameworks** for all 4 categories
 - **Study strategy** guide
 - **Compact format** (due to small dataset)
@@ -29,7 +29,7 @@ Data Analysis...........................    1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [program_manager_framework.md](./program_manager_framework.md) for frameworks
 2. Practice with [Program_Manager_Question_Bank.md](./Program_Manager_Question_Bank.md)
 3. Focus on: Behavioral (STAR method), Program Management
 

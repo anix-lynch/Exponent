@@ -9,7 +9,7 @@ Complete question bank and mental model frameworks for Data Analyst interviews, 
 ```
 data-analyst/
 ├── Data_Analyst_Question_Bank.md      ← 📚 All 118 questions (GitHub rich text)
-├── INTERVIEW_FRAMEWORK.md             ← 🧠 Mental model frameworks
+├── data_analyst_framework.md             ← 🧠 Mental model frameworks
 ├── README.md                          ← 📖 This file
 ├── data/                              ← 💾 Supporting JSON files
 │   ├── questions_raw.json              
@@ -28,7 +28,7 @@ data-analyst/
 ## 🚀 Quick Start
 
 ### 1. **Study the Frameworks** 📖
-Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models for each category.
+Start with [`data_analyst_framework.md`](./data_analyst_framework.md) to understand the mental models for each category.
 
 ### 2. **Practice Questions** 💪
 Use [`Data_Analyst_Question_Bank.md`](./Data_Analyst_Question_Bank.md) - includes ASCII tree frameworks + all questions for each category (gold standard format).
@@ -75,7 +75,7 @@ For each question:
 When a question comes:
 
 1. **Name the category silently** (e.g., "This is a Data Analysis question")
-2. **Apply that category's framework** (from INTERVIEW_FRAMEWORK.md)
+2. **Apply that category's framework** (from data_analyst_framework.md)
 3. **Speak in structured bullets** (Clarify → Break down → Analyze → Decide → Impact)
 
 ---

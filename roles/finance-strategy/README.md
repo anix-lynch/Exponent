@@ -13,7 +13,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [finance_strategy_framework.md](./finance_strategy_framework.md)
 - **Frameworks** for all 6 categories
 - **Study strategy** guide
 - **Compact format** (due to small dataset)
@@ -31,7 +31,7 @@ Cost Management.........................   1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [finance_strategy_framework.md](./finance_strategy_framework.md) for frameworks
 2. Practice with [Finance_and_Strategy_Question_Bank.md](./Finance_and_Strategy_Question_Bank.md)
 3. Focus on: Behavioral (STAR method), Financial Analysis, Strategic Planning
 

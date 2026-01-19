@@ -13,7 +13,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [chief_of_staff_framework.md](./chief_of_staff_framework.md)
 - **Frameworks** for all 6 core categories
 - **Study strategy** guide
 - **Comprehensive format** (despite small dataset)
@@ -28,7 +28,7 @@ Cross-Functional Collaboration..........   1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [chief_of_staff_framework.md](./chief_of_staff_framework.md) for frameworks
 2. Practice with [Chief_of_Staff_Question_Bank.md](./Chief_of_Staff_Question_Bank.md)
 3. Focus on: Behavioral (STAR method), Communication, Leadership
 

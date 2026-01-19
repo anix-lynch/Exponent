@@ -9,7 +9,7 @@
 ```
 data-engineer/
 ├── Data_Engineer_Question_Bank.md     ← 📚 All 151 questions (GitHub rich text)
-├── INTERVIEW_FRAMEWORK.md             ← 🧠 Mental model frameworks
+├── data_engineer_framework.md             ← 🧠 Mental model frameworks
 ├── README.md                          ← 📖 This file
 ├── data/                              ← 💾 Supporting JSON files
 │   ├── questions_raw.json              
@@ -25,7 +25,7 @@ data-engineer/
 ## 🚀 Quick Start
 
 ### 1. **Study the Frameworks** 📖
-Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models.
+Start with [`data_engineer_framework.md`](./data_engineer_framework.md) to understand the mental models.
 
 ### 2. **Practice Questions** 💪
 Use [`Data_Engineer_Question_Bank.md`](./Data_Engineer_Question_Bank.md) - includes comprehensive ASCII tree frameworks + all questions for each category.

@@ -9,7 +9,7 @@ Complete question bank and mental model frameworks for Technical Program Manager
 ```
 technical-program-manager/
 ├── Technical_Program_Manager_Question_Bank.md  ← 📚 All 189 questions (GitHub rich text)
-├── INTERVIEW_FRAMEWORK.md                      ← 🧠 Mental model frameworks
+├── technical_program_manager_framework.md                      ← 🧠 Mental model frameworks
 ├── README.md                                   ← 📖 This file
 ├── data/                                       ← 💾 Supporting JSON files
 │   ├── questions_raw.json              
@@ -25,7 +25,7 @@ technical-program-manager/
 ## 🚀 Quick Start
 
 ### 1. **Study the Frameworks** 📖
-Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models for each category.
+Start with [`technical_program_manager_framework.md`](./technical_program_manager_framework.md) to understand the mental models for each category.
 
 ### 2. **Practice Questions** 💪
 Use [`Technical_Program_Manager_Question_Bank.md`](./Technical_Program_Manager_Question_Bank.md) - includes ASCII tree frameworks + all questions for each category.
@@ -69,7 +69,7 @@ For each question:
 When a question comes:
 
 1. **Name the category silently** (e.g., "This is a Program Management question")
-2. **Apply that category's framework** (from INTERVIEW_FRAMEWORK.md)
+2. **Apply that category's framework** (from technical_program_manager_framework.md)
 3. **Speak in structured bullets** (Clarify → Plan → Execute → Measure → Scale)
 
 ---

@@ -15,7 +15,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [business_analyst_framework.md](./business_analyst_framework.md)
 - **Frameworks** for 18+ nested categories
 - **Study strategy** guide
 - **Comprehensive format** for top-tier role
@@ -41,7 +41,7 @@ Prioritization..................................   1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for comprehensive frameworks
+1. Read [business_analyst_framework.md](./business_analyst_framework.md) for comprehensive frameworks
 2. Practice with [Business_Analyst_Question_Bank.md](./Business_Analyst_Question_Bank.md)
 3. Visit Exponent for full 88 questions
 4. Focus on: Data Analysis, SQL, Business Metrics, Stakeholder Management

@@ -11,7 +11,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [ml_engineer_framework.md](./ml_engineer_framework.md)
 - **Comprehensive frameworks** for all 18 categories
 - **Study strategy** guide
 - **700+ lines** of detailed mental models
@@ -31,7 +31,7 @@ Model Evaluation........................   10 questions
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [ml_engineer_framework.md](./ml_engineer_framework.md) for frameworks
 2. Practice with [ML_Engineer_Question_Bank.md](./ML_Engineer_Question_Bank.md)
 3. Focus on: ML fundamentals, DSA, ML system design
 

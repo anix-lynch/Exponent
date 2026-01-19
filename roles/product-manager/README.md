@@ -9,7 +9,7 @@ Complete question bank and mental model frameworks for Product Manager interview
 ```
 product-manager/
 ├── Product_Manager_Question_Bank.md    ← 📚 All 1,710 questions (GitHub rich text)
-├── INTERVIEW_FRAMEWORK.md              ← 🧠 Mental model frameworks
+├── product_manager_framework.md              ← 🧠 Mental model frameworks
 ├── README.md                           ← 📖 This file
 ├── data/                               ← 💾 Supporting JSON files
 │   ├── questions_raw.json              
@@ -26,7 +26,7 @@ product-manager/
 ## 🚀 Quick Start
 
 ### 1. **Study the Frameworks** 📖
-Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models for each category.
+Start with [`product_manager_framework.md`](./product_manager_framework.md) to understand the mental models for each category.
 
 ### 2. **Practice Questions** 💪
 Use [`Product_Manager_Question_Bank.md`](./Product_Manager_Question_Bank.md) - includes ASCII tree frameworks + all questions for each category.
@@ -76,7 +76,7 @@ For each question:
 When a question comes:
 
 1. **Name the category silently** (e.g., "This is a Product Design question")
-2. **Apply that category's framework** (from INTERVIEW_FRAMEWORK.md)
+2. **Apply that category's framework** (from product_manager_framework.md)
 3. **Speak in structured bullets** (Clarify → Break down → Analyze → Decide → Impact)
 
 ---

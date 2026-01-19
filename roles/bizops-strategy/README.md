@@ -11,7 +11,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [bizops_strategy_framework.md](./bizops_strategy_framework.md)
 - **Comprehensive frameworks** for all 13 categories
 - **Study strategy** guide
 - **600+ lines** of detailed mental models
@@ -31,7 +31,7 @@ Analytical..............................    8 questions
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for frameworks
+1. Read [bizops_strategy_framework.md](./bizops_strategy_framework.md) for frameworks
 2. Practice with [BizOps_Strategy_Question_Bank.md](./BizOps_Strategy_Question_Bank.md)
 3. Focus on: Strategy, Business Analysis, Problem Solving
 

@@ -9,7 +9,7 @@ Complete question bank and mental model frameworks for Software Engineer intervi
 ```
 software-engineer/
 ├── Software_Engineer_Question_Bank.md  ← 📚 All 575 questions (GitHub rich text)
-├── INTERVIEW_FRAMEWORK.md              ← 🧠 Mental model frameworks
+├── software_engineer_framework.md              ← 🧠 Mental model frameworks
 ├── README.md                           ← 📖 This file
 ├── data/                               ← 💾 Supporting JSON files
 │   ├── questions_raw.json              
@@ -25,7 +25,7 @@ software-engineer/
 ## 🚀 Quick Start
 
 ### 1. **Study the Frameworks** 📖
-Start with [`INTERVIEW_FRAMEWORK.md`](./INTERVIEW_FRAMEWORK.md) to understand the mental models for each category.
+Start with [`software_engineer_framework.md`](./software_engineer_framework.md) to understand the mental models for each category.
 
 ### 2. **Practice Questions** 💪
 Use [`Software_Engineer_Question_Bank.md`](./Software_Engineer_Question_Bank.md) - includes ASCII tree frameworks + all questions for each category.
@@ -71,7 +71,7 @@ For each question:
 When a question comes:
 
 1. **Name the category silently** (e.g., "This is a System Design question")
-2. **Apply that category's framework** (from INTERVIEW_FRAMEWORK.md)
+2. **Apply that category's framework** (from software_engineer_framework.md)
 3. **Speak in structured bullets** (Clarify → Plan → Implement → Test → Optimize)
 
 ---

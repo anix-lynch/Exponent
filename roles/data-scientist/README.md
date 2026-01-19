@@ -15,7 +15,7 @@
 - **ASCII framework** for each category
 - **Rich text** formatting
 
-### 2. [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md)
+### 2. [data_scientist_framework.md](./data_scientist_framework.md)
 - **Frameworks** for 20+ nested categories
 - **Study strategy** guide
 - **Comprehensive format** for top-tier role
@@ -39,7 +39,7 @@ Recommendation Systems..........................   1 question
 
 ## 🎯 How to Use
 
-1. Read [INTERVIEW_FRAMEWORK.md](./INTERVIEW_FRAMEWORK.md) for comprehensive frameworks
+1. Read [data_scientist_framework.md](./data_scientist_framework.md) for comprehensive frameworks
 2. Practice with [Data_Scientist_Question_Bank.md](./Data_Scientist_Question_Bank.md)
 3. Visit Exponent for full 165 questions
 4. Focus on: ML (Supervised/Unsupervised), Statistics, Model Evaluation
