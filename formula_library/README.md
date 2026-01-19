@@ -4,43 +4,6 @@
 
 ---
 
-## 📑 TABLE OF CONTENTS
-
-### 🟢 NORTHSTAR FORMULAS (12)
-- [P1 - Metric Drop Diagnosis](#p1---metric-drop-diagnosis)
-- [P2 - NSM + KPI Ladder](#p2---nsm--kpi-ladder)
-- [P3 - Funnel Analysis](#p3---funnel-analysis)
-- [P4 - Cohort / Retention / Churn](#p4---cohort--retention--churn)
-- [P5 - Segmentation](#p5---segmentation)
-- [P6 - Prioritization](#p6---prioritization)
-- [P7 - Tradeoff Framing](#p7---tradeoff-framing)
-- [P8 - Experiment Design](#p8---experiment-design)
-- [P9 - Decision Under Uncertainty](#p9---decision-under-uncertainty)
-- [P10 - Executive Communication](#p10---executive-communication)
-- [P11 - Stakeholder Alignment](#p11---stakeholder-alignment)
-- [P12 - Operational Excellence](#p12---operational-excellence)
-
-### 🟡 LHF FORMULAS (14)
-- [L1 - Data Trust](#l1---data-trust)
-- [L2 - Scale & Capacity](#l2---scale--capacity)
-- [L3 - Cost / ROI](#l3---cost--roi)
-- [L4 - Constraints](#l4---constraints)
-- [L5 - Observability](#l5---observability)
-- [L6 - Ops Tradeoffs](#l6---ops-tradeoffs)
-- [L7 - Data Modeling](#l7---data-modeling)
-- [L8 - Market Analysis](#l8---market-analysis)
-- [L9 - Financial Sensitivity](#l9---financial-sensitivity)
-- [L10 - Process Optimization](#l10---process-optimization)
-- [L11 - Risk Mitigation](#l11---risk-mitigation)
-- [L12 - Metrics Interpretation](#l12---metrics-interpretation)
-- [L13 - SQL Reasoning](#l13---sql-reasoning)
-- [L14 - System Design (Conceptual)](#l14---system-design-conceptual)
-
-### 🔴 IGNORE
-- [IGNORE](#ignore)
-
----
-
 ## 🟢 NORTHSTAR FORMULAS (12)
 
 ### P1 - Metric Drop Diagnosis
@@ -230,3 +193,40 @@
 ## 🔴 IGNORE (No Formula Needed)
 **Formula:** `N/A`
 **Notes:** Coding, ML theory, brain teasers, low ROI
+
+---
+
+## 📑 TABLE OF CONTENTS
+
+### 🟢 NORTHSTAR FORMULAS (12)
+- [P1 - Metric Drop Diagnosis](#p1---metric-drop-diagnosis)
+- [P2 - NSM + KPI Ladder](#p2---nsm--kpi-ladder)
+- [P3 - Funnel Analysis](#p3---funnel-analysis)
+- [P4 - Cohort / Retention / Churn](#p4---cohort--retention--churn)
+- [P5 - Segmentation](#p5---segmentation)
+- [P6 - Prioritization](#p6---prioritization)
+- [P7 - Tradeoff Framing](#p7---tradeoff-framing)
+- [P8 - Experiment Design](#p8---experiment-design)
+- [P9 - Decision Under Uncertainty](#p9---decision-under-uncertainty)
+- [P10 - Executive Communication](#p10---executive-communication)
+- [P11 - Stakeholder Alignment](#p11---stakeholder-alignment)
+- [P12 - Operational Excellence](#p12---operational-excellence)
+
+### 🟡 LHF FORMULAS (14)
+- [L1 - Data Trust](#l1---data-trust)
+- [L2 - Scale & Capacity](#l2---scale--capacity)
+- [L3 - Cost / ROI](#l3---cost--roi)
+- [L4 - Constraints](#l4---constraints)
+- [L5 - Observability](#l5---observability)
+- [L6 - Ops Tradeoffs](#l6---ops-tradeoffs)
+- [L7 - Data Modeling](#l7---data-modeling)
+- [L8 - Market Analysis](#l8---market-analysis)
+- [L9 - Financial Sensitivity](#l9---financial-sensitivity)
+- [L10 - Process Optimization](#l10---process-optimization)
+- [L11 - Risk Mitigation](#l11---risk-mitigation)
+- [L12 - Metrics Interpretation](#l12---metrics-interpretation)
+- [L13 - SQL Reasoning](#l13---sql-reasoning)
+- [L14 - System Design (Conceptual)](#l14---system-design-conceptual)
+
+### 🔴 IGNORE
+- [IGNORE](#ignore)
