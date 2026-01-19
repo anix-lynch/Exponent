@@ -4,6 +4,15 @@
 
 ---
 
+## Quick Links
+
+- [📊 ASCII Tree Mental Model](./cheatsheets/ascii_tree.md)
+- [📝 Sample Questions & Answers](./samples/)
+- [💡 Detailed Examples](./examples/)
+- [🎯 Micro Cheat Sheet](./cheatsheets/micro_cheat_sheet.md)
+
+---
+
 ## P1 ASCII TREE (copy/paste mental model)
 
 ```text
@@ -190,16 +199,3 @@ Action: rollback / fix / experiment / communicate
 ```
 
 If you paste **one real question from your batches** (a P1 one like "X down Y%"), I'll run it through this tree and produce a **tight 6-line "short_answer"** you can reuse across many similar questions.
-
----
-
-## MICRO-CHEAT SHEET (memorize this)
-
-```text
-Clarify: what metric? what definition? what scope?
-Data check: is it real?
-Segment: where is it from?
-Hypothesize: top 3 causes
-Validate: quickest kill tests
-Action: rollback / fix / experiment / communicate
-```

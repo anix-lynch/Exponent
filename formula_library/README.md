@@ -46,7 +46,7 @@
 ### P1 - Metric Drop Diagnosis
 **Formula:** `Clarify Metric → Segment → Hypothesize → Data Check → Action`
 
-[📖 **View Detailed Guide**](./P1_metric_drop/README.md)
+[📖 **View Detailed Guide**](./P1_metric_drop/P1_metric_drop.md)
 
 ---
 
