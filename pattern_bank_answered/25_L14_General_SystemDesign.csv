@@ -3079,41 +3079,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   💨 Caching: where can we cache to reduce load?
   🔀 Sharding / partitioning: how do we distribute data?
   ⚠️ Rule: Talk about failure BEFORE optimization"
-634,"Design and implement a system to manage a voice-dubbing workflow, replacing an Excel-based process. Given operations for editing, reviewing, and approving voice lines, correctly track status change...",🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,System design; workflow management,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: what is the main user need or business objective?
-  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
-  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile, internal tools, what are the entry points?
-  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
-  ⚙️ Processing: sync vs async, how is data processed?
-  💾 Storage: hot / warm / cold, where is data stored?
-  🖥️ Compute: stateless vs stateful, how is computation handled?
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path (read): how do read requests flow through the system?
-  ✍️ Write path (create/update): how do write requests flow through?
-  ⏳ Async paths: queues, streams, retries, how are async ops handled?
-  ❌ Failure paths: timeouts, backpressure, how are failures handled?
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency SLOs: what are the latency requirements?
-  🔒 Consistency: strong vs eventual consistency?
-  📈 Throughput: how many requests per second must we handle?
-  💰 Cost ceilings: what are the budget constraints?
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
-  ⚠️ Single points of failure: what components have no redundancy?
-  🚦 Backpressure: how do we handle overload?
-  💨 Caching: where can we cache to reduce load?
-  🔀 Sharding / partitioning: how do we distribute data?
-  ⚠️ Rule: Talk about failure BEFORE optimization"
 637,Design APIs for Facebook live commenting.,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,System design; API design,"🎯 Define the GOAL: Clarify what problem we're solving
   👥 Primary user goal: deliver live content to viewers with low latency
   📊 Success metric: stream latency, buffering rate, concurrent viewers, quality
