@@ -1,4 +1,4 @@
-# 📚 FORMULA LIBRARY - 30 Canonical Patterns
+# 📚 FORMULA LIBRARY - 30 Canonical Patterns (+ Sub-patterns)
 
 **Purpose:** Anti-hallucination. Copy formulas from here, don't generate.
 
@@ -14,9 +14,40 @@
 ---
 
 ### P2 - NSM + KPI Ladder
-**Formula:** `Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard`
 
-[📖 **View Detailed Guide**](./P2_nsm_kpi_ladder/P2_nsm_kpi_ladder.md)
+**P2A - North Star Metric**
+**Formula:** `Define NSM → Input KPIs → Leading Indicators → Guardrails`
+
+[📖 **View Detailed Guide**](./P2A_north_star_metric/P2A_north_star_metric.md)
+
+**P2B - KPI Ladder (by Business Model)**
+
+- **P2B1 - Social Media**: DAU/MAU, engagement, time spent
+  [📖 **View Detailed Guide**](./P2B1_social_media/P2B1_social_media.md)
+
+- **P2B2 - On-Demand**: Time to match, driver utilization, delivery time
+  [📖 **View Detailed Guide**](./P2B2_on_demand/P2B2_on_demand.md)
+
+- **P2B3 - Marketplace**: Supply/demand balance, GMV, take rate
+  [📖 **View Detailed Guide**](./P2B3_marketplace/P2B3_marketplace.md)
+
+- **P2B4 - Subscription**: Churn, LTV, MRR, retention
+  [📖 **View Detailed Guide**](./P2B4_subscription/P2B4_subscription.md)
+
+- **P2B5 - SaaS / Enterprise**: ARR, NRR, CAC, churn
+  [📖 **View Detailed Guide**](./P2B5_saas_enterprise/P2B5_saas_enterprise.md)
+
+- **P2B6 - Advertising**: CTR, CPC, ROAS, conversion rate
+  [📖 **View Detailed Guide**](./P2B6_advertising/P2B6_advertising.md)
+
+- **P2B7 - Media / Streaming**: Watch time, retention, content engagement
+  [📖 **View Detailed Guide**](./P2B7_media_streaming/P2B7_media_streaming.md)
+
+- **P2B8 - E-commerce / Fintech**: Conversion rate, AOV, transaction volume
+  [📖 **View Detailed Guide**](./P2B8_ecommerce_fintech/P2B8_ecommerce_fintech.md)
+
+- **P2B9 - General Metrics**: Varies by product/feature context
+  [📖 **View Detailed Guide**](./P2B9_general_metrics/P2B9_general_metrics.md)
 
 ---
 
@@ -105,9 +136,26 @@
 ---
 
 ### P15 - Behavioral
+
+**P15A - Situational Behavioral (STAR)**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
-[📖 **View Detailed Guide**](./P15_behavioral/P15_behavioral.md)
+[📖 **View Detailed Guide**](./P15A_situational_behavioral/P15A_situational_behavioral.md)
+
+**P15B - Self-Assessment & Approach**
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+[📖 **View Detailed Guide**](./P15B_self_assessment/P15B_self_assessment.md)
+
+**P15C - Experience Storytelling**
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+[📖 **View Detailed Guide**](./P15C_experience_storytelling/P15C_experience_storytelling.md)
+
+**P15D - Yes/No & General Behavioral**
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+[📖 **View Detailed Guide**](./P15D_yesno_general/P15D_yesno_general.md)
 
 ---
 
@@ -226,9 +274,11 @@
 
 ## 📑 TABLE OF CONTENTS
 
-### 🟢 NORTHSTAR FORMULAS (15)
+### 🟢 NORTHSTAR FORMULAS (16)
 - [P1 - Metric Drop Diagnosis](#p1---metric-drop-diagnosis)
 - [P2 - NSM + KPI Ladder](#p2---nsm--kpi-ladder)
+  - [P2A - North Star Metric](#p2a---north-star-metric)
+  - [P2B1-P2B9 - KPI Ladder (by Business Model)](#p2b---kpi-ladder-by-business-model)
 - [P3 - Funnel Analysis](#p3---funnel-analysis)
 - [P4 - Cohort / Retention / Churn](#p4---cohort--retention--churn)
 - [P5 - Segmentation](#p5---segmentation)
@@ -242,6 +292,10 @@
 - [P13 - Product Design](#p13---product-design)
 - [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
 - [P15 - Behavioral](#p15---behavioral)
+  - [P15A - Situational Behavioral (STAR)](#p15a---situational-behavioral-star)
+  - [P15B - Self-Assessment & Approach](#p15b---self-assessment--approach)
+  - [P15C - Experience Storytelling](#p15c---experience-storytelling)
+  - [P15D - Yes/No & General Behavioral](#p15d---yesno--general-behavioral)
 - [P16 - Intent / Motivation](#p16---intent--motivation)
 
 ### 🟡 LHF FORMULAS (14)
