@@ -4059,41 +4059,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   💨 Caching: where can we cache to reduce load?
   🔀 Sharding / partitioning: how do we distribute data?
   ⚠️ Rule: Talk about failure BEFORE optimization"
-996,Google wants to award its 5 trillionth query with a prize. How would you design this solution?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,System design; milestone tracking,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: what is the main user need or business objective?
-  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
-  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile, internal tools, what are the entry points?
-  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
-  ⚙️ Processing: sync vs async, how is data processed?
-  💾 Storage: hot / warm / cold, where is data stored?
-  🖥️ Compute: stateless vs stateful, how is computation handled?
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path (read): how do read requests flow through the system?
-  ✍️ Write path (create/update): how do write requests flow through?
-  ⏳ Async paths: queues, streams, retries, how are async ops handled?
-  ❌ Failure paths: timeouts, backpressure, how are failures handled?
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency SLOs: what are the latency requirements?
-  🔒 Consistency: strong vs eventual consistency?
-  📈 Throughput: how many requests per second must we handle?
-  💰 Cost ceilings: what are the budget constraints?
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
-  ⚠️ Single points of failure: what components have no redundancy?
-  🚦 Backpressure: how do we handle overload?
-  💨 Caching: where can we cache to reduce load?
-  🔀 Sharding / partitioning: how do we distribute data?
-  ⚠️ Rule: Talk about failure BEFORE optimization"
 1074,"How do you decide whether a problem should be solved using AI, generative AI, an agent-based system, traditional programming, or just a simple rule-based approach?",🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,Solution selection; system design,"🎯 Define the GOAL: Clarify what problem we're solving
   👥 Primary user goal: serve ML models with low latency and high accuracy
   📊 Success metric: inference latency, model accuracy, throughput, cost per prediction
@@ -4199,77 +4164,7 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   💨 Caching: where can we cache to reduce load?
   🔀 Sharding / partitioning: how do we distribute data?
   ⚠️ Rule: Talk about failure BEFORE optimization"
-1262,How would you build a recommendation system for an e-commerce store?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,Recommendation system; system design,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: surface relevant content/products to users based on preferences
-  📊 Success metric: click-through rate, engagement, relevance score, latency
-  🚫 Non-goals: real-time updates, explainability, A/B testing (initially)
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile apps requesting recommendations
-  🎯 Recommendation service: compute personalized rankings
-  👤 User profile store: user preferences, history, behavior
-  📦 Item catalog: product/content metadata and features
-  🤖 ML models: ranking algorithms, collaborative filtering, embeddings
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path: client → API → fetch user profile → compute recommendations → rank → return
-  ✍️ Write path: user actions → event stream → update user profile → retrain models (async)
-  ⏳ Async: model training, feature computation, index updates
-  ❌ Failure: model unavailable → fallback to popularity-based, cache stale results
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency: recommendations must be <100ms (user-facing)
-  🔒 Consistency: eventual consistency OK (user profiles update async)
-  📈 Throughput: 1M requests/sec during peak, handle cold starts
-  💰 Cost: balance model complexity vs inference cost
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: model inference, feature store lookups, ranking computation
-  ⚠️ Single points: model serving, feature store, user profile DB
-  🚦 Backpressure: queue requests, return cached/stale recommendations
-  💨 Caching: cache popular recommendations, pre-compute for hot users
-  🔀 Sharding: shard user profiles, distribute model serving
-  ⚠️ Rule: Talk about failure BEFORE optimization"
 1264,How would you build a system for running experiments such as A/B tests on an app or website?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,A/B testing system; system design,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: what is the main user need or business objective?
-  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
-  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile, internal tools, what are the entry points?
-  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
-  ⚙️ Processing: sync vs async, how is data processed?
-  💾 Storage: hot / warm / cold, where is data stored?
-  🖥️ Compute: stateless vs stateful, how is computation handled?
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path (read): how do read requests flow through the system?
-  ✍️ Write path (create/update): how do write requests flow through?
-  ⏳ Async paths: queues, streams, retries, how are async ops handled?
-  ❌ Failure paths: timeouts, backpressure, how are failures handled?
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency SLOs: what are the latency requirements?
-  🔒 Consistency: strong vs eventual consistency?
-  📈 Throughput: how many requests per second must we handle?
-  💰 Cost ceilings: what are the budget constraints?
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
-  ⚠️ Single points of failure: what components have no redundancy?
-  🚦 Backpressure: how do we handle overload?
-  💨 Caching: where can we cache to reduce load?
-  🔀 Sharding / partitioning: how do we distribute data?
-  ⚠️ Rule: Talk about failure BEFORE optimization"
-1305,How would you design a system for a healthcare agent that summarizes a patient's medical history?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,Healthcare system; system design,"🎯 Define the GOAL: Clarify what problem we're solving
   👥 Primary user goal: what is the main user need or business objective?
   📊 Success metric: latency, reliability, accuracy, cost, what defines success?
   🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
@@ -4338,41 +4233,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   🚦 Backpressure: queue requests, return cached/stale recommendations
   💨 Caching: cache popular recommendations, pre-compute for hot users
   🔀 Sharding: shard user profiles, distribute model serving
-  ⚠️ Rule: Talk about failure BEFORE optimization"
-1557,How would you scale the design of a messaging system that only involves emojis for users in Europe and US? How would you identify the origin of traffic?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,Messaging system; system design,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: enable real-time communication between users reliably
-  📊 Success metric: message delivery latency, delivery guarantees, availability
-  🚫 Non-goals: video calls, file sharing, group management (initially)
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: mobile apps, web clients sending/receiving messages
-  💬 Message service: handle send, receive, delivery status
-  📨 Message queue: Kafka/RabbitMQ for reliable delivery
-  💾 Message store: database for message history and metadata
-  🔔 Presence service: track online/offline status, push notifications
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  ✍️ Send: sender → message service → queue → store → push to recipient
-  📖 Receive: recipient → message service → fetch from store → deliver
-  ⏳ Async: offline message delivery, read receipts, typing indicators
-  ❌ Failure: message retry, dead letter queue, delivery status tracking
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency: message delivery <1s for online users
-  🔒 Consistency: at-least-once delivery guarantee, message ordering
-  📈 Throughput: 1M messages/sec, handle message bursts
-  💰 Cost: optimize storage (message retention policies)
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: message queue, message store, push notification service
-  ⚠️ Single points: message queue, database, push service
-  🚦 Backpressure: queue messages, rate limit sends, batch notifications
-  💨 Caching: cache recent messages, user presence, connection state
-  🔀 Sharding: shard by user_id, partition message queues
   ⚠️ Rule: Talk about failure BEFORE optimization"
 1715,List 3 endpoints on theScore app.,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,API endpoints; system design,"🎯 Define the GOAL: Clarify what problem we're solving
   👥 Primary user goal: what is the main user need or business objective?
@@ -4795,41 +4655,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   🔀 Sharding / partitioning: how do we distribute data?
   ⚠️ Rule: Talk about failure BEFORE optimization"
 2202,What are some endpoints Robinhood has?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,API endpoints; system design,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: what is the main user need or business objective?
-  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
-  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile, internal tools, what are the entry points?
-  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
-  ⚙️ Processing: sync vs async, how is data processed?
-  💾 Storage: hot / warm / cold, where is data stored?
-  🖥️ Compute: stateless vs stateful, how is computation handled?
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path (read): how do read requests flow through the system?
-  ✍️ Write path (create/update): how do write requests flow through?
-  ⏳ Async paths: queues, streams, retries, how are async ops handled?
-  ❌ Failure paths: timeouts, backpressure, how are failures handled?
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency SLOs: what are the latency requirements?
-  🔒 Consistency: strong vs eventual consistency?
-  📈 Throughput: how many requests per second must we handle?
-  💰 Cost ceilings: what are the budget constraints?
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
-  ⚠️ Single points of failure: what components have no redundancy?
-  🚦 Backpressure: how do we handle overload?
-  💨 Caching: where can we cache to reduce load?
-  🔀 Sharding / partitioning: how do we distribute data?
-  ⚠️ Rule: Talk about failure BEFORE optimization"
-2221,What are the key technical elements and considerations required to develop a push notification system for an app?,🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,Push notifications; system design,"🎯 Define the GOAL: Clarify what problem we're solving
   👥 Primary user goal: what is the main user need or business objective?
   📊 Success metric: latency, reliability, accuracy, cost, what defines success?
   🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
@@ -5318,39 +5143,4 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   🚦 Backpressure: queue messages, rate limit sends, batch notifications
   💨 Caching: cache recent messages, user presence, connection state
   🔀 Sharding: shard by user_id, partition message queues
-  ⚠️ Rule: Talk about failure BEFORE optimization"
-2678,"You are the lead for recommending notifications to an existing news app. Describe how the product works, the technologies used, how the system decides what notifications to send, and how you would ...",🟡,L14_General,System Design - General,Components → Data Flow → Boundaries → Scale Considerations,System design; conceptual question,"🎯 Define the GOAL: Clarify what problem we're solving
-  👥 Primary user goal: surface relevant content/products to users based on preferences
-  📊 Success metric: click-through rate, engagement, relevance score, latency
-  🚫 Non-goals: real-time updates, explainability, A/B testing (initially)
-  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
-
-🧩 Identify CORE COMPONENTS: Define what blocks exist
-  📱 Clients: web, mobile apps requesting recommendations
-  🎯 Recommendation service: compute personalized rankings
-  👤 User profile store: user preferences, history, behavior
-  📦 Item catalog: product/content metadata and features
-  🤖 ML models: ranking algorithms, collaborative filtering, embeddings
-  ⚠️ Rule: Name boxes before wiring arrows
-
-🔄 Data FLOW: Describe how data moves end-to-end
-  📖 Request path: client → API → fetch user profile → compute recommendations → rank → return
-  ✍️ Write path: user actions → event stream → update user profile → retrain models (async)
-  ⏳ Async: model training, feature computation, index updates
-  ❌ Failure: model unavailable → fallback to popularity-based, cache stale results
-  ⚠️ Rule: Always describe the happy path first
-
-🚧 Boundaries & CONSTRAINTS: Identify what limits us
-  ⏱️ Latency: recommendations must be <100ms (user-facing)
-  🔒 Consistency: eventual consistency OK (user profiles update async)
-  📈 Throughput: 1M requests/sec during peak, handle cold starts
-  💰 Cost: balance model complexity vs inference cost
-  ⚠️ Rule: Constraints shape architecture more than features
-
-📈 Scale & FAILURE MODES: Consider what breaks at 10×
-  🐌 Bottlenecks: model inference, feature store lookups, ranking computation
-  ⚠️ Single points: model serving, feature store, user profile DB
-  🚦 Backpressure: queue requests, return cached/stale recommendations
-  💨 Caching: cache popular recommendations, pre-compute for hot users
-  🔀 Sharding: shard user profiles, distribute model serving
   ⚠️ Rule: Talk about failure BEFORE optimization"
