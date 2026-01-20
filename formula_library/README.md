@@ -1,10 +1,10 @@
-# 📚 FORMULA LIBRARY - 26 Canonical Patterns
+# 📚 FORMULA LIBRARY - 28 Canonical Patterns
 
 **Purpose:** Anti-hallucination. Copy formulas from here, don't generate.
 
 ---
 
-## 🟢 NORTHSTAR FORMULAS (12)
+## 🟢 NORTHSTAR FORMULAS (14)
 
 ### P1 - Metric Drop Diagnosis
 **Formula:** `Clarify Metric → Segment → Hypothesize → Data Check → Action`
@@ -87,6 +87,20 @@
 **Formula:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
 
 [📖 **View Detailed Guide**](./P12_operational_excellence/P12_operational_excellence.md)
+
+---
+
+### P13 - Product Design
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13_product_design/P13_product_design.md)
+
+---
+
+### P14 - Revenue Optimization / Growth
+**Formula:** `Levers (Price, Volume, Mix) → Test → Measure → Iterate`
+
+[📖 **View Detailed Guide**](./P14_revenue_optimization/P14_revenue_optimization.md)
 
 ---
 
@@ -198,7 +212,7 @@
 
 ## 📑 TABLE OF CONTENTS
 
-### 🟢 NORTHSTAR FORMULAS (12)
+### 🟢 NORTHSTAR FORMULAS (14)
 - [P1 - Metric Drop Diagnosis](#p1---metric-drop-diagnosis)
 - [P2 - NSM + KPI Ladder](#p2---nsm--kpi-ladder)
 - [P3 - Funnel Analysis](#p3---funnel-analysis)
@@ -211,6 +225,8 @@
 - [P10 - Executive Communication](#p10---executive-communication)
 - [P11 - Stakeholder Alignment](#p11---stakeholder-alignment)
 - [P12 - Operational Excellence](#p12---operational-excellence)
+- [P13 - Product Design](#p13---product-design)
+- [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
 
 ### 🟡 LHF FORMULAS (14)
 - [L1 - Data Trust](#l1---data-trust)
