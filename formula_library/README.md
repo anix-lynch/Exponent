@@ -129,9 +129,36 @@
 [📖 **View Detailed Guide**](./P13A_consumer_singleuser/P13A_consumer_singleuser.md)
 
 **P13B - Consumer Platforms (Engagement-Driven)**
+
+**P13B_Social_Community - Social/Community Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./P13B_consumer_platform/P13B_consumer_platform.md)
+[📖 **View Detailed Guide**](./P13B_social_community/P13B_social_community.md)
+
+**P13B_Content_Media - Content/Media Platforms**
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13B_content_media/P13B_content_media.md)
+
+**P13B_Travel_Transportation - Travel/Transportation Platforms**
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13B_travel_transportation/P13B_travel_transportation.md)
+
+**P13B_Messaging_Communication - Messaging/Communication Platforms**
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13B_messaging_communication/P13B_messaging_communication.md)
+
+**P13B_Ecommerce_Shopping - E-commerce/Shopping Platforms**
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13B_ecommerce_shopping/P13B_ecommerce_shopping.md)
+
+**P13B_General - Consumer Platforms (General)**
+**Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13B_general/P13B_general.md)
 
 **P13C - B2B / SaaS / Enterprise**
 **Formula:** `User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics`
@@ -336,6 +363,12 @@
 - [P13 - Product Design](#p13---product-design)
   - [P13A - Consumer / Single-User Products](#p13a---consumer--single-user-products)
   - [P13B - Consumer Platforms (Engagement-Driven)](#p13b---consumer-platforms-engagement-driven)
+    - [P13B_Social_Community - Social/Community Platforms](#p13b_social_community---socialcommunity-platforms)
+    - [P13B_Content_Media - Content/Media Platforms](#p13b_content_media---contentmedia-platforms)
+    - [P13B_Travel_Transportation - Travel/Transportation Platforms](#p13b_travel_transportation---traveltransportation-platforms)
+    - [P13B_Messaging_Communication - Messaging/Communication Platforms](#p13b_messaging_communication---messagingcommunication-platforms)
+    - [P13B_Ecommerce_Shopping - E-commerce/Shopping Platforms](#p13b_ecommerce_shopping---e-commerceshopping-platforms)
+    - [P13B_General - Consumer Platforms (General)](#p13b_general---consumer-platforms-general)
   - [P13C - B2B / SaaS / Enterprise](#p13c---b2b--saas--enterprise)
   - [P13D - Marketplace / Two-Sided Platforms](#p13d---marketplace--two-sided-platforms)
   - [P13E - Strategy / Vision / Roadmapping](#p13e---strategy--vision--roadmapping)

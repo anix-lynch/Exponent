@@ -1,15 +1,15 @@
-# P13B - Consumer Platforms (Engagement-Driven)
+# P13B - Consumer Platforms (General)
 
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-**Intent:** Social apps, content apps, messaging, fitness, learning, creator tools. Focus on engagement, retention, and core loops.
+**Intent:** All other consumer platform questions that don't fit into specific subcategories. Focus on engagement, retention, and user value.
 
 ---
 
 ## 🧠 Mental Model (ASCII Tree)
 
 ```
-Consumer Platform Design
+Consumer Platform Design (General)
 │
 ├─ 1) Users
 │   ├─ Who are the users?
@@ -50,12 +50,12 @@ Consumer Platform Design
 │   └─ Supporting features
 │       ├─ Onboarding
 │       ├─ Discovery
-│       └─ Social mechanics
+│       └─ Engagement mechanics
 │
 ├─ 5) Tradeoffs
+│   ├─ Features vs simplicity
 │   ├─ Engagement vs privacy
-│   ├─ Content creation vs consumption
-│   └─ Simplicity vs features
+│   └─ Free vs paid
 │
 └─ 6) Success Metrics
     ├─ Engagement metrics
@@ -72,24 +72,23 @@ Consumer Platform Design
 
 ## 📌 Sample Questions
 
+- "Design a product for art lovers"
 - "Design a fitness app"
-- "Design a social media feature"
-- "Design a learning platform"
-- "How would you improve the LinkedIn home page?"
+- "Design a financial app"
 
 ---
 
 ## 🎯 Key Principles
 
-- **Core loop first**: Design around the primary engagement loop
+- **User-centric**: Focus on user needs and jobs
+- **Core loop**: Design around primary engagement loop
 - **Retention focus**: Every feature should drive retention
-- **Social mechanics**: Leverage network effects when possible
-- **Content balance**: Balance creation and consumption
-- **Engagement metrics**: DAU/MAU, time spent, retention
+- **Simplicity**: Avoid over-engineering
+- **Metrics-driven**: Measure what matters
 
 ---
 
 ## 🔗 Related Patterns
 
-- **P2B1 (Social Media Metrics)**: Use for social platform metrics
-- **P13A, P13C-P13E**: Other product design subcategories
+- **P13B_Social_Community, P13B_Content_Media, etc.**: Specific platform subcategories
+- **P2B (KPI Ladder)**: Use for platform metrics
