@@ -1,10 +1,10 @@
-# 📚 FORMULA LIBRARY - 29 Canonical Patterns
+# 📚 FORMULA LIBRARY - 30 Canonical Patterns
 
 **Purpose:** Anti-hallucination. Copy formulas from here, don't generate.
 
 ---
 
-## 🟢 NORTHSTAR FORMULAS (15)
+## 🟢 NORTHSTAR FORMULAS (16)
 
 ### P1 - Metric Drop Diagnosis
 **Formula:** `Clarify Metric → Segment → Hypothesize → Data Check → Action`
@@ -108,6 +108,13 @@
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 [📖 **View Detailed Guide**](./P15_behavioral/P15_behavioral.md)
+
+---
+
+### P16 - Intent / Motivation
+**Formula:** `Company → Role → Mission → Personal Fit → Why Now`
+
+[📖 **View Detailed Guide**](./P16_intent_motivation/P16_intent_motivation.md)
 
 ---
 
@@ -235,6 +242,7 @@
 - [P13 - Product Design](#p13---product-design)
 - [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
 - [P15 - Behavioral](#p15---behavioral)
+- [P16 - Intent / Motivation](#p16---intent--motivation)
 
 ### 🟡 LHF FORMULAS (14)
 - [L1 - Data Trust](#l1---data-trust)
