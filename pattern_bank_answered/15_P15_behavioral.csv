@@ -2,7 +2,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 23,"Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with metrics?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Behavioral self-assessment
 29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Behavioral; tool familiarity
 36,"As a manager, how do you handle trade-offs?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Abstract behavioral; no specific scenario
-1196,How many lane divider stripes are there on the German autobahn?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Math estimation; brain teaser
 1612,"If you could go to anywhere in the world, where would you go?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal question; not relevant
 1860,Tell me about a machine learning project you worked on and its outcome.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML project; technical question
 1861,Tell me about a machine learning project you worked on.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML project; technical question
