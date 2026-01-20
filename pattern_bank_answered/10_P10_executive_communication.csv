@@ -258,3 +258,12 @@ Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, u
 Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
 
 Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+223,Describe a time when your values were tested.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Values and ethics; behavioral question,
+250,Describe your ideal work environment.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Workplace culture; behavioral question,
+725,Do you believe in Anthropic's mission?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Mission alignment; behavioral question,
+727,Do you have any concerns or reservations about this role?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Role fit; behavioral question,
+731,Do you work well in fast-paced environments?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Work style; behavioral question,
+1011,Have you gone out of your way to uphold some value or principle?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Values; behavioral question,
+1035,How did you hear about this position?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Recruitment; behavioral question,
+1213,How much do you care about safety and security?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Personal values; behavioral question,
+2522,When have you done something which was against your values?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Values conflict; behavioral question,
