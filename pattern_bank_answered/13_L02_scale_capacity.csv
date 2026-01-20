@@ -1,0 +1,12 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+110,"As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue?",🟢,L2,Scale & Capacity,Current Capacity → Demand Forecast → Bottlenecks → Scale Plan,Capacity surge; operational diagnosis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."

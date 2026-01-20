@@ -90,3 +90,14 @@ Identify Bottlenecks: Find where the process slows down. Time analysis: which st
 Optimize: Design improvements to eliminate bottlenecks. Eliminate waste: remove unnecessary steps, reduce handoffs. Automate: replace manual work with systems. Parallelize: run steps concurrently. Standardize: create consistent processes. Increase capacity: add resources where bottlenecked. Prioritize: focus on highest-impact bottlenecks first.
 
 Measure: Track impact of optimizations. Before metrics: baseline cycle time, throughput, error rate. After metrics: improved cycle time, throughput, error rate. Key metrics: time saved, capacity increase, quality improvement. Continuous monitoring: track metrics over time, identify new bottlenecks. Iterate: if optimization didn't work, try different approach. Document learnings: what worked, what didn't, why."
+1728,Management wants to increase the development team's productivity by 25%. How would you approach this problem?,🟢,L10,Process Optimization,Current Process → Identify Inefficiencies → Optimize → Measure,Productivity improvement; metric analysis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."

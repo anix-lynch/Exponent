@@ -1,0 +1,12 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+1591,"If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?",🟢,L8,Market Analysis,Market Size → Competitors → Trends → Opportunity,Competitive analysis; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."

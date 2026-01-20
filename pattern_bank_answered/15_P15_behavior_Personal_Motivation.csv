@@ -1,200 +1,211 @@
-question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
-1901,Tell me about a time when you chose one solution from many possible solutions.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Solution selection; behavioral question
-215,Describe a time when a project lacked key information.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Information gaps; behavioral question
-220,"Describe a time when you played to win, did the right thing, and were entrepreneurial.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question
-225,Describe a time you displayed 'Googlyness' in your work.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company culture; behavioral question
-904,Give me an example of a time you used technical judgment.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical decision; behavioral question
-1893,Tell me about a time the business problem wasn't clearly defined. How did you handle it?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
-1894,Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Timeline issue; behavioral question
-1895,Tell me about a time when a project did not go as expected.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project issue; behavioral question
-1898,Tell me about a time when project goals changed and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal change; behavioral question
-1902,Tell me about a time when you conceived an innovative solution to a problem.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question
-1909,Tell me about a time when you delivered over and above customer expectations.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question
-1912,Tell me about a time when you encountered obstacles in your plan. How did you address them?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Obstacles; behavioral question
-1914,"Tell me about a time when you faced significant unexpected obstacles while working toward a key goal. How did you overcome them, and what would you do differently now?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Unexpected obstacles; behavioral question
-1915,Tell me about a time when you faced technical and people challenges simultaneously.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Dual challenges; behavioral question
-1920,Tell me about a time when you felt the most challenged.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge; behavioral question
-1930,Tell me about a time when you had to change the direction of a project that was 70% complete.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project pivot; behavioral question
-1956,Tell me about a time when you knew you weren't going to meet a goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal failure; behavioral question
-1958,Tell me about a time when you led a project from start to finish.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project leadership; behavioral question
-1963,Tell me about a time when you made a mistake and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Mistake handling; behavioral question
-1966,Tell me about a time when you made an error in judgment in the last year or two. What did you do and what was the impact?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Judgment error; behavioral question
-1979,Tell me about a time when you questioned the status quo.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Status quo challenge; behavioral question
-1982,Tell me about a time when you redesigned a process and the reasoning behind it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Process redesign; behavioral question
-1986,Tell me about a time when you significantly exceeded expectations on a project or task.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question
-1992,Tell me about a time when you taught yourself a skill.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-learning; behavioral question
-1993,Tell me about a time when you took on a task outside your job description.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Scope expansion; behavioral question
-1994,Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Responsibility expansion; behavioral question
-1997,Tell me about a time when you undertook an entrepreneurial endeavor in a personal or professional setting.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question
-2004,Tell me about a time when you went above and beyond for a customer.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Customer service; behavioral question
-2005,Tell me about a time when you went above and beyond your job description.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Going beyond; behavioral question
-2006,Tell me about a time when you were creative.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Creativity; behavioral question
-2009,Tell me about a time when you were more proactive than others.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Proactivity; behavioral question
-2012,Tell me about a time when you were unhappy in your job.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job dissatisfaction; behavioral question
-2013,Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Opportunity discovery; behavioral question
-2016,Tell me about a time when you worked on something you were passionate about.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question
-2042,Tell me about a time you faced a difficult challenge.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Difficult challenge; behavioral question
-2047,Tell me about a time you got a project back on track.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project recovery; behavioral question
-2072,Tell me about a time you made a mistake.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Mistake; behavioral question
-2075,Tell me about a time you overcame a challenge to achieve a goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge overcoming; behavioral question
-2076,Tell me about a time you overcame adversity.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adversity; behavioral question
-2078,Tell me about a time you proposed a non-intuitive solution to a problem and how you identified that it required a different way of thinking.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Non-intuitive solution; behavioral question
-2085,Tell me about a time you struggled on a project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project struggle; behavioral question
-2086,Tell me about a time you successfully delivered a project without a budget or resources.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Resource constraint; behavioral question
-2093,Tell me about a time you were confident in a solution and later realized it was wrong.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Confidence error; behavioral question
-2094,"Tell me about a time you worked on a complex program, how you handled it, and its outcomes.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex program; behavioral question
-2496,What's your approach to prompt engineering?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Prompt engineering; ML technical question
-2498,What's your experience with 3D graphics?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),3D graphics; technical question
-2499,What's your experience with DirectX?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),DirectX; technical question
-2500,What's your experience with ray tracing in video games?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ray tracing; technical question
-2785,You're a PM for a rideshare app's membership program. How would you identify the most negative member experiences?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Operational question
-2119,Tell me about your experience with computer vision.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),ML specialization; technical question
-2121,Tell me about your experience with Java.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question
-2122,Tell me about your experience with JavaScript.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question
-2123,Tell me about your experience with natural language processing.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),ML specialization; technical question
-2125,Tell me about your experience with React.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming framework; technical question
-2126,Tell me about your experience with RxJava.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming framework; technical question
-2127,Tell me about your experience with TypeScript.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question
-1873,Tell me about a project where you prioritized the customer.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Customer prioritization; behavioral question
-1889,Tell me about a technical decision you made and its impact on your project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical decision; tradeoff analysis
-246,Describe your experience with board meeting preparation and follow-up.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Board communication; behavioral question
-1767,Prepare a presentation about a complex project you led from start to finish.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project presentation; executive communication
-1768,Present a past AI-focused solution that you've worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI solution presentation; executive communication
-1771,Present slides on a past project you've worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project presentation; executive communication
-202,Describe a challenging project you worked on and what made it difficult.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project case study; behavioral question
-204,Describe a data project you worked on. What were some of the challenges you faced?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Data project case study; behavioral question
-231,Describe an experience that you consider most valuable.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience reflection; behavioral question
-238,Describe the most technically complex project you have worked on and explain why it was complex.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical complexity; behavioral question
-244,Describe your experience managing special projects or strategic initiatives.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project management; behavioral question
-1874,Tell me about a project where you recognized the need to alter the strategy or direction.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strategy change; behavioral question
-1875,Tell me about a project you worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project; behavioral question
-1876,Tell me about a recent program you worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Program; behavioral question
-2101,Tell me about an impactful project that you led.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
-2102,Tell me about how you brought a product to market.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product launch; behavioral question
-2103,Tell me about one of the most complex projects you've been involved in.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex project; behavioral question
-2111,Tell me about the most complex project you have led.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex project; behavioral question
-2118,Tell me about your e-commerce experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience; behavioral question
-2128,"Tell me about your experience working with Agile, specfically with Kanban",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Agile experience; behavioral question
-2130,Tell me about your experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience; behavioral question
-2137,Tell me about your most impactful project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
-2139,Tell me about your past projects.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Past projects; behavioral question
-2725,You're a PM at an airline. Describe the worst possible post-booking experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Operational question
-29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Behavioral; tool familiarity
-1612,"If you could go to anywhere in the world, where would you go?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal question; not relevant
-2116,Tell me about your day as a software engineer.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical role description; not relevant for data analyst
-2152,Tell us about one of your trips.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal question; not relevant
-2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Coding motivation; not relevant for data analyst
-2561,Why did you become a Software Engineer?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst
-2562,Why did you become an engineer?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst
-2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Coding/algorithm/ML; implementation required
-149,Can you introduce yourself?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-introduction; communication
-1299,How would you describe what our company does to your grandmother?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Simplification; communication
-214,"Describe a situation where, in hindsight, you would have done things differently.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Reflection and learning; behavioral question
-1037,How did your last project end?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project closure; behavioral question
-1068,How do you cope with dynamically-changing environments?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adaptability; behavioral question
-1110,How do you handle projects outside your expertise area?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning agility; behavioral question
-1111,How do you handle roadblocks or obstacles?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
-1119,How do you keep up with the evolving landscape of artificial intelligence news?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning; behavioral question
-1123,How do you maintain your own professional development while supporting others?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Professional development; behavioral question
-1149,How do you spend your day at work?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Work routine; behavioral question
-1151,How do you stay productive when managing multiple high-priority initiatives?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Productivity; behavioral question
-1153,How do you stay up-to-date with the latest developments in AI?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning; behavioral question
-1177,How have you worked on quick iterations with UX designers in the past?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design collaboration; behavioral question
-1220,How open are you to adapting to changes?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adaptability; behavioral question
-1228,How will you develop yourself professionally as a data engineer?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Professional development; behavioral question
-1229,How will you handle a 3-year project compared to a 3-week project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project management; behavioral question
-1525,How would you plan to deliver a solution for the project within four months?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project planning; operational excellence
-1597,"If given a chance, what would you change about a project, and why?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project reflection; operational excellence
-1707,Is there a work process or decision strategy you strongly disliked?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Process reflection; behavioral question
-1853,Tell me about a challenge you faced and how you overcame it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge; behavioral question
-1881,Tell me about a situation where you didn't reach your goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal failure; behavioral question
-1887,Tell me about a technical challenge that you have overcome.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question
-2106,Tell me about something you're passionate about.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question
-2110,Tell me about the most challenging situation you faced in your career and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question
-2112,Tell me about your academic background.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Background; behavioral question
-2114,Tell me about your biggest failure.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Failure; behavioral question
-2115,Tell me about your current role.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Current role; behavioral question
-2134,Tell me about your greatest success.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Success; behavioral question
-2135,Tell me about your interest in AI.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI interest; behavioral question
-2136,Tell me about your last job.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last job; behavioral question
-2138,Tell me about your most significant accomplishment. Why was it significant?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
-2143,Tell me about your recent role.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Recent role; behavioral question
-2145,Tell me about yourself.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-introduction; behavioral question
-2146,Tell me how you brought a product to market.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product launch; behavioral question
-2148,Tell me something that's not in your resume.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal insight; behavioral question
-2190,What about Tinder's vision resonates with you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company vision; behavioral question
-2203,What are some new advancements in AI you find interesting?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI interest; behavioral question
-2206,What are the biggest trends you see in the security industry?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Industry trends; behavioral question
-2229,What are the problems with Agile?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Agile critique; behavioral question
-2233,What are the top 3 technology trends that will change the landscape in the next decade?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technology trends; behavioral question
-2234,What are the top 3 to 4 skills a PM should have?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),PM skills; behavioral question
-2242,What are you looking for in your next opportunity?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career goals; behavioral question
-2244,What are you passionate about?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question
-2245,What are your core product principles?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product principles; behavioral question
-2248,What are your strengths and weaknesses?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strengths/weaknesses; behavioral question
-2258,What did you do at your last job?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last job; behavioral question
-2259,What did you enjoy most about your last role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last role; behavioral question
-2261,What do you do in your free time?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
-2267,What do you like about your current job and what aspects would you change?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Current job; behavioral question
-2273,"What does ""belong anywhere"" mean to you?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company values; behavioral question
-2274,What does grit mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal values; behavioral question
-2276,What does strategy mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strategy definition; behavioral question
-2277,What does success look like to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Success definition; behavioral question
-2278,What does the Chief of Staff role mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role understanding; behavioral question
-2281,What does your day-to-day look like at your current company?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Day-to-day; behavioral question
-2282,What elements are included in a project charter?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project charter; behavioral question
-2283,What evidence shows Anthropic's sincerity about their mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company mission; behavioral question
-2286,What experience do you have that prepares you for this role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role preparation; behavioral question
-2287,What experience do you have with AI projects/automations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI experience; behavioral question
-2294,What Gen AI skills do you think will be critical in the next year?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI skills; behavioral question
-2313,What is a skill you have that is not listed on your resume?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Hidden skills; behavioral question
-2315,What is a technical challenge you faced in your previous project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question
-2318,What is an idea you have used in your career to add value to an organization?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Value creation; behavioral question
-2346,What is the most impressive thing you have done?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
-2347,What is the most innovative idea you have ever had?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question
-2348,What is the most innovative thing you have ever done?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question
-2367,What is your favorite leadership principle?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Leadership; behavioral question
-2374,What is your greatest weakness and why do you think that it will not impact this role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Weaknesses; behavioral question
-2377,What is your pet peeve?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal preference; behavioral question
-2386,What kind of news do you read?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
-2416,What other companies are you interviewing at and why?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job search; behavioral question
-2419,What parts of OpenAI's mission statement resonate with you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company mission; behavioral question
-2434,What sets you apart from other data analysts?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Differentiation; behavioral question
-2446,What technical contributions have you made to a project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical contributions; behavioral question
-2450,What tools do you use as a TPM? What tools are you familiar with?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),TPM tools; behavioral question
-2451,What tools have you used as a TPM?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),TPM tools; behavioral question
-2455,"What type of culture are you looking for, and how would you help build it here?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Culture; behavioral question
-2466,What would you change about your time at [Current Company]?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company reflection; behavioral question
-2475,What would you do on your first day as a PM?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),First day; behavioral question
-2479,What would your closest friend say about you and your strengths?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-reflection; behavioral question
-2491,What's the most fun thing you did recently?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
-2497,"What's your biggest challenge as a PM, and how did you overcome it?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),PM challenge; behavioral question
-2520,When do you consider a design review completed?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design review; behavioral question
-2529,"Where do you think the ""data world"" is going—what's coming next?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Industry trends; behavioral question
-2534,Which leadership principle do you least resonate with?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Leadership principles; behavioral question
-2535,Which of Twilio's values appeals to you the most?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company values; behavioral question
-2540,Who is your role model?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role model; behavioral question
-2547,Why are you leaving consulting?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career transition; behavioral question
-2563,Why did you choose analytics as a career?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; behavioral question
-2564,Why did you choose to attend [College]?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Education choice; behavioral question
-2565,Why did you leave your last role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job transition; behavioral question
-2571,Why do you think we should not hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-awareness; behavioral question
-2572,Why do you think you would be a good fit for Microsoft's mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company fit; behavioral question
-2634,Would you like to apply design thinking in your future role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design thinking; behavioral question
-1070,How do you deal with ambiguous situations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
-2254,"What challenge do you anticipate in this role, and what excites you most about it?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2284,What excites you most about technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2300,What got you interested in technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2412,What motivates you to get up from the bed?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2413,What motivates you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2543,Why are you interested in becoming a Chief of Staff?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2573,Why do you want to be a PM? What aspects of product management are you most passionate about?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2574,Why do you want to be a PM? What experiences have pointed to this being the right role for you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2575,Why do you want to be a Product Manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2576,Why do you want to be a product manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2577,Why do you want to join a Graduate Scheme?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2580,Why do you want to switch jobs now?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
-2625,Why should we hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question
-1948,Tell me about a time when you had to say no to someone.,🟢,N/A,N/A,N/A,Saying no; behavioral question
-1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,N/A,N/A,N/A,Deadline management; behavioral question
-149,Can you introduce yourself?,🟢,N/A,N/A,N/A,Self-introduction; communication
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+1901,Tell me about a time when you chose one solution from many possible solutions.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Solution selection; behavioral question,
+215,Describe a time when a project lacked key information.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Information gaps; behavioral question,
+220,"Describe a time when you played to win, did the right thing, and were entrepreneurial.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question,
+225,Describe a time you displayed 'Googlyness' in your work.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company culture; behavioral question,
+904,Give me an example of a time you used technical judgment.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical decision; behavioral question,
+1893,Tell me about a time the business problem wasn't clearly defined. How did you handle it?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question,
+1894,Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Timeline issue; behavioral question,
+1895,Tell me about a time when a project did not go as expected.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project issue; behavioral question,
+1898,Tell me about a time when project goals changed and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal change; behavioral question,
+1902,Tell me about a time when you conceived an innovative solution to a problem.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question,
+1909,Tell me about a time when you delivered over and above customer expectations.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question,
+1912,Tell me about a time when you encountered obstacles in your plan. How did you address them?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Obstacles; behavioral question,
+1914,"Tell me about a time when you faced significant unexpected obstacles while working toward a key goal. How did you overcome them, and what would you do differently now?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Unexpected obstacles; behavioral question,
+1915,Tell me about a time when you faced technical and people challenges simultaneously.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Dual challenges; behavioral question,
+1920,Tell me about a time when you felt the most challenged.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge; behavioral question,
+1930,Tell me about a time when you had to change the direction of a project that was 70% complete.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project pivot; behavioral question,
+1956,Tell me about a time when you knew you weren't going to meet a goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal failure; behavioral question,
+1958,Tell me about a time when you led a project from start to finish.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project leadership; behavioral question,
+1963,Tell me about a time when you made a mistake and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Mistake handling; behavioral question,
+1966,Tell me about a time when you made an error in judgment in the last year or two. What did you do and what was the impact?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Judgment error; behavioral question,
+1979,Tell me about a time when you questioned the status quo.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Status quo challenge; behavioral question,
+1982,Tell me about a time when you redesigned a process and the reasoning behind it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Process redesign; behavioral question,
+1986,Tell me about a time when you significantly exceeded expectations on a project or task.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question,
+1992,Tell me about a time when you taught yourself a skill.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-learning; behavioral question,
+1993,Tell me about a time when you took on a task outside your job description.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Scope expansion; behavioral question,
+1994,Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Responsibility expansion; behavioral question,
+1997,Tell me about a time when you undertook an entrepreneurial endeavor in a personal or professional setting.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question,
+2004,Tell me about a time when you went above and beyond for a customer.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Customer service; behavioral question,
+2005,Tell me about a time when you went above and beyond your job description.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Going beyond; behavioral question,
+2006,Tell me about a time when you were creative.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Creativity; behavioral question,
+2009,Tell me about a time when you were more proactive than others.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Proactivity; behavioral question,
+2012,Tell me about a time when you were unhappy in your job.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job dissatisfaction; behavioral question,
+2013,Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Opportunity discovery; behavioral question,
+2016,Tell me about a time when you worked on something you were passionate about.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question,
+2042,Tell me about a time you faced a difficult challenge.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Difficult challenge; behavioral question,
+2047,Tell me about a time you got a project back on track.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project recovery; behavioral question,
+2072,Tell me about a time you made a mistake.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Mistake; behavioral question,
+2075,Tell me about a time you overcame a challenge to achieve a goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge overcoming; behavioral question,
+2076,Tell me about a time you overcame adversity.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adversity; behavioral question,
+2078,Tell me about a time you proposed a non-intuitive solution to a problem and how you identified that it required a different way of thinking.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Non-intuitive solution; behavioral question,
+2085,Tell me about a time you struggled on a project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project struggle; behavioral question,
+2086,Tell me about a time you successfully delivered a project without a budget or resources.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Resource constraint; behavioral question,
+2093,Tell me about a time you were confident in a solution and later realized it was wrong.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Confidence error; behavioral question,
+2094,"Tell me about a time you worked on a complex program, how you handled it, and its outcomes.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex program; behavioral question,
+2496,What's your approach to prompt engineering?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Prompt engineering; ML technical question,
+2498,What's your experience with 3D graphics?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),3D graphics; technical question,
+2499,What's your experience with DirectX?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),DirectX; technical question,
+2500,What's your experience with ray tracing in video games?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ray tracing; technical question,
+2785,You're a PM for a rideshare app's membership program. How would you identify the most negative member experiences?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Operational question,
+2119,Tell me about your experience with computer vision.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),ML specialization; technical question,
+2121,Tell me about your experience with Java.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question,
+2122,Tell me about your experience with JavaScript.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question,
+2123,Tell me about your experience with natural language processing.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),ML specialization; technical question,
+2125,Tell me about your experience with React.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming framework; technical question,
+2126,Tell me about your experience with RxJava.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming framework; technical question,
+2127,Tell me about your experience with TypeScript.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Programming language; technical question,
+1873,Tell me about a project where you prioritized the customer.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Customer prioritization; behavioral question,
+1889,Tell me about a technical decision you made and its impact on your project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical decision; tradeoff analysis,
+246,Describe your experience with board meeting preparation and follow-up.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Board communication; behavioral question,
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project presentation; executive communication,
+1768,Present a past AI-focused solution that you've worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI solution presentation; executive communication,
+1771,Present slides on a past project you've worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project presentation; executive communication,
+202,Describe a challenging project you worked on and what made it difficult.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project case study; behavioral question,
+204,Describe a data project you worked on. What were some of the challenges you faced?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Data project case study; behavioral question,
+231,Describe an experience that you consider most valuable.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience reflection; behavioral question,
+238,Describe the most technically complex project you have worked on and explain why it was complex.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical complexity; behavioral question,
+244,Describe your experience managing special projects or strategic initiatives.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project management; behavioral question,
+1874,Tell me about a project where you recognized the need to alter the strategy or direction.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strategy change; behavioral question,
+1875,Tell me about a project you worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project; behavioral question,
+1876,Tell me about a recent program you worked on.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Program; behavioral question,
+2101,Tell me about an impactful project that you led.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Impactful project; behavioral question,
+2102,Tell me about how you brought a product to market.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product launch; behavioral question,
+2103,Tell me about one of the most complex projects you've been involved in.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex project; behavioral question,
+2111,Tell me about the most complex project you have led.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Complex project; behavioral question,
+2118,Tell me about your e-commerce experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience; behavioral question,
+2128,"Tell me about your experience working with Agile, specfically with Kanban",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Agile experience; behavioral question,
+2130,Tell me about your experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Experience; behavioral question,
+2137,Tell me about your most impactful project.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Impactful project; behavioral question,
+2139,Tell me about your past projects.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Past projects; behavioral question,
+2725,You're a PM at an airline. Describe the worst possible post-booking experience.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Operational question,
+29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Behavioral; tool familiarity,
+1612,"If you could go to anywhere in the world, where would you go?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal question; not relevant,
+2116,Tell me about your day as a software engineer.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical role description; not relevant for data analyst,
+2152,Tell us about one of your trips.,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal question; not relevant,
+2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Coding motivation; not relevant for data analyst,
+2561,Why did you become a Software Engineer?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst,
+2562,Why did you become an engineer?,🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst,
+2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Coding/algorithm/ML; implementation required,
+149,Can you introduce yourself?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-introduction; communication,
+1299,How would you describe what our company does to your grandmother?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Simplification; communication,
+214,"Describe a situation where, in hindsight, you would have done things differently.",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Reflection and learning; behavioral question,
+1037,How did your last project end?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project closure; behavioral question,
+1068,How do you cope with dynamically-changing environments?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adaptability; behavioral question,
+1110,How do you handle projects outside your expertise area?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning agility; behavioral question,
+1111,How do you handle roadblocks or obstacles?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Problem solving; behavioral question,
+1119,How do you keep up with the evolving landscape of artificial intelligence news?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning; behavioral question,
+1123,How do you maintain your own professional development while supporting others?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Professional development; behavioral question,
+1149,How do you spend your day at work?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Work routine; behavioral question,
+1151,How do you stay productive when managing multiple high-priority initiatives?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Productivity; behavioral question,
+1153,How do you stay up-to-date with the latest developments in AI?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Learning; behavioral question,
+1177,How have you worked on quick iterations with UX designers in the past?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design collaboration; behavioral question,
+1220,How open are you to adapting to changes?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Adaptability; behavioral question,
+1228,How will you develop yourself professionally as a data engineer?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Professional development; behavioral question,
+1229,How will you handle a 3-year project compared to a 3-week project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project management; behavioral question,
+1525,How would you plan to deliver a solution for the project within four months?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project planning; operational excellence,
+1597,"If given a chance, what would you change about a project, and why?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project reflection; operational excellence,
+1707,Is there a work process or decision strategy you strongly disliked?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Process reflection; behavioral question,
+1853,Tell me about a challenge you faced and how you overcame it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenge; behavioral question,
+1881,Tell me about a situation where you didn't reach your goal.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Goal failure; behavioral question,
+1887,Tell me about a technical challenge that you have overcome.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question,
+2106,Tell me about something you're passionate about.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question,
+2110,Tell me about the most challenging situation you faced in your career and how you handled it.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question,
+2112,Tell me about your academic background.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Background; behavioral question,
+2114,Tell me about your biggest failure.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Failure; behavioral question,
+2115,Tell me about your current role.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Current role; behavioral question,
+2134,Tell me about your greatest success.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Success; behavioral question,
+2135,Tell me about your interest in AI.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI interest; behavioral question,
+2136,Tell me about your last job.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last job; behavioral question,
+2138,Tell me about your most significant accomplishment. Why was it significant?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question,
+2143,Tell me about your recent role.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Recent role; behavioral question,
+2145,Tell me about yourself.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-introduction; behavioral question,
+2146,Tell me how you brought a product to market.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product launch; behavioral question,
+2148,Tell me something that's not in your resume.,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal insight; behavioral question,
+2190,What about Tinder's vision resonates with you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company vision; behavioral question,
+2203,What are some new advancements in AI you find interesting?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI interest; behavioral question,
+2206,What are the biggest trends you see in the security industry?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Industry trends; behavioral question,
+2229,What are the problems with Agile?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Agile critique; behavioral question,
+2233,What are the top 3 technology trends that will change the landscape in the next decade?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technology trends; behavioral question,
+2234,What are the top 3 to 4 skills a PM should have?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),PM skills; behavioral question,
+2242,What are you looking for in your next opportunity?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career goals; behavioral question,
+2244,What are you passionate about?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Passion; behavioral question,
+2245,What are your core product principles?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Product principles; behavioral question,
+2248,What are your strengths and weaknesses?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strengths/weaknesses; behavioral question,
+2258,What did you do at your last job?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last job; behavioral question,
+2259,What did you enjoy most about your last role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Last role; behavioral question,
+2261,What do you do in your free time?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question,
+2267,What do you like about your current job and what aspects would you change?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Current job; behavioral question,
+2273,"What does ""belong anywhere"" mean to you?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company values; behavioral question,
+2274,What does grit mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal values; behavioral question,
+2276,What does strategy mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Strategy definition; behavioral question,
+2277,What does success look like to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Success definition; behavioral question,
+2278,What does the Chief of Staff role mean to you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role understanding; behavioral question,
+2281,What does your day-to-day look like at your current company?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Day-to-day; behavioral question,
+2282,What elements are included in a project charter?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Project charter; behavioral question,
+2283,What evidence shows Anthropic's sincerity about their mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company mission; behavioral question,
+2286,What experience do you have that prepares you for this role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role preparation; behavioral question,
+2287,What experience do you have with AI projects/automations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI experience; behavioral question,
+2294,What Gen AI skills do you think will be critical in the next year?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),AI skills; behavioral question,
+2313,What is a skill you have that is not listed on your resume?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Hidden skills; behavioral question,
+2315,What is a technical challenge you faced in your previous project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question,
+2318,What is an idea you have used in your career to add value to an organization?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Value creation; behavioral question,
+2346,What is the most impressive thing you have done?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question,
+2347,What is the most innovative idea you have ever had?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question,
+2348,What is the most innovative thing you have ever done?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Innovation; behavioral question,
+2367,What is your favorite leadership principle?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Leadership; behavioral question,
+2374,What is your greatest weakness and why do you think that it will not impact this role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Weaknesses; behavioral question,
+2377,What is your pet peeve?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal preference; behavioral question,
+2386,What kind of news do you read?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question,
+2416,What other companies are you interviewing at and why?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job search; behavioral question,
+2419,What parts of OpenAI's mission statement resonate with you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company mission; behavioral question,
+2434,What sets you apart from other data analysts?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Differentiation; behavioral question,
+2446,What technical contributions have you made to a project?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Technical contributions; behavioral question,
+2450,What tools do you use as a TPM? What tools are you familiar with?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),TPM tools; behavioral question,
+2451,What tools have you used as a TPM?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),TPM tools; behavioral question,
+2455,"What type of culture are you looking for, and how would you help build it here?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Culture; behavioral question,
+2466,What would you change about your time at [Current Company]?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company reflection; behavioral question,
+2475,What would you do on your first day as a PM?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),First day; behavioral question,
+2479,What would your closest friend say about you and your strengths?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-reflection; behavioral question,
+2491,What's the most fun thing you did recently?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Personal interests; behavioral question,
+2497,"What's your biggest challenge as a PM, and how did you overcome it?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),PM challenge; behavioral question,
+2520,When do you consider a design review completed?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design review; behavioral question,
+2529,"Where do you think the ""data world"" is going—what's coming next?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Industry trends; behavioral question,
+2534,Which leadership principle do you least resonate with?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Leadership principles; behavioral question,
+2535,Which of Twilio's values appeals to you the most?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company values; behavioral question,
+2540,Who is your role model?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Role model; behavioral question,
+2547,Why are you leaving consulting?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career transition; behavioral question,
+2563,Why did you choose analytics as a career?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Career choice; behavioral question,
+2564,Why did you choose to attend [College]?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Education choice; behavioral question,
+2565,Why did you leave your last role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job transition; behavioral question,
+2571,Why do you think we should not hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-awareness; behavioral question,
+2572,Why do you think you would be a good fit for Microsoft's mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company fit; behavioral question,
+2634,Would you like to apply design thinking in your future role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design thinking; behavioral question,
+1070,How do you deal with ambiguous situations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question,
+2254,"What challenge do you anticipate in this role, and what excites you most about it?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2284,What excites you most about technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2300,What got you interested in technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2412,What motivates you to get up from the bed?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2413,What motivates you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2543,Why are you interested in becoming a Chief of Staff?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2573,Why do you want to be a PM? What aspects of product management are you most passionate about?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2574,Why do you want to be a PM? What experiences have pointed to this being the right role for you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2575,Why do you want to be a Product Manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2576,Why do you want to be a product manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2577,Why do you want to join a Graduate Scheme?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2580,Why do you want to switch jobs now?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit,
+2625,Why should we hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question,
+1948,Tell me about a time when you had to say no to someone.,🟢,N/A,N/A,N/A,Saying no; behavioral question,
+1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,N/A,N/A,N/A,Deadline management; behavioral question,
+149,Can you introduce yourself?,🟢,N/A,N/A,N/A,Self-introduction; communication,
+228,Describe a time you used data to improve an internal process.,🟢,P15A,Behavioral - Personal & Motivation,Situation → Task → Action → Result (STAR),Data-driven improvement; behavioral question,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."

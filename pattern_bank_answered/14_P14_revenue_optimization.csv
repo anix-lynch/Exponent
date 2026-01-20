@@ -50,3 +50,14 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2726,You're a PM at an e-commerce site. What percentage discount should different customers get during onboarding?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Funnel analysis Revenue optimization; growth strategy,
 2823,You're a PM for Spotify. How would you increase revenue 5x in the next five years?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Revenue growth strategy,
 2855,You're the CPO of a small bricks-and-mortar supermarket chain with no online presence and declining revenue over the last 5-10 years. What would you do?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Revenue decline; growth strategy,
+105,"As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Revenue increase analysis; geographic segmentation,"Clarify: Define success metric and target. Current revenue rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
