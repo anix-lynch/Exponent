@@ -1,0 +1,36 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+218,Describe a time when you discovered inefficiency midway through a project. What did you do?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+902,Give me an example of a time when you had to work outside your comfort zone. How did you gain expertise in that area?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning agility; behavioral question
+1892,Tell me about a time in your career when you faced ambiguity.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
+1922,Tell me about a time when you gave a simple solution to a complex problem.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1936,Tell me about a time when you had to find a simple solution to solve a very complex problem.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1949,Tell me about a time when you had to solve a difficult problem.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1964,"Tell me about a time when you made a poor decision, and learned from it to make a better decision after.",🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Decision learning; behavioral question
+1987,Tell me about a time when you solved a complex problem and how you went about it.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Complex problem; behavioral question
+1989,Tell me about a time when you solved a problem innovatively.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Innovative solution; behavioral question
+2033,Tell me about a time you continuously improved a project.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Continuous improvement; behavioral question
+2060,Tell me about a time you had to learn something quickly.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Quick learning; behavioral question
+2069,Tell me about a time you improved a broken process or system.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+2361,What is your experience with machine learning?,🔴,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),ML experience; technical question
+1047,How do you approach personal growth and learning?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Personal development; behavioral question
+1250,How would you approach learning about a task that you're completely unfamiliar with?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2728,You're a PM at Apple Maps. How would you improve the overall user experience?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Operational question
+2767,You're a PM at Ticketmaster. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Operational question
+2772,You're a PM at United Airlines. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Operational question
+1862,Tell me about a machine learning research topic you find interesting.,🔴,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),ML research; technical question
+203,Describe a complex technical problem you solved in a simple way.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Problem-solving case study; technical communication
+212,Describe a situation where you learned something from media and successfully applied it to your work.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning and application; behavioral question
+719,Discuss a broken process in your organization and how you addressed it.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+1122,How do you learn new technologies?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1152,How do you stay up to date with advancements in machine learning?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1172,How has this program improved or deteriorated because of your involvement?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Impact assessment; behavioral question
+1362,How would you go about learning a new technology when starting a new program?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1781,Provide an example of a complex problem you solved.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1863,Tell me about a mistake you made and what you learned from it.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Mistake; behavioral question
+1883,Tell me about a skill you recently learned.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2105,Tell me about something you learned that improved your job performance.,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2255,What changes or improvements would you recommend to the company's WFH policies to increase employee productivity and satisfaction?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),WFH policies; behavioral question
+2469,What would you do if introduced to new technology that you have never used before? How would you know you have learned it well?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2476,What would you have done differently in a process you improved?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Process reflection; behavioral question
+2483,What's an area you're trying to improve?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Self-improvement; behavioral question
+2490,What's the hardest engineering challenge you've ever solved?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Engineering challenge; behavioral question

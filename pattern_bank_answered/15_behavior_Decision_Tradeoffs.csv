@@ -1,0 +1,7 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+1939,Tell me about a time when you had to make a decision quickly.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Quick decision; behavioral question
+1948,Tell me about a time when you had to say no to someone.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Saying no; behavioral question
+1965,Tell me about a time when you made a prioritization tradeoff.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Prioritization tradeoff; behavioral question
+1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Independent decision; behavioral question
+2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Multi-project prioritization; behavioral question
+1888,Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Technical debt; tradeoff analysis

@@ -1,0 +1,32 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+1899,Tell me about a time when you built out a process.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Process building; behavioral question
+1917,Tell me about a time when you failed to launch a product.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1957,Tell me about a time when you launched a product.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product launch; behavioral question
+2011,Tell me about a time when you were unable to launch your product on schedule.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Schedule failure; behavioral question
+2062,Tell me about a time you had to pivot your marketing strategy mid-launch.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Strategy pivot; behavioral question
+1860,Tell me about a machine learning project you worked on and its outcome.,🔴,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),ML project; technical question
+1861,Tell me about a machine learning project you worked on.,🔴,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),ML project; technical question
+1870,Tell me about a project where you applied the CAP theorem.,🔴,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),System design theory; technical question
+1885,Tell me about a system design problem you solved with machine learning.,🔴,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),ML system design; technical question
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Feature prioritization; behavioral question
+1770,Present a shipped project you led end-to-end.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Project presentation; executive communication
+721,Discuss how you managed an end-to-end product design to launch.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product launch; behavioral question
+779,Explain a feature you've launched.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Feature case study; behavioral question
+780,Explain a piece of software you built.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Software case study; behavioral question
+804,Explain how you took or would take a product from ideation to launch.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product launch; behavioral question
+835,Explain the most complex product you have built.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product case study; behavioral question
+1858,Tell me about a failed product launch and what you learned.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1866,Tell me about a product or feature you shipped.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product shipping; behavioral question
+1867,Tell me about a product you launched successfully.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product launch; behavioral question
+1868,Tell me about a product you shipped that failed.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product failure; behavioral question
+2099,Tell me about an end-to-end product you worked on.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),End-to-end product; behavioral question
+2104,Tell me about something you built end-to-end without relying on others.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Independent work; behavioral question
+154,Can you talk us through a product you've scoped and built? Include the goal and your specific role.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product case study; behavioral question
+1003,"Have you done any vibe coding"" or built anything outside work that shows AI-first product thinking?""",🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Side projects; behavioral question
+1806,Share your experience around launching a product from 0 to 1.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product launch; behavioral question
+2107,Tell me about the accomplishment you are most proud of.,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
+2243,What are you most proud of in your career?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Career pride; behavioral question
+2352,What is the project you are most proud of?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Project pride; behavioral question
+2385,What kind of experiences have you built in your career?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Career experiences; behavioral question
+2423,What product are you most proud of? What problems did you solve and what were the outcomes?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product pride; behavioral question
+2427,What product that you led are you most proud of and why?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product leadership; behavioral question

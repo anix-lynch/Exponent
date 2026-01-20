@@ -1,0 +1,19 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+1918,Tell me about a time when you failed to pitch something to leadership.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Pitch failure; behavioral question
+222,Describe a time when your project failed.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Failure handling; behavioral question
+224,Describe a time where a project didn't meet the client's expectations.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Expectation management; behavioral question
+903,Give me an example of a time when you were unable to meet a commitment. What was the impact?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Accountability; behavioral question
+1937,Tell me about a time when you had to handle pressure.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Pressure handling; behavioral question
+1971,Tell me about a time when you missed a deadline.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Deadline miss; behavioral question
+1995,Tell me about a time when you took ownership of a project you weren't originally responsible for.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Ownership; behavioral question
+2014,Tell me about a time when you worked on a project with a tight deadline.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Tight deadline; behavioral question
+2035,Tell me about a time you couldn't meet your deadline.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Deadline failure; behavioral question
+2044,Tell me about a time you failed.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Failure; behavioral question
+2045,Tell me about a time you failed. What would you have done differently?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Failure reflection; behavioral question
+2493,What's your approach to building a culture of accountability?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Culture building; behavioral question
+1004,Have you ever faced a project deadline that was earlier than expected? How did you handle it and what was the outcome?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Deadline management; behavioral question
+1005,Have you ever failed to meet your commitments?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Accountability; behavioral question
+1625,"If you join a project that is 25% complete and has used 85% of resources, what would be your next steps?",🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Project recovery; operational excellence
+1851,Tell me a challenging situation when things went wrong and how you reacted.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question
+2693,You join a project that is only 25% complete but has used 75% of its resources. What are your next steps?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Project recovery; operational excellence
+2880,You're working on a project where deadlines and targets are constantly slipping. How would you handle this?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Operational question
