@@ -1,0 +1,981 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+287,"Design a data pipeline that updates hourly and powers a dashboard showing the most common Alexa user requests, broken down by country.",🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,Data pipeline design; ETL system,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+302,"Design a distributed database system, for example, Kafka.",🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; distributed database,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+304,Design a distributed logging system.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; logging system,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+307,Design a document processing pipeline.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; document processing,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+354,Design a live event streaming system that captures user polls and allows user interaction,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; live streaming,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: deliver live content to viewers with low latency
+  📊 Success metric: stream latency, buffering rate, concurrent viewers, quality
+  🚫 Non-goals: video on demand, chat, monetization (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: viewers on web, mobile, TV apps
+  🎥 Encoder: transcode video to multiple quality levels
+  📡 CDN: deliver video chunks to viewers globally
+  📊 Analytics: track views, engagement, quality metrics
+  💾 Origin server: store master video files
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+355,Design a load balancer.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; load balancing,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+490,Design a solution for matching incoming 'new restaurant' data with existing entities in a large restaurant database.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; entity matching,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+497,"Design a system capable of identifying ships that deviate from their course using a dataset that tracks ship positions, recorded as tuples containing (ship_ID, x, y, z, timestamp), with irregular t...",🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; anomaly detection,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: serve ML models with low latency and high accuracy
+  📊 Success metric: inference latency, model accuracy, throughput, cost per prediction
+  🚫 Non-goals: model training, feature engineering, A/B testing (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: applications making inference requests
+  🤖 Model serving: load models, handle inference requests
+  📊 Feature store: serve features for model input
+  ⚙️ Preprocessing: data transformation, feature engineering
+  📈 Monitoring: track model performance, drift, latency
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+500,Design a system for doctors to upload X-rays and get ML results for preliminary diagnosis.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; healthcare ML,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: serve ML models with low latency and high accuracy
+  📊 Success metric: inference latency, model accuracy, throughput, cost per prediction
+  🚫 Non-goals: model training, feature engineering, A/B testing (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: applications making inference requests
+  🤖 Model serving: load models, handle inference requests
+  📊 Feature store: serve features for model input
+  ⚙️ Preprocessing: data transformation, feature engineering
+  📈 Monitoring: track model performance, drift, latency
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+509,Design a system to ingest large amounts of JSON data from multiple S3 buckets,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; data ingestion,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: store and retrieve files reliably with high availability
+  📊 Success metric: upload/download speed, durability, storage cost, availability
+  🚫 Non-goals: file versioning, sharing, search (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile apps uploading/downloading files
+  📤 Upload service: handle file uploads, chunking, validation
+  💾 Object storage: S3/GCS for file storage, metadata DB
+  🔄 Replication: ensure durability across regions
+  📥 CDN: cache popular files for fast downloads
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📤 Upload: client → upload service → chunk file → store in object storage → update metadata
+  📥 Download: client → CDN check → object storage → stream to client
+  ⏳ Async: file replication, thumbnail generation, virus scanning
+  ❌ Failure: upload retry, partial upload resume, storage replication
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: upload/download speed, minimize time to first byte
+  🔒 Consistency: strong consistency for metadata, eventual for replication
+  📈 Throughput: handle large files, concurrent uploads/downloads
+  💰 Cost: optimize storage costs (tiering, compression, deduplication)
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: object storage I/O, metadata DB, network bandwidth
+  ⚠️ Single points: object storage, metadata DB, upload service
+  🚦 Backpressure: rate limit uploads, queue large files, throttle downloads
+  💨 Caching: CDN for popular files, cache metadata
+  🔀 Sharding: shard by file_id, replicate across regions
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+520,Design a technical system that replaces faulty parts in a data center.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; data center maintenance,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+547,Design a web crawler to download content from www.example.com without detection.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; web crawling,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+555,Design Amazon Storage.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; cloud storage,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: store and retrieve files reliably with high availability
+  📊 Success metric: upload/download speed, durability, storage cost, availability
+  🚫 Non-goals: file versioning, sharing, search (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile apps uploading/downloading files
+  📤 Upload service: handle file uploads, chunking, validation
+  💾 Object storage: S3/GCS for file storage, metadata DB
+  🔄 Replication: ensure durability across regions
+  📥 CDN: cache popular files for fast downloads
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📤 Upload: client → upload service → chunk file → store in object storage → update metadata
+  📥 Download: client → CDN check → object storage → stream to client
+  ⏳ Async: file replication, thumbnail generation, virus scanning
+  ❌ Failure: upload retry, partial upload resume, storage replication
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: upload/download speed, minimize time to first byte
+  🔒 Consistency: strong consistency for metadata, eventual for replication
+  📈 Throughput: handle large files, concurrent uploads/downloads
+  💰 Cost: optimize storage costs (tiering, compression, deduplication)
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: object storage I/O, metadata DB, network bandwidth
+  ⚠️ Single points: object storage, metadata DB, upload service
+  🚦 Backpressure: rate limit uploads, queue large files, throttle downloads
+  💨 Caching: CDN for popular files, cache metadata
+  🔀 Sharding: shard by file_id, replicate across regions
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+560,Design an AI agent for a streaming service.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; AI agent,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: deliver live content to viewers with low latency
+  📊 Success metric: stream latency, buffering rate, concurrent viewers, quality
+  🚫 Non-goals: video on demand, chat, monetization (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: viewers on web, mobile, TV apps
+  🎥 Encoder: transcode video to multiple quality levels
+  📡 CDN: deliver video chunks to viewers globally
+  📊 Analytics: track views, engagement, quality metrics
+  💾 Origin server: store master video files
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+562,Design an AI system that integrates with a third-party company's data and workflows.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; AI integration,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: serve ML models with low latency and high accuracy
+  📊 Success metric: inference latency, model accuracy, throughput, cost per prediction
+  🚫 Non-goals: model training, feature engineering, A/B testing (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: applications making inference requests
+  🤖 Model serving: load models, handle inference requests
+  📊 Feature store: serve features for model input
+  ⚙️ Preprocessing: data transformation, feature engineering
+  📈 Monitoring: track model performance, drift, latency
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+610,Design an ETL Pipeline for a ML Platform for AWS,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; ETL pipeline,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+611,Design an ETL Pipeline for Slack for School,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; ETL pipeline,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+630,Design an online file storage and sharing platform.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; file storage,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: store and retrieve files reliably with high availability
+  📊 Success metric: upload/download speed, durability, storage cost, availability
+  🚫 Non-goals: file versioning, sharing, search (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile apps uploading/downloading files
+  📤 Upload service: handle file uploads, chunking, validation
+  💾 Object storage: S3/GCS for file storage, metadata DB
+  🔄 Replication: ensure durability across regions
+  📥 CDN: cache popular files for fast downloads
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📤 Upload: client → upload service → chunk file → store in object storage → update metadata
+  📥 Download: client → CDN check → object storage → stream to client
+  ⏳ Async: file replication, thumbnail generation, virus scanning
+  ❌ Failure: upload retry, partial upload resume, storage replication
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: upload/download speed, minimize time to first byte
+  🔒 Consistency: strong consistency for metadata, eventual for replication
+  📈 Throughput: handle large files, concurrent uploads/downloads
+  💰 Cost: optimize storage costs (tiering, compression, deduplication)
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: object storage I/O, metadata DB, network bandwidth
+  ⚠️ Single points: object storage, metadata DB, upload service
+  🚦 Backpressure: rate limit uploads, queue large files, throttle downloads
+  💨 Caching: CDN for popular files, cache metadata
+  🔀 Sharding: shard by file_id, replicate across regions
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+658,Design Netflix's Clickstream Data Pipeline,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; data pipeline,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+669,Design the architecture for Google Maps to load in under 100ms.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; performance optimization,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+672,Design the backend of a feature that allows users to download their data from their Facebook account.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; data export,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+683,Design Twitch or any live streaming platform.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; live streaming,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: deliver live content to viewers with low latency
+  📊 Success metric: stream latency, buffering rate, concurrent viewers, quality
+  🚫 Non-goals: video on demand, chat, monetization (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: viewers on web, mobile, TV apps
+  🎥 Encoder: transcode video to multiple quality levels
+  📡 CDN: deliver video chunks to viewers globally
+  📊 Analytics: track views, engagement, quality metrics
+  💾 Origin server: store master video files
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+805,"Explain how you would design Google Play Store, including your choice of database, its structure, and rationale.",🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,System design; database architecture,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: serve ML models with low latency and high accuracy
+  📊 Success metric: inference latency, model accuracy, throughput, cost per prediction
+  🚫 Non-goals: model training, feature engineering, A/B testing (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: applications making inference requests
+  🤖 Model serving: load models, handle inference requests
+  📊 Feature store: serve features for model input
+  ⚙️ Preprocessing: data transformation, feature engineering
+  📈 Monitoring: track model performance, drift, latency
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+977,"Given that AWS Glue is underperforming, what other ETL tools would you consider using to handle unstructured data in the data warehouse?",🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,ETL tool selection; system design,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+1024,How can Stripe use data to predict the optimal time to retry a transaction?,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,Predictive system; transaction retry,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process transactions securely and reliably
+  📊 Success metric: transaction success rate, latency, fraud detection, availability
+  🚫 Non-goals: refunds, disputes, multi-currency (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: merchants, payment gateways, mobile apps
+  💳 Payment processor: authorize, capture, settle transactions
+  🏦 Bank gateway: communicate with payment networks
+  🔒 Fraud detection: ML models to detect suspicious transactions
+  💾 Transaction store: database for transaction history, reconciliation
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+1782,Question related to data architecture.,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,Data architecture; system design,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: what is the main user need or business objective?
+  📊 Success metric: latency, reliability, accuracy, cost, what defines success?
+  🚫 Non-goals: explicitly say what's out of scope, what we're NOT building
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📱 Clients: web, mobile, internal tools, what are the entry points?
+  📥 Ingestion: APIs, SDKs, event collectors, how does data enter?
+  ⚙️ Processing: sync vs async, how is data processed?
+  💾 Storage: hot / warm / cold, where is data stored?
+  🖥️ Compute: stateless vs stateful, how is computation handled?
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📖 Request path (read): how do read requests flow through the system?
+  ✍️ Write path (create/update): how do write requests flow through?
+  ⏳ Async paths: queues, streams, retries, how are async ops handled?
+  ❌ Failure paths: timeouts, backpressure, how are failures handled?
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency SLOs: what are the latency requirements?
+  🔒 Consistency: strong vs eventual consistency?
+  📈 Throughput: how many requests per second must we handle?
+  💰 Cost ceilings: what are the budget constraints?
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: DB, network, fan-out, where will it slow down?
+  ⚠️ Single points of failure: what components have no redundancy?
+  🚦 Backpressure: how do we handle overload?
+  💨 Caching: where can we cache to reduce load?
+  🔀 Sharding / partitioning: how do we distribute data?
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+2486,What's the difference between a data lakehouse and a data warehouse?,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,Data architecture; system design,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
+2526,When should you use Delta Live Tables over standard data pipelines built on Spark and Delta Lake?,🟡,L14_DE,System Design - Data Engineering,Components → Data Flow → Boundaries → Scale Considerations,Data pipeline choice; system design,"🎯 Define the GOAL: Clarify what problem we're solving
+  👥 Primary user goal: process, transform, and deliver data reliably and efficiently
+  📊 Success metric: data freshness, throughput, accuracy, cost per GB
+  🚫 Non-goals: real-time processing, data quality checks (initially)
+  ⚠️ Rule: If the goal isn't clear, architecture will be wrong
+
+🧩 Identify CORE COMPONENTS: Define what blocks exist
+  📥 Ingestion: batch jobs, stream processors, API collectors
+  ⚙️ Processing: ETL/ELT engines (Spark, Flink, Dataflow)
+  💾 Storage: data lake (S3), warehouse (Snowflake), staging DB
+  📊 Transformation: data cleaning, aggregation, enrichment
+  📈 Orchestration: schedulers (Airflow), workflow managers
+  ⚠️ Rule: Name boxes before wiring arrows
+
+🔄 Data FLOW: Describe how data moves end-to-end
+  📥 Ingest: source systems → message queue → batch/stream processor
+  ⚙️ Transform: raw data → cleaned → transformed → aggregated → loaded
+  💾 Store: processed data → data warehouse → serve to dashboards/APIs
+  ❌ Failure: retry failed jobs, dead letter queue, data quality checks
+  ⚠️ Rule: Always describe the happy path first
+
+🚧 Boundaries & CONSTRAINTS: Identify what limits us
+  ⏱️ Latency: batch processing acceptable (hourly/daily), not real-time
+  🔒 Consistency: eventual consistency OK, data freshness SLA
+  📈 Throughput: handle TB/PB scale, process within time window
+  💰 Cost: optimize compute costs, use spot instances where possible
+  ⚠️ Rule: Constraints shape architecture more than features
+
+📈 Scale & FAILURE MODES: Consider what breaks at 10×
+  🐌 Bottlenecks: processing time, storage I/O, network bandwidth
+  ⚠️ Single points: orchestrator, data warehouse, source systems
+  🚦 Backpressure: queue jobs, parallelize processing, auto-scale workers
+  💨 Caching: cache intermediate results, materialized views
+  🔀 Partitioning: partition data by time/region, process in parallel
+  ⚠️ Rule: Talk about failure BEFORE optimization"
