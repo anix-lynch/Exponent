@@ -1,1 +1,2 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer,short_answer
+1571,How would you structure the CEO's calendar and priorities?,🟢,L6,Ops Tradeoffs,Constraints → Tradeoffs → Decision → Monitor,Executive operations; calendar management; ops tradeoffs,,
