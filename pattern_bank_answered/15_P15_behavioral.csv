@@ -1,0 +1,58 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+23,"Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with metrics?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Behavioral self-assessment
+29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Behavioral; tool familiarity
+36,"As a manager, how do you handle trade-offs?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Abstract behavioral; no specific scenario
+1196,How many lane divider stripes are there on the German autobahn?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Math estimation; brain teaser
+1612,"If you could go to anywhere in the world, where would you go?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal question; not relevant
+1860,Tell me about a machine learning project you worked on and its outcome.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML project; technical question
+1861,Tell me about a machine learning project you worked on.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML project; technical question
+1862,Tell me about a machine learning research topic you find interesting.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML research; technical question
+1870,Tell me about a project where you applied the CAP theorem.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),System design theory; technical question
+1885,Tell me about a system design problem you solved with machine learning.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML system design; technical question
+2116,Tell me about your day as a software engineer.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical role description; not relevant for data analyst
+2119,Tell me about your experience with computer vision.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML specialization; technical question
+2121,Tell me about your experience with Java.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Programming language; technical question
+2122,Tell me about your experience with JavaScript.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Programming language; technical question
+2123,Tell me about your experience with natural language processing.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML specialization; technical question
+2125,Tell me about your experience with React.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Programming framework; technical question
+2126,Tell me about your experience with RxJava.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Programming framework; technical question
+2127,Tell me about your experience with TypeScript.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Programming language; technical question
+2152,Tell us about one of your trips.,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal question; not relevant
+2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Coding motivation; not relevant for data analyst
+2361,What is your experience with machine learning?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),ML experience; technical question
+2496,What's your approach to prompt engineering?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Prompt engineering; ML technical question
+2498,What's your experience with 3D graphics?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),3D graphics; technical question
+2499,What's your experience with DirectX?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),DirectX; technical question
+2500,What's your experience with ray tracing in video games?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Ray tracing; technical question
+2561,Why did you become a Software Engineer?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst
+2562,Why did you become an engineer?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Career choice; not relevant for data analyst
+2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Coding/algorithm/ML; implementation required
+2846,You're leading a geographically dispersed team. What strategies and practices would you implement to ensure clear and effective communication?,🔴,P15,Behavioral,Situation → Task → Action → Result (STAR),Coding/algorithm/ML; implementation required
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Feature prioritization; behavioral question
+1873,Tell me about a project where you prioritized the customer.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Customer prioritization; behavioral question
+1939,Tell me about a time when you had to make a decision quickly.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Quick decision; behavioral question
+1942,Tell me about a time when you had to make a significant decision without your manager.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Independent decision; behavioral question
+1948,Tell me about a time when you had to say no to someone.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Saying no; behavioral question
+1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Deadline management; behavioral question
+1954,Tell me about a time when you influenced a product roadmap.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Roadmap influence; behavioral question
+1955,Tell me about a time when you influenced the roadmap for a team and brought about a shift in thought.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Roadmap influence; behavioral question
+1965,Tell me about a time when you made a prioritization tradeoff.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Prioritization tradeoff; behavioral question
+1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Independent decision; behavioral question
+2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Multi-project prioritization; behavioral question
+2024,"Tell me about a time when your technical judgment influenced a program, leading to a change in project scope or roadmap.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical judgment; behavioral question
+206,"Describe a SaaS pricing and packaging strategy project you managed, detailing the objectives, challenges, methodology, data and tools used, and outcomes.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Pricing strategy case study; behavioral question
+1888,Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical debt; tradeoff analysis
+1889,Tell me about a technical decision you made and its impact on your project.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical decision; tradeoff analysis
+1901,Tell me about a time when you chose one solution from many possible solutions.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Solution selection; behavioral question
+215,Describe a time when a project lacked key information.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Information gaps; behavioral question
+149,Can you introduce yourself?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-introduction; communication
+243,Describe your communication style when working with C-suite executives.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Executive communication; behavioral question
+246,Describe your experience with board meeting preparation and follow-up.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Board communication; behavioral question
+1299,How would you describe what our company does to your grandmother?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Simplification; communication
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1768,Present a past AI-focused solution that you've worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),AI solution presentation; executive communication
+1769,Present a recent project with big scale and cross-functional involvement.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1770,Present a shipped project you led end-to-end.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1771,Present slides on a past project you've worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1918,Tell me about a time when you failed to pitch something to leadership.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Pitch failure; behavioral question
+1929,Tell me about a time when you had to break a complex problem down for different cross-functional teams.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem breakdown; behavioral question
