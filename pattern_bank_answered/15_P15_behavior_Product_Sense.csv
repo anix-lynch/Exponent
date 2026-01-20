@@ -30,3 +30,5 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2385,What kind of experiences have you built in your career?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Career experiences; behavioral question
 2423,What product are you most proud of? What problems did you solve and what were the outcomes?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product pride; behavioral question
 2427,What product that you led are you most proud of and why?,🟢,P15F,Product Sense (Behavioral),Situation → Task → Action → Result (STAR),Product leadership; behavioral question
+1954,Tell me about a time when you influenced a product roadmap.,🟢,N/A,N/A,N/A,Roadmap influence; behavioral question
+2024,"Tell me about a time when your technical judgment influenced a program, leading to a change in project scope or roadmap.",🟢,N/A,N/A,N/A,Technical judgment; behavioral question

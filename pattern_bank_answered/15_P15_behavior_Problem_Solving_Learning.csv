@@ -34,3 +34,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2476,What would you have done differently in a process you improved?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Process reflection; behavioral question
 2483,What's an area you're trying to improve?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Self-improvement; behavioral question
 2490,What's the hardest engineering challenge you've ever solved?,🟢,P15D,Problem Solving & Learning,Situation → Task → Action → Result (STAR),Engineering challenge; behavioral question
+215,Describe a time when a project lacked key information.,🟢,N/A,N/A,N/A,Information gaps; behavioral question
+1918,Tell me about a time when you failed to pitch something to leadership.,🟢,N/A,N/A,N/A,Pitch failure; behavioral question
+1929,Tell me about a time when you had to break a complex problem down for different cross-functional teams.,🟢,N/A,N/A,N/A,Problem breakdown; behavioral question

@@ -49,3 +49,7 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2482,What's a tool you think other product managers should use?,🟢,P15E,Leadership & Collaboration,Situation → Task → Action → Result (STAR),Tool recommendation; behavioral question
 2484,What's the best and worst performing team you've been on?,🟢,P15E,Leadership & Collaboration,Situation → Task → Action → Result (STAR),Team performance; behavioral question
 2684,You are working on a project remotely without meeting team members. What steps would you take to ensure smooth operations?,🟢,P15E,Leadership & Collaboration,Situation → Task → Action → Result (STAR),Remote work; operational excellence
+1955,Tell me about a time when you influenced the roadmap for a team and brought about a shift in thought.,🟢,N/A,N/A,N/A,Roadmap influence; behavioral question
+243,Describe your communication style when working with C-suite executives.,🟢,N/A,N/A,N/A,Executive communication; behavioral question
+246,Describe your experience with board meeting preparation and follow-up.,🟢,N/A,N/A,N/A,Board communication; behavioral question
+1299,How would you describe what our company does to your grandmother?,🟢,N/A,N/A,N/A,Simplification; communication

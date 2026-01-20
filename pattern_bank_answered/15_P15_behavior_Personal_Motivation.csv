@@ -195,3 +195,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2577,Why do you want to join a Graduate Scheme?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
 2580,Why do you want to switch jobs now?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
 2625,Why should we hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question
+1948,Tell me about a time when you had to say no to someone.,🟢,N/A,N/A,N/A,Saying no; behavioral question
+1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,N/A,N/A,N/A,Deadline management; behavioral question
+149,Can you introduce yourself?,🟢,N/A,N/A,N/A,Self-introduction; communication

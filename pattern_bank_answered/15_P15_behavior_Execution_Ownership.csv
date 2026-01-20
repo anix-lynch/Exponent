@@ -17,3 +17,10 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 1851,Tell me a challenging situation when things went wrong and how you reacted.,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question
 2693,You join a project that is only 25% complete but has used 75% of its resources. What are your next steps?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Project recovery; operational excellence
 2880,You're working on a project where deadlines and targets are constantly slipping. How would you handle this?,🟢,P15B,Execution & Ownership,Situation → Task → Action → Result (STAR),Operational question
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,N/A,N/A,N/A,Feature prioritization; behavioral question
+206,"Describe a SaaS pricing and packaging strategy project you managed, detailing the objectives, challenges, methodology, data and tools used, and outcomes.",🟢,N/A,N/A,N/A,Pricing strategy case study; behavioral question
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,N/A,N/A,N/A,Project presentation; executive communication
+1768,Present a past AI-focused solution that you've worked on.,🟢,N/A,N/A,N/A,AI solution presentation; executive communication
+1769,Present a recent project with big scale and cross-functional involvement.,🟢,N/A,N/A,N/A,Project presentation; executive communication
+1770,Present a shipped project you led end-to-end.,🟢,N/A,N/A,N/A,Project presentation; executive communication
+1771,Present slides on a past project you've worked on.,🟢,N/A,N/A,N/A,Project presentation; executive communication

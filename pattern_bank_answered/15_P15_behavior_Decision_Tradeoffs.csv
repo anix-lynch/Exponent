@@ -5,3 +5,12 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Independent decision; behavioral question
 2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Multi-project prioritization; behavioral question
 1888,Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?,🟢,P15C,Decision-Making & Tradeoffs,Situation → Task → Action → Result (STAR),Technical debt; tradeoff analysis
+1873,Tell me about a project where you prioritized the customer.,🟢,N/A,N/A,N/A,Customer prioritization; behavioral question
+1939,Tell me about a time when you had to make a decision quickly.,🟢,N/A,N/A,N/A,Quick decision; behavioral question
+1942,Tell me about a time when you had to make a significant decision without your manager.,🟢,N/A,N/A,N/A,Independent decision; behavioral question
+1965,Tell me about a time when you made a prioritization tradeoff.,🟢,N/A,N/A,N/A,Prioritization tradeoff; behavioral question
+1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,N/A,N/A,N/A,Independent decision; behavioral question
+2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,N/A,N/A,N/A,Multi-project prioritization; behavioral question
+1888,Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?,🟢,N/A,N/A,N/A,Technical debt; tradeoff analysis
+1889,Tell me about a technical decision you made and its impact on your project.,🟢,N/A,N/A,N/A,Technical decision; tradeoff analysis
+1901,Tell me about a time when you chose one solution from many possible solutions.,🟢,N/A,N/A,N/A,Solution selection; behavioral question
