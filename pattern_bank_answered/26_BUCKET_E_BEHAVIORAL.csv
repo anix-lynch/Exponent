@@ -1,30 +1,58 @@
-question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,salvageable,simple_explanation,bucket
-23,"Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with metrics?",🔴,N/A,N/A,N/A,Behavioral self-assessment,NO,N/A - Too complex or not relevant,E
-29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,N/A,N/A,N/A,Behavioral; tool familiarity,NO,N/A - Too complex or not relevant,E
-36,"As a manager, how do you handle trade-offs?",🔴,N/A,N/A,N/A,Abstract behavioral; no specific scenario,NO,N/A - Too complex or not relevant,E
-1196,How many lane divider stripes are there on the German autobahn?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,E
-1612,"If you could go to anywhere in the world, where would you go?",🔴,N/A,N/A,N/A,Personal question; not relevant,NO,N/A - Too complex or not relevant,E
-1860,Tell me about a machine learning project you worked on and its outcome.,🔴,N/A,N/A,N/A,ML project; technical question,NO,N/A - Too complex or not relevant,E
-1861,Tell me about a machine learning project you worked on.,🔴,N/A,N/A,N/A,ML project; technical question,NO,N/A - Too complex or not relevant,E
-1862,Tell me about a machine learning research topic you find interesting.,🔴,N/A,N/A,N/A,ML research; technical question,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",E
-1870,Tell me about a project where you applied the CAP theorem.,🔴,N/A,N/A,N/A,System design theory; technical question,NO,N/A - Too complex or not relevant,E
-1885,Tell me about a system design problem you solved with machine learning.,🔴,N/A,N/A,N/A,ML system design; technical question,NO,N/A - Too complex or not relevant,E
-2116,Tell me about your day as a software engineer.,🔴,N/A,N/A,N/A,Technical role description; not relevant for data analyst,NO,N/A - Too complex or not relevant,E
-2119,Tell me about your experience with computer vision.,🔴,N/A,N/A,N/A,ML specialization; technical question,NO,N/A - Too complex or not relevant,E
-2121,Tell me about your experience with Java.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E
-2122,Tell me about your experience with JavaScript.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E
-2123,Tell me about your experience with natural language processing.,🔴,N/A,N/A,N/A,ML specialization; technical question,NO,N/A - Too complex or not relevant,E
-2125,Tell me about your experience with React.,🔴,N/A,N/A,N/A,Programming framework; technical question,NO,N/A - Too complex or not relevant,E
-2126,Tell me about your experience with RxJava.,🔴,N/A,N/A,N/A,Programming framework; technical question,NO,N/A - Too complex or not relevant,E
-2127,Tell me about your experience with TypeScript.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E
-2152,Tell us about one of your trips.,🔴,N/A,N/A,N/A,Personal question; not relevant,NO,N/A - Too complex or not relevant,E
-2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,N/A,N/A,N/A,Coding motivation; not relevant for data analyst,NO,N/A - Too complex or not relevant,E
-2361,What is your experience with machine learning?,🔴,N/A,N/A,N/A,ML experience; technical question,NO,N/A - Too complex or not relevant,E
-2496,What's your approach to prompt engineering?,🔴,N/A,N/A,N/A,Prompt engineering; ML technical question,NO,N/A - Too complex or not relevant,E
-2498,What's your experience with 3D graphics?,🔴,N/A,N/A,N/A,3D graphics; technical question,NO,N/A - Too complex or not relevant,E
-2499,What's your experience with DirectX?,🔴,N/A,N/A,N/A,DirectX; technical question,NO,N/A - Too complex or not relevant,E
-2500,What's your experience with ray tracing in video games?,🔴,N/A,N/A,N/A,Ray tracing; technical question,NO,N/A - Too complex or not relevant,E
-2561,Why did you become a Software Engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst,NO,N/A - Too complex or not relevant,E
-2562,Why did you become an engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst,NO,N/A - Too complex or not relevant,E
-2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required,YES,Break into steps. Identify data structures needed. Write functions for each operation,E
-2846,You're leading a geographically dispersed team. What strategies and practices would you implement to ensure clear and effective communication?,🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required,YES,"Graph = nodes connected by edges. Visit neighbors, mark visited. Use queue (BFS) or stack (DFS)",E
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,salvageable,simple_explanation,bucket,short_answer
+23,"Among the following PM traits, which is your greatest strength and which is your greatest weakness: working with engineering, execution, ideation and visioning, working with design, working with metrics?",🔴,N/A,N/A,N/A,Behavioral self-assessment,NO,N/A - Too complex or not relevant,E,
+29,"Are you familiar with AI prototyping? Which tools or platforms have you used, and what has your experience been with them so far?",🔴,N/A,N/A,N/A,Behavioral; tool familiarity,NO,N/A - Too complex or not relevant,E,
+36,"As a manager, how do you handle trade-offs?",🔴,N/A,N/A,N/A,Abstract behavioral; no specific scenario,NO,N/A - Too complex or not relevant,E,
+1196,How many lane divider stripes are there on the German autobahn?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,E,
+1612,"If you could go to anywhere in the world, where would you go?",🔴,N/A,N/A,N/A,Personal question; not relevant,NO,N/A - Too complex or not relevant,E,
+1860,Tell me about a machine learning project you worked on and its outcome.,🔴,N/A,N/A,N/A,ML project; technical question,NO,N/A - Too complex or not relevant,E,
+1861,Tell me about a machine learning project you worked on.,🔴,N/A,N/A,N/A,ML project; technical question,NO,N/A - Too complex or not relevant,E,
+1862,Tell me about a machine learning research topic you find interesting.,🔴,N/A,N/A,N/A,ML research; technical question,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",E,
+1870,Tell me about a project where you applied the CAP theorem.,🔴,N/A,N/A,N/A,System design theory; technical question,NO,N/A - Too complex or not relevant,E,
+1885,Tell me about a system design problem you solved with machine learning.,🔴,N/A,N/A,N/A,ML system design; technical question,NO,N/A - Too complex or not relevant,E,
+2116,Tell me about your day as a software engineer.,🔴,N/A,N/A,N/A,Technical role description; not relevant for data analyst,NO,N/A - Too complex or not relevant,E,
+2119,Tell me about your experience with computer vision.,🔴,N/A,N/A,N/A,ML specialization; technical question,NO,N/A - Too complex or not relevant,E,
+2121,Tell me about your experience with Java.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E,
+2122,Tell me about your experience with JavaScript.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E,
+2123,Tell me about your experience with natural language processing.,🔴,N/A,N/A,N/A,ML specialization; technical question,NO,N/A - Too complex or not relevant,E,
+2125,Tell me about your experience with React.,🔴,N/A,N/A,N/A,Programming framework; technical question,NO,N/A - Too complex or not relevant,E,
+2126,Tell me about your experience with RxJava.,🔴,N/A,N/A,N/A,Programming framework; technical question,NO,N/A - Too complex or not relevant,E,
+2127,Tell me about your experience with TypeScript.,🔴,N/A,N/A,N/A,Programming language; technical question,NO,N/A - Too complex or not relevant,E,
+2152,Tell us about one of your trips.,🔴,N/A,N/A,N/A,Personal question; not relevant,NO,N/A - Too complex or not relevant,E,
+2191,What activities or strategies do you use to keep yourself motivated and interested in coding?,🔴,N/A,N/A,N/A,Coding motivation; not relevant for data analyst,NO,N/A - Too complex or not relevant,E,
+2361,What is your experience with machine learning?,🔴,N/A,N/A,N/A,ML experience; technical question,NO,N/A - Too complex or not relevant,E,
+2496,What's your approach to prompt engineering?,🔴,N/A,N/A,N/A,Prompt engineering; ML technical question,NO,N/A - Too complex or not relevant,E,
+2498,What's your experience with 3D graphics?,🔴,N/A,N/A,N/A,3D graphics; technical question,NO,N/A - Too complex or not relevant,E,
+2499,What's your experience with DirectX?,🔴,N/A,N/A,N/A,DirectX; technical question,NO,N/A - Too complex or not relevant,E,
+2500,What's your experience with ray tracing in video games?,🔴,N/A,N/A,N/A,Ray tracing; technical question,NO,N/A - Too complex or not relevant,E,
+2561,Why did you become a Software Engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst,NO,N/A - Too complex or not relevant,E,
+2562,Why did you become an engineer?,🔴,N/A,N/A,N/A,Career choice; not relevant for data analyst,NO,N/A - Too complex or not relevant,E,
+2737,"You're a PM at Instacart responsible for growing the Business Customers segment. What strategies would you implement to attract and retain businesses such as restaurants, retailers, and offices?",🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required,YES,Break into steps. Identify data structures needed. Write functions for each operation,E,
+2846,You're leading a geographically dispersed team. What strategies and practices would you implement to ensure clear and effective communication?,🔴,N/A,N/A,N/A,Coding/algorithm/ML; implementation required,YES,"Graph = nodes connected by edges. Visit neighbors, mark visited. Use queue (BFS) or stack (DFS)",E,
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,N/A,N/A,N/A,Feature prioritization; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1873,Tell me about a project where you prioritized the customer.,🟢,N/A,N/A,N/A,Customer prioritization; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1939,Tell me about a time when you had to make a decision quickly.,🟢,N/A,N/A,N/A,Quick decision; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1942,Tell me about a time when you had to make a significant decision without your manager.,🟢,N/A,N/A,N/A,Independent decision; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1948,Tell me about a time when you had to say no to someone.,🟢,N/A,N/A,N/A,Saying no; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,N/A,N/A,N/A,Deadline management; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1954,Tell me about a time when you influenced a product roadmap.,🟢,N/A,N/A,N/A,Roadmap influence; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1955,Tell me about a time when you influenced the roadmap for a team and brought about a shift in thought.,🟢,N/A,N/A,N/A,Roadmap influence; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1965,Tell me about a time when you made a prioritization tradeoff.,🟢,N/A,N/A,N/A,Prioritization tradeoff; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,N/A,N/A,N/A,Independent decision; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,N/A,N/A,N/A,Multi-project prioritization; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+2024,"Tell me about a time when your technical judgment influenced a program, leading to a change in project scope or roadmap.",🟢,N/A,N/A,N/A,Technical judgment; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+206,"Describe a SaaS pricing and packaging strategy project you managed, detailing the objectives, challenges, methodology, data and tools used, and outcomes.",🟢,N/A,N/A,N/A,Pricing strategy case study; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1888,Tell me about a technical debt you introduced and its consequences. What trade-off options did you have?,🟢,N/A,N/A,N/A,Technical debt; tradeoff analysis,YES,"STAR format: Situation, Task, Action, Result",E,
+1889,Tell me about a technical decision you made and its impact on your project.,🟢,N/A,N/A,N/A,Technical decision; tradeoff analysis,YES,"STAR format: Situation, Task, Action, Result",E,
+1901,Tell me about a time when you chose one solution from many possible solutions.,🟢,N/A,N/A,N/A,Solution selection; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+215,Describe a time when a project lacked key information.,🟢,N/A,N/A,N/A,Information gaps; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+149,Can you introduce yourself?,🟢,N/A,N/A,N/A,Self-introduction; communication,YES,"STAR format: Situation, Task, Action, Result",E,
+243,Describe your communication style when working with C-suite executives.,🟢,N/A,N/A,N/A,Executive communication; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+246,Describe your experience with board meeting preparation and follow-up.,🟢,N/A,N/A,N/A,Board communication; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1299,How would you describe what our company does to your grandmother?,🟢,N/A,N/A,N/A,Simplification; communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,N/A,N/A,N/A,Project presentation; executive communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1768,Present a past AI-focused solution that you've worked on.,🟢,N/A,N/A,N/A,AI solution presentation; executive communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1769,Present a recent project with big scale and cross-functional involvement.,🟢,N/A,N/A,N/A,Project presentation; executive communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1770,Present a shipped project you led end-to-end.,🟢,N/A,N/A,N/A,Project presentation; executive communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1771,Present slides on a past project you've worked on.,🟢,N/A,N/A,N/A,Project presentation; executive communication,YES,"STAR format: Situation, Task, Action, Result",E,
+1918,Tell me about a time when you failed to pitch something to leadership.,🟢,N/A,N/A,N/A,Pitch failure; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,
+1929,Tell me about a time when you had to break a complex problem down for different cross-functional teams.,🟢,N/A,N/A,N/A,Problem breakdown; behavioral question,YES,"STAR format: Situation, Task, Action, Result",E,

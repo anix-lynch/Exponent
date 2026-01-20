@@ -429,3 +429,5 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
   📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
   🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+1278,How would you convey insights and the methods used to a non-technical audience?,🟢,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,Insight communication; data translation,
+1869,Tell me about a project when you had to translate data into insights for the team/client you were working with.,🟢,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,Data translation; data translation,

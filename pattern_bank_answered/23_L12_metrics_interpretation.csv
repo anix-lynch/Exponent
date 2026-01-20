@@ -37,3 +37,5 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   💡 Output: 'We believe X changed because Y, so we will Z.'"
 1766,Post Success By Age Group.,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Age segmentation; metrics reporting,
 1794,Revenue by Customer City,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Geographic segmentation; metrics reporting,
+1349,How would you explain a sudden drop in revenue to leadership?,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Revenue explanation; metrics interpretation,
+1566,How would you share experiment results internally so it's digestible by different stakeholders?,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Results communication; metrics interpretation,
