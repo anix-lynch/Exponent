@@ -122,9 +122,31 @@
 ---
 
 ### P13 - Product Design
+
+**P13A - Consumer / Single-User Products**
+**Formula:** `User Context → Pain Points → Core Design → Tradeoffs → Risks`
+
+[📖 **View Detailed Guide**](./P13A_consumer_singleuser/P13A_consumer_singleuser.md)
+
+**P13B - Consumer Platforms (Engagement-Driven)**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./P13_product_design/P13_product_design.md)
+[📖 **View Detailed Guide**](./P13B_consumer_platform/P13B_consumer_platform.md)
+
+**P13C - B2B / SaaS / Enterprise**
+**Formula:** `User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics`
+
+[📖 **View Detailed Guide**](./P13C_b2b_saas/P13C_b2b_saas.md)
+
+**P13D - Marketplace / Two-Sided Platforms**
+**Formula:** `Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers`
+
+[📖 **View Detailed Guide**](./P13D_marketplace/P13D_marketplace.md)
+
+**P13E - Strategy / Vision / Roadmapping**
+**Formula:** `Vision → User Segments → Strategic Bets → Phasing → Risks`
+
+[📖 **View Detailed Guide**](./P13E_strategy_vision/P13E_strategy_vision.md)
 
 ---
 
@@ -312,6 +334,11 @@
 - [P11 - Stakeholder Alignment](#p11---stakeholder-alignment)
 - [P12 - Operational Excellence](#p12---operational-excellence)
 - [P13 - Product Design](#p13---product-design)
+  - [P13A - Consumer / Single-User Products](#p13a---consumer--single-user-products)
+  - [P13B - Consumer Platforms (Engagement-Driven)](#p13b---consumer-platforms-engagement-driven)
+  - [P13C - B2B / SaaS / Enterprise](#p13c---b2b--saas--enterprise)
+  - [P13D - Marketplace / Two-Sided Platforms](#p13d---marketplace--two-sided-platforms)
+  - [P13E - Strategy / Vision / Roadmapping](#p13e---strategy--vision--roadmapping)
 - [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
 - [P15 - Behavioral](#p15---behavioral)
   - [P15A - Personal & Motivation](#p15a---personal--motivation)
