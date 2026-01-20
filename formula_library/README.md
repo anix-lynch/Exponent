@@ -137,25 +137,47 @@
 
 ### P15 - Behavioral
 
-**P15A - Situational Behavioral (STAR)**
+**P15A - Personal & Motivation**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
-[📖 **View Detailed Guide**](./P15A_situational_behavioral/P15A_situational_behavioral.md)
+**Intent:** Who are you, why you do what you do. No right/wrong answers.
 
-**P15B - Self-Assessment & Approach**
+[📖 **View Detailed Guide**](./P15A_personal_motivation/P15A_personal_motivation.md)
+
+**P15B - Execution & Ownership**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
-[📖 **View Detailed Guide**](./P15B_self_assessment/P15B_self_assessment.md)
+**Intent:** Can you get things done under constraints. Right/wrong depends on judgment.
 
-**P15C - Experience Storytelling**
+[📖 **View Detailed Guide**](./P15B_execution_ownership/P15B_execution_ownership.md)
+
+**P15C - Decision-Making & Tradeoffs**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
-[📖 **View Detailed Guide**](./P15C_experience_storytelling/P15C_experience_storytelling.md)
+**Intent:** How you think when choices are hard. Evaluated on structure + judgment.
 
-**P15D - Yes/No & General Behavioral**
+[📖 **View Detailed Guide**](./P15C_decision_tradeoffs/P15C_decision_tradeoffs.md)
+
+**P15D - Problem Solving & Learning**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
-[📖 **View Detailed Guide**](./P15D_yesno_general/P15D_yesno_general.md)
+**Intent:** How you approach unknowns and complexity. Judged on thinking, not correctness.
+
+[📖 **View Detailed Guide**](./P15D_problem_solving_learning/P15D_problem_solving_learning.md)
+
+**P15E - Leadership & Collaboration**
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+**Intent:** How you work with people. Soft skills, but critical.
+
+[📖 **View Detailed Guide**](./P15E_leadership_collaboration/P15E_leadership_collaboration.md)
+
+**P15F - Product Sense (Behavioral)**
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+**Intent:** Product thinking through your past actions. Not product cases, not metrics.
+
+[📖 **View Detailed Guide**](./P15F_product_sense/P15F_product_sense.md)
 
 ---
 
@@ -292,10 +314,12 @@
 - [P13 - Product Design](#p13---product-design)
 - [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
 - [P15 - Behavioral](#p15---behavioral)
-  - [P15A - Situational Behavioral (STAR)](#p15a---situational-behavioral-star)
-  - [P15B - Self-Assessment & Approach](#p15b---self-assessment--approach)
-  - [P15C - Experience Storytelling](#p15c---experience-storytelling)
-  - [P15D - Yes/No & General Behavioral](#p15d---yesno--general-behavioral)
+  - [P15A - Personal & Motivation](#p15a---personal--motivation)
+  - [P15B - Execution & Ownership](#p15b---execution--ownership)
+  - [P15C - Decision-Making & Tradeoffs](#p15c---decision-making--tradeoffs)
+  - [P15D - Problem Solving & Learning](#p15d---problem-solving--learning)
+  - [P15E - Leadership & Collaboration](#p15e---leadership--collaboration)
+  - [P15F - Product Sense (Behavioral)](#p15f---product-sense-behavioral)
 - [P16 - Intent / Motivation](#p16---intent--motivation)
 
 ### 🟡 LHF FORMULAS (14)
