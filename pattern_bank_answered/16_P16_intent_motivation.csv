@@ -54,3 +54,4 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2627,Why work at Atlassian?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2628,Why work at PayPal?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2629,Why work at Slack?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
+2625,Why should we hire you?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Self-presentation; behavioral question

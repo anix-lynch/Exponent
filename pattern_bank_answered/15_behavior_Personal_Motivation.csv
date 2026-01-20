@@ -180,6 +180,5 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2565,Why did you leave your last role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Job transition; behavioral question
 2571,Why do you think we should not hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-awareness; behavioral question
 2572,Why do you think you would be a good fit for Microsoft's mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company fit; behavioral question
-2625,Why should we hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question
 2634,Would you like to apply design thinking in your future role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design thinking; behavioral question
 1070,How do you deal with ambiguous situations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
