@@ -1,0 +1,13 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+2361,What is your experience with machine learning?,🔴,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),ML experience; technical question
+2496,What's your approach to prompt engineering?,🔴,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Prompt engineering; ML technical question
+2498,What's your experience with 3D graphics?,🔴,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),3D graphics; technical question
+2499,What's your experience with DirectX?,🔴,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),DirectX; technical question
+2500,What's your experience with ray tracing in video games?,🔴,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Ray tracing; technical question
+1047,How do you approach personal growth and learning?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Personal development; behavioral question
+1250,How would you approach learning about a task that you're completely unfamiliar with?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2493,What's your approach to building a culture of accountability?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Culture building; behavioral question
+2728,You're a PM at Apple Maps. How would you improve the overall user experience?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Operational question
+2767,You're a PM at Ticketmaster. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Operational question
+2772,You're a PM at United Airlines. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Operational question
+2785,You're a PM for a rideshare app's membership program. How would you identify the most negative member experiences?,🟢,P15B,Self-Assessment & Approach,Situation → Task → Action → Result (STAR),Operational question

@@ -1,0 +1,53 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
+1860,Tell me about a machine learning project you worked on and its outcome.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),ML project; technical question
+1861,Tell me about a machine learning project you worked on.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),ML project; technical question
+1870,Tell me about a project where you applied the CAP theorem.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),System design theory; technical question
+1885,Tell me about a system design problem you solved with machine learning.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),ML system design; technical question
+2119,Tell me about your experience with computer vision.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),ML specialization; technical question
+2121,Tell me about your experience with Java.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Programming language; technical question
+2122,Tell me about your experience with JavaScript.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Programming language; technical question
+2123,Tell me about your experience with natural language processing.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),ML specialization; technical question
+2125,Tell me about your experience with React.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Programming framework; technical question
+2126,Tell me about your experience with RxJava.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Programming framework; technical question
+2127,Tell me about your experience with TypeScript.,🔴,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Programming language; technical question
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Feature prioritization; behavioral question
+1873,Tell me about a project where you prioritized the customer.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Customer prioritization; behavioral question
+206,"Describe a SaaS pricing and packaging strategy project you managed, detailing the objectives, challenges, methodology, data and tools used, and outcomes.",🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Pricing strategy case study; behavioral question
+1889,Tell me about a technical decision you made and its impact on your project.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Technical decision; tradeoff analysis
+246,Describe your experience with board meeting preparation and follow-up.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Board communication; behavioral question
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1768,Present a past AI-focused solution that you've worked on.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),AI solution presentation; executive communication
+1769,Present a recent project with big scale and cross-functional involvement.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1770,Present a shipped project you led end-to-end.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+1771,Present slides on a past project you've worked on.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project presentation; executive communication
+202,Describe a challenging project you worked on and what made it difficult.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project case study; behavioral question
+204,Describe a data project you worked on. What were some of the challenges you faced?,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Data project case study; behavioral question
+231,Describe an experience that you consider most valuable.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Experience reflection; behavioral question
+238,Describe the most technically complex project you have worked on and explain why it was complex.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Technical complexity; behavioral question
+244,Describe your experience managing special projects or strategic initiatives.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project management; behavioral question
+721,Discuss how you managed an end-to-end product design to launch.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+779,Explain a feature you've launched.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Feature case study; behavioral question
+780,Explain a piece of software you built.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Software case study; behavioral question
+804,Explain how you took or would take a product from ideation to launch.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+835,Explain the most complex product you have built.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product case study; behavioral question
+1856,Tell me about a complex project you managed where there was a lot of pressure to deliver.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+1858,Tell me about a failed product launch and what you learned.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1866,Tell me about a product or feature you shipped.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product shipping; behavioral question
+1867,Tell me about a product you launched successfully.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+1868,Tell me about a product you shipped that failed.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1874,Tell me about a project where you recognized the need to alter the strategy or direction.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Strategy change; behavioral question
+1875,Tell me about a project you worked on.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Project; behavioral question
+1876,Tell me about a recent program you worked on.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Program; behavioral question
+2099,Tell me about an end-to-end product you worked on.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),End-to-end product; behavioral question
+2101,Tell me about an impactful project that you led.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
+2102,Tell me about how you brought a product to market.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+2103,Tell me about one of the most complex projects you've been involved in.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+2104,Tell me about something you built end-to-end without relying on others.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Independent work; behavioral question
+2111,Tell me about the most complex project you have led.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+2118,Tell me about your e-commerce experience.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Experience; behavioral question
+2128,"Tell me about your experience working with Agile, specfically with Kanban",🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Agile experience; behavioral question
+2130,Tell me about your experience.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Experience; behavioral question
+2137,Tell me about your most impactful project.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
+2139,Tell me about your past projects.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Past projects; behavioral question
+2141,Tell me about your product management experience.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),PM experience; behavioral question
+2725,You're a PM at an airline. Describe the worst possible post-booking experience.,🟢,P15C,Experience Storytelling,Situation → Task → Action → Result (STAR),Operational question
