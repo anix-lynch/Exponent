@@ -56,3 +56,271 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 1771,Present slides on a past project you've worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project presentation; executive communication
 1918,Tell me about a time when you failed to pitch something to leadership.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Pitch failure; behavioral question
 1929,Tell me about a time when you had to break a complex problem down for different cross-functional teams.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem breakdown; behavioral question
+154,Can you talk us through a product you've scoped and built? Include the goal and your specific role.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product case study; behavioral question
+202,Describe a challenging project you worked on and what made it difficult.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project case study; behavioral question
+203,Describe a complex technical problem you solved in a simple way.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem-solving case study; technical communication
+204,Describe a data project you worked on. What were some of the challenges you faced?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Data project case study; behavioral question
+205,"Describe a program you led from start to finish, including challenges, conflict resolution, and its overall impact.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Program leadership; behavioral question
+212,Describe a situation where you learned something from media and successfully applied it to your work.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning and application; behavioral question
+214,"Describe a situation where, in hindsight, you would have done things differently.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Reflection and learning; behavioral question
+218,Describe a time when you discovered inefficiency midway through a project. What did you do?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+220,"Describe a time when you played to win, did the right thing, and were entrepreneurial.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question
+222,Describe a time when your project failed.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Failure handling; behavioral question
+224,Describe a time where a project didn't meet the client's expectations.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Expectation management; behavioral question
+225,Describe a time you displayed 'Googlyness' in your work.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company culture; behavioral question
+226,Describe a time you had a software release that negatively affected another team.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Impact management; behavioral question
+231,Describe an experience that you consider most valuable.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Experience reflection; behavioral question
+238,Describe the most technically complex project you have worked on and explain why it was complex.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical complexity; behavioral question
+241,Describe to me what your typical day would be like in Amazon as a Technical Program Manager.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),TPM role; day-to-day operations
+244,Describe your experience managing special projects or strategic initiatives.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project management; behavioral question
+719,Discuss a broken process in your organization and how you addressed it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+721,Discuss how you managed an end-to-end product design to launch.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+779,Explain a feature you've launched.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Feature case study; behavioral question
+780,Explain a piece of software you built.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Software case study; behavioral question
+804,Explain how you took or would take a product from ideation to launch.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+835,Explain the most complex product you have built.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product case study; behavioral question
+901,Give an example of when the program manager managed headcount and budgeting for a project.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project management; behavioral question
+902,Give me an example of a time when you had to work outside your comfort zone. How did you gain expertise in that area?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning agility; behavioral question
+903,Give me an example of a time when you were unable to meet a commitment. What was the impact?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Accountability; behavioral question
+904,Give me an example of a time you used technical judgment.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical decision; behavioral question
+1003,"Have you done any vibe coding"" or built anything outside work that shows AI-first product thinking?""",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Side projects; behavioral question
+1004,Have you ever faced a project deadline that was earlier than expected? How did you handle it and what was the outcome?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Deadline management; behavioral question
+1005,Have you ever failed to meet your commitments?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Accountability; behavioral question
+1009,Have you ever worked on something without waiting for your manager's go-ahead? What made you decide to do that?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Initiative; behavioral question
+1037,How did your last project end?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project closure; behavioral question
+1047,How do you approach personal growth and learning?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal development; behavioral question
+1056,How do you build and manage a project schedule?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project scheduling; operational excellence
+1068,How do you cope with dynamically-changing environments?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Adaptability; behavioral question
+1097,How do you expand your product management skills?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Skill development; behavioral question
+1110,How do you handle projects outside your expertise area?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning agility; behavioral question
+1111,How do you handle roadblocks or obstacles?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1119,How do you keep up with the evolving landscape of artificial intelligence news?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1122,How do you learn new technologies?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1123,How do you maintain your own professional development while supporting others?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Professional development; behavioral question
+1126,How do you manage projects under pressure?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Pressure management; behavioral question
+1149,How do you spend your day at work?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Work routine; behavioral question
+1151,How do you stay productive when managing multiple high-priority initiatives?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Productivity; behavioral question
+1152,How do you stay up to date with advancements in machine learning?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1153,How do you stay up-to-date with the latest developments in AI?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1172,How has this program improved or deteriorated because of your involvement?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Impact assessment; behavioral question
+1177,How have you worked on quick iterations with UX designers in the past?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Design collaboration; behavioral question
+1220,How open are you to adapting to changes?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Adaptability; behavioral question
+1228,How will you develop yourself professionally as a data engineer?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Professional development; behavioral question
+1229,How will you handle a 3-year project compared to a 3-week project?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project management; behavioral question
+1250,How would you approach learning about a task that you're completely unfamiliar with?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1297,How would you define the role of a product manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Role definition; behavioral question
+1362,How would you go about learning a new technology when starting a new program?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1525,How would you plan to deliver a solution for the project within four months?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project planning; operational excellence
+1597,"If given a chance, what would you change about a project, and why?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project reflection; operational excellence
+1625,"If you join a project that is 25% complete and has used 85% of resources, what would be your next steps?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project recovery; operational excellence
+1707,Is there a work process or decision strategy you strongly disliked?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process reflection; behavioral question
+1781,Provide an example of a complex problem you solved.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1806,Share your experience around launching a product from 0 to 1.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+1851,Tell me a challenging situation when things went wrong and how you reacted.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question
+1853,Tell me about a challenge you faced and how you overcame it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Challenge; behavioral question
+1856,Tell me about a complex project you managed where there was a lot of pressure to deliver.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+1858,Tell me about a failed product launch and what you learned.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1863,Tell me about a mistake you made and what you learned from it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Mistake; behavioral question
+1866,Tell me about a product or feature you shipped.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product shipping; behavioral question
+1867,Tell me about a product you launched successfully.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+1868,Tell me about a product you shipped that failed.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1874,Tell me about a project where you recognized the need to alter the strategy or direction.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Strategy change; behavioral question
+1875,Tell me about a project you worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project; behavioral question
+1876,Tell me about a recent program you worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Program; behavioral question
+1881,Tell me about a situation where you didn't reach your goal.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Goal failure; behavioral question
+1883,Tell me about a skill you recently learned.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+1887,Tell me about a technical challenge that you have overcome.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question
+1892,Tell me about a time in your career when you faced ambiguity.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
+1893,Tell me about a time the business problem wasn't clearly defined. How did you handle it?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
+1894,Tell me about a time when a program you were managing was not meeting committed timelines. How did you handle it?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Timeline issue; behavioral question
+1895,Tell me about a time when a project did not go as expected.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project issue; behavioral question
+1898,Tell me about a time when project goals changed and how you handled it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Goal change; behavioral question
+1899,Tell me about a time when you built out a process.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process building; behavioral question
+1902,Tell me about a time when you conceived an innovative solution to a problem.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Innovation; behavioral question
+1909,Tell me about a time when you delivered over and above customer expectations.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question
+1912,Tell me about a time when you encountered obstacles in your plan. How did you address them?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Obstacles; behavioral question
+1914,"Tell me about a time when you faced significant unexpected obstacles while working toward a key goal. How did you overcome them, and what would you do differently now?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Unexpected obstacles; behavioral question
+1915,Tell me about a time when you faced technical and people challenges simultaneously.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Dual challenges; behavioral question
+1916,Tell me about a time when you failed as a people manager.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Management failure; behavioral question
+1917,Tell me about a time when you failed to launch a product.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product failure; behavioral question
+1920,Tell me about a time when you felt the most challenged.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Challenge; behavioral question
+1922,Tell me about a time when you gave a simple solution to a complex problem.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1930,Tell me about a time when you had to change the direction of a project that was 70% complete.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project pivot; behavioral question
+1936,Tell me about a time when you had to find a simple solution to solve a very complex problem.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1937,Tell me about a time when you had to handle pressure.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Pressure handling; behavioral question
+1949,Tell me about a time when you had to solve a difficult problem.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Problem solving; behavioral question
+1956,Tell me about a time when you knew you weren't going to meet a goal.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Goal failure; behavioral question
+1957,Tell me about a time when you launched a product.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+1958,Tell me about a time when you led a project from start to finish.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project leadership; behavioral question
+1963,Tell me about a time when you made a mistake and how you handled it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Mistake handling; behavioral question
+1964,"Tell me about a time when you made a poor decision, and learned from it to make a better decision after.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Decision learning; behavioral question
+1966,Tell me about a time when you made an error in judgment in the last year or two. What did you do and what was the impact?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Judgment error; behavioral question
+1969,Tell me about a time when you managed a project without having the title of a project manager.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project management; behavioral question
+1970,Tell me about a time when you managed an end-to-end program.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Program management; behavioral question
+1971,Tell me about a time when you missed a deadline.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Deadline miss; behavioral question
+1979,Tell me about a time when you questioned the status quo.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Status quo challenge; behavioral question
+1982,Tell me about a time when you redesigned a process and the reasoning behind it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process redesign; behavioral question
+1985,Tell me about a time when you resolved a problem that was outside your team's scope.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Scope expansion; behavioral question
+1986,Tell me about a time when you significantly exceeded expectations on a project or task.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Exceeding expectations; behavioral question
+1987,Tell me about a time when you solved a complex problem and how you went about it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex problem; behavioral question
+1988,Tell me about a time when you solved a difficult problem; managed a project not going well; were unhappy with the status quo; faced competing priorities or had disagreements with management; had to...,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Multiple challenges; behavioral question
+1989,Tell me about a time when you solved a problem innovatively.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Innovative solution; behavioral question
+1991,Tell me about a time when you succeeded as a product manager.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM success; behavioral question
+1992,Tell me about a time when you taught yourself a skill.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-learning; behavioral question
+1993,Tell me about a time when you took on a task outside your job description.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Scope expansion; behavioral question
+1994,Tell me about a time when you took on something significant that was out of your area of responsibility. Why was it important and what was the outcome?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Responsibility expansion; behavioral question
+1995,Tell me about a time when you took ownership of a project you weren't originally responsible for.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Ownership; behavioral question
+1997,Tell me about a time when you undertook an entrepreneurial endeavor in a personal or professional setting.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Entrepreneurship; behavioral question
+2004,Tell me about a time when you went above and beyond for a customer.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Customer service; behavioral question
+2005,Tell me about a time when you went above and beyond your job description.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Going beyond; behavioral question
+2006,Tell me about a time when you were creative.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Creativity; behavioral question
+2009,Tell me about a time when you were more proactive than others.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Proactivity; behavioral question
+2011,Tell me about a time when you were unable to launch your product on schedule.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Schedule failure; behavioral question
+2012,Tell me about a time when you were unhappy in your job.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Job dissatisfaction; behavioral question
+2013,Tell me about a time when you were working on a project but discovered an opportunity to do something bigger and better. Did you pursue it and what was the outcome?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Opportunity discovery; behavioral question
+2014,Tell me about a time when you worked on a project with a tight deadline.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Tight deadline; behavioral question
+2016,Tell me about a time when you worked on something you were passionate about.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Passion; behavioral question
+2033,Tell me about a time you continuously improved a project.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Continuous improvement; behavioral question
+2035,Tell me about a time you couldn't meet your deadline.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Deadline failure; behavioral question
+2042,Tell me about a time you faced a difficult challenge.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Difficult challenge; behavioral question
+2044,Tell me about a time you failed.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Failure; behavioral question
+2045,Tell me about a time you failed. What would you have done differently?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Failure reflection; behavioral question
+2047,Tell me about a time you got a project back on track.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project recovery; behavioral question
+2060,Tell me about a time you had to learn something quickly.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Quick learning; behavioral question
+2062,Tell me about a time you had to pivot your marketing strategy mid-launch.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Strategy pivot; behavioral question
+2069,Tell me about a time you improved a broken process or system.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process improvement; behavioral question
+2072,Tell me about a time you made a mistake.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Mistake; behavioral question
+2073,"Tell me about a time you managed a complex, cross-functional project.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+2074,Tell me about a time you managed a crisis or urgent situation.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Crisis management; behavioral question
+2075,Tell me about a time you overcame a challenge to achieve a goal.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Challenge overcoming; behavioral question
+2076,Tell me about a time you overcame adversity.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Adversity; behavioral question
+2078,Tell me about a time you proposed a non-intuitive solution to a problem and how you identified that it required a different way of thinking.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Non-intuitive solution; behavioral question
+2085,Tell me about a time you struggled on a project.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project struggle; behavioral question
+2086,Tell me about a time you successfully delivered a project without a budget or resources.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Resource constraint; behavioral question
+2093,Tell me about a time you were confident in a solution and later realized it was wrong.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Confidence error; behavioral question
+2094,"Tell me about a time you worked on a complex program, how you handled it, and its outcomes.",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex program; behavioral question
+2099,Tell me about an end-to-end product you worked on.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),End-to-end product; behavioral question
+2101,Tell me about an impactful project that you led.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
+2102,Tell me about how you brought a product to market.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+2103,Tell me about one of the most complex projects you've been involved in.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+2104,Tell me about something you built end-to-end without relying on others.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Independent work; behavioral question
+2105,Tell me about something you learned that improved your job performance.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2106,Tell me about something you're passionate about.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Passion; behavioral question
+2107,Tell me about the accomplishment you are most proud of.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
+2110,Tell me about the most challenging situation you faced in your career and how you handled it.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Challenging situation; behavioral question
+2111,Tell me about the most complex project you have led.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Complex project; behavioral question
+2112,Tell me about your academic background.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Background; behavioral question
+2114,Tell me about your biggest failure.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Failure; behavioral question
+2115,Tell me about your current role.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Current role; behavioral question
+2118,Tell me about your e-commerce experience.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Experience; behavioral question
+2128,"Tell me about your experience working with Agile, specfically with Kanban",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Agile experience; behavioral question
+2130,Tell me about your experience.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Experience; behavioral question
+2134,Tell me about your greatest success.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Success; behavioral question
+2135,Tell me about your interest in AI.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),AI interest; behavioral question
+2136,Tell me about your last job.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Last job; behavioral question
+2137,Tell me about your most impactful project.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Impactful project; behavioral question
+2138,Tell me about your most significant accomplishment. Why was it significant?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
+2139,Tell me about your past projects.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Past projects; behavioral question
+2141,Tell me about your product management experience.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM experience; behavioral question
+2142,Tell me about your program execution style.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Execution style; behavioral question
+2143,Tell me about your recent role.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Recent role; behavioral question
+2145,Tell me about yourself.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-introduction; behavioral question
+2146,Tell me how you brought a product to market.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product launch; behavioral question
+2148,Tell me something that's not in your resume.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal insight; behavioral question
+2190,What about Tinder's vision resonates with you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company vision; behavioral question
+2203,What are some new advancements in AI you find interesting?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),AI interest; behavioral question
+2206,What are the biggest trends you see in the security industry?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Industry trends; behavioral question
+2225,What are the most important attributes of a Product Manager and why? Provide examples from your past experiences that demonstrate these attributes.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM attributes; behavioral question
+2229,What are the problems with Agile?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Agile critique; behavioral question
+2233,What are the top 3 technology trends that will change the landscape in the next decade?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technology trends; behavioral question
+2234,What are the top 3 to 4 skills a PM should have?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM skills; behavioral question
+2235,What are the top five traits of a product manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM traits; behavioral question
+2242,What are you looking for in your next opportunity?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Career goals; behavioral question
+2243,What are you most proud of in your career?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Career pride; behavioral question
+2244,What are you passionate about?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Passion; behavioral question
+2245,What are your core product principles?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product principles; behavioral question
+2247,What are your strengths and weaknesses as a product manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Strengths/weaknesses; behavioral question
+2248,What are your strengths and weaknesses?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Strengths/weaknesses; behavioral question
+2250,What are your weaknesses as a product manager and how do you mitigate them?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Weaknesses; behavioral question
+2251,What areas would you like to personally improve as a Product Manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-improvement; behavioral question
+2252,What aspects do you like about product management and what aspects do you not like?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM preferences; behavioral question
+2255,What changes or improvements would you recommend to the company's WFH policies to increase employee productivity and satisfaction?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),WFH policies; behavioral question
+2258,What did you do at your last job?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Last job; behavioral question
+2259,What did you enjoy most about your last role?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Last role; behavioral question
+2261,What do you do in your free time?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
+2262,What do you find to be the most challenging part of being a Product Manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM challenges; behavioral question
+2267,What do you like about your current job and what aspects would you change?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Current job; behavioral question
+2268,What do you like most about being a Technical Program Manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),TPM role; behavioral question
+2273,"What does ""belong anywhere"" mean to you?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company values; behavioral question
+2274,What does grit mean to you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal values; behavioral question
+2275,What does it mean to excel as a product manager and how can you excel in any team or project?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM excellence; behavioral question
+2276,What does strategy mean to you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Strategy definition; behavioral question
+2277,What does success look like to you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Success definition; behavioral question
+2278,What does the Chief of Staff role mean to you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Role understanding; behavioral question
+2281,What does your day-to-day look like at your current company?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Day-to-day; behavioral question
+2282,What elements are included in a project charter?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project charter; behavioral question
+2283,What evidence shows Anthropic's sincerity about their mission?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company mission; behavioral question
+2286,What experience do you have that prepares you for this role?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Role preparation; behavioral question
+2287,What experience do you have with AI projects/automations?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),AI experience; behavioral question
+2294,What Gen AI skills do you think will be critical in the next year?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),AI skills; behavioral question
+2301,What happens when a team member takes sick leave with an upcoming project deadline?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Team management; behavioral question
+2305,What have you learned from your experience as a founder that would make you a good product manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Founder experience; behavioral question
+2313,What is a skill you have that is not listed on your resume?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Hidden skills; behavioral question
+2315,What is a technical challenge you faced in your previous project?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical challenge; behavioral question
+2318,What is an idea you have used in your career to add value to an organization?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Value creation; behavioral question
+2332,What is the difference between a product manager and a product owner?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Role definition; behavioral question
+2346,What is the most impressive thing you have done?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Accomplishment; behavioral question
+2347,What is the most innovative idea you have ever had?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Innovation; behavioral question
+2348,What is the most innovative thing you have ever done?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Innovation; behavioral question
+2349,What is the most technical initiative you have handled as a Product Manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical initiative; behavioral question
+2352,What is the project you are most proud of?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project pride; behavioral question
+2367,What is your favorite leadership principle?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Leadership; behavioral question
+2374,What is your greatest weakness and why do you think that it will not impact this role?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Weaknesses; behavioral question
+2377,What is your pet peeve?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal preference; behavioral question
+2378,What is your philosophy of Product Management?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM philosophy; behavioral question
+2385,What kind of experiences have you built in your career?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Career experiences; behavioral question
+2386,What kind of news do you read?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
+2389,What makes a good product manager?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM qualities; behavioral question
+2416,What other companies are you interviewing at and why?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Job search; behavioral question
+2419,What parts of OpenAI's mission statement resonate with you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company mission; behavioral question
+2423,What product are you most proud of? What problems did you solve and what were the outcomes?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product pride; behavioral question
+2427,What product that you led are you most proud of and why?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Product leadership; behavioral question
+2434,What sets you apart from other data analysts?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Differentiation; behavioral question
+2446,What technical contributions have you made to a project?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Technical contributions; behavioral question
+2450,What tools do you use as a TPM? What tools are you familiar with?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),TPM tools; behavioral question
+2451,What tools have you used as a TPM?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),TPM tools; behavioral question
+2455,"What type of culture are you looking for, and how would you help build it here?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Culture; behavioral question
+2466,What would you change about your time at [Current Company]?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company reflection; behavioral question
+2469,What would you do if introduced to new technology that you have never used before? How would you know you have learned it well?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Learning; behavioral question
+2475,What would you do on your first day as a PM?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),First day; behavioral question
+2476,What would you have done differently in a process you improved?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Process reflection; behavioral question
+2479,What would your closest friend say about you and your strengths?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-reflection; behavioral question
+2482,What's a tool you think other product managers should use?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Tool recommendation; behavioral question
+2483,What's an area you're trying to improve?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-improvement; behavioral question
+2484,What's the best and worst performing team you've been on?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Team performance; behavioral question
+2490,What's the hardest engineering challenge you've ever solved?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Engineering challenge; behavioral question
+2491,What's the most fun thing you did recently?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Personal interests; behavioral question
+2493,What's your approach to building a culture of accountability?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Culture building; behavioral question
+2497,"What's your biggest challenge as a PM, and how did you overcome it?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),PM challenge; behavioral question
+2520,When do you consider a design review completed?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Design review; behavioral question
+2529,"Where do you think the ""data world"" is going—what's coming next?",🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Industry trends; behavioral question
+2534,Which leadership principle do you least resonate with?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Leadership principles; behavioral question
+2535,Which of Twilio's values appeals to you the most?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company values; behavioral question
+2540,Who is your role model?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Role model; behavioral question
+2547,Why are you leaving consulting?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Career transition; behavioral question
+2563,Why did you choose analytics as a career?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Career choice; behavioral question
+2564,Why did you choose to attend [College]?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Education choice; behavioral question
+2565,Why did you leave your last role?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Job transition; behavioral question
+2571,Why do you think we should not hire you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-awareness; behavioral question
+2572,Why do you think you would be a good fit for Microsoft's mission?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Company fit; behavioral question
+2625,Why should we hire you?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question
+2634,Would you like to apply design thinking in your future role?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Design thinking; behavioral question
+2684,You are working on a project remotely without meeting team members. What steps would you take to ensure smooth operations?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Remote work; operational excellence
+2693,You join a project that is only 25% complete but has used 75% of its resources. What are your next steps?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Project recovery; operational excellence
+2725,You're a PM at an airline. Describe the worst possible post-booking experience.,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+2728,You're a PM at Apple Maps. How would you improve the overall user experience?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+2767,You're a PM at Ticketmaster. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+2772,You're a PM at United Airlines. How would you identify and solve the biggest problem in the post-booking experience?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+2785,You're a PM for a rideshare app's membership program. How would you identify the most negative member experiences?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+2880,You're working on a project where deadlines and targets are constantly slipping. How would you handle this?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Operational question
+1070,How do you deal with ambiguous situations?,🟢,P15,Behavioral,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
