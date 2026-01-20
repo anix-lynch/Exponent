@@ -16,3 +16,4 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 615,Design an image sharing product.,🟢,P13D_Marketplace,Marketplace / Two-Sided Platforms,Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers,Product design; image sharing,P13D_Marketplace_TwoSided
 2721,You're a PM at Airbnb. Design furniture.,🟢,P13D_Marketplace,Marketplace / Two-Sided Platforms,Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers,Product design,
 2748,You're a PM at Meta. Design a product for skill sharing.,🟢,P13D_Marketplace,Marketplace / Two-Sided Platforms,Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers,Product design,
+146,Can you explain how 15-minute speedy delivery apps operate?,🟡,P13D_Marketplace,Marketplace / Two-Sided Platforms,Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers,System explanation; delivery app architecture,
