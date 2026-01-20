@@ -1,10 +1,10 @@
-# 📚 FORMULA LIBRARY - 28 Canonical Patterns
+# 📚 FORMULA LIBRARY - 29 Canonical Patterns
 
 **Purpose:** Anti-hallucination. Copy formulas from here, don't generate.
 
 ---
 
-## 🟢 NORTHSTAR FORMULAS (14)
+## 🟢 NORTHSTAR FORMULAS (15)
 
 ### P1 - Metric Drop Diagnosis
 **Formula:** `Clarify Metric → Segment → Hypothesize → Data Check → Action`
@@ -101,6 +101,13 @@
 **Formula:** `Levers (Price, Volume, Mix) → Test → Measure → Iterate`
 
 [📖 **View Detailed Guide**](./P14_revenue_optimization/P14_revenue_optimization.md)
+
+---
+
+### P15 - Behavioral
+**Formula:** `Situation → Task → Action → Result (STAR)`
+
+[📖 **View Detailed Guide**](./P15_behavioral/P15_behavioral.md)
 
 ---
 
@@ -212,7 +219,7 @@
 
 ## 📑 TABLE OF CONTENTS
 
-### 🟢 NORTHSTAR FORMULAS (14)
+### 🟢 NORTHSTAR FORMULAS (15)
 - [P1 - Metric Drop Diagnosis](#p1---metric-drop-diagnosis)
 - [P2 - NSM + KPI Ladder](#p2---nsm--kpi-ladder)
 - [P3 - Funnel Analysis](#p3---funnel-analysis)
@@ -227,6 +234,7 @@
 - [P12 - Operational Excellence](#p12---operational-excellence)
 - [P13 - Product Design](#p13---product-design)
 - [P14 - Revenue Optimization / Growth](#p14---revenue-optimization--growth)
+- [P15 - Behavioral](#p15---behavioral)
 
 ### 🟡 LHF FORMULAS (14)
 - [L1 - Data Trust](#l1---data-trust)
