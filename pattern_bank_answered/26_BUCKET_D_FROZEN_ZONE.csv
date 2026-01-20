@@ -1,0 +1,43 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,salvageable,simple_explanation,bucket
+5,A $5 discount coupon is given to N riders. The probability of using a coupon is P. What is the expected cost for the company?,🔴,N/A,N/A,N/A,Math calculation; probability theory,YES,"Expected value = sum of (probability × value). For each outcome, multiply chance by cost, add them up",D
+8,A discount coupon is given to N riders. The probability of using a coupon is P. What is the probability that one of the coupons will be used?,🔴,N/A,N/A,N/A,Math calculation; probability theory,YES,Probability = favorable outcomes / total outcomes. Calculate chance of something happening,D
+10,A knapsack has a maximum capacity C and there are n items each with weight w[i] and value v[i]. Maximize the knapsack value without exceeding capacity.,🔴,N/A,N/A,N/A,Algorithm puzzle; classic knapsack problem,YES,"DP: For each item, decide take or skip. Build table: capacity × items. Remember best value for each capacity",D
+237,Describe the distribution between the 5th and 6th points in an interval from 0 to 1 containing ten uniformly distributed points.,🔴,N/A,N/A,N/A,Math calculation; probability theory,YES,"Distribution = how values are spread. Describe shape: normal (bell curve), skewed, uniform, etc.",D
+750,Estimate the circumference of the Earth at the Equator.,🔴,N/A,N/A,N/A,Math calculation; brain teaser,YES,"Break into parts, estimate each, multiply. Show your thinking: assumptions → calculations → answer",D
+763,Estimate the number of pieces of candy given out in your city.,🔴,N/A,N/A,N/A,Math estimation; brain teaser,YES,"Break into parts, estimate each, multiply. Show your thinking: assumptions → calculations → answer",D
+764,Estimate the number of potholes in continental USA.,🔴,N/A,N/A,N/A,Math estimation; brain teaser,YES,"Break into parts, estimate each, multiply. Show your thinking: assumptions → calculations → answer",D
+768,Estimate the number of trees in the city of Delhi.,🔴,N/A,N/A,N/A,Math estimation; brain teaser,YES,Visit nodes in order (left → root → right or root → left → right). Use recursion or stack,D
+774,Estimate the total miles run by joggers in Central Park.,🔴,N/A,N/A,N/A,Math estimation; brain teaser,YES,"Break into parts, estimate each, multiply. Show your thinking: assumptions → calculations → answer",D
+784,Explain Bayes' theorem.,🔴,N/A,N/A,N/A,Math theory explanation; probability,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",D
+811,Explain normalization and Bayes' theorem.,🔴,N/A,N/A,N/A,ML theory explanation; probability,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",D
+815,Explain prime numbers to a five-year-old.,🔴,N/A,N/A,N/A,Math explanation; brain teaser,NO,N/A - Too complex or not relevant,D
+825,Explain the differences between multithreading and multiprocessing.,🔴,N/A,N/A,N/A,Technical explanation; concurrency,NO,N/A - Too complex or not relevant,D
+842,Explain tic tac toe end games.,🔴,N/A,N/A,N/A,Game theory explanation; brain teaser,NO,N/A - Too complex or not relevant,D
+1163,How does a graphics processing unit (GPU) work?,🔴,N/A,N/A,N/A,Technical explanation; hardware,NO,N/A - Too complex or not relevant,D
+1181,How long would 100 cars stopped at a traffic light take to all pass the light?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1182,How long would it take to fill an Olympic swimming pool with water from a garden hose?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1186,How many bottles of wine are opened per day?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1187,How many breaths do we take each day?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1189,How many chickens are there in the world?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1193,How many grains of rice are in a 10kg bag?,🔴,N/A,N/A,N/A,Math calculation; brain teaser,NO,N/A - Too complex or not relevant,D
+1198,How many pairs of shoes do we own in our lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1199,How many parking spots are there in San Francisco?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1203,How many ping pong balls can fit in a helicopter?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1204,How many ping pong balls fit in a helicopter?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1207,How many tennis balls can fit in an airplane?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1209,How many weddings does someone attend in their life?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1210,How many weddings does the average American attend in their lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1211,How many windows do you estimate exist in Tehran?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,YES,"Break into parts, estimate each, multiply. Show your thinking: assumptions → calculations → answer",D
+1216,How much laundry detergent is used globally each year?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1217,"How much oil, in barrels per year, does the United States import?",🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1219,How much time does a person spend at a traffic intersection during their lifetime?,🔴,N/A,N/A,N/A,Math estimation; brain teaser,NO,N/A - Too complex or not relevant,D
+1576,How would you transport 10 kids to school within a limited timeframe?,🔴,N/A,N/A,N/A,Math/logic puzzle; brain teaser,NO,N/A - Too complex or not relevant,D
+1589,"If a + b + c + d = 63, what's the maximum value of a * b + b * c + c * d?",🔴,N/A,N/A,N/A,Math optimization; brain teaser,NO,N/A - Too complex or not relevant,D
+1593,"If a vulture's head size were to double, what impact would this have on its survival and adaptation? Use root cause analysis (RCA) to explain.",🔴,N/A,N/A,N/A,Hypothetical biology; brain teaser,NO,N/A - Too complex or not relevant,D
+1611,"If you could float on water, like a boat, what would you be and why?",🔴,N/A,N/A,N/A,Creative/abstract question; brain teaser,NO,N/A - Too complex or not relevant,D
+1633,"If you were to eliminate one USD bill, which would it be and why?",🔴,N/A,N/A,N/A,Hypothetical policy; brain teaser,NO,N/A - Too complex or not relevant,D
+1698,In what cases should you use the median instead of the mean?,🔴,N/A,N/A,N/A,Statistics theory; math question,NO,N/A - Too complex or not relevant,D
+1848,Suppose your generative model needs to process very long inputs that exceed typical context limits. How would you approach managing or compressing that information effectively?,🔴,N/A,N/A,N/A,ML implementation; technical question,NO,N/A - Too complex or not relevant,D
+2211,What are the differences between single core and multicore processors?,🔴,N/A,N/A,N/A,Hardware theory; technical question,NO,N/A - Too complex or not relevant,D
+2341,What is the limit of the ratio of two consecutive Fibonacci numbers as the sequence progresses?,🔴,N/A,N/A,N/A,Math proof; brain teaser,NO,N/A - Too complex or not relevant,D
+2700,You roll a dice until the total reaches 100 or more. Which appears more often in the rolls: 1 or 6?,🔴,N/A,N/A,N/A,Brain teaser; probability puzzle,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",D

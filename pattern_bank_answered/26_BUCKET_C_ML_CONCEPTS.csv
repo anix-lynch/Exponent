@@ -1,0 +1,51 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,salvageable,simple_explanation,bucket
+190,Define hallucinations in LLMs.,🔴,N/A,N/A,N/A,Technical definition; ML theory,NO,N/A - Too complex or not relevant,C
+233,Describe how the split in a decision tree works.,🔴,N/A,N/A,N/A,ML theory explanation; technical definition,YES,Visit nodes in order (left → root → right or root → left → right). Use recursion or stack,C
+783,Explain auto-regression.,🔴,N/A,N/A,N/A,ML theory explanation; technical definition,NO,N/A - Too complex or not relevant,C
+785,Explain BERT.,🔴,N/A,N/A,N/A,ML theory explanation; NLP,NO,N/A - Too complex or not relevant,C
+786,Explain bias-variance tradeoff.,🔴,N/A,N/A,N/A,ML theory explanation; model evaluation,YES,Bias = too simple (underfitting). Variance = too complex (overfitting). Need balance,C
+788,Explain cross entropy.,🔴,N/A,N/A,N/A,ML theory explanation; loss function,NO,N/A - Too complex or not relevant,C
+789,Explain cross-validation and testing in logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; model validation,YES,"Split data into parts. Train on some, test on others. Rotate to check if model works well",C
+792,Explain deep reinforcement learning.,🔴,N/A,N/A,N/A,ML theory explanation; RL,NO,N/A - Too complex or not relevant,C
+806,Explain how you would fit data using logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; model fitting,NO,N/A - Too complex or not relevant,C
+809,Explain Mask R-CNN.,🔴,N/A,N/A,N/A,ML theory explanation; computer vision,NO,N/A - Too complex or not relevant,C
+812,Explain overfitting.,🔴,N/A,N/A,N/A,ML theory explanation; model evaluation,YES,"Model memorizes training data too well, fails on new data. Fix: more data, simpler model, regularization",C
+816,Explain regularization.,🔴,N/A,N/A,N/A,ML theory explanation; model optimization,YES,Penalize complex models. Add cost for complexity to prevent overfitting,C
+817,Explain semantic segmentation.,🔴,N/A,N/A,N/A,ML theory explanation; computer vision,NO,N/A - Too complex or not relevant,C
+818,Explain semi-supervised learning.,🔴,N/A,N/A,N/A,ML theory explanation; learning paradigm,NO,N/A - Too complex or not relevant,C
+819,Explain TF-IDF.,🔴,N/A,N/A,N/A,ML theory explanation; NLP,NO,N/A - Too complex or not relevant,C
+820,Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).,🔴,N/A,N/A,N/A,ML theory explanation; neural networks,YES,CNN = good for images (spatial patterns). RNN = good for sequences (time patterns),C
+822,Explain the differences between L1 and L2 regression.,🔴,N/A,N/A,N/A,ML theory explanation; regularization,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",C
+823,Explain the differences between linear and logistic regression.,🔴,N/A,N/A,N/A,ML theory explanation; regression,NO,N/A - Too complex or not relevant,C
+824,Explain the differences between LSTM and traditional neural networks.,🔴,N/A,N/A,N/A,ML theory explanation; neural networks,YES,CNN = good for images (spatial patterns). RNN = good for sequences (time patterns),C
+828,Explain the differences between ReLU and Sigmoid.,🔴,N/A,N/A,N/A,ML theory explanation; activation functions,NO,N/A - Too complex or not relevant,C
+837,Explain the relationship between the log-likelihood loss function for logistic regression and maximum likelihood estimation.,🔴,N/A,N/A,N/A,ML theory explanation; mathematical proof,NO,N/A - Too complex or not relevant,C
+843,Explain transformers.,🔴,N/A,N/A,N/A,ML theory explanation; NLP,YES,Attention mechanism: focus on important parts. Like reading - pay attention to key words,C
+971,"Given imbalanced training data, how do you prevent overfitting?",🔴,N/A,N/A,N/A,ML theory explanation; model training,YES,"Use a stack - last opened must be first closed. Like stacking plates: last in, first out",C
+1039,How do convolutional neural networks (CNNs) differ from traditional neural networks in processing image data?,🔴,N/A,N/A,N/A,ML theory explanation; neural networks,YES,CNN = good for images (spatial patterns). RNN = good for sequences (time patterns),C
+1043,How do you adjust the creativity of generative AI models?,🔴,N/A,N/A,N/A,ML theory explanation; model tuning,NO,N/A - Too complex or not relevant,C
+1049,How do you avoid overfitting a model?,🔴,N/A,N/A,N/A,ML theory explanation; model training,YES,"Model memorizes training data too well, fails on new data. Fix: more data, simpler model, regularization",C
+1060,How do you choose a loss function for a machine learning problem?,🔴,N/A,N/A,N/A,ML theory explanation; model selection,NO,N/A - Too complex or not relevant,C
+1107,How do you handle imbalanced data?,🔴,N/A,N/A,N/A,ML theory explanation; data preprocessing,NO,N/A - Too complex or not relevant,C
+1145,How do you select input for modeling if there are features highly correlated with each other?,🔴,N/A,N/A,N/A,ML theory explanation; feature selection,NO,N/A - Too complex or not relevant,C
+1146,How do you select the value of 'k' in the k-means algorithm?,🔴,N/A,N/A,N/A,ML theory explanation; clustering,NO,N/A - Too complex or not relevant,C
+1155,How do you test your machine learning models for production?,🔴,N/A,N/A,N/A,ML theory explanation; model testing,NO,N/A - Too complex or not relevant,C
+1179,How is gradient descent and model optimization used in linear regression?,🔴,N/A,N/A,N/A,ML theory explanation; optimization,NO,N/A - Too complex or not relevant,C
+1372,How would you handle hallucinations in a generative AI model deployed to users?,🔴,N/A,N/A,N/A,ML implementation; technical question,YES,"Understand the concept, break into steps, use appropriate data structure (hash map, array, tree, etc.)",C
+1585,"Hypothesis Testing: Suppose a PM claims that users, on average, spend about $50 per month on Amazon. However, you doubt this claim and believe the average should be higher. You sample 100 users and...",🔴,N/A,N/A,N/A,Statistical hypothesis testing; math question,NO,N/A - Too complex or not relevant,C
+1600,"If GPU utilization is low during training, how would you debug and benchmark performance?",🔴,N/A,N/A,N/A,ML debugging; technical question,NO,N/A - Too complex or not relevant,C
+1615,"If you discovered that your model was exposing sensitive data from its training set, what would you do next?",🔴,N/A,N/A,N/A,ML security; technical question,NO,N/A - Too complex or not relevant,C
+1653,"Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but ...",🔴,N/A,N/A,N/A,ML safety; technical question,NO,N/A - Too complex or not relevant,C
+2195,What are common linear regression problems?,🔴,N/A,N/A,N/A,ML theory; technical question,NO,N/A - Too complex or not relevant,C
+2200,What are some effective loss functions for computer vision models?,🔴,N/A,N/A,N/A,ML theory; technical question,NO,N/A - Too complex or not relevant,C
+2213,What are the different types of software testing?,🔴,N/A,N/A,N/A,Software testing theory; technical question,NO,N/A - Too complex or not relevant,C
+2324,"What is overfitting or underfitting? Which models are most likely to experience this, and why?",🔴,N/A,N/A,N/A,ML theory; technical question,YES,"Model memorizes training data too well, fails on new data. Fix: more data, simpler model, regularization",C
+2340,What is the important mechanism that happens within Random Forest and what does bootstrapping do in this algorithm?,🔴,N/A,N/A,N/A,ML theory; technical question,NO,N/A - Too complex or not relevant,C
+2390,What methods or metrics did you use to evaluate how well your LLM performs?,🔴,N/A,N/A,N/A,ML evaluation; technical question,NO,N/A - Too complex or not relevant,C
+2392,What metrics did you use to train and evaluate your models?,🔴,N/A,N/A,N/A,ML metrics; technical question,NO,N/A - Too complex or not relevant,C
+2393,What metrics do you monitor after deploying a machine learning model?,🔴,N/A,N/A,N/A,ML monitoring; technical question,NO,N/A - Too complex or not relevant,C
+2402,What metrics would you track to evaluate the performance of your ML pipeline?,🔴,N/A,N/A,N/A,ML pipeline metrics; technical question,NO,N/A - Too complex or not relevant,C
+2449,What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?,🔴,N/A,N/A,N/A,ML testing; technical question,NO,N/A - Too complex or not relevant,C
+2453,What trends and challenges are in your ML specialty?,🔴,N/A,N/A,N/A,ML trends; technical question,NO,N/A - Too complex or not relevant,C
+2527,Where do vanishing gradients occur in a neural network?,🔴,N/A,N/A,N/A,ML theory; technical question,YES,CNN = good for images (spatial patterns). RNN = good for sequences (time patterns),C
+2617,Why is a deep neural network better than a shallow neural network?,🔴,N/A,N/A,N/A,ML theory; technical question,YES,CNN = good for images (spatial patterns). RNN = good for sequences (time patterns),C

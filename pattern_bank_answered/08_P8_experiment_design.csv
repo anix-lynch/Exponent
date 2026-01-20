@@ -1,0 +1,404 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+25,An engineer wants to make a major change to the ranking algorithm. How would you evaluate it?,🟢,P8,Experiment Design,Hypothesis → Metric → Design → Run → Validate → Decide,Algorithm change; A/B test evaluation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+64,"As a PM for Jio Mart, how would you pilot drone delivery?",🟢,P8,Experiment Design,Hypothesis → Metric → Design → Run → Validate → Decide,Pilot program; experiment design,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+207,Describe a situation where using an A/B test would be appropriate.,🟢,P8,Experiment Design,Hypothesis → Metric → Design → Run → Validate → Decide,A/B testing scenario; behavioral question,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+216,Describe a time when an experiment you conducted yielded unexpected results. How did you react to the outcome?,🟢,P8,Experiment Design,Hypothesis → Metric → Design → Run → Validate → Decide,Experiment results; behavioral question,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+849,Facebook is considering adding a 7th reaction. How would you determine its necessity and measure its success?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Feature evaluation; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+969,"Given experiment results, how do you decide whether to ship the feature?",🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Feature launch decision; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1041,How do you A/B test a new feature?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,A/B testing; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1042,How do you A/B test product announcement emails?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Email testing; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1079,How do you design an experiment to avoid common pitfalls in interpreting results?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Experiment design; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1082,How do you determine the necessary sample size for an A/B test?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Sample size; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1178,How have you worked with designers to A/B test different iterations?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,A/B testing; behavioral question,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1308,How would you design an experiment to validate the success of a new landing page?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Experiment design; A/B testing,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1344,How would you evaluate whether a new feature is worth rolling out to all users?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Feature evaluation; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1379,How would you identify market/product fit for connecting mentors with mentees and validate an MVP in this space?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Product-market fit; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1555,"How would you run a promotion to increase top-line, in-store revenue for Target, decide what to promote, and run the experiment?",🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Promotion experiment; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1572,How would you test the impact of expanding into a new international market?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Market expansion test; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1573,"How would you test the viability of expanding Airbnb's ""Restaurant"" product to a new region?",🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Product expansion test; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1588,"Identify success metrics for a marketing campaign to get new users, then design an experiment to determine if the campaign should continue.",🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Campaign metrics; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1651,Imagine you're conducting a user survey. What do you do if you can't get 'enough' respondents?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Survey methodology; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1811,Should Facebook launch a group video calling feature? How would you make this determination using a dataset of call logs for current 1:1 calling?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Feature decision; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+1924,Tell me about a time when you had a hypothesis that turned out to be wrong.,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Hypothesis failure; behavioral question,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2098,Tell me about a user need that is not being met by the market. How would you validate a solution for it?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,User need validation; product design,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2183,Walk me through how you'd assess the success of a beta launch.,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Beta launch; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2189,We're considering launching in a new city. What data would you look at before recommending a go/no-go decision?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Market expansion; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2199,What are some common biases that might invalidate an experiment?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Experiment biases; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2292,What factors would you look at when deciding whether to launch into a market?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Market launch; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2326,What is the benefit of a control group when testing?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Control group; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2327,What is the benefit of A/B testing?,🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,A/B testing; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2521,"When experimentation is constrained, how do you make decisions using imperfect or historical data?",🟢,P8,Experimentation,Hypothesis → Design → Run → Analyze → Decide,Constrained experimentation; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2667,"You are designing an A/B test on Bing. When would you run a user-tied flight versus an untied flight, and what are the benefits and drawbacks of each?",🟢,P8,Experimentation,Hypothesis → Metric → Design → Run → Validate → Decide,A/B testing; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+2669,You are helping Netflix introduce an ACH payment method in the United States. What test would you conduct to help them determine whether ACH should be generally available?,🟢,P8,Experimentation,Hypothesis → Metric → Design → Run → Validate → Decide,Payment testing; experimentation,"Frame: Clarify decision and constraints. What decision are we making? (launch feature, change algorithm, run campaign, etc.) What constraints matter? (time, risk, traffic volume, legal, UX impact). Define success criteria upfront.
+
+Hypothesis: State clear if-then-because. Format: If we change X for users Y, then outcome Z will change because R. X = treatment (what changes). Y = target population (who gets the change). Z = expected direction + size (if possible). R = mechanism (why it should work).
+
+Metric: Define primary, guardrails, and diagnostics. Primary metric: the 'one number' for decision. Must map to goal (revenue, retention, activation, conversion, engagement). Guardrails: prevent self-own (quality, user harm, churn, latency, errors, complaints). Diagnostics: help explain why (step metrics, funnel steps, latency breakdown, CTR vs CVR).
+
+Design: Make experiment valid and reliable. Unit of randomization: user vs session vs account vs geo vs device. Avoid spillover (users affecting each other). Population / eligibility: new users? returning? specific segment? Variants: Control vs Treatment (or A/B/C). Keep everything else constant. Duration & sample sizing: run full cycles (weekday/weekend). Ensure enough power for expected effect size. Instrumentation: event tracking, logging, exposure definition. 'Who saw treatment?' must be unambiguous.
+
+Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100% (if safe). Monitor guardrails daily. Freeze conflicting changes during test window. Track exposure and outcomes consistently.
+
+Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
+
+Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."

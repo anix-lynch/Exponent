@@ -1,0 +1,365 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+149,Can you introduce yourself?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Self-introduction; communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+243,Describe your communication style when working with C-suite executives.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Executive communication; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+246,Describe your experience with board meeting preparation and follow-up.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Board communication; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+791,Explain Deep Learning to a non-technical audience.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; explanation,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+814,Explain precision and recall to a non technical stakeholder,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; explanation,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+844,Explain what a blockchain is as if to a five-year-old.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; explanation,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+845,Explain what Twitter is and its benefits to someone who isn't familiar with technology and social media.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Product communication; explanation,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1064,How do you communicate technical project needs to non-technical teams?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; cross-functional,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1098,How do you explain difficult technical concepts to layman?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; explanation,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1136,How do you present insights to non-technical stakeholders?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Insight presentation; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1147,"How do you sell an idea to senior management, and what would be included in the slide content?",🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Idea pitching; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1278,How would you convey insights and the methods used to a non-technical audience?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Insight communication; executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1280,How would you convince leadership to build a wristwatch for the elderly?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Leadership communication; executive communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1284,How would you create a messaging framework for a new product?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Messaging framework; communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1298,How would you demonstrate success without concrete results to share?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Success demonstration; communication,"Context: Set the frame with one-sentence situation. What changed? Why now? What's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline: who needs to act and when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the numbers show, key trends. User / market signal: user behavior, market changes. Constraint or risk: what's limiting or risky. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: what action to take based on insights. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1299,How would you describe what our company does to your grandmother?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1349,How would you explain a sudden drop in revenue to leadership?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Revenue explanation; executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1350,How would you explain a technical concept to a non-technical person?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1351,How would you explain computer vision to your grandmother?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1352,How would you explain cricket to someone who has never encountered the sport?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1353,How would you explain machine learning to a five-year-old?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1354,How would you explain machine learning to your grandmother?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1355,How would you explain the role of a product manager to a 4-year-old child?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1356,How would you explain the value of Capital One Shopping to a new business stakeholder at Capital One?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Value communication; stakeholder management,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1357,How would you explain web cookies to someone non-technical?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1358,How would you explain what an OS is to your grandmother?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1524,How would you pitch a new database product to a venture capital firm specializing in databases and analytics?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,VC pitch; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1528,"How would you prepare a presentation for the CEO, within two weeks, on Microsoft Shifts' current performance and potential improvements?",🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,CEO presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1530,How would you prepare for and conduct a final presentation for a client?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Client presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1566,How would you share experiment results internally so it's digestible by different stakeholders?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Results communication; executive communication,"Context: Set the frame with one-sentence situation. What changed? Why now? What's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline: who needs to act and when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the numbers show, key trends. User / market signal: user behavior, market changes. Constraint or risk: what's limiting or risky. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: what action to take based on insights. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1567,"How would you simplify a technical concept for a business user, and how would you explain a business concept to a technical user?",🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Concept simplification; communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1767,Prepare a presentation about a complex project you led from start to finish.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Project presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1768,Present a past AI-focused solution that you've worked on.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,AI solution presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1769,Present a recent project with big scale and cross-functional involvement.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Project presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1770,Present a shipped project you led end-to-end.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Project presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1771,Present slides on a past project you've worked on.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Project presentation; executive communication,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1850,Take a technical project you worked on and explain it to a product marketing manager.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Technical communication; executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1869,Tell me about a project when you had to translate data into insights for the team/client you were working with.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Data translation; executive communication,"Context: Set the frame with one-sentence situation. What changed? Why now? What's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline: who needs to act and when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the numbers show, key trends. User / market signal: user behavior, market changes. Constraint or risk: what's limiting or risky. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: what action to take based on insights. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1918,Tell me about a time when you failed to pitch something to leadership.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Pitch failure; behavioral question,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1929,Tell me about a time when you had to break a complex problem down for different cross-functional teams.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Problem breakdown; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+1947,Tell me about a time when you had to present financial results to non-financial stakeholders.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Financial presentation; behavioral question,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2001,Tell me about a time when you used data to convince stakeholders.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Data persuasion; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2002,Tell me about a time when you used data to persuade higher leadership to change a decision they had already made.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Leadership persuasion; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2057,Tell me about a time you had to deliver difficult feedback to a senior leader.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Senior feedback; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2058,Tell me about a time you had to give someone bad news.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Bad news delivery; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2193,What approach would you take to convince senior stakeholders?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Stakeholder persuasion; executive communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2514,What's your process for preparing the CEO for important meetings or presentations?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,CEO preparation; behavioral question,"Context: Set the frame with one-sentence situation. What decision needs to be made? Why now? What's at stake? (revenue, growth, risk, efficiency). Set the frame: business goal and decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: key metrics, trends, or findings. User / market signal: user feedback, market dynamics. Constraint or risk: limitations, dependencies, risks. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y (explicit tradeoff), do X now not later. Why this is right: upside, risk (acknowledged not hidden), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2515,What's something interesting you could teach me in just a few minutes?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Teaching; behavioral question,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2696,You meet the VP of Product in an elevator who suggests Indeed.com should change its results page to infinite scrolling. What would be your next steps?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Executive suggestion; executive communication,"Context: Set the frame with one-sentence situation. What changed? Why now? What's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline: who needs to act and when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the numbers show, key trends. User / market signal: user behavior, market changes. Constraint or risk: what's limiting or risky. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: what action to take based on insights. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2732,You're a PM at Fivetran. Prepare a presentation explaining one of Fivetran's connectors.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Executive communication,"Context: Set the frame with one-sentence situation. What needs to be explained? Why does the audience need to understand this? What's at stake? (decision-making, alignment, buy-in). Set the frame: business goal (decision support, alignment, education). Decision owner / timeline: who needs to understand and by when?
+
+Insight: Share 2-3 facts only (no analysis dump). Data signal: what the concept is, why it matters. User / market signal: how it applies to business context. Constraint or risk: what limitations or considerations exist. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: how to explain the concept (analogy, simple terms, visual). Why this is right: connects to audience's context, builds understanding. Upside: enables decision-making, alignment, buy-in. Risk: acknowledge complexity, potential misunderstandings. Why alternatives are worse: too technical, too abstract, missing context.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2852,You're the CEO of a healthtech startup with technology that can detect 20 deadly diseases. How would you approach this?,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Executive communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."
+2874,You're the PM of a startup for remote-controlled shower water heaters. Define a problem statement and plan an MVP.,🟢,P10,Executive Communication,Context → Insight → Recommendation → Next Steps,Executive communication,"Context: Set the frame with one-sentence situation. One-sentence situation: what changed, why now, what's at stake? Set the frame: business goal (revenue, growth, risk, efficiency). Decision owner / timeline.
+
+Insight: Share 2-3 facts only (no analysis dump). 2-3 facts only: data signal, user/market signal, constraint or risk. Translate data → meaning: 'This means...' 'The implication is...'
+
+Recommendation: Clear decision with rationale. Clear decision: do X, do X over Y, do X now. Why this is right: upside, risk (acknowledged), why alternatives are worse.
+
+Next Steps: Immediate actions with ownership and metrics. Immediate actions: 30-60-90 day plan. Owner(s): who is responsible. Success metric: how we measure success. Decision checkpoints / update cadence: when we review progress."

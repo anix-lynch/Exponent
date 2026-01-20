@@ -1,0 +1,25 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,salvageable,simple_explanation,bucket
+795,Explain how hash maps work.,🔴,N/A,N/A,N/A,Technical explanation; data structures,YES,Use a lookup table - store things by name so you can find them instantly. Like a phone book: name → number,B
+802,Explain how you choose a model or algorithm to solve a problem.,🔴,N/A,N/A,N/A,ML theory explanation; technical decision,NO,N/A - Too complex or not relevant,B
+808,"Explain malloc, calloc, and reelloc.",🔴,N/A,N/A,N/A,Technical explanation; memory management,NO,N/A - Too complex or not relevant,B
+810,Explain multithreading.,🔴,N/A,N/A,N/A,Technical explanation; concurrency,NO,N/A - Too complex or not relevant,B
+826,Explain the differences between nonconvex and convex functions.,🔴,N/A,N/A,N/A,Math theory explanation; optimization,NO,N/A - Too complex or not relevant,B
+829,Explain the differences between stack and heap memory allocation.,🔴,N/A,N/A,N/A,Technical explanation; memory management,NO,N/A - Too complex or not relevant,B
+834,Explain the memory changes that occur when executing: Object o = new Object().,🔴,N/A,N/A,N/A,Technical explanation; memory management,NO,N/A - Too complex or not relevant,B
+840,Explain the time and space complexities of sorting algorithms.,🔴,N/A,N/A,N/A,Algorithm theory explanation; complexity analysis,YES,"Arrange items in order. Compare pairs, swap if needed. Many ways: quick sort, merge sort",B
+841,Explain the time complexity differences between ArrayList and LinkedList.,🔴,N/A,N/A,N/A,Data structure explanation; complexity analysis,YES,"Loop through items, check conditions, collect results. Basic: for each item → if condition → act",B
+1291,How would you define human agency?,🔴,N/A,N/A,N/A,Philosophical question; abstract concept,NO,N/A - Too complex or not relevant,B
+2210,What are the differences between RAM and ROM?,🔴,N/A,N/A,N/A,Hardware theory; technical question,NO,N/A - Too complex or not relevant,B
+2212,What are the different types of machine learning?,🔴,N/A,N/A,N/A,ML theory; technical question,NO,N/A - Too complex or not relevant,B
+2216,What are the key concepts and operations associated with trees?,🔴,N/A,N/A,N/A,Data structure theory; technical question,YES,Visit nodes in order (left → root → right or root → left → right). Use recursion or stack,B
+2241,What are virtual functions?,🔴,N/A,N/A,N/A,OOP theory; technical question,NO,N/A - Too complex or not relevant,B
+2280,What does your confidence level mean when building a confidence interval?,🔴,N/A,N/A,N/A,Statistics theory; math question,YES,Break into steps. Identify data structures needed. Write functions for each operation,B
+2302,What happens when the JVM Garbage Collector releases a property static of a class?,🔴,N/A,N/A,N/A,JVM internals; technical question,NO,N/A - Too complex or not relevant,B
+2307,What is a front-end assignment?,🔴,N/A,N/A,N/A,Front-end development; technical question,NO,N/A - Too complex or not relevant,B
+2308,What is a full-stack developer?,🔴,N/A,N/A,N/A,Developer role; technical question,YES,"Last in, first out. Like a stack of plates: add to top, remove from top",B
+2312,What is a perceptron?,🔴,N/A,N/A,N/A,ML theory; technical question,NO,N/A - Too complex or not relevant,B
+2322,What is encapsulation?,🔴,N/A,N/A,N/A,OOP theory; technical question,NO,N/A - Too complex or not relevant,B
+2334,What is the difference between inheritance and composition?,🔴,N/A,N/A,N/A,OOP theory; technical question,NO,N/A - Too complex or not relevant,B
+2448,What techniques can be used to optimize write performance from memory to disk?,🔴,N/A,N/A,N/A,System optimization; technical question,NO,N/A - Too complex or not relevant,B
+2488,What's the difference between LangGraph and LangSmith?,🔴,N/A,N/A,N/A,ML framework comparison; technical question,YES,"Graph = nodes connected by edges. Visit neighbors, mark visited. Use queue (BFS) or stack (DFS)",B
+2687,"You have a dataset comprising 1,000 avatar images and 100,000 user descriptions with associated avatar images. Create a model that recommends an image from a new set of 100,000 images for a user de...",🔴,N/A,N/A,N/A,ML model creation; implementation required,YES,Break into steps. Identify data structures needed. Write functions for each operation,B

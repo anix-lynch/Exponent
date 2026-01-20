@@ -1,0 +1,1189 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+6,A competitor is gaining market share. How would you investigate why?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Market share = metric; competitive analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+9,A key metric is declining—what would you investigate first and how would you prioritize what to build?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric declining = classic P1; includes prioritization,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+22,Amazon orders are down 25% - what do you do?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Classic metric drop; 25% decline,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: orders = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+40,"As a PM at Airbnb, how would you increase bookings?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Growth question; increase bookings metric,"Clarify: Define success metric and target. Current bookings rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+51,"As a PM at Open Table, how would you resolve their biggest booking experience issue?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Problem diagnosis; booking experience,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+62,"As a PM for Instagram Shops, how would you increase the number of transactions?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Growth question; increase transactions,"Clarify: Define success metric and target. Current transactions rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), product category, discovery surface, and payment method to identify friction points.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+68,"As a PM for Netflix, how would you increase watch time on TVs?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Growth question; increase watch time,"Clarify: Define success metric and target. Current watch time rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+69,"As a PM for Spotify Podcasts, what success metrics would you define? If engagement on Spotify Music is down while engagement on Spotify Podcasts is up, what actions would you take?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric definition + tradeoff analysis; cannibalization,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+81,"As a product manager for a meditation app for kids with a 3 to 5 star average rating in the Play Store, how would you improve that rating?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Rating improvement; app store optimization,"Clarify: Define success metric and target. Current rating rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+105,"As the data scientist, interpreting a significant increase in revenue from a new feature in one of 20 countries, what would you recommend?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Revenue increase analysis; geographic segmentation,"Clarify: Define success metric and target. Current revenue rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+106,"As the head of product at a children's museum, what would you do to address the feedback that engagement is down?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Engagement drop; museum context,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+110,"As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Capacity surge; operational diagnosis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+111,"As the owner of a supermarket, what would you do after experiencing 500% revenue growth?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Revenue growth; scale planning,"Clarify: Define success metric and target. Current revenue rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+112,"As the PM at Airbnb, how would you enhance the discovery of listings over the next six months?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Discovery improvement; listing optimization,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+115,"As the PM for Hangouts, what would be your next steps after it launched in 2013 with a 3-star rating and polarized reviews?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Product recovery; low rating response,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+120,"As the PM responsible for the ride experience at Lyft, what would be the most effective solution to address the major issues occurring after the driver-rider match process?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Ride experience issues; post-match problems,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+121,"As the Product Manager for Google Docs, facing a 10% decrease in the 'Open' metrics, what steps would you take to investigate and address this decline?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric drop; Open metrics decline,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+160,Choose your favorite product and explain how you would improve it.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Product improvement; optimization,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+161,"Choosing a mobile app, how would you increase user engagement by 100x?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Engagement growth; 100x increase,"Clarify: Define success metric and target. Current engagement rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+162,Click-through rate on Netflix is down by 10%. What would you do?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric drop; CTR decline,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+168,Coinbase's net income is 10% less than it was last month. What would you do?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Revenue drop; financial analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+170,"Considering that 60% of visitors view the store's return policy page on Shopify-powered sites, how would you assist merchants to be more successful as a PM at Shopify?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Merchant success; return policy optimization,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+201,"Delivery times vary significantly by city. How would you identify if it's a partner, process, or market issue?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Delivery time variance; root cause analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), city, partner type, and order characteristics to isolate the issue.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+228,Describe a time you used data to improve an internal process.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Data-driven improvement; behavioral question,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+234,Describe how you would 10X your favorite product.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Product growth; 10x strategy,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+235,Describe how you've used data to identify underperforming business units.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Business unit analysis; data-driven insights,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+459,Design a referral system for Netflix to drive its user growth.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Growth strategy; referral system,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+468,"Design a returns solution for Shopify, considering that most users look for return policies.",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Returns optimization; merchant success,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+627,Design an MVP for Booking's homepage to improve customer lifetime value.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,MVP design; LTV improvement,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+638,Design better support for friendly returns processes to enhance merchant success.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Returns optimization; merchant success,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+707,Diagnose 23andMe's 33% drop in conversion.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Conversion drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+708,Diagnose a 15% drop in video engagement on YouTube.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Engagement drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+709,Diagnose a 20% drop in Facebook Groups usage.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Usage drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: usage = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+710,Diagnose a 25% decrease in conversions on Opencare.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Conversion drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+711,Diagnose a 25% decrease in free sign ups on Notion.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Sign-up drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+712,Diagnose a 25% decrease in song listens on Spotify.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Engagement drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+713,Diagnose a 25% drop in conversion on Wealthsimple's landing page.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Conversion drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+714,Diagnose a 35% decrease in email open rates on SendGrid.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Email open rate drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+716,Diagnose a 35% drop in usage on Invision.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Usage drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: usage = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+718,Diagnose a 45% drop in ride orders on Lyft.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Ride orders drop; metric diagnosis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: orders = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+778,Events created are down 100% on Facebook - why?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric drop; complete drop-off,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+994,Google searches are down 35%. What happened?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric drop; incident response,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1014,Help a premium airline with declining bookings in the business category.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Booking decline; metric diagnosis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1019,High Volume Low Success.,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Metric pattern; volume vs success,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1027,How can you improve Facebook's DAU?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,DAU improvement; metric diagnosis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1242,How would you analyze why user engagement is declining?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Engagement decline; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1288,How would you debug a decline in sales and decide whether to build a new feature or not?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Sales decline; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1343,How would you evaluate the impact of fake news on Facebook users?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Impact evaluation; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1368,How would you handle a situation where qualitative insights contradict quantitative data?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Data contradiction; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1378,How would you identify inefficiencies in a team's workflow using data?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Workflow inefficiency; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1472,How would you investigate a week-over-week 10% drop in successful deliveries?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Delivery drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: deliveries = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1473,How would you investigate the 10% of inactive Netflix users?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,User inactivity; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1549,How would you reduce attrition in a team/organization?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Attrition reduction; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1550,How would you reduce cancellations on Uber?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Cancellation reduction; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1551,How would you reduce the number of customer support tickets from users on our rideshare app?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Support ticket reduction; metric analysis,"Clarify: Define success metric and target. Current tickets rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1582,How would you use data to help Snap engineering improve phone camera speed?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Performance improvement; metric analysis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1591,"If a competitor introduces a new feature, excluding user feedback and engagement metrics, what other data sources would you analyze to decide on developing a similar feature?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Competitive analysis; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1595,"If customer support tickets are increasing, how would you investigate and solve this issue?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Support ticket increase; metric analysis,"Clarify: Define success metric and target. Current tickets rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1627,"If you noticed a 10% decrease in an app's conversion rate, what steps would you take to investigate and resolve the issue?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Conversion drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1644,Imagine you're a data scientist at Meta. There's been a sudden 10% drop in Facebook's daily post views. How would you investigate?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Post views drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1700,Instagram sees a 5% decrease in Daily Active Users (DAU) over a week. How do you determine the root cause?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,DAU drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1701,"Installs are down 35% on DoorDash's iOS app, what do you do?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Install drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: installs = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1702,"Installs on LinkedIn's iOS app are down, what do you do?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Install drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: installs = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1709,It's your first day as a Google PM. Users are complaining that the internet is slow. What will you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Performance issue; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1711,Let's say a marketing campaign underperformed—what would you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Campaign underperformance; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1728,Management wants to increase the development team's productivity by 25%. How would you approach this problem?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Productivity improvement; metric analysis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1742,Meta's new app shows 25% drop-off at sign-up. How do you analyze this?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Sign-up drop-off; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: drop-off = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1743,"Metrics moved in different directions, how do you interpret the results and decide next steps?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Mixed metrics; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1752,"On DoorDash, there are missing item and wrong item issues for deliveries. How would you analyze each of them?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Delivery issues; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1754,One of your clients has experienced a 20% decline in profits. What would you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Profit decline; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+1759,Overstretched Employees,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Employee metrics; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1841,Spotify installs increased 25%. What happened?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Install increase; metric analysis,"Clarify: Define success metric and target. Current installs rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1864,Tell me about a non-obvious insight that you had that drove business impact.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Insight; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1879,Tell me about a situation that required you to dig deep to find the root cause.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Root cause; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1911,"Tell me about a time when you discovered an area of opportunity that hadn't been fully explored. How did you identify it, what actions did you take, and what was the outcome?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Opportunity discovery; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1926,Tell me about a time when you had to ask more questions or dig deeper to get to the bottom of something.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Deep investigation; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+1974,Tell me about a time when you needed to be analytical.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Analytical work; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2000,Tell me about a time when you used data to address a problem.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Data-driven problem solving; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2010,Tell me about a time when you were surprised during your work as a data product manager.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Surprise; behavioral question,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2041,Tell me about a time you discovered a trend by drilling into granular data.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Data discovery; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2052,Tell me about a time you had a problem and had to discover the real cause.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Root cause; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2068,Tell me about a time you identified and solved a strategic problem.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Strategic problem; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2077,Tell me about a time you predicted something.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Prediction; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2089,Tell me about a time you used data to diagnose and solve a problem.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Data problem solving; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2091,Tell me about a time you used your analytical skills to solve a complex problem in a creative way.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Analytical creativity; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2113,Tell me about your analytical skills.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Analytical skills; behavioral question,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2154,The company observes that drivers spend significantly less active time on grocery store orders compared to convenience store orders. What next steps would you take?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Time difference; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2155,The conversion ratio on OpenTable dipped by 10% in one day. What could be the cause?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Conversion drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2158,"The same-store sales are declining for one of your local supermarket chains. As a PM, how will you build products and features to serve the need of users?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Sales decline; product strategy,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2159,The usage of Meta AI within Instagram DMs is up while the usage of Meta AI within the Search Bar of IG Discover page is down. How would you investigate?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Usage divergence; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: usage = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2160,There's a YoY slowdown in transactions. How would you structure your analysis?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Transaction slowdown; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: transactions = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), product category, discovery surface, and payment method to identify friction points.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2171,Uber booking rates have dropped by 10%. How would you address this?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Booking drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2175,"Users are creating more Instagram Stories, but engagement is down. What metrics would you track to improve this?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Engagement issue; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2181,Walk me through a time you diagnosed a drop in conversion.,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Conversion diagnosis; behavioral question,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: conversion = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2291,What factors would you investigate to determine why the app is underperforming in a new geography?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Geographic underperformance; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2429,What questions would you ask before starting an analysis?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Analysis preparation; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2439,What signals would you use to improve Meta's News Feed relevance?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Relevance improvement; metric analysis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2468,What would you do if Dropbox uploads were down 50%?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Upload drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2542,Why are online orders on The New Yorker down 30%?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Order drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: orders = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2549,Why did Codecademy's signups increase by 15%?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Signup increase; metric analysis,"Clarify: Define success metric and target. Current signups rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2619,Why is Gmail search slower than Google search?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Performance metric; metric analysis,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+2622,Why might Venmo be seeing a decrease in users adding their bank accounts?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,User behavior drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2651,You are a Gmail PM and discover that traffic has dropped 10% on a Monday morning. What do you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Traffic drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: traffic = what exactly? Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2655,You are a PM at Amazon and want to increase the NPS. What would you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,NPS improvement; metric analysis,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2681,You are the PM of Messenger and notice a significant drop in DAU. How would you investigate the cause?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,DAU drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2689,"You have a subscriber paying for YouTube TV but not using the platform, and they own a smart fridge, a Chromecast, and Google Nest. How would you increase their engagement?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Engagement improvement; metric analysis,"Clarify: Define success metric and target. Current engagement rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+2698,You realized that Monthly Active Users (MAU) are down for this month. What would you do?,🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,MAU drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2719,"You're a PM at a top-up team. How would you launch cash deposits? If one of the main KPIs is down, how would you go about addressing it?",🟢,P1,Metric Drop Diagnosis,Metric → Segment → Hypothesis → Data Check → Action,Metric drop; metric analysis,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Time window: when did it start? Magnitude: how significant?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Product changes (UI, pricing, policy), external factors (competitor, seasonality), performance issues (latency, crashes), or supply-side changes (if marketplace).
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
+
+Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."

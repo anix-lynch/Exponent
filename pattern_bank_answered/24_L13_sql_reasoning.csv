@@ -1,0 +1,431 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+736,Employee Earnings.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; employee data,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+737,Employee Hierarchy,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; hierarchical data,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  🔗 Multiple joins: ensure join keys are correct and understand relationships
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+832,Explain the key differences between BETWEEN and HAVING clauses in SQL.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL explanation; query optimization,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+848,Extract and clean a usable dataset from a provided company demo database using only SQL and Python.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,Data extraction; SQL + Python,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+854,Find Campaign Purchases,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; campaign analysis,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+886,Find the number of users who called three or more people in the last week.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; user analysis,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⏰ Time-based: filter to the specified time window (last week, last month, etc.)
+  🔢 Conditional filters: use HAVING or subqueries for conditions on aggregated results
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+897,Fraudulent Transactions,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; fraud detection,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+899,Get the top API users based on transaction logs.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; API usage analysis,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  🏆 Ranking: top N, highest/lowest, how are we ranking results?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  🏆 Ranking: use window functions (ROW_NUMBER, RANK, DENSE_RANK) or ORDER BY + LIMIT for top N
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+911,"Given a bookstore database schema, write SQL queries using joins and aggregations to answer questions about sales, inventory, and customer data.",🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; database schema,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  🔗 Multiple joins: ensure join keys are correct and understand relationships
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+2645,Write a query to find all dates where the stadium had three or more consecutive days with attendance of 100 or more people.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⏰ Time-based: filter to the specified time window (last week, last month, etc.)
+  🔢 Conditional filters: use HAVING or subqueries for conditions on aggregated results
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  🔄 Consecutive logic: use window functions (LAG, LEAD) or self-joins to identify consecutive patterns
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+2646,Write a query to find the top 3 unique salaries in each department and list all employees who have those salaries.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  🏆 Ranking: top N, highest/lowest, how are we ranking results?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  🏆 Ranking: use window functions (ROW_NUMBER, RANK, DENSE_RANK) or ORDER BY + LIMIT for top N
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+2647,Write a SQL query to identify the least efficient driver in terms of deliveries per time spent driving in the last two months using the given dataset.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  🏆 Ranking: top N, highest/lowest, how are we ranking results?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⏰ Time-based: filter to the specified time window (last week, last month, etc.)
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  🏆 Ranking: use window functions (ROW_NUMBER, RANK, DENSE_RANK) or ORDER BY + LIMIT for top N
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"
+2648,Write a SQL query to sum the number of rides and deliveries completed for each zip code using the given dataset.,🟡,L13,SQL Reasoning,Conceptual Join → Aggregation Logic → Filter Logic → Output,SQL query; conceptual reasoning,"📊 Define the OUTPUT: Specify what the final table should look like
+  🎯 Grain: one row per what? (user / order / day / experiment / cohort / department / zip code)
+  📋 Columns: metrics + dimensions, what metrics do we need? What dimensions to group by?
+  📅 Time window: last 7d, 30d, all-time, what time period are we analyzing?
+  ⚠️ Rule: If you can't say the grain, you don't understand the query
+
+🔗 Conceptual JOIN: Identify what data must come together
+  📊 Fact table: events, orders, transactions, what is the base table with the metrics?
+  🏷️ Dimension tables: users, products, dates, what tables provide context or attributes?
+  🔑 Join keys: user_id, order_id, product_id, what columns link the tables together?
+  🔀 Join type: INNER → only matched rows, LEFT → keep base table intact
+  ⚠️ Rule: Pick the BASE table first, then join outward
+
+🔍 Filter Logic: Determine which rows count
+  📅 Time filters: event_date BETWEEN …, date >= …, what time period are we filtering?
+  ✅ Status filters: completed, paid, active, what status or state conditions?
+  👥 Segment filters: country, platform, plan, what demographic or segment filters?
+  🚫 Exclusions: test users, refunds, bots, what should we exclude?
+  ⚠️ Rule: Filters change meaning — say them explicitly
+
+🧮 Aggregation Logic: Determine how numbers are computed
+  🔢 Count vs count distinct: COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  ➕ Sum vs average: SUM for totals, AVG for averages, what aggregation function is appropriate?
+  📊 Group by: which dimensions? What columns determine the grain of the output?
+  ⚠️ Rule: Aggregation happens at the grain, not before
+
+✅ Edge Cases & Validation: Check for potential issues
+  🔄 Duplicates after joins? Do joins create duplicate rows that will inflate counts?
+  ❓ Missing data? Are there NULL values that need handling?
+  🔍 Sanity checks: back-of-envelope validation, do the numbers make sense?
+  📈 Performance: for large datasets, consider if the query will be efficient (indexes, filtering early)
+  🧪 Test edge cases: empty results, single row, all NULLs, what happens in edge cases?"

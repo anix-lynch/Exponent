@@ -1,0 +1,37 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+144,"Can a university have a lower overall acceptance rate for female-identifying students, even if every department admits them at a higher rate than others?",🟡,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Simpson's paradox; metric interpretation,"📊 Metric Moved: Identify what exactly changed
+  📈 Direction: up / down / flat, which direction did the metric move?
+  📏 Magnitude: small blip vs step-change, how significant is the change?
+  🎯 Scope: which segment, surface, cohort, where is the change happening?
+  ⏰ Time: one day spike vs sustained trend, is this temporary or ongoing?
+  🔀 Aggregation level: overall metric vs segment-level metrics, check for Simpson's paradox
+  ⚠️ Rule: Never react to a single datapoint
+
+🔍 Proxy Validity: Verify if this metric means what we think it means
+  🎯 Is it a proxy or the real goal? Is this metric a stand-in for something else, or the actual outcome?
+  📈 How tightly correlated to value? Does this metric actually predict business value or user satisfaction?
+  ⏭️ Leading vs lagging? Is this a leading indicator (predicts future) or lagging indicator (reflects past)?
+  👁️ Any known blind spots? Are there scenarios where this metric is misleading or incomplete?
+  ⚠️ Example: CTR ↑ but satisfaction ↓ → weak proxy
+
+🎮 Gaming & Incentives: Assess if the metric can be manipulated
+  👥 By users? Spam, bots, churn masking, are users gaming the system?
+  👔 By teams? Optimize metric, hurt product, are teams optimizing for the metric at the expense of real value?
+  🎨 By design? Dark patterns, forced clicks, is the product design encouraging manipulation?
+  📊 By reporting? Definition drift, are we changing how we measure this over time?
+  ⚠️ Rule: If it's tied to goals/bonuses, it WILL be gamed
+
+🔍 Context Checks: Determine if this change is causal or coincidental
+  📅 Seasonality? Is this a seasonal pattern we've seen before?
+  🚀 Launches / experiments? Did we recently launch a feature or run an experiment?
+  🌍 External events? Are there external factors (news, holidays, market changes) affecting this?
+  🔧 Data pipeline issues? Could this be a data quality problem or reporting error?
+  🔀 Aggregation bias? Is the overall metric hiding important segment-level differences (Simpson's paradox)?
+  ⚠️ Correlation vs causation: is this change actually caused by what we think, or just correlated?
+
+✅ Decide: Determine the appropriate action based on the analysis
+  🚫 Ignore → noise or bad proxy: if the metric is misleading or the change is insignificant, ignore it
+  👀 Monitor → unclear, need more data: if we're not sure, set up monitoring and wait for more information
+  🔍 Investigate → signal but ambiguous: if there's a potential signal, dig deeper to understand what's happening
+  ⚡ Act → strong signal + aligned proxy: if the metric is a good proxy and the change is significant, take action
+  💡 Output: 'We believe X changed because Y, so we will Z.'"

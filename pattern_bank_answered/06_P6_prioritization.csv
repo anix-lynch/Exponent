@@ -1,0 +1,613 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+11,"A large enterprise customer wants to integrate Sierra, what would you build first and why?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Enterprise customer request; prioritization + strategy,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+37,"As a member of the product team at Scribe who receives user research indicating some users use the platform to build help centers, explain how you would assess building end-to-end help center functionality?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature assessment; user research signal,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+90,"As a TPM, how would you handle a project with unchanged deliverables but a cut in the time period by half?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource constraint; timeline compression,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+92,"As a YouTube PM, how would you evaluate the suggestion to develop a tool for content creators to generate ideas with scripts automatically?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature evaluation; creator tools,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+94,"As an OpenTable PM, how would you prioritize improving the worst post-reservation experiences?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization; post-reservation UX,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+158,Choose a product and tell me how you would prioritize new features for it.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; product strategy,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+221,"Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap flexibility; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1025,How can TikTok double its revenue next year? What percentage of the new revenue should be derived from existing advertisers versus new advertisers?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Revenue growth; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1052,How do you balance engineering foundational work with building new features?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Engineering prioritization; tradeoff,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we prioritize: highest RICE items that align with core goals. What we deprioritize: lower RICE items or conflicting requests. Why: explain RICE scores and how they resolve the conflict. Communicate tradeoffs: what we're saying yes to and what we're saying no to."
+1073,How do you decide what to delegate vs. what to handle personally?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Delegation; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What I handle: high-impact, high-confidence items that need my expertise. What I delegate: lower-impact items or items where others have more expertise. Why: explain based on impact, my unique value, and team capacity."
+1106,How do you handle conflicting priorities and tight deadlines?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Priority management; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1137,"How do you prioritize and structure roadmaps, deciding what to build and when?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap prioritization; planning,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1138,How do you prioritize competing features?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; decision making,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we prioritize: highest RICE items that align with core goals. What we deprioritize: lower RICE items or conflicting requests. Why: explain RICE scores and how they resolve the conflict. Communicate tradeoffs: what we're saying yes to and what we're saying no to."
+1139,How do you prioritize features for a product launch?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Launch prioritization; product management,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1140,How do you prioritize strategic initiatives when resources are limited?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Strategic prioritization; resource allocation,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1141,"How do you prioritize tasks across the engineering team, product bugs, the product roadmap, and suggestions from leadership?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Task prioritization; multi-stakeholder,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1142,How do you prioritize tasks?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Task prioritization; general,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1143,How do you prioritize when everything is urgent?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Urgent prioritization; crisis management,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1144,"How do you resolve conflicting product requirements, and who determines which requirement takes priority?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Requirement conflict; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we prioritize: highest RICE items that align with core goals. What we deprioritize: lower RICE items or conflicting requests. Why: explain RICE scores and how they resolve the conflict. Communicate tradeoffs: what we're saying yes to and what we're saying no to."
+1148,How do you set priorities with limited resources?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource-constrained prioritization; planning,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1244,"How would you approach a situation where your business users are pushing for a new business requirement and your engineering team has found 3 bugs, which are repetitive in nature?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Priority conflict; stakeholder management,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1247,How would you approach creating a product roadmap without prior knowledge of the product?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap creation; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1252,How would you approach product planning?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product planning; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1285,"How would you create a short-term roadmap when production issues, sales pressure, and customer demands conflict?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap prioritization; conflict resolution,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we prioritize: highest RICE items that align with core goals. What we deprioritize: lower RICE items or conflicting requests. Why: explain RICE scores and how they resolve the conflict. Communicate tradeoffs: what we're saying yes to and what we're saying no to."
+1286,How would you create a three-year roadmap as head of product?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Strategic roadmap; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1323,How would you determine which features to include in a Minimum Viable Product (MVP)?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,MVP prioritization; feature selection,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1523,How would you organize multiple projects that must be delivered on specified dates?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Project organization; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1536,How would you prioritize between fixing a bug or shipping a new feature?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Bug vs feature; prioritization,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1537,How would you prioritize features in a content moderation tool?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1538,"How would you prioritize features on TikTok to improve, and how would you approach improving the features you've identified?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1539,How would you prioritize multiple requests from different teams?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Multi-team prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1540,How would you prioritize solving the worst post booking experience for Google flights?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Experience prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1541,How would you prioritize solving the worst post-booking experience for TaskRabbit?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Experience prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1571,How would you structure the CEO's calendar and priorities?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Calendar management; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1590,"If a company's top product is dish soap but it plans to launch laptops, how would you decide where to allocate resources?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource allocation; prioritization,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1607,"If there is one Google product you would sunset, what would it be and why?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product sunset; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1617,"If you had $1M to allocate to grow market share in the city, what would you focus on?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Budget allocation; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1621,"If you had to work on five different projects, how would you prioritize them?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Project prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1623,"If you have 2 clients requesting very different features for the same product, how would you prioritize them?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Client prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1859,Tell me about a feature you shipped and how you influenced its priority.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; behavioral question,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1873,Tell me about a project where you prioritized the customer.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Customer prioritization; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+1939,Tell me about a time when you had to make a decision quickly.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Quick decision; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1942,Tell me about a time when you had to make a significant decision without your manager.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Independent decision; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1948,Tell me about a time when you had to say no to someone.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Saying no; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1951,Tell me about a time when you had two deadlines at the same time. How did you manage the situation?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Deadline management; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1954,Tell me about a time when you influenced a product roadmap.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap influence; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1955,Tell me about a time when you influenced the roadmap for a team and brought about a shift in thought.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap influence; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1965,Tell me about a time when you made a prioritization tradeoff.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization tradeoff; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+1967,Tell me about a time when you made an important decision without your boss's approval.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Independent decision; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2007,Tell me about a time when you were forced to prioritize multiple projects.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Multi-project prioritization; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2024,"Tell me about a time when your technical judgment influenced a program, leading to a change in project scope or roadmap.",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Technical judgment; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2028,Tell me about a time where you needed to make a decision with many options and very little time.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Quick decision; behavioral question,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2162,"To make the Pixel the best smartphone on the market, what are the main areas (top 3) you would prioritize?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product prioritization; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2187,"Walmart's top product, dishwashing liquid, drives strong sales. Now eyeing the laptop market, would you invest in boosting dish soap production or launching a new laptop line?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Investment decision; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2299,What Google products would you deprecate or exit?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product sunset; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2411,"What milestones would you look for to determine if a product isn't performing well, and what process would you lay out to sunset the product while handling stakeholders?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product sunset; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2472,What would you do if you had to deliver a product or feature in half of the initial timeline?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Timeline constraint; prioritization,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2473,What would you do if you were a PM at Google Cloud and could only help 3 out of 10 customers?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource constraint; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2531,Where would you invest additional budget to drive growth for DoorDash?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Budget allocation; prioritization,"List Candidates: Identify all options to prioritize. List all options given the resource constraint. Consider: what can be cut, what must stay, and what can be delayed.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2630,"With one engineer and one week, how would you prioritize competing demands from multiple enterprise customers?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource constraint; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we prioritize: highest RICE items that align with core goals. What we deprioritize: lower RICE items or conflicting requests. Why: explain RICE scores and how they resolve the conflict. Communicate tradeoffs: what we're saying yes to and what we're saying no to."
+2674,You are PM for Instagram. How would you decide on investing in a verification badge?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Investment decision; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2691,You have three ideas for expansion but limited resources. How would you help prioritize them?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Resource constraint; prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2779,You're a PM for a chat messenger app. How would you prioritize between adding emoticons on the chat or adding chat backup?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2791,You're a PM for Facebook Feed. How would you decide if you should split the page into separate tabs for friends and non-friends content?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2831,You're a PM of Meta Payments. Average price per transaction is dropping significantly after launching in India and Southeast Asia. How would you define success and decide whether to continue this?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2832,You're a PM of OpenTable's post-booking experience. How would you prioritize and solve their biggest issue?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2845,You're launching Google Maps in Argentina vs. Brazil. How would you decide between the two markets?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+2873,You're the PM of a non-profit food bank. You've just received a large charitable donation. How do you prioritize where to use the money?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
+
+Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
+
+Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence × Ease. Example: Impact 3 × Confidence 0.9 × Ease 3 = RICE 8.1. Higher RICE score = higher priority. Calculate RICE for all candidates to enable objective comparison.
+
+Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
+
+Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
