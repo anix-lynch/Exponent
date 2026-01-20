@@ -44,6 +44,37 @@ Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence ×
 Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
 
 Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+107,"As the Head of Product for a travel incubator, what would you build?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product ideation; travel industry,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+111,"As the owner of a supermarket, what would you do after experiencing 500% revenue growth?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Revenue growth; scale planning,"Clarify: Define success metric and target. Current revenue rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+112,"As the PM at Airbnb, how would you enhance the discovery of listings over the next six months?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Discovery improvement; listing optimization,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
 158,Choose a product and tell me how you would prioritize new features for it.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Feature prioritization; product strategy,"List Candidates: Identify all options to prioritize. List all features, improvements, or initiatives under consideration. Include: new features, improvements to existing features, technical debt, and foundational work.
 
 Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
@@ -53,6 +84,28 @@ Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence ×
 Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
 
 Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that maximize impact. What we delay: lower RICE items that can wait for next cycle. Why: explain RICE scores and strategic rationale to stakeholders."
+160,Choose your favorite product and explain how you would improve it.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product improvement; optimization,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+161,"Choosing a mobile app, how would you increase user engagement by 100x?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Engagement growth; 100x increase,"Clarify: Define success metric and target. Current engagement rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), content type, feature usage, and time of day to find engagement drivers.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
 221,"Describe a time when you worked on a project that wasn't initially on the roadmap. What prompted this project, and how did you decide it was worth pursuing?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Roadmap flexibility; behavioral question,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
 
 Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
@@ -62,6 +115,70 @@ Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence ×
 Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
 
 Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+234,Describe how you would 10X your favorite product.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Product growth; 10x strategy,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+459,Design a referral system for Netflix to drive its user growth.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Growth strategy; referral system,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+468,"Design a returns solution for Shopify, considering that most users look for return policies.",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Returns optimization; merchant success,"Clarify: Define the key metric(s) and success criteria. What exactly needs to change? Baseline and target?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Ensure data quality and measurement consistency.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Top 3-5 potential causes ranked by likelihood × impact. Consider product, user, market, and technical factors.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and analyze user behavior patterns. Use session replays, surveys, or log analysis.
+
+Action: Prioritize fixes by impact × confidence. Start with data issues, then high-impact hypotheses. Run experiments, monitor results, and communicate plan."
+612,Design an evaluation framework for ads ranking.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Framework design; ad ranking,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+627,Design an MVP for Booking's homepage to improve customer lifetime value.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,MVP design; LTV improvement,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+638,Design better support for friendly returns processes to enhance merchant success.,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Returns optimization; merchant success,"Clarify: Define success metric and target. Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
 1025,How can TikTok double its revenue next year? What percentage of the new revenue should be derived from existing advertisers versus new advertisers?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Revenue growth; prioritization,"List Candidates: Identify all options to prioritize. List all options, features, or initiatives that need prioritization. Be comprehensive: include all stakeholders' requests and internal initiatives.
 
 Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.
@@ -557,6 +674,15 @@ Compute RICE: Calculate score for each candidate. RICE = Impact × Confidence ×
 Rank by RICE Score: Sort candidates from highest to lowest RICE. Top candidates: highest RICE scores get priority. Review the ranking: does it align with strategic goals? Consider adjustments: if strategic importance differs from RICE, note why.
 
 Decide + Communicate: Make clear decisions and explain tradeoffs. What we do first: highest RICE items that fit within constraints. What we delay: lower RICE items that can wait. What we cut: lowest RICE items or items that don't fit constraints. Why: explain the RICE rationale and resource limitations clearly to stakeholders."
+2706,"You work at SFO airport, and the CEO asks you to improve the experience from car drop-off to boarding the plane. What's one recommendation you would make?",🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2779,You're a PM for a chat messenger app. How would you prioritize between adding emoticons on the chat or adding chat backup?,🟢,P6,Prioritization,Impact × Confidence × Ease → RICE Score → Decide + Communicate,Prioritization,"List Candidates: Identify all options to prioritize. List all tasks, projects, or initiatives competing for resources. Include: product roadmap items, engineering tasks, bugs, and leadership requests.
 
 Score Each Candidate: Evaluate using RICE framework (Impact × Confidence × Ease). Impact (How big is the upside?): 3 = massive user/business impact, 2 = meaningful but local, 1 = minor improvement. Confidence (How sure are we?): 1.0 = strong data/past proof, 0.7 = some data/informed guess, 0.4 = mostly hypothesis. Ease (How hard is it?): 3 = very easy/quick win, 2 = medium effort, 1 = hard/long-term. For each candidate, assign scores for Impact, Confidence, and Ease.

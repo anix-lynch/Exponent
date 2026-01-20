@@ -17,3 +17,21 @@ Organizational: Identify who blocks or enables this. People: Hiring gaps: missin
 Timeline: Identify when this breaks. Fixed deadlines: Launch dates: product launch, feature release dates. Regulatory deadlines: compliance requirements, legal dates. Contract renewals: vendor contracts, partnership agreements. Sequencing: Must-do-first work: prerequisites, dependencies. Long-lead items: things that take time to prepare. Critical path: work that blocks everything else. Opportunity cost: What slips if this ships? Other work that gets delayed. What breaks if it's late? Consequences of delay.
 
 Prioritize: Decide what to do about constraints. Hard constraints (NON-NEGOTIABLE): Legal / safety: must comply, cannot compromise. External deadlines: fixed dates we can't change. Soft constraints (NEGOTIABLE): Scope: can reduce features, simplify. UX polish: can defer nice-to-haves. Internal tooling: can use workarounds. Strategy: Redesign to avoid constraint: change approach to work around limitation. Phase rollout: launch in stages, address constraints incrementally. Explicitly accept risk: acknowledge constraint and proceed with mitigation. Remember: Constraints are not excuses. They are design inputs. Good answers say what you'll trade, not just what you can't do."
+2670,You are in charge of building a national park system in a newly formed country; how would you measure success?,🟢,L4,Platform / Policy Metrics,Legal → Technical → Organizational → Timeline → Prioritize,Success metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2840,You're called in by the government of India to design the Cowin portal. What top features would you integrate for partner personas? What key metrics would indicate the platform's success and how wo...,🟢,L4,Platform / Policy Metrics,Legal → Technical → Organizational → Timeline → Prioritize,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."

@@ -1,4 +1,31 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+59,"As a PM for an elevator company, how would you design new features to adapt your elevators for skyscrapers, distinguishing them from competitors?",🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product differentiation; competitive positioning,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+96,"As Google, how would you disrupt the movie industry?",🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market disruption; strategic product,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+100,"As Robinhood, how would you disrupt the mortgage industry?",🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market disruption; fintech strategy,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 122,Assess a project's competitors.,🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Competitive analysis; market assessment,"Competitors: Identify who the alternatives are. Direct: same user, same job (direct substitutes). Indirect: different product, same job (alternative solutions). Status quo: Excel, email, manual work, doing nothing. Remember: The real competitor is often the status quo. Map all options users have to solve their problem.
 
 Differentiation: Understand why users choose each option. Price: cost, value proposition, pricing model. Quality / Performance: features, speed, accuracy, reliability. Convenience / UX: ease of use, time to value, user experience. Trust / Brand: reputation, security, established presence. Ecosystem / Lock-in: integrations, network effects, switching costs. Rule: Features don't differentiate — reasons do. People don't buy features — they buy outcomes. Create a table: Option | Who uses it | Why they choose it | Weakness.
@@ -6,6 +33,15 @@ Differentiation: Understand why users choose each option. Price: cost, value pro
 Market Conditions: Assess the market environment. Market size & growth: TAM, SAM, growth rate, maturity. Buyer vs seller power: who has leverage, pricing dynamics. Switching costs: how easy/hard to switch, lock-in factors. Regulation / risk: compliance, legal constraints, regulatory environment. Network effects: yes/no, how strong, winner-take-all dynamics. Competitive intensity: number of players, barriers to entry, differentiation.
 
 Strategy: Define clear positioning and tradeoffs. Compete head-on: match competitors feature-for-feature, price-for-price. Focus on niche: target specific segment, underserved market. Undercut on cost: lower price, better value proposition. Differentiate on UX / trust: better experience, stronger brand. Bundle / unbundle: combine features or focus on core. Remember: Strategy is choosing what not to compete on. If there's no tradeoff, there's no strategy. Output: Clear positioning + tradeoffs. What's our sharp bet? What are we explicitly not doing?"
+130,Build a celebrity engagement marketplace product.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; marketplace platform,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 159,Choose a product you like and explain how you would identify its competitors.,🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Competitive analysis; market research,"Competitors: Identify who the alternatives are. Direct: same user, same job (direct substitutes). Indirect: different product, same job (alternative solutions). Status quo: Excel, email, manual work, doing nothing. Remember: The real competitor is often the status quo. Map all options users have to solve their problem.
 
 Differentiation: Understand why users choose each option. Price: cost, value proposition, pricing model. Quality / Performance: features, speed, accuracy, reliability. Convenience / UX: ease of use, time to value, user experience. Trust / Brand: reputation, security, established presence. Ecosystem / Lock-in: integrations, network effects, switching costs. Rule: Features don't differentiate — reasons do. People don't buy features — they buy outcomes. Create a table: Option | Who uses it | Why they choose it | Weakness.
@@ -13,6 +49,105 @@ Differentiation: Understand why users choose each option. Price: cost, value pro
 Market Conditions: Assess the market environment. Market size & growth: TAM, SAM, growth rate, maturity. Buyer vs seller power: who has leverage, pricing dynamics. Switching costs: how easy/hard to switch, lock-in factors. Regulation / risk: compliance, legal constraints, regulatory environment. Network effects: yes/no, how strong, winner-take-all dynamics. Competitive intensity: number of players, barriers to entry, differentiation.
 
 Strategy: Define clear positioning and tradeoffs. Compete head-on: match competitors feature-for-feature, price-for-price. Focus on niche: target specific segment, underserved market. Undercut on cost: lower price, better value proposition. Differentiate on UX / trust: better experience, stronger brand. Bundle / unbundle: combine features or focus on core. Remember: Strategy is choosing what not to compete on. If there's no tradeoff, there's no strategy. Output: Clear positioning + tradeoffs. What's our sharp bet? What are we explicitly not doing?"
+280,Design a competitor product to Spotify.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; competitive product,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+301,Design a direct competitor to your favorite product.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; competitive product,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+357,Design a marketplace where freelancers bid on contract jobs with the lowest bid winning the contract.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; marketplace,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+373,"Design a new communication device for the elderly, capturing 80% of the market, excluding smartphones.",🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; communication device,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+380,Design a next-generation elevator if Google were to enter this market.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; elevator,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+496,Design a supermarket that caters to older adults.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; retail for seniors,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+533,"Design a vending machine for hotels, and estimate the market size in your hometown.",🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product design; vending machine with market sizing,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1086,How do you differentiate your product in a crowded market?,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Product differentiation; strategy,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1150,How do you stay current with market trends and competitor activities?,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market intelligence; competitive analysis,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1729,Marketing Channel Attribution,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Attribution metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2090,Tell me about a time you used data to inform a marketing decision.,🟢,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Data-driven marketing; behavioral question,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 2631,"Within the Blockchain Industry, where do you think Stablecoins have the most potential?",🟡,L8,Market Analysis,Competitors → Differentiation → Market Conditions → Strategy,Market analysis; business analysis,"Competitors: Identify who the alternatives are. Direct: same user, same job (direct substitutes). Indirect: different product, same job (alternative solutions). Status quo: Excel, email, manual work, doing nothing. Remember: The real competitor is often the status quo. Map all options users have to solve their problem.
 
 Differentiation: Understand why users choose each option. Price: cost, value proposition, pricing model. Quality / Performance: features, speed, accuracy, reliability. Convenience / UX: ease of use, time to value, user experience. Trust / Brand: reputation, security, established presence. Ecosystem / Lock-in: integrations, network effects, switching costs. Rule: Features don't differentiate — reasons do. People don't buy features — they buy outcomes. Create a table: Option | Who uses it | Why they choose it | Weakness.
