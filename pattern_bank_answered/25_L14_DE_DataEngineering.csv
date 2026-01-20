@@ -979,3 +979,4 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   💨 Caching: cache intermediate results, materialized views
   🔀 Partitioning: partition data by time/region, process in parallel
   ⚠️ Rule: Talk about failure BEFORE optimization"
+2320,What is delta lake?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Data architecture; system design,
