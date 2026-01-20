@@ -1,0 +1,37 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+44,"As a PM at Meta launching a new video conference product, define the success metrics.",🟢,P2B7,Media / Streaming,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics for new product,"NSM: Define one North Star metric that best represents user + business value. Example: Weekly Active Video Viewers or Watch Time per User.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Content: video quality, relevance, diversity. Engagement: watch time, completion rate, shares. Platform: load time, buffering, playback quality.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+119,"As the PM of a startup that matches people for music collaborations, how would you measure success?",🟢,P2B7,Media / Streaming,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; music collaboration platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2398,What metrics would you focus on as the PM for YouTube?,🟢,P2B7,Media / Streaming,Define NSM → Input KPIs → Leading Indicators → Guardrails,YouTube metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2786,You're a PM for a video conferencing app. What success metrics would you define for this app?,🟢,P2B7,Media / Streaming,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Content: video quality, relevance, diversity. Engagement: watch time, completion rate, shares. Platform: load time, buffering, playback quality.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."

@@ -1,0 +1,91 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+188,Define a north star metric for Airbnb.,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,North star metric; success definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+189,Define a north star metric for Stripe Connect.,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,North star metric; B2B platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1891,Tell me about a time data was the north star metric and how the analysis was performed.,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,NSM analysis; behavioral question,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2309,"What is a good North Star metric for the COO of a delivery company like FedEx, UPS, or Delhivery to monitor ground operations?",🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,NSM definition; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2414,What north star metric would you track for Facebook Events?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,NSM definition; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2435,What should Airbnb's key north star metrics be?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,NSM definition; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2437,What should be the north star metric for Google Photos?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,NSM definition; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2722,You're a PM at Airbnb. What would you choose as the company's north star metric and why?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2813,You're a PM for Meta's Payments Platform. How would you improve the platform and what north star metric would you use?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2868,You're the PM for Instagram Stories. What is your North Star metric?,🟢,P2A,North Star Metric,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."

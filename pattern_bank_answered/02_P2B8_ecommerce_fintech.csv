@@ -1,0 +1,28 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+457,Design a recommendation system for Amazon. What key metrics would you use to measure its success?,🟢,P2B8,E-commerce / Fintech,Define NSM → Input KPIs → Leading Indicators → Guardrails,System design with metrics; recommendation,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1345,How would you evaluate whether a new product launch was financially successful?,🟢,P2B8,E-commerce / Fintech,Define NSM → Input KPIs → Leading Indicators → Guardrails,Financial success; metrics,"NSM: Define one North Star metric that best represents user + business value. Example: Monthly Active Users with Transactions or Financial Health Score.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User financial safety, regulatory compliance, fraud prevention. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2863,You're the PM for Amazon's shopping cart. What are the most important metrics for this product?,🟢,P2B8,E-commerce / Fintech,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."

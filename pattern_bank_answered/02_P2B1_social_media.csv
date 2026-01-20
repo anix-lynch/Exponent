@@ -1,0 +1,379 @@
+question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+17,"A user advocacy group raises concerns about accessibility for individuals with hearing disabilities. What are some product improvements for Facebook Live and Videos, and how would you define success?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Accessibility feature; define success metrics,"NSM: Define one North Star metric that best represents user + business value. Example: Weekly Active Video Viewers or Watch Time per User.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Content: video quality, relevance, diversity. Engagement: watch time, completion rate, shares. Platform: load time, buffering, playback quality.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. Accessibility compliance, user trust, inclusive design. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+63,"As a PM for Instagram stories, how would you set the goal for the team?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Team goal setting; success metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+114,"As the PM for Ads in Facebook Reels, how would you measure success?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Ad success metrics; Reels platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+116,"As the PM for Instagram Reels, how would you set goals for monetization?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Monetization goals; revenue strategy,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+193,Define success for TikTok.,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; social platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+194,Define success metrics for Facebook Pay.,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; payment platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+777,Evaluate the success of Instagram Stories.,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success evaluation; metrics analysis,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1293,"How would you define success for Instagram Reels and what metrics would you use? If Instagram Reels engagement is growing but Instagram Feed engagement is declining, what actions would you take?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; tradeoff analysis,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1316,How would you determine success for Instagram Reels?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1320,How would you determine the success of Facebook Videos?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Content: video quality, relevance, diversity. Engagement: watch time, completion rate, shares. Platform: load time, buffering, playback quality.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1321,How would you determine the success of Instagram search?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1322,How would you determine the success of LinkedIn's Job feature?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1340,How would you evaluate Facebook's emotion scale? What metrics and tests would you use?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics evaluation; product analysis,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1488,How would you measure improvements made to Facebook Messenger?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Improvement metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1490,How would you measure success for Facebook Events?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1491,How would you measure success for Facebook Reels?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1492,"How would you measure success for Instagram Shops, excluding ad revenue?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1493,How would you measure success metrics for Facebook Fundraisers?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1496,How would you measure the success of a personalized news feed?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1503,How would you measure the success of discovery features on Instagram?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1505,How would you measure the success of Facebook dating?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1506,How would you measure the success of Facebook Live?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1507,How would you measure the success of Facebook Portal?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1508,How would you measure the success of Facebook Rooms?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1560,How would you set a goal for Facebook Marketplace?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1561,How would you set a goal for Facebook reactions and measure it?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1563,How would you set goals and metrics for Facebook Rooms?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1564,How would you set goals and metrics for Facebook Work Chat?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1565,How would you set goals for an Instagram shop?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1610,"If you could choose 5 metrics for TikTok's customer service platform, what would they be?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics selection; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Resolution: first-contact resolution, time to resolve. Quality: customer satisfaction, issue recurrence. Efficiency: tickets per agent, automation rate.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1706,"Is introducing Meta AI within Instagram DMs a good investment for Meta? If so, why? What are the goals you would set? What metrics would you track to see if it is working and to ensure product health?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Investment decision; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1803,Set goals and metrics for Instagram Store. What if purchases increase but engagement drops in other app areas?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; tradeoff analysis,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2224,What are the metrics for contextual search on Instagram?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Search metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2344,What is the most important metric for Instagram's verified badges?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Verified badge metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2395,What metrics would you consider for designing a robot at Facebook?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Robot metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2396,What metrics would you define for the success of Facebook Lite?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Facebook Lite metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2477,What would you set as the goals for Facebook hashtags?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2675,"You are PM in Meta, What is the goal for Facebook Pay in next 6months or 1 years? How would you think about tacking?",🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2804,You're a PM for Instagram Reels. Why has Meta invested in this product? Should they invest more? What goals and metrics would you track for the next 12 months?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2844,You're launching Facebook Jobs in two weeks. What key metrics would you track to measure its success?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2850,You're PM for Facebook ads. How would you define success metrics for the team? You're considering adding GenAI capabilities to the ad creation process for new sellers. How would you decide whether ...,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2867,You're the PM for Instagram Reels and want to test new advertising formats. What metrics would you track?,🟢,P2B1,Social Media,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
