@@ -254,7 +254,6 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2303,What happens when you navigate to a website?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Web navigation; system design,
 2304,"What happens, technically, when someone does a Google Search?",🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Search system; system design,
 2319,What is cloud gaming?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Cloud gaming; system design,
-2320,What is delta lake?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Data architecture; system design,
 2321,What is DevOps?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,DevOps; system design,
 2333,What is the difference between authentication and authorization?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Security concepts; system design,
 2336,What is the difference between NoSQL and SQL?,🟡,P13B_General,Consumer Platforms - General,Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics,Database comparison; system design,
