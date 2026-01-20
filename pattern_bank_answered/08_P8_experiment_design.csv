@@ -402,3 +402,4 @@ Run: Execute with careful ramp and monitoring. Ramp: 1% → 10% → 50% → 100%
 Validate: Check result trustworthiness. A/A or sanity checks (if available). SRM check (sample ratio mismatch - traffic split correct?). Balance check (are groups comparable?). Correct attribution (exposure vs outcome window). Novelty / seasonality / logging changes. Multiple testing / peeking risk.
 
 Decide: Ship, iterate, or rollback. If primary metric up and guardrails stable → ship with gradual rollout. If mixed results → iterate (refine treatment) and re-test. If guardrails worsen → rollback + root-cause analysis. Learnings: mechanism confirmed? which segment moved? Follow-up monitoring plan."
+895,"For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement?",🟢,P8,Experiment Design,Hypothesis → Metric → Design → Run → Validate → Decide,Engagement analysis; causal measurement,

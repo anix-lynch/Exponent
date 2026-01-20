@@ -32,28 +32,6 @@ Combine into Segments: Create Persona × Behavior × Value matrix. Example: Pers
 Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
 
 Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
-690,"Design Whatsapp for either one of 3 segments: senior citizens, families, or businesses.",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Product design; segmented messaging,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, geographic region. Context: job-to-be-done, use case, environment. Needs and constraints: what they need, what limits them.
-
-Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Usage patterns: feature adoption, session length, return frequency.
-
-Define Value (WHY THEY MATTER): Quantify segment importance. Revenue: ad engagement, premium subscription rate, creator revenue share. Strategic value: content creation, network effects, viral growth. Cost/risk: moderation cost, platform abuse, churn risk.
-
-Combine into Segments: Create Persona × Behavior × Value matrix. Example: Persona A × Behavior X × High Value = Segment 1. Persona B × Behavior Y × Medium Value = Segment 2. Persona C × Behavior Z × Low Value = Segment 3. Each segment is a unique combination of who they are, how they behave, and why they matter.
-
-Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
-
-Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
-895,"For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement?",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Engagement analysis; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, interests, social graph size. Context: content consumption vs creation, platform usage pattern. Needs: connection, entertainment, self-expression.
-
-Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Engagement patterns: session frequency, feature adoption, content interaction.
-
-Define Value (WHY THEY MATTER): Quantify segment importance. Revenue: ad engagement, premium subscription rate, creator revenue share. Strategic value: content creation, network effects, viral growth. Cost/risk: moderation cost, platform abuse, churn risk.
-
-Combine into Segments: Create Persona × Behavior × Value matrix. Example: Persona A × Behavior X × High Value = Segment 1. Persona B × Behavior Y × Medium Value = Segment 2. Persona C × Behavior Z × Low Value = Segment 3. Each segment is a unique combination of who they are, how they behave, and why they matter.
-
-Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
-
-Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
 995,"Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do?",🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus Top Segments,Review analysis; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, location. Context: job-to-be-done, environment, use case. Needs and constraints: what they need, what limits them.
 
 Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Usage patterns: feature adoption, session length, return frequency.
@@ -98,28 +76,6 @@ Combine into Segments: Create Persona × Behavior × Value matrix. Example: Pers
 Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
 
 Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
-1766,Post Success By Age Group.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Age segmentation; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, location. Context: job-to-be-done, environment, use case. Needs and constraints: what they need, what limits them.
-
-Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Usage patterns: feature adoption, session length, return frequency.
-
-Define Value (WHY THEY MATTER): Quantify segment importance. Revenue: ARPU, LTV, conversion rate, retention. Strategic value: growth potential, network effects, market position. Cost/risk: support cost, churn risk, acquisition cost.
-
-Combine into Segments: Create Persona × Behavior × Value matrix. Example: Persona A × Behavior X × High Value = Segment 1. Persona B × Behavior Y × Medium Value = Segment 2. Persona C × Behavior Z × Low Value = Segment 3. Each segment is a unique combination of who they are, how they behave, and why they matter.
-
-Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
-
-Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
-1794,Revenue by Customer City,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Geographic segmentation; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, location. Context: job-to-be-done, environment, use case. Needs and constraints: what they need, what limits them.
-
-Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Usage patterns: feature adoption, session length, return frequency.
-
-Define Value (WHY THEY MATTER): Quantify segment importance. Revenue: ARPU, LTV, conversion rate, retention. Strategic value: growth potential, network effects, market position. Cost/risk: support cost, churn risk, acquisition cost.
-
-Combine into Segments: Create Persona × Behavior × Value matrix. Example: Persona A × Behavior X × High Value = Segment 1. Persona B × Behavior Y × Medium Value = Segment 2. Persona C × Behavior Z × Low Value = Segment 3. Each segment is a unique combination of who they are, how they behave, and why they matter.
-
-Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
-
-Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
 2147,Tell me how you'd segment customers to support a growth initiative.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Customer segmentation; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, geographic region. Context: job-to-be-done, use case, environment. Needs and constraints: what they need, what limits them.
 
 Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Usage patterns: feature adoption, session length, return frequency.
@@ -132,17 +88,6 @@ Rank Segments: Prioritize by impact and feasibility. Impact on core metric: whic
 
 Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
 2184,Walk me through how you'd segment users for a churn analysis.,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Churn segmentation; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, geographic region. Context: job-to-be-done, use case, environment. Needs and constraints: what they need, what limits them.
-
-Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Churn indicators: usage decline, feature abandonment, support ticket patterns.
-
-Define Value (WHY THEY MATTER): Quantify segment importance. Revenue: ARPU, LTV, conversion rate, retention. Strategic value: growth potential, network effects, market position. Cost/risk: support cost, churn risk, acquisition cost.
-
-Combine into Segments: Create Persona × Behavior × Value matrix. Example: Persona A × Behavior X × High Value = Segment 1. Persona B × Behavior Y × Medium Value = Segment 2. Persona C × Behavior Z × Low Value = Segment 3. Each segment is a unique combination of who they are, how they behave, and why they matter.
-
-Rank Segments: Prioritize by impact and feasibility. Impact on core metric: which segment moves the needle most? Size and growth potential: current size and future growth trajectory. Effort to serve: how much work to address this segment's needs? Score: High Impact × Large Size × Low Effort = Top Priority.
-
-Focus: Choose primary and secondary segments. Primary segment: default design target, gets most resources. Secondary segment: nice-to-have, addressed if resources allow. Deprioritize or ignore: segments that don't rank high enough. Design decisions should optimize for the primary segment first."
-2459,What types of visualizations would you use to identify patterns in churn?,🟢,P5,Segmentation,(Persona × Behavior × Value) → Rank → Focus,Churn visualization; segmentation,"Define Personas (WHO): Identify distinct user groups. Demographics: age, role, company size, location. Context: job-to-be-done, environment, use case. Needs and constraints: what they need, what limits them.
 
 Define Behaviors (HOW): Map how users interact. Frequency: daily vs weekly vs occasional usage patterns. Depth: light users (basic features) vs power users (advanced features). Lifecycle stage: new users vs active users vs mature users. Churn indicators: usage decline, feature abandonment, support ticket patterns.
 

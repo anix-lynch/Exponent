@@ -35,3 +35,5 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
   🔍 Investigate → signal but ambiguous: if there's a potential signal, dig deeper to understand what's happening
   ⚡ Act → strong signal + aligned proxy: if the metric is a good proxy and the change is significant, take action
   💡 Output: 'We believe X changed because Y, so we will Z.'"
+1766,Post Success By Age Group.,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Age segmentation; metrics reporting,
+1794,Revenue by Customer City,🟢,L12,Metrics Interpretation,Metric Moved → Proxy Validity → Gaming Risk → Decide,Geographic segmentation; metrics reporting,

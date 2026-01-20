@@ -53,3 +53,4 @@ Identify Churn Drivers: Understand WHEN, WHO, and WHAT. WHEN: Day 0-1 → onboar
 Hypothesize: Generate hypotheses based on churn timing and patterns. If early drop → activation problem. If one cohort worse → acquisition mismatch. If usage drops first → value erosion. If late churn → lack of habit/reminders.
 
 Fix: Implement targeted solutions based on hypotheses. Improve onboarding/activation for early churn. Tighten targeting if specific cohorts underperform. Reinforce core value loop if usage drops. Add retention hooks (email, push, content) for late churn. Measure cohort again to validate improvements.",P4C_Revenue
+2459,What types of visualizations would you use to identify patterns in churn?,🟢,P4,Cohort / Retention / Churn,Retention Curves → Usage Frequency → Habit Loop → Fix,Churn visualization; churn analysis,,P4B_Retention
