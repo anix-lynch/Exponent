@@ -182,3 +182,16 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2572,Why do you think you would be a good fit for Microsoft's mission?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Company fit; behavioral question
 2634,Would you like to apply design thinking in your future role?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Design thinking; behavioral question
 1070,How do you deal with ambiguous situations?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Ambiguity; behavioral question
+2254,"What challenge do you anticipate in this role, and what excites you most about it?",🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2284,What excites you most about technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2300,What got you interested in technology?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2412,What motivates you to get up from the bed?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2413,What motivates you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2543,Why are you interested in becoming a Chief of Staff?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2573,Why do you want to be a PM? What aspects of product management are you most passionate about?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2574,Why do you want to be a PM? What experiences have pointed to this being the right role for you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2575,Why do you want to be a Product Manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2576,Why do you want to be a product manager?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2577,Why do you want to join a Graduate Scheme?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2580,Why do you want to switch jobs now?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Intent question; motivation; company fit
+2625,Why should we hire you?,🟢,P15A,Personal & Motivation,Situation → Task → Action → Result (STAR),Self-presentation; behavioral question

@@ -1,22 +1,10 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
-2254,"What challenge do you anticipate in this role, and what excites you most about it?",🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2284,What excites you most about technology?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2300,What got you interested in technology?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2412,What motivates you to get up from the bed?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2413,What motivates you?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2418,What part of our mission resonates the most with you?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2543,Why are you interested in becoming a Chief of Staff?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2544,Why are you interested in FinTech?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2545,Why are you interested in working at Bloomberg?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2546,Why are you interested in working at MongoDB?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2573,Why do you want to be a PM? What aspects of product management are you most passionate about?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2574,Why do you want to be a PM? What experiences have pointed to this being the right role for you?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2575,Why do you want to be a Product Manager?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2576,Why do you want to be a product manager?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2577,Why do you want to join a Graduate Scheme?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2578,Why do you want to join Amazon?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2579,Why do you want to join an AI-first company?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2580,Why do you want to switch jobs now?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2581,Why do you want to work at Anthropic?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2582,Why do you want to work at Apple?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2583,Why do you want to work at Atlassian?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
@@ -54,4 +42,3 @@ question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes
 2627,Why work at Atlassian?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2628,Why work at PayPal?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
 2629,Why work at Slack?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Intent question; motivation; company fit
-2625,Why should we hire you?,🟢,P16,Intent / Motivation,Company → Role → Mission → Personal Fit → Why Now,Self-presentation; behavioral question
