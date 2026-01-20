@@ -1,5 +1,7 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
-47,"As a PM at Meta, what key metrics would you track for Meta's Workplace Chat?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics for Workplace Chat,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+47,"As a PM at Meta, what key metrics would you track for Meta's Workplace Chat?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics for Workplace Chat,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
 
@@ -8,7 +10,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-195,Define success metrics for Zoom for Business.,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; B2B video platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+195,Define success metrics for Zoom for Business.,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; B2B video platform,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -17,7 +21,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1501,How would you measure the success of data insights presented to a B2B customer regarding their organization's health?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,B2B metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1501,How would you measure the success of data insights presented to a B2B customer regarding their organization's health?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,B2B metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Resolution: first-contact resolution, time to resolve. Quality: customer satisfaction, issue recurrence. Efficiency: tickets per agent, automation rate.
 
@@ -26,7 +32,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1513,How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,B2B metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1513,How would you measure the success of insights provided for an enterprise messaging app targeted toward admins?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,B2B metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
 
@@ -35,7 +43,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1574,How would you track success at Slack?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success tracking; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1574,How would you track success at Slack?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success tracking; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -44,7 +54,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1628,"If you were a PM for Workplace, what metrics would you use to define success?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1628,"If you were a PM for Workplace, what metrics would you use to define success?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -53,7 +65,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1629,"If you were PM for a workplace chat app, what metrics would you use to measure its success?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1629,"If you were PM for a workplace chat app, what metrics would you use to measure its success?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
 
@@ -62,7 +76,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1758,OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Workspace metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Example: Daily Active Conversations or Messages per User.
+1758,OpenAI wants to launch a collaborative workspace for teams within ChatGPT. How would you define success metrics?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Workspace metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Define one North Star metric that best represents user + business value. Example: Daily Active Conversations or Messages per User.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
 
@@ -71,7 +87,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2384,What key metrics would you use to measure the success of Zoom?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Zoom metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2384,What key metrics would you use to measure the success of Zoom?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Zoom metrics; metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -80,7 +98,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2750,"You're a PM at Meta. Explain why Meta created Rooms, an internal video-chat product similar to Zoom. How would you set goals and measure the success of this product?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Example: Weekly Active Video Viewers or Watch Time per User.
+2750,"You're a PM at Meta. Explain why Meta created Rooms, an internal video-chat product similar to Zoom. How would you set goals and measure the success of this product?",🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Define one North Star metric that best represents user + business value. Example: Weekly Active Video Viewers or Watch Time per User.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Content: video quality, relevance, diversity. Engagement: watch time, completion rate, shares. Platform: load time, buffering, playback quality.
 
@@ -89,7 +109,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2777,You're a PM at Zoom. What goals and metrics would you track?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2777,You're a PM at Zoom. What goals and metrics would you track?,🟢,P2B5,SaaS / Enterprise,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"Key metrics: ARR, NRR, CAC, churn, product adoption, feature usage
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 

@@ -1,5 +1,7 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
-42,"As a PM at DoorDash, define some goals and metrics for the business.",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Business metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+42,"As a PM at DoorDash, define some goals and metrics for the business.",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Business metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -8,7 +10,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-55,"As a PM at Uber, what key metrics would you track to measure its success in a new city?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,New market metrics; city launch,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+55,"As a PM at Uber, what key metrics would you track to measure its success in a new city?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,New market metrics; city launch,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -17,7 +21,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-93,"As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,New market metrics; city launch,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+93,"As an Admin, what key metrics would you consider crucial for evaluating Uber's success in a newly launched city?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,New market metrics; city launch,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -26,7 +32,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-157,Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; bike launch,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+157,Choose a meaningful metric to measure the success of launching bikes as a form of transport for Dashers.,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; bike launch,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -35,7 +43,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-322,"Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product design; food delivery with metrics,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+322,"Design a food delivery app including UX for seller app, MVP creation, success metrics, user app flow, and geo-based hotel search.",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product design; food delivery with metrics,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -44,7 +54,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-580,Design an app like Uber for Google's driverless cars targeted at children under 16 years old.,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product design; autonomous vehicle service,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+580,Design an app like Uber for Google's driverless cars targeted at children under 16 years old.,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product design; autonomous vehicle service,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -53,7 +65,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1171,How does Uber Eats track success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success tracking; metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1171,How does Uber Eats track success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success tracking; metrics,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -62,7 +76,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1512,How would you measure the success of improvements made to Uber's referral system?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Improvement metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1512,How would you measure the success of improvements made to Uber's referral system?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Improvement metrics; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -71,7 +87,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1654,Imagine you're the PM for Uber Lite in a city of your choice. What metrics would you define to measure success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1654,Imagine you're the PM for Uber Lite in a city of your choice. What metrics would you define to measure success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -80,7 +98,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2172,Uber Eats introduced a new promotional tab in their app. How would you measure its success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature success; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+2172,Uber Eats introduced a new promotional tab in their app. How would you measure its success?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature success; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -89,7 +109,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2218,"What are the key metrics for a food delivery app, particularly those indicating an oversupply or undersupply of restaurants and orders?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Food delivery metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2218,"What are the key metrics for a food delivery app, particularly those indicating an oversupply or undersupply of restaurants and orders?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Food delivery metrics; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -98,7 +120,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2227,What are the most important metrics for DoorDash?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,DoorDash metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2227,What are the most important metrics for DoorDash?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,DoorDash metrics; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -107,7 +131,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2391,"What metric would you want to know about Instacart, and how would you find the data to answer that?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metric selection; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2391,"What metric would you want to know about Instacart, and how would you find the data to answer that?",🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metric selection; metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -116,7 +142,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2825,You're a PM for Tesla. What success metrics would you use for Tesla's 'Sales & Delivery' app?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2825,You're a PM for Tesla. What success metrics would you use for Tesla's 'Sales & Delivery' app?,🟢,P2B2,On-Demand,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"Key metrics: Time to match, driver utilization, delivery time, ETA accuracy, supply/demand balance
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 

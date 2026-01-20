@@ -1,5 +1,7 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
-48,"As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?",🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Content moderation metrics; ads compliance,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+48,"As a PM at Meta, why is it critical to address ads that violate community guidelines and regulations? What metrics would you use to track success in this area?",🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Content moderation metrics; ads compliance,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -8,7 +10,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-192,Define success for Meta's local awareness ads.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; local advertising,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+192,Define success for Meta's local awareness ads.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; local advertising,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -17,7 +21,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-567,Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Algorithm design with metrics; ad ranking,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+567,Design an algorithm to rank ads in the Google Play Store. Include primary and secondary success metrics.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Algorithm design with metrics; ad ranking,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -26,7 +32,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1495,How would you measure the success of a local ads product at launch?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Launch metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+1495,How would you measure the success of a local ads product at launch?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Launch metrics; metrics definition,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -35,7 +43,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1734,Measure the success of the iPad Pro.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1734,Measure the success of the iPad Pro.,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Product metrics; metrics definition,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -44,7 +54,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2400,What metrics would you track if we are strategizing an increase in sales of Google's wireless headset?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Sales metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2400,What metrics would you track if we are strategizing an increase in sales of Google's wireless headset?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Sales metrics; metrics definition,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -53,7 +65,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2709,You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2709,You're a Google Ads PM. What metrics would you use to measure the success of Google Ads?,🟢,P2B6,Advertising,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"Key metrics: CTR, CPC, ROAS, conversion rate, ad quality, targeting accuracy
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 

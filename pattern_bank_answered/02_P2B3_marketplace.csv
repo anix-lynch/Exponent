@@ -1,5 +1,7 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
-20,Airbnb made a feature to increase business travel. How would you measure its success?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature success metrics; business travel focus,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+20,Airbnb made a feature to increase business travel. How would you measure its success?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Feature success metrics; business travel focus,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -8,7 +10,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-67,"As a PM for Meta, how would you measure the success of launching a job marketplace?",🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,New product launch metrics,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+67,"As a PM for Meta, how would you measure the success of launching a job marketplace?",🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,New product launch metrics,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -17,7 +21,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1292,How would you define success for Airbnb's Experiences?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1292,How would you define success for Airbnb's Experiences?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; product definition,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -26,7 +32,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1637,Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Launch metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+1637,Imagine AirBnB is launching in a new region. Define success metrics for a one-page dashboard for executives.,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Launch metrics; metrics definition,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -35,7 +43,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2338,What is the goal of Airbnb hosts?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Host goals; metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2338,What is the goal of Airbnb hosts?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Host goals; metrics,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -44,7 +54,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2343,What is the most important metric for Airbnb?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Airbnb metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2343,What is the most important metric for Airbnb?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Airbnb metrics; metrics definition,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -53,7 +65,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2443,What success metrics would you create for Airbnb's homepage?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Homepage metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2443,What success metrics would you create for Airbnb's homepage?,🟢,P2B3,Marketplace,Define NSM → Input KPIs → Leading Indicators → Guardrails,Homepage metrics; metrics definition,"Key metrics: Supply/demand balance, GMV, take rate, listing quality, booking conversion
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior: sessions per user, click-through rate, time on page. Content quality: relevance score, engagement depth. Monetization: conversion rate, revenue per session.
 

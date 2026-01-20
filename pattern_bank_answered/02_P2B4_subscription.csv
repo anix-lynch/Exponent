@@ -1,5 +1,7 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
-33,"As a Home Page PM at Netflix, how would you measure the success of your product?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Homepage success metrics,"NSM: Define one North Star metric that best represents user + business value. Example: Weekly Engaged Users or Time to Value.
+33,"As a Home Page PM at Netflix, how would you measure the success of your product?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Homepage success metrics,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Define one North Star metric that best represents user + business value. Example: Weekly Engaged Users or Time to Value.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior: sessions per user, click-through rate, time on page. Content quality: relevance score, engagement depth. Monetization: conversion rate, revenue per session.
 
@@ -8,7 +10,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-69,"As a PM for Spotify Podcasts, what success metrics would you define? If engagement on Spotify Music is down while engagement on Spotify Podcasts is up, what actions would you take?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metric definition + tradeoff analysis; cannibalization,"Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
+69,"As a PM for Spotify Podcasts, what success metrics would you define? If engagement on Spotify Music is down while engagement on Spotify Podcasts is up, what actions would you take?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metric definition + tradeoff analysis; cannibalization,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+Clarify: Define the metric (numerator/denominator), baseline, and scope. Specify: engagement = what exactly? Time window: when did it start? Magnitude: how significant?
 
 Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Verify tracking accuracy, ETL lag, or event schema changes.
 
@@ -19,7 +23,9 @@ Hypothesize: Product changes (UI, pricing, policy), external factors (competitor
 Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
 
 Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
-113,"As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; podcast launch,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+113,"As the PM at Netflix, after launching Netflix Podcasts 6 months ago, how do you define and measure the success of this initiative?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Success metrics; podcast launch,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -28,7 +34,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1498,How would you measure the success of AI implementation at Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,AI metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1498,How would you measure the success of AI implementation at Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,AI metrics; metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -37,7 +45,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1515,How would you measure the success of the recommendation engine at Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Algorithm metrics; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1515,How would you measure the success of the recommendation engine at Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Algorithm metrics; metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -46,7 +56,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1620,"If you had to create a dashboard for Netflix with only 3 metrics, what would they be?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Dashboard design; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+1620,"If you had to create a dashboard for Netflix with only 3 metrics, what would they be?",🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Dashboard design; metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -55,7 +67,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2387,What KPIs would you track to evaluate the health of a subscription-based business?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Subscription KPIs; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2387,What KPIs would you track to evaluate the health of a subscription-based business?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Subscription KPIs; metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -64,7 +78,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2401,What metrics would you track to evaluate a new 'Top Picks' ML feature for Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,ML feature metrics; metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+2401,What metrics would you track to evaluate a new 'Top Picks' ML feature for Netflix?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,ML feature metrics; metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -73,7 +89,9 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2818,You're a PM for Netflix's homepage. How would you set goals and what metrics will you use to measure success?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+2818,You're a PM for Netflix's homepage. How would you set goals and what metrics will you use to measure success?,🟢,P2B4,Subscription,Define NSM → Input KPIs → Leading Indicators → Guardrails,Metrics definition,"Key metrics: Churn, LTV, MRR, retention, engagement, content consumption
+
+NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior: sessions per user, click-through rate, time on page. Content quality: relevance score, engagement depth. Monetization: conversion rate, revenue per session.
 
