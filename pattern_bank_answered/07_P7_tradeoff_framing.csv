@@ -631,3 +631,5 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confu
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2806,You're a PM for Instagram. Improve friend group dynamics and how friends socialize.,🟢,P7,Tradeoff Framing,Define Options → Winners/Losers → Guardrails → Decide + Communicate,Product improvement; strategy,
+2835,You're a PO at WhatsApp and have been asked to increase engagement. What would you do?,🟢,P7,Tradeoff Framing,Define Options → Winners/Losers → Guardrails → Decide + Communicate,Engagement improvement; product strategy,
