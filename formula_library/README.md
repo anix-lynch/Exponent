@@ -46,7 +46,7 @@
 ### P1 - Metric Drop Diagnosis
 **Formula:** `Clarify Metric → Segment → Hypothesize → Data Check → Action`
 
-[📖 **View Detailed Guide**](./01_P01_metric_drop/P01_metric_drop.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/01_P1_metric_drop.csv)
 
 ---
 
@@ -55,106 +55,106 @@
 **P02A - North Star Metric**
 **Formula:** `Define NSM → Input KPIs → Leading Indicators → Guardrails`
 
-[📖 **View Detailed Guide**](./01_P02A_north_star_metric/P02A_north_star_metric.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_north_star_metric.csv)
 
 **P02B - KPI Ladder (by Business Model)**
 
 - **P02B1 - Social Media**: DAU/MAU, engagement, time spent
-  [📖 **View Detailed Guide**](./01_P02B1_social_media/P02B1_social_media.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_social_media.csv)
 
 - **P02B2 - On-Demand**: Time to match, driver utilization, delivery time
-  [📖 **View Detailed Guide**](./01_P02B2_on_demand/P02B2_on_demand.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_on_demand.csv)
 
 - **P02B3 - Marketplace**: Supply/demand balance, GMV, take rate
-  [📖 **View Detailed Guide**](./01_P02B3_marketplace/P02B3_marketplace.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_marketplace.csv)
 
 - **P02B4 - Subscription**: Churn, LTV, MRR, retention
-  [📖 **View Detailed Guide**](./01_P02B4_subscription/P02B4_subscription.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_subscription.csv)
 
 - **P02B5 - SaaS / Enterprise**: ARR, NRR, CAC, churn
-  [📖 **View Detailed Guide**](./01_P02B5_saas_enterprise/P02B5_saas_enterprise.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_saas_enterprise.csv)
 
 - **P02B6 - Advertising**: CTR, CPC, ROAS, conversion rate
-  [📖 **View Detailed Guide**](./01_P02B6_advertising/P02B6_advertising.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_advertising.csv)
 
 - **P02B7 - Media / Streaming**: Watch time, retention, content engagement
-  [📖 **View Detailed Guide**](./01_P02B7_media_streaming/P02B7_media_streaming.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_media_streaming.csv)
 
 - **P02B8 - E-commerce / Fintech**: Conversion rate, AOV, transaction volume
-  [📖 **View Detailed Guide**](./01_P02B8_ecommerce_fintech/P02B8_ecommerce_fintech.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_ecommerce_fintech.csv)
 
 - **P02B9 - General Metrics**: Varies by product/feature context
-  [📖 **View Detailed Guide**](./01_P02B9_general_metrics/P02B9_general_metrics.md)
+  [📖 **View Detailed Guide**](../pattern_bank_answered/02_P2_KPI_general.csv)
 
 ---
 
 ### P3 - Funnel Analysis
 **Formula:** `Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test`
 
-[📖 **View Detailed Guide**](./01_P03_funnel_analysis/P03_funnel_analysis.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/03_P3_funnel_analysis.csv)
 
 ---
 
 ### P4 - Cohort / Retention / Churn
 **Formula:** `Define Cohorts → Measure Retention → Identify Churn Drivers → Hypothesize → Fix`
 
-[📖 **View Detailed Guide**](./01_P04_cohort_retention_churn/P04_cohort_retention_churn.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/04_P4_cohort_retention_churn.csv)
 
 ---
 
 ### P5 - Segmentation
 **Formula:** `(Persona × Behavior × Value) → Rank → Focus Top Segments`
 
-[📖 **View Detailed Guide**](./01_P05_segmentation/P05_segmentation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/05_P5_segmentation.csv)
 
 ---
 
 ### P6 - Prioritization
 **Formula:** `Impact × Confidence × Ease → RICE Score → Decide + Communicate`
 
-[📖 **View Detailed Guide**](./01_P06_prioritization/P06_prioritization.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/06_P6_prioritization.csv)
 
 ---
 
 ### P7 - Tradeoff Framing
 **Formula:** `Define Options → Winners/Losers → Guardrails → Decide + Communicate`
 
-[📖 **View Detailed Guide**](./01_P07_tradeoff_framing/P07_tradeoff_framing.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/07_P7_tradeoff_framing.csv)
 
 ---
 
 ### P8 - Experiment Design
 **Formula:** `Hypothesis → Metric → Design → Run → Validate → Decide`
 
-[📖 **View Detailed Guide**](./01_P08_experiment_design/P08_experiment_design.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/08_P8_experiment_design.csv)
 
 ---
 
 ### P9 - Decision Under Uncertainty
 **Formula:** `Clarify Assumptions → Identify Risks → Validation Plan → Decide`
 
-[📖 **View Detailed Guide**](./01_P09_decision_uncertainty/P09_decision_uncertainty.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/09_P9_decision_uncertainty.csv)
 
 ---
 
 ### P10 - Executive Communication
 **Formula:** `Context → Insight → Recommendation → Next Steps`
 
-[📖 **View Detailed Guide**](./01_P10_executive_communication/P10_executive_communication.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/10_P10_executive_communication.csv)
 
 ---
 
 ### P11 - Stakeholder Alignment
 **Formula:** `Understand Incentives → Address Concerns → Build Coalition → Decide`
 
-[📖 **View Detailed Guide**](./01_P11_stakeholder_alignment/P11_stakeholder_alignment.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/11_P11_stakeholder_alignment.csv)
 
 ---
 
 ### P12 - Operational Excellence
 **Formula:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
 
-[📖 **View Detailed Guide**](./01_P12_operational_excellence/P12_operational_excellence.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/12_P12_operational_excellence.csv)
 
 ---
 
@@ -163,61 +163,61 @@
 **P13A - Consumer / Single-User Products**
 **Formula:** `User Context → Pain Points → Core Design → Tradeoffs → Risks`
 
-[📖 **View Detailed Guide**](./01_P13A_consumer_singleuser/P13A_consumer_singleuser.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_SingleUser.csv)
 
 **P13B - Consumer Platforms (Engagement-Driven)**
 
 **P13B_Social_Community - Social/Community Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_social_community/P13B_social_community.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_Social_Community.csv)
 
 **P13B_Content_Media - Content/Media Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_content_media/P13B_content_media.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_Content_Media.csv)
 
 **P13B_Travel_Transportation - Travel/Transportation Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_travel_transportation/P13B_travel_transportation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_Travel_Transportation.csv)
 
 **P13B_Messaging_Communication - Messaging/Communication Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_messaging_communication/P13B_messaging_communication.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_Messaging_Communication.csv)
 
 **P13B_Ecommerce_Shopping - E-commerce/Shopping Platforms**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_ecommerce_shopping/P13B_ecommerce_shopping.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_Ecommerce_Shopping.csv)
 
 **P13B_General - Consumer Platforms (General)**
 **Formula:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13B_general/P13B_general.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Consumer_Platform_General.csv)
 
 **P13C - B2B / SaaS / Enterprise**
 **Formula:** `User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics`
 
-[📖 **View Detailed Guide**](./01_P13C_b2b_saas/P13C_b2b_saas.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_B2B_SaaS.csv)
 
 **P13D - Marketplace / Two-Sided Platforms**
 **Formula:** `Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers`
 
-[📖 **View Detailed Guide**](./01_P13D_marketplace/P13D_marketplace.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Marketplace.csv)
 
 **P13E - Strategy / Vision / Roadmapping**
 **Formula:** `Vision → User Segments → Strategic Bets → Phasing → Risks`
 
-[📖 **View Detailed Guide**](./01_P13E_strategy_vision/P13E_strategy_vision.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_P13_design_Strategy_Vision.csv)
 
 ---
 
 ### P14 - Revenue Optimization / Growth
 **Formula:** `Levers (Price, Volume, Mix) → Test → Measure → Iterate`
 
-[📖 **View Detailed Guide**](./01_P14_revenue_optimization/P14_revenue_optimization.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/14_P14_revenue_optimization.csv)
 
 ---
 
@@ -228,49 +228,49 @@
 
 **Intent:** Who are you, why you do what you do. No right/wrong answers.
 
-[📖 **View Detailed Guide**](./01_P15A_personal_motivation/P15A_personal_motivation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Personal_Motivation.csv)
 
 **P15B - Execution & Ownership**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 **Intent:** Can you get things done under constraints. Right/wrong depends on judgment.
 
-[📖 **View Detailed Guide**](./01_P15B_execution_ownership/P15B_execution_ownership.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Execution_Ownership.csv)
 
 **P15C - Decision-Making & Tradeoffs**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 **Intent:** How you think when choices are hard. Evaluated on structure + judgment.
 
-[📖 **View Detailed Guide**](./01_P15C_decision_tradeoffs/P15C_decision_tradeoffs.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Decision_Tradeoffs.csv)
 
 **P15D - Problem Solving & Learning**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 **Intent:** How you approach unknowns and complexity. Judged on thinking, not correctness.
 
-[📖 **View Detailed Guide**](./01_P15D_problem_solving_learning/P15D_problem_solving_learning.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Problem_Solving_Learning.csv)
 
 **P15E - Leadership & Collaboration**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 **Intent:** How you work with people. Soft skills, but critical.
 
-[📖 **View Detailed Guide**](./01_P15E_leadership_collaboration/P15E_leadership_collaboration.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Leadership_Collaboration.csv)
 
 **P15F - Product Sense (Behavioral)**
 **Formula:** `Situation → Task → Action → Result (STAR)`
 
 **Intent:** Product thinking through your past actions. Not product cases, not metrics.
 
-[📖 **View Detailed Guide**](./01_P15F_product_sense/P15F_product_sense.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_P15_behavior_Product_Sense.csv)
 
 ---
 
 ### P16 - Intent / Motivation
 **Formula:** `Company → Role → Mission → Personal Fit → Why Now`
 
-[📖 **View Detailed Guide**](./01_P16_intent_motivation/P16_intent_motivation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/16_P16_intent_motivation.csv)
 
 ---
 
@@ -279,98 +279,98 @@
 ### L1 - Data Trust
 **Formula:** `Source → Freshness → Completeness → Bias → Sanity Checks`
 
-[📖 **View Detailed Guide**](./02_L01_data_trust/L01_data_trust.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/13_L1_data_trust.csv)
 
 ---
 
 ### L2 - Scale & Capacity
 **Formula:** `Current Load → 10× Projection → Bottlenecks → Mitigation`
 
-[📖 **View Detailed Guide**](./02_L02_scale_capacity/L02_scale_capacity.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/14_L2_scale_capacity.csv)
 
 ---
 
 ### L3 - Cost / ROI
 **Formula:** `Cost Drivers → Benefits → Breakeven → Decide`
 
-[📖 **View Detailed Guide**](./02_L03_cost_roi/L03_cost_roi.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/15_L3_cost_roi.csv)
 
 ---
 
 ### L4 - Constraints
 **Formula:** `Legal → Technical → Organizational → Timeline → Prioritize`
 
-[📖 **View Detailed Guide**](./02_L04_constraints/L04_constraints.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/16_L4_constraints.csv)
 
 ---
 
 ### L5 - Observability
 **Formula:** `Key Metrics → Alerts → Dashboards → Escalation`
 
-[📖 **View Detailed Guide**](./02_L05_observability/L05_observability.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/17_L5_observability.csv)
 
 ---
 
 ### L6 - Ops Tradeoffs
 **Formula:** `Speed vs Quality vs Reliability → SLAs → Error Budget → Decide`
 
-[📖 **View Detailed Guide**](./02_L06_ops_tradeoffs/L06_ops_tradeoffs.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/17_L6_ops_tradeoffs.csv)
 
 ---
 
 ### L7 - Data Modeling
 **Formula:** `Entities → Relationships → Metrics → Grain → Validate`
 
-[📖 **View Detailed Guide**](./02_L07_data_modeling/L07_data_modeling.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/18_L7_data_modeling.csv)
 
 ---
 
 ### L8 - Market Analysis
 **Formula:** `Competitors → Differentiation → Market Conditions → Strategy`
 
-[📖 **View Detailed Guide**](./02_L08_market_analysis/L08_market_analysis.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/19_L8_market_analysis.csv)
 
 ---
 
 ### L9 - Financial Sensitivity
 **Formula:** `Levers (Price, Volume, Churn) → Impact → Prioritize`
 
-[📖 **View Detailed Guide**](./02_L09_financial_sensitivity/L09_financial_sensitivity.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/20_L9_financial_sensitivity.csv)
 
 ---
 
 ### L10 - Process Optimization
 **Formula:** `Map Workflow → Identify Bottlenecks → Optimize → Measure`
 
-[📖 **View Detailed Guide**](./02_L10_process_optimization/L10_process_optimization.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/21_L10_process_optimization.csv)
 
 ---
 
 ### L11 - Risk Mitigation
 **Formula:** `Enumerate Risks → Blast Radius → Mitigations → Monitor`
 
-[📖 **View Detailed Guide**](./02_L11_risk_mitigation/L11_risk_mitigation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/22_L11_risk_mitigation.csv)
 
 ---
 
 ### L12 - Metrics Interpretation
 **Formula:** `Metric Moved → Proxy Validity → Gaming Risk → Decide`
 
-[📖 **View Detailed Guide**](./02_L12_metrics_interpretation/L12_metrics_interpretation.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/23_L12_metrics_interpretation.csv)
 
 ---
 
 ### L13 - SQL Reasoning
 **Formula:** `Conceptual Join → Aggregation Logic → Filter Logic → Output`
 
-[📖 **View Detailed Guide**](./02_L13_sql_reasoning/L13_sql_reasoning.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/24_L13_sql_reasoning.csv)
 
 ---
 
 ### L14 - System Design (Conceptual)
 **Formula:** `Components → Data Flow → Boundaries → Scale Considerations`
 
-[📖 **View Detailed Guide**](./02_L14_system_design_conceptual/L14_system_design_conceptual.md)
+[📖 **View Detailed Guide**](../pattern_bank_answered/25_L14_General_SystemDesign.csv)
 
 ---
 
