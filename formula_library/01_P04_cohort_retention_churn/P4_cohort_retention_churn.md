@@ -91,6 +91,73 @@ FIX
 
 ---
 
+## 📌 Sample: Salesforce Retention Drop (Step-by-Step)
+
+**Question:**
+"Diagnose a 35% drop in retention on Salesforce."
+
+### Step 1: Compare cohorts
+```
+- Group customers by start month
+- Compare new customers vs earlier customers
+```
+
+### Step 2: Check when they leave
+```
+- If they leave in first week → onboarding problem
+- If they leave after a month → value / habit problem
+```
+
+### Step 3: Check one key action
+```
+- Did users update an opportunity?
+- Did they use Salesforce for real work?
+```
+
+### Step 4: Find the broken group
+```
+- New customers drop faster than old ones
+- Especially customers from one sales channel
+```
+
+### Step 5: Hypothesis
+```
+- New customers didn't finish setup
+- They didn't see value early
+- So they stopped using Salesforce
+```
+
+### Step 6: Fix
+```
+- Improve onboarding
+- Force first "opportunity update" in first 24–48 hours
+- Add simple templates and setup checklist
+```
+
+### Step 7: Re-measure
+```
+- Check next cohort
+- Did week-1 and month-1 retention improve?
+```
+
+### One-sentence version (memorize this)
+
+> "I'd compare new and old customer cohorts, find when usage drops, identify the missing key action, and fix onboarding to help users see value earlier."
+
+### Ultra-short mental model
+
+```
+Compare groups
+↓
+See when they quit
+↓
+Find missing action
+↓
+Fix onboarding
+```
+
+---
+
 ## 🔑 Mental Shortcut
 
 * **Early drop = activation problem**
