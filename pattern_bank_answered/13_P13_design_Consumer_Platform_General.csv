@@ -1,1 +1,136 @@
 question_id,question_text,priority,pattern_id,pattern_name,solving_formula,notes,short_answer
+13,A newly launched mobile app has a 25% drop-off during sign-up. How would you investigate the issue?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Sign-up funnel; 25% drop-off,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (landing page / app open). Step 2: Start sign-up (click sign-up button). Step 3: Fill form (email, password, verification). Step 4: Complete sign-up (submit, verify email). Step 5: Activation (first action / onboarding complete). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: too many fields, confusing flow, slow load time. Trust friction: privacy concerns, unclear value. Technical friction: bugs, errors, mobile issues. Use session replays, funnel by segment (new vs returning), and qual research.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+793,Explain DoorDash's business model.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Business model explanation; market understanding,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+846,Explain why Airbnb is a good app.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Product analysis; business model,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+992,Google has just launched a new generational elevator. How would you convince customers to buy the product?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Product marketing; go-to-market,"NSM: Define one North Star metric that best represents user + business value. Example: Issue Resolution Rate or Customer Satisfaction Score.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. Resolution: first-contact resolution, time to resolve. Quality: customer satisfaction, issue recurrence. Efficiency: tickets per agent, automation rate.
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+998,Google wants to launch a coding language. How should it go about it?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Product strategy; developer tools,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1015,Help Deliveroo expand into the US.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Market expansion; strategy,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1016,Help RealSelf expand into South Korea.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Market expansion; strategy,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1017,Help Reddit expand into Japan.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Market expansion; strategy,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1018,Help Spotify launch in South Africa.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Market expansion; strategy,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1062,How do you collect insights and apply them to products?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Insight application; product development,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1083,How do you determine the need for a particular product?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Product need; market validation,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1087,How do you drive adoption for a new product?,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Product adoption; go-to-market,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2108,Tell me about the analytics you used for the earlier mentioned product.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Analytics; behavioral question,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2161,Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,Subscription patterns; metrics,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+2166,Top Product Lines,🟢,P13,Product Design,Users → Problems → Solutions → Tradeoffs → Risks → (Optional) Success Metrics,SQL/metrics question; metrics,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
