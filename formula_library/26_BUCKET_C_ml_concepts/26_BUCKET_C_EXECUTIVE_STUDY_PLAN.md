@@ -3,6 +3,8 @@
 **Time:** 2-3 hours total across 3 passes  
 **Source:** 51 questions → 5 concept buckets → 3-5 high-impact buckets
 
+**❤️ = "Hedgehog Answer"** - Your fallback narrative if you know nothing. Master these first!
+
 ---
 
 ## 🎯 EXECUTIVE SCOPE (15-20 min)
@@ -51,7 +53,7 @@
 - Q786: Explain bias-variance tradeoff
 - Q816: Explain regularization
 
-**Reusable Narrative (Base Story - Adapt for Each Question):**
+**❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When I ship a model, I always check for overfitting because it's the #1 reason models fail in production. I split data into train/validation/test, and if validation accuracy is much lower than training, I know we're overfitting. My go-to fixes: first try more data, then simplify the model, and finally add L2 regularization. The goal is balancing bias and variance - too simple and we miss patterns, too complex and we memorize noise."
 
 **How to Adapt This Narrative for Each Question:**
@@ -89,7 +91,7 @@
 - Q1653: Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but...
 - Q2390: What methods or metrics did you use to evaluate how well your LLM performs?
 
-**Reusable Narrative (Base Story - Adapt for Each Question):**
+**❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When deploying LLMs, hallucinations are the biggest risk - the model sounds confident but gives wrong answers. I handle this three ways: first, I use RAG to ground answers in our knowledge base. Second, I monitor hallucination rates in production and set alerts. Third, for sensitive topics, I always have human review. Transformers work by attention - they focus on the important parts of the input, which is why they're so powerful for language tasks."
 
 **How to Adapt This Narrative for Each Question:**
@@ -127,7 +129,7 @@
 - Q2449: What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?
 - Q2392: What metrics did you use to train and evaluate your models?
 
-**Reusable Narrative (Base Story - Adapt for Each Question):**
+**❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "Before shipping any model, I use cross-validation to make sure it's robust - I split data into 5 folds, train on 4, test on 1, rotate, and check that performance is consistent. In production, I monitor three things: model accuracy (does it still work?), data drift (has input distribution changed?), and business metrics (is it actually helping?). I always A/B test new models and use shadow mode first - let the new model run alongside the old one without affecting users, then compare."
 
 **How to Adapt This Narrative for Each Question:**
@@ -165,7 +167,7 @@
 - Q824: Explain the differences between LSTM and traditional neural networks
 - Q2527: Where do vanishing gradients occur in a neural network?
 
-**Reusable Narrative (Base Story - Adapt for Each Question):**
+**❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "I choose neural network architecture based on the problem. For images, I use CNNs because they're designed for spatial patterns - they detect edges, then shapes, then objects. For sequences like text or time series, I use RNNs or LSTMs because they process data step-by-step and remember context. Deep networks are better than shallow ones because they learn hierarchical features - but they can suffer from vanishing gradients, where early layers don't update properly."
 
 **How to Adapt This Narrative for Each Question:**
@@ -230,24 +232,24 @@
 
 ---
 
-## 🎤 REUSABLE NARRATIVES (Build 4-6 Stories)
+## 🎤 ❤️ REUSABLE NARRATIVES (Build 4-6 Stories - Your "Hedgehog Answer" Fallback)
 
-### Story 1: "How I'd Ship a Model to Production Safely"
+### ❤️ Story 1: "How I'd Ship a Model to Production Safely"
 **Plug in:** Logistic regression, Random Forest, or simple CNN as example
 
 > "When I ship a model, I follow a three-phase approach. First, I use cross-validation during development - split data into train/validation/test, and make sure validation performance is close to training (no overfitting). Second, I test in shadow mode - run the new model alongside the old one without affecting users, compare metrics. Third, I A/B test with a small percentage of users, monitor both model accuracy and business metrics. For example, when we shipped a churn prediction model using logistic regression, we caught overfitting early because validation accuracy was 10 points lower than training - we added L2 regularization and got them aligned."
 
-### Story 2: "How I'd Handle Overfitting and Data Leakage"
+### ❤️ Story 2: "How I'd Handle Overfitting and Data Leakage"
 **Plug in:** Any model type as example
 
 > "Overfitting is the #1 reason models fail in production. I detect it by comparing train vs validation accuracy - if there's a big gap, we're overfitting. My mitigation strategy: first, try more data (most effective but expensive). Second, simplify the model - reduce features or use a simpler algorithm. Third, add regularization like L2. I also watch for data leakage - when test data accidentally influences training. I always check that features used in training are available at prediction time. For example, using future data to predict past events is a common mistake."
 
-### Story 3: "How I'd Evaluate and Monitor an LLM Feature"
+### ❤️ Story 3: "How I'd Evaluate and Monitor an LLM Feature"
 **Plug in:** Transformer/LLM as example
 
 > "LLMs are powerful but risky - they can hallucinate, giving confident but wrong answers. When I deploy an LLM feature, I evaluate three things: accuracy (does it answer correctly?), hallucination rate (how often does it make things up?), and business impact (does it actually help users?). I use RAG to ground answers in our knowledge base, monitor hallucination rates in production, and for sensitive topics, I always have human review. For example, our customer support chatbot uses a transformer model with RAG - it pulls from our knowledge base instead of just training data, which reduces hallucinations by 40%."
 
-### Story 4: "How I'd Choose Between Different ML Models"
+### ❤️ Story 4: "How I'd Choose Between Different ML Models"
 **Plug in:** Logistic regression, Random Forest, CNN, RNN as examples
 
 > "I choose models based on the problem type. For classification with tabular data, I start with logistic regression - it's simple, interpretable, and fast. If I need more accuracy and can trade interpretability, I use Random Forest. For images, I use CNNs because they're designed for spatial patterns. For sequences like text or time series, I use RNNs or LSTMs. The key is matching the model to the data structure and business requirements - sometimes a simpler model that's easier to debug is better than a complex one that's a black box."
