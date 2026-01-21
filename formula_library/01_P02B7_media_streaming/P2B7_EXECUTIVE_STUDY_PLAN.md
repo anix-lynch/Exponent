@@ -108,6 +108,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B7 (MEDIA/STREAMING METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "Netflix", "YouTube", "Spotify", "streaming", "watch time", "content", "creator"
+- "media platform", "video platform", "audio platform", "content consumption"
+
+### Implicit Indicators:
+- **Consumption questions:** "watch time", "listen time", "content consumption", "completion rate"
+- **Content questions:** "content quality", "creator satisfaction", "upload rate", "content discovery"
+- **Retention questions:** "viewer retention", "listener retention", "content engagement"
+- **Discovery questions:** "recommendations", "search success", "content discovery", "personalization"
+
+### P2B7 vs Other Patterns:
+- **P2B7 (Media/Streaming):** "What metrics for Netflix?" → Focus: Watch time, retention, content
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "Watch time down 25%" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

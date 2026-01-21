@@ -137,6 +137,28 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B1 (SOCIAL MEDIA METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "social media", "Instagram", "Facebook", "TikTok", "Twitter", "Snapchat"
+- "engagement", "DAU", "MAU", "time spent", "content creation", "network effects"
+- "creator", "influencer", "posts", "stories", "reels", "shares", "likes"
+
+### Implicit Indicators:
+- **Platform questions:** "metrics for Instagram", "success for TikTok", "KPIs for social platform"
+- **Engagement questions:** "how to measure engagement?", "improve engagement", "content metrics"
+- **Creator questions:** "creator platform", "influencer metrics", "content creator success"
+- **Network effects:** "connections", "messages", "groups", "community"
+
+### P2B1 vs Other Patterns:
+- **P2B1 (Social Media):** "What metrics for Instagram?" → Focus: Engagement, content, network effects
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "Engagement down 25%" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

@@ -134,6 +134,32 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B9 (GENERAL METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "metrics", "KPIs", "success metrics", "how to measure", "define success"
+- "what metrics", "track", "measure", "key metrics"
+
+### Implicit Indicators:
+- **Definition questions:** "how would you measure X?", "what metrics for Y?", "define success"
+- **Feature questions:** "metrics for new feature", "how to measure feature success"
+- **Product questions:** "success metrics for product", "KPIs for product", "what to track"
+- **No specific business model:** Generic product/feature without clear business model context
+
+### P2B9 vs Other Patterns:
+- **P2B9 (General):** "What metrics for this product?" → Focus: Universal NSM framework, adapt to context
+- **P2B1-P2B8 (Specific):** "What metrics for Instagram?" → Focus: Business model-specific metrics
+- **P1 (Metric Drop):** "Metric down 25%" → Focus: Diagnose why metric dropped
+
+### When to Use P2B9:
+- Product/feature without clear business model
+- Generic "how to measure success" questions
+- Questions that don't fit P2B1-P2B8 categories
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

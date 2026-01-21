@@ -134,6 +134,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B5 (SAAS/ENTERPRISE METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "SaaS", "enterprise", "B2B", "ARR", "NRR", "MRR", "CAC", "LTV", "churn"
+- "recurring revenue", "customer success", "product adoption", "seat utilization"
+
+### Implicit Indicators:
+- **Revenue questions:** "ARR growth", "NRR", "expansion revenue", "renewal rate"
+- **Adoption questions:** "product adoption", "feature usage", "seat utilization", "time to value"
+- **Customer health:** "customer success", "NPS", "support tickets", "customer satisfaction"
+- **Unit economics:** "CAC", "LTV", "payback period", "LTV/CAC ratio"
+
+### P2B5 vs Other Patterns:
+- **P2B5 (SaaS/Enterprise):** "What metrics for SaaS product?" → Focus: NRR, ARR, adoption
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "ARR growth down" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

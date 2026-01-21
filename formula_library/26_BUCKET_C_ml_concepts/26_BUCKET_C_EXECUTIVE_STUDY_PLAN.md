@@ -208,27 +208,30 @@
 
 ---
 
-## 📅 DAILY ROUTINE TEMPLATE (2-3 hours)
+## 🔍 HOW TO IDENTIFY BUCKET C (ML CONCEPTS) QUESTIONS
 
-### Day 1: Overfitting & Model Reliability (🟢)
-- **30 min:** Create "board slide" summary (use Bucket 1 bullets above)
-- **60 min:** Practice 5 representative questions
-- **30 min:** Verbal rehearsal - explain out loud like in interview (focus on tradeoffs, risk, impact)
+**Even when "ML" isn't mentioned, look for these keywords/phrases:**
 
-### Day 2: LLM/GenAI Production (🟢 - if relevant)
-- **30 min:** Board slide summary (Bucket 2)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Explicit ML Keywords:
+- "machine learning", "ML", "model", "neural network", "overfitting", "regularization"
+- "LLM", "transformer", "CNN", "RNN", "hallucination", "cross-validation"
 
-### Day 3: Model Evaluation & Monitoring (🟡)
-- **30 min:** Board slide summary (Bucket 3)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Implicit ML Indicators:
+- **Model behavior:** "model fails", "model doesn't work", "overfitting", "underfitting"
+- **Evaluation questions:** "how to evaluate model?", "test model", "monitor model"
+- **Production questions:** "deploy model", "model in production", "handle hallucinations"
+- **Algorithm questions:** "explain X algorithm", "difference between Y and Z", "how does X work?"
+- **Training questions:** "prevent overfitting", "handle imbalanced data", "choose loss function"
 
-### Day 4: Neural Networks Basics (🟡 - if relevant)
-- **30 min:** Board slide summary (Bucket 4)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Bucket C vs Other Patterns:
+- **Bucket C (ML):** "How to prevent overfitting?" → Focus: ML concepts, model behavior
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: Business metrics, segmentation
+- **P2 (NSM + KPI):** "What metrics for product?" → Focus: Business metrics definition
+
+### Red Flags (NOT Bucket C):
+- "Orders down 25%" → P1 (Metric Drop)
+- "Users drop at checkout" → P3 (Funnel)
+- "Define success metrics" → P2 (NSM + KPI)
 
 ---
 

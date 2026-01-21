@@ -108,6 +108,26 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B3 (MARKETPLACE METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "Airbnb", "Etsy", "eBay", "marketplace", "two-sided platform", "GMV", "take rate"
+- "supply and demand", "listings", "bookings", "transactions", "sellers", "buyers"
+
+### Implicit Indicators:
+- **Two-sided questions:** "metrics for marketplace", "supply and demand balance", "seller/buyer metrics"
+- **Transaction questions:** "GMV", "transaction volume", "booking conversion", "listing quality"
+- **Platform health:** "marketplace health", "liquidity", "trust and safety", "transaction success"
+
+### P2B3 vs Other Patterns:
+- **P2B3 (Marketplace):** "What metrics for Airbnb?" → Focus: GMV, supply/demand, transactions
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "Bookings down 25%" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

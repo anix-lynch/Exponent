@@ -132,6 +132,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B2 (ON-DEMAND METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "Uber", "Lyft", "DoorDash", "Instacart", "on-demand", "ride-sharing", "delivery"
+- "time to match", "driver utilization", "delivery time", "ETA", "supply/demand"
+
+### Implicit Indicators:
+- **Matching questions:** "how to measure matching?", "time to match", "driver availability"
+- **Supply/demand:** "supply and demand balance", "driver utilization", "rider wait time"
+- **Geographic:** "new city launch", "market expansion", "city-level metrics"
+- **Efficiency:** "matching efficiency", "ETA accuracy", "cancellation rate"
+
+### P2B2 vs Other Patterns:
+- **P2B2 (On-Demand):** "What metrics for Uber in new city?" → Focus: Supply/demand, matching, utilization
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "Rides down 25%" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

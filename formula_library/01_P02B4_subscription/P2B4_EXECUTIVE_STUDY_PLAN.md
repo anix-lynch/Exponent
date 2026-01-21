@@ -108,6 +108,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B4 (SUBSCRIPTION METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "Netflix", "Spotify", "subscription", "churn", "retention", "LTV", "MRR", "ARR"
+- "recurring revenue", "monthly subscription", "trial", "renewal"
+
+### Implicit Indicators:
+- **Retention questions:** "how to measure retention?", "improve retention", "reduce churn"
+- **Revenue questions:** "MRR", "ARR", "recurring revenue", "subscription revenue"
+- **Engagement questions:** "content consumption", "watch time", "listen time", "feature usage"
+- **Acquisition:** "trial conversion", "sign-up to paid", "CAC", "LTV/CAC"
+
+### P2B4 vs Other Patterns:
+- **P2B4 (Subscription):** "What metrics for Netflix?" → Focus: Retention, LTV, engagement
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P4 (Cohort):** "Cohort retention declined" → Focus: Compare cohorts over time
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

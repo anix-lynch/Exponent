@@ -203,27 +203,33 @@
 
 ---
 
-## 📅 DAILY ROUTINE TEMPLATE (2-3 hours)
+## 🔍 HOW TO IDENTIFY P2 (NSM + KPI LADDER) QUESTIONS
 
-### Day 1: Define NSM for Existing Product (🟢)
-- **30 min:** Create "board slide" summary (use Bucket 1 bullets above)
-- **60 min:** Practice 5 representative questions
-- **30 min:** Verbal rehearsal - explain out loud like in interview
+**Even when "NSM" or "KPI" isn't mentioned, look for these keywords/phrases:**
 
-### Day 2: Measure Feature/Product Success (🟢)
-- **30 min:** Board slide summary (Bucket 2)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Explicit Metrics Keywords:
+- "metrics", "KPIs", "north star", "success metrics", "key metrics"
+- "how to measure", "define success", "what metrics", "track"
 
-### Day 3: Design Product + Define Success (🟡)
-- **30 min:** Board slide summary (Bucket 3)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Implicit P2 Indicators:
+- **Definition questions:** "what is the north star metric?", "define success for X", "what metrics matter?"
+- **Design + metrics:** "design X and define success", "build X and measure success"
+- **Measurement questions:** "how would you measure X?", "what metrics for Y?", "track success"
+- **Goal setting:** "set goals for team", "define KPIs", "what metrics to focus on"
+- **Success definition:** "how do you define success?", "what does success look like?"
 
-### Day 4: Goal Setting & Team Metrics (🟡)
-- **30 min:** Board slide summary (Bucket 4)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### P2 vs P1 Distinction:
+- **P2 (NSM + KPI):** "How would you measure success?" → Focus: DEFINE metrics (NSM → Input KPIs → Guardrails)
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: DIAGNOSE why metric dropped (segment → hypothesize)
+
+### P2 vs P3 Distinction:
+- **P2 (NSM + KPI):** "What metrics for this product?" → Focus: DEFINE what to measure
+- **P3 (Funnel):** "How to improve conversion?" → Focus: OPTIMIZE existing funnel steps
+
+### Red Flags (NOT P2):
+- "X is down 25%" → P1 (Metric Drop)
+- "Users drop at checkout" → P3 (Funnel)
+- "Cohort retention declined" → P4 (Cohort/Retention)
 
 ---
 

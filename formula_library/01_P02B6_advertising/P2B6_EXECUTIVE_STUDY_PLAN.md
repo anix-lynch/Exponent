@@ -109,6 +109,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B6 (ADVERTISING METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "advertising", "ads", "CTR", "CPC", "ROAS", "CPM", "advertiser", "ad revenue"
+- "click-through rate", "cost per click", "return on ad spend", "ad quality"
+
+### Implicit Indicators:
+- **Performance questions:** "how to measure ad success?", "improve CTR", "ad performance"
+- **Revenue questions:** "advertiser revenue", "platform revenue", "ad monetization"
+- **Quality questions:** "ad relevance", "targeting accuracy", "ad fatigue", "user experience"
+- **Platform questions:** "YouTube ads", "Facebook ads", "Google ads", "ad platform metrics"
+
+### P2B6 vs Other Patterns:
+- **P2B6 (Advertising):** "What metrics for ad platform?" → Focus: CTR, ROAS, ad quality
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P1 (Metric Drop):** "Ad revenue down 25%" → Focus: Diagnose why metric dropped
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

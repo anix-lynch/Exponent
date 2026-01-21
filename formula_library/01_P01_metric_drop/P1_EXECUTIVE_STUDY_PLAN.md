@@ -227,32 +227,33 @@
 
 ---
 
-## 📅 DAILY ROUTINE TEMPLATE (2-3 hours)
+## 🔍 HOW TO IDENTIFY P1 (METRIC DROP) QUESTIONS
 
-### Day 1: Classic Metric Drop (🟢)
-- **30 min:** Create "board slide" summary (use Bucket 1 bullets above)
-- **60 min:** Practice 5 representative questions
-- **30 min:** Verbal rehearsal - explain out loud like in interview
+**Even when "metric drop" isn't mentioned, look for these keywords/phrases:**
 
-### Day 2: Rate vs Denominator Trap (🟢)
-- **30 min:** Board slide summary (Bucket 2)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Explicit Drop Keywords:
+- "down", "decline", "decrease", "drop", "dropped", "falling"
+- "lower than", "less than", "decreased by X%", "down X%"
 
-### Day 3: Data Bug / Instrumentation (🟡)
-- **30 min:** Board slide summary (Bucket 3)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Implicit Drop Indicators:
+- **Percentage changes:** "X is down 25%", "declined by 10%", "decreased from A to B"
+- **Comparison questions:** "why is X lower?", "what happened to Y?", "X is less than before"
+- **Investigation questions:** "how would you investigate X?", "what caused Y to drop?"
+- **Incident response:** "sudden drop", "overnight decline", "unexpected decrease"
+- **Growth questions (inverted):** "how to increase X?" → Same framework, inverted
 
-### Day 4: Growth/Improvement (🟡)
-- **30 min:** Board slide summary (Bucket 4)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### P1 vs P3 Distinction:
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: WHERE is drop coming from? (segment by platform/geo/channel)
+- **P3 (Funnel):** "55% drop at checkout step" → Focus: WHY do users drop at this STEP? (identify friction)
 
-### Day 5: Root Cause Analysis (🟡)
-- **30 min:** Board slide summary (Bucket 5)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### P1 vs P4 Distinction:
+- **P1 (Metric Drop):** "DAU dropped 15% this week" → Single time point, overall metric
+- **P4 (Cohort):** "February cohort has lower retention" → Multiple cohorts over time
+
+### Red Flags (NOT P1):
+- "Users drop at checkout step" → P3 (Funnel)
+- "Cohort retention declined" → P4 (Cohort/Retention)
+- "How to define success?" → P2 (NSM + KPI Ladder)
 
 ---
 

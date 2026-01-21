@@ -108,6 +108,27 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2B8 (E-COMMERCE/FINTECH METRICS) QUESTIONS
+
+**Look for these keywords/phrases:**
+
+### Explicit Keywords:
+- "e-commerce", "fintech", "payment", "transaction", "GMV", "AOV", "conversion rate"
+- "checkout", "cart abandonment", "payment success", "fraud", "Stripe", "Square"
+
+### Implicit Indicators:
+- **Transaction questions:** "GMV", "transaction volume", "payment volume", "revenue"
+- **Conversion questions:** "conversion rate", "checkout conversion", "cart abandonment", "purchase rate"
+- **Payment questions:** "payment success rate", "fraud rate", "processing time", "payment security"
+- **Value questions:** "AOV", "items per order", "repeat purchase rate", "customer LTV"
+
+### P2B8 vs Other Patterns:
+- **P2B8 (E-commerce/Fintech):** "What metrics for payment platform?" → Focus: GMV, conversion, payment success
+- **P2 (General NSM):** "What metrics for product?" → Focus: Universal NSM framework
+- **P3 (Funnel):** "Users drop at checkout" → Focus: Optimize checkout funnel steps
+
+---
+
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)

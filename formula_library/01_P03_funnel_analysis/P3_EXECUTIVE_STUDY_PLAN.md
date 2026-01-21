@@ -195,27 +195,34 @@
 
 ---
 
-## 📅 DAILY ROUTINE TEMPLATE (2-3 hours)
+## 🔍 HOW TO IDENTIFY P3 (FUNNEL) QUESTIONS
 
-### Day 1: Classic Funnel Drop-off (🟢)
-- **30 min:** Create "board slide" summary (use Bucket 1 bullets above)
-- **60 min:** Practice 5 representative questions
-- **30 min:** Verbal rehearsal - explain out loud like in interview
+**Even when "funnel" isn't mentioned, look for these keywords/phrases:**
 
-### Day 2: Conversion Optimization (🟢)
-- **30 min:** Board slide summary (Bucket 2)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Explicit Funnel Keywords:
+- "funnel", "drop-off", "drop off", "conversion", "conversion rate"
+- "step", "stage", "process", "journey", "flow"
 
-### Day 3: Retention/Engagement Funnels (🟡)
-- **30 min:** Board slide summary (Bucket 3)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### Implicit Funnel Indicators:
+- **Percentage drops:** "55% don't complete", "25% drop-off", "X% of users don't..."
+- **Step-specific issues:** "users drop at checkout", "sign-up is failing", "application incomplete"
+- **Optimization questions:** "how to improve conversion?", "optimize booking", "increase sign-up rate"
+- **Process questions:** "which step to fix first?", "where do users get stuck?", "what's the bottleneck?"
+- **Retention/engagement:** "how to improve retention?", "boost engagement", "users don't return"
+- **Completion questions:** "users don't complete X", "low completion rate", "high abandonment"
 
-### Day 4: Funnel Prioritization (🟡)
-- **30 min:** Board slide summary (Bucket 4)
-- **60 min:** Practice 5 questions
-- **30 min:** Verbal rehearsal
+### P3 vs P1 Distinction:
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: WHERE is drop coming from? (segment by platform/geo)
+- **P3 (Funnel):** "55% drop at checkout" → Focus: WHY do users drop at this STEP? (identify friction)
+
+### P3 vs P4 Distinction:
+- **P3 (Funnel):** "Users drop at checkout step" → Single journey, where do they drop?
+- **P4 (Cohort):** "February cohort has lower retention" → Multiple sessions, who drops over time?
+
+### Red Flags (NOT P3):
+- "Overall metric is down" → P1 (Metric Drop)
+- "Cohort retention declined" → P4 (Cohort/Retention)
+- "How to define success?" → P2 (NSM + KPI Ladder)
 
 ---
 
