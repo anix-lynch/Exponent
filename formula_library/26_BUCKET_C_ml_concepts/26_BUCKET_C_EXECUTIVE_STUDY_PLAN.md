@@ -51,8 +51,20 @@
 - Q786: Explain bias-variance tradeoff
 - Q816: Explain regularization
 
-**Reusable Narrative:**
+**Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When I ship a model, I always check for overfitting because it's the #1 reason models fail in production. I split data into train/validation/test, and if validation accuracy is much lower than training, I know we're overfitting. My go-to fixes: first try more data, then simplify the model, and finally add L2 regularization. The goal is balancing bias and variance - too simple and we miss patterns, too complex and we memorize noise."
+
+**How to Adapt This Narrative for Each Question:**
+
+- **Q812 (Explain overfitting):** Start with definition → "Overfitting is when a model memorizes training data too well and fails on new data. I detect it by comparing train vs validation accuracy - if there's a big gap, we're overfitting. This happens because the model is too complex and learns noise instead of patterns."
+
+- **Q1049 (How do you avoid overfitting?):** Start with detection → "I detect overfitting by splitting data into train/validation/test and comparing accuracies. If validation is much lower than training, we're overfitting. My three fixes: first try more data (most effective but expensive), then simplify the model, and finally add L2 regularization."
+
+- **Q2324 (Overfitting/underfitting + which models):** Start with both concepts → "Overfitting is when a model is too complex and memorizes noise. Underfitting is when it's too simple and misses patterns. Complex models like deep neural networks and random forests are most likely to overfit, especially with small datasets. I balance this by using cross-validation and regularization."
+
+- **Q786 (Bias-variance tradeoff):** Emphasize the tradeoff → "The goal is balancing bias and variance - too simple (high bias/underfitting) and we miss patterns, too complex (high variance/overfitting) and we memorize noise. I find the sweet spot by using cross-validation to test different model complexities and choosing the one with best validation performance."
+
+- **Q816 (Explain regularization):** Focus on regularization → "Regularization prevents overfitting by penalizing complex models. L2 regularization adds a cost for large weights, forcing the model to be simpler. I use it when I see a big gap between train and validation accuracy. It's one of my three go-to fixes along with more data and simpler models."
 
 ---
 
@@ -77,8 +89,20 @@
 - Q1653: Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but...
 - Q2390: What methods or metrics did you use to evaluate how well your LLM performs?
 
-**Reusable Narrative:**
+**Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When deploying LLMs, hallucinations are the biggest risk - the model sounds confident but gives wrong answers. I handle this three ways: first, I use RAG to ground answers in our knowledge base. Second, I monitor hallucination rates in production and set alerts. Third, for sensitive topics, I always have human review. Transformers work by attention - they focus on the important parts of the input, which is why they're so powerful for language tasks."
+
+**How to Adapt This Narrative for Each Question:**
+
+- **Q190 (Define hallucinations):** Start with definition → "Hallucinations are when LLMs generate confident but false information. This is the biggest risk when deploying LLMs because the model sounds authoritative but gives wrong answers. I detect them by monitoring confidence vs accuracy, and I mitigate with RAG, output validation, and human review for sensitive topics."
+
+- **Q1372 (How to handle hallucinations in production):** Focus on mitigation → "I handle hallucinations in production three ways: first, I use RAG to ground answers in our knowledge base instead of just training data. Second, I monitor hallucination rates and set alerts when confidence is high but accuracy is low. Third, for sensitive topics, I always have human review before responses go to users."
+
+- **Q843 (Explain transformers):** Focus on architecture → "Transformers work by attention mechanism - they focus on the important parts of the input, like reading key words. This is why they're so powerful for language tasks. The model learns which parts of the input to pay attention to, which allows it to understand context and relationships in text."
+
+- **Q1653 (Conversational AI with sensitive topics):** Emphasize safety → "When deploying conversational AI on sensitive topics, I discovered the model gives overly confident but wrong answers. I handle this by: first, using RAG to ground answers in verified knowledge, second, monitoring overconfidence patterns, and third, implementing human-in-loop review for all sensitive responses before they reach users."
+
+- **Q2390 (LLM evaluation metrics):** Focus on metrics → "I evaluate LLMs on three dimensions: accuracy (does it answer correctly?), hallucination rate (how often does it make things up?), and business impact (does it actually help users?). I use RAG to reduce hallucinations, monitor these metrics in production, and set alerts when they degrade."
 
 ---
 
@@ -103,8 +127,20 @@
 - Q2449: What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?
 - Q2392: What metrics did you use to train and evaluate your models?
 
-**Reusable Narrative:**
+**Reusable Narrative (Base Story - Adapt for Each Question):**
 > "Before shipping any model, I use cross-validation to make sure it's robust - I split data into 5 folds, train on 4, test on 1, rotate, and check that performance is consistent. In production, I monitor three things: model accuracy (does it still work?), data drift (has input distribution changed?), and business metrics (is it actually helping?). I always A/B test new models and use shadow mode first - let the new model run alongside the old one without affecting users, then compare."
+
+**How to Adapt This Narrative for Each Question:**
+
+- **Q789 (Cross-validation in logistic regression):** Focus on CV process → "I use cross-validation to test logistic regression models - split data into 5 folds, train on 4, test on 1, rotate through all folds. This ensures the model works consistently across different data splits. If performance varies widely across folds, the model isn't robust and needs more work before production."
+
+- **Q2393 (Metrics to monitor after deployment):** Focus on monitoring → "After deploying a model, I monitor three things: model accuracy (does it still work on new data?), data drift (has the input distribution changed?), and business metrics (is it actually helping - revenue, engagement, etc.?). I set alerts for when these metrics degrade and have a plan to retrain or rollback."
+
+- **Q1155 (How to test models for production):** Focus on testing process → "I test models for production in three phases: first, cross-validation during development to ensure robustness. Second, shadow mode - run the new model alongside the old one without affecting users, compare metrics. Third, A/B test with a small percentage of users, monitor both model accuracy and business impact before full rollout."
+
+- **Q2449 (Testing methodologies for AI models):** Emphasize methodologies → "I use multiple testing methodologies: cross-validation for robustness, shadow mode to compare new vs old model without risk, A/B testing for gradual rollout, and canary deployments. I also test for edge cases, monitor for data drift, and have rollback plans ready. The goal is catching issues before they affect users."
+
+- **Q2392 (Metrics to train and evaluate models):** Focus on training metrics → "During training, I track loss and accuracy on train/validation sets to detect overfitting. For evaluation, I choose metrics based on business goal - precision vs recall for classification, RMSE for regression, F1 for balanced performance. I always use cross-validation to ensure metrics are consistent across data splits."
 
 ---
 
@@ -129,8 +165,20 @@
 - Q824: Explain the differences between LSTM and traditional neural networks
 - Q2527: Where do vanishing gradients occur in a neural network?
 
-**Reusable Narrative:**
+**Reusable Narrative (Base Story - Adapt for Each Question):**
 > "I choose neural network architecture based on the problem. For images, I use CNNs because they're designed for spatial patterns - they detect edges, then shapes, then objects. For sequences like text or time series, I use RNNs or LSTMs because they process data step-by-step and remember context. Deep networks are better than shallow ones because they learn hierarchical features - but they can suffer from vanishing gradients, where early layers don't update properly."
+
+**How to Adapt This Narrative for Each Question:**
+
+- **Q820 (CNN vs RNN difference):** Focus on comparison → "CNNs are for images and spatial patterns - they detect edges, then shapes, then objects. RNNs are for sequences like text or time series - they process data step-by-step and remember context. I choose CNN for image classification, RNN/LSTM for language or time series prediction."
+
+- **Q1039 (CNNs vs traditional neural networks for images):** Emphasize CNN advantages → "CNNs differ from traditional neural networks in how they process images. Traditional networks treat each pixel independently, but CNNs use convolutions to detect spatial patterns - edges, then shapes, then objects. This makes them much more efficient and effective for image data because they respect the spatial structure."
+
+- **Q2617 (Deep vs shallow neural networks):** Focus on depth benefits → "Deep networks are better than shallow ones because they learn hierarchical features - shallow networks might detect edges, but deep networks can learn edges → shapes → objects → scenes. However, deep networks can suffer from vanishing gradients where early layers don't update properly, so I use techniques like batch normalization."
+
+- **Q824 (LSTM vs traditional neural networks):** Emphasize LSTM advantages → "LSTMs are a special type of RNN that handle long sequences better than traditional neural networks. Traditional networks struggle with long-term dependencies, but LSTMs have gates that remember important information and forget noise. I use LSTMs for tasks like language modeling or time series where context matters."
+
+- **Q2527 (Where vanishing gradients occur):** Focus on the problem → "Vanishing gradients occur in deep neural networks, especially in the early layers. As gradients propagate backward through many layers, they get multiplied and can become too small to update early layers. This is why deep networks sometimes don't train well. I mitigate this with techniques like batch normalization, residual connections, or using ReLU instead of sigmoid activations."
 
 ---
 
