@@ -17,121 +17,7 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: too m
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-40,"As a PM at Airbnb, how would you increase bookings?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Growth question; increase bookings metric,"Clarify: Define success metric and target. Current bookings rate? Target growth? Scope: which segments, surfaces, or user types?
-
-Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
-
-Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
-
-Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
-
-Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
-
-Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
 57,"As a PM for a gaming console, why would you decide to build the next-generation console, and how would you measure its success?",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy + success metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-62,"As a PM for Instagram Shops, how would you increase the number of transactions?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Growth question; increase transactions,"Clarify: Define success metric and target. Current transactions rate? Target growth? Scope: which segments, surfaces, or user types?
-
-Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
-
-Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), product category, discovery surface, and payment method to identify friction points.
-
-Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
-
-Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
-
-Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
-68,"As a PM for Netflix, how would you increase watch time on TVs?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Growth question; increase watch time,"Clarify: Define success metric and target. Current watch time rate? Target growth? Scope: which segments, surfaces, or user types?
-
-Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
-
-Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
-
-Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
-
-Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
-
-Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
-85,"As a product manager for Uber Eats, what goals do you set?",🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; team alignment,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-104,"As the CPO of ChatGPT, what will your strategy for the next 2 years be?",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy; roadmap planning,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. Adoption: active conversations, message volume. Quality: response time, message relevance. Engagement: daily active users, conversation depth.
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-109,"As the new head of the Google Hardware division, what is the next big product we're going to build and why? How does this fit into the Google ecosystem? Estimate how many units you will sell in the...",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy; hardware roadmap,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-252,Describe your preferred e-commerce platform and walk me through the user journey.,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,User journey; e-commerce analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-329,"Design a gift-giving service for Google. Describe the user interface, technical implementation strategy, go-to-market plan, and estimate the service's total addressable market.",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product design; gift service with GTM,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-434,Design a product strategy for Netflix for FY23-24.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy; annual planning,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-621,Design an investment app.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product design; financial app,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-705,Develop a strategy for OpenAI's fine-tuning capabilities using publicly available docs.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy; AI capabilities,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-720,Discuss a strategy to expand Meta's presence in the Virtual Reality market.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Market expansion strategy; VR,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -186,15 +72,6 @@ Guardrails: Define what must NOT break while optimizing NSM. User trust, long-te
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 993,Google PM Discussion Board.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product design; community platform,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-997,"Google wants to enter the grocery business. Mr. Sundar Pichai, the CEO, asks for your product design and strategy for this venture over the next 6-9 months. What is your plan?",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product strategy; market entry,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -258,33 +135,6 @@ Guardrails: Define what must NOT break while optimizing NSM. User trust, long-te
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 1033,How did you determine your positioning was effective?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Positioning; behavioral question,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1036,"How did you scale a local strategy to a global one, and what changed in your approach?",🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Scaling strategy; behavioral question,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1048,How do you approach strategic planning for a fast-growing organization?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Strategic planning; organizational growth,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1055,How do you build an effective product-led growth strategy?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,PLG strategy; growth,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -383,24 +233,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1249,How would you approach evaluating the performance of a specific business unit?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Performance evaluation; metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1256,How would you boost retention for DashPass?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 1361,How would you go about customer satisfaction for Gmail?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Customer satisfaction; metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Resolution: first-contact resolution, time to resolve. Quality: customer satisfaction, issue recurrence. Efficiency: tickets per agent, automation rate.
@@ -410,24 +242,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1391,How would you improve engagement for a real estate app like Redfin or Zillow?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1392,How would you improve engagement on the Venmo Social Feed?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 1406,How would you improve our hiring conversion and time to hire from application to offer rollout?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Hiring funnel; process improvement,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -437,74 +251,11 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexp
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1409,How would you improve retention for the Adobe Mobile Scan app?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1410,How would you improve retention on LinkedIn?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1445,How would you improve user engagement on Netflix?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1456,How would you increase engagement for Google Maps?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1457,How would you increase engagement for Spotify?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 1465,How would you increase the conversion rate for YouTube Premium?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Conversion improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
 
 Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1466,How would you increase the frequency of user sessions on YouTube?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Session frequency; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1467,How would you increase user engagement as a PM for Spotify?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
 
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
@@ -581,15 +332,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1756,Only 1 in 5 riders tips their driver after a ride. How would you improve this?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Tip improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 1802,Session Data Analysis.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Session analysis; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
@@ -671,15 +413,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2157,The product team reports a decline in 30-day user retention. How would you approach this problem?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention decline; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2161,Tinder subscriptions renew monthly. Explain why different months may have different numbers of renewals.,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Subscription patterns; metrics,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
@@ -725,43 +458,7 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2179,Walk me through a dashboard you built. What choices did you make?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Dashboard design; behavioral question,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2295,What goals do you have for Facebook Marketplace?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2296,What goals would you set as PM for Facebook marketplaces?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 2297,"What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...",🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; prioritization,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2298,What goals would you set for the Reels recommendation engine?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -788,15 +485,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2506,"What's your favorite fitness product, and what would you do if you found that its users dropped off after 3 months?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention issue; funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2566,"Why do Netflix users activated by watching series have low retention rates, and what solutions do you propose?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Retention issue; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -842,24 +530,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2654,You are a Meta PM. Your team is tasked with ensuring no bad ads are displayed on any Meta application. What goals would you set? How would you measure success?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Ad quality; metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2658,You are a PM at Intuit. Increase the adoption rate for quickbooks.,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Adoption rate; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Search / browse listings. Step 2: View details / select option. Step 3: Enter booking info (dates, guests). Step 4: Review / payment. Step 5: Booking confirmed. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2671,You are in charge of the purchase experience at Back Market. A colleague tells you a lot of users try to buy large quantities of products from sellers. He thinks we need to build a checkout funnel ...,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Checkout funnel; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -887,24 +557,6 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confu
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2723,"You're a PM at AllTrails. How would you improve its retention rates, including for its premium subscription service?",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2738,You're a PM at Instacart. What would you do to improve retention?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2744,"You're a PM at Lyft and want to deploy a ride-sharing service using a self-driving car in Palo Alto. How would you choose around 10 pickup and drop-off locations, assuming routes are safe and pre-p...",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -914,34 +566,7 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confu
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2756,You're a PM at Meta. Why should Meta continue investing in Reels? What goals and metrics would you set?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 2790,You're a PM for Facebook Events. Why would Meta build this product and what metrics would you use to measure its success?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2807,You're a PM for Instagram. You notice the Month-on-Month retention is down by 20%. What might be happening?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2808,"You're a PM for JP Morgan Chase. Define OKRs, strategy, and goals for a new DevSecOps platform.",🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
@@ -986,24 +611,6 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexp
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2858,You're the Head of Product at Spotify. What goals and strategies would you set?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Metrics definition,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2865,You're the PM for Facebook Rooms. What goals would you set for the next 6 months?,🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Metrics definition,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 2887,You’re a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.

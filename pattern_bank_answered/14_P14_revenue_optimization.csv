@@ -61,3 +61,180 @@ Hypothesize: Search relevance, pricing optimization, trust signals, supply quali
 Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
 
 Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+40,"As a PM at Airbnb, how would you increase bookings?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Growth question; increase bookings metric,"Clarify: Define success metric and target. Current bookings rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), listing type, and booking window to find highest-leverage opportunities.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+62,"As a PM for Instagram Shops, how would you increase the number of transactions?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Growth question; increase transactions,"Clarify: Define success metric and target. Current transactions rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), product category, discovery surface, and payment method to identify friction points.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+68,"As a PM for Netflix, how would you increase watch time on TVs?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Growth question; increase watch time,"Clarify: Define success metric and target. Current watch time rate? Target growth? Scope: which segments, surfaces, or user types?
+
+Data Check: Rule out instrumentation changes, pipeline delays, or denominator shifts. Confirm measurement is accurate and not inflated by bots or data quality issues.
+
+Segment: Slice by platform (iOS/Android/Web), geography, user cohort (new vs returning), funnel step, acquisition channel, and user segment to find the hot spot.
+
+Hypothesize: Search relevance, pricing optimization, trust signals, supply quality, feature adoption, or user experience improvements.
+
+Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and test hypotheses with A/B tests or targeted experiments. Compare conversion rates by segment.
+
+Action: Focus on highest-impact segments. Implement fixes: improve search/ranking, optimize pricing, add trust signals, or enhance UX. Measure impact and iterate."
+1048,How do you approach strategic planning for a fast-growing organization?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Strategic planning; organizational growth,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1055,How do you build an effective product-led growth strategy?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",PLG strategy; growth,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
+
+Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
+
+Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
+
+Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
+
+Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
+1256,How would you boost retention for DashPass?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1391,How would you improve engagement for a real estate app like Redfin or Zillow?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1392,How would you improve engagement on the Venmo Social Feed?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1409,How would you improve retention for the Adobe Mobile Scan app?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1410,How would you improve retention on LinkedIn?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Retention improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1445,How would you improve user engagement on Netflix?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1456,How would you increase engagement for Google Maps?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1457,How would you increase engagement for Spotify?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1466,How would you increase the frequency of user sessions on YouTube?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Session frequency; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1467,How would you increase user engagement as a PM for Spotify?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Engagement improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Entry (visit / app open). Step 2: Discovery (browse / search / explore). Step 3: Interaction (click / view / listen). Step 4: Core action (like / share / save / comment). Step 5: Return / repeat usage. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+1756,Only 1 in 5 riders tips their driver after a ride. How would you improve this?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Tip improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2658,You are a PM at Intuit. Increase the adoption rate for quickbooks.,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Adoption rate; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Search / browse listings. Step 2: View details / select option. Step 3: Enter booking info (dates, guests). Step 4: Review / payment. Step 5: Booking confirmed. Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2723,"You're a PM at AllTrails. How would you improve its retention rates, including for its premium subscription service?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2738,You're a PM at Instacart. What would you do to improve retention?,🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."

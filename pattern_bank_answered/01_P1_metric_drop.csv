@@ -813,3 +813,30 @@ Hypothesize: Product changes (UI, pricing, policy), external factors (competitor
 Validate: Check correlation with launches, counter-metrics, funnel drop-offs, and compare to control segments. Look for crash rates, error codes, or performance degradation.
 
 Action: If severe + clear cause → rollback/hotfix immediately. If unclear → add logging, run targeted experiments, or fix segment-specific issues. Communicate findings and mitigation plan."
+2157,The product team reports a decline in 30-day user retention. How would you approach this problem?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Retention decline; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2506,"What's your favorite fitness product, and what would you do if you found that its users dropped off after 3 months?",🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Retention issue; funnel analysis,"Define Funnel Steps: Map the exact user journey from entry to success. Identify 4-5 key steps: Entry → Activation → Core Action → Conversion → Success. Guardrail: Steps must be USER actions (not internal events or system metrics).
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: confusing flow, too many steps, slow load time. Trust friction: unclear value, privacy concerns. Value friction: benefit not clear. Technical friction: bugs, latency, errors. Use session replays, funnel by segment, and qual research.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2807,You're a PM for Instagram. You notice the Month-on-Month retention is down by 20%. What might be happening?,🟢,P1,Metric Drop Diagnosis,Clarify Metric → Segment → Hypothesize → Data Check → Action,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
+
+Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
+
+Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unclear value, confusing interface, slow performance. Value friction: not seeing benefit, lack of personalization. Technical friction: bugs, crashes, latency. Use session replays, cohort analysis, and user surveys.
+
+Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
+
+Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
