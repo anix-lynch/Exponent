@@ -274,3 +274,12 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexp
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
+2871,"You're the PM for our stock trading product. With gross profit dropping significantly over the last month, what would you do?",🟢,P14,Revenue Optimization / Growth,"Levers (Price, Volume, Mix) → Test → Measure → Iterate",Product design,"Define Cohorts: Group users by meaningful dimensions. By signup time: week/month cohorts to track lifecycle. By acquisition source: ads vs organic vs referral to identify quality differences. By persona: power users vs casual users vs new users. By behavior: activated vs not activated, feature adopters vs non-adopters.
+
+Measure Retention: Build retention curve and compare cohorts. Track: D1 (day 1), D7 (week 1), D30 (month 1), W4 (week 4), M3 (month 3) retention. Compare cohorts side-by-side to spot differences. Assess: absolute level (how low is retention?) and shape (early cliff vs slow decay).
+
+Identify Churn Drivers: Understand WHEN, WHO, and WHAT. WHEN: Day 0-1 → onboarding/activation gap. Week 1 → value not clear. Month 1+ → habit formation or competition. WHO: Which segments leave more? Specific cohorts, channels, or user types? WHAT: What changes before churn? Drop in key actions, fewer sessions, feature not used, or usage pattern shift.
+
+Hypothesize: Generate hypotheses based on churn timing and patterns. If early drop → activation problem. If one cohort worse → acquisition mismatch. If usage drops first → value erosion. If late churn → lack of habit/reminders.
+
+Fix: Implement targeted solutions based on hypotheses. Improve onboarding/activation for early churn. Tighten targeting if specific cohorts underperform. Reinforce core value loop if usage drops. Add retention hooks (email, push, content) for late churn. Measure cohort again to validate improvements."
