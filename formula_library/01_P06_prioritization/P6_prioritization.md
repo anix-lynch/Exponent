@@ -104,4 +104,148 @@ Decision
 discount uncertainty, factor effort, then communicate why some things wait."
 ```
 
+---
+
+## 📚 4 Representative P6 Sample Answers (RICE Framework)
+
+### 1️⃣ YouTube PM: AI Tool for Creator Ideas & Scripts
+
+**Question:**
+"As a YouTube PM, how would you evaluate building an AI tool to auto-generate creator ideas & scripts?"
+
+#### Step 1) List candidates
+
+* **A. Idea generator only** (titles + outlines)
+* **B. Full script generation**
+* **C. Analytics-driven idea suggestions** (based on channel history)
+
+#### Step 2) Score (RICE)
+
+| Feature                   | Impact | Confidence | Ease | RICE    |
+| ------------------------- | ------ | ---------- | ---- | ------- |
+| A. Idea generator         | 2      | 0.7        | 3    | **4.2** |
+| B. Full scripts           | 3      | 0.4        | 1    | **1.2** |
+| C. Analytics-driven ideas | 3      | 0.7        | 2    | **4.2** |
+
+#### Step 3–4) Rank
+
+1. **A / C (tie)**
+2. B
+
+#### Step 5) Decide + Communicate
+
+* **Do first:** Idea generator + analytics-based suggestions
+* **Delay:** Full script generation
+* **Why:** High creator value with fast delivery; full scripts are risky, opinionated, and costly
+
+---
+
+### 2️⃣ OpenTable PM: Worst Post-Reservation Experiences
+
+**Question:**
+"As an OpenTable PM, how would you prioritize improving the worst post-reservation experiences?"
+
+#### Step 1) List candidates
+
+* **A. Real-time reservation confirmation**
+* **B. Easy modification / cancellation flow**
+* **C. Post-booking reminder + directions**
+
+#### Step 2) Score
+
+| Feature            | Impact | Confidence | Ease | RICE    |
+| ------------------ | ------ | ---------- | ---- | ------- |
+| A. Confirmation    | 3      | 1.0        | 2    | **6.0** |
+| B. Modify / cancel | 2      | 0.7        | 3    | **4.2** |
+| C. Reminders       | 1      | 0.7        | 3    | **2.1** |
+
+#### Step 3–4) Rank
+
+1. **A**
+2. B
+3. C
+
+#### Step 5) Decide + Communicate
+
+* **Do first:** Real-time confirmation (reduces no-shows, anxiety)
+* **Delay:** Reminders
+* **Why:** Highest impact + strongest data signal
+
+---
+
+### 3️⃣ TPM: Timeline Cut in Half
+
+**Question:**
+"As a TPM, how do you handle unchanged deliverables but timeline cut in half?"
+
+#### Step 1) List candidates
+
+* **A. Cut non-critical scope**
+* **B. Parallelize work streams**
+* **C. Add temporary staffing**
+
+#### Step 2) Score
+
+| Option         | Impact | Confidence | Ease | RICE    |
+| -------------- | ------ | ---------- | ---- | ------- |
+| A. Cut scope   | 3      | 1.0        | 3    | **9.0** |
+| B. Parallelize | 2      | 0.7        | 2    | **2.8** |
+| C. Add staff   | 1      | 0.4        | 1    | **0.4** |
+
+#### Step 3–4) Rank
+
+1. **A**
+2. B
+3. C
+
+#### Step 5) Decide + Communicate
+
+* **Do first:** Ruthless scope cuts to preserve core deliverables
+* **Delay/Avoid:** Hiring as a primary lever
+* **Why:** Scope control is the only lever that reliably works under time compression
+
+---
+
+### 4️⃣ Engineering: Foundational Work vs New Features
+
+**Question:**
+"How do you balance foundational engineering work vs new features?"
+
+#### Step 1) List candidates
+
+* **A. Infra work blocking feature velocity**
+* **B. Feature requested by top customers**
+* **C. Tech debt cleanup with no user visibility**
+
+#### Step 2) Score
+
+| Work                 | Impact | Confidence | Ease | RICE    |
+| -------------------- | ------ | ---------- | ---- | ------- |
+| A. Blocking infra    | 3      | 1.0        | 2    | **6.0** |
+| B. Customer feature  | 2      | 0.7        | 2    | **2.8** |
+| C. General tech debt | 1      | 0.7        | 1    | **0.7** |
+
+#### Step 3–4) Rank
+
+1. **A**
+2. B
+3. C
+
+#### Step 5) Decide + Communicate
+
+* **Prioritize:** Infra that unlocks multiple features
+* **Deprioritize:** Invisible tech debt without clear leverage
+* **Why:** Foundational work only wins when it compounds future impact
+
+---
+
+## 🎯 Pattern Interviewers Want to See
+
+* ✅ Clear **options**
+* ✅ **Numbers > opinions**
+* ✅ Explicit **tradeoffs**
+* ✅ A confident **decision**
+
+---
+
 If you want, next we can do **P7 Tradeoff Framing** in the same ASCII + sample style.
