@@ -7,6 +7,36 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P2 (NSM + KPI LADDER) QUESTIONS
+
+**Even when "NSM" or "KPI" isn't mentioned, look for these keywords/phrases:**
+
+### Explicit Metrics Keywords:
+- "metrics", "KPIs", "north star", "success metrics", "key metrics"
+- "how to measure", "define success", "what metrics", "track"
+
+### Implicit P2 Indicators:
+- **Definition questions:** "what is the north star metric?", "define success for X", "what metrics matter?"
+- **Design + metrics:** "design X and define success", "build X and measure success"
+- **Measurement questions:** "how would you measure X?", "what metrics for Y?", "track success"
+- **Goal setting:** "set goals for team", "define KPIs", "what metrics to focus on"
+- **Success definition:** "how do you define success?", "what does success look like?"
+
+### P2 vs P1 Distinction:
+- **P2 (NSM + KPI):** "How would you measure success?" → Focus: DEFINE metrics (NSM → Input KPIs → Guardrails)
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: DIAGNOSE why metric dropped (segment → hypothesize)
+
+### P2 vs P3 Distinction:
+- **P2 (NSM + KPI):** "What metrics for this product?" → Focus: DEFINE what to measure
+- **P3 (Funnel):** "How to improve conversion?" → Focus: OPTIMIZE existing funnel steps
+
+### Red Flags (NOT P2):
+- "X is down 25%" → P1 (Metric Drop)
+- "Users drop at checkout" → P3 (Funnel)
+- "Cohort retention declined" → P4 (Cohort/Retention)
+
+---
+
 ## 🎯 EXECUTIVE SCOPE (15-20 min)
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
@@ -255,13 +285,3 @@ Before your interview, you should be able to:
 
 **Remember:** P2 is about connecting product decisions to measurable outcomes. The framework works for any product, feature, or team goal.
 
----
-
-## 📝 NOTES
-
-- **Total Questions:** 563
-- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
-- **Study Time:** 2-3 hours total (not per question!)
-- **Approach:** Concept clusters → Board slides → Representative questions → Narratives
-
-**Key Insight:** Most questions follow the same NSM + KPI Ladder framework. Master the 4 concept buckets and their narratives, then adapt to any P2 question.

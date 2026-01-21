@@ -7,6 +7,36 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P1 (METRIC DROP) QUESTIONS
+
+**Even when "metric drop" isn't mentioned, look for these keywords/phrases:**
+
+### Explicit Drop Keywords:
+- "down", "decline", "decrease", "drop", "dropped", "falling"
+- "lower than", "less than", "decreased by X%", "down X%"
+
+### Implicit Drop Indicators:
+- **Percentage changes:** "X is down 25%", "declined by 10%", "decreased from A to B"
+- **Comparison questions:** "why is X lower?", "what happened to Y?", "X is less than before"
+- **Investigation questions:** "how would you investigate X?", "what caused Y to drop?"
+- **Incident response:** "sudden drop", "overnight decline", "unexpected decrease"
+- **Growth questions (inverted):** "how to increase X?" → Same framework, inverted
+
+### P1 vs P3 Distinction:
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: WHERE is drop coming from? (segment by platform/geo/channel)
+- **P3 (Funnel):** "55% drop at checkout step" → Focus: WHY do users drop at this STEP? (identify friction)
+
+### P1 vs P4 Distinction:
+- **P1 (Metric Drop):** "DAU dropped 15% this week" → Single time point, overall metric
+- **P4 (Cohort):** "February cohort has lower retention" → Multiple cohorts over time
+
+### Red Flags (NOT P1):
+- "Users drop at checkout step" → P3 (Funnel)
+- "Cohort retention declined" → P4 (Cohort/Retention)
+- "How to define success?" → P2 (NSM + KPI Ladder)
+
+---
+
 ## 🎯 EXECUTIVE SCOPE (15-20 min)
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
@@ -279,13 +309,3 @@ Before your interview, you should be able to:
 
 **Remember:** P1 is about systematic thinking, not domain expertise. The framework works for any metric drop, regardless of industry.
 
----
-
-## 📝 NOTES
-
-- **Total Questions:** 108
-- **High-Priority Questions:** ~25 (5 per bucket across 5 buckets)
-- **Study Time:** 2-3 hours total (not per question!)
-- **Approach:** Concept clusters → Board slides → Representative questions → Narratives
-
-**Key Insight:** Most questions follow the same framework. Master the 5 concept buckets and their narratives, then adapt to any P1 question.

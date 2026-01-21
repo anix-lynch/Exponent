@@ -7,6 +7,33 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY BUCKET C (ML CONCEPTS) QUESTIONS
+
+**Even when "ML" isn't mentioned, look for these keywords/phrases:**
+
+### Explicit ML Keywords:
+- "machine learning", "ML", "model", "neural network", "overfitting", "regularization"
+- "LLM", "transformer", "CNN", "RNN", "hallucination", "cross-validation"
+
+### Implicit ML Indicators:
+- **Model behavior:** "model fails", "model doesn't work", "overfitting", "underfitting"
+- **Evaluation questions:** "how to evaluate model?", "test model", "monitor model"
+- **Production questions:** "deploy model", "model in production", "handle hallucinations"
+- **Algorithm questions:** "explain X algorithm", "difference between Y and Z", "how does X work?"
+- **Training questions:** "prevent overfitting", "handle imbalanced data", "choose loss function"
+
+### Bucket C vs Other Patterns:
+- **Bucket C (ML):** "How to prevent overfitting?" → Focus: ML concepts, model behavior
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: Business metrics, segmentation
+- **P2 (NSM + KPI):** "What metrics for product?" → Focus: Business metrics definition
+
+### Red Flags (NOT Bucket C):
+- "Orders down 25%" → P1 (Metric Drop)
+- "Users drop at checkout" → P3 (Funnel)
+- "Define success metrics" → P2 (NSM + KPI)
+
+---
+
 ## 🎯 EXECUTIVE SCOPE (15-20 min)
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
@@ -284,13 +311,3 @@ Before your interview, you should be able to:
 
 **Remember:** You're a GM, not an ML engineer. You need enough depth to be credible and decisive, not to implement algorithms from scratch.
 
----
-
-## 📝 NOTES
-
-- **Total Questions:** 51
-- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
-- **Study Time:** 2-3 hours total (not per question!)
-- **Approach:** Concept clusters → Board slides → Representative questions → Narratives
-
-**Key Insight:** Most questions (29) are 🔴 RED - skip them. Focus on the 20 high-yield questions (5 per bucket) that map to your 4 concept buckets.

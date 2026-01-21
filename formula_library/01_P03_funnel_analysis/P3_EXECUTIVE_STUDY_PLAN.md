@@ -7,6 +7,37 @@
 
 ---
 
+## 🔍 HOW TO IDENTIFY P3 (FUNNEL) QUESTIONS
+
+**Even when "funnel" isn't mentioned, look for these keywords/phrases:**
+
+### Explicit Funnel Keywords:
+- "funnel", "drop-off", "drop off", "conversion", "conversion rate"
+- "step", "stage", "process", "journey", "flow"
+
+### Implicit Funnel Indicators:
+- **Percentage drops:** "55% don't complete", "25% drop-off", "X% of users don't..."
+- **Step-specific issues:** "users drop at checkout", "sign-up is failing", "application incomplete"
+- **Optimization questions:** "how to improve conversion?", "optimize booking", "increase sign-up rate"
+- **Process questions:** "which step to fix first?", "where do users get stuck?", "what's the bottleneck?"
+- **Retention/engagement:** "how to improve retention?", "boost engagement", "users don't return"
+- **Completion questions:** "users don't complete X", "low completion rate", "high abandonment"
+
+### P3 vs P1 Distinction:
+- **P1 (Metric Drop):** "Orders down 25%" → Focus: WHERE is drop coming from? (segment by platform/geo)
+- **P3 (Funnel):** "55% drop at checkout" → Focus: WHY do users drop at this STEP? (identify friction)
+
+### P3 vs P4 Distinction:
+- **P3 (Funnel):** "Users drop at checkout step" → Single journey, where do they drop?
+- **P4 (Cohort):** "February cohort has lower retention" → Multiple sessions, who drops over time?
+
+### Red Flags (NOT P3):
+- "Overall metric is down" → P1 (Metric Drop)
+- "Cohort retention declined" → P4 (Cohort/Retention)
+- "How to define success?" → P2 (NSM + KPI Ladder)
+
+---
+
 ## 🎯 EXECUTIVE SCOPE (15-20 min)
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
@@ -248,15 +279,3 @@ Before your interview, you should be able to:
 
 **Remember:** P3 is about systematic funnel analysis. The framework works for any funnel, regardless of product or industry.
 
----
-
-## 📝 NOTES
-
-- **Total Questions:** 40
-- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
-- **Study Time:** 2-3 hours total (not per question!)
-- **Approach:** Concept clusters → Board slides → Representative questions → Narratives
-
-**Key Insight:** Most questions follow the same funnel analysis framework. Master the 4 concept buckets and their narratives, then adapt to any P3 question.
-
-**Key Distinction:** Funnel (P3) = where users drop in a single journey. Cohort (P4) = who drops over time across multiple sessions.
