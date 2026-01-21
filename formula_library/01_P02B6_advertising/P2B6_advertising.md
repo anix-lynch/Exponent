@@ -11,35 +11,35 @@
 ```
 Advertising Metrics
 │
-├─ NSM (North Star Metric)
-│   └─ Advertiser Revenue / ROAS
-│       └─ Or: Advertiser ROI
+├─ NSM (North Star Metric)                         [Platform KPI ↔ Advertiser Outcome]
+│   └─ Advertiser Revenue / ROAS                   [Advertiser KPI]
+│       └─ Or: Advertiser ROI                      [Advertiser KPI]
 │
 ├─ Input KPIs
-│   ├─ Performance metrics
-│   │   ├─ CTR (Click-Through Rate)
-│   │   ├─ CPC (Cost Per Click)
-│   │   └─ Conversion rate
+│   ├─ Performance metrics                         [Advertiser KPIs]
+│   │   ├─ CTR (Click-Through Rate)                [Advertiser KPI]
+│   │   ├─ CPC (Cost Per Click)                    [Advertiser KPI]
+│   │   └─ Conversion rate                          [Advertiser KPI]
 │   │
-│   ├─ Ad quality
-│   │   ├─ Ad relevance score
-│   │   ├─ Targeting accuracy
-│   │   └─ Ad fatigue
+│   ├─ Ad quality                                  [Platform Optimization KPIs]
+│   │   ├─ Ad relevance score                      [Platform KPI]
+│   │   ├─ Targeting accuracy                      [Platform KPI]
+│   │   └─ Ad fatigue                              [Platform KPI / UX Guardrail]
 │   │
-│   └─ Inventory
-│       ├─ Ad impressions
-│       ├─ Fill rate
-│       └─ CPM (Cost Per Mille)
+│   └─ Inventory                                   [Platform Supply-Side KPIs]
+│       ├─ Ad impressions                          [Platform KPI → reported to Advertiser]
+│       ├─ Fill rate                               [Platform KPI]
+│       └─ CPM (Cost Per Mille)                    [Platform Revenue KPI]
 │
 ├─ Leading Indicators
-│   ├─ Ad engagement rate
-│   ├─ View-through rate
-│   └─ Advertiser satisfaction
+│   ├─ Ad engagement rate                           [Platform KPI → early Advertiser signal]
+│   ├─ View-through rate                            [Platform KPI]
+│   └─ Advertiser satisfaction                     [Platform KPI]
 │
-└─ Guardrails
-    ├─ User experience (ad load)
-    ├─ Ad quality standards
-    └─ Click fraud prevention
+└─ Guardrails                                      [Platform Protection KPIs]
+    ├─ User experience (ad load)                   [Platform KPI]
+    ├─ Ad quality standards                        [Platform KPI]
+    └─ Click fraud prevention                      [Platform KPI]
 ```
 
 ---
