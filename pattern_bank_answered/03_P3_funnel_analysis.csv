@@ -53,15 +53,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-985,"Given this user funnel, how would you prioritize addressing drop-off points? Come up with design solutions to increase conversion.",🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel optimization; conversion,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 992,Google has just launched a new generational elevator. How would you convince customers to buy the product?,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Product marketing; go-to-market,"NSM: Define one North Star metric that best represents user + business value. Example: Issue Resolution Rate or Customer Satisfaction Score.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. Resolution: first-contact resolution, time to resolve. Quality: customer satisfaction, issue recurrence. Efficiency: tickets per agent, automation rate.
@@ -450,15 +441,6 @@ Guardrails: Define what must NOT break while optimizing NSM. User trust, long-te
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
 2168,Total Outfit Combinations,🟢,P3,Product Strategy,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,SQL/metrics question; metrics,"NSM: Identify the single most important metric that represents success. This should be the one number that best captures user value + business value combined.
-
-Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
-
-Leading Indicators: Add early signals that predict NSM movement. Short-term behaviors: first-session actions, early engagement patterns. Funnel entry signals: activation rate, feature discovery. Quality proxies: user satisfaction, retention hooks, content signals.
-
-Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
-
-Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2297,"What goals would you set for DoorDash, and what would be your North Star? How would you prioritize between launching new features to increase orders or simplifying the onboarding funnel to attract ...",🟢,P3,Product Planning,Define NSM → Input KPIs → Leading Indicators → Guardrails → Dashboard,Goal setting; prioritization,"NSM: Define one North Star metric that best represents user + business value. Choose a single metric that captures both user value and business outcomes.
 
 Input KPIs: Break NSM into 3-5 controllable drivers. User behavior drivers (engagement, activation). Supply/quality drivers (content, inventory, features). Monetization drivers (conversion, retention, LTV).
 
