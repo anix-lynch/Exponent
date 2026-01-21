@@ -44,10 +44,10 @@
 - "Cross-validation before shipping churn prediction model"
 - "Monitor train/test gap - if train accuracy >> test accuracy, you're overfitting"
 
-**Representative Questions (Do 3-5 only):**
+**Representative Questions (Do 5 only):**
 - Q812: Explain overfitting
-- Q1049: How do you avoid overfitting?
-- Q2324: What is overfitting/underfitting? Which models are most likely?
+- Q1049: How do you avoid overfitting a model?
+- Q2324: What is overfitting or underfitting? Which models are most likely to experience this, and why?
 - Q786: Explain bias-variance tradeoff
 - Q816: Explain regularization
 
@@ -57,7 +57,7 @@
 ---
 
 ### BUCKET 2: LLM/GenAI Production & Safety
-**Questions:** 3 | **Salvageable:** 2 | **Priority:** 🟢 GREEN (If you work with LLMs)
+**Questions:** 5 | **Salvageable:** 2 | **Priority:** 🟢 GREEN (If you work with LLMs)
 
 **Board Slide Bullets:**
 - **Hallucinations:** Model generates confident but false information → trust/legal risk
@@ -70,10 +70,12 @@
 - "Use RAG to ground LLM answers in company knowledge base, not just training data"
 - "Test conversational AI on sensitive topics before deployment - catch overconfidence early"
 
-**Representative Questions (Do 2-3 only):**
+**Representative Questions (Do 5 only):**
 - Q190: Define hallucinations in LLMs
 - Q1372: How would you handle hallucinations in a generative AI model deployed to users?
 - Q843: Explain transformers
+- Q1653: Imagine you're part of a team deploying a conversational AI model that can reason across sensitive topics. During internal testing, you discovered that the model usually gives overly confident but...
+- Q2390: What methods or metrics did you use to evaluate how well your LLM performs?
 
 **Reusable Narrative:**
 > "When deploying LLMs, hallucinations are the biggest risk - the model sounds confident but gives wrong answers. I handle this three ways: first, I use RAG to ground answers in our knowledge base. Second, I monitor hallucination rates in production and set alerts. Third, for sensitive topics, I always have human review. Transformers work by attention - they focus on the important parts of the input, which is why they're so powerful for language tasks."
@@ -81,7 +83,7 @@
 ---
 
 ### BUCKET 3: Model Evaluation & Monitoring
-**Questions:** 8 | **Salvageable:** 1 | **Priority:** 🟡 YELLOW (High-yield but needs practice)
+**Questions:** 5 | **Salvageable:** 1 | **Priority:** 🟡 YELLOW (High-yield but needs practice)
 
 **Board Slide Bullets:**
 - **Cross-Validation:** Split data, train on some, test on others, rotate to check robustness
@@ -94,11 +96,12 @@
 - "Monitor model drift - if input distribution changes, retrain or alert"
 - "A/B test new recommendation model - measure both accuracy and business metrics (revenue, engagement)"
 
-**Representative Questions (Do 3-4 only):**
+**Representative Questions (Do 5 only):**
 - Q789: Explain cross-validation and testing in logistic regression
 - Q2393: What metrics do you monitor after deploying a machine learning model?
 - Q1155: How do you test your machine learning models for production?
-- Q2449: What testing methodologies are commonly used to ensure reliability and performance of AI models in production?
+- Q2449: What testing methodologies are commonly used to ensure reliability and performance of AI models in production environments?
+- Q2392: What metrics did you use to train and evaluate your models?
 
 **Reusable Narrative:**
 > "Before shipping any model, I use cross-validation to make sure it's robust - I split data into 5 folds, train on 4, test on 1, rotate, and check that performance is consistent. In production, I monitor three things: model accuracy (does it still work?), data drift (has input distribution changed?), and business metrics (is it actually helping?). I always A/B test new models and use shadow mode first - let the new model run alongside the old one without affecting users, then compare."
@@ -106,7 +109,7 @@
 ---
 
 ### BUCKET 4: Neural Networks Basics
-**Questions:** 5 | **Salvageable:** 4 | **Priority:** 🟡 YELLOW (Only if relevant to your role)
+**Questions:** 5 | **Salvageable:** 5 | **Priority:** 🟡 YELLOW (Only if relevant to your role)
 
 **Board Slide Bullets:**
 - **CNN vs RNN:** CNN = images/spatial patterns, RNN = sequences/time patterns
@@ -119,10 +122,12 @@
 - "Use RNN/LSTM for time series or text - it processes sequences one step at a time"
 - "Vanishing gradients occur in deep networks - early layers don't update, so we use techniques like batch normalization"
 
-**Representative Questions (Do 2-3 only):**
-- Q820: Explain the difference between CNNs and RNNs
-- Q1039: How do CNNs differ from traditional neural networks in processing image data?
+**Representative Questions (Do 5 only):**
+- Q820: Explain the difference between Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs)
+- Q1039: How do convolutional neural networks (CNNs) differ from traditional neural networks in processing image data?
 - Q2617: Why is a deep neural network better than a shallow neural network?
+- Q824: Explain the differences between LSTM and traditional neural networks
+- Q2527: Where do vanishing gradients occur in a neural network?
 
 **Reusable Narrative:**
 > "I choose neural network architecture based on the problem. For images, I use CNNs because they're designed for spatial patterns - they detect edges, then shapes, then objects. For sequences like text or time series, I use RNNs or LSTMs because they process data step-by-step and remember context. Deep networks are better than shallow ones because they learn hierarchical features - but they can suffer from vanishing gradients, where early layers don't update properly."
@@ -141,12 +146,12 @@
 ## 🚦 TRAFFIC LIGHT PRIORITIZATION
 
 ### 🟢 GREEN (Master - Can explain to non-technical exec)
-1. **Overfitting & Model Reliability** → Study Bucket 1, practice 3-5 questions
-2. **LLM/GenAI Production & Safety** → Study Bucket 2, practice 2-3 questions (if relevant)
+1. **Overfitting & Model Reliability** → Study Bucket 1, practice 5 questions
+2. **LLM/GenAI Production & Safety** → Study Bucket 2, practice 5 questions (if relevant)
 
 ### 🟡 YELLOW (High-yield but shaky - Practice questions)
-3. **Model Evaluation & Monitoring** → Study Bucket 3, practice 3-4 questions
-4. **Neural Networks Basics** → Study Bucket 4, practice 2-3 questions (if relevant)
+3. **Model Evaluation & Monitoring** → Study Bucket 3, practice 5 questions
+4. **Neural Networks Basics** → Study Bucket 4, practice 5 questions (if relevant)
 
 ### 🔴 RED (Low impact - Optionality only)
 5. **Deep ML Theory** → Skip unless specifically asked
@@ -157,22 +162,22 @@
 
 ### Day 1: Overfitting & Model Reliability (🟢)
 - **30 min:** Create "board slide" summary (use Bucket 1 bullets above)
-- **60 min:** Practice 3-5 representative questions
+- **60 min:** Practice 5 representative questions
 - **30 min:** Verbal rehearsal - explain out loud like in interview (focus on tradeoffs, risk, impact)
 
 ### Day 2: LLM/GenAI Production (🟢 - if relevant)
 - **30 min:** Board slide summary (Bucket 2)
-- **60 min:** Practice 2-3 questions
+- **60 min:** Practice 5 questions
 - **30 min:** Verbal rehearsal
 
 ### Day 3: Model Evaluation & Monitoring (🟡)
 - **30 min:** Board slide summary (Bucket 3)
-- **60 min:** Practice 3-4 questions
+- **60 min:** Practice 5 questions
 - **30 min:** Verbal rehearsal
 
 ### Day 4: Neural Networks Basics (🟡 - if relevant)
 - **30 min:** Board slide summary (Bucket 4)
-- **60 min:** Practice 2-3 questions
+- **60 min:** Practice 5 questions
 - **30 min:** Verbal rehearsal
 
 ---
@@ -221,7 +226,7 @@ Before your interview, you should be able to:
 **You're ready when:**
 - You can explain any 🟢 GREEN concept to a non-technical person in 30 seconds
 - You have 4-6 reusable narratives that you can adapt to different questions
-- You've practiced 8-12 representative questions total (not all 51!)
+- You've practiced 15-20 representative questions total (5 per bucket, not all 51!)
 - You focus on **tradeoffs, risk, and business impact**, not math derivations
 
 **Remember:** You're a GM, not an ML engineer. You need enough depth to be credible and decisive, not to implement algorithms from scratch.
@@ -231,8 +236,8 @@ Before your interview, you should be able to:
 ## 📝 NOTES
 
 - **Total Questions:** 51
-- **High-Priority Questions:** ~12 (🟢 + 🟡 buckets)
+- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
 - **Study Time:** 2-3 hours total (not per question!)
 - **Approach:** Concept clusters → Board slides → Representative questions → Narratives
 
-**Key Insight:** Most questions (29) are 🔴 RED - skip them. Focus on the 12-15 high-yield questions that map to your 3-5 concept buckets.
+**Key Insight:** Most questions (29) are 🔴 RED - skip them. Focus on the 20 high-yield questions (5 per bucket) that map to your 4 concept buckets.
