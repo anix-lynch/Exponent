@@ -41,17 +41,18 @@
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Retention Drop Diagnosis** (HIGHEST PRIORITY)
 2. ✅ **Churn Increase Analysis** (HIGH PRIORITY)
 3. ✅ **Cohort Comparison** (MEDIUM-HIGH)
 4. ⚠️ **Activation vs Retention** (MEDIUM)
 5. ❌ **Advanced Cohort Segmentation** (LOW - skip for now)
 
-**For Product Manager:**
-1. ✅ **Retention Drop Diagnosis** (HIGHEST)
-2. ✅ **Churn Increase Analysis** (HIGH)
-3. ✅ **Cohort Comparison** (MEDIUM-HIGH)
+**For Data Engineer:**
+1. ✅ **Cohort Comparison** (HIGHEST) - Data pipeline cohorts, system health cohorts
+2. ✅ **Retention Drop Diagnosis** (HIGH) - Data retention, system reliability
+3. ⚠️ **Churn Increase Analysis** (MEDIUM) - Data loss, system failures
+4. ❌ **Activation vs Retention** (LOW - skip for now)
 4. ⚠️ **Activation vs Retention** (MEDIUM)
 5. ❌ **Advanced Cohort Segmentation** (LOW)
 

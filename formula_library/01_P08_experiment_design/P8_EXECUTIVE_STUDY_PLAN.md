@@ -41,17 +41,17 @@
 
 ### Your 3-4 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Classic A/B Test Design** (HIGHEST PRIORITY)
 2. ✅ **Feature Evaluation Experiments** (HIGH PRIORITY)
 3. ✅ **Market/Product Expansion Experiments** (MEDIUM-HIGH)
 4. ⚠️ **Experiment Validation & Biases** (MEDIUM)
 
-**For Product Manager:**
-1. ✅ **Classic A/B Test Design** (HIGHEST)
-2. ✅ **Feature Evaluation Experiments** (HIGH)
-3. ✅ **Market/Product Expansion Experiments** (MEDIUM-HIGH)
-4. ⚠️ **Experiment Validation & Biases** (MEDIUM)
+**For Data Engineer:**
+1. ✅ **Classic A/B Test Design** (HIGHEST) - Infrastructure, data pipeline experiments
+2. ✅ **Experiment Validation & Biases** (HIGH) - Data quality, logging validation
+3. ⚠️ **Feature Evaluation Experiments** (MEDIUM) - System performance experiments
+4. ❌ **Market/Product Expansion Experiments** (LOW - skip for now)
 
 ---
 

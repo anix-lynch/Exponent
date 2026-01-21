@@ -41,17 +41,18 @@
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Define NSM for Existing Product** (HIGHEST PRIORITY)
 2. ✅ **Measure Feature/Product Success** (HIGH PRIORITY)
 3. ✅ **Design Product + Define Success** (MEDIUM-HIGH)
 4. ⚠️ **Goal Setting & Team Metrics** (MEDIUM)
 5. ❌ **Creative/Abstract Product Design** (LOW - skip for now)
 
-**For Product Manager:**
-1. ✅ **Define NSM for Existing Product** (HIGHEST)
-2. ✅ **Design Product + Define Success** (HIGH)
-3. ✅ **Measure Feature/Product Success** (MEDIUM-HIGH)
+**For Data Engineer:**
+1. ✅ **Measure Feature/Product Success** (HIGHEST) - Data pipeline, metrics infrastructure
+2. ✅ **Goal Setting & Team Metrics** (HIGH) - System health, reliability metrics
+3. ⚠️ **Define NSM for Existing Product** (MEDIUM) - Data quality, observability metrics
+4. ❌ **Design Product + Define Success** (LOW - skip for now)
 4. ⚠️ **Goal Setting & Team Metrics** (MEDIUM)
 5. ❌ **Creative/Abstract Product Design** (LOW)
 

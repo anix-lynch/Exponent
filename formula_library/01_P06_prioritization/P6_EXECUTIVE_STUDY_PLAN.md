@@ -46,19 +46,18 @@
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Classic Feature Prioritization** (HIGHEST PRIORITY)
 2. ✅ **Roadmap Prioritization** (HIGH PRIORITY)
 3. ✅ **Resource-Constrained Prioritization** (MEDIUM-HIGH)
 4. ⚠️ **Bug vs Feature / Tradeoff Prioritization** (MEDIUM)
 5. ❌ **Strategic/Investment Prioritization** (LOW - skip for now)
 
-**For Product Manager:**
-1. ✅ **Classic Feature Prioritization** (HIGHEST)
-2. ✅ **Roadmap Prioritization** (HIGH)
-3. ✅ **Resource-Constrained Prioritization** (MEDIUM-HIGH)
-4. ⚠️ **Bug vs Feature / Tradeoff Prioritization** (MEDIUM)
-5. ❌ **Strategic/Investment Prioritization** (LOW)
+**For Data Engineer:**
+1. ✅ **Bug vs Feature / Tradeoff Prioritization** (HIGHEST) - Technical debt vs features, infrastructure vs features
+2. ✅ **Resource-Constrained Prioritization** (HIGH) - Infrastructure, pipeline prioritization
+3. ⚠️ **Classic Feature Prioritization** (MEDIUM) - Data pipeline features, tooling
+4. ❌ **Roadmap Prioritization** (LOW - skip for now)
 
 ---
 

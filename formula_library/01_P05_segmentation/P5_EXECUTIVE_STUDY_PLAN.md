@@ -45,17 +45,17 @@
 
 ### Your 3-4 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Classic User/Customer Segmentation** (HIGHEST PRIORITY)
 2. ✅ **Market/Geographic Segmentation** (HIGH PRIORITY)
 3. ✅ **Engagement/Behavior Segmentation** (MEDIUM-HIGH)
 4. ⚠️ **Churn Analysis Segmentation** (MEDIUM)
 
-**For Product Manager:**
-1. ✅ **Classic User/Customer Segmentation** (HIGHEST)
-2. ✅ **Market/Geographic Segmentation** (HIGH)
-3. ✅ **Engagement/Behavior Segmentation** (MEDIUM-HIGH)
-4. ⚠️ **Churn Analysis Segmentation** (MEDIUM)
+**For Data Engineer:**
+1. ✅ **Engagement/Behavior Segmentation** (HIGHEST) - Data pipeline, system usage segmentation
+2. ✅ **Churn Analysis Segmentation** (HIGH) - System health, data quality segmentation
+3. ⚠️ **Classic User/Customer Segmentation** (MEDIUM) - Data modeling, schema design
+4. ❌ **Market/Geographic Segmentation** (LOW - skip for now)
 
 ---
 
@@ -116,11 +116,11 @@
 - "Geographic expansion: Segment by geography (city/region/country) × Behavior (usage patterns) × Value (market size, growth) → Rank → Focus on highest-value geography"
 
 **Representative Questions (Do 5 only):**
-- Q60: As a PM for autonomous land-based vehicles at Google, how would you decide on the next market segment and geography? Assume Waymo does not exist.
-- Q123: Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target?
-- Q1794: Revenue by Customer City
-- Q60: (Repeat - use for geographic expansion angle)
-- Q123: (Repeat - use for market opportunity angle)
+- Q60: As a PM for autonomous land-based vehicles at Google, how would you decide on the next market segment and geography? Assume Waymo does not exist. (geographic expansion angle)
+- Q123: Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target? (market opportunity angle)
+- Q1794: Revenue by Customer City (geographic segmentation angle)
+- Q60: As a PM for autonomous land-based vehicles at Google, how would you decide on the next market segment and geography? Assume Waymo does not exist. (market segment selection angle)
+- Q123: Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target? (segment targeting angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When deciding on market or geographic segments, I use the same Persona × Behavior × Value framework. For Personas, I define market demographics, geographic characteristics, and cultural context. For Behaviors, I analyze market adoption patterns, usage frequency, and growth trajectory. For Value, I assess market size, growth potential, revenue opportunity, and strategic importance. I combine these into market segments and rank them by market size, growth rate, and value. I focus on the top market segment as the target for expansion or investment."
@@ -148,11 +148,11 @@
 - "Age group engagement: Segment by age (13-19) × Behavior (usage patterns) × Value (engagement, retention) → Rank → Focus on improving engagement for that segment"
 
 **Representative Questions (Do 5 only):**
-- Q895: For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement?
-- Q1021: How can engagement be improved for the 13-19 age group on Instagram?
-- Q1766: Post Success By Age Group.
-- Q895: (Repeat - use for content analysis angle)
-- Q1021: (Repeat - use for age group improvement angle)
+- Q895: For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement? (content analysis angle)
+- Q1021: How can engagement be improved for the 13-19 age group on Instagram? (age group improvement angle)
+- Q1766: Post Success By Age Group. (age segmentation angle)
+- Q895: For a social media app, how would you analyze whether content from friends or content from strangers/creators drives higher engagement? (engagement analysis angle)
+- Q1021: How can engagement be improved for the 13-19 age group on Instagram? (segment-specific improvement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When analyzing engagement or behavior by segment, I use Persona × Behavior × Value. I define Personas (user demographics, context, needs), then analyze Behaviors (engagement patterns, content preferences, usage frequency), and assess Value (engagement metrics like time spent and actions, retention value, strategic value). I combine into segments and rank them by engagement impact, segment size, and value. I focus on high-engagement segments to improve overall engagement."
@@ -180,11 +180,11 @@
 - "Churn visualization: Use segments to identify patterns - which personas, behaviors, and values correlate with churn"
 
 **Representative Questions (Do 5 only):**
-- Q2184: Walk me through how you'd segment users for a churn analysis.
-- Q2459: What types of visualizations would you use to identify patterns in churn?
-- Q2184: (Repeat - use for segmentation methodology angle)
-- Q2459: (Repeat - use for visualization angle)
-- Q995: Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do?
+- Q2184: Walk me through how you'd segment users for a churn analysis. (segmentation methodology angle)
+- Q2459: What types of visualizations would you use to identify patterns in churn? (visualization angle)
+- Q2184: Walk me through how you'd segment users for a churn analysis. (churn analysis angle)
+- Q2459: What types of visualizations would you use to identify patterns in churn? (pattern identification angle)
+- Q995: Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do? (review segmentation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When segmenting users for churn analysis, I use Persona × Behavior × Value. I define Personas (demographics, lifecycle stage, acquisition source), then analyze Behaviors (usage patterns before churn, engagement decline, feature usage), and assess Value (churn risk, revenue at risk, strategic importance). I combine into segments and rank them by churn risk, segment size, and value. I focus on high-risk segments to prevent churn."

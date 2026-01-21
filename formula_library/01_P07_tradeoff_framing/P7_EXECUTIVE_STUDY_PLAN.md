@@ -45,19 +45,18 @@
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Classic Feature/Product Tradeoffs** (HIGHEST PRIORITY)
 2. ✅ **Build vs Buy vs Partner Tradeoffs** (HIGH PRIORITY)
 3. ✅ **User Experience vs Business Value Tradeoffs** (MEDIUM-HIGH)
 4. ⚠️ **Strategic/Investment Tradeoffs** (MEDIUM)
 5. ❌ **Time Horizon Tradeoffs** (LOW - skip for now)
 
-**For Product Manager:**
-1. ✅ **Classic Feature/Product Tradeoffs** (HIGHEST)
-2. ✅ **Build vs Buy vs Partner Tradeoffs** (HIGH)
-3. ✅ **User Experience vs Business Value Tradeoffs** (MEDIUM-HIGH)
-4. ⚠️ **Strategic/Investment Tradeoffs** (MEDIUM)
-5. ❌ **Time Horizon Tradeoffs** (LOW)
+**For Data Engineer:**
+1. ✅ **Build vs Buy vs Partner Tradeoffs** (HIGHEST) - Infrastructure, tooling, data platform decisions
+2. ✅ **Classic Feature/Product Tradeoffs** (HIGH) - System architecture, data pipeline tradeoffs
+3. ⚠️ **Time Horizon Tradeoffs** (MEDIUM) - Short-term fixes vs long-term architecture
+4. ❌ **User Experience vs Business Value Tradeoffs** (LOW - skip for now)
 
 ---
 

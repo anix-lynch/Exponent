@@ -45,15 +45,15 @@
 
 ### Your 2-3 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Go/No-Go Decisions** (HIGHEST PRIORITY)
 2. ✅ **Market Entry Under Uncertainty** (HIGH PRIORITY)
 3. ⚠️ **Feature/Product Decisions with Incomplete Info** (MEDIUM)
 
-**For Product Manager:**
-1. ✅ **Go/No-Go Decisions** (HIGHEST)
-2. ✅ **Market Entry Under Uncertainty** (HIGH)
-3. ⚠️ **Feature/Product Decisions with Incomplete Info** (MEDIUM)
+**For Data Engineer:**
+1. ✅ **Go/No-Go Decisions** (HIGHEST) - Technical feasibility, infrastructure decisions
+2. ⚠️ **Feature/Product Decisions with Incomplete Info** (MEDIUM) - Data pipeline, architecture decisions
+3. ❌ **Market Entry Under Uncertainty** (LOW - skip for now)
 
 ---
 
@@ -75,11 +75,11 @@
 - "Go/no-go for market entry: Assumptions (market demand, competition manageable), Risks (if wrong: wasted investment, opportunity cost), Validation (market research, pilot), Decide (proceed if validation positive)"
 
 **Representative Questions (Do 5 only):**
-- Q150: Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on.
-- Q16: A potential client asks for a guarantee on a feature's delivery date. Your team hasn't considered this feature before. What would you do?
-- Q215: Describe a time when a project lacked key information.
-- Q150: (Repeat - use for feature decision angle)
-- Q16: (Repeat - use for commitment angle)
+- Q150: Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on. (feature decision angle)
+- Q16: A potential client asks for a guarantee on a feature's delivery date. Your team hasn't considered this feature before. What would you do? (commitment under uncertainty angle)
+- Q215: Describe a time when a project lacked key information. (information gaps angle)
+- Q150: Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on. (go/no-go framework angle)
+- Q16: A potential client asks for a guarantee on a feature's delivery date. Your team hasn't considered this feature before. What would you do? (risk management angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When making a go/no-go decision with incomplete information, I use the Clarify Assumptions → Identify Risks → Validation Plan → Decide framework. First, I clarify assumptions: What do we believe is true? (User behavior, market demand, technical feasibility, timing/dependencies). I classify assumptions as Critical (decision breaks if wrong) vs Non-critical. Then I identify risks: If an assumption is wrong, what happens? (Revenue risk, user trust risk, technical risk, legal risk, opportunity cost). I rank risks by impact × likelihood. Next, I create a validation plan: What's the cheapest signal to reduce uncertainty? (Qualitative: interviews, expert review | Quantitative: logs, metrics, small experiments | Proxies: analogous products, historical data | Time-boxed spike/prototype). I decide upfront: What result would change the decision? What result is 'good enough'? Finally, I decide: Proceed now if upside >> downside and risks are bounded, Delay and validate if one critical unknown dominates, or Kill/pivot if downside is irreversible or catastrophic."
@@ -107,11 +107,11 @@
 - "New city launch: Assumptions (demand, supply available), Risks (wasted investment), Validation (market data, pilot), Decide (launch if validation positive)"
 
 **Representative Questions (Do 5 only):**
-- Q12: A leading Canadian grocery chain is considering opening its first store in Montreal. Should they? If yes, what should be the ratio of self-checkout kiosks to cashier counters?
-- Q2656: You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting?
-- Q91: As a VC offering you $20M to build any technology-enabled product/service, how would you get started?
-- Q12: (Repeat - use for market entry angle)
-- Q2656: (Repeat - use for strategic decision angle)
+- Q12: A leading Canadian grocery chain is considering opening its first store in Montreal. Should they? If yes, what should be the ratio of self-checkout kiosks to cashier counters? (market entry angle)
+- Q2656: You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting? (strategic decision angle)
+- Q91: As a VC offering you $20M to build any technology-enabled product/service, how would you get started? (startup ideation angle)
+- Q12: A leading Canadian grocery chain is considering opening its first store in Montreal. Should they? If yes, what should be the ratio of self-checkout kiosks to cashier counters? (location and operations angle)
+- Q2656: You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting? (pre-meeting preparation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When deciding on market entry with incomplete information, I use the same uncertainty framework. I clarify assumptions about the market: Demand exists (critical), competition is manageable (critical), regulatory environment is favorable (critical), market fit is good (critical). I identify risks: If demand doesn't exist → wasted investment (high impact), If competition too strong → failure (high impact), If regulatory issues → blocked (high impact). I create a validation plan: Market research (qualitative/quantitative), competitive analysis (qualitative), pilot/test market (quantitative), analogous markets (proxy). I decide upfront: If market research positive, competition manageable, pilot successful → enter. If any critical assumption fails → don't enter. I decide: Enter if validation positive, Delay if critical unknown, Don't enter if validation negative."
@@ -139,11 +139,11 @@
 - "Product decision: Assumptions (market fit, feasible), Risks (wasted investment), Validation (market research, MVP), Decide (launch if validation positive)"
 
 **Representative Questions (Do 5 only):**
-- Q185: Decide product-market fit for sticky post-its.
-- Q91: As a VC offering you $20M to build any technology-enabled product/service, how would you get started?
-- Q185: (Repeat - use for PMF angle)
-- Q91: (Repeat - use for startup angle)
-- Q150: (Repeat - use for feature angle from Bucket 1)
+- Q185: Decide product-market fit for sticky post-its. (PMF assessment angle)
+- Q91: As a VC offering you $20M to build any technology-enabled product/service, how would you get started? (startup ideation angle)
+- Q185: Decide product-market fit for sticky post-its. (product validation angle)
+- Q91: As a VC offering you $20M to build any technology-enabled product/service, how would you get started? (market opportunity angle)
+- Q150: Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on. (feature decision angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
 > "When deciding on a feature or product with incomplete information, I use the same uncertainty framework. I clarify assumptions: User need exists (critical), Technical feasibility (critical), Business value (critical), Timing right (non-critical). I identify risks: If no user need → wasted effort (high impact), If not feasible → failure (high impact), If no business value → wasted investment (high impact). I create validation plan: User research (qualitative), Technical spike (quantitative), Business case (qualitative), Prototype/MVP (quantitative). I decide upfront: If user need validated, feasible, business value positive → proceed. I decide: Proceed if validation positive, Delay if critical unknown, Kill if validation negative."

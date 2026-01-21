@@ -42,16 +42,18 @@
 
 ### Your 3-5 High-Impact Buckets (Pick Based on Role)
 
-**For Business Leader / GM:**
+**For Product Manager:**
 1. ✅ **Classic Funnel Drop-off** (HIGHEST PRIORITY)
 2. ✅ **Conversion Optimization** (HIGH PRIORITY)
 3. ✅ **Funnel Prioritization** (MEDIUM-HIGH)
 4. ⚠️ **Retention/Engagement Funnels** (MEDIUM)
 5. ❌ **Multi-step Complex Funnels** (LOW - skip for now)
 
-**For Product Manager:**
-1. ✅ **Classic Funnel Drop-off** (HIGHEST)
-2. ✅ **Conversion Optimization** (HIGH)
+**For Data Engineer:**
+1. ✅ **Classic Funnel Drop-off** (HIGHEST) - Data pipeline, ETL funnel analysis
+2. ✅ **Conversion Optimization** (HIGH) - Data quality, processing optimization
+3. ⚠️ **Funnel Prioritization** (MEDIUM) - Pipeline stage prioritization
+4. ❌ **Retention/Engagement Funnels** (LOW - skip for now)
 3. ✅ **Funnel Prioritization** (MEDIUM-HIGH)
 4. ⚠️ **Retention/Engagement Funnels** (MEDIUM)
 5. ❌ **Multi-step Complex Funnels** (LOW)
