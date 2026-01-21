@@ -233,33 +233,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-1406,How would you improve our hiring conversion and time to hire from application to offer rollout?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Hiring funnel; process improvement,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1465,How would you increase the conversion rate for YouTube Premium?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Conversion improvement; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-1521,How would you optimize booking.com to improve conversion rates?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Conversion optimization; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 1581,How would you use cohorts to identify retention issues?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Cohort analysis; funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: First use / activation. Step 2: Core value experience (complete key action). Step 3: Return within 7 days. Step 4: Return within 30 days. Step 5: Habit formation (weekly active). Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -521,15 +494,6 @@ Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexp
 Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
 
 Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
-2715,You're a PM at a food delivery app where conversion rates have declined over the past week. How would you investigate the causes? (Conversion: From users browsing to placing orders.),🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2720,You're a PM at a travel booking platform. Which step of the booking process would you address first to reduce drop-offs?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Search / browse listings. Step 2: View details / select option. Step 3: Enter booking info (dates, guests). Step 4: Review / payment. Step 5: Booking confirmed. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
@@ -584,15 +548,6 @@ Leading Indicators: Add early signals that predict NSM movement. Short-term beha
 Guardrails: Define what must NOT break while optimizing NSM. User trust, long-term health, cost/abuse prevention, compliance. Set thresholds that trigger alerts if breached.
 
 Dashboard: Design simple monitoring structure. NSM at top (always visible, weekly trend). Input KPIs (weekly review, track drivers). Leading indicators (daily monitoring, early signals). Guardrails (alerts only, no daily noise)."
-2830,You're a PM in the Onboarding team. You have to increase the conversion of the onboarding funnel by 15% in 3 months.,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
-
-Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
-
-Identify Friction: Ask WHY users fail at the bottleneck step. UX friction: unexpected costs, forced account creation, complex forms. Trust friction: payment security, price shock, shipping delays. Technical friction: payment errors, mobile issues, slow checkout. Use session replays, funnel by device/platform, and error logs.
-
-Hypothesize Fix: Generate 1-2 clear hypotheses. Format: If we reduce friction X, then conversion at step Y increases. Prioritize: High impact × Low effort, isolated to one step. Examples: simplify form, show value earlier, fix technical issues, improve mobile UX.
-
-Test: Run A/B test or staged rollout. Primary metric: conversion rate at the bottleneck step. Guardrails: monitor downstream impact (retention, quality, revenue). Decide: ship winner, iterate, or rollback based on results."
 2887,You’re a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?,🟢,P3,Funnel Analysis,Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test,Funnel analysis,"Define Funnel Steps: Map the exact user journey. Step 1: Product view / add to cart. Step 2: View cart / proceed to checkout. Step 3: Enter shipping / payment info. Step 4: Review order / confirm purchase. Step 5: Purchase complete / confirmation. Guardrail: Steps must be USER actions, not internal events.
 
 Measure Drop-off: Compute conversion rate between each step. Calculate: Step 1 → 2: X%, Step 2 → 3: Y%, Step 3 → 4: Z%. Identify the largest % drop - this is the bottleneck that needs attention.
