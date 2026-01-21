@@ -112,6 +112,190 @@ Then I propose a fix.
 Then I test it."
 ```
 
+---
+
+## 📚 Universal Funnel Answer Template (Memorize This)
+
+```
+1) Define the funnel steps
+2) Find the biggest drop
+3) Hypothesize why (UX / value / trust / tech)
+4) Propose 1–2 fixes
+5) Measure again
+```
+
+You'll see it repeated in all examples below.
+
+---
+
+## 📚 5 Funnel Analysis Drill Examples
+
+### 1️⃣ "55% of users don't complete the application"
+
+**Sample answer:**
+
+```
+Define funnel:
+- Open application
+- Start application
+- Fill form
+- Submit
+
+Find drop:
+- Biggest drop between Fill form → Submit
+
+Hypothesis:
+- Form too long
+- Required fields unclear
+- Users unsure why info is needed
+
+Fix:
+- Reduce required fields
+- Add progress bar
+- Save progress
+
+Measure:
+- Submission rate
+```
+
+---
+
+### 2️⃣ "25% drop-off during sign-up"
+
+**Sample answer:**
+
+```
+Define funnel:
+- App open
+- Click sign up
+- Enter email/password
+- Verify email
+- Complete sign-up
+
+Find drop:
+- Drop at email verification
+
+Hypothesis:
+- Verification email slow
+- Email goes to spam
+- User distracted
+
+Fix:
+- Allow limited access before verification
+- Resend CTA
+- Inline verification
+
+Measure:
+- Sign-up completion rate
+```
+
+---
+
+### 3️⃣ "Adoption is high, but retention is low"
+
+**Sample answer:**
+
+```
+Define funnel:
+- Sign up
+- First action
+- Core value action
+- Return in 7 days
+
+Find drop:
+- Users do first action but don't return
+
+Hypothesis:
+- Users don't see long-term value
+- No habit formed
+
+Fix:
+- Guide users to core value action
+- Add reminders / nudges
+
+Measure:
+- D7 retention
+```
+
+---
+
+### 4️⃣ "One million paying users are inactive (Netflix-style)"
+
+**Sample answer:**
+
+```
+Define funnel:
+- Pay subscription
+- Browse content
+- Play video
+- Finish episode
+- Return next week
+
+Find drop:
+- Users browse but don't play
+
+Hypothesis:
+- Choice overload
+- Recommendations not relevant
+
+Fix:
+- Personalize homepage
+- Auto-play recommendations
+
+Measure:
+- Weekly active users
+```
+
+---
+
+### 5️⃣ "40% increase in first-month churn (HelloFresh-style)"
+
+**Sample answer:**
+
+```
+Define funnel:
+- Sign up
+- First delivery
+- Second delivery
+- Month renewal
+
+Find drop:
+- After first delivery
+
+Hypothesis:
+- Food quality mismatch
+- Delivery timing issues
+- Price surprise
+
+Fix:
+- Improve first-box customization
+- Better expectation setting
+
+Measure:
+- Month-1 retention
+```
+
+---
+
+## 🎯 Ultra-Short Interview Version (Gold)
+
+> "I'd map the funnel, find the biggest drop, identify the friction, propose targeted fixes, and re-measure conversion."
+
+---
+
+## 🔑 Key Distinction to Lock In Your Head
+
+```
+Funnel = where users drop
+Cohort = who drops over time
+```
+
+**Funnel (P3):** "Users drop at checkout step" → fix checkout friction
+
+**Cohort (P4):** "February cohort has lower retention than January" → compare cohorts over time
+
+---
+
 If you want, next we can:
 
 * redo **P4 (Cohort / Retention / Churn)** in this exact style
