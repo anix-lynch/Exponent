@@ -81,13 +81,47 @@
 - Q2059: Tell me about a time you had to influence stakeholders without authority. (stakeholder influence angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When I need to influence without authority, I use Understand Incentives → Address Concerns → Build Coalition → Decide. First, I understand incentives: I identify all stakeholders (Exec, Product, Engineering, Legal/Ops/Sales) and for each I map their Goal (what success looks like for them), Fear (what they're protecting against), and Power (can they block/influence/approve). Then I address concerns: I map objections (Risk, Cost, Timeline, Ownership) and respond with specifics (Data where possible, Guardrails - what we won't do, Mitigations - how risk is contained). Next, I build coalition: I secure early allies (influential but reasonable, cross-functional credibility), and sequence alignment (1:1s before group meetings, incorporate feedback visibly, let allies advocate publicly). Finally, I decide: I restate the shared goal, present the aligned proposal, call the decision explicitly, and document + communicate the outcome. Alignment ≠ consensus - it means no one is surprised and no one blocks."
+
+**Framework:** `Understand Incentives → Address Concerns → Build Coalition → Decide`
+
+**Memorizable Answer:**
+
+When I need to influence without authority, I use Understand Incentives → Address Concerns → Build Coalition → Decide.
+
+**1️⃣ Understand Incentives** → Identify all stakeholders (Exec, Product, Engineering, Legal/Ops/Sales), for each map:
+  - **Goal:** What success looks like for them
+  - **Fear:** What they're protecting against
+  - **Power:** Can they block/influence/approve?
+
+**2️⃣ Address Concerns** → Map objections (Risk, Cost, Timeline, Ownership), respond with specifics:
+  - **Data:** Where possible
+  - **Guardrails:** What we won't do
+  - **Mitigations:** How risk is contained
+
+**3️⃣ Build Coalition** → Secure early allies (influential but reasonable, cross-functional credibility), sequence alignment (1:1s before group meetings, incorporate feedback visibly, let allies advocate publicly).
+
+**4️⃣ Decide** → Restate shared goal, present aligned proposal, call decision explicitly, document + communicate outcome.
+
+**Key Principle:** Alignment ≠ consensus - it means no one is surprised and no one blocks.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q209 (Influence without authority situation):** Focus on behavioral example → "I'd describe a situation where I needed to get engineering to prioritize a data quality fix. I understood incentives: Engineering's goal was shipping features, their fear was adding tech debt, their power was they could block. I addressed concerns: I showed data (data quality issues causing 10% of support tickets), provided guardrails (minimal code changes, no feature delays), and mitigations (quick fix, automated tests). I built coalition: I aligned with data science team first (they supported the fix), then engineering lead (showed business impact), then got product support (showed user impact). I decided: Presented aligned proposal in team meeting, got approval, documented and communicated. Result: Engineering prioritized the fix, data quality improved, support tickets decreased."
+- **Q209 (Influence without authority situation):** Focus on behavioral example
+  - "Describe situation: Get engineering to prioritize data quality fix"
+  - "Understand incentives: Engineering's goal (shipping features), Fear (adding tech debt), Power (they could block)"
+  - "Address concerns: Show data (data quality issues causing 10% of support tickets), Guardrails (minimal code changes, no feature delays), Mitigations (quick fix, automated tests)"
+  - "Build coalition: Align with data science team first (they supported fix), then engineering lead (showed business impact), then product support (showed user impact)"
+  - "Decide: Present aligned proposal in team meeting, get approval, document and communicate"
+  - "Result: Engineering prioritized fix, data quality improved, support tickets decreased"
 
-- **Q7 (Cross-functional team not working at expected pace):** Emphasize dependency management → "When a dependent team isn't working at expected pace, I'd understand incentives: Their goal (their own priorities), Fear (scope creep, timeline pressure), Power (they control delivery). I'd address concerns: Show data (impact of delay on our feature), Provide guardrails (we won't change scope, we'll help if needed), Mitigations (we can adjust our timeline, we can provide resources). I'd build coalition: Align with their manager (show business impact), Get product support (show user impact), Involve my manager if needed (escalate appropriately). I'd decide: Propose adjusted timeline or resource help, Get alignment, Document and communicate. Key: Understand their constraints, don't just push - find win-win."
+- **Q7 (Cross-functional team not working at expected pace):** Emphasize dependency management
+  - "Understand incentives: Their goal (their own priorities), Fear (scope creep, timeline pressure), Power (they control delivery)"
+  - "Address concerns: Show data (impact of delay on our feature), Guardrails (we won't change scope, we'll help if needed), Mitigations (we can adjust timeline, we can provide resources)"
+  - "Build coalition: Align with their manager (show business impact), Get product support (show user impact), Involve my manager if needed (escalate appropriately)"
+  - "Decide: Propose adjusted timeline or resource help, Get alignment, Document and communicate"
+  - "Key: Understand their constraints, don't just push - find win-win"
 
 ---
 
@@ -113,11 +147,37 @@
 - Q1089: How do you encourage collaboration among cross-functional teams? (collaboration encouragement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When working cross-functionally, I use the same alignment framework. I understand incentives: For engineering, their goal is quality and scalability, their fear is scope creep and technical debt, their power is they control implementation. For design, their goal is UX and user needs, their fear is feasibility issues, their power is they control user experience. I address concerns: For engineering, I provide clear scope, respect technical constraints, offer tradeoffs. For design, I validate feasibility early, respect UX principles, find compromises. I build partnership: I establish trust through consistent delivery, respect their expertise, involve them early. I align on goals: We share the same north star, we align on priorities, we communicate regularly. The key is understanding their perspective, respecting their expertise, and finding win-win solutions."
+
+**Framework:** `Understand Incentives → Address Concerns → Build Partnership → Align on Goals`
+
+**Memorizable Answer:**
+
+When working cross-functionally, I use the same alignment framework.
+
+**1️⃣ Understand Incentives** → 
+  - **Engineering:** Goal (quality, scalability), Fear (scope creep, technical debt), Power (control implementation)
+  - **Design:** Goal (UX, user needs), Fear (feasibility issues), Power (control user experience)
+
+**2️⃣ Address Concerns** → 
+  - **For Engineering:** Clear scope, respect technical constraints, offer tradeoffs
+  - **For Design:** Validate feasibility early, respect UX principles, find compromises
+
+**3️⃣ Build Partnership** → Establish trust through consistent delivery, respect their expertise, involve them early.
+
+**4️⃣ Align on Goals** → Share same north star, align on priorities, communicate regularly.
+
+**Key Principle:** Understand their perspective, respect their expertise, find win-win solutions.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q75 (Work with engineering team):** Focus on engineering partnership → "To work with engineering, I'd: Understand their incentives (Goal: quality, scalability, clean code | Fear: scope creep, technical debt, unrealistic timelines | Power: they control implementation). Address concerns (Clear scope definition, realistic timelines, respect technical constraints, offer tradeoffs when needed). Build partnership (Involve them early in planning, respect their technical judgment, provide clear requirements, celebrate their wins). Align on goals (Shared north star metric, aligned priorities, regular communication, clear decision-making process). I'd establish trust through consistent delivery, respect their expertise, and find win-win solutions."
+- **Q75 (Work with engineering team):** Focus on engineering partnership
+  - "Understand incentives: Goal (quality, scalability, clean code), Fear (scope creep, technical debt, unrealistic timelines), Power (they control implementation)"
+  - "Address concerns: Clear scope definition, realistic timelines, respect technical constraints, offer tradeoffs when needed"
+  - "Build partnership: Involve them early in planning, respect their technical judgment, provide clear requirements, celebrate their wins"
+  - "Align on goals: Shared north star metric, aligned priorities, regular communication, clear decision-making process"
+  - "Establish trust through consistent delivery, respect their expertise, find win-win solutions"
 
 ---
 
@@ -142,11 +202,34 @@
 - Q2049: Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn? (conflict resolution learning angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When managing conflict, I use Understand Incentives → Address Concerns → Build Coalition → Decide. I understand both sides' incentives: What does each person want? What are they afraid of? What power do they have? I address concerns from both perspectives: I listen to both sides, validate their concerns, find common ground, and propose solutions that address both sets of concerns. I build coalition: I involve neutral parties if needed, get buy-in from both sides, and find win-win solutions. I decide: We agree on a solution, document it, and move forward. The key is understanding the root cause, addressing underlying concerns, and finding solutions that work for everyone."
+
+**Framework:** `Understand Both Sides' Incentives → Address Concerns from Both → Build Coalition → Decide`
+
+**Memorizable Answer:**
+
+When managing conflict, I use Understand Incentives → Address Concerns → Build Coalition → Decide.
+
+**1️⃣ Understand Both Sides' Incentives** → What does each person want? What are they afraid of? What power do they have?
+
+**2️⃣ Address Concerns from Both Perspectives** → Listen to both sides, validate their concerns, find common ground, propose solutions that address both sets of concerns.
+
+**3️⃣ Build Coalition** → Involve neutral parties if needed, get buy-in from both sides, find win-win solutions.
+
+**4️⃣ Decide** → Agree on solution, document it, move forward.
+
+**Key Principle:** Understand the root cause, address underlying concerns, find solutions that work for everyone.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q152 (Manage conflict example):** Focus on behavioral example → "I'd describe a conflict between product and engineering over feature scope. I understood incentives: Product wanted more features (goal: user value, fear: missing market opportunity, power: roadmap control), Engineering wanted fewer features (goal: quality, fear: technical debt, power: implementation control). I addressed concerns: I showed data (user research showing which features matter most), provided guardrails (we'll cut scope if quality suffers), and mitigations (phased rollout, quality gates). I built coalition: I aligned with engineering lead (showed we value quality), got product support (showed we'll prioritize high-value features), and involved design (got their perspective). I decided: We agreed on MVP scope with quality gates, phased rollout plan, and regular check-ins. Result: We shipped on time with quality, both sides felt heard, and we established a better process."
+- **Q152 (Manage conflict example):** Focus on behavioral example
+  - "Describe conflict: Product and engineering over feature scope"
+  - "Understand incentives: Product wanted more features (goal: user value, fear: missing market opportunity, power: roadmap control), Engineering wanted fewer features (goal: quality, fear: technical debt, power: implementation control)"
+  - "Address concerns: Show data (user research showing which features matter most), Guardrails (we'll cut scope if quality suffers), Mitigations (phased rollout, quality gates)"
+  - "Build coalition: Align with engineering lead (show we value quality), Get product support (show we'll prioritize high-value features), Involve design (get their perspective)"
+  - "Decide: Agree on MVP scope with quality gates, phased rollout plan, regular check-ins"
+  - "Result: Shipped on time with quality, both sides felt heard, established better process"
 
 ---
 
@@ -171,11 +254,36 @@
 - Q1092: How do you ensure cross-functional teams stay aligned on strategic initiatives? (cross-functional alignment angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When managing stakeholders, I use Understand Incentives → Address Concerns → Build Coalition → Decide. I map all stakeholders and understand their incentives (Goal, Fear, Power). I address concerns proactively (Listen, validate, provide data/guardrails/mitigations). I build relationships (Regular communication, involve them early, show value). I maintain alignment (Regular updates, check-ins, course corrections). The key is proactive communication, addressing concerns early, and building trust through consistent delivery."
+
+**Framework:** `Map Stakeholders → Understand Incentives → Address Concerns Proactively → Build Relationships → Maintain Alignment`
+
+**Memorizable Answer:**
+
+When managing stakeholders, I use Understand Incentives → Address Concerns → Build Coalition → Decide.
+
+**1️⃣ Map All Stakeholders** → Identify all stakeholders.
+
+**2️⃣ Understand Incentives** → Goal, Fear, Power for each.
+
+**3️⃣ Address Concerns Proactively** → Listen, validate, provide data/guardrails/mitigations.
+
+**4️⃣ Build Relationships** → Regular communication, involve them early, show value.
+
+**5️⃣ Maintain Alignment** → Regular updates, check-ins, course corrections.
+
+**Key Principle:** Proactive communication, address concerns early, build trust through consistent delivery.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1034 (Handle stakeholder management on projects):** Focus on project management → "On my projects, I'd: Map stakeholders (Product, Engineering, Design, Legal, Sales, Exec), Understand incentives (What each cares about, what they fear, their power), Address concerns proactively (Regular communication, involve early, provide updates), Build relationships (1:1s, show value, celebrate wins), Maintain alignment (Weekly updates, check-ins, course corrections). I'd use stakeholder maps, regular communication cadence, and proactive issue resolution."
+- **Q1034 (Handle stakeholder management on projects):** Focus on project management
+  - "Map stakeholders: Product, Engineering, Design, Legal, Sales, Exec"
+  - "Understand incentives: What each cares about, what they fear, their power"
+  - "Address concerns proactively: Regular communication, involve early, provide updates"
+  - "Build relationships: 1:1s, show value, celebrate wins"
+  - "Maintain alignment: Weekly updates, check-ins, course corrections"
+  - "Use stakeholder maps, regular communication cadence, proactive issue resolution"
 
 ---
 

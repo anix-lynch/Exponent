@@ -85,15 +85,57 @@
 - Q1797: Robinhood is planning to introduce a new feature which allows users to trade fractional shares. How would you decide whether this is a good idea or not?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When facing a feature or product decision, I frame it as a tradeoff. First, I define clear options (Option A, Option B, sometimes Option C). Then I identify winners and losers for each option across stakeholders: Users (better/worse experience), Business (revenue, growth, costs), Engineering/Ops (effort, complexity), and Long-term Strategy (strategic value, risks). Next, I establish guardrails - non-negotiables that must be protected (must not break core experience, must stay within constraints, must protect user trust). Finally, I decide on an option, explain why, acknowledge what we're giving up, and outline how we'll monitor risks."
+
+**Framework:** `Define Options → Winners/Losers → Guardrails → Decide + Communicate`
+
+**Memorizable Answer:**
+
+When facing a feature or product decision, I frame it as a tradeoff.
+
+**1️⃣ Define Clear Options** → Option A, Option B, sometimes Option C.
+
+**2️⃣ Identify Winners/Losers** → For each option across stakeholders:
+  - **Users:** Better/worse experience
+  - **Business:** Revenue, growth, costs
+  - **Engineering/Ops:** Effort, complexity
+  - **Long-term Strategy:** Strategic value, risks
+
+**3️⃣ Establish Guardrails** → Non-negotiables that must be protected (must not break core experience, must stay within constraints, must protect user trust).
+
+**4️⃣ Decide** → Pick an option, explain why, acknowledge what we're giving up, outline how we'll monitor risks.
+
+**Key Principle:** Frame tradeoffs clearly - identify winners/losers, set guardrails, make decision with rationale.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q698 (Google Flights introduce ads):** Focus on ad introduction → "I'd frame this as a tradeoff between user experience and revenue. Option A: No Ads - Users win (clean UX, high trust), Business loses (missed revenue), Long-term Strategy wins (brand trust). Option B: Ads - Business wins (new revenue stream), Users lose (worse experience, bias risk), Long-term Strategy risks (trust erosion). Guardrails: Must not bias flight rankings, must clearly label ads, must cap ad density, must monitor user trust metrics. Decision: Introduce limited ads with guardrails. Rationale: Revenue value > UX cost if constrained properly. Tradeoff: Slight UX degradation. Monitoring: CTR, conversion, trust surveys."
+- **Q698 (Google Flights introduce ads):** Focus on ad introduction
+  - "Frame as tradeoff between user experience and revenue"
+  - "Option A: No Ads → Users win (clean UX, high trust), Business loses (missed revenue), Long-term Strategy wins (brand trust)"
+  - "Option B: Ads → Business wins (new revenue stream), Users lose (worse experience, bias risk), Long-term Strategy risks (trust erosion)"
+  - "Guardrails: Must not bias flight rankings, must clearly label ads, must cap ad density, must monitor user trust metrics"
+  - "Decision: Introduce limited ads with guardrails"
+  - "Rationale: Revenue value > UX cost if constrained properly"
+  - "Tradeoff: Slight UX degradation. Monitoring: CTR, conversion, trust surveys"
 
-- **Q701 (Instagram Store purchases without login):** Emphasize feature decision → "I'd frame this as a tradeoff between user convenience and security/data. Option A: Require login - Users lose (friction), Business wins (user data, security), Engineering wins (simpler auth). Option B: No login - Users win (convenience, faster checkout), Business loses (less user data, fraud risk), Engineering loses (complexity). Guardrails: Must protect payment security, must prevent fraud, must comply with regulations. Decision: Allow guest checkout with limited features. Rationale: Convenience drives conversion, but we protect security. Tradeoff: Less user data collection. Monitoring: Conversion rate, fraud rate, user data capture."
+- **Q701 (Instagram Store purchases without login):** Emphasize feature decision
+  - "Frame as tradeoff between user convenience and security/data"
+  - "Option A: Require login → Users lose (friction), Business wins (user data, security), Engineering wins (simpler auth)"
+  - "Option B: No login → Users win (convenience, faster checkout), Business loses (less user data, fraud risk), Engineering loses (complexity)"
+  - "Guardrails: Must protect payment security, must prevent fraud, must comply with regulations"
+  - "Decision: Allow guest checkout with limited features"
+  - "Rationale: Convenience drives conversion, but we protect security"
+  - "Tradeoff: Less user data collection. Monitoring: Conversion rate, fraud rate, user data capture"
 
-- **Q1314 (Facebook Messenger group calling):** Focus on feature addition → "I'd frame this as a tradeoff between feature value and complexity. Option A: Add group calling - Users win (new capability), Business wins (engagement, differentiation), Engineering loses (complexity, infrastructure). Option B: Don't add - Engineering wins (simpler), Users lose (missing feature), Business loses (competitive disadvantage). Guardrails: Must maintain call quality, must scale infrastructure, must protect privacy. Decision: Add group calling with phased rollout. Rationale: High user value, strategic importance. Tradeoff: Engineering complexity. Monitoring: Usage, quality metrics, infrastructure costs."
+- **Q1314 (Facebook Messenger group calling):** Focus on feature addition
+  - "Frame as tradeoff between feature value and complexity"
+  - "Option A: Add group calling → Users win (new capability), Business wins (engagement, differentiation), Engineering loses (complexity, infrastructure)"
+  - "Option B: Don't add → Engineering wins (simpler), Users lose (missing feature), Business loses (competitive disadvantage)"
+  - "Guardrails: Must maintain call quality, must scale infrastructure, must protect privacy"
+  - "Decision: Add group calling with phased rollout"
+  - "Rationale: High user value, strategic importance"
+  - "Tradeoff: Engineering complexity. Monitoring: Usage, quality metrics, infrastructure costs"
 
 ---
 
@@ -120,13 +162,45 @@
 - Q2289: What factors do you evaluate before deciding whether to build, fine-tune, or buy a generative AI model?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When deciding build vs buy vs partner, I frame it as a tradeoff between control, speed, and cost. Option A: Build - Winners: Control (customization, strategic control), Long-term Strategy (core competency). Losers: Time (slow), Cost (high), Engineering (effort). Option B: Buy - Winners: Speed (fast), Engineering (less effort), Business (proven solution). Losers: Cost (licensing), Control (less customization), Long-term Strategy (vendor dependency). Option C: Partner - Winners: Speed (fast), Business (leverage partner), Engineering (less effort). Losers: Control (dependency), Business (revenue share), Long-term Strategy (partner risk). Guardrails: Must protect strategic capabilities, must maintain quality, must manage dependencies. Decision: Build if strategic/core, Buy if non-core and proven, Partner if speed critical and non-core."
+
+**Framework:** `Define Options (Build/Buy/Partner) → Winners/Losers → Guardrails → Decide`
+
+**Memorizable Answer:**
+
+When deciding build vs buy vs partner, I frame it as a tradeoff between control, speed, and cost.
+
+**1️⃣ Option A: Build** → Winners: Control (customization, strategic control), Long-term Strategy (core competency). Losers: Time (slow), Cost (high), Engineering (effort).
+
+**2️⃣ Option B: Buy** → Winners: Speed (fast), Engineering (less effort), Business (proven solution). Losers: Cost (licensing), Control (less customization), Long-term Strategy (vendor dependency).
+
+**3️⃣ Option C: Partner** → Winners: Speed (fast), Business (leverage partner), Engineering (less effort). Losers: Control (dependency), Business (revenue share), Long-term Strategy (partner risk).
+
+**4️⃣ Guardrails** → Must protect strategic capabilities, must maintain quality, must manage dependencies.
+
+**5️⃣ Decision** → Build if strategic/core, Buy if non-core and proven, Partner if speed critical and non-core.
+
+**Key Principle:** Build = control + time/cost, Buy = speed + dependency, Partner = speed + dependency + revenue share.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1072 (Build vs buy solution):** Focus on general decision → "I'd frame this as a tradeoff between control, speed, and cost. Build: Control and customization win, but time and cost lose. Buy: Speed and proven solution win, but cost and dependency lose. Guardrails: Must protect strategic capabilities, must maintain quality. Decision: Build if strategic/core competency, Buy if non-core and proven solution exists. I'd evaluate: strategic importance, time to market, cost, control needs."
+- **Q1072 (Build vs buy solution):** Focus on general decision
+  - "Frame as tradeoff between control, speed, and cost"
+  - "Build: Control and customization win, but time and cost lose"
+  - "Buy: Speed and proven solution win, but cost and dependency lose"
+  - "Guardrails: Must protect strategic capabilities, must maintain quality"
+  - "Decision: Build if strategic/core competency, Buy if non-core and proven solution exists"
+  - "Evaluate: strategic importance, time to market, cost, control needs"
 
-- **Q1603 (Meta Pay build vs partner):** Emphasize payment context → "For payment solution, I'd frame build vs partner. Build: Control and strategic value win (payment is core to Meta), but time and cost lose. Partner: Speed and leverage win, but control and strategic dependency lose. Guardrails: Must protect user data, must maintain security, must control user experience. Decision: Build internally. Rationale: Payment is strategic, control is critical, long-term value. Tradeoff: Higher initial cost and time. Monitoring: Build timeline, cost, security."
+- **Q1603 (Meta Pay build vs partner):** Emphasize payment context
+  - "Frame build vs partner"
+  - "Build: Control and strategic value win (payment is core to Meta), but time and cost lose"
+  - "Partner: Speed and leverage win, but control and strategic dependency lose"
+  - "Guardrails: Must protect user data, must maintain security, must control user experience"
+  - "Decision: Build internally"
+  - "Rationale: Payment is strategic, control is critical, long-term value"
+  - "Tradeoff: Higher initial cost and time. Monitoring: Build timeline, cost, security"
 
 ---
 
@@ -153,13 +227,46 @@
 - Q2552: Why did Instagram remove the like count on posts?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When balancing user experience and business value, I frame it as a tradeoff. Option A: Prioritize UX - Users win (better experience, trust), Business loses (revenue, engagement), Long-term Strategy wins (brand trust). Option B: Prioritize Business - Business wins (revenue, engagement), Users lose (worse experience, trust risk), Long-term Strategy risks (trust erosion). Guardrails: Must protect core user trust, must maintain minimum UX standards, must align with brand values. Decision: Balance both, but prioritize user trust for long-term success. Rationale: Short-term revenue gains don't justify long-term trust loss. Tradeoff: Optimize to maximize both, not maximize one at expense of other."
+
+**Framework:** `Define Options → Winners/Losers → Guardrails → Balance Decision`
+
+**Memorizable Answer:**
+
+When balancing user experience and business value, I frame it as a tradeoff.
+
+**1️⃣ Option A: Prioritize UX** → Users win (better experience, trust), Business loses (revenue, engagement), Long-term Strategy wins (brand trust).
+
+**2️⃣ Option B: Prioritize Business** → Business wins (revenue, engagement), Users lose (worse experience, trust risk), Long-term Strategy risks (trust erosion).
+
+**3️⃣ Guardrails** → Must protect core user trust, must maintain minimum UX standards, must align with brand values.
+
+**4️⃣ Decision** → Balance both, but prioritize user trust for long-term success.
+
+**5️⃣ Rationale** → Short-term revenue gains don't justify long-term trust loss.
+
+**Key Principle:** Optimize to maximize both, not maximize one at expense of other.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q46 (Instagram reduce guilt + increase revenue):** Focus on dual objective → "I'd frame this as balancing user wellbeing and revenue. Option A: Reduce guilt features (time limits, wellbeing tools) - Users win (less guilt, better wellbeing), Business loses (potentially lower engagement), Long-term Strategy wins (brand trust). Option B: Keep current - Business wins (current revenue), Users lose (guilt, addiction), Long-term Strategy risks (trust erosion). Guardrails: Must protect user wellbeing, must maintain brand values, must not significantly hurt revenue. Decision: Add wellbeing features (time limits, usage insights) while optimizing revenue through better targeting and value. Rationale: Wellbeing features can actually increase trust and long-term engagement. Tradeoff: Short-term engagement may dip, but long-term value increases."
+- **Q46 (Instagram reduce guilt + increase revenue):** Focus on dual objective
+  - "Frame as balancing user wellbeing and revenue"
+  - "Option A: Reduce guilt features (time limits, wellbeing tools) → Users win (less guilt, better wellbeing), Business loses (potentially lower engagement), Long-term Strategy wins (brand trust)"
+  - "Option B: Keep current → Business wins (current revenue), Users lose (guilt, addiction), Long-term Strategy risks (trust erosion)"
+  - "Guardrails: Must protect user wellbeing, must maintain brand values, must not significantly hurt revenue"
+  - "Decision: Add wellbeing features (time limits, usage insights) while optimizing revenue through better targeting and value"
+  - "Rationale: Wellbeing features can actually increase trust and long-term engagement"
+  - "Tradeoff: Short-term engagement may dip, but long-term value increases"
 
-- **Q1296 (Optimal ad density on Yelp):** Emphasize optimization → "I'd frame this as balancing user experience and revenue. Option A: Fewer ads - Users win (better UX), Business loses (less revenue). Option B: More ads - Business wins (more revenue), Users lose (worse UX, trust risk). Guardrails: Must not break core experience, must maintain trust, must clearly label ads. Decision: Optimize ad density through testing. Rationale: Find sweet spot that maximizes revenue without hurting UX. Tradeoff: Balance, not maximize one. Monitoring: Revenue per user, UX metrics, trust surveys."
+- **Q1296 (Optimal ad density on Yelp):** Emphasize optimization
+  - "Frame as balancing user experience and revenue"
+  - "Option A: Fewer ads → Users win (better UX), Business loses (less revenue)"
+  - "Option B: More ads → Business wins (more revenue), Users lose (worse UX, trust risk)"
+  - "Guardrails: Must not break core experience, must maintain trust, must clearly label ads"
+  - "Decision: Optimize ad density through testing"
+  - "Rationale: Find sweet spot that maximizes revenue without hurting UX"
+  - "Tradeoff: Balance, not maximize one. Monitoring: Revenue per user, UX metrics, trust surveys"
 
 ---
 
@@ -185,11 +292,37 @@
 - Q1815: Should Google enter into the online furniture-selling market?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When making strategic or investment decisions, I frame it as a tradeoff. Option A: Proceed - Business wins (opportunity, growth), Long-term Strategy wins (strategic value), but Business loses (resources, risk), Engineering loses (effort). Option B: Don't proceed - Business saves resources, Engineering saves effort, but Business loses (opportunity), Long-term Strategy loses (future value). Guardrails: Must align with strategic goals, must have resources, must manage risk. Decision: Proceed if strategic fit, resources available, and risk manageable. Rationale: Strategic value justifies investment if aligned. Tradeoff: Resource allocation and risk. Monitoring: Progress, ROI, risk indicators."
+
+**Framework:** `Define Options → Winners/Losers → Guardrails → Strategic Decision`
+
+**Memorizable Answer:**
+
+When making strategic or investment decisions, I frame it as a tradeoff.
+
+**1️⃣ Option A: Proceed** → Business wins (opportunity, growth), Long-term Strategy wins (strategic value), but Business loses (resources, risk), Engineering loses (effort).
+
+**2️⃣ Option B: Don't Proceed** → Business saves resources, Engineering saves effort, but Business loses (opportunity), Long-term Strategy loses (future value).
+
+**3️⃣ Guardrails** → Must align with strategic goals, must have resources, must manage risk.
+
+**4️⃣ Decision** → Proceed if strategic fit, resources available, and risk manageable.
+
+**5️⃣ Rationale** → Strategic value justifies investment if aligned.
+
+**Key Principle:** Strategic value justifies investment if aligned - but resources and risk must be manageable.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q72 (Uber expand into Uber Eats):** Focus on market expansion → "I'd frame this as a tradeoff between focus and diversification. Option A: Expand to Eats - Business wins (new market, growth), Long-term Strategy wins (platform expansion), but Business loses (resources, focus), Engineering loses (complexity). Option B: Stay focused on rides - Business maintains focus, Engineering maintains simplicity, but Business loses (market opportunity), Long-term Strategy loses (platform potential). Guardrails: Must not hurt core rides business, must have resources, must manage complexity. Decision: Expand to Eats. Rationale: Leverages existing driver network, strategic platform play, manageable risk. Tradeoff: Resource allocation and complexity. Monitoring: Eats growth, rides impact, resource utilization."
+- **Q72 (Uber expand into Uber Eats):** Focus on market expansion
+  - "Frame as tradeoff between focus and diversification"
+  - "Option A: Expand to Eats → Business wins (new market, growth), Long-term Strategy wins (platform expansion), but Business loses (resources, focus), Engineering loses (complexity)"
+  - "Option B: Stay focused on rides → Business maintains focus, Engineering maintains simplicity, but Business loses (market opportunity), Long-term Strategy loses (platform potential)"
+  - "Guardrails: Must not hurt core rides business, must have resources, must manage complexity"
+  - "Decision: Expand to Eats"
+  - "Rationale: Leverages existing driver network, strategic platform play, manageable risk"
+  - "Tradeoff: Resource allocation and complexity. Monitoring: Eats growth, rides impact, resource utilization"
 
 ---
 

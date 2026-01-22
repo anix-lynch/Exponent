@@ -82,13 +82,46 @@
 - Q16: A potential client asks for a guarantee on a feature's delivery date. Your team hasn't considered this feature before. What would you do? (risk management angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When making a go/no-go decision with incomplete information, I use the Clarify Assumptions → Identify Risks → Validation Plan → Decide framework. First, I clarify assumptions: What do we believe is true? (User behavior, market demand, technical feasibility, timing/dependencies). I classify assumptions as Critical (decision breaks if wrong) vs Non-critical. Then I identify risks: If an assumption is wrong, what happens? (Revenue risk, user trust risk, technical risk, legal risk, opportunity cost). I rank risks by impact × likelihood. Next, I create a validation plan: What's the cheapest signal to reduce uncertainty? (Qualitative: interviews, expert review | Quantitative: logs, metrics, small experiments | Proxies: analogous products, historical data | Time-boxed spike/prototype). I decide upfront: What result would change the decision? What result is 'good enough'? Finally, I decide: Proceed now if upside >> downside and risks are bounded, Delay and validate if one critical unknown dominates, or Kill/pivot if downside is irreversible or catastrophic."
+
+**Framework:** `Clarify Assumptions → Identify Risks → Validation Plan → Decide`
+
+**Memorizable Answer:**
+
+When making a go/no-go decision with incomplete information, I use the Clarify Assumptions → Identify Risks → Validation Plan → Decide framework.
+
+**1️⃣ Clarify Assumptions** → What do we believe is true? (User behavior, market demand, technical feasibility, timing/dependencies). Classify as Critical (decision breaks if wrong) vs Non-critical.
+
+**2️⃣ Identify Risks** → If assumption is wrong, what happens? (Revenue risk, user trust risk, technical risk, legal risk, opportunity cost). Rank by impact × likelihood.
+
+**3️⃣ Create Validation Plan** → What's the cheapest signal to reduce uncertainty?
+  - **Qualitative:** Interviews, expert review
+  - **Quantitative:** Logs, metrics, small experiments
+  - **Proxies:** Analogous products, historical data
+  - **Time-boxed spike/prototype**
+
+**4️⃣ Decide Upfront** → What result would change the decision? What result is "good enough"?
+
+**5️⃣ Decide** → Proceed now (if upside >> downside and risks bounded), Delay and validate (if one critical unknown dominates), Kill/pivot (if downside irreversible or catastrophic).
+
+**Key Principle:** Clarify what you don't know, validate cheaply, decide with bounded risk.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q150 (Go/no-go framework for feature):** Focus on feature decision → "For a go/no-go decision on a feature, I'd clarify assumptions: Users want it (critical), technically feasible (critical), fits strategy (non-critical). I'd identify risks: If users don't want it → wasted effort (high impact), If not feasible → project failure (high impact). I'd create validation plan: User interviews (qualitative), small prototype (quantitative), analogous features (proxy). I'd decide upfront: If 70%+ users want it and prototype works → proceed. If <50% want it or prototype fails → kill. If mixed → delay and iterate. I'd decide: Proceed if validation positive, Delay if critical unknown, Kill if validation negative."
+- **Q150 (Go/no-go framework for feature):** Focus on feature decision
+  - "Clarify assumptions: Users want it (critical), technically feasible (critical), fits strategy (non-critical)"
+  - "Identify risks: If users don't want it → wasted effort (high impact), If not feasible → project failure (high impact)"
+  - "Create validation plan: User interviews (qualitative), small prototype (quantitative), analogous features (proxy)"
+  - "Decide upfront: If 70%+ users want it and prototype works → proceed. If <50% want it or prototype fails → kill. If mixed → delay and iterate"
+  - "Decide: Proceed if validation positive, Delay if critical unknown, Kill if validation negative"
 
-- **Q16 (Guarantee delivery date for unknown feature):** Emphasize commitment under uncertainty → "When asked for a guarantee on an unknown feature, I'd clarify assumptions: Scope is clear (critical), team can deliver (critical), dependencies known (critical). I'd identify risks: If scope unclear → missed deadline (high impact), If team can't deliver → broken promise (high impact), If dependencies unknown → delays (high impact). I'd create validation plan: Scope clarification (qualitative), team assessment (qualitative), dependency mapping (qualitative), time-boxed spike (quantitative). I'd decide upfront: If scope clear, team confident, dependencies known → can commit. If any critical unknown → cannot commit yet. I'd respond: 'I can't commit to a date yet because we need to validate assumptions. Let me do a quick spike (1-2 days) to clarify scope, assess feasibility, and map dependencies. Then I can give you a realistic timeline.'"
+- **Q16 (Guarantee delivery date for unknown feature):** Emphasize commitment under uncertainty
+  - "Clarify assumptions: Scope is clear (critical), team can deliver (critical), dependencies known (critical)"
+  - "Identify risks: If scope unclear → missed deadline (high impact), If team can't deliver → broken promise (high impact), If dependencies unknown → delays (high impact)"
+  - "Create validation plan: Scope clarification (qualitative), team assessment (qualitative), dependency mapping (qualitative), time-boxed spike (quantitative)"
+  - "Decide upfront: If scope clear, team confident, dependencies known → can commit. If any critical unknown → cannot commit yet"
+  - "Respond: 'I can't commit to a date yet because we need to validate assumptions. Let me do a quick spike (1-2 days) to clarify scope, assess feasibility, and map dependencies. Then I can give you a realistic timeline.'"
 
 ---
 
@@ -114,13 +147,43 @@
 - Q2656: You are a PM at Amazon deciding on entering the smartphone market. How would you proceed to make a decision before the senior management meeting? (pre-meeting preparation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When deciding on market entry with incomplete information, I use the same uncertainty framework. I clarify assumptions about the market: Demand exists (critical), competition is manageable (critical), regulatory environment is favorable (critical), market fit is good (critical). I identify risks: If demand doesn't exist → wasted investment (high impact), If competition too strong → failure (high impact), If regulatory issues → blocked (high impact). I create a validation plan: Market research (qualitative/quantitative), competitive analysis (qualitative), pilot/test market (quantitative), analogous markets (proxy). I decide upfront: If market research positive, competition manageable, pilot successful → enter. If any critical assumption fails → don't enter. I decide: Enter if validation positive, Delay if critical unknown, Don't enter if validation negative."
+
+**Framework:** `Clarify Market Assumptions → Identify Market Risks → Validation Plan → Decide`
+
+**Memorizable Answer:**
+
+When deciding on market entry with incomplete information, I use the same uncertainty framework.
+
+**1️⃣ Clarify Market Assumptions** → Demand exists (critical), competition is manageable (critical), regulatory environment is favorable (critical), market fit is good (critical).
+
+**2️⃣ Identify Market Risks** → If demand doesn't exist → wasted investment (high impact), If competition too strong → failure (high impact), If regulatory issues → blocked (high impact).
+
+**3️⃣ Create Validation Plan** → Market research (qualitative/quantitative), competitive analysis (qualitative), pilot/test market (quantitative), analogous markets (proxy).
+
+**4️⃣ Decide Upfront** → If market research positive, competition manageable, pilot successful → enter. If any critical assumption fails → don't enter.
+
+**5️⃣ Decide** → Enter if validation positive, Delay if critical unknown, Don't enter if validation negative.
+
+**Key Principle:** Same framework, applied to market entry decisions.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q12 (Grocery chain open store in Montreal):** Focus on market entry → "For opening a store in Montreal, I'd clarify assumptions: Demand exists (critical - do people shop at grocery stores?), Competition manageable (critical - how many competitors?), Location suitable (critical - where to open?), Self-checkout preference (non-critical - ratio question). I'd identify risks: If demand low → wasted investment (high impact), If competition too strong → failure (high impact), If location bad → low traffic (high impact). I'd create validation plan: Market research (demand, competition), Location analysis (traffic, demographics), Pilot (test in similar market), Analogous stores (other cities). I'd decide upfront: If market research positive, location good, pilot successful → open. For self-checkout ratio: I'd validate through user research and pilot testing. I'd decide: Open if validation positive, with self-checkout ratio based on user preference data."
+- **Q12 (Grocery chain open store in Montreal):** Focus on market entry
+  - "Clarify assumptions: Demand exists (critical - do people shop at grocery stores?), Competition manageable (critical - how many competitors?), Location suitable (critical - where to open?), Self-checkout preference (non-critical - ratio question)"
+  - "Identify risks: If demand low → wasted investment (high impact), If competition too strong → failure (high impact), If location bad → low traffic (high impact)"
+  - "Create validation plan: Market research (demand, competition), Location analysis (traffic, demographics), Pilot (test in similar market), Analogous stores (other cities)"
+  - "Decide upfront: If market research positive, location good, pilot successful → open"
+  - "For self-checkout ratio: Validate through user research and pilot testing"
+  - "Decide: Open if validation positive, with self-checkout ratio based on user preference data"
 
-- **Q2656 (Amazon enter smartphone market):** Emphasize strategic decision → "For entering smartphone market, I'd clarify assumptions: Market demand exists (critical), We can compete (critical), Technical feasibility (critical), Strategic fit (critical). I'd identify risks: If demand low → wasted billions (high impact), If can't compete → failure (high impact), If not feasible → project failure (high impact). I'd create validation plan: Market research (demand, competition), Technical assessment (feasibility), Strategic analysis (fit), Pilot (small test). I'd decide upfront: If market research positive, technical feasible, strategic fit → proceed. I'd prepare for meeting: Assumptions, risks, validation plan, recommendation (proceed/don't proceed) with rationale."
+- **Q2656 (Amazon enter smartphone market):** Emphasize strategic decision
+  - "Clarify assumptions: Market demand exists (critical), We can compete (critical), Technical feasibility (critical), Strategic fit (critical)"
+  - "Identify risks: If demand low → wasted billions (high impact), If can't compete → failure (high impact), If not feasible → project failure (high impact)"
+  - "Create validation plan: Market research (demand, competition), Technical assessment (feasibility), Strategic analysis (fit), Pilot (small test)"
+  - "Decide upfront: If market research positive, technical feasible, strategic fit → proceed"
+  - "Prepare for meeting: Assumptions, risks, validation plan, recommendation (proceed/don't proceed) with rationale"
 
 ---
 
@@ -146,11 +209,35 @@
 - Q150: Can you outline a framework for a go/no-go decision? For example, you are a PM who just onboarded and need to decide whether to ship a feature that the previous PM worked on. (feature decision angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When deciding on a feature or product with incomplete information, I use the same uncertainty framework. I clarify assumptions: User need exists (critical), Technical feasibility (critical), Business value (critical), Timing right (non-critical). I identify risks: If no user need → wasted effort (high impact), If not feasible → failure (high impact), If no business value → wasted investment (high impact). I create validation plan: User research (qualitative), Technical spike (quantitative), Business case (qualitative), Prototype/MVP (quantitative). I decide upfront: If user need validated, feasible, business value positive → proceed. I decide: Proceed if validation positive, Delay if critical unknown, Kill if validation negative."
+
+**Framework:** `Clarify Feature Assumptions → Identify Feature Risks → Validation Plan → Decide`
+
+**Memorizable Answer:**
+
+When deciding on a feature or product with incomplete information, I use the same uncertainty framework.
+
+**1️⃣ Clarify Assumptions** → User need exists (critical), Technical feasibility (critical), Business value (critical), Timing right (non-critical).
+
+**2️⃣ Identify Risks** → If no user need → wasted effort (high impact), If not feasible → failure (high impact), If no business value → wasted investment (high impact).
+
+**3️⃣ Create Validation Plan** → User research (qualitative), Technical spike (quantitative), Business case (qualitative), Prototype/MVP (quantitative).
+
+**4️⃣ Decide Upfront** → If user need validated, feasible, business value positive → proceed.
+
+**5️⃣ Decide** → Proceed if validation positive, Delay if critical unknown, Kill if validation negative.
+
+**Key Principle:** Same framework, applied to feature/product decisions.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q185 (Decide PMF for sticky post-its):** Focus on PMF → "To decide PMF for sticky post-its, I'd clarify assumptions: Users have need (critical - do people need sticky notes?), Product solves need (critical - do post-its solve it?), Market size sufficient (critical - big enough market?), Competition manageable (non-critical). I'd identify risks: If no need → no market (high impact), If doesn't solve → failure (high impact), If market too small → not viable (high impact). I'd create validation plan: User research (interviews, surveys), Market analysis (size, competition), Product testing (prototype), Analogous products (similar products). I'd decide upfront: If need validated, product solves, market sufficient → PMF exists. I'd decide: PMF exists if validation positive, PMF doesn't exist if validation negative."
+- **Q185 (Decide PMF for sticky post-its):** Focus on PMF
+  - "Clarify assumptions: Users have need (critical - do people need sticky notes?), Product solves need (critical - do post-its solve it?), Market size sufficient (critical - big enough market?), Competition manageable (non-critical)"
+  - "Identify risks: If no need → no market (high impact), If doesn't solve → failure (high impact), If market too small → not viable (high impact)"
+  - "Create validation plan: User research (interviews, surveys), Market analysis (size, competition), Product testing (prototype), Analogous products (similar products)"
+  - "Decide upfront: If need validated, product solves, market sufficient → PMF exists"
+  - "Decide: PMF exists if validation positive, PMF doesn't exist if validation negative"
 
 ---
 

@@ -84,13 +84,44 @@
 - Q2672: You are launching a strategic app. One month out, internal feedback suggests it isn't ready, with below target metrics including CSAT. What do you do? (launch readiness angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When managing a crisis, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor. First, I assess the current state: What's the impact? (Who's affected, how bad is it, what's the blast radius), What's the scope? (Is it all users or a segment, is it getting worse). Then I identify risks: What could make this worse? (Is it spreading, are there dependencies, what's the worst case). Next, I prioritize fixes: Immediate actions (stop the bleeding - rollback, disable feature, isolate issue), Follow-up actions (fix root cause, prevent recurrence). I communicate the plan: Status updates (what happened, what we're doing, ETA), Stakeholder communication (who needs to know, when), Regular updates (keep everyone informed). Finally, I monitor: Track resolution (is it fixed, is it stable), Prevent recurrence (what can we do better, what did we learn). The key is: Fail small, detect fast, recover predictably."
+
+**Framework:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
+
+**Memorizable Answer:**
+
+When managing a crisis, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor.
+
+**1️⃣ Assess Current State** → What's the impact? (Who's affected, how bad, blast radius), What's the scope? (All users or segment, is it getting worse).
+
+**2️⃣ Identify Risks** → What could make this worse? (Is it spreading, are there dependencies, what's the worst case).
+
+**3️⃣ Prioritize Fixes** → Immediate actions (stop the bleeding - rollback, disable feature, isolate issue), Follow-up actions (fix root cause, prevent recurrence).
+
+**4️⃣ Communicate Plan** → Status updates (what happened, what we're doing, ETA), Stakeholder communication (who needs to know, when), Regular updates (keep everyone informed).
+
+**5️⃣ Monitor** → Track resolution (is it fixed, is it stable), Prevent recurrence (what can we do better, what did we learn).
+
+**Key Principle:** Fail small, detect fast, recover predictably.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q26 (Feature fails on release day at conference):** Focus on public crisis → "When a feature fails on release day at a conference, I'd: Assess impact (How many users affected? Is it getting worse? What's the public perception?), Identify risks (Is it spreading? Are there dependencies? What's the worst case?), Prioritize fixes (Immediate: Rollback feature, disable if needed, communicate to users | Follow-up: Investigate root cause, fix, prevent recurrence), Communicate plan (Public: Status update, apology, ETA | Internal: Engineering team, executives, support team | Regular updates every 30 minutes), Monitor (Track resolution, ensure stability, postmortem to prevent recurrence). For a conference, speed and communication are critical - I'd prioritize user communication and quick rollback."
+- **Q26 (Feature fails on release day at conference):** Focus on public crisis
+  - "Assess impact: How many users affected? Is it getting worse? What's the public perception?"
+  - "Identify risks: Is it spreading? Are there dependencies? What's the worst case?"
+  - "Prioritize fixes: Immediate (rollback feature, disable if needed, communicate to users), Follow-up (investigate root cause, fix, prevent recurrence)"
+  - "Communicate plan: Public (status update, apology, ETA), Internal (engineering team, executives, support team), Regular updates every 30 minutes"
+  - "Monitor: Track resolution, ensure stability, postmortem to prevent recurrence"
+  - "For conference: Speed and communication are critical - prioritize user communication and quick rollback"
 
-- **Q1626 (No drivers showed up in new market):** Emphasize operational crisis → "When no drivers show up in a new market, I'd: Assess impact (How many users affected? Is it all markets or just one? What's the revenue impact?), Identify risks (Is it a one-time issue or systemic? Are drivers leaving? Is it a supply problem?), Prioritize fixes (Immediate: Activate backup drivers, communicate to users, offer incentives | Follow-up: Investigate why drivers didn't show, fix driver onboarding, improve incentives), Communicate plan (Users: Transparent communication, ETA, alternatives | Drivers: Incentives, support | Internal: Status updates, action plan), Monitor (Track driver supply, user satisfaction, prevent recurrence). This is an operational crisis - I'd focus on immediate supply restoration and root cause analysis."
+- **Q1626 (No drivers showed up in new market):** Emphasize operational crisis
+  - "Assess impact: How many users affected? Is it all markets or just one? What's the revenue impact?"
+  - "Identify risks: Is it one-time issue or systemic? Are drivers leaving? Is it supply problem?"
+  - "Prioritize fixes: Immediate (activate backup drivers, communicate to users, offer incentives), Follow-up (investigate why drivers didn't show, fix driver onboarding, improve incentives)"
+  - "Communicate plan: Users (transparent communication, ETA, alternatives), Drivers (incentives, support), Internal (status updates, action plan)"
+  - "Monitor: Track driver supply, user satisfaction, prevent recurrence"
+  - "This is operational crisis - focus on immediate supply restoration and root cause analysis"
 
 ---
 
@@ -118,13 +149,44 @@
 - Q2741: You're a PM at Instagram. How would you diagnose a 10% drop in impressions? (system diagnosis angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When ensuring system reliability, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor. First, I assess current state: Define scope (system boundaries, owners, SLAs), Baseline health (Availability - uptime/error rates, Performance - latency/throughput, Quality - bugs/data correctness, Operations - on-call load/manual work). Then I identify risks: Enumerate failure modes (Technical - scaling/dependencies, Data - freshness/correctness, Process - handoffs/approvals, People - bus factor/burnout), For each assess Likelihood, Impact (blast radius), Detection difficulty. Next, I prioritize fixes: Rank risks by Impact × Likelihood, Time-to-detect × Time-to-recover, Choose actions (Prevent - design changes, Detect - metrics/alerts, Respond - runbooks/ownership). I communicate the plan: What we're fixing now vs later, Owners and timelines, Tradeoffs accepted, Escalation paths. Finally, I monitor: Track leading indicators, Review incidents + near-misses, Update runbooks, Revisit risks regularly. Operational excellence ≠ zero failures - it means fail small, detect fast, recover predictably."
+
+**Framework:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
+
+**Memorizable Answer:**
+
+When ensuring system reliability, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor.
+
+**1️⃣ Assess Current State** → Define scope (system boundaries, owners, SLAs), Baseline health (Availability - uptime/error rates, Performance - latency/throughput, Quality - bugs/data correctness, Operations - on-call load/manual work).
+
+**2️⃣ Identify Risks** → Enumerate failure modes (Technical - scaling/dependencies, Data - freshness/correctness, Process - handoffs/approvals, People - bus factor/burnout), For each assess Likelihood, Impact (blast radius), Detection difficulty.
+
+**3️⃣ Prioritize Fixes** → Rank risks by Impact × Likelihood, Time-to-detect × Time-to-recover, Choose actions (Prevent - design changes, Detect - metrics/alerts, Respond - runbooks/ownership).
+
+**4️⃣ Communicate Plan** → What we're fixing now vs later, Owners and timelines, Tradeoffs accepted, Escalation paths.
+
+**5️⃣ Monitor** → Track leading indicators, Review incidents + near-misses, Update runbooks, Revisit risks regularly.
+
+**Key Principle:** Operational excellence ≠ zero failures - it means fail small, detect fast, recover predictably.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q21 (Merchants list products but don't deliver):** Focus on operational problem → "To solve merchant reliability, I'd: Assess current state (How many merchants? What's the delivery rate? What's the impact on users?), Identify risks (Merchant fraud, supply issues, logistics problems, user trust erosion), Prioritize fixes (Immediate: Flag unreliable merchants, improve verification, add delivery tracking | Follow-up: Merchant onboarding improvements, incentives for reliable merchants, penalties for unreliable), Communicate plan (Merchants: Clear expectations, support | Users: Transparent communication, guarantees | Internal: Action plan, owners, timeline), Monitor (Track delivery rates, merchant reliability, user satisfaction, prevent recurrence). This is an operational excellence problem - I'd focus on prevention (better onboarding), detection (tracking), and response (penalties/support)."
+- **Q21 (Merchants list products but don't deliver):** Focus on operational problem
+  - "Assess current state: How many merchants? What's the delivery rate? What's the impact on users?"
+  - "Identify risks: Merchant fraud, supply issues, logistics problems, user trust erosion"
+  - "Prioritize fixes: Immediate (flag unreliable merchants, improve verification, add delivery tracking), Follow-up (merchant onboarding improvements, incentives for reliable merchants, penalties for unreliable)"
+  - "Communicate plan: Merchants (clear expectations, support), Users (transparent communication, guarantees), Internal (action plan, owners, timeline)"
+  - "Monitor: Track delivery rates, merchant reliability, user satisfaction, prevent recurrence"
+  - "This is operational excellence problem - focus on prevention (better onboarding), detection (tracking), response (penalties/support)"
 
-- **Q2729 (App returning 404 error):** Emphasize system investigation → "To investigate 404 errors, I'd: Assess current state (How many 404s? Which pages? When did it start? What's the impact?), Identify risks (Is it spreading? Are more pages affected? Is it a routing issue? Is it a deployment issue?), Prioritize fixes (Immediate: Check recent deployments, rollback if needed, check routing config | Follow-up: Root cause analysis, fix, prevent recurrence), Communicate plan (Users: Status update, workaround if available | Engineering: Investigation, fix plan | Internal: Status, ETA), Monitor (Track 404 rate, ensure fix works, prevent recurrence). This is a system reliability issue - I'd focus on quick detection (monitoring), fast response (rollback/fix), and prevention (better testing/deployment)."
+- **Q2729 (App returning 404 error):** Emphasize system investigation
+  - "Assess current state: How many 404s? Which pages? When did it start? What's the impact?"
+  - "Identify risks: Is it spreading? Are more pages affected? Is it routing issue? Is it deployment issue?"
+  - "Prioritize fixes: Immediate (check recent deployments, rollback if needed, check routing config), Follow-up (root cause analysis, fix, prevent recurrence)"
+  - "Communicate plan: Users (status update, workaround if available), Engineering (investigation, fix plan), Internal (status, ETA)"
+  - "Monitor: Track 404 rate, ensure fix works, prevent recurrence"
+  - "This is system reliability issue - focus on quick detection (monitoring), fast response (rollback/fix), prevention (better testing/deployment)"
 
 ---
 
@@ -148,11 +210,37 @@
 - Q2444: What systems or processes would you implement to improve organizational efficiency? (organizational efficiency angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When improving a process, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor. I assess the current state: What's broken? (Inefficiencies, pain points, bottlenecks), What's the impact? (Time wasted, errors, user impact). I identify risks: What could break? (Dependencies, bottlenecks, manual work), What's the worst case? (Process failure, user impact). I prioritize fixes: What to fix first? (High impact × ease, automation opportunities, streamlining), How to fix? (Automate, streamline, clarify ownership). I communicate the plan: Process changes (what's changing, why), Training (who needs to know, how), Timeline (when it happens). I monitor: Efficiency metrics (time saved, errors reduced), Feedback (what's working, what's not), Iterate (continuous improvement). The goal is fail small, detect fast, recover predictably - but for processes, it's about efficiency and reliability."
+
+**Framework:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
+
+**Memorizable Answer:**
+
+When improving a process, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor.
+
+**1️⃣ Assess Current State** → What's broken? (Inefficiencies, pain points, bottlenecks), What's the impact? (Time wasted, errors, user impact).
+
+**2️⃣ Identify Risks** → What could break? (Dependencies, bottlenecks, manual work), What's the worst case? (Process failure, user impact).
+
+**3️⃣ Prioritize Fixes** → What to fix first? (High impact × ease, automation opportunities, streamlining), How to fix? (Automate, streamline, clarify ownership).
+
+**4️⃣ Communicate Plan** → Process changes (what's changing, why), Training (who needs to know, how), Timeline (when it happens).
+
+**5️⃣ Monitor** → Efficiency metrics (time saved, errors reduced), Feedback (what's working, what's not), Iterate (continuous improvement).
+
+**Key Principle:** For processes, it's about efficiency and reliability - fail small, detect fast, recover predictably.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q719 (Broken process in organization):** Focus on behavioral example → "I'd describe a broken process: Manual data entry that caused errors and delays. I assessed current state: Process took 4 hours, had 15% error rate, caused user complaints. I identified risks: Errors could cause data quality issues, delays could impact users, manual work was unsustainable. I prioritized fixes: Immediate: Add validation, reduce manual steps | Follow-up: Automate data entry, improve tooling. I communicated plan: Process changes (new workflow, validation), Training (team training, documentation), Timeline (rollout plan). I monitored: Efficiency metrics (time reduced to 1 hour, errors to 2%), Feedback (team feedback, user feedback), Iterated (continuous improvements). Result: Process improved, errors reduced, team happier."
+- **Q719 (Broken process in organization):** Focus on behavioral example
+  - "Describe broken process: Manual data entry that caused errors and delays"
+  - "Assess current state: Process took 4 hours, had 15% error rate, caused user complaints"
+  - "Identify risks: Errors could cause data quality issues, delays could impact users, manual work was unsustainable"
+  - "Prioritize fixes: Immediate (add validation, reduce manual steps), Follow-up (automate data entry, improve tooling)"
+  - "Communicate plan: Process changes (new workflow, validation), Training (team training, documentation), Timeline (rollout plan)"
+  - "Monitor: Efficiency metrics (time reduced to 1 hour, errors to 2%), Feedback (team feedback, user feedback), Iterate (continuous improvements)"
+  - "Result: Process improved, errors reduced, team happier"
 
 ---
 
@@ -176,11 +264,36 @@
 - Q2047: Tell me about a time you got a project back on track. (project recovery angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When managing a project, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor. I assess current state: Progress (what's done, what's left), Timeline (on track or behind), Resources (team capacity, budget), Quality (meeting standards). I identify risks: What could delay? (Dependencies, scope creep, resource constraints), What's the worst case? (Project failure, missed deadline). I prioritize fixes: What to fix first? (Critical path items, blockers, high-risk areas), How to fix? (Scope cuts, resource reallocation, timeline adjustments). I communicate plan: Status updates (progress, risks, ETA), Stakeholder communication (what they need to know, when), Regular check-ins (weekly updates, milestone reviews). I monitor: Progress tracking (milestones, deliverables), Risk monitoring (new risks, mitigation), Course corrections (adjustments as needed). The goal is deliver on time with quality, but if tradeoffs are needed, I communicate them clearly."
+
+**Framework:** `Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor`
+
+**Memorizable Answer:**
+
+When managing a project, I use Assess Current State → Identify Risks → Prioritize Fixes → Communicate Plan → Monitor.
+
+**1️⃣ Assess Current State** → Progress (what's done, what's left), Timeline (on track or behind), Resources (team capacity, budget), Quality (meeting standards).
+
+**2️⃣ Identify Risks** → What could delay? (Dependencies, scope creep, resource constraints), What's the worst case? (Project failure, missed deadline).
+
+**3️⃣ Prioritize Fixes** → What to fix first? (Critical path items, blockers, high-risk areas), How to fix? (Scope cuts, resource reallocation, timeline adjustments).
+
+**4️⃣ Communicate Plan** → Status updates (progress, risks, ETA), Stakeholder communication (what they need to know, when), Regular check-ins (weekly updates, milestone reviews).
+
+**5️⃣ Monitor** → Progress tracking (milestones, deliverables), Risk monitoring (new risks, mitigation), Course corrections (adjustments as needed).
+
+**Key Principle:** Deliver on time with quality, but if tradeoffs are needed, communicate them clearly.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1625 (Project 25% complete, 85% resources used):** Focus on project recovery → "When a project is 25% complete but 85% resources used, I'd: Assess current state (What's actually done? What's the real progress? What resources remain? What's the timeline?), Identify risks (Will we run out of resources? Can we finish? What's the worst case? What dependencies exist?), Prioritize fixes (Immediate: Ruthless scope cuts, focus on MVP, reallocate resources | Follow-up: Root cause analysis, process improvements, better estimation), Communicate plan (Stakeholders: Transparent about situation, revised scope, new timeline | Team: Clear priorities, realistic expectations | Management: Options and recommendations), Monitor (Track progress against revised plan, resource usage, risks, course corrections). This is a project recovery situation - I'd focus on scope cuts, realistic planning, and transparent communication."
+- **Q1625 (Project 25% complete, 85% resources used):** Focus on project recovery
+  - "Assess current state: What's actually done? What's the real progress? What resources remain? What's the timeline?"
+  - "Identify risks: Will we run out of resources? Can we finish? What's the worst case? What dependencies exist?"
+  - "Prioritize fixes: Immediate (ruthless scope cuts, focus on MVP, reallocate resources), Follow-up (root cause analysis, process improvements, better estimation)"
+  - "Communicate plan: Stakeholders (transparent about situation, revised scope, new timeline), Team (clear priorities, realistic expectations), Management (options and recommendations)"
+  - "Monitor: Track progress against revised plan, resource usage, risks, course corrections"
+  - "This is project recovery situation - focus on scope cuts, realistic planning, transparent communication"
 
 ---
 
