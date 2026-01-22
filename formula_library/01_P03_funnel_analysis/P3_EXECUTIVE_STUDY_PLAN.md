@@ -85,19 +85,70 @@
 - Q2830: You're a PM in the Onboarding team. You have to increase the conversion of the onboarding funnel by 15% in 3 months.
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When I see a funnel drop-off, I follow a systematic approach. First, I define the funnel steps - the exact user journey from entry to conversion. Then I measure drop-off between each step to find the biggest bottleneck. Once I identify where users drop, I ask WHY - is it UX friction (confusing, slow, too many fields), trust friction (price shock, permissions, privacy concerns), value friction (unclear benefit), or technical friction (bugs, latency)? I use session replays, segment analysis, and qualitative feedback to diagnose. Then I hypothesize 1-2 targeted fixes that address the root cause, prioritize by impact and effort, and test with A/B tests or staged rollouts. I measure the conversion improvement and use guardrails to ensure downstream metrics don't degrade."
+
+**Framework:** `Define Funnel Steps → Measure Drop-off → Identify Friction → Hypothesize Fix → Test`
+
+**Memorizable Answer:**
+
+When I see a funnel drop-off, I follow a systematic approach.
+
+**1️⃣ Define Funnel Steps** → Exact user journey from entry to conversion.
+
+**2️⃣ Measure Drop-off** → Between each step to find the biggest bottleneck.
+
+**3️⃣ Identify Friction** → Ask WHY: UX friction (confusing, slow, too many fields)? Trust friction (price shock, permissions, privacy)? Value friction (unclear benefit)? Technical friction (bugs, latency)?
+
+**4️⃣ Diagnose** → Use session replays, segment analysis, qualitative feedback.
+
+**5️⃣ Hypothesize Fix** → 1-2 targeted fixes addressing root cause, prioritize by impact and effort.
+
+**6️⃣ Test** → A/B tests or staged rollouts, measure conversion improvement, use guardrails to ensure downstream metrics don't degrade.
+
+**Key Principle:** Find the biggest drop, then ask WHY users get stuck at that step.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q4 (55% drop at application submission):** Focus on form friction → "For a 55% drop at application submission, I'd first define the funnel: open application → start application → fill form → submit. The biggest drop is likely fill form → submit. I'd hypothesize: form too long, required fields unclear, or users unsure why info is needed. I'd check session replays to see where users abandon. Fixes: reduce required fields, add progress bar, save progress, explain why each field is needed. I'd A/B test and measure submission rate improvement."
+- **Q4 (55% drop at application submission):** Focus on form friction
+  - "Define funnel: open application → start application → fill form → submit"
+  - "Biggest drop: fill form → submit"
+  - "Hypothesize: form too long, required fields unclear, users unsure why info needed"
+  - "Check session replays to see where users abandon"
+  - "Fixes: reduce required fields, add progress bar, save progress, explain why each field needed"
+  - "A/B test and measure submission rate improvement"
 
-- **Q13 (25% drop-off during sign-up):** Emphasize sign-up flow → "For 25% sign-up drop-off, I'd define the funnel: app open → click sign-up → enter email/password → verify email → complete sign-up. I'd measure drop-off at each step. Likely friction: email verification (slow email, goes to spam, user distracted). I'd check: verification email delivery time, spam rate, completion rate by device. Fixes: allow limited access before verification, resend CTA, inline verification. I'd test and measure sign-up completion rate."
+- **Q13 (25% drop-off during sign-up):** Emphasize sign-up flow
+  - "Define funnel: app open → click sign-up → enter email/password → verify email → complete sign-up"
+  - "Measure drop-off at each step"
+  - "Likely friction: email verification (slow email, goes to spam, user distracted)"
+  - "Check: verification email delivery time, spam rate, completion rate by device"
+  - "Fixes: allow limited access before verification, resend CTA, inline verification"
+  - "Test and measure sign-up completion rate"
 
-- **Q2715 (Conversion declined over week):** Focus on investigation → "For conversion decline, I'd first check if it's a data bug, then define the funnel: browse → product view → add to cart → checkout → purchase. I'd measure drop-off at each step and compare to baseline. I'd segment by platform, geography, and user type to find the hot spot. Likely causes: product change, pricing change, or technical issue. I'd check error rates, latency, and support tickets. I'd validate with quick checks and propose fixes based on root cause."
+- **Q2715 (Conversion declined over week):** Focus on investigation
+  - "First check if data bug, then define funnel: browse → product view → add to cart → checkout → purchase"
+  - "Measure drop-off at each step, compare to baseline"
+  - "Segment by platform, geography, user type to find hot spot"
+  - "Likely causes: product change, pricing change, technical issue"
+  - "Check: error rates, latency, support tickets"
+  - "Validate with quick checks, propose fixes based on root cause"
 
-- **Q2731 (Remove profile photo step?):** Emphasize decision framework → "To decide whether to remove profile photo step, I'd first measure current funnel: sign-up → enter info → upload photo → complete. I'd check drop-off at photo step - if it's high, removing it might help. But I'd also check: does photo improve downstream metrics (connections, engagement)? I'd run A/B test: one group with photo, one without. Measure: sign-up completion rate, downstream engagement, user satisfaction. If removing photo increases sign-up without hurting engagement, remove it."
+- **Q2731 (Remove profile photo step?):** Emphasize decision framework
+  - "Measure current funnel: sign-up → enter info → upload photo → complete"
+  - "Check drop-off at photo step - if high, removing might help"
+  - "Also check: does photo improve downstream metrics (connections, engagement)?"
+  - "Run A/B test: one group with photo, one without"
+  - "Measure: sign-up completion rate, downstream engagement, user satisfaction"
+  - "If removing photo increases sign-up without hurting engagement → remove it"
 
-- **Q2830 (Increase onboarding conversion 15%):** Focus on improvement → "To increase onboarding conversion 15%, I'd first measure current funnel and identify biggest drop-off. Then I'd segment by user type to see if it's universal or specific. I'd hypothesize top 3-5 friction points, prioritize by impact and effort. Likely fixes: reduce steps, add progress indicator, allow skip optional steps, improve value communication. I'd test fixes incrementally, measure conversion improvement, and scale what works. Target: 15% lift in 3 months through systematic optimization."
+- **Q2830 (Increase onboarding conversion 15%):** Focus on improvement
+  - "Measure current funnel, identify biggest drop-off"
+  - "Segment by user type to see if universal or specific"
+  - "Hypothesize top 3-5 friction points, prioritize by impact and effort"
+  - "Likely fixes: reduce steps, add progress indicator, allow skip optional steps, improve value communication"
+  - "Test fixes incrementally, measure conversion improvement, scale what works"
+  - "Target: 15% lift in 3 months through systematic optimization"
 
 ---
 
@@ -123,19 +174,69 @@
 - Q1756: Only 1 in 5 riders tips their driver after a ride. How would you improve this?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When optimizing conversion, I map the current funnel to understand where users drop. I measure drop-off at each step and identify the biggest bottleneck. Then I segment by user type, device, and geography to see if friction is universal or specific. I hypothesize top 3-5 friction points - UX (too many steps, confusing), trust (price surprise, permissions), value (unclear benefit), or technical (slow, bugs). I prioritize fixes by impact and effort, then test incrementally. I measure conversion improvement and use guardrails to ensure downstream metrics don't degrade. The key is systematic optimization - fix one step at a time, measure impact, then move to next."
+
+**Framework:** `Map Funnel → Identify Bottleneck → Segment → Hypothesize Friction → Prioritize → Test`
+
+**Memorizable Answer:**
+
+When optimizing conversion, I map the current funnel to understand where users drop.
+
+**1️⃣ Map Funnel** → Current user journey from entry to conversion.
+
+**2️⃣ Measure Drop-off** → At each step, identify the biggest bottleneck.
+
+**3️⃣ Segment** → By user type, device, geography to see if friction is universal or specific.
+
+**4️⃣ Hypothesize Friction** → Top 3-5 friction points: UX (too many steps, confusing), trust (price surprise, permissions), value (unclear benefit), or technical (slow, bugs).
+
+**5️⃣ Prioritize Fixes** → By impact and effort, then test incrementally.
+
+**6️⃣ Measure & Guardrails** → Conversion improvement, ensure downstream metrics don't degrade.
+
+**Key Principle:** Systematic optimization - fix one step at a time, measure impact, then move to next.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1521 (Optimize booking.com conversion):** Focus on booking flow → "To optimize booking.com conversion, I'd map the funnel: search → results → select hotel → enter details → payment → confirmation. I'd measure drop-off at each step. Likely bottlenecks: price comparison (users leave to compare), payment friction (too many fields), or trust (reviews, cancellation policy). I'd segment by device (mobile vs desktop) and geography. Fixes: show price comparison, simplify payment, highlight trust signals. I'd test and measure booking conversion improvement."
+- **Q1521 (Optimize booking.com conversion):** Focus on booking flow
+  - "Map funnel: search → results → select hotel → enter details → payment → confirmation"
+  - "Measure drop-off at each step"
+  - "Likely bottlenecks: price comparison (users leave to compare), payment friction (too many fields), trust (reviews, cancellation policy)"
+  - "Segment by device (mobile vs desktop) and geography"
+  - "Fixes: show price comparison, simplify payment, highlight trust signals"
+  - "Test and measure booking conversion improvement"
 
-- **Q1465 (Increase YouTube Premium conversion):** Emphasize subscription → "To increase YouTube Premium conversion, I'd map the funnel: watch video → see Premium prompt → click learn more → see pricing → start trial → convert. I'd measure drop-off at each step. Likely friction: pricing (too expensive), value (unclear benefit), or trial (too short). I'd segment by user type (heavy vs light watchers). Fixes: show value earlier, offer longer trial, highlight ad-free benefit. I'd test and measure conversion rate improvement."
+- **Q1465 (Increase YouTube Premium conversion):** Emphasize subscription
+  - "Map funnel: watch video → see Premium prompt → click learn more → see pricing → start trial → convert"
+  - "Measure drop-off at each step"
+  - "Likely friction: pricing (too expensive), value (unclear benefit), trial (too short)"
+  - "Segment by user type (heavy vs light watchers)"
+  - "Fixes: show value earlier, offer longer trial, highlight ad-free benefit"
+  - "Test and measure conversion rate improvement"
 
-- **Q2720 (Which booking step to address first?):** Focus on prioritization → "To prioritize booking steps, I'd map the funnel and measure drop-off at each step. I'd calculate: drop-off % × users at that step = total users lost. The step with highest total users lost is the priority. I'd also consider: ease of fix (quick wins first), impact on downstream (don't break later steps), and user segment (fix for biggest segment first). Typically, payment step has highest drop-off, so I'd start there."
+- **Q2720 (Which booking step to address first?):** Focus on prioritization
+  - "Map funnel, measure drop-off at each step"
+  - "Calculate: drop-off % × users at that step = total users lost"
+  - "Step with highest total users lost is the priority"
+  - "Also consider: ease of fix (quick wins first), impact on downstream (don't break later steps), user segment (fix for biggest segment first)"
+  - "Typically, payment step has highest drop-off → start there"
 
-- **Q2726 (What discount for onboarding?):** Emphasize personalization → "For onboarding discounts, I'd first measure current funnel and conversion by user segment. I'd segment by: user value (high vs low intent), acquisition cost (high vs low CAC), and behavior (new vs returning). I'd test different discount levels by segment. High-intent users might need smaller discount, low-intent might need larger. I'd measure: conversion rate, LTV, and overall ROI. Goal: maximize conversion while maintaining unit economics."
+- **Q2726 (What discount for onboarding?):** Emphasize personalization
+  - "Measure current funnel and conversion by user segment"
+  - "Segment by: user value (high vs low intent), acquisition cost (high vs low CAC), behavior (new vs returning)"
+  - "Test different discount levels by segment"
+  - "High-intent users might need smaller discount, low-intent might need larger"
+  - "Measure: conversion rate, LTV, overall ROI"
+  - "Goal: maximize conversion while maintaining unit economics"
 
-- **Q1756 (Improve tipping rate):** Focus on behavioral change → "To improve tipping rate from 20% to higher, I'd map the funnel: ride completes → rating screen → tip prompt → tip entered → tip submitted. I'd measure drop-off at each step. Likely friction: tip prompt timing (too late), default amount (unclear), or value (unclear why tip). I'd segment by ride type and user segment. Fixes: show tip prompt earlier, suggest default amounts, explain driver benefit. I'd test and measure tipping rate improvement."
+- **Q1756 (Improve tipping rate):** Focus on behavioral change
+  - "Map funnel: ride completes → rating screen → tip prompt → tip entered → tip submitted"
+  - "Measure drop-off at each step"
+  - "Likely friction: tip prompt timing (too late), default amount (unclear), value (unclear why tip)"
+  - "Segment by ride type and user segment"
+  - "Fixes: show tip prompt earlier, suggest default amounts, explain driver benefit"
+  - "Test and measure tipping rate improvement"
 
 ---
 
@@ -161,15 +262,53 @@
 - Q2738: You're a PM at Instacart. What would you do to improve retention?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For retention/engagement funnels, I map the user journey over time: sign up → first value → return D7 → return D30. I measure drop-off at each time point to find where users churn. I segment by cohort to see if it's a recent issue or ongoing. I identify friction: users don't see long-term value, no habit formed, or value not delivered. I hypothesize fixes: guide users to core value action, add reminders/nudges, improve onboarding, or enhance product value. I test fixes and measure retention improvement (D7, D30). The key is understanding why users don't return, not just that they don't return."
+
+**Framework:** `Map Journey Over Time → Measure Drop-off → Segment by Cohort → Identify Friction → Fix`
+
+**Memorizable Answer:**
+
+For retention/engagement funnels, I map the user journey over time.
+
+**1️⃣ Map Journey Over Time** → Sign up → first value → return D7 → return D30.
+
+**2️⃣ Measure Drop-off** → At each time point to find where users churn.
+
+**3️⃣ Segment by Cohort** → See if it's a recent issue or ongoing.
+
+**4️⃣ Identify Friction** → Users don't see long-term value? No habit formed? Value not delivered?
+
+**5️⃣ Hypothesize Fixes** → Guide users to core value action, add reminders/nudges, improve onboarding, enhance product value.
+
+**6️⃣ Test & Measure** → Retention improvement (D7, D30).
+
+**Key Principle:** Understand why users don't return, not just that they don't return.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1846 (Adoption high, retention low):** Focus on diagnosis → "If adoption is high but retention low, I'd map the funnel: sign up → first action → core value action → return D7. The drop is likely after first action - users try but don't return. I'd segment by user type and first action to see patterns. Likely causes: users don't see long-term value, no habit formed, or value not delivered. I'd check: what do retained users do differently? I'd communicate: adoption is good (users try), but retention is low (users don't return) - we need to improve value delivery or habit formation."
+- **Q1846 (Adoption high, retention low):** Focus on diagnosis
+  - "Map funnel: sign up → first action → core value action → return D7"
+  - "Drop likely after first action - users try but don't return"
+  - "Segment by user type and first action to see patterns"
+  - "Likely causes: users don't see long-term value, no habit formed, value not delivered"
+  - "Check: what do retained users do differently?"
+  - "Communicate: adoption is good (users try), but retention is low (users don't return) - need to improve value delivery or habit formation"
 
-- **Q2157 (30-day retention decline):** Emphasize investigation → "For 30-day retention decline, I'd first check if it's a data bug, then map the retention funnel: sign up → first value → return D7 → return D30. I'd measure drop-off at each point and compare to baseline. I'd segment by cohort to see if it's recent or ongoing. I'd check: product changes, external factors, or user behavior changes. I'd identify where users drop and why, then propose fixes based on root cause."
+- **Q2157 (30-day retention decline):** Emphasize investigation
+  - "First check if data bug, then map retention funnel: sign up → first value → return D7 → return D30"
+  - "Measure drop-off at each point, compare to baseline"
+  - "Segment by cohort to see if recent or ongoing"
+  - "Check: product changes, external factors, user behavior changes"
+  - "Identify where users drop and why, propose fixes based on root cause"
 
-- **Q1256 (Boost DashPass retention):** Focus on subscription → "To boost DashPass retention, I'd map the funnel: sign up → first order → second order → month renewal. I'd measure drop-off at each step. Likely friction: users don't see value (delivery fee savings), don't order enough, or forget to use. I'd segment by order frequency and user type. Fixes: show savings prominently, remind users of benefit, offer incentives for repeat orders. I'd test and measure retention improvement."
+- **Q1256 (Boost DashPass retention):** Focus on subscription
+  - "Map funnel: sign up → first order → second order → month renewal"
+  - "Measure drop-off at each step"
+  - "Likely friction: users don't see value (delivery fee savings), don't order enough, forget to use"
+  - "Segment by order frequency and user type"
+  - "Fixes: show savings prominently, remind users of benefit, offer incentives for repeat orders"
+  - "Test and measure retention improvement"
 
 ---
 
@@ -195,15 +334,49 @@
 - Q2887: You're a PM at CarGurus. You launched in Canada 8 months ago and conversions are lower in Canada than the US. What would you do?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When prioritizing funnel fixes, I calculate impact for each step: drop-off % × users at that step = total users lost. The step with highest total users lost is usually the priority. But I also consider: ease of fix (quick wins first), downstream impact (don't break later steps), and user segment (fix for biggest segment first). I prioritize by: Impact (users saved) × Ease (effort to fix) × Risk (downstream impact). I start with high-impact, low-effort fixes, then move to high-impact, high-effort fixes. The key is fixing the step that saves the most users, not just the step with highest drop-off %."
+
+**Framework:** `Calculate Impact → Consider Ease & Risk → Prioritize → Fix`
+
+**Memorizable Answer:**
+
+When prioritizing funnel fixes, I calculate impact for each step.
+
+**1️⃣ Calculate Impact** → Drop-off % × users at that step = total users lost.
+
+**2️⃣ Identify Priority** → Step with highest total users lost is usually the priority.
+
+**3️⃣ Consider Factors** → Ease of fix (quick wins first), downstream impact (don't break later steps), user segment (fix for biggest segment first).
+
+**4️⃣ Prioritize** → Impact (users saved) × Ease (effort to fix) × Risk (downstream impact).
+
+**5️⃣ Execute** → Start with high-impact, low-effort fixes, then move to high-impact, high-effort fixes.
+
+**Key Principle:** Fix the step that saves the most users, not just the step with highest drop-off %.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1696 (Which stage to prioritize?):** Focus on calculation → "To prioritize stages, I'd calculate impact for each: drop-off % × users at that step = total users lost. For example, if Step 2 has 50% drop-off but only 100 users reach it, that's 50 users lost. If Step 4 has 20% drop-off but 1000 users reach it, that's 200 users lost - fix Step 4 first! I'd also consider ease of fix and downstream impact. The step with highest total users lost is the priority."
+- **Q1696 (Which stage to prioritize?):** Focus on calculation
+  - "Calculate impact for each: drop-off % × users at that step = total users lost"
+  - "Example: Step 2 has 50% drop-off but only 100 users reach it = 50 users lost"
+  - "Step 4 has 20% drop-off but 1000 users reach it = 200 users lost → fix Step 4 first!"
+  - "Also consider: ease of fix and downstream impact"
+  - "Step with highest total users lost is the priority"
 
-- **Q985 (Prioritize drop-off points):** Emphasize design solutions → "To prioritize drop-off points, I'd calculate impact (drop-off % × users at step) for each step. Then I'd identify friction at high-impact steps: UX (too many fields, confusing), trust (price surprise), value (unclear benefit), or technical (slow, bugs). I'd propose design solutions: reduce steps, add progress indicator, show value earlier, simplify forms. I'd prioritize by impact and ease, then test and measure conversion improvement."
+- **Q985 (Prioritize drop-off points):** Emphasize design solutions
+  - "Calculate impact (drop-off % × users at step) for each step"
+  - "Identify friction at high-impact steps: UX (too many fields, confusing), trust (price surprise), value (unclear benefit), technical (slow, bugs)"
+  - "Propose design solutions: reduce steps, add progress indicator, show value earlier, simplify forms"
+  - "Prioritize by impact and ease, then test and measure conversion improvement"
 
-- **Q2706 (SFO airport experience):** Focus on physical funnel → "For airport experience, I'd map the funnel: car drop-off → check-in → security → gate → boarding. I'd measure time and friction at each step. Likely bottleneck: security (longest wait, most friction). I'd prioritize: reduce security wait time (biggest impact on experience). Solutions: more lanes, better queuing, pre-check promotion. I'd measure: total time from drop-off to boarding, user satisfaction."
+- **Q2706 (SFO airport experience):** Focus on physical funnel
+  - "Map funnel: car drop-off → check-in → security → gate → boarding"
+  - "Measure time and friction at each step"
+  - "Likely bottleneck: security (longest wait, most friction)"
+  - "Prioritize: reduce security wait time (biggest impact on experience)"
+  - "Solutions: more lanes, better queuing, pre-check promotion"
+  - "Measure: total time from drop-off to boarding, user satisfaction"
 
 ---
 
