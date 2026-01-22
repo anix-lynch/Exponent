@@ -4,9 +4,9 @@
 
 ---
 
-## P1 ASCII TREE (copy/paste mental model)
+## 🧠 Mental Model (ASCII Tree)
 
-```text
+```
 P1: METRIC DROP DIAGNOSIS
 Goal: explain "X is down" and decide what to do next
 
