@@ -46,13 +46,40 @@
 - How would you define success for a content platform?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For media/streaming products, the NSM is typically Watch Time - total hours watched per user. This captures both engagement and retention. Input KPIs: consumption (watch time per user, completion rate, sessions per user), content quality (creator satisfaction, content diversity, upload rate), and discovery (search success rate, recommendation click-through, content discovery time). Leading indicators: first-week watch time, content completion rate, creator upload frequency. Guardrails: content quality standards (must be high), creator burnout (must prevent), and user satisfaction (must be positive). Watch time predicts retention - users who watch more stay longer."
+
+**Framework:** `NSM (Watch Time) → Consumption KPIs → Content Quality KPIs → Discovery KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For media/streaming products, the NSM is typically Watch Time - total hours watched per user.
+
+**1️⃣ NSM (Watch Time)** → Captures both engagement and retention.
+
+**2️⃣ Consumption KPIs** → Watch time per user, completion rate, sessions per user.
+
+**3️⃣ Content Quality KPIs** → Creator satisfaction, content diversity, upload rate.
+
+**4️⃣ Discovery KPIs** → Search success rate, recommendation click-through, content discovery time.
+
+**5️⃣ Guardrails** → Content quality standards (must be high), creator burnout (must prevent), user satisfaction (must be positive).
+
+**Key Principle:** Watch time predicts retention - users who watch more stay longer.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for Netflix:** Focus on video streaming → "For Netflix, NSM: Weekly Watch Time per Active User. Input KPIs: watch time, completion rate, content discovery. Leading indicators: first-week watch time, content completion rate. Guardrails: content quality, user satisfaction, recommendation quality."
+- **Define NSM for Netflix:** Focus on video streaming
+  - "NSM: Weekly Watch Time per Active User"
+  - "Input KPIs: watch time, completion rate, content discovery"
+  - "Leading indicators: first-week watch time, content completion rate"
+  - "Guardrails: content quality, user satisfaction, recommendation quality"
 
-- **Measure streaming success:** Emphasize engagement → "Streaming success is measured by watch time (total hours watched) and retention (D7, D30). Input KPIs: consumption depth, content quality, discovery efficiency. Leading indicators: first-week engagement, content completion. Guardrails: content quality, creator satisfaction, user experience."
+- **Measure streaming success:** Emphasize engagement
+  - "Success measured by: watch time (total hours watched) + retention (D7, D30)"
+  - "Input KPIs: consumption depth, content quality, discovery efficiency"
+  - "Leading indicators: first-week engagement, content completion"
+  - "Guardrails: content quality, creator satisfaction, user experience"
 
 ---
 
@@ -78,7 +105,24 @@
 - How do you measure content quality?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For content consumption and engagement, I measure watch time (total hours watched per user), completion rate (% of content completed), and sessions per user (frequency of engagement). Input KPIs: average watch time, completion rate by content type, binge rate (multiple episodes in session). Leading indicators: first-week watch time, content completion rate, repeat view rate. Guardrails: content quality (must be high), user satisfaction (must be positive), recommendation quality (must be relevant). Depth of consumption (completion rate) predicts retention better than breadth - users who complete content stay longer."
+
+**Framework:** `Watch Time → Completion Rate → Session Frequency → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For content consumption and engagement, I measure three key metrics.
+
+**1️⃣ Watch Time** → Total hours watched per user.
+
+**2️⃣ Completion Rate** → % of content completed.
+
+**3️⃣ Session Frequency** → Sessions per user (frequency of engagement).
+
+**4️⃣ Input KPIs** → Average watch time, completion rate by content type, binge rate (multiple episodes in session).
+
+**5️⃣ Guardrails** → Content quality (must be high), user satisfaction (must be positive), recommendation quality (must be relevant).
+
+**Key Principle:** Depth of consumption (completion rate) predicts retention better than breadth - users who complete content stay longer.
 
 ---
 
@@ -104,7 +148,24 @@
 - How do you measure search success?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For content discovery and recommendations, I measure search success rate (% of searches that result in watch), recommendation CTR (clicks on recommendations), and discovery time (time to find content). Input KPIs: search-to-watch conversion, recommendation accuracy, discovery diversity. Leading indicators: first-content-find rate, recommendation engagement rate, search usage rate. Guardrails: content diversity (must show variety), recommendation quality (must be relevant), user satisfaction (must be positive). Good discovery = faster time to value = better retention - users who find content quickly stay longer."
+
+**Framework:** `Search Success Rate → Recommendation CTR → Discovery Time → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For content discovery and recommendations, I measure three key metrics.
+
+**1️⃣ Search Success Rate** → % of searches that result in watch.
+
+**2️⃣ Recommendation CTR** → Clicks on recommendations.
+
+**3️⃣ Discovery Time** → Time to find content.
+
+**4️⃣ Input KPIs** → Search-to-watch conversion, recommendation accuracy, discovery diversity.
+
+**5️⃣ Guardrails** → Content diversity (must show variety), recommendation quality (must be relevant), user satisfaction (must be positive).
+
+**Key Principle:** Good discovery = faster time to value = better retention - users who find content quickly stay longer.
 
 ---
 
@@ -163,12 +224,3 @@ Before your interview, you should be able to:
 **Remember:** Media/Streaming is about content consumption and retention. Watch time predicts retention - users who watch more stay longer.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 4
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** Media/Streaming metrics are about content consumption (watch time) and retention. Depth of consumption (completion rate) predicts retention better than breadth.

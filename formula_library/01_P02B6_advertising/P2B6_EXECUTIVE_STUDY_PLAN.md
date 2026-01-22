@@ -46,13 +46,40 @@
 - How would you define success for an ad product?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For advertising products, the NSM is typically Advertiser Revenue per Active Viewer - it balances advertiser value (revenue) and user experience (active viewers). Input KPIs: performance metrics (CTR, CPC, conversion rate), ad quality (relevance score, targeting accuracy, ad fatigue), and inventory (ad impressions, fill rate, CPM). Leading indicators: ad engagement rate, view-through rate, advertiser satisfaction. Guardrails: user experience (ad load must be acceptable), ad quality standards (must be relevant), and click fraud prevention (must be accurate). The key is balancing advertiser ROI with user experience."
+
+**Framework:** `NSM → Performance KPIs → Ad Quality KPIs → Inventory KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For advertising products, the NSM is typically Advertiser Revenue per Active Viewer - it balances advertiser value (revenue) and user experience (active viewers).
+
+**1️⃣ NSM** → Balances advertiser value (revenue) and user experience (active viewers).
+
+**2️⃣ Performance KPIs** → CTR, CPC, conversion rate.
+
+**3️⃣ Ad Quality KPIs** → Relevance score, targeting accuracy, ad fatigue.
+
+**4️⃣ Inventory KPIs** → Ad impressions, fill rate, CPM.
+
+**5️⃣ Guardrails** → User experience (ad load must be acceptable), ad quality standards (must be relevant), click fraud prevention (must be accurate).
+
+**Key Principle:** Balance advertiser ROI with user experience - quality ads = better performance + better UX.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for advertising platform:** Focus on balance → "For advertising platform, NSM: Advertiser Revenue per Active Viewer. Input KPIs: performance (CTR, CPC, conversion), quality (relevance, targeting), inventory (impressions, fill rate). Leading indicators: engagement rate, view-through rate. Guardrails: user experience (ad load), ad quality, fraud prevention."
+- **Define NSM for advertising platform:** Focus on balance
+  - "NSM: Advertiser Revenue per Active Viewer"
+  - "Input KPIs: performance (CTR, CPC, conversion), quality (relevance, targeting), inventory (impressions, fill rate)"
+  - "Leading indicators: engagement rate, view-through rate"
+  - "Guardrails: user experience (ad load), ad quality, fraud prevention"
 
-- **Measure ad success:** Emphasize advertiser outcomes → "Ad success is measured by advertiser ROAS (Return on Ad Spend) and platform revenue. Input KPIs: CTR, CPC, conversion rate, CPM. Leading indicators: engagement rate, view-through rate. Guardrails: user experience (must not degrade), ad quality (must be relevant), advertiser satisfaction (must be positive)."
+- **Measure ad success:** Emphasize advertiser outcomes
+  - "Success measured by: advertiser ROAS (Return on Ad Spend) + platform revenue"
+  - "Input KPIs: CTR, CPC, conversion rate, CPM"
+  - "Leading indicators: engagement rate, view-through rate"
+  - "Guardrails: user experience (must not degrade), ad quality (must be relevant), advertiser satisfaction (must be positive)"
 
 ---
 
@@ -79,7 +106,24 @@
 - How do you measure conversion rate?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For performance metrics, I measure CTR (Click-Through Rate = clicks/impressions, target 1-3%), CPC (Cost Per Click, lower is better), and ROAS (Return on Ad Spend = revenue/ad spend, target > 3:1). Input KPIs: ad relevance score, targeting accuracy, ad format. Leading indicators: engagement rate, view-through rate, click quality. Guardrails: user experience (must not degrade), ad quality (must be relevant), advertiser satisfaction (must be positive). Higher CTR = better relevance, lower CPC = better efficiency, higher ROAS = better advertiser outcomes."
+
+**Framework:** `CTR → CPC → ROAS → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For performance metrics, I measure three key metrics.
+
+**1️⃣ CTR** → Click-Through Rate = clicks/impressions (target 1-3%).
+
+**2️⃣ CPC** → Cost Per Click (lower is better).
+
+**3️⃣ ROAS** → Return on Ad Spend = revenue/ad spend (target > 3:1).
+
+**4️⃣ Input KPIs** → Ad relevance score, targeting accuracy, ad format.
+
+**5️⃣ Guardrails** → User experience (must not degrade), ad quality (must be relevant), advertiser satisfaction (must be positive).
+
+**Key Principle:** Higher CTR = better relevance, lower CPC = better efficiency, higher ROAS = better advertiser outcomes.
 
 ---
 
@@ -105,7 +149,24 @@
 - How do you prevent ad fatigue?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For ad quality and user experience, I measure ad relevance score (how relevant to user), targeting accuracy (right audience), and ad load (ads per content, target 10-20%). Input KPIs: relevance score, targeting accuracy, skip rate, user complaints. Leading indicators: engagement rate, view-through rate, user retention. Guardrails: ad load (must be acceptable), ad quality (must be relevant), user experience (must not degrade). Quality ads = better performance + better UX - they're not tradeoffs, they're aligned."
+
+**Framework:** `Ad Relevance → Targeting Accuracy → Ad Load → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For ad quality and user experience, I measure three key metrics.
+
+**1️⃣ Ad Relevance Score** → How relevant ad is to user.
+
+**2️⃣ Targeting Accuracy** → Right audience.
+
+**3️⃣ Ad Load** → Ads per content (target 10-20%).
+
+**4️⃣ Input KPIs** → Relevance score, targeting accuracy, skip rate, user complaints.
+
+**5️⃣ Guardrails** → Ad load (must be acceptable), ad quality (must be relevant), user experience (must not degrade).
+
+**Key Principle:** Quality ads = better performance + better UX - they're not tradeoffs, they're aligned.
 
 ---
 
@@ -164,12 +225,3 @@ Before your interview, you should be able to:
 **Remember:** Advertising is about balancing advertiser value (ROAS) and user experience (ad load). Quality ads = better performance + better UX.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 7
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** Advertising metrics are about balancing advertiser outcomes (ROAS) and user experience (ad load). Quality ads drive both - they're not tradeoffs.

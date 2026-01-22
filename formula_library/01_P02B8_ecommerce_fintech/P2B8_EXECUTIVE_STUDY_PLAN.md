@@ -46,13 +46,40 @@
 - How would you define success for a transaction platform?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For e-commerce/fintech products, the NSM is typically GMV (Gross Merchandise Value) or Transaction Volume - it captures both volume and value. Input KPIs: conversion funnel (conversion rate, cart abandonment, checkout completion), transaction value (AOV, items per order, repeat purchase rate), and payment efficiency (payment success rate, processing time, fraud rate). Leading indicators: add-to-cart rate, payment initiation rate, search-to-purchase conversion. Guardrails: fraud prevention (must be effective), payment security (must be secure), and customer trust (refunds, disputes must be handled well). The key is converting visitors to transactions efficiently while maintaining trust."
+
+**Framework:** `NSM (GMV/Transaction Volume) → Conversion Funnel → Transaction Value → Payment Efficiency → Guardrails`
+
+**Memorizable Answer:**
+
+For e-commerce/fintech products, the NSM is typically GMV (Gross Merchandise Value) or Transaction Volume - it captures both volume and value.
+
+**1️⃣ NSM** → GMV or Transaction Volume - captures both volume and value.
+
+**2️⃣ Conversion Funnel KPIs** → Conversion rate, cart abandonment, checkout completion.
+
+**3️⃣ Transaction Value KPIs** → AOV, items per order, repeat purchase rate.
+
+**4️⃣ Payment Efficiency KPIs** → Payment success rate, processing time, fraud rate.
+
+**5️⃣ Guardrails** → Fraud prevention (must be effective), payment security (must be secure), customer trust (refunds, disputes must be handled well).
+
+**Key Principle:** Convert visitors to transactions efficiently while maintaining trust.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for e-commerce:** Focus on transactions → "For e-commerce, NSM: GMV (Gross Merchandise Value). Input KPIs: conversion rate, AOV, repeat purchase rate. Leading indicators: add-to-cart rate, checkout completion. Guardrails: fraud prevention, payment security, customer trust."
+- **Define NSM for e-commerce:** Focus on transactions
+  - "NSM: GMV (Gross Merchandise Value)"
+  - "Input KPIs: conversion rate, AOV, repeat purchase rate"
+  - "Leading indicators: add-to-cart rate, checkout completion"
+  - "Guardrails: fraud prevention, payment security, customer trust"
 
-- **Measure payment platform success:** Emphasize reliability → "For payment platform, NSM: Payment Success Rate (% of payments that succeed). Input KPIs: transaction volume, processing time, fraud rate. Leading indicators: payment initiation rate, transaction completion. Guardrails: fraud prevention, payment security, platform reliability."
+- **Measure payment platform success:** Emphasize reliability
+  - "NSM: Payment Success Rate (% of payments that succeed)"
+  - "Input KPIs: transaction volume, processing time, fraud rate"
+  - "Leading indicators: payment initiation rate, transaction completion"
+  - "Guardrails: fraud prevention, payment security, platform reliability"
 
 ---
 
@@ -78,7 +105,24 @@
 - How do you optimize checkout?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For conversion funnel metrics, I measure conversion rate (purchases/visitors), cart abandonment (% of carts not completed), and checkout completion (% of checkouts completed). Input KPIs: add-to-cart rate, checkout initiation rate, payment success rate. Leading indicators: search-to-product-view, product-view-to-cart, cart-to-checkout. Guardrails: fraud prevention (must not block legitimate users), payment security (must be secure), user experience (must be smooth). Each funnel step has drop-off - I measure each step, identify biggest drop-off, hypothesize causes, and test fixes."
+
+**Framework:** `Conversion Rate → Cart Abandonment → Checkout Completion → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For conversion funnel metrics, I measure three key metrics.
+
+**1️⃣ Conversion Rate** → Purchases / visitors.
+
+**2️⃣ Cart Abandonment** → % of carts not completed.
+
+**3️⃣ Checkout Completion** → % of checkouts completed.
+
+**4️⃣ Input KPIs** → Add-to-cart rate, checkout initiation rate, payment success rate.
+
+**5️⃣ Guardrails** → Fraud prevention (must not block legitimate users), payment security (must be secure), user experience (must be smooth).
+
+**Key Principle:** Each funnel step has drop-off - measure each step, identify biggest drop-off, hypothesize causes, test fixes.
 
 ---
 
@@ -104,7 +148,24 @@
 - How do you measure payment success?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For transaction value and payment metrics, I measure AOV (Average Order Value = revenue/orders), repeat purchase rate (% of customers who buy again), and payment success rate (% of payments that succeed). Input KPIs: items per order, payment method mix, fraud rate. Leading indicators: add-to-cart value, payment initiation rate, first-repeat-purchase rate. Guardrails: fraud prevention (must be effective), payment security (must be secure), customer trust (must be maintained). Higher AOV and repeat purchases = higher LTV - focus on both."
+
+**Framework:** `AOV → Repeat Purchase Rate → Payment Success Rate → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For transaction value and payment metrics, I measure three key metrics.
+
+**1️⃣ AOV** → Average Order Value = revenue/orders.
+
+**2️⃣ Repeat Purchase Rate** → % of customers who buy again.
+
+**3️⃣ Payment Success Rate** → % of payments that succeed.
+
+**4️⃣ Input KPIs** → Items per order, payment method mix, fraud rate.
+
+**5️⃣ Guardrails** → Fraud prevention (must be effective), payment security (must be secure), customer trust (must be maintained).
+
+**Key Principle:** Higher AOV and repeat purchases = higher LTV - focus on both.
 
 ---
 
@@ -163,12 +224,3 @@ Before your interview, you should be able to:
 **Remember:** E-commerce/Fintech is about converting visitors to transactions. Metrics must capture both conversion efficiency and transaction value.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 3
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** E-commerce/Fintech metrics are about conversion (funnel efficiency) and transaction value (AOV, repeat purchases). Trust (fraud prevention, payment security) is critical.

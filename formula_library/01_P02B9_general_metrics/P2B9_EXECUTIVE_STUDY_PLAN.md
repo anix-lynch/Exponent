@@ -46,13 +46,39 @@
 - How would you define KPIs for [Feature]?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When defining metrics for any product or feature, I start by understanding what it does and who uses it. Then I define the NSM - the single metric that represents both user value (what do users care about?) and business value (what drives business?). It must be actionable (we can influence it), measurable (we can track it), and predictive (predicts long-term success). I then build the KPI ladder: Input KPIs that drive the NSM (user behavior, product quality, business drivers), Leading Indicators that give early signals (activation, engagement signals), and Guardrails that protect what must not break (user trust, long-term health, cost/compliance). The framework is universal, but the metrics are context-specific."
+
+**Framework:** `Understand Context → Define NSM → Build KPI Ladder → Input KPIs → Leading Indicators → Guardrails`
+
+**Memorizable Answer:**
+
+When defining metrics for any product or feature, I start by understanding what it does and who uses it.
+
+**1️⃣ Understand Context** → What does it do? Who uses it?
+
+**2️⃣ Define NSM** → Single metric that represents both user value (what do users care about?) and business value (what drives business?). Must be actionable (we can influence it), measurable (we can track it), and predictive (predicts long-term success).
+
+**3️⃣ Build KPI Ladder** → Input KPIs (user behavior, product quality, business drivers), Leading Indicators (activation, engagement signals), Guardrails (user trust, long-term health, cost/compliance).
+
+**Key Principle:** Framework is universal, but metrics are context-specific - adapt to the product/feature.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define success for [Product]:** Focus on product context → "For [Product], I'd first understand what it does and who uses it. Then I'd define NSM based on user value (what users care about) and business value (what drives business). For example, if it's a productivity app, NSM might be Weekly Active Users who complete tasks. Input KPIs: task completion rate, feature usage, user retention. Leading indicators: first-task-completion rate, time-to-first-value. Guardrails: user satisfaction, data privacy, platform reliability."
+- **Define success for [Product]:** Focus on product context
+  - "First understand: what does it do? Who uses it?"
+  - "Define NSM based on user value + business value"
+  - "Example: productivity app → NSM: Weekly Active Users who complete tasks"
+  - "Input KPIs: task completion rate, feature usage, user retention"
+  - "Leading indicators: first-task-completion rate, time-to-first-value"
+  - "Guardrails: user satisfaction, data privacy, platform reliability"
 
-- **What metrics for [Feature]:** Emphasize feature-specific → "For [Feature], I'd define NSM based on what value it provides. If it's a search feature, NSM might be Successful Searches per User. Input KPIs: search volume, search success rate, search-to-action conversion. Leading indicators: first-search rate, search success rate. Guardrails: search quality, user satisfaction, platform performance."
+- **What metrics for [Feature]:** Emphasize feature-specific
+  - "Define NSM based on what value it provides"
+  - "Example: search feature → NSM: Successful Searches per User"
+  - "Input KPIs: search volume, search success rate, search-to-action conversion"
+  - "Leading indicators: first-search rate, search success rate"
+  - "Guardrails: search quality, user satisfaction, platform performance"
 
 ---
 
@@ -78,7 +104,24 @@
 - How do you measure feature value?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For feature-specific metrics, I measure adoption (% of users who try the feature), engagement (usage per user), and value (outcomes achieved). Input KPIs: feature discovery rate, feature usage rate, feature value rate. Leading indicators: first-feature-use rate, time-to-first-value, feature retention rate. Guardrails: core product metrics don't drop, user experience maintained, feature reliability. The framework is: Adoption → Engagement → Value → Retention. Users must discover it, use it, get value from it, and come back to it."
+
+**Framework:** `Adoption → Engagement → Value → Retention`
+
+**Memorizable Answer:**
+
+For feature-specific metrics, I measure three key metrics.
+
+**1️⃣ Adoption** → % of users who try the feature.
+
+**2️⃣ Engagement** → Usage per user.
+
+**3️⃣ Value** → Outcomes achieved.
+
+**4️⃣ Input KPIs** → Feature discovery rate, feature usage rate, feature value rate.
+
+**5️⃣ Guardrails** → Core product metrics don't drop, user experience maintained, feature reliability.
+
+**Key Principle:** Users must discover it, use it, get value from it, and come back to it.
 
 ---
 
@@ -104,7 +147,24 @@
 - How do you measure incremental impact?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For product improvement metrics, I measure incremental lift (new metric - old metric), user satisfaction (NPS or satisfaction score), and cohort comparison (new users vs old users). Input KPIs: baseline metrics, improvement metrics, user feedback. Leading indicators: early adoption rate, satisfaction signals, engagement signals. Guardrails: core metrics don't drop, user experience maintained, long-term health preserved. I measure improvement incrementally - compare new vs old, segment by user type, validate with experiments, then scale what works."
+
+**Framework:** `Incremental Lift → User Satisfaction → Cohort Comparison → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For product improvement metrics, I measure three key metrics.
+
+**1️⃣ Incremental Lift** → New metric - old metric.
+
+**2️⃣ User Satisfaction** → NPS or satisfaction score.
+
+**3️⃣ Cohort Comparison** → New users vs old users.
+
+**4️⃣ Input KPIs** → Baseline metrics, improvement metrics, user feedback.
+
+**5️⃣ Guardrails** → Core metrics don't drop, user experience maintained, long-term health preserved.
+
+**Key Principle:** Measure improvement incrementally - compare new vs old, segment by user type, validate with experiments, scale what works.
 
 ---
 
@@ -130,7 +190,22 @@
 - How do you adapt metrics to different contexts?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For context-specific adaptations, I use the same NSM + KPI Ladder framework but adapt the metrics to the context. For consumer products, NSM is typically engagement (DAU, time spent). For B2B products, NSM is typically adoption (feature usage, seat utilization). For internal tools, NSM is typically efficiency (time saved, tasks completed). The framework is universal - NSM → Input KPIs → Leading Indicators → Guardrails - but the specific metrics depend on the context. I understand the context first, then apply the framework."
+
+**Framework:** `Understand Context → Apply Universal Framework → Adapt Metrics`
+
+**Memorizable Answer:**
+
+For context-specific adaptations, I use the same NSM + KPI Ladder framework but adapt the metrics to the context.
+
+**1️⃣ Consumer Products** → NSM: engagement (DAU, time spent).
+
+**2️⃣ B2B Products** → NSM: adoption (feature usage, seat utilization).
+
+**3️⃣ Internal Tools** → NSM: efficiency (time saved, tasks completed).
+
+**4️⃣ Universal Framework** → NSM → Input KPIs → Leading Indicators → Guardrails.
+
+**Key Principle:** Framework is universal, but specific metrics depend on context - understand context first, then apply framework.
 
 ---
 
@@ -195,12 +270,3 @@ Before your interview, you should be able to:
 **Remember:** General metrics use the same NSM + KPI Ladder framework, but you adapt the specific metrics to the product/feature context. Understand context first, then apply framework.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 76
-- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Universal framework → Context understanding → Metric adaptation → Narratives
-
-**Key Insight:** General metrics questions use the same NSM + KPI Ladder framework, but you must adapt the specific metrics to the product/feature context. The framework is universal, the metrics are context-specific.

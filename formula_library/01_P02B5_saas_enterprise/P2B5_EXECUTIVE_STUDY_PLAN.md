@@ -46,13 +46,40 @@
 - How would you define success for a product-led SaaS?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For SaaS/Enterprise products, the NSM is typically NRR (Net Revenue Retention) - expansion revenue minus churn, target > 100%. This captures both retention and growth from existing customers. Input KPIs: revenue (new customer acquisition, expansion revenue, contract renewals), product adoption (feature usage, seat utilization, integration adoption), and customer health (product engagement, support ticket volume, customer satisfaction/NPS). Leading indicators: time to value (how quickly customers see value), feature adoption rate, expansion signal strength. Guardrails: churn rate (must be low), CAC payback period (must be < 12 months), and customer concentration risk (no single customer > 20% of revenue)."
+
+**Framework:** `NSM (NRR) → Revenue KPIs → Product Adoption → Customer Health → Guardrails`
+
+**Memorizable Answer:**
+
+For SaaS/Enterprise products, the NSM is typically NRR (Net Revenue Retention) - expansion revenue minus churn, target > 100%.
+
+**1️⃣ NSM (NRR)** → Captures both retention and growth from existing customers (target > 100%).
+
+**2️⃣ Revenue KPIs** → New customer acquisition, expansion revenue, contract renewals.
+
+**3️⃣ Product Adoption** → Feature usage, seat utilization, integration adoption.
+
+**4️⃣ Customer Health** → Product engagement, support ticket volume, customer satisfaction/NPS.
+
+**5️⃣ Guardrails** → Churn rate (must be low), CAC payback period (must be < 12 months), customer concentration risk (no single customer > 20% of revenue).
+
+**Key Principle:** NRR > 100% means growing from existing customers - best type of growth.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for SaaS product:** Focus on recurring revenue → "For SaaS, NSM: NRR (Net Revenue Retention) - expansion minus churn, target > 100%. Input KPIs: new customer ARR, expansion ARR, churn ARR. Leading indicators: time to value, feature adoption, expansion signals. Guardrails: churn rate, CAC payback, customer concentration."
+- **Define NSM for SaaS product:** Focus on recurring revenue
+  - "NSM: NRR (Net Revenue Retention) - expansion minus churn, target > 100%"
+  - "Input KPIs: new customer ARR, expansion ARR, churn ARR"
+  - "Leading indicators: time to value, feature adoption, expansion signals"
+  - "Guardrails: churn rate, CAC payback, customer concentration"
 
-- **Measure enterprise software success:** Emphasize enterprise context → "For enterprise software, NSM: ARR Growth (new + expansion - churn). Input KPIs: new customer acquisition, expansion revenue, contract renewals, product adoption (seat utilization, feature usage). Leading indicators: time to value, feature adoption rate. Guardrails: churn rate, customer satisfaction, contract renewal rate."
+- **Measure enterprise software success:** Emphasize enterprise context
+  - "NSM: ARR Growth (new + expansion - churn)"
+  - "Input KPIs: new customer acquisition, expansion revenue, contract renewals, product adoption (seat utilization, feature usage)"
+  - "Leading indicators: time to value, feature adoption rate"
+  - "Guardrails: churn rate, customer satisfaction, contract renewal rate"
 
 ---
 
@@ -78,7 +105,24 @@
 - How do you measure expansion revenue?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For revenue metrics, I measure ARR (Annual Recurring Revenue) as the base, NRR (Net Revenue Retention) as the growth engine, and expansion rate as the driver. NRR = (Starting ARR + Expansion - Churn) / Starting ARR, target > 100%. Input KPIs: new customer ARR, expansion ARR (upsells, cross-sells), churn ARR. Leading indicators: expansion signal strength (feature usage, seat growth), time to expansion. Guardrails: churn rate (must be low), CAC payback (must be < 12 months), customer concentration (must be diversified). NRR > 100% means growing from existing customers, which is the best type of growth."
+
+**Framework:** `ARR → NRR → Expansion Rate → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For revenue metrics, I measure three key metrics.
+
+**1️⃣ ARR** → Annual Recurring Revenue - predictable revenue base.
+
+**2️⃣ NRR** → Net Revenue Retention = (Starting ARR + Expansion - Churn) / Starting ARR (target > 100%).
+
+**3️⃣ Expansion Rate** → % of customers who increase spend - drives NRR.
+
+**4️⃣ Input KPIs** → New customer ARR, expansion ARR (upsells, cross-sells), churn ARR.
+
+**5️⃣ Guardrails** → Churn rate (must be low), CAC payback (must be < 12 months), customer concentration (must be diversified).
+
+**Key Principle:** NRR > 100% means growing from existing customers - best type of growth.
 
 ---
 
@@ -104,7 +148,24 @@
 - How do you measure customer success?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For product adoption and customer health, I measure feature adoption (% using key features), seat utilization (% of seats used), and time to value (days to first value). Input KPIs: product engagement (sessions, features used), support ticket volume (lower is better), customer satisfaction (NPS). Leading indicators: first-feature-use rate, time-to-first-value, expansion signal strength. Guardrails: adoption depth (must use core features), support burden (must be manageable), customer satisfaction (must be positive). Adoption drives retention and expansion - customers who adopt deeply stay longer and expand more."
+
+**Framework:** `Feature Adoption → Seat Utilization → Time to Value → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For product adoption and customer health, I measure three key metrics.
+
+**1️⃣ Feature Adoption** → % using key features.
+
+**2️⃣ Seat Utilization** → % of seats used.
+
+**3️⃣ Time to Value** → Days to first value.
+
+**4️⃣ Input KPIs** → Product engagement (sessions, features used), support ticket volume (lower is better), customer satisfaction (NPS).
+
+**5️⃣ Guardrails** → Adoption depth (must use core features), support burden (must be manageable), customer satisfaction (must be positive).
+
+**Key Principle:** Adoption drives retention and expansion - customers who adopt deeply stay longer and expand more.
 
 ---
 
@@ -130,7 +191,24 @@
 - How do you measure payback period?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For acquisition and unit economics, I measure CAC (Customer Acquisition Cost), LTV (Lifetime Value), and payback period. LTV/CAC ratio target > 3:1, payback period target < 12 months. Input KPIs: CAC by channel, LTV by cohort, gross margin, churn rate. Leading indicators: conversion rate by channel, time to value, expansion signals. Guardrails: CAC payback (must be < 12 months), LTV/CAC (must be > 3:1), gross margin (must be > 70%). Healthy unit economics enable sustainable growth."
+
+**Framework:** `CAC → LTV → Payback Period → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For acquisition and unit economics, I measure three key metrics.
+
+**1️⃣ CAC** → Customer Acquisition Cost.
+
+**2️⃣ LTV** → Lifetime Value.
+
+**3️⃣ Payback Period** → Months to recover CAC (target < 12 months).
+
+**4️⃣ Input KPIs** → CAC by channel, LTV by cohort, gross margin, churn rate.
+
+**5️⃣ Guardrails** → CAC payback (must be < 12 months), LTV/CAC (must be > 3:1), gross margin (must be > 70%).
+
+**Key Principle:** Healthy unit economics enable sustainable growth.
 
 ---
 
@@ -190,12 +268,3 @@ Before your interview, you should be able to:
 **Remember:** SaaS/Enterprise is about recurring revenue and customer success. NRR > 100% means growing from existing customers, which is the best growth.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 11
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** SaaS/Enterprise metrics are about recurring revenue (ARR/MRR) and customer success (NRR, adoption). NRR > 100% is the gold standard.
