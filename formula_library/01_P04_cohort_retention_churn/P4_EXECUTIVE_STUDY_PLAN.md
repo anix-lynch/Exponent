@@ -83,19 +83,72 @@
 - Q1846: Suppose adoption is high, but retention is low—how would you diagnose and communicate the issue?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When I see a retention drop, I use cohort analysis because retention is inherently cohort-based. I define cohorts by signup time (month/week), acquisition source (ads/organic), or behavior (activated/not). Then I measure retention curves (D1, D7, D30, M3) and compare cohorts side-by-side to see which cohort is worse. I identify WHEN users churn: early (Day 0-1) suggests activation problem, Week 1 suggests value not clear, Month 1+ suggests habit/competition issue. I also identify WHO churns more: specific segments or channels. Then I hypothesize fixes: improve onboarding for early churn, clarify value for week 1 churn, reinforce habit for month 1+ churn. I test fixes and re-measure retention curves to see if they improved."
+
+**Framework:** `Define Cohorts → Measure Retention Curves → Compare Cohorts → Identify Churn Timing → Fix`
+
+**Memorizable Answer:**
+
+When I see a retention drop, I use cohort analysis because retention is inherently cohort-based.
+
+**1️⃣ Define Cohorts** → By signup time (month/week), acquisition source (ads/organic), or behavior (activated/not).
+
+**2️⃣ Measure Retention Curves** → D1, D7, D30, M3 for each cohort.
+
+**3️⃣ Compare Cohorts** → Side-by-side to see which cohort is worse.
+
+**4️⃣ Identify WHEN Users Churn** → Early (Day 0-1) = activation problem, Week 1 = value not clear, Month 1+ = habit/competition issue.
+
+**5️⃣ Identify WHO Churns** → Specific segments or channels.
+
+**6️⃣ Hypothesize Fixes** → Improve onboarding (early churn), clarify value (week 1 churn), reinforce habit (month 1+ churn).
+
+**7️⃣ Test & Re-measure** → Retention curves to see if they improved.
+
+**Key Principle:** Retention is inherently cohort-based - must compare cohorts over time.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q715 (35% drop in retention on Salesforce):** Focus on B2B context → "For Salesforce retention drop, I'd define cohorts by signup month and compare new customers vs earlier customers. I'd measure retention curves (D1, D7, D30, M3) and see which cohort dropped. I'd check WHEN they churn: if Day 0-1, it's onboarding/activation; if Month 1+, it's value/habit. I'd also check WHAT changed before churn: did usage drop? Did they complete setup? For B2B, likely causes: onboarding too complex, value not clear, or setup incomplete. I'd fix onboarding, force first key action in 24-48 hours, and add templates/checklists."
+- **Q715 (35% drop in retention on Salesforce):** Focus on B2B context
+  - "Define cohorts by signup month, compare new customers vs earlier customers"
+  - "Measure retention curves (D1, D7, D30, M3), see which cohort dropped"
+  - "Check WHEN they churn: Day 0-1 = onboarding/activation, Month 1+ = value/habit"
+  - "Check WHAT changed before churn: did usage drop? Did they complete setup?"
+  - "For B2B, likely causes: onboarding too complex, value not clear, setup incomplete"
+  - "Fixes: improve onboarding, force first key action in 24-48 hours, add templates/checklists"
 
-- **Q2157 (30-day retention decline):** Emphasize investigation → "For 30-day retention decline, I'd first check if it's a data bug, then define cohorts by signup month. I'd measure retention curves and compare recent cohorts to baseline. I'd identify WHEN users churn: early (Day 0-1) = activation, Week 1 = value, Month 1 = habit. I'd segment by acquisition channel to see if specific channels churn more. I'd check usage patterns before churn: did sessions drop? Did key actions stop? Then I'd hypothesize: onboarding gap, value not delivered, or habit not formed. I'd test fixes and re-measure."
+- **Q2157 (30-day retention decline):** Emphasize investigation
+  - "First check if data bug, then define cohorts by signup month"
+  - "Measure retention curves, compare recent cohorts to baseline"
+  - "Identify WHEN users churn: early (Day 0-1) = activation, Week 1 = value, Month 1 = habit"
+  - "Segment by acquisition channel to see if specific channels churn more"
+  - "Check usage patterns before churn: did sessions drop? Did key actions stop?"
+  - "Hypothesize: onboarding gap, value not delivered, habit not formed"
+  - "Test fixes and re-measure"
 
-- **Q2807 (Month-on-Month retention down 20%):** Focus on trend → "For Month-on-Month retention decline, I'd define cohorts by signup month and compare recent months to baseline. I'd measure retention curves (D1, D7, D30) to see where the drop is. I'd check if it's universal or specific to certain cohorts. Likely causes: product change that hurt retention, acquisition quality decline, or external factor (competitor, seasonality). I'd segment by cohort and channel to find the hot spot, then identify churn timing to understand the root cause."
+- **Q2807 (Month-on-Month retention down 20%):** Focus on trend
+  - "Define cohorts by signup month, compare recent months to baseline"
+  - "Measure retention curves (D1, D7, D30) to see where drop is"
+  - "Check if universal or specific to certain cohorts"
+  - "Likely causes: product change that hurt retention, acquisition quality decline, external factor (competitor, seasonality)"
+  - "Segment by cohort and channel to find hot spot, identify churn timing to understand root cause"
 
-- **Q82 (Low return rate of new users):** Emphasize return rate → "For low return rate, I'd define cohorts by signup week and measure return rate (users who come back). I'd compare cohorts to see if it's getting worse. I'd identify WHEN users don't return: Day 1? Week 1? This tells me if it's activation or value problem. I'd also check WHAT users do on first visit - do they see value? Do they complete key action? I'd segment by user type and acquisition source. Fixes: improve first-visit experience, guide to value, add reminders/nudges for return."
+- **Q82 (Low return rate of new users):** Emphasize return rate
+  - "Define cohorts by signup week, measure return rate (users who come back)"
+  - "Compare cohorts to see if getting worse"
+  - "Identify WHEN users don't return: Day 1? Week 1? → tells if activation or value problem"
+  - "Check WHAT users do on first visit - do they see value? Do they complete key action?"
+  - "Segment by user type and acquisition source"
+  - "Fixes: improve first-visit experience, guide to value, add reminders/nudges for return"
 
-- **Q1846 (Adoption high, retention low):** Focus on diagnosis → "If adoption is high but retention low, I'd map the user journey: sign up → first action → core value action → return D7. The drop is likely after first action - users try but don't return. I'd compare cohorts to see if it's recent or ongoing. I'd check: what do retained users do differently? Do they see long-term value? Is habit formed? I'd communicate: adoption is good (users try), but retention is low (users don't return) - we need to improve value delivery or habit formation. Fixes: guide to core value action, add reminders, improve onboarding."
+- **Q1846 (Adoption high, retention low):** Focus on diagnosis
+  - "Map user journey: sign up → first action → core value action → return D7"
+  - "Drop likely after first action - users try but don't return"
+  - "Compare cohorts to see if recent or ongoing"
+  - "Check: what do retained users do differently? Do they see long-term value? Is habit formed?"
+  - "Communicate: adoption is good (users try), but retention is low (users don't return) - need to improve value delivery or habit formation"
+  - "Fixes: guide to core value action, add reminders, improve onboarding"
 
 ---
 
@@ -121,15 +174,57 @@
 - Q2566: Why do Netflix users activated by watching series have low retention rates, and what solutions do you propose?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When I see churn increase, I use the same cohort analysis framework. I define cohorts by signup time and measure churn rate by cohort. I compare recent cohorts to baseline to see which cohort churns more. I identify WHEN users churn: early (Day 0-1) = activation problem, Week 1 = value not clear, Month 1+ = habit/competition. I also identify WHO churns: specific segments, channels, or user types. Then I hypothesize fixes based on churn timing: improve onboarding for early churn, clarify value for week 1 churn, reinforce habit for month 1+ churn. I test and re-measure churn rate."
+
+**Framework:** `Define Cohorts → Measure Churn Rate → Compare to Baseline → Identify Churn Timing → Fix`
+
+**Memorizable Answer:**
+
+When I see churn increase, I use the same cohort analysis framework.
+
+**1️⃣ Define Cohorts** → By signup time.
+
+**2️⃣ Measure Churn Rate** → By cohort.
+
+**3️⃣ Compare to Baseline** → Recent cohorts vs baseline to see which cohort churns more.
+
+**4️⃣ Identify WHEN Users Churn** → Early (Day 0-1) = activation problem, Week 1 = value not clear, Month 1+ = habit/competition.
+
+**5️⃣ Identify WHO Churns** → Specific segments, channels, or user types.
+
+**6️⃣ Hypothesize Fixes** → Based on churn timing: improve onboarding (early churn), clarify value (week 1 churn), reinforce habit (month 1+ churn).
+
+**7️⃣ Test & Re-measure** → Churn rate.
+
+**Key Principle:** Churn is the inverse of retention - same analysis, different framing.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q717 (40% increase in first month churn):** Focus on timing → "For first month churn increase, I'd define cohorts by signup month and measure churn rate in first month. I'd compare recent cohorts to baseline. If churn happens at Day 0-1, it's activation problem. If at Week 1, it's value problem. If at Month 1, it's habit problem. For HelloFresh (subscription), likely causes: first delivery quality mismatch, delivery timing issues, or price surprise. I'd check: what do retained users do differently? I'd fix: improve first-box customization, better expectation setting, or onboarding improvements."
+- **Q717 (40% increase in first month churn):** Focus on timing
+  - "Define cohorts by signup month, measure churn rate in first month"
+  - "Compare recent cohorts to baseline"
+  - "If churn at Day 0-1 = activation problem, Week 1 = value problem, Month 1 = habit problem"
+  - "For HelloFresh (subscription), likely causes: first delivery quality mismatch, delivery timing issues, price surprise"
+  - "Check: what do retained users do differently?"
+  - "Fixes: improve first-box customization, better expectation setting, onboarding improvements"
 
-- **Q97 (1M subscribers not logging in):** Emphasize inactive users → "For inactive subscribers, I'd define cohorts by signup month and measure login rate by cohort. I'd compare cohorts to see if it's recent or ongoing. I'd check WHEN they stopped logging in: after first week? After first month? I'd also check WHAT they did before stopping: did they watch content? Did they find value? I'd segment by user type and content preferences. Likely causes: content not relevant, value not clear, or habit not formed. Fixes: improve recommendations, show value earlier, add reminders/nudges."
+- **Q97 (1M subscribers not logging in):** Emphasize inactive users
+  - "Define cohorts by signup month, measure login rate by cohort"
+  - "Compare cohorts to see if recent or ongoing"
+  - "Check WHEN they stopped logging in: after first week? After first month?"
+  - "Check WHAT they did before stopping: did they watch content? Did they find value?"
+  - "Segment by user type and content preferences"
+  - "Likely causes: content not relevant, value not clear, habit not formed"
+  - "Fixes: improve recommendations, show value earlier, add reminders/nudges"
 
-- **Q98 (1M inactive but paying users):** Focus on paying but not using → "For paying but inactive users, I'd define cohorts by signup month and measure activity rate by cohort. I'd check WHEN they became inactive: after first week? After first month? I'd also check WHAT changed: did content preferences change? Did they run out of content? For subscription products, this is dangerous - they'll churn soon. I'd segment by user type and content consumption. Fixes: re-engage with personalized content, show value, or offer pause option instead of churn."
+- **Q98 (1M inactive but paying users):** Focus on paying but not using
+  - "Define cohorts by signup month, measure activity rate by cohort"
+  - "Check WHEN they became inactive: after first week? After first month?"
+  - "Check WHAT changed: did content preferences change? Did they run out of content?"
+  - "For subscription products, this is dangerous - they'll churn soon"
+  - "Segment by user type and content consumption"
+  - "Fixes: re-engage with personalized content, show value, offer pause option instead of churn"
 
 ---
 
@@ -155,13 +250,45 @@
 - Q2566: Why do Netflix users activated by watching series have low retention rates, and what solutions do you propose?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When comparing cohorts, I define cohorts by signup time, acquisition source, or behavior. I measure retention curves (D1, D7, D30, M3) for each cohort and compare them side-by-side. I look at both absolute level (how high/low) and shape (early cliff vs slow decay). If one cohort is worse, I investigate what's different: acquisition quality, onboarding, or product experience. I learn from the better cohort - what did they do right? Then I apply those learnings to improve the worse cohort. The key is comparing retention curves, not just single metrics."
+
+**Framework:** `Define Cohorts → Measure Retention Curves → Compare Side-by-Side → Learn from Better Cohort`
+
+**Memorizable Answer:**
+
+When comparing cohorts, I define cohorts by signup time, acquisition source, or behavior.
+
+**1️⃣ Define Cohorts** → By signup time, acquisition source, or behavior.
+
+**2️⃣ Measure Retention Curves** → D1, D7, D30, M3 for each cohort.
+
+**3️⃣ Compare Side-by-Side** → Look at both absolute level (how high/low) and shape (early cliff vs slow decay).
+
+**4️⃣ Investigate Differences** → If one cohort is worse, investigate: acquisition quality, onboarding, or product experience.
+
+**5️⃣ Learn from Better Cohort** → What did they do right?
+
+**6️⃣ Apply Learnings** → Improve the worse cohort.
+
+**Key Principle:** Compare retention curves, not just single metrics.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1581 (Use cohorts to identify retention issues):** Focus on methodology → "To identify retention issues with cohorts, I'd define cohorts by signup month and measure retention curves for each. I'd compare cohorts side-by-side to see which has lower retention. I'd check WHEN users churn: early (activation), week 1 (value), or month 1+ (habit). I'd also segment cohorts by acquisition source, user type, or behavior to find patterns. If one cohort is worse, I'd investigate what's different and learn from better cohorts."
+- **Q1581 (Use cohorts to identify retention issues):** Focus on methodology
+  - "Define cohorts by signup month, measure retention curves for each"
+  - "Compare cohorts side-by-side to see which has lower retention"
+  - "Check WHEN users churn: early (activation), week 1 (value), month 1+ (habit)"
+  - "Segment cohorts by acquisition source, user type, or behavior to find patterns"
+  - "If one cohort is worse, investigate what's different and learn from better cohorts"
 
-- **Q2887 (Canada vs US conversions):** Emphasize geographic comparison → "For Canada vs US, I'd define cohorts by geography and signup month. I'd measure conversion funnels and retention curves for each. I'd compare side-by-side to see where Canada differs: acquisition quality, onboarding, product fit, or market conditions. I'd segment by user type and acquisition channel within each geography. Likely causes: market fit, localization, or acquisition quality. I'd learn from US success and adapt for Canada."
+- **Q2887 (Canada vs US conversions):** Emphasize geographic comparison
+  - "Define cohorts by geography and signup month"
+  - "Measure conversion funnels and retention curves for each"
+  - "Compare side-by-side to see where Canada differs: acquisition quality, onboarding, product fit, market conditions"
+  - "Segment by user type and acquisition channel within each geography"
+  - "Likely causes: market fit, localization, acquisition quality"
+  - "Learn from US success and adapt for Canada"
 
 ---
 
@@ -187,11 +314,38 @@
 - Q2723: You're a PM at AllTrails. How would you improve its retention rates, including for its premium subscription service?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When adoption is high but retention is low, I map the user journey: sign up → first action → core value action → return D7. The drop is likely after first action - users try but don't return. I'd compare cohorts to see if it's recent or ongoing. I'd check: what do retained users do differently? Do they see long-term value? Is habit formed? I'd communicate: adoption is good (users try), but retention is low (users don't return) - we need to improve value delivery or habit formation. Fixes: guide to core value action, add reminders/nudges, improve onboarding to show long-term value."
+
+**Framework:** `Map User Journey → Find Drop Point → Compare Cohorts → Identify Issue → Fix`
+
+**Memorizable Answer:**
+
+When adoption is high but retention is low, I map the user journey.
+
+**1️⃣ Map User Journey** → Sign up → first action → core value action → return D7.
+
+**2️⃣ Find Drop Point** → Drop likely after first action - users try but don't return.
+
+**3️⃣ Compare Cohorts** → See if it's recent or ongoing.
+
+**4️⃣ Check Retained Users** → What do they do differently? Do they see long-term value? Is habit formed?
+
+**5️⃣ Communicate** → Adoption is good (users try), but retention is low (users don't return) - need to improve value delivery or habit formation.
+
+**6️⃣ Fixes** → Guide to core value action, add reminders/nudges, improve onboarding to show long-term value.
+
+**Key Principle:** Adoption = users try, Retention = users come back - different problems need different fixes.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q2566 (Netflix users activated by series have low retention):** Focus on activation method → "If users activated by watching series have low retention, I'd compare cohorts: series-activated vs other-activated. I'd measure retention curves for each. I'd check WHEN they churn: if early, series might not be habit-forming. I'd also check WHAT they do: do they watch more series? Do they explore other content? Likely issue: series creates one-time engagement but not habit. Fixes: guide to next series, create watchlists, add recommendations, or use series as gateway to broader content."
+- **Q2566 (Netflix users activated by series have low retention):** Focus on activation method
+  - "Compare cohorts: series-activated vs other-activated"
+  - "Measure retention curves for each"
+  - "Check WHEN they churn: if early, series might not be habit-forming"
+  - "Check WHAT they do: do they watch more series? Do they explore other content?"
+  - "Likely issue: series creates one-time engagement but not habit"
+  - "Fixes: guide to next series, create watchlists, add recommendations, use series as gateway to broader content"
 
 ---
 
@@ -237,15 +391,3 @@ Before your interview, you should be able to:
 **Remember:** P4 is about cohort-based retention analysis. Retention is inherently cohort-based - you cannot measure retention without cohorts.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 351 (but most are mis-tagged Product Design)
-- **Actual P4 Questions:** ~10-15 retention/churn questions
-- **High-Priority Questions:** ~20 (5 per bucket across 4 buckets)
-- **Study Time:** 2-3 hours total
-- **Approach:** Concept clusters → Board slides → Representative questions → Narratives
-
-**Key Insight:** P4 questions are about retention/churn, which requires cohort analysis. The framework: Define Cohorts → Measure Retention → Identify Churn Drivers → Fix.
-
-**Key Distinction:** P4 (Cohort) = WHEN do users leave? Which cohorts are worse? (multiple sessions over time). P3 (Funnel) = WHERE do users drop? (single journey steps).

@@ -85,19 +85,63 @@
 - Q690: Design Whatsapp for either one of 3 segments: senior citizens, families, or businesses.
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When I need to segment users, I use the Persona × Behavior × Value framework. First, I define Personas (WHO): demographics like age, role, company size, plus context like job-to-be-done and environment. Then I define Behaviors (HOW): frequency of use (daily/weekly/occasional), depth of usage (light vs power users), and lifecycle stage (new/active/mature). Next, I assess Value (WHY): revenue metrics like ARPU and LTV, strategic value like growth potential and network effects, and cost/risk like support burden and churn risk. I combine these into segments (Persona × Behavior × Value) and rank them by impact on core metric, size/growth potential, and effort to serve. Finally, I focus on the top segment as the primary design target, with a secondary segment as nice-to-have, and deprioritize the rest."
+
+**Framework:** `Persona (WHO) × Behavior (HOW) × Value (WHY) → Rank → Focus`
+
+**Memorizable Answer:**
+
+When I need to segment users, I use the Persona × Behavior × Value framework.
+
+**1️⃣ Define Personas (WHO)** → Demographics (age, role, company size), context (job-to-be-done, environment).
+
+**2️⃣ Define Behaviors (HOW)** → Frequency of use (daily/weekly/occasional), depth of usage (light vs power users), lifecycle stage (new/active/mature).
+
+**3️⃣ Assess Value (WHY)** → Revenue metrics (ARPU, LTV), strategic value (growth potential, network effects), cost/risk (support burden, churn risk).
+
+**4️⃣ Combine into Segments** → Persona × Behavior × Value.
+
+**5️⃣ Rank Segments** → By impact on core metric, size/growth potential, effort to serve.
+
+**6️⃣ Focus** → Top segment as primary design target, secondary segment as nice-to-have, deprioritize the rest.
+
+**Key Principle:** Segmentation = WHO they are × HOW they behave × WHY they matter.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q153 (Understanding customers/core audiences):** Focus on research methods → "To understand customers, I'd use the Persona × Behavior × Value framework. I'd start by defining Personas through user research: interviews, surveys, and data analysis to identify demographics, context, and needs. Then I'd analyze Behaviors: usage frequency, depth, and lifecycle stage from product analytics. I'd assess Value through revenue metrics (ARPU, LTV) and strategic value (growth, network effects). I'd combine these into segments and rank them to identify the core audience that matters most."
+- **Q153 (Understanding customers/core audiences):** Focus on research methods
+  - "Define Personas through user research: interviews, surveys, data analysis to identify demographics, context, needs"
+  - "Analyze Behaviors: usage frequency, depth, lifecycle stage from product analytics"
+  - "Assess Value: revenue metrics (ARPU, LTV), strategic value (growth, network effects)"
+  - "Combine into segments and rank to identify core audience that matters most"
 
-- **Q1069 (Create buyer personas):** Emphasize persona creation → "To create buyer personas, I'd start with Personas: demographics (age, role, company size), context (job-to-be-done, environment), and needs/constraints. I'd gather this through user interviews, surveys, and data analysis. Then I'd map Behaviors: how often they use the product, depth of usage, and lifecycle stage. I'd assess Value: revenue contribution, strategic importance, and cost/risk. I'd combine these into segments and rank them to create 3-5 distinct buyer personas, each representing a high-value segment."
+- **Q1069 (Create buyer personas):** Emphasize persona creation
+  - "Start with Personas: demographics (age, role, company size), context (job-to-be-done, environment), needs/constraints"
+  - "Gather through user interviews, surveys, data analysis"
+  - "Map Behaviors: how often they use product, depth of usage, lifecycle stage"
+  - "Assess Value: revenue contribution, strategic importance, cost/risk"
+  - "Combine into segments and rank to create 3-5 distinct buyer personas, each representing high-value segment"
 
-- **Q1559 (Segment users for e-commerce platform):** Focus on e-commerce context → "For e-commerce segmentation, I'd define Personas: demographics (age, income, location), shopping context (occasion, urgency), and needs (price-sensitive, quality-focused, convenience). Then I'd analyze Behaviors: purchase frequency (daily/weekly/occasional), basket size (small/medium/large), and product categories. I'd assess Value: revenue (AOV, LTV), strategic value (repeat purchases, referrals), and cost (returns, support). I'd combine into segments like 'Power Shoppers × High Frequency × High Value' and rank them to focus on the most valuable segment."
+- **Q1559 (Segment users for e-commerce platform):** Focus on e-commerce context
+  - "Define Personas: demographics (age, income, location), shopping context (occasion, urgency), needs (price-sensitive, quality-focused, convenience)"
+  - "Analyze Behaviors: purchase frequency (daily/weekly/occasional), basket size (small/medium/large), product categories"
+  - "Assess Value: revenue (AOV, LTV), strategic value (repeat purchases, referrals), cost (returns, support)"
+  - "Combine into segments like 'Power Shoppers × High Frequency × High Value' and rank to focus on most valuable segment"
 
-- **Q2147 (Segment customers for growth initiative):** Emphasize growth focus → "For growth segmentation, I'd identify high-growth-potential segments using Persona × Behavior × Value. I'd define Personas that represent untapped markets or expansion opportunities. I'd analyze Behaviors that indicate growth potential: new users, increasing engagement, or expanding usage. I'd assess Value: high LTV, low CAC, strong network effects, or strategic importance. I'd rank segments by growth potential (size × growth rate × value) and focus on the top segment for the growth initiative."
+- **Q2147 (Segment customers for growth initiative):** Emphasize growth focus
+  - "Identify high-growth-potential segments using Persona × Behavior × Value"
+  - "Define Personas representing untapped markets or expansion opportunities"
+  - "Analyze Behaviors indicating growth potential: new users, increasing engagement, expanding usage"
+  - "Assess Value: high LTV, low CAC, strong network effects, strategic importance"
+  - "Rank segments by growth potential (size × growth rate × value), focus on top segment for growth initiative"
 
-- **Q690 (Design WhatsApp for 3 segments):** Focus on product design → "To design for specific segments, I'd use Persona × Behavior × Value to understand each segment. For senior citizens: Persona (age 65+, less tech-savvy, need simplicity), Behavior (occasional use, voice calls preferred), Value (family connection, low churn). For families: Persona (parents, multi-generational, need coordination), Behavior (daily use, group chats, media sharing), Value (high engagement, network effects). For businesses: Persona (small/medium businesses, need efficiency), Behavior (daily use, team coordination), Value (high LTV, expansion potential). I'd rank segments and design for the primary segment while ensuring secondary segments aren't excluded."
+- **Q690 (Design WhatsApp for 3 segments):** Focus on product design
+  - "Use Persona × Behavior × Value to understand each segment"
+  - "Senior citizens: Persona (age 65+, less tech-savvy, need simplicity), Behavior (occasional use, voice calls preferred), Value (family connection, low churn)"
+  - "Families: Persona (parents, multi-generational, need coordination), Behavior (daily use, group chats, media sharing), Value (high engagement, network effects)"
+  - "Businesses: Persona (small/medium businesses, need efficiency), Behavior (daily use, team coordination), Value (high LTV, expansion potential)"
+  - "Rank segments and design for primary segment while ensuring secondary segments aren't excluded"
 
 ---
 
@@ -123,13 +167,44 @@
 - Q123: Assuming a third-party company can detect smells, how would you assess the market opportunity and which segment would you target? (segment targeting angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When deciding on market or geographic segments, I use the same Persona × Behavior × Value framework. For Personas, I define market demographics, geographic characteristics, and cultural context. For Behaviors, I analyze market adoption patterns, usage frequency, and growth trajectory. For Value, I assess market size, growth potential, revenue opportunity, and strategic importance. I combine these into market segments and rank them by market size, growth rate, and value. I focus on the top market segment as the target for expansion or investment."
+
+**Framework:** `Market Persona × Market Behavior × Market Value → Rank → Focus`
+
+**Memorizable Answer:**
+
+When deciding on market or geographic segments, I use the same Persona × Behavior × Value framework.
+
+**1️⃣ Market Personas** → Market demographics, geographic characteristics, cultural context.
+
+**2️⃣ Market Behaviors** → Market adoption patterns, usage frequency, growth trajectory.
+
+**3️⃣ Market Value** → Market size, growth potential, revenue opportunity, strategic importance.
+
+**4️⃣ Combine into Market Segments** → Persona × Behavior × Value.
+
+**5️⃣ Rank Markets** → By market size, growth rate, value.
+
+**6️⃣ Focus** → Top market segment as target for expansion or investment.
+
+**Key Principle:** Same framework, applied to markets instead of users.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q60 (Next market segment and geography for autonomous vehicles):** Focus on market selection → "For autonomous vehicles, I'd use Persona × Behavior × Value to select the next market. Personas: demographics (urban vs suburban, age groups), geography (cities with high traffic, good infrastructure), and context (commuting needs, ride-sharing demand). Behaviors: adoption patterns (early adopters, tech-savvy users), usage frequency (daily commuters, occasional users), and growth trajectory. Value: market size (population, vehicle ownership), growth potential (urbanization trends), revenue opportunity (ride-sharing, delivery), and strategic importance (regulatory environment, partnerships). I'd rank markets and focus on the top segment for expansion."
+- **Q60 (Next market segment and geography for autonomous vehicles):** Focus on market selection
+  - "Use Persona × Behavior × Value to select next market"
+  - "Personas: demographics (urban vs suburban, age groups), geography (cities with high traffic, good infrastructure), context (commuting needs, ride-sharing demand)"
+  - "Behaviors: adoption patterns (early adopters, tech-savvy users), usage frequency (daily commuters, occasional users), growth trajectory"
+  - "Value: market size (population, vehicle ownership), growth potential (urbanization trends), revenue opportunity (ride-sharing, delivery), strategic importance (regulatory environment, partnerships)"
+  - "Rank markets and focus on top segment for expansion"
 
-- **Q123 (Market opportunity for smell detection):** Emphasize opportunity assessment → "For smell detection market opportunity, I'd segment markets using Persona × Behavior × Value. Personas: demographics (industries, use cases), context (safety, quality control, healthcare), and needs (detection, monitoring, diagnosis). Behaviors: adoption patterns (early adopters, regulatory requirements), usage frequency (continuous monitoring, periodic checks), and growth trajectory. Value: market size (addressable market), growth potential (regulatory trends, technology adoption), revenue opportunity (B2B sales, recurring revenue), and strategic importance (first-mover advantage). I'd rank segments and target the highest-value segment."
+- **Q123 (Market opportunity for smell detection):** Emphasize opportunity assessment
+  - "Segment markets using Persona × Behavior × Value"
+  - "Personas: demographics (industries, use cases), context (safety, quality control, healthcare), needs (detection, monitoring, diagnosis)"
+  - "Behaviors: adoption patterns (early adopters, regulatory requirements), usage frequency (continuous monitoring, periodic checks), growth trajectory"
+  - "Value: market size (addressable market), growth potential (regulatory trends, technology adoption), revenue opportunity (B2B sales, recurring revenue), strategic importance (first-mover advantage)"
+  - "Rank segments and target highest-value segment"
 
 ---
 
@@ -155,13 +230,44 @@
 - Q1021: How can engagement be improved for the 13-19 age group on Instagram? (segment-specific improvement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When analyzing engagement or behavior by segment, I use Persona × Behavior × Value. I define Personas (user demographics, context, needs), then analyze Behaviors (engagement patterns, content preferences, usage frequency), and assess Value (engagement metrics like time spent and actions, retention value, strategic value). I combine into segments and rank them by engagement impact, segment size, and value. I focus on high-engagement segments to improve overall engagement."
+
+**Framework:** `Persona × Behavior × Value → Rank by Engagement → Focus`
+
+**Memorizable Answer:**
+
+When analyzing engagement or behavior by segment, I use Persona × Behavior × Value.
+
+**1️⃣ Define Personas** → User demographics, context, needs.
+
+**2️⃣ Analyze Behaviors** → Engagement patterns, content preferences, usage frequency.
+
+**3️⃣ Assess Value** → Engagement metrics (time spent, actions), retention value, strategic value.
+
+**4️⃣ Combine into Segments** → Persona × Behavior × Value.
+
+**5️⃣ Rank by Engagement** → Engagement impact, segment size, value.
+
+**6️⃣ Focus** → High-engagement segments to improve overall engagement.
+
+**Key Principle:** Identify which segments drive engagement, then focus on those.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q895 (Content from friends vs creators engagement):** Focus on content analysis → "To analyze content engagement, I'd segment by content type using Persona × Behavior × Value. Personas: users who engage with friends' content vs creators' content, their demographics and context. Behaviors: engagement patterns (likes, comments, shares, time spent), frequency of engagement, and content preferences. Value: engagement metrics (time spent, actions per session), retention value (do engaged users return?), and strategic value (network effects, creator ecosystem). I'd compare segments and identify which drives higher engagement, then focus on that content type."
+- **Q895 (Content from friends vs creators engagement):** Focus on content analysis
+  - "Segment by content type using Persona × Behavior × Value"
+  - "Personas: users who engage with friends' content vs creators' content, their demographics and context"
+  - "Behaviors: engagement patterns (likes, comments, shares, time spent), frequency of engagement, content preferences"
+  - "Value: engagement metrics (time spent, actions per session), retention value (do engaged users return?), strategic value (network effects, creator ecosystem)"
+  - "Compare segments and identify which drives higher engagement, then focus on that content type"
 
-- **Q1021 (Improve engagement for 13-19 age group):** Emphasize age segment → "To improve engagement for 13-19 age group, I'd use Persona × Behavior × Value. Persona: age 13-19, their context (school, social, entertainment), and needs (connection, self-expression, discovery). Behaviors: current engagement patterns (what they do, how often, what content), usage frequency, and preferences. Value: engagement metrics (time spent, actions), retention value, and strategic value (future users, network effects). I'd identify gaps in engagement and focus on improving features/content that matter to this segment."
+- **Q1021 (Improve engagement for 13-19 age group):** Emphasize age segment
+  - "Use Persona × Behavior × Value"
+  - "Persona: age 13-19, context (school, social, entertainment), needs (connection, self-expression, discovery)"
+  - "Behaviors: current engagement patterns (what they do, how often, what content), usage frequency, preferences"
+  - "Value: engagement metrics (time spent, actions), retention value, strategic value (future users, network effects)"
+  - "Identify gaps in engagement and focus on improving features/content that matter to this segment"
 
 ---
 
@@ -187,15 +293,50 @@
 - Q995: Google TV is a hardware product and tech reviewers love it. However, out of 1,000 customers, 40% are 1-star reviews and 40% are 5-star reviews. What would you do? (review segmentation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When segmenting users for churn analysis, I use Persona × Behavior × Value. I define Personas (demographics, lifecycle stage, acquisition source), then analyze Behaviors (usage patterns before churn, engagement decline, feature usage), and assess Value (churn risk, revenue at risk, strategic importance). I combine into segments and rank them by churn risk, segment size, and value. I focus on high-risk segments to prevent churn."
+
+**Framework:** `Persona × Behavior × Value → Rank by Churn Risk → Focus on High-Risk`
+
+**Memorizable Answer:**
+
+When segmenting users for churn analysis, I use Persona × Behavior × Value.
+
+**1️⃣ Define Personas** → Demographics, lifecycle stage, acquisition source.
+
+**2️⃣ Analyze Behaviors** → Usage patterns before churn, engagement decline, feature usage.
+
+**3️⃣ Assess Value** → Churn risk, revenue at risk, strategic importance.
+
+**4️⃣ Combine into Segments** → Persona × Behavior × Value.
+
+**5️⃣ Rank by Churn Risk** → Churn risk, segment size, value.
+
+**6️⃣ Focus** → High-risk segments to prevent churn.
+
+**Key Principle:** Identify which segments are at risk, then focus on preventing their churn.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q2184 (Segment users for churn analysis):** Focus on methodology → "To segment users for churn analysis, I'd use Persona × Behavior × Value. Personas: demographics (age, role, company size), lifecycle stage (new, active, mature), and acquisition source (ads, organic, referral). Behaviors: usage patterns before churn (did usage drop?), engagement decline (when did they disengage?), and feature usage (which features did they stop using?). Value: churn risk (probability of churn), revenue at risk (LTV of at-risk users), and strategic importance. I'd combine into segments and rank by churn risk to identify high-risk segments."
+- **Q2184 (Segment users for churn analysis):** Focus on methodology
+  - "Use Persona × Behavior × Value"
+  - "Personas: demographics (age, role, company size), lifecycle stage (new, active, mature), acquisition source (ads, organic, referral)"
+  - "Behaviors: usage patterns before churn (did usage drop?), engagement decline (when did they disengage?), feature usage (which features did they stop using?)"
+  - "Value: churn risk (probability of churn), revenue at risk (LTV of at-risk users), strategic importance"
+  - "Combine into segments and rank by churn risk to identify high-risk segments"
 
-- **Q2459 (Visualizations for churn patterns):** Emphasize visualization → "To visualize churn patterns, I'd use segments from Persona × Behavior × Value. I'd create visualizations like: cohort retention curves by segment, churn rate by persona, engagement decline by behavior, and revenue at risk by value. I'd use heatmaps to show churn risk across segments, and time series to show when churn happens. The goal is to identify which segments (Persona × Behavior × Value combinations) have the highest churn risk."
+- **Q2459 (Visualizations for churn patterns):** Emphasize visualization
+  - "Use segments from Persona × Behavior × Value"
+  - "Create visualizations: cohort retention curves by segment, churn rate by persona, engagement decline by behavior, revenue at risk by value"
+  - "Use heatmaps to show churn risk across segments, time series to show when churn happens"
+  - "Goal: identify which segments (Persona × Behavior × Value combinations) have highest churn risk"
 
-- **Q995 (Google TV review segmentation):** Focus on review analysis → "For the review split (40% 1-star, 40% 5-star), I'd segment users using Persona × Behavior × Value. Personas: demographics (tech-savvy vs non-tech), context (early adopters vs mainstream), and needs (features vs simplicity). Behaviors: usage patterns (power users vs casual), engagement (daily vs occasional), and feature usage. Value: satisfaction (5-star = high, 1-star = low), strategic importance. I'd identify what differentiates 5-star from 1-star segments and focus on improving the experience for the 1-star segment."
+- **Q995 (Google TV review segmentation):** Focus on review analysis
+  - "Segment users using Persona × Behavior × Value"
+  - "Personas: demographics (tech-savvy vs non-tech), context (early adopters vs mainstream), needs (features vs simplicity)"
+  - "Behaviors: usage patterns (power users vs casual), engagement (daily vs occasional), feature usage"
+  - "Value: satisfaction (5-star = high, 1-star = low), strategic importance"
+  - "Identify what differentiates 5-star from 1-star segments, focus on improving experience for 1-star segment"
 
 ---
 
