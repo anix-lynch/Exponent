@@ -76,13 +76,75 @@
 - Q790: Explain data drifting. (metric interpretation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When interpreting metrics, I use Metric Moved → Proxy Validity → Gaming Risk → Context Checks → Decide. First, I check Metric Moved: What exactly changed? Direction (Up/down/flat - which direction did the metric move?), Magnitude (Small blip vs step-change - how significant is the change?), Scope (Which segment, surface, cohort - where is the change happening?), Time (One day spike vs sustained trend - is this temporary or ongoing?), Aggregation level (Overall metric vs segment-level metrics - check for Simpson's paradox). Rule: Never react to a single datapoint. Second, I validate Proxy Validity: Does this metric mean what we think? Is it a proxy or the real goal? (Is this metric a stand-in for something else, or the actual outcome?), How tightly correlated to value? (Does this metric actually predict business value or user satisfaction?), Leading vs lagging? (Is this a leading indicator - predicts future, or lagging indicator - reflects past?), Any known blind spots? (Are there scenarios where this metric is misleading or incomplete?). Example: CTR ↑ but satisfaction ↓ → weak proxy. Third, I assess Gaming & Incentives: Can it be manipulated? By users? (Spam, bots, churn masking - are users gaming the system?), By teams? (Optimize metric, hurt product - are teams optimizing for the metric at the expense of real value?), By design? (Dark patterns, forced clicks - is the product design encouraging manipulation?), By reporting? (Definition drift - are we changing how we measure this over time?). Rule: If it's tied to goals/bonuses, it WILL be gamed. Fourth, I check Context: Is this causal? Seasonality? (Is this a seasonal pattern we've seen before?), Launches/experiments? (Did we recently launch a feature or run an experiment?), External events? (Are there external factors - news, holidays, market changes - affecting this?), Data pipeline issues? (Could this be a data quality problem or reporting error?), Aggregation bias? (Is the overall metric hiding important segment-level differences - Simpson's paradox?), Correlation vs causation (Is this change actually caused by what we think, or just correlated?). Finally, I Decide: Now what? Ignore (Noise or bad proxy - not worth acting on), Monitor (Unclear, need more data - watch and wait), Investigate (Signal but ambiguous - dig deeper), Act (Strong signal + aligned proxy - take action). Output: 'We believe X changed because Y, so we will Z.' The key principle: A metric moving is not the same as progress. Proxies decay over time. If a metric becomes a target, it stops being a metric. Context beats dashboards."
+
+**Framework:** `Metric Moved → Proxy Validity → Gaming Risk → Context Checks → Decide`
+
+**Memorizable Answer:**
+
+When interpreting metrics, I use Metric Moved → Proxy Validity → Gaming Risk → Context Checks → Decide.
+
+**1️⃣ Metric Moved** → What exactly changed?
+  - **Direction:** Up/down/flat (which direction did the metric move?)
+  - **Magnitude:** Small blip vs step-change (how significant is the change?)
+  - **Scope:** Which segment, surface, cohort (where is the change happening?)
+  - **Time:** One day spike vs sustained trend (is this temporary or ongoing?)
+  - **Aggregation level:** Overall metric vs segment-level metrics (check for Simpson's paradox)
+
+**Rule:** Never react to a single datapoint.
+
+**2️⃣ Proxy Validity** → Does this metric mean what we think?
+  - **Is it a proxy or the real goal?** Is this metric a stand-in for something else, or the actual outcome?
+  - **How tightly correlated to value?** Does this metric actually predict business value or user satisfaction?
+  - **Leading vs lagging?** Is this a leading indicator (predicts future) or lagging indicator (reflects past)?
+  - **Any known blind spots?** Are there scenarios where this metric is misleading or incomplete?
+
+**Example:** CTR ↑ but satisfaction ↓ → weak proxy.
+
+**3️⃣ Gaming & Incentives** → Can it be manipulated?
+  - **By users?** Spam, bots, churn masking (are users gaming the system?)
+  - **By teams?** Optimize metric, hurt product (are teams optimizing for the metric at the expense of real value?)
+  - **By design?** Dark patterns, forced clicks (is the product design encouraging manipulation?)
+  - **By reporting?** Definition drift (are we changing how we measure this over time?)
+
+**Rule:** If it's tied to goals/bonuses, it WILL be gamed.
+
+**4️⃣ Context Checks** → Is this causal?
+  - **Seasonality?** Is this a seasonal pattern we've seen before?
+  - **Launches/experiments?** Did we recently launch a feature or run an experiment?
+  - **External events?** Are there external factors (news, holidays, market changes) affecting this?
+  - **Data pipeline issues?** Could this be a data quality problem or reporting error?
+  - **Aggregation bias?** Is the overall metric hiding important segment-level differences (Simpson's paradox)?
+  - **Correlation vs causation:** Is this change actually caused by what we think, or just correlated?
+
+**5️⃣ Decide** → Now what?
+  - **Ignore:** Noise or bad proxy (not worth acting on)
+  - **Monitor:** Unclear, need more data (watch and wait)
+  - **Investigate:** Signal but ambiguous (dig deeper)
+  - **Act:** Strong signal + aligned proxy (take action)
+
+**Output:** "We believe X changed because Y, so we will Z."
+
+**Key Principle:** A metric moving is not the same as progress. Proxies decay over time. If a metric becomes a target, it stops being a metric. Context beats dashboards.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q144 (Simpson's paradox):** Focus on aggregation bias → "To explain Simpson's paradox in university acceptance rates, I'd: Metric Moved (Overall acceptance rate: Lower for female-identifying students, Department-level: Higher acceptance rate for female-identifying students in every department, Aggregation level: Overall metric vs segment-level metrics - this is Simpson's paradox, Direction: Down at overall level, up at department level, Magnitude: Significant difference, Scope: Overall vs department-level, Time: Sustained pattern), Proxy Validity (Is overall acceptance rate a good proxy? No - it's misleading when departments have different application rates, How correlated to fairness? Weak - overall rate doesn't reflect department-level fairness, Blind spots: Overall rate hides department-level differences), Gaming Risk (Can it be gamed? Yes - by changing department application rates, By design: Department selection could be manipulated), Context Checks (Is this causal? No - it's an aggregation artifact, Seasonality: No, Launches: No, External events: No, Data pipeline: No, Aggregation bias: Yes - this is Simpson's paradox - overall metric is misleading when departments have different application rates), Decide (Investigate: Need to look at department-level rates, not overall, Act: Use department-level rates for fairness assessment, not overall rate). I'd explain: Simpson's paradox occurs when overall metric shows opposite trend from segment-level metrics. Here, overall acceptance rate is lower for female-identifying students, but every department accepts them at higher rates. This happens because departments with lower acceptance rates (harder to get into) receive more applications from female-identifying students. The overall rate is misleading - we should look at department-level rates for fairness assessment."
+- **Q144 (Simpson's paradox):** Focus on aggregation bias
+  - "Metric Moved: Overall acceptance rate (lower for female-identifying students), Department-level (higher acceptance rate for female-identifying students in every department), Aggregation level (overall metric vs segment-level metrics - this is Simpson's paradox), Direction (down at overall level, up at department level), Magnitude (significant difference), Scope (overall vs department-level), Time (sustained pattern)"
+  - "Proxy Validity: Is overall acceptance rate a good proxy? No (it's misleading when departments have different application rates), How correlated to fairness? Weak (overall rate doesn't reflect department-level fairness), Blind spots (overall rate hides department-level differences)"
+  - "Gaming Risk: Can it be gamed? Yes (by changing department application rates), By design (department selection could be manipulated)"
+  - "Context Checks: Is this causal? No (it's an aggregation artifact), Seasonality (no), Launches (no), External events (no), Data pipeline (no), Aggregation bias (yes - this is Simpson's paradox - overall metric is misleading when departments have different application rates)"
+  - "Decide: Investigate (need to look at department-level rates, not overall), Act (use department-level rates for fairness assessment, not overall rate)"
+  - "Explain: Simpson's paradox occurs when overall metric shows opposite trend from segment-level metrics. Here, overall acceptance rate is lower for female-identifying students, but every department accepts them at higher rates. This happens because departments with lower acceptance rates (harder to get into) receive more applications from female-identifying students. The overall rate is misleading - we should look at department-level rates for fairness assessment"
 
-- **Q110 (Gas station surge interpretation):** Emphasize metric interpretation → "To interpret the 4x customer surge, I'd: Metric Moved (Direction: Up - 4x increase, Magnitude: Large - 4x is significant, Scope: All customers, peak times, Time: Sudden surge - not sustained, Aggregation level: Overall vs time-based), Proxy Validity (Is customer count a good proxy? Yes - directly measures demand, How correlated to business value? High - more customers = more revenue, Leading vs lagging: Leading - predicts revenue, Blind spots: Doesn't show customer satisfaction, wait times), Gaming Risk (Can it be gamed? No - real customers, By teams: No, By design: No, By reporting: No), Context Checks (Is this causal? Need to investigate - could be: Event nearby, promotion, competitor issue, seasonality, external event, Data pipeline: Check if data is accurate), Decide (Investigate: Need to understand cause, Act: If real surge, need to handle capacity, If data issue, fix data). I'd interpret: 4x surge is significant - need to investigate cause and handle capacity. Not a proxy issue - customer count is direct metric. Need context: What caused surge? Is it real? How to handle?"
+- **Q110 (Gas station surge interpretation):** Emphasize metric interpretation
+  - "Metric Moved: Direction (up - 4x increase), Magnitude (large - 4x is significant), Scope (all customers, peak times), Time (sudden surge - not sustained), Aggregation level (overall vs time-based)"
+  - "Proxy Validity: Is customer count a good proxy? Yes (directly measures demand), How correlated to business value? High (more customers = more revenue), Leading vs lagging (leading - predicts revenue), Blind spots (doesn't show customer satisfaction, wait times)"
+  - "Gaming Risk: Can it be gamed? No (real customers), By teams (no), By design (no), By reporting (no)"
+  - "Context Checks: Is this causal? Need to investigate (could be: event nearby, promotion, competitor issue, seasonality, external event), Data pipeline (check if data is accurate)"
+  - "Decide: Investigate (need to understand cause), Act (if real surge, need to handle capacity, If data issue, fix data)"
+  - "Interpret: 4x surge is significant - need to investigate cause and handle capacity. Not a proxy issue - customer count is direct metric. Need context: What caused surge? Is it real? How to handle?"
 
 ---
 
@@ -107,11 +169,40 @@
 - Q790: Explain data drifting. (metric interpretation/trap angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When identifying metric traps and gaming, I use the same metrics interpretation framework but focus on traps. I check for Vanity metrics: Pageviews with no engagement, signups with no activation, downloads with no usage. I check for Proxy drift: CTR no longer predicts retention, signup rate doesn't predict LTV. I check for Metric cannibalization: Time spent ↑ but content quality ↓, engagement ↑ but satisfaction ↓. I check for Local optimization: Team wins (optimizes their metric), company loses (hurts overall value). I check for Dashboard blindness: Green metrics (all metrics look good), red user experience (users unhappy). I prevent gaming: Don't tie metrics to bonuses (If tied to goals/bonuses, it WILL be gamed), Use multiple metrics (Don't optimize single metric), Monitor counter-metrics (Track what might be hurt), Focus on user value (Optimize for real value, not metrics). The key is understanding that a metric moving is not the same as progress. Proxies decay over time. If a metric becomes a target, it stops being a metric."
+
+**Framework:** `Metric Moved → Proxy Validity → Gaming Risk → Context Checks → Decide (Traps Focus)`
+
+**Memorizable Answer:**
+
+When identifying metric traps and gaming, I use the same metrics interpretation framework but focus on traps.
+
+**1️⃣ Check for Vanity Metrics** → Pageviews with no engagement, signups with no activation, downloads with no usage.
+
+**2️⃣ Check for Proxy Drift** → CTR no longer predicts retention, signup rate doesn't predict LTV.
+
+**3️⃣ Check for Metric Cannibalization** → Time spent ↑ but content quality ↓, engagement ↑ but satisfaction ↓.
+
+**4️⃣ Check for Local Optimization** → Team wins (optimizes their metric), company loses (hurts overall value).
+
+**5️⃣ Check for Dashboard Blindness** → Green metrics (all metrics look good), red user experience (users unhappy).
+
+**6️⃣ Prevent Gaming** → 
+  - **Don't tie metrics to bonuses:** If tied to goals/bonuses, it WILL be gamed
+  - **Use multiple metrics:** Don't optimize single metric
+  - **Monitor counter-metrics:** Track what might be hurt
+  - **Focus on user value:** Optimize for real value, not metrics
+
+**Key Principle:** A metric moving is not the same as progress. Proxies decay over time. If a metric becomes a target, it stops being a metric.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q144 (Simpson's paradox trap):** Focus on aggregation trap → "This is a classic aggregation trap (Simpson's paradox). The overall metric (acceptance rate) is misleading because it aggregates across departments with different application rates. I'd check: Vanity metric? No - acceptance rate is meaningful, Proxy drift? No - it's a direct metric, Metric cannibalization? No, Local optimization? No, Dashboard blindness? Yes - overall metric looks bad, but department-level metrics look good. The trap is using overall metric when segment-level metrics tell different story. I'd prevent: Use department-level rates for fairness assessment, Don't optimize overall rate alone, Monitor both overall and segment-level metrics, Focus on fairness at department level, not overall."
+- **Q144 (Simpson's paradox trap):** Focus on aggregation trap
+  - "This is a classic aggregation trap (Simpson's paradox). The overall metric (acceptance rate) is misleading because it aggregates across departments with different application rates"
+  - "Check: Vanity metric? No (acceptance rate is meaningful), Proxy drift? No (it's a direct metric), Metric cannibalization? No, Local optimization? No, Dashboard blindness? Yes (overall metric looks bad, but department-level metrics look good)"
+  - "The trap is using overall metric when segment-level metrics tell different story"
+  - "Prevent: Use department-level rates for fairness assessment, Don't optimize overall rate alone, Monitor both overall and segment-level metrics, Focus on fairness at department level, not overall"
 
 ---
 

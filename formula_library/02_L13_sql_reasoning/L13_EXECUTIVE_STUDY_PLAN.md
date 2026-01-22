@@ -76,13 +76,73 @@
 - Q790: Explain data drifting. (data analysis/SQL reasoning angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When reasoning about SQL queries, I use Define Output → Conceptual Join → Filter Logic → Aggregation Logic → Edge Cases & Validation. First, I Define the OUTPUT: What is the final table? Grain (One row per what? User/order/day/experiment/cohort - what does one row represent?), Columns (Metrics + dimensions - what metrics do we need? What dimensions to group by?), Time window (Last 7d, 30d, all-time - what time period are we analyzing?). Rule: If you can't say the grain, you don't understand the query. Second, I identify Conceptual JOIN: What data must come together? Fact table (Events, orders, transactions - what is the base table with the metrics?), Dimension tables (Users, products, dates - what tables provide context or attributes?), Join keys (user_id, order_id, product_id - what columns link the tables together?), Join type (INNER → only matched rows, LEFT → keep base table intact). Rule: Pick the BASE table first, then join outward. Third, I specify Filter Logic: Which rows count? Time filters (event_date BETWEEN …, date >= … - what time period are we filtering?), Status filters (Completed, paid, active - what status or state conditions?), Segment filters (Country, platform, plan - what demographic or segment filters?), Exclusions (Test users, refunds, bots - what should we exclude?). Rule: Filters change meaning — say them explicitly. Fourth, I determine Aggregation Logic: How are numbers computed? Count vs count distinct (COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values), Sum vs average (SUM for totals, AVG for averages - what aggregation function is appropriate?), Group by (Which dimensions? What columns determine the grain of the output?), Order of ops (Filter → Join → Aggregate - filter before aggregating to avoid double counting). Rule: Aggregation happens at the grain, not before. Finally, I check Edge Cases & Validation: Duplicates after joins? (Do joins create duplicate rows that will inflate counts?), Missing data? (Are there NULL values that need handling?), Null handling? (How do we handle NULLs in aggregations?), Sanity checks (Back-of-envelope - do the numbers make sense?). Output: 'One row per X, joined with Y, filtered by Z, aggregated as W.' The key principle: I'll start by defining the grain. The base table should be events, everything else decorates it. I'd filter before aggregating to avoid double counting. This metric is sensitive to join duplication, so I'd sanity-check."
+
+**Framework:** `Define Output → Conceptual Join → Filter Logic → Aggregation Logic → Edge Cases & Validation`
+
+**Memorizable Answer:**
+
+When reasoning about SQL queries, I use Define Output → Conceptual Join → Filter Logic → Aggregation Logic → Edge Cases & Validation.
+
+**1️⃣ Define Output** → What is the final table?
+  - **Grain:** One row per what? (User/order/day/experiment/cohort - what does one row represent?)
+  - **Columns:** Metrics + dimensions (what metrics do we need? What dimensions to group by?)
+  - **Time window:** Last 7d, 30d, all-time (what time period are we analyzing?)
+
+**Rule:** If you can't say the grain, you don't understand the query.
+
+**2️⃣ Conceptual Join** → What data must come together?
+  - **Fact table:** Events, orders, transactions (what is the base table with the metrics?)
+  - **Dimension tables:** Users, products, dates (what tables provide context or attributes?)
+  - **Join keys:** user_id, order_id, product_id (what columns link the tables together?)
+  - **Join type:** INNER (only matched rows), LEFT (keep base table intact)
+
+**Rule:** Pick the BASE table first, then join outward.
+
+**3️⃣ Filter Logic** → Which rows count?
+  - **Time filters:** event_date BETWEEN …, date >= … (what time period are we filtering?)
+  - **Status filters:** Completed, paid, active (what status or state conditions?)
+  - **Segment filters:** Country, platform, plan (what demographic or segment filters?)
+  - **Exclusions:** Test users, refunds, bots (what should we exclude?)
+
+**Rule:** Filters change meaning — say them explicitly.
+
+**4️⃣ Aggregation Logic** → How are numbers computed?
+  - **Count vs count distinct:** COUNT(*) counts all rows, COUNT(DISTINCT column) counts unique values
+  - **Sum vs average:** SUM for totals, AVG for averages (what aggregation function is appropriate?)
+  - **Group by:** Which dimensions? (what columns determine the grain of the output?)
+  - **Order of ops:** Filter → Join → Aggregate (filter before aggregating to avoid double counting)
+
+**Rule:** Aggregation happens at the grain, not before.
+
+**5️⃣ Edge Cases & Validation** → 
+  - **Duplicates after joins?** Do joins create duplicate rows that will inflate counts?
+  - **Missing data?** Are there NULL values that need handling?
+  - **Null handling?** How do we handle NULLs in aggregations?
+  - **Sanity checks:** Back-of-envelope - do the numbers make sense?
+
+**Output:** "One row per X, joined with Y, filtered by Z, aggregated as W."
+
+**Key Principle:** Start by defining the grain. The base table should be events, everything else decorates it. Filter before aggregating to avoid double counting. This metric is sensitive to join duplication, so sanity-check.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q736 (Employee Earnings):** Focus on SQL reasoning → "To compute employee earnings, I'd: Define Output (Grain: One row per employee (or employee + time period if needed), Columns: Employee ID, name, total earnings, dimensions (department, role, time period), Time window: All-time or specific period), Conceptual Join (Base table: Payroll/earnings table (fact table with earnings data), Dimension tables: Employees table (employee attributes), Departments table (department info), Join keys: employee_id, Join type: INNER to get employees with earnings, LEFT if we want all employees), Filter Logic (Time filters: If time period specified, filter by date, Status filters: Active employees only? Include terminated?, Segment filters: Specific departments? Roles?, Exclusions: Test employees, contractors?), Aggregation Logic (If one row per employee: SUM(earnings) GROUP BY employee_id, If by time period: SUM(earnings) GROUP BY employee_id, time_period, Count vs count distinct: COUNT(DISTINCT employee_id) for unique employees, Order: Filter → Join → Aggregate), Edge Cases (Duplicates: Check if joins create duplicates, Missing data: Handle NULL earnings, Null handling: Use COALESCE or exclude NULLs, Sanity checks: Do earnings make sense? Compare to expected ranges). I'd structure: SELECT employee_id, employee_name, SUM(earnings) as total_earnings FROM earnings_table e JOIN employees emp ON e.employee_id = emp.employee_id WHERE [filters] GROUP BY employee_id, employee_name."
+- **Q736 (Employee Earnings):** Focus on SQL reasoning
+  - "Define Output: Grain (one row per employee or employee + time period if needed), Columns (employee ID, name, total earnings, dimensions - department, role, time period), Time window (all-time or specific period)"
+  - "Conceptual Join: Base table (payroll/earnings table - fact table with earnings data), Dimension tables (employees table - employee attributes, Departments table - department info), Join keys (employee_id), Join type (INNER to get employees with earnings, LEFT if we want all employees)"
+  - "Filter Logic: Time filters (if time period specified, filter by date), Status filters (active employees only? Include terminated?), Segment filters (specific departments? Roles?), Exclusions (test employees, contractors?)"
+  - "Aggregation Logic: If one row per employee (SUM(earnings) GROUP BY employee_id), If by time period (SUM(earnings) GROUP BY employee_id, time_period), Count vs count distinct (COUNT(DISTINCT employee_id) for unique employees), Order (filter → Join → Aggregate)"
+  - "Edge Cases: Duplicates (check if joins create duplicates), Missing data (handle NULL earnings), Null handling (use COALESCE or exclude NULLs), Sanity checks (do earnings make sense? Compare to expected ranges)"
+  - "Structure: SELECT employee_id, employee_name, SUM(earnings) as total_earnings FROM earnings_table e JOIN employees emp ON e.employee_id = emp.employee_id WHERE [filters] GROUP BY employee_id, employee_name"
 
-- **Q110 (Gas station surge analysis):** Emphasize data analysis reasoning → "To analyze the 4x customer surge, I'd: Define Output (Grain: One row per time period (hour/day), Columns: Customer count, metrics (revenue, transactions), dimensions (time, location), Time window: Last week vs normal period), Conceptual Join (Base table: Transactions/visits table, Dimension tables: Time table (for time analysis), Location table (if multiple locations), Join keys: transaction_id, time_id, Join type: INNER), Filter Logic (Time filters: Peak times vs off-peak, compare periods, Status filters: Completed transactions only, Segment filters: All customers or segments?, Exclusions: Test transactions, errors?), Aggregation Logic (Count: COUNT(DISTINCT customer_id) for unique customers, Sum: SUM(revenue) for total revenue, Group by: Time period (hour/day), Order: Filter → Join → Aggregate), Edge Cases (Duplicates: Check for duplicate transactions, Missing data: Handle missing timestamps, Null handling: Exclude NULL customer_ids, Sanity checks: Does 4x make sense? Compare to historical). I'd compute: Customer count by time period, compare peak vs normal, identify cause of surge."
+- **Q110 (Gas station surge analysis):** Emphasize data analysis reasoning
+  - "Define Output: Grain (one row per time period - hour/day), Columns (customer count, metrics - revenue, transactions, dimensions - time, location), Time window (last week vs normal period)"
+  - "Conceptual Join: Base table (transactions/visits table), Dimension tables (time table - for time analysis, Location table - if multiple locations), Join keys (transaction_id, time_id), Join type (INNER)"
+  - "Filter Logic: Time filters (peak times vs off-peak, compare periods), Status filters (completed transactions only), Segment filters (all customers or segments?), Exclusions (test transactions, errors?)"
+  - "Aggregation Logic: Count (COUNT(DISTINCT customer_id) for unique customers), Sum (SUM(revenue) for total revenue), Group by (time period - hour/day), Order (filter → Join → Aggregate)"
+  - "Edge Cases: Duplicates (check for duplicate transactions), Missing data (handle missing timestamps), Null handling (exclude NULL customer_ids), Sanity checks (does 4x make sense? Compare to historical)"
+  - "Compute: Customer count by time period, compare peak vs normal, identify cause of surge"
 
 ---
 
@@ -107,7 +167,26 @@
 - Q790: Explain data drifting. (query design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing queries, I use the same SQL reasoning framework but focus on query structure. I start with Output: Define grain clearly (One row per X), Specify columns (Metrics + dimensions), Set time window. I identify Data needed: Fact tables (Base data), Dimension tables (Context), Join strategy (Which tables? What keys? What type?). I specify Filters: Time, status, segments, exclusions. I determine Aggregation: Count vs count distinct, Sum vs average, Group by dimensions. I validate: Check for duplicates, handle nulls, sanity check. The key is starting with the grain and working backwards. Filter before aggregating to avoid double counting."
+
+**Framework:** `Define Output → Conceptual Join → Filter Logic → Aggregation Logic → Edge Cases (Query Design Focus)`
+
+**Memorizable Answer:**
+
+When designing queries, I use the same SQL reasoning framework but focus on query structure.
+
+**1️⃣ Start with Output** → Define grain clearly (one row per X), Specify columns (metrics + dimensions), Set time window.
+
+**2️⃣ Identify Data Needed** → Fact tables (base data), Dimension tables (context), Join strategy (which tables? What keys? What type?).
+
+**3️⃣ Specify Filters** → Time, status, segments, exclusions.
+
+**4️⃣ Determine Aggregation** → Count vs count distinct, Sum vs average, Group by dimensions.
+
+**5️⃣ Validate** → Check for duplicates, handle nulls, sanity check.
+
+**Key Principle:** Start with the grain and work backwards. Filter before aggregating to avoid double counting.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 

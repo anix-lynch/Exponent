@@ -76,13 +76,76 @@
 - Q1120: How do you keep users' data safe and private when building AI systems? (data privacy/risk angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When identifying and mitigating risks, I use Enumerate Risks → Blast Radius → Mitigations → Monitor. First, I Enumerate Risks: List all potential risks before judging. Technical (Bugs, downtime, data loss, performance degradation, system failures), Data (Quality issues, drift, leakage, bias, completeness, freshness), Operational (On-call load, handoffs, manual processes, capacity limits), Legal/Compliance (PII exposure, regulatory violations, privacy breaches), Business (Revenue loss, user trust erosion, reputation damage, competitive disadvantage). Rule: If you can't name it, you can't manage it. Be comprehensive - don't skip categories. Second, I assess Blast Radius: How bad is each risk? Users affected (1% vs 100%, specific segments vs all users), Duration (Minutes vs hours vs weeks, temporary vs permanent), Reversibility (Easy rollback vs permanent damage, recoverable vs irreversible), Visibility (Internal vs public, contained vs widespread). Output: Risk = Probability × Impact. I prioritize: High impact + high probability → ACT (Critical - fix immediately), High impact + low probability → PLAN (Plan for - prepare response), Low impact + high probability → AUTOMATE (Automate handling - reduce manual work), Low impact + low probability → ACCEPT (Accept - not worth fixing). Third, I Mitigate: Reduce impact or probability. Prevent (Guardrails, validation, limits, access controls - stop it from happening), Detect (Monitoring, alerts, anomaly detection, early warning systems - know when it happens), Contain (Rate limits, feature flags, circuit breakers, isolation - limit damage), Recover (Rollback procedures, backups, runbooks, incident response - fix when it happens). Layered approach: Multiple mitigations for high-risk items. Remember: You don't eliminate risk — you bound it. Finally, I Monitor: Assume failure will happen and prepare detection. Early warning metrics (Leading indicators that predict problems), Alert thresholds (When to trigger alerts, escalation criteria), Clear owner + escalation path (Who responds, how to escalate). Detection speed matters more than perfection. Output: 'If X happens, we detect in Y mins and recover in Z.' Test monitoring: Verify alerts work, runbooks are current, owners are reachable."
+
+**Framework:** `Enumerate Risks → Blast Radius → Mitigations → Monitor`
+
+**Memorizable Answer:**
+
+When identifying and mitigating risks, I use Enumerate Risks → Blast Radius → Mitigations → Monitor.
+
+**1️⃣ Enumerate Risks** → List all potential risks before judging:
+  - **Technical:** Bugs, downtime, data loss, performance degradation, system failures
+  - **Data:** Quality issues, drift, leakage, bias, completeness, freshness
+  - **Operational:** On-call load, handoffs, manual processes, capacity limits
+  - **Legal/Compliance:** PII exposure, regulatory violations, privacy breaches
+  - **Business:** Revenue loss, user trust erosion, reputation damage, competitive disadvantage
+
+**Rule:** If you can't name it, you can't manage it. Be comprehensive - don't skip categories.
+
+**2️⃣ Assess Blast Radius** → How bad is each risk?
+  - **Users affected:** 1% vs 100%, specific segments vs all users
+  - **Duration:** Minutes vs hours vs weeks, temporary vs permanent
+  - **Reversibility:** Easy rollback vs permanent damage, recoverable vs irreversible
+  - **Visibility:** Internal vs public, contained vs widespread
+
+**Output:** Risk = Probability × Impact
+
+**Prioritize:**
+  - **High impact + high probability** → ACT (Critical - fix immediately)
+  - **High impact + low probability** → PLAN (Plan for - prepare response)
+  - **Low impact + high probability** → AUTOMATE (Automate handling - reduce manual work)
+  - **Low impact + low probability** → ACCEPT (Accept - not worth fixing)
+
+**3️⃣ Mitigate** → Reduce impact or probability:
+  - **Prevent:** Guardrails, validation, limits, access controls (stop it from happening)
+  - **Detect:** Monitoring, alerts, anomaly detection, early warning systems (know when it happens)
+  - **Contain:** Rate limits, feature flags, circuit breakers, isolation (limit damage)
+  - **Recover:** Rollback procedures, backups, runbooks, incident response (fix when it happens)
+
+**Layered approach:** Multiple mitigations for high-risk items.
+
+**Remember:** You don't eliminate risk — you bound it.
+
+**4️⃣ Monitor** → Assume failure will happen and prepare detection:
+  - **Early warning metrics:** Leading indicators that predict problems
+  - **Alert thresholds:** When to trigger alerts, escalation criteria
+  - **Clear owner + escalation path:** Who responds, how to escalate
+
+**Detection speed matters more than perfection.**
+
+**Output:** "If X happens, we detect in Y mins and recover in Z."
+
+**Test monitoring:** Verify alerts work, runbooks are current, owners are reachable.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q61 (Instacart order issues):** Focus on post-order risks → "To identify potential issues after an Instacart order, I'd: Enumerate Risks (Technical: Order processing failures, payment issues, app crashes, Data: Order data loss, incorrect items, pricing errors, Operational: Shopper availability, delivery delays, capacity limits, Legal/Compliance: PII exposure, payment security, Business: Customer dissatisfaction, refunds, reputation damage), Assess Blast Radius (Users affected: Single order vs all orders, Duration: Minutes vs hours, Reversibility: Can fix order vs permanent damage, Visibility: Customer-facing vs internal), Prioritize (High impact + high probability: Order failures, payment issues → ACT, High impact + low probability: Data breach → PLAN, Low impact + high probability: Minor delays → AUTOMATE, Low impact + low probability: Edge cases → ACCEPT), Mitigate (Prevent: Order validation, payment verification, guardrails, Detect: Order monitoring, payment alerts, delivery tracking, Contain: Feature flags, rate limits, circuit breakers, Recover: Order cancellation, refunds, customer support, runbooks), Monitor (Early warning: Order failure rate, payment errors, delivery delays, Alert thresholds: >1% order failures, >5% payment errors, Clear owner: On-call rotation, escalation path). I'd prioritize: Order processing (Critical - affects all orders), Payment security (High impact - trust issue), Delivery reliability (High impact - customer experience)."
+- **Q61 (Instacart order issues):** Focus on post-order risks
+  - "Enumerate Risks: Technical (order processing failures, payment issues, app crashes), Data (order data loss, incorrect items, pricing errors), Operational (shopper availability, delivery delays, capacity limits), Legal/Compliance (PII exposure, payment security), Business (customer dissatisfaction, refunds, reputation damage)"
+  - "Assess Blast Radius: Users affected (single order vs all orders), Duration (minutes vs hours), Reversibility (can fix order vs permanent damage), Visibility (customer-facing vs internal)"
+  - "Prioritize: High impact + high probability (order failures, payment issues → ACT), High impact + low probability (data breach → PLAN), Low impact + high probability (minor delays → AUTOMATE), Low impact + low probability (edge cases → ACCEPT)"
+  - "Mitigate: Prevent (order validation, payment verification, guardrails), Detect (order monitoring, payment alerts, delivery tracking), Contain (feature flags, rate limits, circuit breakers), Recover (order cancellation, refunds, customer support, runbooks)"
+  - "Monitor: Early warning (order failure rate, payment errors, delivery delays), Alert thresholds (>1% order failures, >5% payment errors), Clear owner (on-call rotation, escalation path)"
+  - "Prioritize: Order processing (critical - affects all orders), Payment security (high impact - trust issue), Delivery reliability (high impact - customer experience)"
 
-- **Q1120 (AI data privacy):** Emphasize data privacy risks → "To keep users' data safe and private in AI systems, I'd: Enumerate Risks (Technical: Data breaches, model attacks, system vulnerabilities, Data: PII exposure, data leakage, bias, quality issues, Operational: Access control failures, manual errors, Legal/Compliance: GDPR violations, privacy breaches, regulatory fines, Business: User trust erosion, reputation damage, competitive disadvantage, AI-specific: Model drift, adversarial attacks, hallucination, misuse), Assess Blast Radius (Users affected: All users if breach, Duration: Permanent if data leaked, Reversibility: Irreversible if PII exposed, Visibility: Public if breach, high visibility), Prioritize (High impact + high probability: PII exposure, data breaches → ACT, High impact + low probability: Regulatory violations → PLAN, Low impact + high probability: Access control issues → AUTOMATE, Low impact + low probability: Edge cases → ACCEPT), Mitigate (Prevent: Encryption, access controls, data minimization, anonymization, guardrails, Detect: Access monitoring, anomaly detection, data quality checks, Contain: Rate limits, feature flags, isolation, Recover: Incident response, data deletion, notifications, runbooks), Monitor (Early warning: Unusual access patterns, data quality anomalies, Alert thresholds: Unauthorized access, data quality issues, Clear owner: Security team, DPO, escalation path). I'd prioritize: Data encryption (Critical - protect at rest and in transit), Access controls (High impact - limit who can access), Anonymization (High impact - reduce PII exposure), Monitoring (High impact - detect breaches early)."
+- **Q1120 (AI data privacy):** Emphasize data privacy risks
+  - "Enumerate Risks: Technical (data breaches, model attacks, system vulnerabilities), Data (PII exposure, data leakage, bias, quality issues), Operational (access control failures, manual errors), Legal/Compliance (GDPR violations, privacy breaches, regulatory fines), Business (user trust erosion, reputation damage, competitive disadvantage), AI-specific (model drift, adversarial attacks, hallucination, misuse)"
+  - "Assess Blast Radius: Users affected (all users if breach), Duration (permanent if data leaked), Reversibility (irreversible if PII exposed), Visibility (public if breach, high visibility)"
+  - "Prioritize: High impact + high probability (PII exposure, data breaches → ACT), High impact + low probability (regulatory violations → PLAN), Low impact + high probability (access control issues → AUTOMATE), Low impact + low probability (edge cases → ACCEPT)"
+  - "Mitigate: Prevent (encryption, access controls, data minimization, anonymization, guardrails), Detect (access monitoring, anomaly detection, data quality checks), Contain (rate limits, feature flags, isolation), Recover (incident response, data deletion, notifications, runbooks)"
+  - "Monitor: Early warning (unusual access patterns, data quality anomalies), Alert thresholds (unauthorized access, data quality issues), Clear owner (security team, DPO, escalation path)"
+  - "Prioritize: Data encryption (critical - protect at rest and in transit), Access controls (high impact - limit who can access), Anonymization (high impact - reduce PII exposure), Monitoring (high impact - detect breaches early)"
 
 ---
 
@@ -108,11 +171,56 @@
 - Q1116: How do you identify and account for risks in a program? (risk management angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When dealing with specific risk types, I use the same risk mitigation framework but focus on risk-specific mitigations. For Data risks (Bad input, quality issues, leakage): Prevent (Validation, sanity checks, data quality rules), Detect (Data quality monitoring, anomaly detection), Contain (Data access controls, isolation), Recover (Data correction, deletion, notifications). For Model risks (Drift, bias, adversarial attacks): Prevent (Shadow deploys, canary rollouts, bias testing), Detect (Drift monitoring, performance alerts, bias detection), Contain (Feature flags, model versioning, isolation), Recover (Model rollback, retraining, output filtering). For Infra risks (Traffic spikes, downtime, capacity): Prevent (Autoscaling, rate limits, capacity planning), Detect (Traffic monitoring, health checks, alerts), Contain (Rate limits, circuit breakers, load shedding), Recover (Auto-scaling, rollback, failover). For Product risks (Bad launch, user impact): Prevent (Feature flags, phased rollout, testing), Detect (User monitoring, metrics, alerts), Contain (Feature flags, kill switches), Recover (Rollback, disable feature, communication). For Legal risks (PII exposure, compliance): Prevent (Access control, encryption, audits), Detect (Access monitoring, compliance checks), Contain (Access revocation, data isolation), Recover (Incident response, notifications, remediation). The key is layered mitigations for high-risk items."
+
+**Framework:** `Enumerate Risks → Blast Radius → Mitigations (Risk-Specific) → Monitor`
+
+**Memorizable Answer:**
+
+When dealing with specific risk types, I use the same risk mitigation framework but focus on risk-specific mitigations.
+
+**For Data risks (Bad input, quality issues, leakage):**
+  - **Prevent:** Validation, sanity checks, data quality rules
+  - **Detect:** Data quality monitoring, anomaly detection
+  - **Contain:** Data access controls, isolation
+  - **Recover:** Data correction, deletion, notifications
+
+**For Model risks (Drift, bias, adversarial attacks):**
+  - **Prevent:** Shadow deploys, canary rollouts, bias testing
+  - **Detect:** Drift monitoring, performance alerts, bias detection
+  - **Contain:** Feature flags, model versioning, isolation
+  - **Recover:** Model rollback, retraining, output filtering
+
+**For Infra risks (Traffic spikes, downtime, capacity):**
+  - **Prevent:** Autoscaling, rate limits, capacity planning
+  - **Detect:** Traffic monitoring, health checks, alerts
+  - **Contain:** Rate limits, circuit breakers, load shedding
+  - **Recover:** Auto-scaling, rollback, failover
+
+**For Product risks (Bad launch, user impact):**
+  - **Prevent:** Feature flags, phased rollout, testing
+  - **Detect:** User monitoring, metrics, alerts
+  - **Contain:** Feature flags, kill switches
+  - **Recover:** Rollback, disable feature, communication
+
+**For Legal risks (PII exposure, compliance):**
+  - **Prevent:** Access control, encryption, audits
+  - **Detect:** Access monitoring, compliance checks
+  - **Contain:** Access revocation, data isolation
+  - **Recover:** Incident response, notifications, remediation
+
+**Key Principle:** Layered mitigations for high-risk items.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q796 (LLM adversarial attacks):** Focus on AI security risks → "To explain LLM adversarial attacks, I'd: Enumerate Risks (AI-specific: Adversarial attacks (prompt injection, jailbreaking, data poisoning), Model drift, bias, hallucination, misuse, Technical: System vulnerabilities, Data: Training data poisoning, leakage, Operational: Access control failures, Legal/Compliance: Misuse, harmful outputs, Business: User trust, reputation), Assess Blast Radius (Users affected: All users if model compromised, Duration: Permanent if model poisoned, Reversibility: Hard to fix if model trained on bad data, Visibility: Public if attack successful), Prioritize (High impact + high probability: Adversarial attacks, misuse → ACT, High impact + low probability: Model poisoning → PLAN, Low impact + high probability: Minor prompt issues → AUTOMATE, Low impact + low probability: Edge cases → ACCEPT), Mitigate (Prevent: Input validation, prompt filtering, access controls, guardrails, Detect: Anomaly detection, output monitoring, attack detection, Contain: Rate limits, feature flags, output filtering, Recover: Model rollback, retraining, incident response), Monitor (Early warning: Unusual prompts, output anomalies, Alert thresholds: Attack patterns, harmful outputs, Clear owner: Security team, escalation path). I'd prioritize: Input validation (Critical - prevent attacks), Output filtering (High impact - prevent harmful outputs), Monitoring (High impact - detect attacks early)."
+- **Q796 (LLM adversarial attacks):** Focus on AI security risks
+  - "Enumerate Risks: AI-specific (adversarial attacks - prompt injection, jailbreaking, data poisoning, Model drift, bias, hallucination, misuse), Technical (system vulnerabilities), Data (training data poisoning, leakage), Operational (access control failures), Legal/Compliance (misuse, harmful outputs), Business (user trust, reputation)"
+  - "Assess Blast Radius: Users affected (all users if model compromised), Duration (permanent if model poisoned), Reversibility (hard to fix if model trained on bad data), Visibility (public if attack successful)"
+  - "Prioritize: High impact + high probability (adversarial attacks, misuse → ACT), High impact + low probability (model poisoning → PLAN), Low impact + high probability (minor prompt issues → AUTOMATE), Low impact + low probability (edge cases → ACCEPT)"
+  - "Mitigate: Prevent (input validation, prompt filtering, access controls, guardrails), Detect (anomaly detection, output monitoring, attack detection), Contain (rate limits, feature flags, output filtering), Recover (model rollback, retraining, incident response)"
+  - "Monitor: Early warning (unusual prompts, output anomalies), Alert thresholds (attack patterns, harmful outputs), Clear owner (security team, escalation path)"
+  - "Prioritize: Input validation (critical - prevent attacks), Output filtering (high impact - prevent harmful outputs), Monitoring (high impact - detect attacks early)"
 
 ---
 

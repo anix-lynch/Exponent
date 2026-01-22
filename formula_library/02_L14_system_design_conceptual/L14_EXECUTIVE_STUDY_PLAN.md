@@ -78,13 +78,82 @@
 - Q367: Design a monitoring system for 1000 web servers. (monitoring system design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a system, I use Define Goal → Components → Data Flow → Boundaries → Scale Considerations. First, I Define the GOAL: What problem are we solving? Primary user goal (What is the main user need or business objective?), Success metric (Latency, reliability, accuracy, cost - what defines success?), Non-goals (Explicitly say what's out of scope - what we're NOT building). Rule: If the goal isn't clear, architecture will be wrong. Second, I identify CORE COMPONENTS: What blocks exist? Clients (Web, mobile, internal tools - what are the entry points?), Ingestion layer (APIs, SDKs, event collectors - how does data enter?), Processing layer (Sync vs async - how is data processed?), Storage (Hot/warm/cold - where is data stored?), Compute (Stateless vs stateful - how is computation handled?), Orchestration/queues (How are tasks coordinated?), Observability (Metrics, logs, alerts - how do we monitor?), Admin/control plane (How is the system managed?). Rule: Name boxes before wiring arrows. Third, I map Data FLOW: How data moves end-to-end. Request path - read (How do read requests flow through the system?), Write path - create/update (How do write requests flow through?), Async paths (Queues, streams, retries - how are async ops handled?), Failure paths (Timeouts, backpressure - how are failures handled?), Control vs data plane separation (How are control and data separated?). Rule: Always describe the happy path first. Fourth, I identify Boundaries & CONSTRAINTS: What limits us? Latency SLOs (What are the latency requirements?), Consistency (Strong vs eventual consistency?), Throughput (How many requests per second must we handle?), Regulatory/privacy constraints (GDPR, data residency, compliance?), Team ownership boundaries (Who owns what?), Cost ceilings (What are the budget constraints?). Rule: Constraints shape architecture more than features. Finally, I consider Scale & FAILURE MODES: What breaks at 10×? Bottlenecks (DB, network, fan-out - what fails first?), Single points of failure (What can't fail?), Backpressure strategy (How do we handle overload?), Caching layers (Where do we cache?), Sharding/partitioning (How do we distribute load?), Graceful degradation (How do we degrade gracefully?). Rule: Talk about failure BEFORE optimization. Output: 'System of boxes + arrows, bounded by constraints, designed to scale and fail safely.'"
+
+**Framework:** `Define Goal → Components → Data Flow → Boundaries → Scale Considerations`
+
+**Memorizable Answer:**
+
+When designing a system, I use Define Goal → Components → Data Flow → Boundaries → Scale Considerations.
+
+**1️⃣ Define Goal** → What problem are we solving?
+  - **Primary user goal:** What is the main user need or business objective?
+  - **Success metric:** Latency, reliability, accuracy, cost (what defines success?)
+  - **Non-goals:** Explicitly say what's out of scope (what we're NOT building)
+
+**Rule:** If the goal isn't clear, architecture will be wrong.
+
+**2️⃣ Core Components** → What blocks exist?
+  - **Clients:** Web, mobile, internal tools (what are the entry points?)
+  - **Ingestion layer:** APIs, SDKs, event collectors (how does data enter?)
+  - **Processing layer:** Sync vs async (how is data processed?)
+  - **Storage:** Hot/warm/cold (where is data stored?)
+  - **Compute:** Stateless vs stateful (how is computation handled?)
+  - **Orchestration/queues:** How are tasks coordinated?
+  - **Observability:** Metrics, logs, alerts (how do we monitor?)
+  - **Admin/control plane:** How is the system managed?
+
+**Rule:** Name boxes before wiring arrows.
+
+**3️⃣ Data Flow** → How data moves end-to-end:
+  - **Request path (read):** How do read requests flow through the system?
+  - **Write path (create/update):** How do write requests flow through?
+  - **Async paths:** Queues, streams, retries (how are async ops handled?)
+  - **Failure paths:** Timeouts, backpressure (how are failures handled?)
+  - **Control vs data plane separation:** How are control and data separated?
+
+**Rule:** Always describe the happy path first.
+
+**4️⃣ Boundaries & Constraints** → What limits us?
+  - **Latency SLOs:** What are the latency requirements?
+  - **Consistency:** Strong vs eventual consistency?
+  - **Throughput:** How many requests per second must we handle?
+  - **Regulatory/privacy constraints:** GDPR, data residency, compliance?
+  - **Team ownership boundaries:** Who owns what?
+  - **Cost ceilings:** What are the budget constraints?
+
+**Rule:** Constraints shape architecture more than features.
+
+**5️⃣ Scale & Failure Modes** → What breaks at 10×?
+  - **Bottlenecks:** DB, network, fan-out (what fails first?)
+  - **Single points of failure:** What can't fail?
+  - **Backpressure strategy:** How do we handle overload?
+  - **Caching layers:** Where do we cache?
+  - **Sharding/partitioning:** How do we distribute load?
+  - **Graceful degradation:** How do we degrade gracefully?
+
+**Rule:** Talk about failure BEFORE optimization.
+
+**Output:** "System of boxes + arrows, bounded by constraints, designed to scale and fail safely."
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q287 (Data pipeline for Alexa requests):** Focus on data pipeline design → "To design a data pipeline for Alexa requests, I'd: Define Goal (Primary user goal: Process Alexa requests, aggregate by country, update hourly, Success metric: Data freshness (hourly updates), throughput (handle request volume), accuracy (correct aggregation), cost (efficient processing), Non-goals: Real-time processing, complex ML features), Components (Ingestion: Request logs/events collector, Processing: ETL/ELT engine (Spark, Dataflow), Storage: Data warehouse (for dashboard), Staging: Temporary storage, Orchestration: Scheduler (Airflow), Observability: Monitoring, alerts), Data Flow (Happy path: Request logs → Ingestion → Processing (aggregate by country, count requests) → Storage → Dashboard, Write path: Batch processing hourly, Read path: Dashboard queries warehouse, Async paths: Scheduled jobs, retries, Failure paths: Retry failed jobs, dead letter queue, data quality checks), Boundaries (Latency: Hourly batch acceptable, not real-time, Consistency: Eventual consistency OK, data freshness SLA, Throughput: Handle request volume, process within hour, Cost: Optimize compute, use spot instances, Regulatory: Data privacy, compliance), Scale (Bottlenecks: Processing might be slow, storage might be expensive, Failure modes: Job failures, data quality issues, Mitigation: Parallel processing, efficient storage, monitoring, alerts). I'd design: Ingestion (Collect request logs from Alexa devices), Processing (Aggregate requests by country, count most common requests, hourly batch), Storage (Store aggregated data in warehouse), Dashboard (Query warehouse for visualization)."
+- **Q287 (Data pipeline for Alexa requests):** Focus on data pipeline design
+  - "Define Goal: Primary user goal (process Alexa requests, aggregate by country, update hourly), Success metric (data freshness - hourly updates, throughput - handle request volume, accuracy - correct aggregation, cost - efficient processing), Non-goals (real-time processing, complex ML features)"
+  - "Components: Ingestion (request logs/events collector), Processing (ETL/ELT engine - Spark, Dataflow), Storage (data warehouse - for dashboard), Staging (temporary storage), Orchestration (scheduler - Airflow), Observability (monitoring, alerts)"
+  - "Data Flow: Happy path (request logs → Ingestion → Processing - aggregate by country, count requests → Storage → Dashboard), Write path (batch processing hourly), Read path (dashboard queries warehouse), Async paths (scheduled jobs, retries), Failure paths (retry failed jobs, dead letter queue, data quality checks)"
+  - "Boundaries: Latency (hourly batch acceptable, not real-time), Consistency (eventual consistency OK, data freshness SLA), Throughput (handle request volume, process within hour), Cost (optimize compute, use spot instances), Regulatory (data privacy, compliance)"
+  - "Scale: Bottlenecks (processing might be slow, storage might be expensive), Failure modes (job failures, data quality issues), Mitigation (parallel processing, efficient storage, monitoring, alerts)"
+  - "Design: Ingestion (collect request logs from Alexa devices), Processing (aggregate requests by country, count most common requests, hourly batch), Storage (store aggregated data in warehouse), Dashboard (query warehouse for visualization)"
 
-- **Q361 (Metrics and logging service):** Emphasize metrics service design → "To design a metrics and logging service, I'd: Define Goal (Primary user goal: Collect, store, query metrics and logs, Success metric: Low latency queries, high throughput ingestion, reliability, cost, Non-goals: Real-time analytics, complex ML), Components (Clients: Applications, services, Ingestion: Metrics/logs collectors, SDKs, Processing: Aggregation, indexing, Storage: Time-series DB (metrics), Log storage (logs), Query: API, query engine, Observability: Self-monitoring), Data Flow (Write path: Client → Collector → Processing → Storage, Read path: Client → Query API → Storage → Results, Async paths: Batch processing, indexing, Failure paths: Retries, buffering, backpressure), Boundaries (Latency: Query latency <100ms, ingestion latency acceptable, Consistency: Eventual consistency OK, Throughput: High ingestion rate, Cost: Efficient storage, compression), Scale (Bottlenecks: Storage might be expensive, query might be slow, Failure modes: Ingestion overload, storage full, Mitigation: Compression, indexing, caching, sharding). I'd design: Collection layer (Agents, SDKs for metrics/logs), Storage layer (Time-series DB for metrics, log storage for logs), Query layer (API for querying, dashboards), Alert layer (Alerting engine, notifications)."
+- **Q361 (Metrics and logging service):** Emphasize metrics service design
+  - "Define Goal: Primary user goal (collect, store, query metrics and logs), Success metric (low latency queries, high throughput ingestion, reliability, cost), Non-goals (real-time analytics, complex ML)"
+  - "Components: Clients (applications, services), Ingestion (metrics/logs collectors, SDKs), Processing (aggregation, indexing), Storage (time-series DB - metrics, Log storage - logs), Query (API, query engine), Observability (self-monitoring)"
+  - "Data Flow: Write path (client → Collector → Processing → Storage), Read path (client → Query API → Storage → Results), Async paths (batch processing, indexing), Failure paths (retries, buffering, backpressure)"
+  - "Boundaries: Latency (query latency <100ms, ingestion latency acceptable), Consistency (eventual consistency OK), Throughput (high ingestion rate), Cost (efficient storage, compression)"
+  - "Scale: Bottlenecks (storage might be expensive, query might be slow), Failure modes (ingestion overload, storage full), Mitigation (compression, indexing, caching, sharding)"
+  - "Design: Collection layer (agents, SDKs for metrics/logs), Storage layer (time-series DB for metrics, log storage for logs), Query layer (API for querying, dashboards), Alert layer (alerting engine, notifications)"
 
 ---
 
@@ -109,7 +178,41 @@
 - Q292: Design a data warehouse schema for an e-commerce company. (data warehouse/pipeline angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing data pipelines, I use the same system design framework but focus on pipeline components. I Define Goal: What data do we need? What's the update frequency? What's the consumption pattern? I identify Components: Ingestion (Batch jobs, stream processors, API collectors - how does data enter?), Processing (ETL/ELT engines - Spark, Flink, Dataflow - how is data transformed?), Storage (Data lake - S3, warehouse - Snowflake, staging DB - where is data stored?), Transformation (Data cleaning, aggregation, enrichment - what transformations?), Orchestration (Schedulers - Airflow, workflow managers - how are jobs scheduled?), Observability (Monitoring, alerts - how do we monitor?). I map Data Flow: Ingest (Source systems → message queue → batch/stream processor), Transform (Raw data → cleaned → transformed → aggregated → loaded), Store (Processed data → data warehouse → serve to dashboards/APIs), Failure (Retry failed jobs, dead letter queue, data quality checks). I set Boundaries: Latency (Batch processing acceptable - hourly/daily, not real-time), Consistency (Eventual consistency OK, data freshness SLA), Throughput (Handle TB/PB scale, process within time window), Cost (Optimize compute costs, use spot instances). I consider Scale: Bottlenecks (Processing might be slow, storage expensive), Failure modes (Job failures, data quality issues), Mitigation (Parallel processing, efficient storage, monitoring)."
+
+**Framework:** `Define Goal → Components (Pipeline Focus) → Data Flow → Boundaries → Scale`
+
+**Memorizable Answer:**
+
+When designing data pipelines, I use the same system design framework but focus on pipeline components.
+
+**1️⃣ Define Goal** → What data do we need? What's the update frequency? What's the consumption pattern?
+
+**2️⃣ Components** → 
+  - **Ingestion:** Batch jobs, stream processors, API collectors (how does data enter?)
+  - **Processing:** ETL/ELT engines (Spark, Flink, Dataflow - how is data transformed?)
+  - **Storage:** Data lake (S3), warehouse (Snowflake), staging DB (where is data stored?)
+  - **Transformation:** Data cleaning, aggregation, enrichment (what transformations?)
+  - **Orchestration:** Schedulers (Airflow, workflow managers - how are jobs scheduled?)
+  - **Observability:** Monitoring, alerts (how do we monitor?)
+
+**3️⃣ Data Flow** → 
+  - **Ingest:** Source systems → message queue → batch/stream processor
+  - **Transform:** Raw data → cleaned → transformed → aggregated → loaded
+  - **Store:** Processed data → data warehouse → serve to dashboards/APIs
+  - **Failure:** Retry failed jobs, dead letter queue, data quality checks
+
+**4️⃣ Boundaries** → 
+  - **Latency:** Batch processing acceptable (hourly/daily, not real-time)
+  - **Consistency:** Eventual consistency OK, data freshness SLA
+  - **Throughput:** Handle TB/PB scale, process within time window
+  - **Cost:** Optimize compute costs, use spot instances
+
+**5️⃣ Scale** → 
+  - **Bottlenecks:** Processing might be slow, storage expensive
+  - **Failure modes:** Job failures, data quality issues
+  - **Mitigation:** Parallel processing, efficient storage, monitoring
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
@@ -138,11 +241,36 @@
 - Q368: Design a monitoring system for TikTok. (monitoring system design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing general systems, I use the same system design framework. I Define Goal: What problem are we solving? Success metrics? Non-goals? I identify Components: Clients, APIs, services, storage, compute, observability. I map Data Flow: Request path, write path, async paths, failure paths. I set Boundaries: Latency, consistency, throughput, cost, regulatory. I consider Scale: Bottlenecks, failure modes, mitigation. The key is starting with the goal and working through components, flow, boundaries, and scale systematically."
+
+**Framework:** `Define Goal → Components → Data Flow → Boundaries → Scale (General System Focus)`
+
+**Memorizable Answer:**
+
+When designing general systems, I use the same system design framework.
+
+**1️⃣ Define Goal** → What problem are we solving? Success metrics? Non-goals?
+
+**2️⃣ Components** → Clients, APIs, services, storage, compute, observability.
+
+**3️⃣ Data Flow** → Request path, write path, async paths, failure paths.
+
+**4️⃣ Boundaries** → Latency, consistency, throughput, cost, regulatory.
+
+**5️⃣ Scale** → Bottlenecks, failure modes, mitigation.
+
+**Key Principle:** Start with the goal and work through components, flow, boundaries, and scale systematically.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q230 (Endpoint design):** Focus on API endpoint → "To design an endpoint, I'd: Define Goal (Primary user goal: Provide data/functionality access, Success metric: Low latency, high availability, reliability, Non-goals: Complex features initially), Components (Client: Web/mobile apps, API gateway: Routing, auth, rate limiting, Service: Business logic, Database: Data storage, Cache: Performance, Observability: Monitoring), Data Flow (Request path: Client → API gateway → Service → DB/Cache → Response, Write path: Client → API → Service → DB → Response, Async paths: Background jobs, queues, Failure paths: Error handling, retries, timeouts), Boundaries (Latency: <100ms target, Consistency: Strong vs eventual, Throughput: X requests/sec, Cost: Budget constraints), Scale (Bottlenecks: DB might be slow, API might be overloaded, Failure modes: Service down, DB overload, Mitigation: Caching, load balancing, DB optimization). I'd design: RESTful endpoint (GET /users/{id}, POST /users), Clear request/response format, Error handling, Rate limiting, Authentication, Monitoring."
+- **Q230 (Endpoint design):** Focus on API endpoint
+  - "Define Goal: Primary user goal (provide data/functionality access), Success metric (low latency, high availability, reliability), Non-goals (complex features initially)"
+  - "Components: Client (web/mobile apps), API gateway (routing, auth, rate limiting), Service (business logic), Database (data storage), Cache (performance), Observability (monitoring)"
+  - "Data Flow: Request path (client → API gateway → Service → DB/Cache → Response), Write path (client → API → Service → DB → Response), Async paths (background jobs, queues), Failure paths (error handling, retries, timeouts)"
+  - "Boundaries: Latency (<100ms target), Consistency (strong vs eventual), Throughput (X requests/sec), Cost (budget constraints)"
+  - "Scale: Bottlenecks (DB might be slow, API might be overloaded), Failure modes (service down, DB overload), Mitigation (caching, load balancing, DB optimization)"
+  - "Design: RESTful endpoint (GET /users/{id}, POST /users), Clear request/response format, Error handling, Rate limiting, Authentication, Monitoring"
 
 ---
 
