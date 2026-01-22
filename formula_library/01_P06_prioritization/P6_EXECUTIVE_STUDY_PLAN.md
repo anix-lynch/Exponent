@@ -88,19 +88,67 @@
 - Q92: As a YouTube PM, how would you evaluate the suggestion to develop a tool for content creators to generate ideas with scripts automatically?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When prioritizing features, I use the RICE framework: Impact × Confidence × Ease. First, I list all candidate features. Then I score each: Impact (1-3: 3 = massive impact, 2 = meaningful but local, 1 = minor), Confidence (0.4-1.0: 1.0 = strong data, 0.7 = some data, 0.4 = hypothesis), and Ease (1-3: 3 = easy/quick win, 2 = medium, 1 = hard). I compute RICE = Impact × Confidence × Ease for each feature and rank them. Finally, I decide what to build first (highest RICE), what to delay, and communicate why (tradeoffs)."
+
+**Framework:** `List Features → Score RICE (Impact × Confidence × Ease) → Rank → Decide → Communicate`
+
+**Memorizable Answer:**
+
+When prioritizing features, I use the RICE framework: Impact × Confidence × Ease.
+
+**1️⃣ List All Features** → All candidate features.
+
+**2️⃣ Score Impact** → 1-3: 3 = massive impact, 2 = meaningful but local, 1 = minor.
+
+**3️⃣ Score Confidence** → 0.4-1.0: 1.0 = strong data, 0.7 = some data, 0.4 = hypothesis.
+
+**4️⃣ Score Ease** → 1-3: 3 = easy/quick win, 2 = medium, 1 = hard.
+
+**5️⃣ Compute RICE** → Impact × Confidence × Ease for each feature.
+
+**6️⃣ Rank** → Highest RICE first.
+
+**7️⃣ Decide & Communicate** → What to build first (highest RICE), what to delay, why (tradeoffs).
+
+**Key Principle:** RICE = objective prioritization - Impact × Confidence × Ease.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q158 (Prioritize new features for a product):** Focus on general prioritization → "To prioritize new features, I'd list all candidate features, then score each using RICE. For Impact, I'd assess user/business value (3 = affects all users, 2 = meaningful but local, 1 = minor). For Confidence, I'd use data (1.0 = strong data, 0.7 = some data, 0.4 = hypothesis). For Ease, I'd estimate effort (3 = quick win, 2 = medium, 1 = hard). I'd compute RICE for each and rank them. I'd build the highest RICE features first and communicate why others are delayed."
+- **Q158 (Prioritize new features for a product):** Focus on general prioritization
+  - "List all candidate features, score each using RICE"
+  - "Impact: user/business value (3 = affects all users, 2 = meaningful but local, 1 = minor)"
+  - "Confidence: data (1.0 = strong data, 0.7 = some data, 0.4 = hypothesis)"
+  - "Ease: effort (3 = quick win, 2 = medium, 1 = hard)"
+  - "Compute RICE for each and rank them"
+  - "Build highest RICE features first, communicate why others are delayed"
 
-- **Q1138 (Prioritize competing features):** Emphasize competition → "When features compete, I'd use RICE to objectively compare them. I'd list all competing features, score each on Impact (user/business value), Confidence (data certainty), and Ease (effort). I'd compute RICE and rank them. The highest RICE wins, but I'd also consider strategic alignment and dependencies. I'd communicate the decision clearly, explaining why some features wait."
+- **Q1138 (Prioritize competing features):** Emphasize competition
+  - "Use RICE to objectively compare competing features"
+  - "List all competing features, score each on Impact (user/business value), Confidence (data certainty), Ease (effort)"
+  - "Compute RICE and rank them"
+  - "Highest RICE wins, but also consider strategic alignment and dependencies"
+  - "Communicate decision clearly, explain why some features wait"
 
-- **Q1139 (Prioritize features for product launch):** Focus on launch context → "For launch prioritization, I'd use RICE but weight Impact heavily (launch needs high impact). I'd list candidate features, score Impact (3 = core value, 2 = nice-to-have, 1 = edge case), Confidence (1.0 = proven, 0.7 = likely, 0.4 = risky), and Ease (3 = quick, 2 = medium, 1 = complex). I'd prioritize high Impact + high Confidence features for launch, deferring lower RICE items. I'd communicate what's in launch vs post-launch."
+- **Q1139 (Prioritize features for product launch):** Focus on launch context
+  - "Use RICE but weight Impact heavily (launch needs high impact)"
+  - "List candidate features, score Impact (3 = core value, 2 = nice-to-have, 1 = edge case), Confidence (1.0 = proven, 0.7 = likely, 0.4 = risky), Ease (3 = quick, 2 = medium, 1 = complex)"
+  - "Prioritize high Impact + high Confidence features for launch, defer lower RICE items"
+  - "Communicate what's in launch vs post-launch"
 
-- **Q1323 (Features for MVP):** Emphasize MVP focus → "For MVP, I'd use RICE but prioritize high Impact + high Confidence features that deliver core value. I'd list candidate features, score Impact (3 = core value, 2 = important, 1 = nice-to-have), Confidence (1.0 = proven need, 0.7 = likely, 0.4 = uncertain), and Ease (3 = quick, 2 = medium, 1 = complex). For MVP, I'd focus on features with Impact 3 and Confidence ≥0.7, even if Ease is lower. I'd communicate what's in MVP vs future versions."
+- **Q1323 (Features for MVP):** Emphasize MVP focus
+  - "Use RICE but prioritize high Impact + high Confidence features that deliver core value"
+  - "List candidate features, score Impact (3 = core value, 2 = important, 1 = nice-to-have), Confidence (1.0 = proven need, 0.7 = likely, 0.4 = uncertain), Ease (3 = quick, 2 = medium, 1 = complex)"
+  - "For MVP, focus on features with Impact 3 and Confidence ≥0.7, even if Ease is lower"
+  - "Communicate what's in MVP vs future versions"
 
-- **Q92 (YouTube PM evaluate AI tool for creators):** Focus on evaluation → "To evaluate the AI tool suggestion, I'd break it into options (idea generator, full scripts, analytics-driven) and score each using RICE. Impact: how much value for creators? Confidence: do we have data on creator needs? Ease: how hard to build? I'd compute RICE for each option and rank them. I'd recommend starting with highest RICE option (likely idea generator) and deferring riskier options (full scripts)."
+- **Q92 (YouTube PM evaluate AI tool for creators):** Focus on evaluation
+  - "Break into options (idea generator, full scripts, analytics-driven) and score each using RICE"
+  - "Impact: how much value for creators?"
+  - "Confidence: do we have data on creator needs?"
+  - "Ease: how hard to build?"
+  - "Compute RICE for each option and rank them"
+  - "Recommend starting with highest RICE option (likely idea generator), defer riskier options (full scripts)"
 
 ---
 
@@ -126,15 +174,44 @@
 - Q1252: How would you approach product planning?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When structuring a roadmap, I use RICE to prioritize items, then organize them by time horizon. I list all roadmap items, score each using RICE (Impact × Confidence × Ease), and rank them. For short-term roadmap, I focus on high RICE items (quick wins, high impact). For medium-term, I include strategic items with medium RICE and dependencies. For long-term, I plan vision items (lower RICE but strategic). I communicate the roadmap structure clearly, explaining what's in each phase and why items are sequenced."
+
+**Framework:** `List Items → Score RICE → Rank → Organize by Time Horizon → Communicate`
+
+**Memorizable Answer:**
+
+When structuring a roadmap, I use RICE to prioritize items, then organize them by time horizon.
+
+**1️⃣ List All Items** → All roadmap items.
+
+**2️⃣ Score RICE** → Impact × Confidence × Ease for each.
+
+**3️⃣ Rank** → Highest RICE first.
+
+**4️⃣ Organize by Time Horizon** → Short-term (high RICE quick wins), medium-term (strategic items with dependencies), long-term (vision items, lower RICE but strategic).
+
+**5️⃣ Communicate** → Roadmap structure clearly, what's in each phase, why items are sequenced.
+
+**Key Principle:** Roadmap = RICE prioritization organized by time horizon.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1137 (Prioritize and structure roadmaps):** Focus on structure → "To structure a roadmap, I'd list all items, score each using RICE, and rank them. I'd organize by time horizon: short-term (next quarter) = high RICE quick wins, medium-term (next 6 months) = strategic items with dependencies, long-term (1+ years) = vision items. I'd communicate the roadmap structure, what's in each phase, and why items are sequenced."
+- **Q1137 (Prioritize and structure roadmaps):** Focus on structure
+  - "List all items, score each using RICE, rank them"
+  - "Organize by time horizon: short-term (next quarter) = high RICE quick wins, medium-term (next 6 months) = strategic items with dependencies, long-term (1+ years) = vision items"
+  - "Communicate roadmap structure, what's in each phase, why items are sequenced"
 
-- **Q1247 (Create roadmap without product knowledge):** Emphasize discovery → "Without product knowledge, I'd first research: user needs, business goals, competitive landscape, technical constraints. Then I'd list candidate roadmap items, score using RICE (Impact based on user/business value, Confidence based on research, Ease based on technical feasibility), and rank them. I'd structure by time horizon and communicate assumptions and research gaps."
+- **Q1247 (Create roadmap without product knowledge):** Emphasize discovery
+  - "First research: user needs, business goals, competitive landscape, technical constraints"
+  - "List candidate roadmap items, score using RICE (Impact based on user/business value, Confidence based on research, Ease based on technical feasibility), rank them"
+  - "Structure by time horizon, communicate assumptions and research gaps"
 
-- **Q1285 (Short-term roadmap with conflicts):** Focus on conflict resolution → "With conflicting demands (production issues, sales, customers), I'd list all items, score using RICE, but weight Impact by urgency and business impact. Production issues blocking users = high Impact, sales pressure = medium Impact, customer demands = assess by value. I'd prioritize highest RICE items that address conflicts, communicate tradeoffs, and explain why some items wait."
+- **Q1285 (Short-term roadmap with conflicts):** Focus on conflict resolution
+  - "List all items, score using RICE, but weight Impact by urgency and business impact"
+  - "Production issues blocking users = high Impact, sales pressure = medium Impact, customer demands = assess by value"
+  - "Prioritize highest RICE items that address conflicts"
+  - "Communicate tradeoffs, explain why some items wait"
 
 ---
 
@@ -160,15 +237,50 @@
 - Q2472: What would you do if you had to deliver a product or feature in half of the initial timeline?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When resources are constrained, I use RICE to prioritize, then apply constraints. I list all options, score each using RICE (Impact × Confidence × Ease), and rank them. Then I apply resource constraints (time, budget, people, scope) and select the highest RICE items that fit. I communicate what's included, what's cut, and why. The key is ruthless prioritization - cut scope, not quality."
+
+**Framework:** `List Options → Score RICE → Rank → Apply Constraints → Select → Communicate`
+
+**Memorizable Answer:**
+
+When resources are constrained, I use RICE to prioritize, then apply constraints.
+
+**1️⃣ List All Options** → All candidate items.
+
+**2️⃣ Score RICE** → Impact × Confidence × Ease for each.
+
+**3️⃣ Rank** → Highest RICE first.
+
+**4️⃣ Apply Constraints** → Time, budget, people, scope.
+
+**5️⃣ Select** → Highest RICE items that fit within constraints.
+
+**6️⃣ Communicate** → What's included, what's cut, and why.
+
+**Key Principle:** Ruthless prioritization - cut scope, not quality.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q90 (Timeline cut in half):** Focus on timeline constraint → "With timeline cut in half, I'd list all deliverables, score using RICE, and rank them. I'd identify highest RICE items that fit the compressed timeline. I'd ruthlessly cut scope: remove nice-to-haves, simplify features, defer non-critical items. I'd communicate what's in scope, what's cut, and why. The goal is preserve core value, not everything."
+- **Q90 (Timeline cut in half):** Focus on timeline constraint
+  - "List all deliverables, score using RICE, rank them"
+  - "Identify highest RICE items that fit compressed timeline"
+  - "Ruthlessly cut scope: remove nice-to-haves, simplify features, defer non-critical items"
+  - "Communicate what's in scope, what's cut, and why"
+  - "Goal: preserve core value, not everything"
 
-- **Q1140 (Strategic initiatives with limited resources):** Emphasize strategic focus → "With limited resources, I'd list strategic initiatives, score using RICE (Impact = strategic value, Confidence = certainty, Ease = resource needs), and rank them. I'd prioritize highest RICE initiatives that fit resource constraints. I'd communicate what's funded, what's deferred, and why. Strategic alignment matters, but RICE helps make tough calls."
+- **Q1140 (Strategic initiatives with limited resources):** Emphasize strategic focus
+  - "List strategic initiatives, score using RICE (Impact = strategic value, Confidence = certainty, Ease = resource needs), rank them"
+  - "Prioritize highest RICE initiatives that fit resource constraints"
+  - "Communicate what's funded, what's deferred, and why"
+  - "Strategic alignment matters, but RICE helps make tough calls"
 
-- **Q1143 (Everything is urgent):** Focus on urgency management → "When everything is urgent, I'd list all urgent items, score using RICE, but weight Impact by urgency and business impact. True emergencies (blocking users, revenue at risk) = high Impact. I'd rank by RICE and prioritize highest items. I'd communicate what's addressed first, what waits, and why. Not everything can be urgent - RICE helps cut through noise."
+- **Q1143 (Everything is urgent):** Focus on urgency management
+  - "List all urgent items, score using RICE, but weight Impact by urgency and business impact"
+  - "True emergencies (blocking users, revenue at risk) = high Impact"
+  - "Rank by RICE and prioritize highest items"
+  - "Communicate what's addressed first, what waits, and why"
+  - "Not everything can be urgent - RICE helps cut through noise"
 
 ---
 
@@ -196,13 +308,49 @@
 - Q1539: How would you prioritize multiple requests from different teams?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When prioritizing bugs vs features or tradeoffs, I use RICE to objectively compare. I list all options (bug fixes, features, foundational work), score each using RICE. For bugs: Impact = user impact (blocking = 3, minor = 1), Confidence = 1.0 (known issue), Ease = varies. For features: Impact = user/business value, Confidence = varies, Ease = varies. For foundational work: Impact = future leverage (compound value), Confidence = varies, Ease = usually low. I compute RICE and rank. Highest RICE wins, but I also consider strategic importance and dependencies. I communicate the decision and tradeoffs."
+
+**Framework:** `List Options → Score RICE → Compare → Consider Strategic → Decide → Communicate`
+
+**Memorizable Answer:**
+
+When prioritizing bugs vs features or tradeoffs, I use RICE to objectively compare.
+
+**1️⃣ List All Options** → Bug fixes, features, foundational work.
+
+**2️⃣ Score RICE for Each** → 
+  - **Bugs:** Impact = user impact (blocking = 3, minor = 1), Confidence = 1.0 (known issue), Ease = varies
+  - **Features:** Impact = user/business value, Confidence = varies, Ease = varies
+  - **Foundational Work:** Impact = future leverage (compound value), Confidence = varies, Ease = usually low
+
+**3️⃣ Compute RICE & Rank** → Highest RICE first.
+
+**4️⃣ Consider Strategic** → Strategic importance and dependencies.
+
+**5️⃣ Decide** → Highest RICE wins, but consider strategic factors.
+
+**6️⃣ Communicate** → Decision and tradeoffs.
+
+**Key Principle:** RICE provides objective comparison, but strategic factors matter too.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1536 (Bug vs feature):** Focus on comparison → "To prioritize bug vs feature, I'd score each using RICE. Bug: Impact = user impact (blocking users = 3, minor = 1), Confidence = 1.0 (known issue), Ease = fix complexity. Feature: Impact = user/business value, Confidence = data certainty, Ease = build effort. I'd compute RICE for each and compare. Generally, blocking bugs (high Impact) win, but high-value features with high RICE can take priority. I'd communicate the decision and why."
+- **Q1536 (Bug vs feature):** Focus on comparison
+  - "Score each using RICE"
+  - "Bug: Impact = user impact (blocking users = 3, minor = 1), Confidence = 1.0 (known issue), Ease = fix complexity"
+  - "Feature: Impact = user/business value, Confidence = data certainty, Ease = build effort"
+  - "Compute RICE for each and compare"
+  - "Generally, blocking bugs (high Impact) win, but high-value features with high RICE can take priority"
+  - "Communicate decision and why"
 
-- **Q1052 (Foundational work vs features):** Emphasize balance → "To balance foundational work vs features, I'd score each using RICE. Foundational work: Impact = future leverage (compound value), Confidence = technical certainty, Ease = usually low (hard). Features: Impact = immediate user value, Confidence = varies, Ease = varies. Foundational work wins when Impact is high (unlocks multiple features) and Confidence is high. I'd prioritize highest RICE items, considering strategic importance. I'd communicate the balance and why foundational work matters when it compounds."
+- **Q1052 (Foundational work vs features):** Emphasize balance
+  - "Score each using RICE"
+  - "Foundational work: Impact = future leverage (compound value), Confidence = technical certainty, Ease = usually low (hard)"
+  - "Features: Impact = immediate user value, Confidence = varies, Ease = varies"
+  - "Foundational work wins when Impact is high (unlocks multiple features) and Confidence is high"
+  - "Prioritize highest RICE items, considering strategic importance"
+  - "Communicate balance and why foundational work matters when it compounds"
 
 ---
 
