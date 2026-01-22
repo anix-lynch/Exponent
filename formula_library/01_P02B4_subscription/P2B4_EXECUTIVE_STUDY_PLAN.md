@@ -46,13 +46,40 @@
 - How would you define success for a content subscription?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For subscription products, the NSM is typically Retention (D7, D30, or M3) - it predicts LTV and MRR growth. Input KPIs: engagement (content consumption, feature usage, session frequency), acquisition (CAC, conversion rate, trial-to-paid conversion), and revenue (MRR growth, ARPU, expansion revenue). Leading indicators: first-week engagement, content completion rate, feature adoption. Guardrails: churn rate (must be low), content quality (must be high), and price sensitivity (must be acceptable)."
+
+**Framework:** `NSM (Retention) → Engagement KPIs → Acquisition KPIs → Revenue KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For subscription products, the NSM is typically Retention (D7, D30, or M3) - it predicts LTV and MRR growth.
+
+**1️⃣ NSM (Retention)** → Predicts LTV and MRR growth.
+
+**2️⃣ Engagement KPIs** → Content consumption, feature usage, session frequency.
+
+**3️⃣ Acquisition KPIs** → CAC, conversion rate, trial-to-paid conversion.
+
+**4️⃣ Revenue KPIs** → MRR growth, ARPU, expansion revenue.
+
+**5️⃣ Guardrails** → Churn rate (must be low), content quality (must be high), price sensitivity (must be acceptable).
+
+**Key Principle:** Retention is usually the NSM - it predicts LTV and MRR growth.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for Netflix:** Focus on content → "For Netflix, NSM: M3 Retention (users who stay 3 months). Input KPIs: engagement (watch time, content completion), acquisition (sign-up rate, trial conversion), revenue (MRR, ARPU). Leading indicators: first-week watch time, content discovery rate. Guardrails: churn rate, content quality, price sensitivity."
+- **Define NSM for Netflix:** Focus on content
+  - "NSM: M3 Retention (users who stay 3 months)"
+  - "Input KPIs: engagement (watch time, content completion), acquisition (sign-up rate, trial conversion), revenue (MRR, ARPU)"
+  - "Leading indicators: first-week watch time, content discovery rate"
+  - "Guardrails: churn rate, content quality, price sensitivity"
 
-- **Measure subscription success:** Emphasize retention → "Subscription success is measured by retention (D7, D30, M3), LTV (lifetime value), and MRR growth. Input KPIs: engagement depth, acquisition efficiency (CAC), revenue per user (ARPU). Leading indicators: first-week engagement, feature adoption. Guardrails: churn rate, content quality, unit economics (LTV/CAC > 3:1)."
+- **Measure subscription success:** Emphasize retention
+  - "Success measured by: retention (D7, D30, M3), LTV (lifetime value), MRR growth"
+  - "Input KPIs: engagement depth, acquisition efficiency (CAC), revenue per user (ARPU)"
+  - "Leading indicators: first-week engagement, feature adoption"
+  - "Guardrails: churn rate, content quality, unit economics (LTV/CAC > 3:1)"
 
 ---
 
@@ -78,7 +105,24 @@
 - How do you measure cohort retention?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For retention and churn, I measure cohort retention (D7, D30, M3), churn rate (% who cancel monthly, target < 5%), and LTV (lifetime value, target > 3× CAC). Input KPIs: engagement depth (content consumption, feature usage), acquisition quality (trial conversion, sign-up source), revenue per user (ARPU). Leading indicators: first-week engagement, content completion rate, feature adoption. Guardrails: churn rate (must be low), content quality (must be high), price sensitivity (must be acceptable). Small improvements in retention = big LTV gains."
+
+**Framework:** `Cohort Retention → Churn Rate → LTV → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For retention and churn, I measure three key metrics.
+
+**1️⃣ Cohort Retention** → D7, D30, M3 retention.
+
+**2️⃣ Churn Rate** → % who cancel monthly (target < 5%).
+
+**3️⃣ LTV** → Lifetime value (target > 3× CAC).
+
+**4️⃣ Input KPIs** → Engagement depth (content consumption, feature usage), acquisition quality (trial conversion, sign-up source), revenue per user (ARPU).
+
+**5️⃣ Guardrails** → Churn rate (must be low), content quality (must be high), price sensitivity (must be acceptable).
+
+**Key Principle:** Small improvements in retention = big LTV gains.
 
 ---
 
@@ -104,7 +148,24 @@
 - How do you measure feature adoption?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For engagement and content, I measure content consumption (hours watched/read/listened), feature adoption (% using key features), and session frequency (sessions per week). Input KPIs: content completion rate, content discovery rate, feature usage rate. Leading indicators: first-week engagement, time-to-first-value, content completion rate. Guardrails: content quality (must be high), feature reliability (must work), user satisfaction (must be positive). Engagement drives retention - active users stay longer."
+
+**Framework:** `Content Consumption → Feature Adoption → Session Frequency → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For engagement and content, I measure three key metrics.
+
+**1️⃣ Content Consumption** → Hours watched/read/listened.
+
+**2️⃣ Feature Adoption** → % using key features.
+
+**3️⃣ Session Frequency** → Sessions per week.
+
+**4️⃣ Input KPIs** → Content completion rate, content discovery rate, feature usage rate.
+
+**5️⃣ Guardrails** → Content quality (must be high), feature reliability (must work), user satisfaction (must be positive).
+
+**Key Principle:** Engagement drives retention - active users stay longer.
 
 ---
 
@@ -163,12 +224,3 @@ Before your interview, you should be able to:
 **Remember:** Subscriptions are about retention and lifetime value. Metrics must capture both acquisition and retention to maximize LTV.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 9
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** Subscription metrics are about retention and lifetime value. Engagement drives retention, and small improvements in retention = big LTV gains.

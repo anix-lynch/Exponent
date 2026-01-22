@@ -46,13 +46,40 @@
 - How would you define success for a delivery platform?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For on-demand products, the NSM is typically Completed Rides/Deliveries per Week - it captures user value (mobility/delivery) and business value (revenue). Input KPIs: supply side (active drivers online, driver utilization, driver earnings), demand side (request volume, peak hour coverage, user wait time), and matching efficiency (match rate, ETA accuracy, cancellation rate). Leading indicators: driver sign-up rate, request acceptance rate, peak hour availability. Guardrails: driver satisfaction (prevents churn), user safety (trust), and cost per transaction (profitability)."
+
+**Framework:** `NSM → Supply KPIs → Demand KPIs → Matching Efficiency → Guardrails`
+
+**Memorizable Answer:**
+
+For on-demand products, the NSM is typically Completed Rides/Deliveries per Week.
+
+**1️⃣ NSM** → Captures user value (mobility/delivery) and business value (revenue).
+
+**2️⃣ Supply KPIs** → Active drivers online, driver utilization, driver earnings.
+
+**3️⃣ Demand KPIs** → Request volume, peak hour coverage, user wait time.
+
+**4️⃣ Matching Efficiency** → Match rate, ETA accuracy, cancellation rate.
+
+**5️⃣ Guardrails** → Driver satisfaction (prevents churn), user safety (trust), cost per transaction (profitability).
+
+**Key Principle:** Balance speed (user experience) + utilization (supply efficiency) + volume (business scale).
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for Uber:** Focus on ride-sharing → "For Uber, NSM: Completed Rides per Week. Input KPIs: supply (active drivers, driver utilization), demand (ride requests, peak coverage), matching (time-to-match, ETA accuracy). Leading indicators: driver sign-up rate, ride acceptance rate. Guardrails: driver earnings, rider safety, cost per ride."
+- **Define NSM for Uber:** Focus on ride-sharing
+  - "NSM: Completed Rides per Week"
+  - "Input KPIs: supply (active drivers, driver utilization), demand (ride requests, peak coverage), matching (time-to-match, ETA accuracy)"
+  - "Leading indicators: driver sign-up rate, ride acceptance rate"
+  - "Guardrails: driver earnings, rider safety, cost per ride"
 
-- **Measure success in new city:** Emphasize market launch → "For new city, NSM: Completed Rides per Week. Key metrics: supply/demand balance (ratio of drivers to requests), time-to-match (speed), match rate (efficiency). Leading indicators: driver onboarding rate, first-ride-request rate. Guardrails: driver earnings (must be attractive), rider satisfaction, market penetration."
+- **Measure success in new city:** Emphasize market launch
+  - "NSM: Completed Rides per Week"
+  - "Key metrics: supply/demand balance (ratio of drivers to requests), time-to-match (speed), match rate (efficiency)"
+  - "Leading indicators: driver onboarding rate, first-ride-request rate"
+  - "Guardrails: driver earnings (must be attractive), rider satisfaction, market penetration"
 
 ---
 
@@ -78,7 +105,24 @@
 - How do you prevent driver churn?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For supply/demand balance, I measure the ratio of active drivers to ride requests (optimal 1.2-1.5), driver utilization (% of time on trips, target 60-70%), and wait time (time to match, target < 5 min). Input KPIs: supply (active drivers, driver sign-ups, driver retention), demand (request volume, peak coverage, user retention). Leading indicators: driver sign-up rate, request acceptance rate, peak hour availability. Guardrails: driver earnings (must be attractive), user wait time (must be acceptable), cost per transaction (must be profitable)."
+
+**Framework:** `Supply/Demand Ratio → Utilization → Wait Time → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For supply/demand balance, I measure three key metrics.
+
+**1️⃣ Supply/Demand Ratio** → Active drivers / ride requests (optimal 1.2-1.5).
+
+**2️⃣ Driver Utilization** → % of time on trips (target 60-70%).
+
+**3️⃣ Wait Time** → Time to match (target < 5 min).
+
+**4️⃣ Input KPIs** → Supply (active drivers, sign-ups, retention), demand (request volume, peak coverage, user retention).
+
+**5️⃣ Guardrails** → Driver earnings (must be attractive), user wait time (must be acceptable), cost per transaction (must be profitable).
+
+**Key Principle:** Balance is critical - too much supply = low utilization, too little = long wait times.
 
 ---
 
@@ -103,7 +147,24 @@
 - How do you reduce cancellation rate?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For matching efficiency, I measure time to match (request to acceptance, target < 2 min), ETA accuracy (predicted vs actual, target ± 2 min), and match rate (% successfully matched, target > 95%). Input KPIs: algorithm quality, driver availability, request patterns. Leading indicators: first-match time, acceptance rate, cancellation rate. Guardrails: user wait time (must be acceptable), driver earnings (must be fair), platform reliability (must be consistent)."
+
+**Framework:** `Time to Match → ETA Accuracy → Match Rate → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For matching efficiency, I measure three key metrics.
+
+**1️⃣ Time to Match** → Request to acceptance (target < 2 min).
+
+**2️⃣ ETA Accuracy** → Predicted vs actual (target ± 2 min).
+
+**3️⃣ Match Rate** → % successfully matched (target > 95%).
+
+**4️⃣ Input KPIs** → Algorithm quality, driver availability, request patterns.
+
+**5️⃣ Guardrails** → User wait time (must be acceptable), driver earnings (must be fair), platform reliability (must be consistent).
+
+**Key Principle:** Fast, accurate matching = better user experience + higher utilization.
 
 ---
 
@@ -128,7 +189,24 @@
 - How do you measure market penetration?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For geographic expansion, I measure city-level NSM (completed rides per week), market penetration (rides per capita), and time to profitability (months to break even). Input KPIs: supply growth (driver sign-ups), demand growth (user sign-ups), matching efficiency (time to match). Leading indicators: first-ride rate, driver activation rate, user retention. Guardrails: driver earnings (must be attractive), user satisfaction (must be high), unit economics (must be profitable)."
+
+**Framework:** `City-Level NSM → Market Penetration → Time to Profitability → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For geographic expansion, I measure city-level metrics.
+
+**1️⃣ City-Level NSM** → Completed rides per week per city.
+
+**2️⃣ Market Penetration** → Rides per capita - measures adoption.
+
+**3️⃣ Time to Profitability** → Months to break even - measures efficiency.
+
+**4️⃣ Input KPIs** → Supply growth (driver sign-ups), demand growth (user sign-ups), matching efficiency (time to match).
+
+**5️⃣ Guardrails** → Driver earnings (must be attractive), user satisfaction (must be high), unit economics (must be profitable).
+
+**Key Principle:** Each city is a separate market - need city-level metrics.
 
 ---
 
@@ -188,12 +266,3 @@ Before your interview, you should be able to:
 **Remember:** On-demand is about real-time matching. Metrics must capture both sides of the marketplace and the efficiency of matching them.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 14
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** On-demand metrics are about balancing supply (drivers/workers) and demand (users) in real-time, with efficiency (matching) and utilization as key drivers.

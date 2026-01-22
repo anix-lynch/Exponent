@@ -46,13 +46,41 @@
 - How would you define success for a marketplace?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For marketplace products, the NSM is typically GMV (Gross Merchandise Value) - total transaction value. This captures both supply and demand sides. Input KPIs: supply side (active listings, listing quality score, seller satisfaction), demand side (search volume, booking conversion rate, repeat bookings), and marketplace health (take rate, supply/demand ratio, transaction success rate). Leading indicators: new listing rate, search-to-booking conversion, seller onboarding completion. Guardrails: trust & safety (prevent fraud), listing quality (maintain standards), and price competitiveness (stay competitive)."
+
+**Framework:** `NSM (GMV) → Supply KPIs → Demand KPIs → Marketplace Health → Guardrails`
+
+**Memorizable Answer:**
+
+For marketplace products, the NSM is typically GMV (Gross Merchandise Value) - total transaction value.
+
+**1️⃣ NSM (GMV)** → Captures both supply and demand sides.
+
+**2️⃣ Supply KPIs** → Active listings, listing quality score, seller satisfaction.
+
+**3️⃣ Demand KPIs** → Search volume, booking conversion rate, repeat bookings.
+
+**4️⃣ Marketplace Health** → Take rate, supply/demand ratio, transaction success rate.
+
+**5️⃣ Guardrails** → Trust & safety (prevent fraud), listing quality (maintain standards), price competitiveness (stay competitive).
+
+**Key Principle:** GMV = best captures marketplace health - it's the total transaction value.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Define NSM for Airbnb:** Focus on accommodation → "For Airbnb, NSM: GMV (nights booked × average price). Input KPIs: supply (active listings, listing quality), demand (searches, booking conversion), marketplace health (take rate, supply/demand balance). Leading indicators: new listing rate, search-to-booking conversion. Guardrails: host satisfaction, guest safety, platform trust."
+- **Define NSM for Airbnb:** Focus on accommodation
+  - "NSM: GMV (nights booked × average price)"
+  - "Input KPIs: supply (active listings, listing quality), demand (searches, booking conversion), marketplace health (take rate, supply/demand balance)"
+  - "Leading indicators: new listing rate, search-to-booking conversion"
+  - "Guardrails: host satisfaction, guest safety, platform trust"
 
-- **Measure marketplace health:** Emphasize balance → "Marketplace health is measured by supply/demand balance (ratio of listings to searches, optimal 1.2-1.5), take rate (platform revenue as % of GMV), and transaction success rate (% of bookings completed). Input KPIs: listing quality, search volume, booking conversion. Guardrails: trust & safety, listing quality, price competitiveness."
+- **Measure marketplace health:** Emphasize balance
+  - "Supply/demand balance: ratio of listings to searches (optimal 1.2-1.5)"
+  - "Take rate: platform revenue as % of GMV"
+  - "Transaction success rate: % of bookings completed"
+  - "Input KPIs: listing quality, search volume, booking conversion"
+  - "Guardrails: trust & safety, listing quality, price competitiveness"
 
 ---
 
@@ -78,7 +106,24 @@
 - How do you prevent seller churn?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For supply/demand balance, I measure the ratio of active listings to searches (optimal 1.2-1.5), booking conversion rate (bookings/searches, target > 10%), and listing utilization (bookings/listings, target > 20%). Input KPIs: supply (active listings, listing quality, seller satisfaction), demand (search volume, user retention, repeat bookings). Leading indicators: new listing rate, search-to-booking conversion, seller onboarding completion. Guardrails: listing quality (maintain standards), seller satisfaction (prevent churn), price competitiveness (stay competitive)."
+
+**Framework:** `Supply/Demand Ratio → Conversion Rate → Listing Utilization → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For supply/demand balance, I measure three key metrics.
+
+**1️⃣ Supply/Demand Ratio** → Active listings / searches (optimal 1.2-1.5).
+
+**2️⃣ Booking Conversion Rate** → Bookings / searches (target > 10%).
+
+**3️⃣ Listing Utilization** → Bookings / listings (target > 20%).
+
+**4️⃣ Input KPIs** → Supply (active listings, listing quality, seller satisfaction), demand (search volume, user retention, repeat bookings).
+
+**5️⃣ Guardrails** → Listing quality (maintain standards), seller satisfaction (prevent churn), price competitiveness (stay competitive).
+
+**Key Principle:** Balance is critical - too much supply = low prices, too little = low conversion.
 
 ---
 
@@ -104,7 +149,24 @@
 - How do you reduce fraud/disputes?
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "For transaction and trust metrics, I measure take rate (platform revenue/GMV, target 15-25%), transaction success rate (% completed, target > 95%), and review rate (% reviewed, target > 60%). Input KPIs: transaction volume, average transaction value, dispute rate, fraud rate. Leading indicators: first-transaction rate, review submission rate, dispute resolution time. Guardrails: trust & safety (prevent fraud), listing quality (maintain standards), platform reliability (ensure transactions complete)."
+
+**Framework:** `Take Rate → Transaction Success Rate → Review Rate → Input KPIs → Guardrails`
+
+**Memorizable Answer:**
+
+For transaction and trust metrics, I measure three key metrics.
+
+**1️⃣ Take Rate** → Platform revenue / GMV (target 15-25%).
+
+**2️⃣ Transaction Success Rate** → % completed (target > 95%).
+
+**3️⃣ Review Rate** → % reviewed (target > 60%).
+
+**4️⃣ Input KPIs** → Transaction volume, average transaction value, dispute rate, fraud rate.
+
+**5️⃣ Guardrails** → Trust & safety (prevent fraud), listing quality (maintain standards), platform reliability (ensure transactions complete).
+
+**Key Principle:** Trust enables transactions - measure both.
 
 ---
 
@@ -162,12 +224,3 @@ Before your interview, you should be able to:
 **Remember:** Marketplaces are about connecting supply and demand. Metrics must capture both sides and the health of transactions between them.
 
 ---
-
-## 📝 NOTES
-
-- **Total Questions:** 7
-- **High-Priority Questions:** ~10 (5 per bucket across 2-3 buckets)
-- **Study Time:** 60-90 min total
-- **Approach:** Business model framework → Concept buckets → Representative questions → Narratives
-
-**Key Insight:** Marketplace metrics are about balancing supply (sellers/listings) and demand (buyers/searches) with trust and transaction success as key enablers.
