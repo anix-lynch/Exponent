@@ -80,13 +80,50 @@
 - Q667: Design the 'Top Picks' feature for Netflix. (recommendation feature angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a content platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics. First, I identify Users: Who are the users? (Content creators, Viewers/consumers, Advertisers if applicable), What are their needs? (Content discovery, Quality content, Monetization for creators). Then I define Jobs: What jobs do users need done? (Discover content, Consume content, Create content, Monetize content), Prioritize by Frequency and Importance. Next, I design Core Loop: What is the engagement loop? (Discover content → Watch/consume → Engage (like, comment) → Return for more), How does it drive retention? (Content library, Personalized recommendations). I design Key Features: Core features (Content library, Recommendation engine, Player/viewer, Creator tools), Supporting features (Search, Playlists, Social features). I consider Tradeoffs: Content quality vs quantity, Creator vs viewer experience, Free vs paid content. Finally, I define Success Metrics: Consumption metrics (Watch time, Completion rate, Sessions per user), Creator metrics (Creator satisfaction, Content upload rate). The key is designing a core loop that drives content consumption and creator satisfaction."
+
+**Framework:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing a content platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics.
+
+**1️⃣ Users** → Who are the users? (Content creators, Viewers/consumers, Advertisers if applicable), What are their needs? (Content discovery, Quality content, Monetization for creators).
+
+**2️⃣ Jobs** → What jobs do users need done? (Discover content, Consume content, Create content, Monetize content), Prioritize by Frequency and Importance.
+
+**3️⃣ Core Loop** → What is the engagement loop? (Discover content → Watch/consume → Engage (like, comment) → Return for more), How does it drive retention? (Content library, Personalized recommendations).
+
+**4️⃣ Key Features** → Core features (Content library, Recommendation engine, Player/viewer, Creator tools), Supporting features (Search, Playlists, Social features).
+
+**5️⃣ Tradeoffs** → Content quality vs quantity, Creator vs viewer experience, Free vs paid content.
+
+**6️⃣ Success Metrics** → Consumption metrics (Watch time, Completion rate, Sessions per user), Creator metrics (Creator satisfaction, Content upload rate).
+
+**Key Principle:** Design a core loop that drives content consumption and creator satisfaction.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q50 (Design Netflix for kids):** Focus on kids content platform → "To design Netflix for kids, I'd: Users (Kids (viewers), Parents (gatekeepers), Content creators), Needs (Age-appropriate content, Safe viewing, Educational value, Entertainment), Jobs (Discover kid-friendly content, Watch shows/movies, Learn, Have fun), Core Loop (Open app → Browse kid content → Watch → Complete → Return for more), Key Features (Kid-friendly library (curated, age-appropriate), Recommendation engine (personalized for kids), Player (simple controls, parental controls), Parental controls (time limits, content filters, viewing history), Profiles (kid profiles, parent profiles), Search (kid-safe search)), Tradeoffs (Quality vs quantity - prioritize quality, Educational vs entertainment - balance both, Parent control vs kid freedom - balance), Success Metrics (Consumption: Watch time, completion rate, sessions | Retention: Day 1/7/30 retention, Parent satisfaction, Content library size). I'd prioritize safety, age-appropriateness, and parental controls."
+- **Q50 (Design Netflix for kids):** Focus on kids content platform
+  - "Users: Kids (viewers), Parents (gatekeepers), Content creators"
+  - "Needs: Age-appropriate content, Safe viewing, Educational value, Entertainment"
+  - "Jobs: Discover kid-friendly content, Watch shows/movies, Learn, Have fun"
+  - "Core Loop: Open app → Browse kid content → Watch → Complete → Return for more"
+  - "Key Features: Kid-friendly library (curated, age-appropriate), Recommendation engine (personalized for kids), Player (simple controls, parental controls), Parental controls (time limits, content filters, viewing history), Profiles (kid profiles, parent profiles), Search (kid-safe search)"
+  - "Tradeoffs: Quality vs quantity (prioritize quality), Educational vs entertainment (balance both), Parent control vs kid freedom (balance)"
+  - "Success Metrics: Consumption (watch time, completion rate, sessions), Retention (Day 1/7/30 retention, Parent satisfaction, Content library size)"
+  - "Prioritize safety, age-appropriateness, and parental controls"
 
-- **Q494 (Design streaming service like Netflix):** Emphasize streaming platform → "To design a streaming service like Netflix, I'd: Users (Content creators, Viewers, Advertisers if applicable), Needs (Content discovery, Quality content, Variety, Convenience), Jobs (Discover content, Watch shows/movies, Create content, Monetize), Core Loop (Open app → Browse/Discover → Watch → Complete → Return for more), Key Features (Content library (large, diverse), Recommendation engine (personalized, ML-based), Player (high quality, offline viewing), Profiles (multiple users), Search (powerful, filters), Playlists (watchlists, continue watching)), Tradeoffs (Quality vs quantity - balance, Original vs licensed - mix, Creator vs viewer - support both), Success Metrics (Consumption: Watch time, completion rate, sessions | Retention: Day 1/7/30 retention, Churn rate, Content library growth). I'd prioritize content discovery and watch time."
+- **Q494 (Design streaming service like Netflix):** Emphasize streaming platform
+  - "Users: Content creators, Viewers, Advertisers if applicable"
+  - "Needs: Content discovery, Quality content, Variety, Convenience"
+  - "Jobs: Discover content, Watch shows/movies, Create content, Monetize"
+  - "Core Loop: Open app → Browse/Discover → Watch → Complete → Return for more"
+  - "Key Features: Content library (large, diverse), Recommendation engine (personalized, ML-based), Player (high quality, offline viewing), Profiles (multiple users), Search (powerful, filters), Playlists (watchlists, continue watching)"
+  - "Tradeoffs: Quality vs quantity (balance), Original vs licensed (mix), Creator vs viewer (support both)"
+  - "Success Metrics: Consumption (watch time, completion rate, sessions), Retention (Day 1/7/30 retention, Churn rate, Content library growth)"
+  - "Prioritize content discovery and watch time"
 
 ---
 
@@ -111,11 +148,37 @@
 - Q375: Design a new feature for YouTube. (discovery feature angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on content discovery and recommendation, I use the same content platform framework but emphasize discovery and personalization. I identify Users and their Jobs to understand what content they want. I design Core Loop with discovery in mind: Entry point (How users discover - homepage, search, recommendations), Core action (Browse, search, watch), Reward (Find relevant content, personalized recommendations), Return trigger (New content, recommendations, trending). I design Key Features that support discovery: Recommendation engine (Personalized, ML-based, User preferences, Content similarity), Search (Powerful search, Filters, Categories), Trending (Popular content, New releases, Editor's picks), Homepage (Personalized rows, Recommendations, Continue watching). I consider Tradeoffs: Personalization vs diversity (balance), Quality vs quantity (prioritize quality), Creator vs viewer (support both). I define Success Metrics: Discovery metrics (Click-through rate, Watch time from recommendations, Completion rate), Engagement (Sessions, Time spent, Retention). The key is making it easy to discover relevant content through personalization and search."
+
+**Framework:** `Users → Jobs → Core Loop (Discovery Focus) → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on content discovery and recommendation, I use the same content platform framework but emphasize discovery and personalization.
+
+**1️⃣ Users & Jobs** → Identify users and their jobs to understand what content they want.
+
+**2️⃣ Core Loop (Discovery Focus)** → Entry point (How users discover - homepage, search, recommendations), Core action (Browse, search, watch), Reward (Find relevant content, personalized recommendations), Return trigger (New content, recommendations, trending).
+
+**3️⃣ Key Features (Discovery)** → Recommendation engine (Personalized, ML-based, User preferences, Content similarity), Search (Powerful search, Filters, Categories), Trending (Popular content, New releases, Editor's picks), Homepage (Personalized rows, Recommendations, Continue watching).
+
+**4️⃣ Tradeoffs** → Personalization vs diversity (balance), Quality vs quantity (prioritize quality), Creator vs viewer (support both).
+
+**5️⃣ Success Metrics** → Discovery metrics (Click-through rate, Watch time from recommendations, Completion rate), Engagement (Sessions, Time spent, Retention).
+
+**Key Principle:** Make it easy to discover relevant content through personalization and search.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q667 (Design 'Top Picks' for Netflix):** Focus on recommendation feature → "To design 'Top Picks' for Netflix, I'd: Users (Viewers looking for personalized recommendations), Jobs (Discover content they'll love, Save time browsing, Find new shows), Core Loop (Open app → See 'Top Picks' → Browse picks → Watch → Return), Key Features (Personalized picks (ML-based, user preferences, viewing history), Visual design (prominent, engaging), Content cards (preview, metadata, ratings), Easy access (top of homepage), Update frequency (daily, weekly)), Tradeoffs (Personalization vs diversity - balance, Quality vs quantity - prioritize quality, Popular vs niche - mix), Success Metrics (Discovery: CTR on picks, Watch time from picks, Completion rate | Engagement: Sessions, Time spent, Retention). I'd prioritize personalization and relevance to drive watch time."
+- **Q667 (Design 'Top Picks' for Netflix):** Focus on recommendation feature
+  - "Users: Viewers looking for personalized recommendations"
+  - "Jobs: Discover content they'll love, Save time browsing, Find new shows"
+  - "Core Loop: Open app → See 'Top Picks' → Browse picks → Watch → Return"
+  - "Key Features: Personalized picks (ML-based, user preferences, viewing history), Visual design (prominent, engaging), Content cards (preview, metadata, ratings), Easy access (top of homepage), Update frequency (daily, weekly)"
+  - "Tradeoffs: Personalization vs diversity (balance), Quality vs quantity (prioritize quality), Popular vs niche (mix)"
+  - "Success Metrics: Discovery (CTR on picks, Watch time from picks, Completion rate), Engagement (Sessions, Time spent, Retention)"
+  - "Prioritize personalization and relevance to drive watch time"
 
 ---
 

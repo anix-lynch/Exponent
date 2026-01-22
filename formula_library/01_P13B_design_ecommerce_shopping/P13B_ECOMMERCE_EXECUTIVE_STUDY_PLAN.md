@@ -80,13 +80,50 @@
 - Q598: Design an e-commerce website for SLR cameras. (e-commerce website design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing an e-commerce platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics. First, I identify Users: Who are the users? (Shoppers/buyers, Sellers/merchants, Platform operators), What are their needs? (Product discovery, Easy purchasing, Trust & safety). Then I define Jobs: What jobs do users need done? (Find products, Compare options, Make purchase, Track orders), Prioritize by Purchase intent and Urgency. Next, I design Core Loop: What is the engagement loop? (Browse/search → Add to cart → Checkout → Return for more), How does it drive retention? (Repeat purchases, Saved preferences). I design Key Features: Core features (Product catalog, Search/filter, Cart, Checkout, Payment), Supporting features (Reviews, Recommendations, Wishlist, Order tracking). I consider Tradeoffs: Conversion vs experience, Trust vs speed, Features vs simplicity. Finally, I define Success Metrics: Commerce metrics (Conversion rate, AOV, Revenue), Retention metrics (Repeat purchase rate, Customer LTV). The key is designing a platform that makes it easy to discover and purchase products while building trust."
+
+**Framework:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing an e-commerce platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics.
+
+**1️⃣ Users** → Who are the users? (Shoppers/buyers, Sellers/merchants, Platform operators), What are their needs? (Product discovery, Easy purchasing, Trust & safety).
+
+**2️⃣ Jobs** → What jobs do users need done? (Find products, Compare options, Make purchase, Track orders), Prioritize by Purchase intent and Urgency.
+
+**3️⃣ Core Loop** → What is the engagement loop? (Browse/search → Add to cart → Checkout → Return for more), How does it drive retention? (Repeat purchases, Saved preferences).
+
+**4️⃣ Key Features** → Core features (Product catalog, Search/filter, Cart, Checkout, Payment), Supporting features (Reviews, Recommendations, Wishlist, Order tracking).
+
+**5️⃣ Tradeoffs** → Conversion vs experience, Trust vs speed, Features vs simplicity.
+
+**6️⃣ Success Metrics** → Commerce metrics (Conversion rate, AOV, Revenue), Retention metrics (Repeat purchase rate, Customer LTV).
+
+**Key Principle:** Design a platform that makes it easy to discover and purchase products while building trust.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q261 (Design better grocery shopping experience):** Focus on grocery shopping → "To design a better grocery shopping experience, I'd: Users (Grocery shoppers, Retailers, Delivery providers), Needs (Easy shopping, Fast checkout, Fresh products, Convenience), Jobs (Find products, Compare prices, Add to cart, Checkout, Track delivery), Core Loop (Open app → Browse/search → Add to cart → Checkout → Track delivery → Return for next shop), Key Features (Product catalog (organized by category, searchable), Search/filter (by category, brand, price, dietary), Cart (easy add/remove, quantity, substitutions), Checkout (fast, saved payment, delivery options), Recommendations (based on history, dietary preferences), Order tracking (real-time, delivery updates)), Tradeoffs (Conversion vs experience - optimize for both, Speed vs thoroughness - balance, Features vs simplicity - keep simple), Success Metrics (Commerce: Conversion rate, AOV, Revenue | Retention: Repeat purchase rate, Customer LTV, Order frequency). I'd prioritize easy product discovery, fast checkout, and reliable delivery."
+- **Q261 (Design better grocery shopping experience):** Focus on grocery shopping
+  - "Users: Grocery shoppers, Retailers, Delivery providers"
+  - "Needs: Easy shopping, Fast checkout, Fresh products, Convenience"
+  - "Jobs: Find products, Compare prices, Add to cart, Checkout, Track delivery"
+  - "Core Loop: Open app → Browse/search → Add to cart → Checkout → Track delivery → Return for next shop"
+  - "Key Features: Product catalog (organized by category, searchable), Search/filter (by category, brand, price, dietary), Cart (easy add/remove, quantity, substitutions), Checkout (fast, saved payment, delivery options), Recommendations (based on history, dietary preferences), Order tracking (real-time, delivery updates)"
+  - "Tradeoffs: Conversion vs experience (optimize for both), Speed vs thoroughness (balance), Features vs simplicity (keep simple)"
+  - "Success Metrics: Commerce (conversion rate, AOV, Revenue), Retention (repeat purchase rate, Customer LTV, Order frequency)"
+  - "Prioritize easy product discovery, fast checkout, and reliable delivery"
 
-- **Q385 (Design payment screen mockup):** Emphasize payment design → "To design a payment screen mockup with virtual card numbers, I'd: Users (Shoppers, Security-conscious users), Needs (Secure payment, Fast checkout, Privacy, Convenience), Jobs (Enter payment, Complete purchase, Manage cards, Secure transactions), Core Loop (Reach checkout → Select payment → Enter details → Complete → Return), Key Features (Payment methods (credit, debit, virtual cards, digital wallets), Virtual card numbers (privacy, security), Security features (encryption, tokenization, fraud detection), Checkout flow (simple, fast, clear), Saved payments (quick checkout, secure storage), Error handling (clear messages, retry)), Tradeoffs (Security vs speed - prioritize security, Features vs simplicity - keep simple, Privacy vs convenience - balance), Success Metrics (Payment: Success rate, Security (fraud rate), User satisfaction | Commerce: Conversion rate, Checkout abandonment). I'd prioritize security, simplicity, and user trust."
+- **Q385 (Design payment screen mockup):** Emphasize payment design
+  - "Users: Shoppers, Security-conscious users"
+  - "Needs: Secure payment, Fast checkout, Privacy, Convenience"
+  - "Jobs: Enter payment, Complete purchase, Manage cards, Secure transactions"
+  - "Core Loop: Reach checkout → Select payment → Enter details → Complete → Return"
+  - "Key Features: Payment methods (credit, debit, virtual cards, digital wallets), Virtual card numbers (privacy, security), Security features (encryption, tokenization, fraud detection), Checkout flow (simple, fast, clear), Saved payments (quick checkout, secure storage), Error handling (clear messages, retry)"
+  - "Tradeoffs: Security vs speed (prioritize security), Features vs simplicity (keep simple), Privacy vs convenience (balance)"
+  - "Success Metrics: Payment (success rate, Security/fraud rate, User satisfaction), Commerce (conversion rate, Checkout abandonment)"
+  - "Prioritize security, simplicity, and user trust"
 
 ---
 
@@ -111,11 +148,38 @@
 - Q1424: How would you improve the customer satisfaction rating (CSAT) for Costco, a membership-only retail store? (shopping experience improvement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on purchase flow and checkout, I use the same e-commerce framework but emphasize conversion optimization. I identify Users and their Jobs to understand purchase needs. I design Core Loop with conversion in mind: Entry point (How users enter - product page, cart, checkout), Core action (Add to cart, Review, Complete purchase), Reward (Purchase complete, Product received, Satisfaction), Return trigger (Next purchase, Recommendations, Saved preferences). I design Key Features that optimize conversion: Checkout flow (Cart review, Shipping, Payment, Confirmation - minimize steps), Optimization (Reduce friction - fewer fields, guest checkout, auto-fill, Save progress, Clear pricing), Trust signals (Security badges, Reviews, Guarantees, Return policy), Payment (Multiple methods, Saved payments, Security, Fast processing). I consider Tradeoffs: Conversion vs experience (optimize for both), Security vs speed (prioritize security), Features vs simplicity (keep simple). I define Success Metrics: Conversion metrics (Conversion rate, Checkout abandonment, AOV, Cart abandonment), Commerce (Revenue, Repeat purchases, Customer LTV). The key is making checkout fast, secure, and trustworthy."
+
+**Framework:** `Users → Jobs → Core Loop (Conversion Focus) → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on purchase flow and checkout, I use the same e-commerce framework but emphasize conversion optimization.
+
+**1️⃣ Users & Jobs** → Identify users and their jobs to understand purchase needs.
+
+**2️⃣ Core Loop (Conversion Focus)** → Entry point (How users enter - product page, cart, checkout), Core action (Add to cart, Review, Complete purchase), Reward (Purchase complete, Product received, Satisfaction), Return trigger (Next purchase, Recommendations, Saved preferences).
+
+**3️⃣ Key Features (Conversion)** → Checkout flow (Cart review, Shipping, Payment, Confirmation - minimize steps), Optimization (Reduce friction - fewer fields, guest checkout, auto-fill, Save progress, Clear pricing), Trust signals (Security badges, Reviews, Guarantees, Return policy), Payment (Multiple methods, Saved payments, Security, Fast processing).
+
+**4️⃣ Tradeoffs** → Conversion vs experience (optimize for both), Security vs speed (prioritize security), Features vs simplicity (keep simple).
+
+**5️⃣ Success Metrics** → Conversion metrics (Conversion rate, Checkout abandonment, AOV, Cart abandonment), Commerce (Revenue, Repeat purchases, Customer LTV).
+
+**Key Principle:** Make checkout fast, secure, and trustworthy.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q386 (Design payment system for teenage boys in Italy):** Focus on specific user group → "To design a payment system for teenage boys in Italy, I'd: Users (Teenage boys (primary users), Parents (gatekeepers), Merchants), Needs (Easy payment, Parental control, Security, Privacy, Age-appropriate), Jobs (Make purchases, Manage allowance, Get parental approval, Secure transactions), Core Loop (Select product → Choose payment → Get approval (if needed) → Complete → Return), Key Features (Payment methods (prepaid cards, digital wallets, parental-linked accounts), Parental controls (spending limits, approval required, transaction alerts), Security (fraud protection, age verification), Privacy (data protection, limited sharing), Age-appropriate UI (simple, engaging, clear), Notifications (transaction alerts, balance updates)), Tradeoffs (Security vs convenience - balance, Parental control vs freedom - balance, Features vs simplicity - keep simple), Success Metrics (Payment: Success rate, Security, User satisfaction | Commerce: Conversion rate, Spending patterns, Parent satisfaction). I'd prioritize security, parental controls, and age-appropriate design."
+- **Q386 (Design payment system for teenage boys in Italy):** Focus on specific user group
+  - "Users: Teenage boys (primary users), Parents (gatekeepers), Merchants"
+  - "Needs: Easy payment, Parental control, Security, Privacy, Age-appropriate"
+  - "Jobs: Make purchases, Manage allowance, Get parental approval, Secure transactions"
+  - "Core Loop: Select product → Choose payment → Get approval (if needed) → Complete → Return"
+  - "Key Features: Payment methods (prepaid cards, digital wallets, parental-linked accounts), Parental controls (spending limits, approval required, transaction alerts), Security (fraud protection, age verification), Privacy (data protection, limited sharing), Age-appropriate UI (simple, engaging, clear), Notifications (transaction alerts, balance updates)"
+  - "Tradeoffs: Security vs convenience (balance), Parental control vs freedom (balance), Features vs simplicity (keep simple)"
+  - "Success Metrics: Payment (success rate, Security, User satisfaction), Commerce (conversion rate, Spending patterns, Parent satisfaction)"
+  - "Prioritize security, parental controls, and age-appropriate design"
 
 ---
 

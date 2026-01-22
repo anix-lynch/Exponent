@@ -83,13 +83,46 @@
 - Q66: As a PM for Mastercard, design a product for restaurants to switch to a purchase order system that reduces labor costs. (workflow automation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a B2B product, I use User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics. First, I distinguish User vs Buyer: Who is the user? (End users - daily users, Administrators, Decision makers), Who is the buyer? (Procurement, IT/security, Executives) - they're often different. Then I identify Workflow Pain: Current workflow problems (Inefficiencies, manual processes, integration gaps), Prioritize by Frequency, Impact, and Cost. Next, I design MVP: Minimum viable features (Core workflow automation, Critical integrations, Security/compliance), Phased rollout (Phase 1: Core features, Phase 2+: Advanced features). I assess Adoption Risks: User adoption barriers (Change resistance, Learning curve, Workflow disruption), Mitigation strategies (Training, Gradual rollout, Support). Finally, I define Success Metrics: Adoption metrics (User activation, Feature adoption, Seat utilization), Business metrics (Time saved, Productivity gains, Retention - NRR). The key is: Design for users, sell to buyers. Focus on workflow efficiency and minimize change resistance."
+
+**Framework:** `User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing a B2B product, I use User vs Buyer → Workflow Pain → MVP → Adoption Risks → Success Metrics.
+
+**1️⃣ User vs Buyer** → Who is the user? (End users - daily users, Administrators, Decision makers), Who is the buyer? (Procurement, IT/security, Executives) - they're often different.
+
+**2️⃣ Workflow Pain** → Current workflow problems (Inefficiencies, manual processes, integration gaps), Prioritize by Frequency, Impact, and Cost.
+
+**3️⃣ MVP** → Minimum viable features (Core workflow automation, Critical integrations, Security/compliance), Phased rollout (Phase 1: Core features, Phase 2+: Advanced features).
+
+**4️⃣ Adoption Risks** → User adoption barriers (Change resistance, Learning curve, Workflow disruption), Mitigation strategies (Training, Gradual rollout, Support).
+
+**5️⃣ Success Metrics** → Adoption metrics (User activation, Feature adoption, Seat utilization), Business metrics (Time saved, Productivity gains, Retention - NRR).
+
+**Key Principle:** Design for users, sell to buyers. Focus on workflow efficiency and minimize change resistance.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q49 (Design B2B customer support product):** Focus on B2B product design → "To design a B2B customer support product, I'd: User vs Buyer (Users: Support agents (daily users), Support managers (administrators), Buyers: Support managers (decision makers), IT/security (compliance), Executives (budget)), Workflow Pain (Manual ticket routing, no integration with other tools, slow response times, no analytics, inconsistent quality), MVP (Core ticketing system, basic routing rules, key integrations (CRM, email), security/compliance, basic analytics), Adoption Risks (Change resistance from agents, learning curve, workflow disruption), Mitigation (Training, gradual rollout, support, clear value), Success Metrics (Adoption: Agent activation, feature adoption, seat utilization | Business: Ticket resolution time, customer satisfaction, NRR). I'd prioritize workflow efficiency and ease of adoption."
+- **Q49 (Design B2B customer support product):** Focus on B2B product design
+  - "User vs Buyer: Users (Support agents - daily users, Support managers - administrators), Buyers (Support managers - decision makers, IT/security - compliance, Executives - budget)"
+  - "Workflow Pain: Manual ticket routing, no integration with other tools, slow response times, no analytics, inconsistent quality"
+  - "MVP: Core ticketing system, basic routing rules, key integrations (CRM, email), security/compliance, basic analytics"
+  - "Adoption Risks: Change resistance from agents, learning curve, workflow disruption"
+  - "Mitigation: Training, gradual rollout, support, clear value"
+  - "Success Metrics: Adoption (agent activation, feature adoption, seat utilization), Business (ticket resolution time, customer satisfaction, NRR)"
+  - "Prioritize workflow efficiency and ease of adoption"
 
-- **Q607 (Design employee onboarding product):** Emphasize HR workflow → "To design an employee onboarding product, I'd: User vs Buyer (Users: New employees (daily users), HR team (administrators), Buyers: HR managers (decision makers), IT (security), Executives (budget)), Workflow Pain (Manual paperwork, no tracking, inconsistent process, time-consuming, compliance issues), MVP (Core onboarding flow (documents, tasks, checklist), document management, basic tracking, compliance features, integration with HRIS), Adoption Risks (Change resistance from HR, learning curve, workflow disruption), Mitigation (Training, gradual rollout, support, show time savings), Success Metrics (Adoption: HR activation, feature adoption, completion rate | Business: Onboarding time reduced, employee satisfaction, compliance rate). I'd focus on automating manual work and ensuring compliance."
+- **Q607 (Design employee onboarding product):** Emphasize HR workflow
+  - "User vs Buyer: Users (New employees - daily users, HR team - administrators), Buyers (HR managers - decision makers, IT - security, Executives - budget)"
+  - "Workflow Pain: Manual paperwork, no tracking, inconsistent process, time-consuming, compliance issues"
+  - "MVP: Core onboarding flow (documents, tasks, checklist), document management, basic tracking, compliance features, integration with HRIS"
+  - "Adoption Risks: Change resistance from HR, learning curve, workflow disruption"
+  - "Mitigation: Training, gradual rollout, support, show time savings"
+  - "Success Metrics: Adoption (HR activation, feature adoption, completion rate), Business (onboarding time reduced, employee satisfaction, compliance rate)"
+  - "Focus on automating manual work and ensuring compliance"
 
 ---
 
@@ -112,11 +145,37 @@
 - Q49: As a PM at Microsoft, design a B2B customer support product for them. (workflow efficiency angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on adoption and workflow, I use the same B2B framework but emphasize adoption barriers and workflow optimization. I understand User vs Buyer to identify who needs to adopt. I identify Workflow Pain to find what's blocking adoption or causing inefficiency. I design MVP with adoption in mind: Features that drive adoption (Easy to use, clear value, integrations), Training and support built-in, Gradual rollout plan. I assess Adoption Risks: Change resistance (Address with clear value, training), Learning curve (Simplify, provide support), Workflow disruption (Minimize, provide alternatives). I define Success Metrics: Adoption metrics (Adoption rate, feature usage, time to value), Workflow metrics (Time saved, productivity gains, error reduction). The key is minimizing change resistance and maximizing workflow efficiency."
+
+**Framework:** `User vs Buyer → Workflow Pain → MVP (Adoption Focus) → Adoption Risks → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on adoption and workflow, I use the same B2B framework but emphasize adoption barriers and workflow optimization.
+
+**1️⃣ User vs Buyer** → Identify who needs to adopt.
+
+**2️⃣ Workflow Pain** → Find what's blocking adoption or causing inefficiency.
+
+**3️⃣ MVP (Adoption Focus)** → Features that drive adoption (Easy to use, clear value, integrations), Training and support built-in, Gradual rollout plan.
+
+**4️⃣ Adoption Risks** → Change resistance (Address with clear value, training), Learning curve (Simplify, provide support), Workflow disruption (Minimize, provide alternatives).
+
+**5️⃣ Success Metrics** → Adoption metrics (Adoption rate, feature usage, time to value), Workflow metrics (Time saved, productivity gains, error reduction).
+
+**Key Principle:** Minimize change resistance and maximize workflow efficiency.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q65 (Improve customer adoption):** Focus on adoption → "To improve customer adoption, I'd: User vs Buyer (Users: Developers using the portal, Buyers: Developer managers, IT), Workflow Pain (What's blocking adoption? Hard to use, unclear value, missing features, integration issues), MVP (Features that drive adoption: Easy onboarding, clear documentation, key integrations, value demonstration, support), Adoption Risks (Change resistance - developers don't want to switch, Learning curve - new tool, Workflow disruption - breaks existing process), Mitigation (Training, clear value prop, gradual rollout, support, integrations), Success Metrics (Adoption: Developer activation, feature usage, time to value | Business: Developer satisfaction, retention, NRR). I'd focus on making it easy to adopt and showing clear value."
+- **Q65 (Improve customer adoption):** Focus on adoption
+  - "User vs Buyer: Users (Developers using the portal), Buyers (Developer managers, IT)"
+  - "Workflow Pain: What's blocking adoption? Hard to use, unclear value, missing features, integration issues"
+  - "MVP: Features that drive adoption (easy onboarding, clear documentation, key integrations, value demonstration, support)"
+  - "Adoption Risks: Change resistance (developers don't want to switch), Learning curve (new tool), Workflow disruption (breaks existing process)"
+  - "Mitigation: Training, clear value prop, gradual rollout, support, integrations"
+  - "Success Metrics: Adoption (developer activation, feature usage, time to value), Business (developer satisfaction, retention, NRR)"
+  - "Focus on making it easy to adopt and showing clear value"
 
 ---
 

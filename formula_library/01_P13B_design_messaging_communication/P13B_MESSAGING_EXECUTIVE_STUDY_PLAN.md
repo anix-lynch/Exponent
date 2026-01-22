@@ -80,13 +80,50 @@
 - Q2879: You're the Product Manager at Beacon. What would you do to build an in-app chat feature? (in-app chat angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a messaging platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics. First, I identify Users: Who are the users? (Individual users, Groups/teams, Businesses), What are their needs? (Real-time communication, Reliability, Privacy). Then I define Jobs: What jobs do users need done? (Send messages, Receive messages, Organize conversations, Share media/files), Prioritize by Urgency and Frequency. Next, I design Core Loop: What is the engagement loop? (Receive message → Read/respond → Send message → Wait for response), How does it drive retention? (Daily communication, Network effects). I design Key Features: Core features (Messaging, Notifications, Media sharing, File sharing), Supporting features (Search, Organization, Privacy, Group features). I consider Tradeoffs: Real-time vs reliability, Privacy vs features, Simplicity vs functionality. Finally, I define Success Metrics: Communication metrics (Messages sent/received, Response time, Delivery rate), Retention metrics (Daily active users, Network growth, Engagement). The key is designing a platform that's reliable, fast, and private."
+
+**Framework:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing a messaging platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics.
+
+**1️⃣ Users** → Who are the users? (Individual users, Groups/teams, Businesses), What are their needs? (Real-time communication, Reliability, Privacy).
+
+**2️⃣ Jobs** → What jobs do users need done? (Send messages, Receive messages, Organize conversations, Share media/files), Prioritize by Urgency and Frequency.
+
+**3️⃣ Core Loop** → What is the engagement loop? (Receive message → Read/respond → Send message → Wait for response), How does it drive retention? (Daily communication, Network effects).
+
+**4️⃣ Key Features** → Core features (Messaging, Notifications, Media sharing, File sharing), Supporting features (Search, Organization, Privacy, Group features).
+
+**5️⃣ Tradeoffs** → Real-time vs reliability, Privacy vs features, Simplicity vs functionality.
+
+**6️⃣ Success Metrics** → Communication metrics (Messages sent/received, Response time, Delivery rate), Retention metrics (Daily active users, Network growth, Engagement).
+
+**Key Principle:** Design a platform that's reliable, fast, and private.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q337 (Design group chat application):** Focus on group chat → "To design a group chat application, I'd: Users (Group members (individual users), Group admins, Businesses), Needs (Real-time group communication, Organization, Privacy, Control), Jobs (Send group messages, Receive messages, Organize conversations, Manage group, Share media), Core Loop (Receive group message → Read → Respond → Wait for responses → Return), Key Features (Group chat (multiple participants, real-time), Admin controls (add/remove members, manage settings), Media sharing (photos, videos, files), Notifications (group mentions, message alerts), Search (find messages, media), Organization (threads, pinned messages, reactions)), Tradeoffs (Group size vs performance - optimize for large groups, Real-time vs reliability - prioritize reliability, Privacy vs features - balance), Success Metrics (Communication: Messages sent/received, Response time, Delivery rate | Retention: Daily active users, Group engagement, Network growth). I'd prioritize real-time delivery, group management, and reliability."
+- **Q337 (Design group chat application):** Focus on group chat
+  - "Users: Group members (individual users), Group admins, Businesses"
+  - "Needs: Real-time group communication, Organization, Privacy, Control"
+  - "Jobs: Send group messages, Receive messages, Organize conversations, Manage group, Share media"
+  - "Core Loop: Receive group message → Read → Respond → Wait for responses → Return"
+  - "Key Features: Group chat (multiple participants, real-time), Admin controls (add/remove members, manage settings), Media sharing (photos, videos, files), Notifications (group mentions, message alerts), Search (find messages, media), Organization (threads, pinned messages, reactions)"
+  - "Tradeoffs: Group size vs performance (optimize for large groups), Real-time vs reliability (prioritize reliability), Privacy vs features (balance)"
+  - "Success Metrics: Communication (messages sent/received, Response time, Delivery rate), Retention (Daily active users, Group engagement, Network growth)"
+  - "Prioritize real-time delivery, group management, and reliability"
 
-- **Q374 (Design new feature for WhatsApp group messages):** Emphasize feature design → "To design a new feature for WhatsApp group messages, I'd: Users (Group members, Group admins), Needs (Better organization, More engagement, Privacy, Control), Jobs (Organize messages, Engage with content, Manage group, Find information), Core Loop (Receive message → Read → Engage with feature → Return), Key Features (New feature (e.g., message reactions, polls, threads, voice messages), Integration (works with existing features), Privacy (end-to-end encryption maintained), Admin controls (manage feature usage)), Tradeoffs (Features vs simplicity - keep simple, Privacy vs functionality - maintain privacy, Engagement vs organization - balance), Success Metrics (Feature usage: Adoption rate, engagement, retention | Communication: Messages, response time, group activity). I'd prioritize features that enhance engagement while maintaining simplicity and privacy."
+- **Q374 (Design new feature for WhatsApp group messages):** Emphasize feature design
+  - "Users: Group members, Group admins"
+  - "Needs: Better organization, More engagement, Privacy, Control"
+  - "Jobs: Organize messages, Engage with content, Manage group, Find information"
+  - "Core Loop: Receive message → Read → Engage with feature → Return"
+  - "Key Features: New feature (e.g., message reactions, polls, threads, voice messages), Integration (works with existing features), Privacy (end-to-end encryption maintained), Admin controls (manage feature usage)"
+  - "Tradeoffs: Features vs simplicity (keep simple), Privacy vs functionality (maintain privacy), Engagement vs organization (balance)"
+  - "Success Metrics: Feature usage (adoption rate, engagement, retention), Communication (messages, response time, group activity)"
+  - "Prioritize features that enhance engagement while maintaining simplicity and privacy"
 
 ---
 
@@ -111,11 +148,38 @@
 - Q1383: How would you implement safety features for Roblox's private messaging between players? (safety + real-time angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on real-time communication, I use the same messaging platform framework but emphasize real-time delivery and reliability. I identify Users and their Jobs to understand communication needs. I design Core Loop with real-time in mind: Entry point (How users receive - push notification, in-app, open app), Core action (Send message, Receive message, Respond), Reward (Instant delivery, Reliable communication, Fast response), Return trigger (New messages, Notifications, Real-time updates). I design Key Features that support real-time: Message delivery (Instant delivery, Reliability, Message ordering, Delivery status), Notifications (Push notifications, In-app notifications, Delivery status, Read receipts), Reliability (Delivery guarantees, Retry logic, Offline support, Sync), Real-time updates (Typing indicators, Online status, Message status). I consider Tradeoffs: Real-time vs reliability (prioritize reliability), Privacy vs features (maintain privacy), Simplicity vs functionality (keep simple). I define Success Metrics: Real-time metrics (Delivery rate, Response time, Reliability, Latency), Communication (Messages sent/received, Engagement), Retention (DAU, Network growth). The key is making communication instant, reliable, and private."
+
+**Framework:** `Users → Jobs → Core Loop (Real-Time Focus) → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on real-time communication, I use the same messaging platform framework but emphasize real-time delivery and reliability.
+
+**1️⃣ Users & Jobs** → Identify users and their jobs to understand communication needs.
+
+**2️⃣ Core Loop (Real-Time Focus)** → Entry point (How users receive - push notification, in-app, open app), Core action (Send message, Receive message, Respond), Reward (Instant delivery, Reliable communication, Fast response), Return trigger (New messages, Notifications, Real-time updates).
+
+**3️⃣ Key Features (Real-Time)** → Message delivery (Instant delivery, Reliability, Message ordering, Delivery status), Notifications (Push notifications, In-app notifications, Delivery status, Read receipts), Reliability (Delivery guarantees, Retry logic, Offline support, Sync), Real-time updates (Typing indicators, Online status, Message status).
+
+**4️⃣ Tradeoffs** → Real-time vs reliability (prioritize reliability), Privacy vs features (maintain privacy), Simplicity vs functionality (keep simple).
+
+**5️⃣ Success Metrics** → Real-time metrics (Delivery rate, Response time, Reliability, Latency), Communication (Messages sent/received, Engagement), Retention (DAU, Network growth).
+
+**Key Principle:** Make communication instant, reliable, and private.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q661 (Design price alert notifications):** Focus on notification design → "To design price alert notifications for Coinbase, I'd: Users (Crypto traders, Investors, Casual users), Needs (Price updates, Alerts, Timely information, Control), Jobs (Set price alerts, Receive alerts, Take action, Manage alerts), Core Loop (Set alert → Price changes → Receive notification → Check price → Take action → Return), Key Features (Price alerts (set thresholds, multiple alerts), Notifications (push, in-app, email), Real-time updates (price tracking, instant alerts), Alert management (edit, delete, pause), Action buttons (quick buy/sell, view details)), Tradeoffs (Real-time vs battery - optimize, Frequency vs annoyance - allow customization, Privacy vs features - maintain privacy), Success Metrics (Notification: Delivery rate, Open rate, Action rate | Engagement: App opens, Trades, User satisfaction). I'd prioritize timely delivery and user control over alert frequency."
+- **Q661 (Design price alert notifications):** Focus on notification design
+  - "Users: Crypto traders, Investors, Casual users"
+  - "Needs: Price updates, Alerts, Timely information, Control"
+  - "Jobs: Set price alerts, Receive alerts, Take action, Manage alerts"
+  - "Core Loop: Set alert → Price changes → Receive notification → Check price → Take action → Return"
+  - "Key Features: Price alerts (set thresholds, multiple alerts), Notifications (push, in-app, email), Real-time updates (price tracking, instant alerts), Alert management (edit, delete, pause), Action buttons (quick buy/sell, view details)"
+  - "Tradeoffs: Real-time vs battery (optimize), Frequency vs annoyance (allow customization), Privacy vs features (maintain privacy)"
+  - "Success Metrics: Notification (delivery rate, Open rate, Action rate), Engagement (app opens, Trades, User satisfaction)"
+  - "Prioritize timely delivery and user control over alert frequency"
 
 ---
 

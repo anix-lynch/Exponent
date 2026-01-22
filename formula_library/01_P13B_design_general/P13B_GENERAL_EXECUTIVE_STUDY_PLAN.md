@@ -86,11 +86,40 @@
 **Note:** The P13B_GENERAL CSV contains many questions that are actually other patterns (P3 Funnel, P2 NSM). Focus on actual consumer platform design questions.
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a consumer platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics. First, I identify Users: Who are the users? (Primary users, Secondary users, User segments), What are their needs? (Functional needs, Emotional needs). Then I define Jobs: What jobs do users need done? (Core jobs, Related jobs, Emotional jobs), Prioritize by Frequency and Importance. Next, I design Core Loop: What is the engagement loop? (Entry point → Core action → Reward/feedback → Return trigger), How does it drive retention? (Daily usage, Habit formation). I design Key Features: Core features (Must-have for core loop, Differentiation), Supporting features (Onboarding, Discovery, Engagement mechanics). I consider Tradeoffs: Features vs simplicity, Engagement vs privacy, Free vs paid. Finally, I define Success Metrics: Engagement metrics (DAU/MAU, Time spent, Sessions per user), Retention metrics (Day 1/7/30 retention, Cohort retention curves). The key is designing a core loop that drives daily engagement and habit formation."
+
+**Framework:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing a consumer platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics.
+
+**1️⃣ Users** → Who are the users? (Primary users, Secondary users, User segments), What are their needs? (Functional needs, Emotional needs).
+
+**2️⃣ Jobs** → What jobs do users need done? (Core jobs, Related jobs, Emotional jobs), Prioritize by Frequency and Importance.
+
+**3️⃣ Core Loop** → What is the engagement loop? (Entry point → Core action → Reward/feedback → Return trigger), How does it drive retention? (Daily usage, Habit formation).
+
+**4️⃣ Key Features** → Core features (Must-have for core loop, Differentiation), Supporting features (Onboarding, Discovery, Engagement mechanics).
+
+**5️⃣ Tradeoffs** → Features vs simplicity, Engagement vs privacy, Free vs paid.
+
+**6️⃣ Success Metrics** → Engagement metrics (DAU/MAU, Time spent, Sessions per user), Retention metrics (Day 1/7/30 retention, Cohort retention curves).
+
+**Key Principle:** Design a core loop that drives daily engagement and habit formation.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Generic consumer platform design:** Focus on general platform → "To design a consumer platform, I'd: Users (Primary users, Secondary users, User segments), Needs (Functional needs, Emotional needs), Jobs (Core jobs - what users need done most, Related jobs - secondary needs, Emotional jobs - how users want to feel), Core Loop (Entry point - how users enter, Core action - what they do, Reward/feedback - what they get, Return trigger - what brings them back), Key Features (Core features - must-have for core loop, Supporting features - onboarding, discovery, engagement), Tradeoffs (Features vs simplicity - balance, Engagement vs privacy - balance, Free vs paid - consider monetization), Success Metrics (Engagement: DAU/MAU, time spent, sessions | Retention: Day 1/7/30 retention, cohort retention). I'd prioritize the core loop that drives daily engagement."
+- **Generic consumer platform design:** Focus on general platform
+  - "Users: Primary users, Secondary users, User segments"
+  - "Needs: Functional needs, Emotional needs"
+  - "Jobs: Core jobs (what users need done most), Related jobs (secondary needs), Emotional jobs (how users want to feel)"
+  - "Core Loop: Entry point (how users enter), Core action (what they do), Reward/feedback (what they get), Return trigger (what brings them back)"
+  - "Key Features: Core features (must-have for core loop), Supporting features (onboarding, discovery, engagement)"
+  - "Tradeoffs: Features vs simplicity (balance), Engagement vs privacy (balance), Free vs paid (consider monetization)"
+  - "Success Metrics: Engagement (DAU/MAU, time spent, sessions), Retention (Day 1/7/30 retention, cohort retention)"
+  - "Prioritize the core loop that drives daily engagement"
 
 ---
 
@@ -113,11 +142,35 @@
 - Focus on actual consumer platform design questions, not mis-tagged questions
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on engagement and core loop, I use the same consumer platform framework but emphasize the engagement loop and retention. I identify Users and their Jobs to understand what drives engagement. I design Core Loop with engagement in mind: Entry point (How users enter - app open, notification, share), Core action (What they do - main action, engagement actions), Reward/feedback (What they get - value, feedback, social validation, progress), Return trigger (What brings them back - notifications, updates, habit, social pressure). I design Key Features that support the core loop: Onboarding (Easy start, value demonstration), Discovery (Find content, features, value), Engagement mechanics (Gamification, social, progress), Notifications (Bring users back, relevant, timely). I consider Tradeoffs: Engagement vs privacy (balance), Features vs simplicity (keep simple), Free vs paid (consider monetization). I define Success Metrics: Engagement (DAU, time spent, sessions per user), Retention (Day 1/7/30 retention, Cohort retention, Habit formation). The key is designing a core loop that creates daily habits and delivers value."
+
+**Framework:** `Users → Jobs → Core Loop (Engagement Focus) → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on engagement and core loop, I use the same consumer platform framework but emphasize the engagement loop and retention.
+
+**1️⃣ Users & Jobs** → Identify users and their jobs to understand what drives engagement.
+
+**2️⃣ Core Loop (Engagement Focus)** → Entry point (How users enter - app open, notification, share), Core action (What they do - main action, engagement actions), Reward/feedback (What they get - value, feedback, social validation, progress), Return trigger (What brings them back - notifications, updates, habit, social pressure).
+
+**3️⃣ Key Features (Engagement)** → Onboarding (Easy start, value demonstration), Discovery (Find content, features, value), Engagement mechanics (Gamification, social, progress), Notifications (Bring users back, relevant, timely).
+
+**4️⃣ Tradeoffs** → Engagement vs privacy (balance), Features vs simplicity (keep simple), Free vs paid (consider monetization).
+
+**5️⃣ Success Metrics** → Engagement (DAU, time spent, sessions per user), Retention (Day 1/7/30 retention, Cohort retention, Habit formation).
+
+**Key Principle:** Design a core loop that creates daily habits and delivers value.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Generic engagement question:** Focus on engagement → "To increase engagement, I'd: Understand Users and their Jobs to identify what drives engagement. Design Core Loop: Entry point (How users enter - optimize for easy entry), Core action (What they do - make it valuable, easy, rewarding), Reward/feedback (What they get - immediate value, progress, social validation), Return trigger (What brings them back - notifications, updates, habit formation). Design Key Features: Onboarding (Show value quickly, make it easy), Discovery (Help users find value), Engagement mechanics (Gamification, social, progress tracking), Notifications (Relevant, timely, valuable). Measure Success Metrics: Engagement (DAU, time spent, sessions), Retention (Day 1/7/30 retention, habit formation). I'd prioritize the core loop that delivers immediate value and creates habits."
+- **Generic engagement question:** Focus on engagement
+  - "Understand Users and their Jobs to identify what drives engagement"
+  - "Design Core Loop: Entry point (optimize for easy entry), Core action (make it valuable, easy, rewarding), Reward/feedback (immediate value, progress, social validation), Return trigger (notifications, updates, habit formation)"
+  - "Design Key Features: Onboarding (show value quickly, make it easy), Discovery (help users find value), Engagement mechanics (gamification, social, progress tracking), Notifications (relevant, timely, valuable)"
+  - "Measure Success Metrics: Engagement (DAU, time spent, sessions), Retention (Day 1/7/30 retention, habit formation)"
+  - "Prioritize the core loop that delivers immediate value and creates habits"
 
 ---
 

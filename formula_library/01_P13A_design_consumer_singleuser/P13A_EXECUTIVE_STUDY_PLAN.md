@@ -83,13 +83,44 @@
 - Q267: Design a bookshelf for children. (user-specific design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a consumer product, I use User Context → Pain Points → Core Design → Tradeoffs → Risks. First, I understand User Context: Who is the user? (Demographics, physical/mental capabilities, usage environment), What is their current experience? (Existing solutions, pain points). Then I identify Pain Points: What problems need solving? (Functional problems, usability issues, accessibility barriers), and prioritize by Frequency and Severity. Next, I design Core Design: Key features (Must-have functionality, usability improvements, accessibility features), Design principles (Simplicity, Safety, Durability). I consider Tradeoffs: Cost vs quality, Features vs simplicity, Customization vs standardization. Finally, I assess Risks: Safety risks, Adoption barriers, Manufacturing constraints. The goal is user-centric design that solves real problems while being simple, safe, and manufacturable."
+
+**Framework:** `User Context → Pain Points → Core Design → Tradeoffs → Risks`
+
+**Memorizable Answer:**
+
+When designing a consumer product, I use User Context → Pain Points → Core Design → Tradeoffs → Risks.
+
+**1️⃣ User Context** → Who is the user? (Demographics, physical/mental capabilities, usage environment), What is their current experience? (Existing solutions, pain points).
+
+**2️⃣ Pain Points** → What problems need solving? (Functional problems, usability issues, accessibility barriers), Prioritize by Frequency and Severity.
+
+**3️⃣ Core Design** → Key features (Must-have functionality, usability improvements, accessibility features), Design principles (Simplicity, Safety, Durability).
+
+**4️⃣ Tradeoffs** → Cost vs quality, Features vs simplicity, Customization vs standardization.
+
+**5️⃣ Risks** → Safety risks, Adoption barriers, Manufacturing constraints.
+
+**Key Principle:** User-centric design that solves real problems while being simple, safe, and manufacturable.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q257 (Design better alarm clock):** Focus on general improvement → "To design a better alarm clock, I'd: User Context (Adults who need reliable wake-up, current alarms are jarring or unreliable, used in bedrooms), Pain Points (Hard to set, too loud/quiet, snooze confusion, battery dies, hard to see in dark), Core Design (Simple interface with large buttons, gradual volume increase, smart snooze (max 3 times), battery indicator, backlit display), Tradeoffs (Features vs simplicity - keep it simple, Cost vs quality - durable but affordable), Risks (Safety - oversleeping if fails, Adoption - learning curve for new features). I'd prioritize simplicity and reliability over advanced features."
+- **Q257 (Design better alarm clock):** Focus on general improvement
+  - "User Context: Adults who need reliable wake-up, current alarms are jarring or unreliable, used in bedrooms"
+  - "Pain Points: Hard to set, too loud/quiet, snooze confusion, battery dies, hard to see in dark"
+  - "Core Design: Simple interface with large buttons, gradual volume increase, smart snooze (max 3 times), battery indicator, backlit display"
+  - "Tradeoffs: Features vs simplicity (keep it simple), Cost vs quality (durable but affordable)"
+  - "Risks: Safety (oversleeping if fails), Adoption (learning curve for new features)"
+  - "Prioritize simplicity and reliability over advanced features"
 
-- **Q276 (Design chair for disabled):** Emphasize accessibility → "To design a chair for disabled users, I'd: User Context (Users with mobility limitations, need support and comfort, used in homes/offices), Pain Points (Current chairs don't provide enough support, hard to get in/out, not adjustable, uncomfortable for long periods), Core Design (Ergonomic support (lumbar, armrests), Easy entry/exit (height adjustment, swivel), Comfort features (cushioning, breathable material), Safety features (stability, weight capacity), Adjustability (height, tilt, armrests), Tradeoffs (Features vs simplicity - need features for accessibility, Cost vs quality - must be durable), Risks (Safety - falls, injuries, Adoption - cost, training). I'd prioritize safety and accessibility over cost."
+- **Q276 (Design chair for disabled):** Emphasize accessibility
+  - "User Context: Users with mobility limitations, need support and comfort, used in homes/offices"
+  - "Pain Points: Current chairs don't provide enough support, hard to get in/out, not adjustable, uncomfortable for long periods"
+  - "Core Design: Ergonomic support (lumbar, armrests), Easy entry/exit (height adjustment, swivel), Comfort features (cushioning, breathable material), Safety features (stability, weight capacity), Adjustability (height, tilt, armrests)"
+  - "Tradeoffs: Features vs simplicity (need features for accessibility), Cost vs quality (must be durable)"
+  - "Risks: Safety (falls, injuries), Adoption (cost, training)"
+  - "Prioritize safety and accessibility over cost"
 
 ---
 
@@ -114,11 +145,36 @@
 - Q267: Design a bookshelf for children. (children-specific design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing for specific user groups, I use the same framework but focus on accessibility and user constraints. I understand User Context: Specific user needs (Children, elderly, disabled, specific demographics), Usage environment (Home, public, workplace), Constraints (Physical limitations, cognitive limitations, environmental constraints). I identify Pain Points: What problems do this user group face? (Accessibility barriers, usability issues, safety concerns), Prioritize by impact. I design Core Design: Accessibility features (Universal design, adaptive features, inclusive design), User-specific features (Age-appropriate, ability-appropriate), Safety features (Critical for vulnerable users). I consider Tradeoffs: Features vs simplicity (Keep it simple for accessibility), Cost vs accessibility (Accessibility is worth the cost). I assess Risks: Safety risks (Higher for vulnerable users), Adoption barriers (Learning curve, cost). The goal is inclusive design that works for everyone, especially the target user group."
+
+**Framework:** `User Context → Pain Points → Core Design (Accessibility Focus) → Tradeoffs → Risks`
+
+**Memorizable Answer:**
+
+When designing for specific user groups, I use the same framework but focus on accessibility and user constraints.
+
+**1️⃣ User Context** → Specific user needs (Children, elderly, disabled, specific demographics), Usage environment (Home, public, workplace), Constraints (Physical limitations, cognitive limitations, environmental constraints).
+
+**2️⃣ Pain Points** → What problems do this user group face? (Accessibility barriers, usability issues, safety concerns), Prioritize by impact.
+
+**3️⃣ Core Design** → Accessibility features (Universal design, adaptive features, inclusive design), User-specific features (Age-appropriate, ability-appropriate), Safety features (Critical for vulnerable users).
+
+**4️⃣ Tradeoffs** → Features vs simplicity (Keep it simple for accessibility), Cost vs accessibility (Accessibility is worth the cost).
+
+**5️⃣ Risks** → Safety risks (Higher for vulnerable users), Adoption barriers (Learning curve, cost).
+
+**Key Principle:** Inclusive design that works for everyone, especially the target user group.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q605 (Design elevator for blind users):** Focus on accessibility → "To design an elevator for blind users, I'd: User Context (Blind users, need to navigate independently, used in public buildings, constraints: can't see visual cues), Pain Points (Can't see floor numbers, can't see buttons, don't know when doors open, don't know direction), Core Design (Braille buttons with raised numbers, Audio announcements (floor numbers, direction, door status), Tactile feedback (button press confirmation, floor indicators), Voice control option, Large, well-spaced buttons, High contrast for low vision), Tradeoffs (Features vs simplicity - need features for accessibility, Cost vs accessibility - accessibility is worth the cost), Risks (Safety - getting lost, confusion, Adoption - training, cost). I'd prioritize accessibility and safety over cost."
+- **Q605 (Design elevator for blind users):** Focus on accessibility
+  - "User Context: Blind users, need to navigate independently, used in public buildings, constraints (can't see visual cues)"
+  - "Pain Points: Can't see floor numbers, can't see buttons, don't know when doors open, don't know direction"
+  - "Core Design: Braille buttons with raised numbers, Audio announcements (floor numbers, direction, door status), Tactile feedback (button press confirmation, floor indicators), Voice control option, Large, well-spaced buttons, High contrast for low vision"
+  - "Tradeoffs: Features vs simplicity (need features for accessibility), Cost vs accessibility (accessibility is worth the cost)"
+  - "Risks: Safety (getting lost, confusion), Adoption (training, cost)"
+  - "Prioritize accessibility and safety over cost"
 
 ---
 

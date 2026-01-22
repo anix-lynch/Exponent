@@ -79,13 +79,57 @@
 - Q2544: Why are you interested in FinTech? (industry interest angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When answering intent/motivation questions, I use Company → Role → Mission → Personal Fit → Why Now. Company: What attracts me to this company? I research their Products/services (What do they build? What problems do they solve?), Market position (Industry leader, startup, scale-up? Where are they in their journey?), Culture (What's their reputation? What do employees say?), Growth trajectory (Where are they heading? What's their vision?). I do my homework - Company values/mission (What do they stand for?), Recent news/initiatives (What are they working on?), Leadership/team (Who leads? What's the team like?). Role: What excites me about this role? Responsibilities (What will I do? What problems will I solve?), Impact (What impact will I have? Who benefits?), Learning (What will I learn? What skills will I develop?), Growth (How will I develop? What's the career path?). Why am I a good fit? Skills match (My strengths align with role needs), Experience (My background fits), Interest (I'm passionate about this). Mission: What part of their mission resonates with me? Company mission (What do they stand for?), My values (What matters to me?), Alignment (How do they connect?). Why does this matter? User impact (Who benefits?), Industry impact (How does this change things?), Personal impact (Why is this meaningful to me?). Personal Fit: Why me? Skills (What can I contribute?), Experience (What have I done?), Passion (What drives me?). Why this role? Career stage (Where am I?), Goals (What do I want to achieve?), Timing (Why is this the right time?). Why Now: Why is this the right moment? Career stage (Ready for this challenge), Market timing (Industry trends align), Personal timing (Life circumstances). Why am I serious? Research (I've done my homework), Enthusiasm (I'm genuinely excited), Long-term (I see a future here). The key is being specific, showing genuine interest, and connecting company/role to your values and goals."
+
+**Framework:** `Company → Role → Mission → Personal Fit → Why Now`
+
+**Memorizable Answer:**
+
+When answering intent/motivation questions, I use Company → Role → Mission → Personal Fit → Why Now.
+
+**1️⃣ Company** → What attracts me to this company?
+  - **Products/services:** What do they build? What problems do they solve?
+  - **Market position:** Industry leader, startup, scale-up? Where are they in their journey?
+  - **Culture:** What's their reputation? What do employees say?
+  - **Growth trajectory:** Where are they heading? What's their vision?
+  - **Research:** Company values/mission, Recent news/initiatives, Leadership/team
+
+**2️⃣ Role** → What excites me about this role?
+  - **Responsibilities:** What will I do? What problems will I solve?
+  - **Impact:** What impact will I have? Who benefits?
+  - **Learning:** What will I learn? What skills will I develop?
+  - **Growth:** How will I develop? What's the career path?
+  - **Why am I a good fit?** Skills match, Experience, Interest
+
+**3️⃣ Mission** → What part of their mission resonates with me?
+  - **Company mission:** What do they stand for?
+  - **My values:** What matters to me?
+  - **Alignment:** How do they connect?
+  - **Why does this matter?** User impact, Industry impact, Personal impact
+
+**4️⃣ Personal Fit** → Why me? (Skills, Experience, Passion). Why this role? (Career stage, Goals, Timing).
+
+**5️⃣ Why Now** → Why is this the right moment? (Career stage, Market timing, Personal timing). Why am I serious? (Research, Enthusiasm, Long-term).
+
+**Key Principle:** Be specific, show genuine interest, connect company/role to your values and goals.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q2591 (Why work at Google):** Focus on Google specifically → "Why I want to work at Google: Company (Products: Search, Cloud, AI, Android - products that impact billions, Market: Industry leader, innovation-driven, Culture: Innovation, collaboration, impact-focused, Growth: Expanding in AI, cloud, new verticals, Research: Values (organize information, user-first), Recent: AI investments, cloud growth, Leadership: Strong technical leadership, diverse teams), Role (Responsibilities: PM role - define strategy, ship products, work with world-class teams, Impact: Scale products to billions, solve hard problems, Learning: Technical depth, product excellence, Growth: Career growth, leadership opportunities, Fit: Skills - product thinking, technical understanding, Experience - X years PM, shipped products, Passion - technology, impact), Mission (Mission: Organize information, make it accessible, My values: Impact, innovation, user value, Alignment: Both focus on solving hard problems at scale, Impact: User - billions benefit, Industry - shapes tech, Personal - meaningful work), Personal Fit (Skills: Product management, technical understanding, Experience: X years, shipped products, Passion: Technology, building products, Why this role: Career stage - ready for scale, Goals - build impactful products, Timing - AI growth, right time), Why Now (Career: Ready for Google-scale challenge, Market: AI growth, Google leading, Personal: Right time, committed, long-term). I'd be specific about Google's products, culture, and how the role aligns with my goals."
+- **Q2591 (Why work at Google):** Focus on Google specifically
+  - "Company: Products (Search, Cloud, AI, Android - products that impact billions), Market (industry leader, innovation-driven), Culture (innovation, collaboration, impact-focused), Growth (expanding in AI, cloud, new verticals), Research (values - organize information, user-first, Recent - AI investments, cloud growth, Leadership - strong technical leadership, diverse teams)"
+  - "Role: Responsibilities (PM role - define strategy, ship products, work with world-class teams), Impact (scale products to billions, solve hard problems), Learning (technical depth, product excellence), Growth (career growth, leadership opportunities), Fit (Skills - product thinking, technical understanding, Experience - X years PM, shipped products, Passion - technology, impact)"
+  - "Mission: Mission (organize information, make it accessible), My values (impact, innovation, user value), Alignment (both focus on solving hard problems at scale), Impact (User - billions benefit, Industry - shapes tech, Personal - meaningful work)"
+  - "Personal Fit: Skills (product management, technical understanding), Experience (X years, shipped products), Passion (technology, building products), Why this role (Career stage - ready for scale, Goals - build impactful products, Timing - AI growth, right time)"
+  - "Why Now: Career (ready for Google-scale challenge), Market (AI growth, Google leading), Personal (right time, committed, long-term)"
+  - "Be specific about Google's products, culture, and how the role aligns with my goals"
 
-- **Q2418 (What part of mission resonates):** Emphasize mission alignment → "What part of your mission resonates with me: Mission (Your mission: [specific mission statement], What it means: [interpretation], My values: [what matters to me], Alignment: [how they connect]), Impact (User impact: [who benefits, how], Industry impact: [how this changes things], Personal impact: [why this is meaningful to me]), Personal Fit (Why me: [skills, experience, passion], Why this matters: [career goals, personal values]), Why Now (Timing: [why now], Commitment: [research done, excited, long-term]). I'd be specific about their mission and how it aligns with my values and goals."
+- **Q2418 (What part of mission resonates):** Emphasize mission alignment
+  - "Mission: Your mission [specific mission statement], What it means [interpretation], My values [what matters to me], Alignment [how they connect]"
+  - "Impact: User impact [who benefits, how], Industry impact [how this changes things], Personal impact [why this is meaningful to me]"
+  - "Personal Fit: Why me [skills, experience, passion], Why this matters [career goals, personal values]"
+  - "Why Now: Timing [why now], Commitment [research done, excited, long-term]"
+  - "Be specific about their mission and how it aligns with my values and goals"
 
 ---
 
@@ -110,11 +154,36 @@
 - Q2591: Why do you want to work at Google? (company/mission alignment angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on mission and personal alignment, I use the same intent framework but emphasize mission and values alignment. I identify Company mission (What do they stand for? What's their purpose?), My values (What matters to me? What drives me?), Alignment (How do they connect? Why does this matter?), Impact (User impact - Who benefits?, Industry impact - How does this change things?, Personal impact - Why is this meaningful to me?). I provide concrete examples of alignment (Specific examples from my experience, How my values align with their mission, Why this matters to me). I show Personal Fit (Why me - skills, experience, passion, Why this role - career stage, goals, timing, Why now - right moment, committed). The key is being specific, showing genuine alignment, and connecting mission to your values and goals."
+
+**Framework:** `Company → Role → Mission (Alignment Focus) → Personal Fit → Why Now`
+
+**Memorizable Answer:**
+
+When focusing on mission and personal alignment, I use the same intent framework but emphasize mission and values alignment.
+
+**1️⃣ Company Mission** → What do they stand for? What's their purpose?
+
+**2️⃣ My Values** → What matters to me? What drives me?
+
+**3️⃣ Alignment** → How do they connect? Why does this matter?
+
+**4️⃣ Impact** → User impact (Who benefits?), Industry impact (How does this change things?), Personal impact (Why is this meaningful to me?).
+
+**5️⃣ Concrete Examples** → Specific examples from my experience, How my values align with their mission, Why this matters to me.
+
+**6️⃣ Personal Fit** → Why me (skills, experience, passion), Why this role (career stage, goals, timing), Why now (right moment, committed).
+
+**Key Principle:** Be specific, show genuine alignment, connect mission to your values and goals.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q2419 (OpenAI mission resonates):** Focus on OpenAI mission → "What parts of OpenAI's mission resonate with me: Mission (OpenAI mission: Ensure AI benefits all of humanity, safe AGI, My values: Impact, safety, responsible innovation, Alignment: Both focus on responsible AI development, ensuring benefits, Impact: User - everyone benefits from safe AI, Industry - shapes AI development, Personal - meaningful work on important problem), Personal Fit (Why me: [skills, experience, passion], Why this role: [career stage, goals], Why now: [timing, commitment]). I'd be specific about OpenAI's mission and how it aligns with my values."
+- **Q2419 (OpenAI mission resonates):** Focus on OpenAI mission
+  - "Mission: OpenAI mission (ensure AI benefits all of humanity, safe AGI), My values (impact, safety, responsible innovation), Alignment (both focus on responsible AI development, ensuring benefits)"
+  - "Impact: User (everyone benefits from safe AI), Industry (shapes AI development), Personal (meaningful work on important problem)"
+  - "Personal Fit: Why me [skills, experience, passion], Why this role [career stage, goals], Why now [timing, commitment]"
+  - "Be specific about OpenAI's mission and how it aligns with my values"
 
 ---
 

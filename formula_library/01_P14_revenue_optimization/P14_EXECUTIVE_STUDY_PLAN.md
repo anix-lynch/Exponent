@@ -86,13 +86,43 @@
 - Q1577: How would you triple the revenue of Craigslist over the next 5 years? (revenue tripling angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When optimizing revenue, I use Levers (Price, Volume, Mix) → Test → Measure → Iterate. First, I identify Levers: Price (Pricing strategy - increase price, optimize tiers, dynamic pricing | Price elasticity - test sensitivity, find optimal point), Volume (User acquisition - increase new users, improve conversion | Engagement - increase frequency, session depth, feature adoption | Retention - reduce churn, improve LTV), Mix (Product mix - optimize portfolio, cross-sell, upsell | Customer mix - focus high-value segments, improve ARPU | Channel mix - optimize channels, improve CAC efficiency). Then I Test: Design experiments (A/B tests, phased rollouts, market tests), Test one lever at a time to isolate impact, Control for external factors (seasonality, market conditions, statistical significance). Next, I Measure: Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (Conversion rate, retention, engagement), Guardrails (Monitor churn, user satisfaction, brand impact), Time horizon (Short-term vs long-term impact). Finally, I Iterate: If successful (Scale the change, expand to more segments), If mixed (Refine the lever, test variations), If unsuccessful (Try different lever, pivot strategy). The key is testing systematically and iterating based on results."
+
+**Framework:** `Levers (Price, Volume, Mix) → Test → Measure → Iterate`
+
+**Memorizable Answer:**
+
+When optimizing revenue, I use Levers (Price, Volume, Mix) → Test → Measure → Iterate.
+
+**1️⃣ Levers** → 
+  - **Price:** Pricing strategy (increase price, optimize tiers, dynamic pricing), Price elasticity (test sensitivity, find optimal point)
+  - **Volume:** User acquisition (increase new users, improve conversion), Engagement (increase frequency, session depth, feature adoption), Retention (reduce churn, improve LTV)
+  - **Mix:** Product mix (optimize portfolio, cross-sell, upsell), Customer mix (focus high-value segments, improve ARPU), Channel mix (optimize channels, improve CAC efficiency)
+
+**2️⃣ Test** → Design experiments (A/B tests, phased rollouts, market tests), Test one lever at a time to isolate impact, Control for external factors (seasonality, market conditions, statistical significance).
+
+**3️⃣ Measure** → Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (Conversion rate, retention, engagement), Guardrails (Monitor churn, user satisfaction, brand impact), Time horizon (Short-term vs long-term impact).
+
+**4️⃣ Iterate** → If successful (Scale the change, expand to more segments), If mixed (Refine the lever, test variations), If unsuccessful (Try different lever, pivot strategy).
+
+**Key Principle:** Test systematically and iterate based on results.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1040 (Increase revenue for favorite product):** Focus on general revenue increase → "To increase revenue for my favorite product, I'd: Levers (Price: Analyze current pricing, test price increases, optimize tiers, consider dynamic pricing based on demand | Volume: Improve user acquisition (better targeting, conversion optimization), Increase engagement (more frequent usage, deeper sessions, feature adoption), Improve retention (reduce churn, increase LTV) | Mix: Optimize product mix (cross-sell, upsell), Focus on high-value customer segments, Optimize acquisition channels), Test (A/B test pricing changes, phased rollout of volume improvements, test mix optimizations - one lever at a time to isolate impact), Measure (Primary: Revenue impact (total revenue, ARPU, LTV), Secondary: Conversion rate, retention, engagement, Guardrails: Monitor churn, user satisfaction, brand impact, Time horizon: Short-term and long-term), Iterate (If successful: Scale winners, expand to more segments | If mixed: Refine approach, test variations | If unsuccessful: Try different lever, pivot strategy). I'd prioritize the lever with highest impact potential and lowest risk."
+- **Q1040 (Increase revenue for favorite product):** Focus on general revenue increase
+  - "Levers: Price (analyze current pricing, test price increases, optimize tiers, consider dynamic pricing), Volume (improve user acquisition, increase engagement, improve retention), Mix (optimize product mix, focus on high-value segments, optimize channels)"
+  - "Test: A/B test pricing changes, phased rollout of volume improvements, test mix optimizations - one lever at a time to isolate impact"
+  - "Measure: Primary (revenue impact - total revenue, ARPU, LTV), Secondary (conversion rate, retention, engagement), Guardrails (monitor churn, user satisfaction, brand impact), Time horizon (short-term and long-term)"
+  - "Iterate: If successful (scale winners, expand to more segments), If mixed (refine approach, test variations), If unsuccessful (try different lever, pivot strategy)"
+  - "Prioritize the lever with highest impact potential and lowest risk"
 
-- **Q1455 (Increase Amazon Prime revenue by 20%):** Emphasize specific target → "To increase Amazon Prime revenue by 20%, I'd: Levers (Price: Test price increase (currently $139/year, test $149), Optimize pricing tiers (annual vs monthly, student discounts), Dynamic pricing (promotional pricing for new members) | Volume: Improve acquisition (better targeting, conversion optimization, referral program), Increase engagement (more Prime benefits usage, video, music, shipping), Improve retention (reduce churn, increase subscription length) | Mix: Cross-sell (Prime Video, Music, Whole Foods), Upsell (Prime Plus, additional services), Focus on high-value segments (frequent shoppers, video watchers)), Test (A/B test price increase (test $149 vs $139), Phased rollout of volume improvements, Test mix optimizations - one at a time), Measure (Primary: Revenue (total Prime revenue, ARPU, LTV), Secondary: Conversion rate, retention, engagement, Guardrails: Monitor churn, user satisfaction, brand impact, Time: Short-term (3 months) and long-term (12 months)), Iterate (If successful: Scale to all users, If mixed: Refine approach, If unsuccessful: Try different lever). I'd prioritize price optimization and retention as highest-impact levers."
+- **Q1455 (Increase Amazon Prime revenue by 20%):** Emphasize specific target
+  - "Levers: Price (test price increase - currently $139/year, test $149, optimize tiers, dynamic pricing), Volume (improve acquisition, increase engagement, improve retention), Mix (cross-sell, upsell, focus on high-value segments)"
+  - "Test: A/B test price increase (test $149 vs $139), phased rollout of volume improvements, test mix optimizations - one at a time"
+  - "Measure: Primary (revenue - total Prime revenue, ARPU, LTV), Secondary (conversion rate, retention, engagement), Guardrails (monitor churn, user satisfaction, brand impact), Time (short-term 3 months and long-term 12 months)"
+  - "Iterate: If successful (scale to all users), If mixed (refine approach), If unsuccessful (try different lever)"
+  - "Prioritize price optimization and retention as highest-impact levers"
 
 ---
 
@@ -117,11 +147,33 @@
 - Q1827: Should Microsoft change its pricing models? (pricing change angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When developing a pricing strategy, I use the same revenue optimization framework but focus on the Price lever. I identify Pricing Levers: Pricing models (Subscription, One-time, Freemium, Usage-based), Price points (Test different prices, Find optimal point, Price elasticity), Pricing tiers (Free, Basic, Premium, Enterprise), Dynamic pricing (Demand-based, Time-based, Segment-based). I Test: A/B tests (Test price points, Test pricing models, Test tiers), Market research (Competitive analysis, Willingness to pay, Price sensitivity), Test one lever at a time to isolate impact. I Measure: Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (Conversion rate, Churn, User satisfaction), Guardrails (Monitor churn, user satisfaction, brand impact), Time horizon (Short-term vs long-term). I Iterate: If successful (Scale the pricing, expand to more segments), If mixed (Refine pricing, test variations), If unsuccessful (Try different pricing model, pivot strategy). The key is testing price sensitivity and finding the optimal price point that maximizes revenue without hurting conversion or retention."
+
+**Framework:** `Pricing Levers → Test → Measure → Iterate`
+
+**Memorizable Answer:**
+
+When developing a pricing strategy, I use the same revenue optimization framework but focus on the Price lever.
+
+**1️⃣ Pricing Levers** → Pricing models (Subscription, One-time, Freemium, Usage-based), Price points (Test different prices, Find optimal point, Price elasticity), Pricing tiers (Free, Basic, Premium, Enterprise), Dynamic pricing (Demand-based, Time-based, Segment-based).
+
+**2️⃣ Test** → A/B tests (Test price points, Test pricing models, Test tiers), Market research (Competitive analysis, Willingness to pay, Price sensitivity), Test one lever at a time to isolate impact.
+
+**3️⃣ Measure** → Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (Conversion rate, Churn, User satisfaction), Guardrails (Monitor churn, user satisfaction, brand impact), Time horizon (Short-term vs long-term).
+
+**4️⃣ Iterate** → If successful (Scale the pricing, expand to more segments), If mixed (Refine pricing, test variations), If unsuccessful (Try different pricing model, pivot strategy).
+
+**Key Principle:** Test price sensitivity and find the optimal price point that maximizes revenue without hurting conversion or retention.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1251 (Approach pricing for new product):** Focus on new product pricing → "To price a new product, I'd: Pricing Levers (Pricing models: Evaluate subscription vs one-time vs freemium vs usage-based based on product type, Price points: Research competitive pricing, estimate willingness to pay, test different price points, Price elasticity: Test price sensitivity, find optimal point, Pricing tiers: Consider free/basic/premium tiers if applicable, Dynamic pricing: Consider demand-based or segment-based pricing if relevant), Test (A/B tests: Test different price points, test pricing models, Market research: Competitive analysis, willingness to pay surveys, price sensitivity testing, Test one lever at a time), Measure (Primary: Revenue impact (total revenue, ARPU, conversion rate), Secondary: Churn, user satisfaction, adoption rate, Guardrails: Monitor churn, user satisfaction, brand impact, Time: Short-term (launch) and long-term (6-12 months)), Iterate (If successful: Scale pricing, expand to more segments, If mixed: Refine pricing, test variations, If unsuccessful: Try different pricing model, pivot strategy). I'd start with competitive analysis and willingness to pay research, then test price points systematically."
+- **Q1251 (Approach pricing for new product):** Focus on new product pricing
+  - "Pricing Levers: Pricing models (evaluate subscription vs one-time vs freemium vs usage-based based on product type), Price points (research competitive pricing, estimate willingness to pay, test different price points), Price elasticity (test price sensitivity, find optimal point), Pricing tiers (consider free/basic/premium tiers if applicable), Dynamic pricing (consider demand-based or segment-based pricing if relevant)"
+  - "Test: A/B tests (test different price points, test pricing models), Market research (competitive analysis, willingness to pay surveys, price sensitivity testing), Test one lever at a time"
+  - "Measure: Primary (revenue impact - total revenue, ARPU, conversion rate), Secondary (churn, user satisfaction, adoption rate), Guardrails (monitor churn, user satisfaction, brand impact), Time (short-term launch and long-term 6-12 months)"
+  - "Iterate: If successful (scale pricing, expand to more segments), If mixed (refine pricing, test variations), If unsuccessful (try different pricing model, pivot strategy)"
+  - "Start with competitive analysis and willingness to pay research, then test price points systematically"
 
 ---
 
@@ -146,11 +198,36 @@
 - Q1753: On your first day as a Google PM, how would you increase Google Home sales by 10X? (sales growth angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When developing a growth strategy, I use the same revenue optimization framework but focus on Volume levers. I identify Growth Levers: User acquisition (Increase new users, Improve conversion funnel, Optimize acquisition channels, Reduce CAC), Engagement (Increase usage frequency, Session depth, Feature adoption, Core loop optimization), Retention (Reduce churn, Improve LTV, Habit formation, Retention hooks). I Test: A/B tests (Test acquisition channels, Test engagement features, Test retention tactics), Phased rollouts (Test in segments, Scale winners), Test one lever at a time to isolate impact. I Measure: Primary metric (User growth, Engagement metrics, Retention metrics, Revenue impact), Secondary metrics (Conversion rate, Feature adoption, Network effects), Guardrails (Monitor quality, user satisfaction, cost efficiency), Time horizon (Short-term growth vs long-term sustainability). I Iterate: If successful (Scale the growth tactic, expand to more segments), If mixed (Refine the approach, test variations), If unsuccessful (Try different lever, pivot strategy). The key is systematic testing and focusing on sustainable, quality growth."
+
+**Framework:** `Growth Levers (Volume Focus) → Test → Measure → Iterate`
+
+**Memorizable Answer:**
+
+When developing a growth strategy, I use the same revenue optimization framework but focus on Volume levers.
+
+**1️⃣ Growth Levers** → 
+  - **User acquisition:** Increase new users, Improve conversion funnel, Optimize acquisition channels, Reduce CAC
+  - **Engagement:** Increase usage frequency, Session depth, Feature adoption, Core loop optimization
+  - **Retention:** Reduce churn, Improve LTV, Habit formation, Retention hooks
+
+**2️⃣ Test** → A/B tests (Test acquisition channels, Test engagement features, Test retention tactics), Phased rollouts (Test in segments, Scale winners), Test one lever at a time to isolate impact.
+
+**3️⃣ Measure** → Primary metric (User growth, Engagement metrics, Retention metrics, Revenue impact), Secondary metrics (Conversion rate, Feature adoption, Network effects), Guardrails (Monitor quality, user satisfaction, cost efficiency), Time horizon (Short-term growth vs long-term sustainability).
+
+**4️⃣ Iterate** → If successful (Scale the growth tactic, expand to more segments), If mixed (Refine the approach, test variations), If unsuccessful (Try different lever, pivot strategy).
+
+**Key Principle:** Systematic testing and focusing on sustainable, quality growth.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1235 (10x Duolingo):** Focus on 10x growth → "To 10x Duolingo, I'd: Growth Levers (User acquisition: 10x new users through viral loops, referral programs, partnerships, content marketing, Improve conversion funnel (signup → first lesson → streak), Optimize channels (organic, paid, partnerships) | Engagement: Increase usage frequency (daily streaks, notifications, gamification), Session depth (longer lessons, more content), Feature adoption (premium features, social features) | Retention: Reduce churn (improve onboarding, value demonstration, habit formation), Improve LTV (premium conversion, longer retention), Retention hooks (streaks, achievements, social)), Test (A/B tests: Test acquisition channels, Test engagement features, Test retention tactics, Phased rollouts: Test in segments, scale winners, Test one lever at a time), Measure (Primary: User growth (new users, DAU, MAU), Engagement (sessions, time spent, lessons completed), Retention (D1/D7/D30 retention, churn rate), Revenue (ARPU, LTV), Guardrails: Monitor quality, user satisfaction, cost efficiency, Time: Short-term (3-6 months) and long-term (12+ months)), Iterate (If successful: Scale winners, expand globally, If mixed: Refine approach, test variations, If unsuccessful: Try different lever, pivot strategy). I'd prioritize viral loops and retention as highest-impact levers for 10x growth."
+- **Q1235 (10x Duolingo):** Focus on 10x growth
+  - "Growth Levers: User acquisition (10x new users through viral loops, referral programs, partnerships, content marketing, improve conversion funnel, optimize channels), Engagement (increase usage frequency - daily streaks, notifications, gamification, session depth - longer lessons, more content, feature adoption - premium features, social features), Retention (reduce churn - improve onboarding, value demonstration, habit formation, improve LTV - premium conversion, longer retention, retention hooks - streaks, achievements, social)"
+  - "Test: A/B tests (test acquisition channels, test engagement features, test retention tactics), Phased rollouts (test in segments, scale winners), Test one lever at a time"
+  - "Measure: Primary (user growth - new users, DAU, MAU, Engagement - sessions, time spent, lessons completed, Retention - D1/D7/D30 retention, churn rate, Revenue - ARPU, LTV), Guardrails (monitor quality, user satisfaction, cost efficiency), Time (short-term 3-6 months and long-term 12+ months)"
+  - "Iterate: If successful (scale winners, expand globally), If mixed (refine approach, test variations), If unsuccessful (try different lever, pivot strategy)"
+  - "Prioritize viral loops and retention as highest-impact levers for 10x growth"
 
 ---
 
@@ -175,11 +252,33 @@
 - Q1040: How do we increase revenue (based on favorite product)? (monetization angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When developing a monetization strategy, I use the same revenue optimization framework but focus on identifying the right revenue model. I identify Monetization Levers: Revenue models (Subscription, Advertising, Transaction fees, Freemium, Marketplace - choose based on product type and user behavior), Pricing strategy (Price points, Tiers, Dynamic pricing), Revenue streams (Primary revenue stream, Secondary streams, Future opportunities). I Test: Test models (A/B test different models, Market tests, User research - willingness to pay, model preference), Test one model at a time to isolate impact. I Measure: Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (User satisfaction, Adoption rate, Churn, Engagement), Guardrails (Monitor user satisfaction, churn, brand impact), Time horizon (Short-term revenue vs long-term sustainability). I Iterate: If successful (Scale the monetization model, expand to more segments), If mixed (Refine the model, test variations), If unsuccessful (Try different model, pivot strategy). The key is finding the right monetization model that aligns with user value and business goals."
+
+**Framework:** `Monetization Levers → Test → Measure → Iterate`
+
+**Memorizable Answer:**
+
+When developing a monetization strategy, I use the same revenue optimization framework but focus on identifying the right revenue model.
+
+**1️⃣ Monetization Levers** → Revenue models (Subscription, Advertising, Transaction fees, Freemium, Marketplace - choose based on product type and user behavior), Pricing strategy (Price points, Tiers, Dynamic pricing), Revenue streams (Primary revenue stream, Secondary streams, Future opportunities).
+
+**2️⃣ Test** → Test models (A/B test different models, Market tests, User research - willingness to pay, model preference), Test one model at a time to isolate impact.
+
+**3️⃣ Measure** → Primary metric (Revenue impact - total revenue, ARPU, LTV), Secondary metrics (User satisfaction, Adoption rate, Churn, Engagement), Guardrails (Monitor user satisfaction, churn, brand impact), Time horizon (Short-term revenue vs long-term sustainability).
+
+**4️⃣ Iterate** → If successful (Scale the monetization model, expand to more segments), If mixed (Refine the model, test variations), If unsuccessful (Try different model, pivot strategy).
+
+**Key Principle:** Find the right monetization model that aligns with user value and business goals.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1156 (How should TikTok monetize):** Focus on TikTok monetization → "To monetize TikTok, I'd: Monetization Levers (Revenue models: Advertising (in-feed ads, branded content, sponsored challenges - primary model), Creator monetization (creator fund, tips, subscriptions - secondary), E-commerce (TikTok Shop, affiliate - future), Subscription (TikTok Premium - optional), Pricing strategy: Ad pricing (CPM, CPC, CPE), Creator revenue share, E-commerce commission, Premium pricing, Revenue streams: Primary (advertising), Secondary (creator monetization, e-commerce), Future (subscription, data licensing)), Test (A/B tests: Test ad formats, Test creator monetization features, Test e-commerce features, Market tests: Test in different markets, User research: Willingness to pay, model preference, Test one model at a time), Measure (Primary: Revenue (total revenue, ARPU, ad revenue, creator revenue), Secondary: User satisfaction, Engagement, Churn, Creator satisfaction, Guardrails: Monitor user experience, creator satisfaction, brand safety, Time: Short-term (6 months) and long-term (2+ years)), Iterate (If successful: Scale winners, expand globally, If mixed: Refine models, test variations, If unsuccessful: Try different model, pivot strategy). I'd prioritize advertising as the primary model, with creator monetization and e-commerce as secondary streams."
+- **Q1156 (How should TikTok monetize):** Focus on TikTok monetization
+  - "Monetization Levers: Revenue models (Advertising - in-feed ads, branded content, sponsored challenges - primary, Creator monetization - creator fund, tips, subscriptions - secondary, E-commerce - TikTok Shop, affiliate - future, Subscription - TikTok Premium - optional), Pricing strategy (Ad pricing - CPM, CPC, CPE, Creator revenue share, E-commerce commission, Premium pricing), Revenue streams (Primary - advertising, Secondary - creator monetization, e-commerce, Future - subscription, data licensing)"
+  - "Test: A/B tests (test ad formats, test creator monetization features, test e-commerce features), Market tests (test in different markets), User research (willingness to pay, model preference), Test one model at a time"
+  - "Measure: Primary (revenue - total revenue, ARPU, ad revenue, creator revenue), Secondary (user satisfaction, Engagement, Churn, Creator satisfaction), Guardrails (monitor user experience, creator satisfaction, brand safety), Time (short-term 6 months and long-term 2+ years)"
+  - "Iterate: If successful (scale winners, expand globally), If mixed (refine models, test variations), If unsuccessful (try different model, pivot strategy)"
+  - "Prioritize advertising as the primary model, with creator monetization and e-commerce as secondary streams"
 
 ---
 

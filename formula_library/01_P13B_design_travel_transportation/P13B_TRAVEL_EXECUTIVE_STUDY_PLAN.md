@@ -80,13 +80,50 @@
 - Q2462: What would be your strategy to improve Google Maps as a product? (maps improvement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a travel platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics. First, I identify Users: Who are the users? (Travelers, Commuters, Transportation providers), What are their needs? (Trip planning, Navigation, Transportation options). Then I define Jobs: What jobs do users need done? (Plan trips, Navigate routes, Book transportation, Find parking), Prioritize by Frequency and Urgency. Next, I design Core Loop: What is the engagement loop? (Plan trip → Navigate/use service → Complete trip → Return for next trip), How does it drive retention? (Regular commutes, Trip planning habits). I design Key Features: Core features (Maps/navigation, Route planning, Transportation booking, Parking), Supporting features (Search, Reviews, Real-time updates, Offline mode). I consider Tradeoffs: Accuracy vs speed, Real-time vs offline, Features vs simplicity. Finally, I define Success Metrics: Usage metrics (Trips planned, Navigation sessions, Bookings), Retention metrics (Daily/weekly active users, Repeat usage). The key is designing a platform that makes trip planning and navigation easy and reliable."
+
+**Framework:** `Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When designing a travel platform, I use Users → Jobs → Core Loop → Key Features → Tradeoffs → Success Metrics.
+
+**1️⃣ Users** → Who are the users? (Travelers, Commuters, Transportation providers), What are their needs? (Trip planning, Navigation, Transportation options).
+
+**2️⃣ Jobs** → What jobs do users need done? (Plan trips, Navigate routes, Book transportation, Find parking), Prioritize by Frequency and Urgency.
+
+**3️⃣ Core Loop** → What is the engagement loop? (Plan trip → Navigate/use service → Complete trip → Return for next trip), How does it drive retention? (Regular commutes, Trip planning habits).
+
+**4️⃣ Key Features** → Core features (Maps/navigation, Route planning, Transportation booking, Parking), Supporting features (Search, Reviews, Real-time updates, Offline mode).
+
+**5️⃣ Tradeoffs** → Accuracy vs speed, Real-time vs offline, Features vs simplicity.
+
+**6️⃣ Success Metrics** → Usage metrics (Trips planned, Navigation sessions, Bookings), Retention metrics (Daily/weekly active users, Repeat usage).
+
+**Key Principle:** Design a platform that makes trip planning and navigation easy and reliable.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q449 (Design product for travelers at airports):** Focus on airport travel → "To design a product for travelers at airports, I'd: Users (Travelers (passengers), Airport staff, Airlines), Needs (Navigate airport, Find gates/services, Track flights, Reduce stress), Jobs (Find gate, Check flight status, Find services (food, shops, lounges), Navigate terminal, Track baggage), Core Loop (Arrive at airport → Open app → Get directions → Use services → Complete journey → Return for next trip), Key Features (Airport maps (terminal layout, gate locations), Flight tracking (real-time status, gate changes), Navigation (indoor navigation, directions), Services (food, shops, lounges, restrooms), Notifications (flight updates, gate changes), Offline mode (works without internet)), Tradeoffs (Accuracy vs speed - prioritize accuracy, Real-time vs offline - support both, Features vs simplicity - keep simple), Success Metrics (Usage: Airport sessions, navigation usage, service discovery | Retention: Repeat usage, user satisfaction, completion rate). I'd prioritize indoor navigation and flight tracking as core features."
+- **Q449 (Design product for travelers at airports):** Focus on airport travel
+  - "Users: Travelers (passengers), Airport staff, Airlines"
+  - "Needs: Navigate airport, Find gates/services, Track flights, Reduce stress"
+  - "Jobs: Find gate, Check flight status, Find services (food, shops, lounges), Navigate terminal, Track baggage"
+  - "Core Loop: Arrive at airport → Open app → Get directions → Use services → Complete journey → Return for next trip"
+  - "Key Features: Airport maps (terminal layout, gate locations), Flight tracking (real-time status, gate changes), Navigation (indoor navigation, directions), Services (food, shops, lounges, restrooms), Notifications (flight updates, gate changes), Offline mode (works without internet)"
+  - "Tradeoffs: Accuracy vs speed (prioritize accuracy), Real-time vs offline (support both), Features vs simplicity (keep simple)"
+  - "Success Metrics: Usage (airport sessions, navigation usage, service discovery), Retention (repeat usage, user satisfaction, completion rate)"
+  - "Prioritize indoor navigation and flight tracking as core features"
 
-- **Q1310 (Design parking features on Google Maps):** Emphasize parking feature → "To design parking features on Google Maps, I'd: Users (Drivers, Commuters, City planners), Needs (Find parking, Save time, Reduce stress, Avoid tickets), Jobs (Find available parking, Reserve parking, Navigate to parking, Pay for parking), Core Loop (Search destination → See parking options → Select parking → Navigate → Park → Return for next trip), Key Features (Parking search (near destination, availability), Parking information (price, hours, restrictions), Navigation (directions to parking), Reservation (book in advance), Payment (pay through app), Real-time updates (availability, pricing)), Tradeoffs (Accuracy vs speed - need real-time accuracy, Features vs simplicity - keep simple, Free vs paid - support both), Success Metrics (Usage: Parking searches, reservations, navigation to parking | Retention: Repeat usage, user satisfaction, completion rate). I'd prioritize real-time availability and easy navigation to parking."
+- **Q1310 (Design parking features on Google Maps):** Emphasize parking feature
+  - "Users: Drivers, Commuters, City planners"
+  - "Needs: Find parking, Save time, Reduce stress, Avoid tickets"
+  - "Jobs: Find available parking, Reserve parking, Navigate to parking, Pay for parking"
+  - "Core Loop: Search destination → See parking options → Select parking → Navigate → Park → Return for next trip"
+  - "Key Features: Parking search (near destination, availability), Parking information (price, hours, restrictions), Navigation (directions to parking), Reservation (book in advance), Payment (pay through app), Real-time updates (availability, pricing)"
+  - "Tradeoffs: Accuracy vs speed (need real-time accuracy), Features vs simplicity (keep simple), Free vs paid (support both)"
+  - "Success Metrics: Usage (parking searches, reservations, navigation to parking), Retention (repeat usage, user satisfaction, completion rate)"
+  - "Prioritize real-time availability and easy navigation to parking"
 
 ---
 
@@ -112,11 +149,38 @@
 - Q1786: Redesign Google Maps to increase engagement with small businesses. (navigation improvement angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on navigation and trip planning, I use the same travel platform framework but emphasize navigation accuracy and trip planning ease. I identify Users and their Jobs to understand navigation needs. I design Core Loop with navigation in mind: Entry point (How users start - search destination, open app), Core action (Plan route, Navigate, Follow directions), Reward (Reach destination, Save time, Avoid traffic), Return trigger (Next trip, Regular commute, Trip planning). I design Key Features that support navigation: Route planning (Multiple routes, Traffic-aware, Real-time updates, ETA), Turn-by-turn navigation (Clear instructions, Voice guidance, Visual cues, Lane guidance), Offline mode (Download maps, Offline navigation, Works without internet), Trip planning (Multi-stop, Pre-trip research, During-trip adjustments). I consider Tradeoffs: Accuracy vs speed (prioritize accuracy), Real-time vs offline (support both), Features vs simplicity (keep simple). I define Success Metrics: Navigation metrics (Route accuracy, ETA accuracy, Completion rate), Usage (Navigation sessions, Trip planning, Repeat usage), Satisfaction (User ratings, Feedback). The key is making navigation accurate, reliable, and easy to use."
+
+**Framework:** `Users → Jobs → Core Loop (Navigation Focus) → Key Features → Tradeoffs → Success Metrics`
+
+**Memorizable Answer:**
+
+When focusing on navigation and trip planning, I use the same travel platform framework but emphasize navigation accuracy and trip planning ease.
+
+**1️⃣ Users & Jobs** → Identify users and their jobs to understand navigation needs.
+
+**2️⃣ Core Loop (Navigation Focus)** → Entry point (How users start - search destination, open app), Core action (Plan route, Navigate, Follow directions), Reward (Reach destination, Save time, Avoid traffic), Return trigger (Next trip, Regular commute, Trip planning).
+
+**3️⃣ Key Features (Navigation)** → Route planning (Multiple routes, Traffic-aware, Real-time updates, ETA), Turn-by-turn navigation (Clear instructions, Voice guidance, Visual cues, Lane guidance), Offline mode (Download maps, Offline navigation, Works without internet), Trip planning (Multi-stop, Pre-trip research, During-trip adjustments).
+
+**4️⃣ Tradeoffs** → Accuracy vs speed (prioritize accuracy), Real-time vs offline (support both), Features vs simplicity (keep simple).
+
+**5️⃣ Success Metrics** → Navigation metrics (Route accuracy, ETA accuracy, Completion rate), Usage (Navigation sessions, Trip planning, Repeat usage), Satisfaction (User ratings, Feedback).
+
+**Key Principle:** Make navigation accurate, reliable, and easy to use.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q647 (Design Google Maps for kids):** Focus on kids navigation → "To design Google Maps for kids, I'd: Users (Kids (primary users), Parents (gatekeepers)), Needs (Safe navigation, Simple directions, Fun experience, Parental oversight), Jobs (Navigate to school/friends, Learn directions, Have fun, Stay safe), Core Loop (Open app → Search destination → Get directions → Follow → Arrive → Return for next trip), Key Features (Simple navigation (clear, visual, voice), Safety features (parental controls, safe routes, location sharing), Fun elements (kid-friendly UI, gamification), Parental controls (approve destinations, track location, set boundaries), Offline mode (works without internet), Simple search (easy to use)), Tradeoffs (Simplicity vs features - prioritize simplicity, Safety vs freedom - balance, Fun vs utility - both), Success Metrics (Usage: Navigation sessions, trip completion | Retention: Repeat usage, parent satisfaction, safety incidents). I'd prioritize safety, simplicity, and parental controls."
+- **Q647 (Design Google Maps for kids):** Focus on kids navigation
+  - "Users: Kids (primary users), Parents (gatekeepers)"
+  - "Needs: Safe navigation, Simple directions, Fun experience, Parental oversight"
+  - "Jobs: Navigate to school/friends, Learn directions, Have fun, Stay safe"
+  - "Core Loop: Open app → Search destination → Get directions → Follow → Arrive → Return for next trip"
+  - "Key Features: Simple navigation (clear, visual, voice), Safety features (parental controls, safe routes, location sharing), Fun elements (kid-friendly UI, gamification), Parental controls (approve destinations, track location, set boundaries), Offline mode (works without internet), Simple search (easy to use)"
+  - "Tradeoffs: Simplicity vs features (prioritize simplicity), Safety vs freedom (balance), Fun vs utility (both)"
+  - "Success Metrics: Usage (navigation sessions, trip completion), Retention (repeat usage, parent satisfaction, safety incidents)"
+  - "Prioritize safety, simplicity, and parental controls"
 
 ---
 

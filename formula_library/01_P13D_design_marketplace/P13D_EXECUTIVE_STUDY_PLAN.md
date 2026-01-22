@@ -83,13 +83,50 @@
 - Q83: As a product manager for Meta, design a product for volunteers. (volunteer marketplace angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing a marketplace, I use Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers. First, I identify Sides: Supply side (Who are suppliers? What do they provide? What are their incentives?), Demand side (Who are buyers/users? What do they need? What are their incentives?). Then I define Value Exchange: What is the value exchange? (Supply → Demand value, Demand → Supply value, Platform value), How is value created? (Matching efficiency, Trust & safety, Network effects). Next, I assess Liquidity Risks: Cold start problem (No supply → no demand, No demand → no supply), Liquidity strategies (Seed supply/demand, Incentivize early adopters, Phased launch). I design MVP: Minimum viable marketplace (Core matching, Basic trust mechanisms, Payment/transaction), Launch strategy (Geographic focus, Category focus, Supply-first or demand-first). Finally, I define Balancing Levers: Supply/demand balance (Pricing, Incentives, Matching algorithms), Success metrics (Match rate, Liquidity, GMV, Take rate). The key is solving the cold start problem and keeping supply/demand balanced."
+
+**Framework:** `Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers`
+
+**Memorizable Answer:**
+
+When designing a marketplace, I use Sides → Value Exchange → Liquidity Risks → MVP → Balancing Levers.
+
+**1️⃣ Sides** → Supply side (Who are suppliers? What do they provide? What are their incentives?), Demand side (Who are buyers/users? What do they need? What are their incentives?).
+
+**2️⃣ Value Exchange** → What is the value exchange? (Supply → Demand value, Demand → Supply value, Platform value), How is value created? (Matching efficiency, Trust & safety, Network effects).
+
+**3️⃣ Liquidity Risks** → Cold start problem (No supply → no demand, No demand → no supply), Liquidity strategies (Seed supply/demand, Incentivize early adopters, Phased launch).
+
+**4️⃣ MVP** → Minimum viable marketplace (Core matching, Basic trust mechanisms, Payment/transaction), Launch strategy (Geographic focus, Category focus, Supply-first or demand-first).
+
+**5️⃣ Balancing Levers** → Supply/demand balance (Pricing, Incentives, Matching algorithms), Success metrics (Match rate, Liquidity, GMV, Take rate).
+
+**Key Principle:** Solve the cold start problem and keep supply/demand balanced.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q264 (Design bike-sharing system):** Focus on bike-sharing → "To design a bike-sharing system, I'd: Sides (Supply: Bike owners/operators (provide bikes, want revenue), Demand: Riders (need transportation, want convenience)), Value Exchange (Supply provides bikes, Demand pays for rides, Platform matches efficiently, creates network effects), Liquidity Risks (Cold start: Need bikes and riders simultaneously, No bikes → no riders, No riders → no bikes), Liquidity strategies (Seed supply: Deploy bikes in high-traffic areas, Seed demand: Launch in dense urban areas, Incentivize early adopters: Free rides, discounts, Phased launch: Start in one neighborhood), MVP (Core matching (app to find bikes, unlock, return), Basic trust (bike quality, safety), Payment (ride payment, deposit), Basic tracking (bike location, availability)), Launch strategy (Geographic focus: Dense urban area, Category focus: Short trips, Supply-first: Deploy bikes first), Balancing Levers (Pricing: Dynamic pricing based on demand, Incentives: Rewards for returning bikes, Matching: Algorithm to optimize bike placement), Success Metrics (Match rate: Rides per bike per day, Liquidity: Bike utilization, GMV: Total ride value, Take rate: Platform commission). I'd prioritize solving the cold start problem and ensuring bike availability."
+- **Q264 (Design bike-sharing system):** Focus on bike-sharing
+  - "Sides: Supply (Bike owners/operators - provide bikes, want revenue), Demand (Riders - need transportation, want convenience)"
+  - "Value Exchange: Supply provides bikes, Demand pays for rides, Platform matches efficiently, creates network effects"
+  - "Liquidity Risks: Cold start (need bikes and riders simultaneously, No bikes → no riders, No riders → no bikes)"
+  - "Liquidity strategies: Seed supply (deploy bikes in high-traffic areas), Seed demand (launch in dense urban areas), Incentivize early adopters (free rides, discounts), Phased launch (start in one neighborhood)"
+  - "MVP: Core matching (app to find bikes, unlock, return), Basic trust (bike quality, safety), Payment (ride payment, deposit), Basic tracking (bike location, availability)"
+  - "Launch strategy: Geographic focus (dense urban area), Category focus (short trips), Supply-first (deploy bikes first)"
+  - "Balancing Levers: Pricing (dynamic pricing based on demand), Incentives (rewards for returning bikes), Matching (algorithm to optimize bike placement)"
+  - "Success Metrics: Match rate (rides per bike per day), Liquidity (bike utilization), GMV (total ride value), Take rate (platform commission)"
+  - "Prioritize solving the cold start problem and ensuring bike availability"
 
-- **Q45 (Design restaurant reservations):** Emphasize reservations → "To design a restaurant reservations product, I'd: Sides (Supply: Restaurants (provide tables, want bookings), Demand: Diners (need reservations, want convenience)), Value Exchange (Supply provides tables, Demand pays (directly or through platform), Platform matches efficiently, creates value through convenience), Liquidity Risks (Cold start: Need restaurants and diners, No restaurants → no diners, No diners → no restaurants), Liquidity strategies (Seed supply: Onboard popular restaurants first, Seed demand: Launch in foodie neighborhoods, Incentivize early adopters: Restaurant discounts, diner rewards, Phased launch: Start in one city), MVP (Core matching (reservation booking, availability), Basic trust (restaurant ratings, cancellation policy), Payment (reservation fee or direct payment), Basic features (time slots, party size)), Launch strategy (Geographic focus: Foodie city, Category focus: Popular restaurants, Supply-first: Onboard restaurants first), Balancing Levers (Pricing: Reservation fees or free, Incentives: Rewards for diners, restaurants, Matching: Algorithm to optimize availability), Success Metrics (Match rate: Reservations per restaurant, Liquidity: Table utilization, GMV: Total reservation value, Take rate: Platform commission). I'd focus on getting restaurants onboard first, then attracting diners."
+- **Q45 (Design restaurant reservations):** Emphasize reservations
+  - "Sides: Supply (Restaurants - provide tables, want bookings), Demand (Diners - need reservations, want convenience)"
+  - "Value Exchange: Supply provides tables, Demand pays (directly or through platform), Platform matches efficiently, creates value through convenience"
+  - "Liquidity Risks: Cold start (need restaurants and diners, No restaurants → no diners, No diners → no restaurants)"
+  - "Liquidity strategies: Seed supply (onboard popular restaurants first), Seed demand (launch in foodie neighborhoods), Incentivize early adopters (restaurant discounts, diner rewards), Phased launch (start in one city)"
+  - "MVP: Core matching (reservation booking, availability), Basic trust (restaurant ratings, cancellation policy), Payment (reservation fee or direct payment), Basic features (time slots, party size)"
+  - "Launch strategy: Geographic focus (foodie city), Category focus (popular restaurants), Supply-first (onboard restaurants first)"
+  - "Balancing Levers: Pricing (reservation fees or free), Incentives (rewards for diners, restaurants), Matching (algorithm to optimize availability)"
+  - "Success Metrics: Match rate (reservations per restaurant), Liquidity (table utilization), GMV (total reservation value), Take rate (platform commission)"
+  - "Focus on getting restaurants onboard first, then attracting diners"
 
 ---
 
@@ -114,11 +151,35 @@
 - Q83: As a product manager for Meta, design a product for volunteers. (cold start angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When focusing on liquidity and cold start, I use the same marketplace framework but emphasize solving the chicken-and-egg problem. I identify Sides to understand who needs to be on the platform. I define Value Exchange to understand what value each side gets. I assess Liquidity Risks: Cold start problem (No supply → no demand, No demand → no supply), and develop Liquidity strategies: Identify which side to seed first (Supply-first vs demand-first based on value), Seed strategy (Onboard early adopters, Provide incentives, Focus on quality), Launch strategy (Geographic focus, Category focus, Phased approach). I design MVP with liquidity in mind: Core matching that works even with limited supply/demand, Basic trust to build confidence, Payment/transaction to enable value exchange. I define Balancing Levers: Supply/demand balance (Pricing, Incentives, Matching algorithms), Success metrics (Match rate, Liquidity, Utilization). The key is solving the cold start problem and maintaining liquidity as you scale."
+
+**Framework:** `Sides → Value Exchange → Liquidity Risks (Cold Start Focus) → MVP → Balancing Levers`
+
+**Memorizable Answer:**
+
+When focusing on liquidity and cold start, I use the same marketplace framework but emphasize solving the chicken-and-egg problem.
+
+**1️⃣ Sides** → Identify who needs to be on the platform.
+
+**2️⃣ Value Exchange** → Understand what value each side gets.
+
+**3️⃣ Liquidity Risks (Cold Start Focus)** → Cold start problem (No supply → no demand, No demand → no supply), Liquidity strategies: Identify which side to seed first (Supply-first vs demand-first based on value), Seed strategy (Onboard early adopters, Provide incentives, Focus on quality), Launch strategy (Geographic focus, Category focus, Phased approach).
+
+**4️⃣ MVP (Liquidity Focus)** → Core matching that works even with limited supply/demand, Basic trust to build confidence, Payment/transaction to enable value exchange.
+
+**5️⃣ Balancing Levers** → Supply/demand balance (Pricing, Incentives, Matching algorithms), Success metrics (Match rate, Liquidity, Utilization).
+
+**Key Principle:** Solve the cold start problem and maintain liquidity as you scale.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q264 (Bike-sharing cold start):** Focus on cold start → "To solve the cold start problem for bike-sharing, I'd: Identify which side to seed first (Supply-first: Deploy bikes first, then attract riders - bikes are the constraint), Seed strategy (Onboard early adopters: Deploy bikes in high-traffic areas, Provide incentives: Free rides for first week, Focus on quality: Reliable bikes, good locations), Launch strategy (Geographic focus: Dense urban neighborhood, Category focus: Short trips, Phased approach: Start small, expand). I'd monitor liquidity: Track bike utilization, match rate, and adjust bike placement based on demand. The key is having bikes available when riders need them."
+- **Q264 (Bike-sharing cold start):** Focus on cold start
+  - "Identify which side to seed first: Supply-first (deploy bikes first, then attract riders - bikes are the constraint)"
+  - "Seed strategy: Onboard early adopters (deploy bikes in high-traffic areas), Provide incentives (free rides for first week), Focus on quality (reliable bikes, good locations)"
+  - "Launch strategy: Geographic focus (dense urban neighborhood), Category focus (short trips), Phased approach (start small, expand)"
+  - "Monitor liquidity: Track bike utilization, match rate, and adjust bike placement based on demand"
+  - "Key: Having bikes available when riders need them"
 
 ---
 
