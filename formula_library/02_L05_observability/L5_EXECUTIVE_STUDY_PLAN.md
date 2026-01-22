@@ -76,13 +76,54 @@
 - Q368: Design a monitoring system for TikTok. (monitoring system design angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing observability, I use Key Metrics → Alerts → Dashboards → Escalation. First, I define Key Metrics: Golden signals (Latency: p50/p95/p99 response times, Error rate: percentage of failed requests, errors per second, Throughput/volume: requests per second, transactions per minute, Saturation: CPU, memory, queue depth, resource utilization), Business metrics (Conversions/success rate: business outcome metrics, Drops/failures: user-facing failures, drop-off rates, Revenue-impacting events: payment failures, checkout issues), Data quality (if data system: Freshness - data update frequency, latency, Completeness - missing records, coverage, Anomalies - unexpected patterns, outliers). Second, I set up Alerts: Symptom-based (preferred: User-visible errors - alerts on issues users experience, SLO burn rate - alert when SLO error budget is being consumed, Missed business outcomes - conversion drops, revenue impact), Thresholds (Static: known limits - e.g., error rate > 1%, Dynamic: baseline deviation - e.g., 3-sigma from normal), Alert hygiene (Actionable: alert tells us what to do, Low noise: only alerts on real issues, not false positives, Clear owner: who responds to this alert). Third, I build Dashboards: Overview (Health at a glance: red/yellow/green status, Key metrics visible immediately), Drill-down (By service: isolate which service has issues, By region/segment: geographic or user segment breakdown, By time: historical trends, time-series analysis), Correlation (Deploys: link metrics to deployment events, Traffic spikes: correlate with traffic patterns, Feature flags: see impact of feature toggles). Remember: Dashboards are for debugging, alerts are for action. Finally, I define Escalation: Ownership (On-call rotation: clear ownership, rotation schedule, Clear runbooks: documented response procedures), Response (Mitigate first: stop the bleeding, restore service, Roll back/degrade: revert changes or disable features), Learning (Postmortem: document what happened, why, and how to prevent, Fix root cause: address underlying issue, not just symptoms, Improve signals: update metrics, alerts, dashboards based on learnings). The key principle: If you can't answer 'Are users hurting right now?' in 10 seconds, your observability is broken."
+
+**Framework:** `Key Metrics → Alerts → Dashboards → Escalation`
+
+**Memorizable Answer:**
+
+When designing observability, I use Key Metrics → Alerts → Dashboards → Escalation.
+
+**1️⃣ Key Metrics** → 
+  - **Golden signals:** Latency (p50/p95/p99 response times), Error rate (percentage of failed requests), Throughput/volume (requests per second), Saturation (CPU, memory, queue depth)
+  - **Business metrics:** Conversions/success rate, Drops/failures, Revenue-impacting events
+  - **Data quality (if data system):** Freshness, Completeness, Anomalies
+
+**2️⃣ Alerts** → 
+  - **Symptom-based (preferred):** User-visible errors, SLO burn rate, Missed business outcomes
+  - **Thresholds:** Static (known limits), Dynamic (baseline deviation)
+  - **Alert hygiene:** Actionable, Low noise, Clear owner
+
+**3️⃣ Dashboards** → 
+  - **Overview:** Health at a glance (red/yellow/green status), Key metrics visible immediately
+  - **Drill-down:** By service, By region/segment, By time
+  - **Correlation:** Deploys, Traffic spikes, Feature flags
+
+**Remember:** Dashboards are for debugging, alerts are for action.
+
+**4️⃣ Escalation** → 
+  - **Ownership:** On-call rotation, Clear runbooks
+  - **Response:** Mitigate first, Roll back/degrade
+  - **Learning:** Postmortem, Fix root cause, Improve signals
+
+**Key Principle:** If you can't answer "Are users hurting right now?" in 10 seconds, your observability is broken.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q117 (Lyft app health dashboard):** Focus on app health → "To build a dashboard for Lyft app health, I'd: Key Metrics (Golden signals: Latency - ride request response time, match time, Error rate - failed requests, API errors, Throughput - requests per second, rides per minute, Saturation - server CPU, memory, queue depth, Business metrics: Ride success rate - rides completed vs requested, Driver availability, Rider wait time, Revenue-impacting: Payment failures, booking failures), Alerts (Symptom-based: User-visible errors - ride requests failing, SLO burn rate - if latency SLO being consumed, Missed business outcomes - ride success rate drops, Thresholds: Static - error rate > 1%, Dynamic - 3-sigma deviation, Alert hygiene: Actionable - tells us which service, Low noise - only real issues, Clear owner - on-call rotation), Dashboards (Overview: Health at a glance - red/yellow/green, Key metrics - ride success rate, latency, error rate, Drill-down: By service - ride matching, payments, driver app, By region - city breakdown, By time - trends, Correlation: Deploys - link to deployments, Traffic spikes - peak hours, Feature flags - new features), Escalation (Ownership: On-call rotation, runbooks, Response: Mitigate first - rollback if needed, Learning: Postmortem, fix root cause). I'd prioritize: Ride success rate (business metric), Latency (user experience), Error rate (reliability)."
+- **Q117 (Lyft app health dashboard):** Focus on app health
+  - "Key Metrics: Golden signals (Latency - ride request response time, match time, Error rate - failed requests, API errors, Throughput - requests per second, rides per minute, Saturation - server CPU, memory, queue depth), Business metrics (Ride success rate - rides completed vs requested, Driver availability, Rider wait time, Revenue-impacting - payment failures, booking failures)"
+  - "Alerts: Symptom-based (user-visible errors - ride requests failing, SLO burn rate - if latency SLO being consumed, Missed business outcomes - ride success rate drops), Thresholds (static - error rate > 1%, Dynamic - 3-sigma deviation), Alert hygiene (actionable - tells us which service, Low noise - only real issues, Clear owner - on-call rotation)"
+  - "Dashboards: Overview (health at a glance - red/yellow/green, Key metrics - ride success rate, latency, error rate), Drill-down (by service - ride matching, payments, driver app, By region - city breakdown, By time - trends), Correlation (deploys - link to deployments, Traffic spikes - peak hours, Feature flags - new features)"
+  - "Escalation: Ownership (on-call rotation, runbooks), Response (mitigate first - rollback if needed), Learning (postmortem, fix root cause)"
+  - "Prioritize: Ride success rate (business metric), Latency (user experience), Error rate (reliability)"
 
-- **Q361 (Metrics and logging service):** Emphasize system design → "To design a metrics and logging service, I'd: Key Metrics (Golden signals: Latency - p50/p95/p99, Error rate, Throughput, Saturation, Business metrics: Application-specific, Data quality: Freshness, completeness, anomalies), Alerts (Symptom-based: User-visible errors, SLO burn rate, Thresholds: Static and dynamic, Alert hygiene: Actionable, low noise, clear owner), Dashboards (Overview: Health at a glance, Drill-down: By service, region, time, Correlation: Deploys, traffic, features), Escalation (Ownership: On-call, runbooks, Response: Mitigate, rollback, Learning: Postmortem, improve). System design: Metrics collection (Agents on servers, push/pull model), Storage (Time-series DB, retention policies), Query (API for dashboards, alerts), Scalability (Handle high volume, low latency). I'd design: Collection layer (Agents, SDKs), Storage layer (Time-series DB, log storage), Query layer (API, dashboards), Alert layer (Alerting engine, notification)."
+- **Q361 (Metrics and logging service):** Emphasize system design
+  - "Key Metrics: Golden signals (latency - p50/p95/p99, Error rate, Throughput, Saturation), Business metrics (application-specific), Data quality (freshness, completeness, anomalies)"
+  - "Alerts: Symptom-based (user-visible errors, SLO burn rate), Thresholds (static and dynamic), Alert hygiene (actionable, low noise, clear owner)"
+  - "Dashboards: Overview (health at a glance), Drill-down (by service, region, time), Correlation (deploys, traffic, features)"
+  - "Escalation: Ownership (on-call, runbooks), Response (mitigate, rollback), Learning (postmortem, improve)"
+  - "System design: Collection layer (agents, SDKs), Storage layer (time-series DB, log storage), Query layer (API, dashboards), Alert layer (alerting engine, notification)"
 
 ---
 
@@ -107,11 +148,33 @@
 - Q362: Design a metrics service. (metrics service with dashboards angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing dashboards, I use the same observability framework but focus on dashboard structure. I design Overview: Health at a glance (Red/yellow/green status, Key metrics visible immediately, User-focused - who uses this? What do they need?), Drill-down: By dimension (By service: isolate which service has issues, By region/segment: geographic or user segment breakdown, By time: historical trends, Actionable - can they act on it?), Correlation: With events (Deploys: link metrics to deployment events, Traffic spikes: correlate with traffic patterns, Feature flags: see impact of feature toggles, Clear - easy to understand). I prioritize based on user needs: Executives need high-level health, Engineers need drill-down, Operations need alerts. The key is making dashboards actionable and clear."
+
+**Framework:** `Key Metrics → Alerts → Dashboards (Structure Focus) → Escalation`
+
+**Memorizable Answer:**
+
+When designing dashboards, I use the same observability framework but focus on dashboard structure.
+
+**1️⃣ Overview** → Health at a glance (Red/yellow/green status, Key metrics visible immediately, User-focused - who uses this? What do they need?).
+
+**2️⃣ Drill-down** → By dimension (By service: isolate which service has issues, By region/segment: geographic or user segment breakdown, By time: historical trends, Actionable - can they act on it?).
+
+**3️⃣ Correlation** → With events (Deploys: link metrics to deployment events, Traffic spikes: correlate with traffic patterns, Feature flags: see impact of feature toggles, Clear - easy to understand).
+
+**4️⃣ Prioritize** → Based on user needs: Executives need high-level health, Engineers need drill-down, Operations need alerts.
+
+**Key Principle:** Make dashboards actionable and clear.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q285 (Sales dashboard):** Focus on sales context → "To design a sales dashboard, I'd: Key Metrics (Business metrics: Revenue, deals closed, pipeline value, Conversion rate, Sales cycle length, ARPU, Golden signals: If technical - latency, error rate, Throughput: Deals per day, Data quality: Data freshness, completeness), Alerts (Symptom-based: Revenue drops, Pipeline issues, Missed business outcomes, Thresholds: Static - revenue targets, Dynamic - deviation from baseline, Alert hygiene: Actionable - tells sales team what to do, Low noise, Clear owner), Dashboards (Overview: Health at a glance - revenue vs target, deals closed, pipeline, Drill-down: By rep - individual performance, By product - product performance, By region - geographic breakdown, By time - trends, Correlation: With campaigns - marketing impact, With launches - product impact, With seasonality - time-based patterns), Escalation (Ownership: Sales ops, Response: Adjust strategy, Learning: Postmortem, improve). I'd prioritize: Revenue (primary metric), Pipeline (leading indicator), Conversion rate (efficiency)."
+- **Q285 (Sales dashboard):** Focus on sales context
+  - "Key Metrics: Business metrics (revenue, deals closed, pipeline value, Conversion rate, Sales cycle length, ARPU), Golden signals (if technical - latency, error rate), Throughput (deals per day), Data quality (data freshness, completeness)"
+  - "Alerts: Symptom-based (revenue drops, Pipeline issues, Missed business outcomes), Thresholds (static - revenue targets, Dynamic - deviation from baseline), Alert hygiene (actionable - tells sales team what to do, Low noise, Clear owner)"
+  - "Dashboards: Overview (health at a glance - revenue vs target, deals closed, pipeline), Drill-down (by rep - individual performance, By product - product performance, By region - geographic breakdown, By time - trends), Correlation (with campaigns - marketing impact, With launches - product impact, With seasonality - time-based patterns)"
+  - "Escalation: Ownership (sales ops), Response (adjust strategy), Learning (postmortem, improve)"
+  - "Prioritize: Revenue (primary metric), Pipeline (leading indicator), Conversion rate (efficiency)"
 
 ---
 

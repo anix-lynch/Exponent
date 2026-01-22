@@ -77,13 +77,45 @@
 - Q1006: Have you ever had to work with poor-quality data or suggest new tracking? (data quality angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When assessing data trust, I use Source → Freshness → Completeness → Bias → Sanity Checks. First, I check Source: Identify origin (Primary: product logs, first-party events, direct user actions | Secondary: internal pipelines, transformations, aggregated data | External: vendors, partners, scraped data, third-party APIs), Validate ownership (Who maintains it? Who is on-call when it breaks? Is there documentation/lineage? Can we trace the data flow?). Second, I check Freshness: Expected latency (Real-time: should update immediately | Hourly: should update within the hour | Daily/Batch: should update on schedule), Check gaps (Last updated timestamp: when was it last refreshed? Delays vs SLA: is it meeting expected update frequency? Silent failures: no alerts but stale data). Third, I check Completeness: Coverage checks (Missing rows/days: are there gaps in the time series? Null or default-heavy fields: are key fields populated? Partial segments dropped: are all user segments/platforms included?), Join loss (Inner joins removing data: are we losing records in joins? Key mismatches: do join keys align correctly? Upstream schema changes: did schema changes break data collection?). Fourth, I check Bias: Sampling bias (Logged-in only: are we missing anonymous users? Power users: are we over-representing heavy users? Specific regions/platforms: are all geos and devices included?), Measurement bias (Proxy ≠ true behavior: is our metric a good proxy for what we care about? Instrumentation gaps: are we tracking all relevant events? Incentives to game metrics: could users or teams be gaming the measurement?). Finally, I do Sanity Checks: Trend checks (Sharp jumps/drops that don't align with known changes), Ratio checks (Conversion > 100%? Negative values where impossible?), Cross-metric consistency (Do related metrics move together logically?), Compare to historical baselines (Is this within expected range?). The key principle: No decision is better than a confident decision on bad data. If trust is low → slow down, qualify, or re-measure."
+
+**Framework:** `Source → Freshness → Completeness → Bias → Sanity Checks`
+
+**Memorizable Answer:**
+
+When assessing data trust, I use Source → Freshness → Completeness → Bias → Sanity Checks.
+
+**1️⃣ Source** → Identify origin (Primary: product logs, first-party events, direct user actions | Secondary: internal pipelines, transformations, aggregated data | External: vendors, partners, scraped data, third-party APIs), Validate ownership (Who maintains it? Who is on-call when it breaks? Is there documentation/lineage? Can we trace the data flow?).
+
+**2️⃣ Freshness** → Expected latency (Real-time: should update immediately | Hourly: should update within the hour | Daily/Batch: should update on schedule), Check gaps (Last updated timestamp: when was it last refreshed? Delays vs SLA: is it meeting expected update frequency? Silent failures: no alerts but stale data).
+
+**3️⃣ Completeness** → Coverage checks (Missing rows/days: are there gaps in the time series? Null or default-heavy fields: are key fields populated? Partial segments dropped: are all user segments/platforms included?), Join loss (Inner joins removing data: are we losing records in joins? Key mismatches: do join keys align correctly? Upstream schema changes: did schema changes break data collection?).
+
+**4️⃣ Bias** → Sampling bias (Logged-in only: are we missing anonymous users? Power users: are we over-representing heavy users? Specific regions/platforms: are all geos and devices included?), Measurement bias (Proxy ≠ true behavior: is our metric a good proxy for what we care about? Instrumentation gaps: are we tracking all relevant events? Incentives to game metrics: could users or teams be gaming the measurement?).
+
+**5️⃣ Sanity Checks** → Trend checks (Sharp jumps/drops that don't align with known changes), Ratio checks (Conversion > 100%? Negative values where impossible?), Cross-metric consistency (Do related metrics move together logically?), Compare to historical baselines (Is this within expected range?).
+
+**Key Principle:** No decision is better than a confident decision on bad data. If trust is low → slow down, qualify, or re-measure.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q183 (Debug metric off by X%):** Focus on debugging → "To debug a metric that's off by X%, I'd: Source (Identify origin: Where did this metric come from? Primary data (product logs, events) or secondary (pipelines, transformations) or external (vendors, APIs)? Validate ownership: Who maintains this? Who is on-call? Is there documentation/lineage?), Freshness (Check if data is up to date: Expected latency - should this be real-time, hourly, or daily? Check gaps - Last updated timestamp, delays vs SLA, silent failures), Completeness (Verify nothing is missing: Coverage checks - missing rows/days, null fields, partial segments dropped, Join loss - inner joins removing data, key mismatches, upstream schema changes), Bias (Check who is over/under-represented: Sampling bias - logged-in only, power users, specific regions/platforms, Measurement bias - proxy ≠ true behavior, instrumentation gaps, incentives to game), Sanity Checks (Verify numbers pass smell test: Trend checks - sharp jumps/drops, Ratio checks - conversion > 100%?, Cross-metric consistency, Compare to historical baselines). I'd systematically go through each dimension to identify where the trust breaks down."
+- **Q183 (Debug metric off by X%):** Focus on debugging
+  - "Source: Identify origin (where did this metric come from? Primary data - product logs, events, or secondary - pipelines, transformations, or external - vendors, APIs), Validate ownership (who maintains this? Who is on-call? Is there documentation/lineage?)"
+  - "Freshness: Check if data is up to date (Expected latency - should this be real-time, hourly, or daily? Check gaps - Last updated timestamp, delays vs SLA, silent failures)"
+  - "Completeness: Verify nothing is missing (Coverage checks - missing rows/days, null fields, partial segments dropped, Join loss - inner joins removing data, key mismatches, upstream schema changes)"
+  - "Bias: Check who is over/under-represented (Sampling bias - logged-in only, power users, specific regions/platforms, Measurement bias - proxy ≠ true behavior, instrumentation gaps, incentives to game)"
+  - "Sanity Checks: Verify numbers pass smell test (Trend checks - sharp jumps/drops, Ratio checks - conversion > 100%?, Cross-metric consistency, Compare to historical baselines)"
+  - "Systematically go through each dimension to identify where the trust breaks down"
 
-- **Q790 (Explain data drifting):** Emphasize data drift → "Data drift occurs when the distribution of input data changes over time, causing model performance to degrade. To detect it, I'd: Source (Identify origin: Where is the data coming from? Has the source changed?), Freshness (Check if data is up to date: Are there delays or stale data?), Completeness (Verify nothing is missing: Are all segments still included? Any join loss?), Bias (Check who is over/under-represented: Has the user population changed? Sampling bias? Measurement bias?), Sanity Checks (Verify numbers pass smell test: Compare current distribution to historical baseline, detect shifts in feature distributions, check for outliers). I'd monitor feature distributions over time and alert when they deviate significantly from training data."
+- **Q790 (Explain data drifting):** Emphasize data drift
+  - "Data drift occurs when the distribution of input data changes over time, causing model performance to degrade"
+  - "Source: Identify origin (where is the data coming from? Has the source changed?)"
+  - "Freshness: Check if data is up to date (are there delays or stale data?)"
+  - "Completeness: Verify nothing is missing (are all segments still included? Any join loss?)"
+  - "Bias: Check who is over/under-represented (has the user population changed? Sampling bias? Measurement bias?)"
+  - "Sanity Checks: Verify numbers pass smell test (compare current distribution to historical baseline, detect shifts in feature distributions, check for outliers)"
+  - "Monitor feature distributions over time and alert when they deviate significantly from training data"
 
 ---
 
@@ -108,11 +140,36 @@
 - Q803: Explain how you handle data scarcity. (data quality/data scarcity angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When handling data quality issues, I use the same data trust framework but focus on practical solutions. I identify the issue using Source → Freshness → Completeness → Bias → Sanity Checks. Then I implement solutions: Data validation (Rules, checks, automated tests), Monitoring (Track freshness, completeness, anomalies), Alerts (Notify when data quality degrades), Documentation (Data dictionary, lineage, ownership), Lineage tracking (Trace data flow, dependencies). I prioritize based on impact: High-impact metrics get more rigorous checks, Low-impact metrics get basic validation. The key is preventing bad data from reaching decision-makers."
+
+**Framework:** `Source → Freshness → Completeness → Bias → Sanity Checks → Solutions`
+
+**Memorizable Answer:**
+
+When handling data quality issues, I use the same data trust framework but focus on practical solutions.
+
+**1️⃣ Identify Issue** → Use Source → Freshness → Completeness → Bias → Sanity Checks to identify the problem.
+
+**2️⃣ Implement Solutions** → 
+  - **Data validation:** Rules, checks, automated tests
+  - **Monitoring:** Track freshness, completeness, anomalies
+  - **Alerts:** Notify when data quality degrades
+  - **Documentation:** Data dictionary, lineage, ownership
+  - **Lineage tracking:** Trace data flow, dependencies
+
+**3️⃣ Prioritize** → High-impact metrics get more rigorous checks, Low-impact metrics get basic validation.
+
+**Key Principle:** Prevent bad data from reaching decision-makers.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1006 (Poor-quality data or new tracking):** Focus on practical solutions → "When working with poor-quality data, I'd: Assess using data trust framework (Source: Identify origin, validate ownership, Freshness: Check if up to date, Completeness: Verify nothing missing, Bias: Check representation, Sanity: Verify numbers), Implement solutions (Data validation: Rules, checks, automated tests, Monitoring: Track freshness, completeness, anomalies, Alerts: Notify when quality degrades, Documentation: Data dictionary, lineage, ownership, Lineage tracking: Trace data flow), Prioritize (High-impact metrics: More rigorous checks, Low-impact: Basic validation). For new tracking, I'd: Design tracking (Clear events, consistent schema, documentation), Validate (Test in staging, monitor in production, sanity checks), Monitor (Track quality metrics, alert on issues). I'd focus on preventing bad data from reaching decision-makers."
+- **Q1006 (Poor-quality data or new tracking):** Focus on practical solutions
+  - "Assess using data trust framework: Source (identify origin, validate ownership), Freshness (check if up to date), Completeness (verify nothing missing), Bias (check representation), Sanity (verify numbers)"
+  - "Implement solutions: Data validation (rules, checks, automated tests), Monitoring (track freshness, completeness, anomalies), Alerts (notify when quality degrades), Documentation (data dictionary, lineage, ownership), Lineage tracking (trace data flow)"
+  - "Prioritize: High-impact metrics (more rigorous checks), Low-impact (basic validation)"
+  - "For new tracking: Design tracking (clear events, consistent schema, documentation), Validate (test in staging, monitor in production, sanity checks), Monitor (track quality metrics, alert on issues)"
+  - "Focus on preventing bad data from reaching decision-makers"
 
 ---
 

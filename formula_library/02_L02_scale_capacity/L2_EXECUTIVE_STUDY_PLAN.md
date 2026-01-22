@@ -75,13 +75,52 @@
 - Q745: Estimate the amount of storage needed for Google Photos. (storage estimation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When thinking about scale and capacity, I use Current Load → 10× Projection → Bottlenecks → Mitigation. First, I understand Current Load: Traffic (QPS/RPS: queries/requests per second, Concurrent users: how many users active simultaneously, Peak vs average: understand traffic patterns), Data (Rows/day: data ingestion rate, Storage size: current data volume, Read/write ratio: access patterns), Resources (CPU/Memory: compute utilization, Network: bandwidth usage, Third-party quotas: external service limits). Second, I project 10×: Linear growth assumptions (Traffic ×10: requests, users, sessions, Data ×10: storage, ingestion, processing, Cost ×10: infrastructure, services, operations), Non-linear risks (Lock contention: database locks become bottleneck, Hot keys/hot shards: uneven distribution causes hotspots, Fan-out explosions: one request triggers many downstream calls, Tail latency: p99/p999 latency degrades faster than average). Third, I identify Bottlenecks: Compute (Single-threaded services: can't parallelize, GC pressure: garbage collection overhead, Cold starts: latency spikes from initialization), Storage (Index bloat: indexes grow, queries slow, Write amplification: writes trigger more I/O, Slow scans: full table scans become expensive), Network (Chatty services: too many small requests, Cross-AZ traffic: inter-region latency and cost), External deps (Rate limits: third-party API throttling, SLA violations: external service degradation, Vendor outages: dependency failures). Finally, I design Mitigation: Architectural (Caching: reduce load on backend systems, Async/queues: decouple and buffer requests, Sharding/partitioning: distribute load across nodes, Backpressure: slow down producers when consumers are overwhelmed), Operational (Load shedding: drop low-priority requests during overload, Graceful degradation: reduce features to maintain core functionality, Feature flags: disable non-critical features under load), Economic (Cost caps: limit spending to prevent runaway costs, Tiered SLAs: different service levels for different users, Kill switches: emergency shutdowns for cost control). The key principle: Scaling isn't 'can it run?' It's 'what fails first, and is that acceptable?'"
+
+**Framework:** `Current Load → 10× Projection → Bottlenecks → Mitigation`
+
+**Memorizable Answer:**
+
+When thinking about scale and capacity, I use Current Load → 10× Projection → Bottlenecks → Mitigation.
+
+**1️⃣ Current Load** → 
+  - **Traffic:** QPS/RPS (queries/requests per second), Concurrent users, Peak vs average
+  - **Data:** Rows/day (data ingestion rate), Storage size, Read/write ratio
+  - **Resources:** CPU/Memory (compute utilization), Network (bandwidth usage), Third-party quotas
+
+**2️⃣ 10× Projection** → 
+  - **Linear growth:** Traffic ×10, Data ×10, Cost ×10
+  - **Non-linear risks:** Lock contention, Hot keys/hot shards, Fan-out explosions, Tail latency
+
+**3️⃣ Bottlenecks** → 
+  - **Compute:** Single-threaded services, GC pressure, Cold starts
+  - **Storage:** Index bloat, Write amplification, Slow scans
+  - **Network:** Chatty services, Cross-AZ traffic
+  - **External deps:** Rate limits, SLA violations, Vendor outages
+
+**4️⃣ Mitigation** → 
+  - **Architectural:** Caching, Async/queues, Sharding/partitioning, Backpressure
+  - **Operational:** Load shedding, Graceful degradation, Feature flags
+  - **Economic:** Cost caps, Tiered SLAs, Kill switches
+
+**Key Principle:** Scaling isn't "can it run?" It's "what fails first, and is that acceptable?"
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q473 (100k requests/sec token service):** Focus on high-scale system → "To design a scalable token-generation service for 100k requests/sec, I'd: Current Load (Traffic: 100k RPS target, Data: token generation rate, storage needs, Resources: CPU/memory for token generation, network bandwidth), 10× Projection (If we need to scale to 1M RPS: Linear - 10× traffic, 10× compute, Non-linear risks - lock contention in token generation, hot keys if not distributed, fan-out if each request triggers multiple operations), Bottlenecks (Compute: Token generation might be CPU-bound, single-threaded bottlenecks, GC pressure, Storage: Token storage/retrieval, index bloat, Network: Bandwidth for 100k RPS, External deps: Rate limits from LLM APIs), Mitigation (Architectural: Caching - cache common tokens, Async/queues - queue token requests, Sharding - distribute across nodes, Backpressure - slow down when overloaded, Operational: Load shedding - drop low-priority requests, Graceful degradation - reduce token quality under load, Feature flags - disable non-critical features, Economic: Cost caps - limit spending, Tiered SLAs - premium vs standard). I'd prioritize identifying the first bottleneck (likely compute or network) and design mitigation around that."
+- **Q473 (100k requests/sec token service):** Focus on high-scale system
+  - "Current Load: Traffic (100k RPS target), Data (token generation rate, storage needs), Resources (CPU/memory for token generation, network bandwidth)"
+  - "10× Projection: If we need to scale to 1M RPS - Linear (10× traffic, 10× compute), Non-linear risks (lock contention in token generation, hot keys if not distributed, fan-out if each request triggers multiple operations)"
+  - "Bottlenecks: Compute (token generation might be CPU-bound, single-threaded bottlenecks, GC pressure), Storage (token storage/retrieval, index bloat), Network (bandwidth for 100k RPS), External deps (rate limits from LLM APIs)"
+  - "Mitigation: Architectural (caching - cache common tokens, Async/queues - queue token requests, Sharding - distribute across nodes, Backpressure - slow down when overloaded), Operational (load shedding - drop low-priority requests, Graceful degradation - reduce token quality under load, Feature flags - disable non-critical features), Economic (cost caps - limit spending, Tiered SLAs - premium vs standard)"
+  - "Prioritize identifying the first bottleneck (likely compute or network) and design mitigation around that"
 
-- **Q110 (Gas station 4x capacity surge):** Emphasize operational capacity → "To handle a 4x capacity surge at a gas station, I'd: Current Load (Traffic: Normal customer flow, peak times, Data: Transactions, inventory, Resources: Pumps, staff, payment systems), 4× Projection (4× customers, 4× transactions, 4× resource needs, Non-linear risks - queue buildup, payment system overload, staff burnout), Bottlenecks (Compute: Payment processing might be slow, Staff: Not enough people, Storage: Inventory might run out, Network: Payment network might be slow, External deps: Payment processor rate limits), Mitigation (Architectural: Queue management - organize customer flow, Caching - pre-authorize payments, Operational: Load shedding - prioritize high-value customers, Graceful degradation - accept cash only if payment system fails, Feature flags - disable non-essential services, Economic: Cost caps - limit discounts, Tiered service - premium vs standard). I'd focus on identifying the first bottleneck (likely payment system or staff) and mitigate that."
+- **Q110 (Gas station 4x capacity surge):** Emphasize operational capacity
+  - "Current Load: Traffic (normal customer flow, peak times), Data (transactions, inventory), Resources (pumps, staff, payment systems)"
+  - "4× Projection: 4× customers, 4× transactions, 4× resource needs, Non-linear risks (queue buildup, payment system overload, staff burnout)"
+  - "Bottlenecks: Compute (payment processing might be slow), Staff (not enough people), Storage (inventory might run out), Network (payment network might be slow), External deps (payment processor rate limits)"
+  - "Mitigation: Architectural (queue management - organize customer flow, Caching - pre-authorize payments), Operational (load shedding - prioritize high-value customers, Graceful degradation - accept cash only if payment system fails, Feature flags - disable non-essential services), Economic (cost caps - limit discounts, Tiered service - premium vs standard)"
+  - "Focus on identifying the first bottleneck (likely payment system or staff) and mitigate that"
 
 ---
 
@@ -106,11 +145,36 @@
 - Q110: As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue? (capacity planning angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When doing capacity planning, I use the same scale framework but focus on estimation. I start with Current Load: Understand current usage (Traffic, data, resources). Then I project Growth: Estimate future needs (10x, 100x, or specific growth rate). I account for Non-linear factors: Peak vs average (2-3x multiplier), Buffer for spikes (20-30% safety margin), Seasonality (holiday spikes, events). I identify Capacity needs: Headcount (People needed), Infrastructure (Servers, storage, bandwidth), Cost (Budget required). I prioritize based on Bottlenecks: What fails first? Design mitigation for that. The key is realistic estimation with buffers for uncertainty."
+
+**Framework:** `Current Load → Growth Projection → Non-linear Factors → Capacity Needs → Bottlenecks`
+
+**Memorizable Answer:**
+
+When doing capacity planning, I use the same scale framework but focus on estimation.
+
+**1️⃣ Current Load** → Understand current usage (Traffic, data, resources).
+
+**2️⃣ Growth Projection** → Estimate future needs (10x, 100x, or specific growth rate).
+
+**3️⃣ Non-linear Factors** → Peak vs average (2-3x multiplier), Buffer for spikes (20-30% safety margin), Seasonality (holiday spikes, events).
+
+**4️⃣ Capacity Needs** → Headcount (People needed), Infrastructure (Servers, storage, bandwidth), Cost (Budget required).
+
+**5️⃣ Bottlenecks** → What fails first? Design mitigation for that.
+
+**Key Principle:** Realistic estimation with buffers for uncertainty.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q742 (YouTube TV bandwidth):** Focus on bandwidth estimation → "To estimate bandwidth for YouTube TV launch, I'd: Current Load (Understand: Current YouTube video streaming bandwidth, typical video bitrates, concurrent viewers), Growth Projection (Estimate: Launch target - X million users, Average watch time, Peak concurrent viewers, Video quality - 1080p, 4K), Non-linear factors (Peak vs average: 2-3x multiplier for peak hours, Buffer: 20-30% safety margin, Seasonality: Holiday spikes, events), Capacity needs (Bandwidth: Peak concurrent × bitrate × peak multiplier × buffer, Infrastructure: CDN capacity, edge servers, Cost: Bandwidth costs, CDN costs), Bottlenecks (First failure: Likely CDN capacity or bandwidth, Mitigation: CDN distribution, adaptive bitrate, caching). I'd estimate: Peak concurrent viewers × average bitrate × peak multiplier × buffer = total bandwidth needed."
+- **Q742 (YouTube TV bandwidth):** Focus on bandwidth estimation
+  - "Current Load: Understand (current YouTube video streaming bandwidth, typical video bitrates, concurrent viewers)"
+  - "Growth Projection: Estimate (launch target - X million users, Average watch time, Peak concurrent viewers, Video quality - 1080p, 4K)"
+  - "Non-linear factors: Peak vs average (2-3x multiplier for peak hours), Buffer (20-30% safety margin), Seasonality (holiday spikes, events)"
+  - "Capacity needs: Bandwidth (peak concurrent × bitrate × peak multiplier × buffer), Infrastructure (CDN capacity, edge servers), Cost (bandwidth costs, CDN costs)"
+  - "Bottlenecks: First failure (likely CDN capacity or bandwidth), Mitigation (CDN distribution, adaptive bitrate, caching)"
+  - "Estimate: Peak concurrent viewers × average bitrate × peak multiplier × buffer = total bandwidth needed"
 
 ---
 

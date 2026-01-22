@@ -78,13 +78,52 @@
 - Q739: Estimate Airbnb's Revenue. (revenue estimation angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When evaluating cost and ROI, I use Cost Drivers → Benefits → Breakeven → Decide. First, I identify Cost Drivers: Build cost (Eng time: people × weeks - engineering effort, Opportunity cost: what we don't build - tradeoffs, One-time infra setup: initial infrastructure investment), Run cost (Compute/storage/bandwidth: ongoing infrastructure costs, Third-party APIs: external service fees, Support & ops: operational overhead, maintenance), Risk cost (Reliability risk: potential downtime, service degradation, Compliance/legal: regulatory, legal exposure, Brand damage: reputation risk, user trust impact). Second, I quantify Benefits: Revenue (New users: user acquisition, market expansion, Higher conversion: improved conversion rates, ARPU/LTV lift: average revenue per user, lifetime value increase), Cost savings (Automation: reduce manual work, operational efficiency, Infra reduction: lower infrastructure costs, Support deflection: fewer support tickets, self-service), Strategic (Learning: knowledge, insights, experimentation value, Moat/differentiation: competitive advantage, Risk reduction: mitigate existing risks). Third, I calculate Breakeven: Simple math (Monthly benefit: recurring value - revenue or savings, Monthly cost: ongoing operational costs, Payback period: build cost / monthly net benefit), Sensitivity (Best case: optimistic scenario - high adoption, high value, Base case: realistic scenario - expected outcomes, Worst case: pessimistic scenario - low adoption, high costs), Sanity checks (Unit economics: does usage scale cost?, Reversibility: can we undo this?, Fixed vs variable: what grows with scale?). Finally, I Decide: Greenlight (Short payback: < 6-12 months typically acceptable, Asymmetric upside: high potential reward vs risk), Scope down (MVP first: build minimal version to test assumptions, Cheaper experiment: validate with lower investment), Kill/Defer (Long breakeven: payback period too long > 18-24 months, High downside: significant risk, low confidence). The key principle: ROI is not 'big upside.' It's 'good outcomes even if we're wrong.'"
+
+**Framework:** `Cost Drivers → Benefits → Breakeven → Decide`
+
+**Memorizable Answer:**
+
+When evaluating cost and ROI, I use Cost Drivers → Benefits → Breakeven → Decide.
+
+**1️⃣ Cost Drivers** → 
+  - **Build cost:** Eng time (people × weeks), Opportunity cost (what we don't build), One-time infra setup
+  - **Run cost:** Compute/storage/bandwidth, Third-party APIs, Support & ops
+  - **Risk cost:** Reliability risk, Compliance/legal, Brand damage
+
+**2️⃣ Benefits** → 
+  - **Revenue:** New users, Higher conversion, ARPU/LTV lift
+  - **Cost savings:** Automation, Infra reduction, Support deflection
+  - **Strategic:** Learning, Moat/differentiation, Risk reduction
+
+**3️⃣ Breakeven** → 
+  - **Simple math:** Monthly benefit, Monthly cost, Payback period (build cost / monthly net benefit)
+  - **Sensitivity:** Best case, Base case, Worst case
+  - **Sanity checks:** Unit economics, Reversibility, Fixed vs variable
+
+**4️⃣ Decide** → 
+  - **Greenlight:** Short payback (< 6-12 months), Asymmetric upside
+  - **Scope down:** MVP first, Cheaper experiment
+  - **Kill/Defer:** Long breakeven (> 18-24 months), High downside
+
+**Key Principle:** ROI is not "big upside." It's "good outcomes even if we're wrong."
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q3.1 (Facebook CAC):** Focus on CAC calculation → "To calculate Facebook customer acquisition cost, I'd: Cost Drivers (Build cost: Marketing spend - ads, campaigns, creative, Eng time: if building acquisition tools, Opportunity cost: other marketing channels not pursued, Run cost: Ongoing ad spend, platform fees, tools, Support & ops: Marketing team, analytics, Risk cost: Brand risk, compliance), Benefits (Revenue: New users acquired, Higher conversion: Better targeting improves conversion, ARPU/LTV lift: Better users = higher LTV, Cost savings: Automation - better targeting reduces waste, Strategic: Learning - what works, Moat - better acquisition), Breakeven (Monthly benefit: Revenue from new users - ARPU × users acquired, Monthly cost: Ad spend, platform fees, Payback period: Total acquisition cost / monthly net benefit per user, Sensitivity: Best case - high LTV users, Base case - average users, Worst case - low retention), Decide (If CAC < LTV/3: Greenlight, If close: Scope down - test smaller, If CAC > LTV: Kill/Defer - not sustainable). I'd calculate: CAC = Total marketing spend / New customers acquired."
+- **Q3.1 (Facebook CAC):** Focus on CAC calculation
+  - "Cost Drivers: Build cost (marketing spend - ads, campaigns, creative, Eng time - if building acquisition tools, Opportunity cost - other marketing channels not pursued), Run cost (ongoing ad spend, platform fees, tools, Support & ops - marketing team, analytics), Risk cost (brand risk, compliance)"
+  - "Benefits: Revenue (new users acquired, Higher conversion - better targeting improves conversion, ARPU/LTV lift - better users = higher LTV), Cost savings (automation - better targeting reduces waste), Strategic (learning - what works, Moat - better acquisition)"
+  - "Breakeven: Monthly benefit (revenue from new users - ARPU × users acquired), Monthly cost (ad spend, platform fees), Payback period (total acquisition cost / monthly net benefit per user), Sensitivity (best case - high LTV users, Base case - average users, Worst case - low retention)"
+  - "Decide: If CAC < LTV/3 (greenlight), If close (scope down - test smaller), If CAC > LTV (kill/defer - not sustainable)"
+  - "Calculate: CAC = Total marketing spend / New customers acquired"
 
-- **Q108 (Blue Origin break even):** Emphasize break-even strategy → "To make Blue Origin break even, I'd: Cost Drivers (Build cost: R&D, manufacturing, infrastructure, Eng time: engineering teams, Opportunity cost: what we're not building, Run cost: Operations, launches, maintenance, Support & ops: Teams, facilities, Risk cost: Safety, regulatory, brand), Benefits (Revenue: Launch services, contracts, customers, Higher conversion: Better pricing, services, ARPU/LTV lift: Recurring customers, Cost savings: Operational efficiency, automation, Strategic: Learning, moat, risk reduction), Breakeven (Monthly benefit: Revenue from launches, contracts, Monthly cost: Operations, R&D, Payback period: Total investment / monthly net benefit, Sensitivity: Best case - high launch frequency, Base case - expected launches, Worst case - delays, low demand), Decide (If short payback: Greenlight - increase launches, If long: Scope down - reduce costs, focus on profitable segments, Kill/Defer - exit unprofitable lines). I'd focus on: Increase revenue (More launches, better pricing, contracts), Reduce costs (Operational efficiency, automation, focus), Optimize mix (Focus on profitable segments)."
+- **Q108 (Blue Origin break even):** Emphasize break-even strategy
+  - "Cost Drivers: Build cost (R&D, manufacturing, infrastructure, Eng time - engineering teams, Opportunity cost - what we're not building), Run cost (operations, launches, maintenance, Support & ops - teams, facilities), Risk cost (safety, regulatory, brand)"
+  - "Benefits: Revenue (launch services, contracts, customers, Higher conversion - better pricing, services, ARPU/LTV lift - recurring customers), Cost savings (operational efficiency, automation), Strategic (learning, moat, risk reduction)"
+  - "Breakeven: Monthly benefit (revenue from launches, contracts), Monthly cost (operations, R&D), Payback period (total investment / monthly net benefit), Sensitivity (best case - high launch frequency, Base case - expected launches, Worst case - delays, low demand)"
+  - "Decide: If short payback (greenlight - increase launches), If long (scope down - reduce costs, focus on profitable segments, Kill/defer - exit unprofitable lines)"
+  - "Focus on: Increase revenue (more launches, better pricing, contracts), Reduce costs (operational efficiency, automation, focus), Optimize mix (focus on profitable segments)"
 
 ---
 
@@ -109,11 +148,40 @@
 - Q739: Estimate Airbnb's Revenue. (revenue estimation/build context angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When making build decisions, I use the same cost/ROI framework but focus on build vs buy. I evaluate Cost Drivers for both: Build (Eng time, opportunity cost, infra setup, run cost, risk), Buy (License cost, support cost, integration cost, vendor lock-in risk). I compare Benefits: Build (Control, customization, strategic value, learning), Buy (Faster time to market, maintained, less risk, focus). I calculate Breakeven for both: Build payback vs Buy payback. I Decide: Build if (Strategic value, customization needed, long-term cost advantage), Buy if (Commodity, faster needed, maintenance burden), Scope down (MVP build, test assumptions, validate before full build). The key is evaluating both options systematically."
+
+**Framework:** `Cost Drivers (Build vs Buy) → Benefits → Breakeven → Decide`
+
+**Memorizable Answer:**
+
+When making build decisions, I use the same cost/ROI framework but focus on build vs buy.
+
+**1️⃣ Cost Drivers (Both Options)** → 
+  - **Build:** Eng time, opportunity cost, infra setup, run cost, risk
+  - **Buy:** License cost, support cost, integration cost, vendor lock-in risk
+
+**2️⃣ Benefits (Both Options)** → 
+  - **Build:** Control, customization, strategic value, learning
+  - **Buy:** Faster time to market, maintained, less risk, focus
+
+**3️⃣ Breakeven** → Build payback vs Buy payback.
+
+**4️⃣ Decide** → 
+  - **Build if:** Strategic value, customization needed, long-term cost advantage
+  - **Buy if:** Commodity, faster needed, maintenance burden
+  - **Scope down:** MVP build, test assumptions, validate before full build
+
+**Key Principle:** Evaluate both options systematically.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q219 (Cost-saving opportunity):** Focus on cost-saving → "When identifying cost-saving opportunities, I'd: Cost Drivers (Current costs: What are we spending? Build cost: Eng time, infrastructure, Run cost: Ongoing ops, services, Risk cost: Current risks), Benefits (Cost savings: Where can we reduce? Automation: Reduce manual work, Infra reduction: Optimize infrastructure, Support deflection: Self-service, Strategic: Learning, efficiency), Breakeven (Investment needed: What does it cost to implement? Monthly savings: How much do we save? Payback period: Investment / monthly savings, Sensitivity: Best/base/worst case), Decide (If short payback: Greenlight - implement, If medium: Scope down - test first, If long: Kill/Defer - not worth it). I'd focus on high-impact, low-effort opportunities first."
+- **Q219 (Cost-saving opportunity):** Focus on cost-saving
+  - "Cost Drivers: Current costs (what are we spending? Build cost - eng time, infrastructure, Run cost - ongoing ops, services, Risk cost - current risks)"
+  - "Benefits: Cost savings (where can we reduce? Automation - reduce manual work, Infra reduction - optimize infrastructure, Support deflection - self-service), Strategic (learning, efficiency)"
+  - "Breakeven: Investment needed (what does it cost to implement?), Monthly savings (how much do we save?), Payback period (investment / monthly savings), Sensitivity (best/base/worst case)"
+  - "Decide: If short payback (greenlight - implement), If medium (scope down - test first), If long (kill/defer - not worth it)"
+  - "Focus on high-impact, low-effort opportunities first"
 
 ---
 

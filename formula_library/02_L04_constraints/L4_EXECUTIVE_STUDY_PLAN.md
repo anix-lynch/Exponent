@@ -76,13 +76,59 @@
 - Q110: As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue? (operational constraints angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When identifying constraints, I use Legal → Technical → Organizational → Timeline → Prioritize. First, I check Legal/Regulatory: Compliance (GDPR/CCPA/HIPAA: data privacy regulations, consent requirements, Data residency: where data can be stored, processed, Consent requirements: explicit user consent for data usage), Contracts (Vendor terms: third-party service agreements, limitations, Partner SLAs: service level agreements, commitments, Licensing limits: software licenses, usage restrictions), Risk exposure (Fines/penalties: regulatory fines for non-compliance, Lawsuits: legal action, liability, Regulatory scrutiny: increased oversight, audits). Second, I check Technical: Architecture (Legacy systems: old systems that are hard to change, Tight coupling: dependencies that limit flexibility, Data quality gaps: missing, incomplete, or unreliable data), Scale limits (Latency: response time constraints, Throughput: processing capacity limits, Reliability: uptime, error rate constraints), Dependencies (External APIs: third-party service availability, rate limits, Data availability: when data is available, freshness, Infra readiness: infrastructure capacity, capabilities). Third, I check Organizational: People (Hiring gaps: missing skills, headcount constraints, Specialized expertise: domain knowledge, technical skills, On-call ownership: who maintains and supports this), Incentives (Team OKRs misaligned: different priorities across teams, Competing priorities: other work takes precedence, Political resistance: organizational pushback), Process (Review cycles: approval processes, gate reviews, Approval chains: multiple stakeholders, sign-offs, Cross-team coordination: dependencies on other teams). Fourth, I check Timeline: Fixed deadlines (Launch dates: product launch, feature release dates, Regulatory deadlines: compliance requirements, legal dates, Contract renewals: vendor contracts, partnership agreements), Sequencing (Must-do-first work: prerequisites, dependencies, Long-lead items: things that take time to prepare, Critical path: work that blocks everything else), Opportunity cost (What slips if this ships? Other work that gets delayed, What breaks if it's late? Consequences of delay). Finally, I Prioritize: Hard constraints (NON-NEGOTIABLE: Legal/safety - must comply, cannot compromise, External deadlines - fixed dates we can't change), Soft constraints (NEGOTIABLE: Scope - can reduce features, simplify, UX polish - can defer nice-to-haves, Internal tooling - can use workarounds), Strategy (Redesign to avoid constraint: change approach to work around limitation, Phase rollout: launch in stages, address constraints incrementally, Explicitly accept risk: acknowledge constraint and proceed with mitigation). The key principle: Constraints are not excuses. They are design inputs. Good answers say what you'll trade, not just what you can't do."
+
+**Framework:** `Legal → Technical → Organizational → Timeline → Prioritize`
+
+**Memorizable Answer:**
+
+When identifying constraints, I use Legal → Technical → Organizational → Timeline → Prioritize.
+
+**1️⃣ Legal/Regulatory** → 
+  - **Compliance:** GDPR/CCPA/HIPAA (data privacy regulations, consent requirements), Data residency (where data can be stored, processed), Consent requirements (explicit user consent)
+  - **Contracts:** Vendor terms, Partner SLAs, Licensing limits
+  - **Risk exposure:** Fines/penalties, Lawsuits, Regulatory scrutiny
+
+**2️⃣ Technical** → 
+  - **Architecture:** Legacy systems, Tight coupling, Data quality gaps
+  - **Scale limits:** Latency, Throughput, Reliability
+  - **Dependencies:** External APIs, Data availability, Infra readiness
+
+**3️⃣ Organizational** → 
+  - **People:** Hiring gaps, Specialized expertise, On-call ownership
+  - **Incentives:** Team OKRs misaligned, Competing priorities, Political resistance
+  - **Process:** Review cycles, Approval chains, Cross-team coordination
+
+**4️⃣ Timeline** → 
+  - **Fixed deadlines:** Launch dates, Regulatory deadlines, Contract renewals
+  - **Sequencing:** Must-do-first work, Long-lead items, Critical path
+  - **Opportunity cost:** What slips if this ships? What breaks if it's late?
+
+**5️⃣ Prioritize** → 
+  - **Hard constraints (NON-NEGOTIABLE):** Legal/safety, External deadlines
+  - **Soft constraints (NEGOTIABLE):** Scope, UX polish, Internal tooling
+  - **Strategy:** Redesign to avoid constraint, Phase rollout, Explicitly accept risk
+
+**Key Principle:** Constraints are not excuses. They are design inputs. Good answers say what you'll trade, not just what you can't do.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q286 (GDPR-compliant data pipeline):** Focus on GDPR compliance → "To design a GDPR-compliant data pipeline, I'd: Legal/Regulatory (Compliance: GDPR requirements - consent, right to access, right to deletion, data residency - EU data must stay in EU, Consent requirements - explicit consent for data usage, Risk exposure: Fines up to 4% revenue, lawsuits), Technical (Architecture: Design for GDPR - data minimization, purpose limitation, encryption, Scale limits: Handle deletion requests, data portability, Dependencies: EU-compliant infrastructure, data residency), Organizational (People: Legal team review, DPO (Data Protection Officer), Technical expertise, Incentives: Compliance is priority, Process: Review cycles, approval chains), Timeline (Fixed deadlines: GDPR compliance deadline, Regulatory deadlines, Sequencing: Legal review first, then technical implementation, Opportunity cost: Other features delayed), Prioritize (Hard constraints: GDPR compliance is non-negotiable, Soft constraints: Scope - can phase features, UX polish - can defer, Strategy: Design pipeline with GDPR in mind from start, Phase rollout - start with core compliance, then add features). I'd design: Data minimization (Only collect necessary data), Consent management (Track and manage consent), Right to deletion (Ability to delete user data), Data residency (EU data in EU), Encryption (Data at rest and in transit), Audit trail (Log all data access)."
+- **Q286 (GDPR-compliant data pipeline):** Focus on GDPR compliance
+  - "Legal/Regulatory: Compliance (GDPR requirements - consent, right to access, right to deletion, data residency - EU data must stay in EU, Consent requirements - explicit consent for data usage), Risk exposure (fines up to 4% revenue, lawsuits)"
+  - "Technical: Architecture (design for GDPR - data minimization, purpose limitation, encryption), Scale limits (handle deletion requests, data portability), Dependencies (EU-compliant infrastructure, data residency)"
+  - "Organizational: People (legal team review, DPO, technical expertise), Incentives (compliance is priority), Process (review cycles, approval chains)"
+  - "Timeline: Fixed deadlines (GDPR compliance deadline, regulatory deadlines), Sequencing (legal review first, then technical implementation), Opportunity cost (other features delayed)"
+  - "Prioritize: Hard constraints (GDPR compliance is non-negotiable), Soft constraints (scope - can phase features, UX polish - can defer), Strategy (design pipeline with GDPR in mind from start, Phase rollout - start with core compliance, then add features)"
+  - "Design: Data minimization (only collect necessary data), Consent management (track and manage consent), Right to deletion (ability to delete user data), Data residency (EU data in EU), Encryption (data at rest and in transit), Audit trail (log all data access)"
 
-- **Q392 (Authentication system migration):** Emphasize migration constraints → "To migrate an authentication system, I'd: Legal/Regulatory (Compliance: Security requirements, data privacy, Contracts: Vendor contracts, SLAs, Risk exposure: Security breaches, downtime), Technical (Architecture: Legacy system constraints, tight coupling, data migration, Scale limits: Zero downtime migration, user impact, Dependencies: External auth providers, user data, Infra readiness: New system capacity), Organizational (People: Migration team, expertise, on-call, Incentives: Team priorities, competing work, Process: Review cycles, approval, coordination), Timeline (Fixed deadlines: Contract renewals, security deadlines, Sequencing: Must migrate users gradually, long-lead items, Critical path: Data migration blocks everything, Opportunity cost: Other features delayed), Prioritize (Hard constraints: Security, zero downtime, Soft constraints: Scope - can phase features, UX polish, Strategy: Dual-write approach, gradual migration, rollback plan). I'd design: Dual-write (Write to both old and new systems), Gradual migration (Migrate users in batches), Rollback plan (Can revert if issues), Monitoring (Track migration progress, errors), Communication (Notify users, support team)."
+- **Q392 (Authentication system migration):** Emphasize migration constraints
+  - "Legal/Regulatory: Compliance (security requirements, data privacy), Contracts (vendor contracts, SLAs), Risk exposure (security breaches, downtime)"
+  - "Technical: Architecture (legacy system constraints, tight coupling, data migration), Scale limits (zero downtime migration, user impact), Dependencies (external auth providers, user data, Infra readiness - new system capacity)"
+  - "Organizational: People (migration team, expertise, on-call), Incentives (team priorities, competing work), Process (review cycles, approval, coordination)"
+  - "Timeline: Fixed deadlines (contract renewals, security deadlines), Sequencing (must migrate users gradually, long-lead items, Critical path - data migration blocks everything), Opportunity cost (other features delayed)"
+  - "Prioritize: Hard constraints (security, zero downtime), Soft constraints (scope - can phase features, UX polish), Strategy (dual-write approach, gradual migration, rollback plan)"
+  - "Design: Dual-write (write to both old and new systems), Gradual migration (migrate users in batches), Rollback plan (can revert if issues), Monitoring (track migration progress, errors), Communication (notify users, support team)"
 
 ---
 
@@ -107,7 +153,30 @@
 - Q110: As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue? (operational constraints angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When dealing with compliance or migration, I use the same constraints framework but focus on specific constraints. For Compliance: Legal (Regulatory requirements, consent, data residency), Technical (Implementation - encryption, access controls, audit trails), Organizational (Legal review, DPO, processes), Timeline (Compliance deadlines), Prioritize (Hard constraint - must comply, design around it). For Migration: Legal (Security, contracts), Technical (Legacy constraints, zero downtime, data migration), Organizational (Migration team, coordination), Timeline (Gradual migration, critical path), Prioritize (Hard constraints - security, zero downtime, Soft - scope, Strategy - dual-write, gradual migration, rollback). The key is identifying all constraints and designing around them."
+
+**Framework:** `Legal → Technical → Organizational → Timeline → Prioritize (Compliance/Migration Focus)`
+
+**Memorizable Answer:**
+
+When dealing with compliance or migration, I use the same constraints framework but focus on specific constraints.
+
+**For Compliance:**
+- **Legal:** Regulatory requirements, consent, data residency
+- **Technical:** Implementation (encryption, access controls, audit trails)
+- **Organizational:** Legal review, DPO, processes
+- **Timeline:** Compliance deadlines
+- **Prioritize:** Hard constraint (must comply, design around it)
+
+**For Migration:**
+- **Legal:** Security, contracts
+- **Technical:** Legacy constraints, zero downtime, data migration
+- **Organizational:** Migration team, coordination
+- **Timeline:** Gradual migration, critical path
+- **Prioritize:** Hard constraints (security, zero downtime), Soft (scope), Strategy (dual-write, gradual migration, rollback)
+
+**Key Principle:** Identify all constraints and design around them.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
