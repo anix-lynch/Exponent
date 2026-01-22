@@ -75,13 +75,64 @@
 - Q117: As the PM for Lyft, what dashboard would you build to track the health of the app? (monitoring/ops tradeoffs angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When thinking about ops tradeoffs, I use Speed vs Quality vs Reliability → SLAs → Error Budget → Decide. First, I identify the tension: Speed (Fast deploys, rapid iteration, short time-to-market), Quality (Fewer bugs, correctness, user trust), Reliability (Uptime, consistency, predictability). The key rule: You can maximize 2, never all 3. I pick which 2 to optimize based on context: Early startup → Speed + Quality, Regulated/payments system → Reliability + Quality, Core user-facing feature → Quality + Reliability, Incident ongoing → Reliability first, Innovation window open → Speed first. Second, I set SLAs/SLOs: SLI (signal: Availability, Latency, Success rate), SLO (target: 99.9% uptime, p95 < 300ms, <0.1% errors), SLA (external promise: What customers can hold you to). Third, I manage Error Budget: Error Budget = 1 − SLO (99.9% SLO → 0.1% budget, Budget = permission to move fast), Budget healthy? (YES → Ship faster, canary deploys OK, NO → Freeze launches, fix reliability), Shared contract (Product wants speed, Ops wants stability - error budget aligns them). Finally, I Decide + Communicate: Make tradeoff explicit (Don't let it be implicit - someone silently pays the cost, usually users or on-call), Align stakeholders (Product, ops, engineering all agree on tradeoff), Revisit when conditions change (As business matures, tradeoffs shift). The key principle: If tradeoffs are implicit, someone is silently paying the cost (usually users or on-call)."
+
+**Framework:** `Speed vs Quality vs Reliability → SLAs → Error Budget → Decide`
+
+**Memorizable Answer:**
+
+When thinking about ops tradeoffs, I use Speed vs Quality vs Reliability → SLAs → Error Budget → Decide.
+
+**1️⃣ Identify Tension** → 
+  - **Speed:** Fast deploys, rapid iteration, short time-to-market
+  - **Quality:** Fewer bugs, correctness, user trust
+  - **Reliability:** Uptime, consistency, predictability
+
+**Key Rule:** You can maximize 2, never all 3.
+
+**Pick 2 based on context:**
+  - Early startup → Speed + Quality
+  - Regulated/payments system → Reliability + Quality
+  - Core user-facing feature → Quality + Reliability
+  - Incident ongoing → Reliability first
+  - Innovation window open → Speed first
+
+**2️⃣ Set SLAs/SLOs** → 
+  - **SLI (signal):** Availability, Latency, Success rate
+  - **SLO (target):** 99.9% uptime, p95 < 300ms, <0.1% errors
+  - **SLA (external promise):** What customers can hold you to
+
+**3️⃣ Manage Error Budget** → 
+  - **Error Budget = 1 − SLO** (99.9% SLO → 0.1% budget, Budget = permission to move fast)
+  - **Budget healthy?** YES → Ship faster, canary deploys OK | NO → Freeze launches, fix reliability
+  - **Shared contract:** Product wants speed, Ops wants stability - error budget aligns them
+
+**4️⃣ Decide + Communicate** → 
+  - **Make tradeoff explicit:** Don't let it be implicit - someone silently pays the cost (usually users or on-call)
+  - **Align stakeholders:** Product, ops, engineering all agree on tradeoff
+  - **Revisit when conditions change:** As business matures, tradeoffs shift
+
+**Key Principle:** If tradeoffs are implicit, someone is silently paying the cost (usually users or on-call).
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1571 (CEO calendar and priorities):** Focus on executive operations → "To structure CEO's calendar and priorities, I'd: Identify tension (Speed: Fast decisions, rapid execution, Quality: Thoughtful decisions, thorough analysis, Reliability: Consistent execution, predictable outcomes), Pick 2 to optimize (Based on context: Early stage → Speed + Quality, Growth stage → Speed + Reliability, Mature stage → Quality + Reliability), Set SLAs (SLO: CEO availability, response time, decision quality, SLA: External commitments, board meetings), Error Budget (Budget: How much can we move fast? Healthy → can take on more, Burned → need to slow down, focus on execution), Decide + Communicate (Make tradeoff explicit: What are we optimizing for? Speed vs quality vs reliability, Align stakeholders: Leadership team agrees, Revisit: As company grows, tradeoffs shift). I'd prioritize: High-impact decisions (strategic, board-level), Time-sensitive (market opportunities), Relationship-building (key stakeholders). I'd use error budget concept: If calendar is healthy (not overbooked), can take on more. If burned (overbooked, stressed), need to slow down, delegate, or say no."
+- **Q1571 (CEO calendar and priorities):** Focus on executive operations
+  - "Identify tension: Speed (fast decisions, rapid execution), Quality (thoughtful decisions, thorough analysis), Reliability (consistent execution, predictable outcomes)"
+  - "Pick 2 to optimize: Based on context (Early stage → Speed + Quality, Growth stage → Speed + Reliability, Mature stage → Quality + Reliability)"
+  - "Set SLAs: SLO (CEO availability, response time, decision quality), SLA (external commitments, board meetings)"
+  - "Error Budget: Budget (how much can we move fast? Healthy → can take on more, Burned → need to slow down, focus on execution)"
+  - "Decide + Communicate: Make tradeoff explicit (what are we optimizing for? Speed vs quality vs reliability), Align stakeholders (leadership team agrees), Revisit (as company grows, tradeoffs shift)"
+  - "Prioritize: High-impact decisions (strategic, board-level), Time-sensitive (market opportunities), Relationship-building (key stakeholders)"
+  - "Use error budget concept: If calendar is healthy (not overbooked), can take on more. If burned (overbooked, stressed), need to slow down, delegate, or say no"
 
-- **Q110 (Gas station 4x capacity surge):** Emphasize ops tradeoffs → "To handle 4x capacity surge, I'd: Identify tension (Speed: Serve customers quickly, Quality: Good service, Reliability: Consistent experience), Pick 2 (During surge: Speed + Reliability - prioritize getting customers through, accept slightly lower quality), Set SLAs (SLO: Customer wait time < 5 min, Service quality acceptable, SLA: Customer satisfaction), Error Budget (Budget: How much can we handle? Healthy → can handle surge, Burned → need to slow down, limit capacity), Decide + Communicate (Make tradeoff explicit: During surge, we prioritize speed and reliability over perfect quality, Align stakeholders: Staff knows priorities, Revisit: After surge, return to normal tradeoffs). I'd optimize: Speed (Fast service, quick checkout), Reliability (Consistent experience, no breakdowns), Accept lower quality (Slightly rushed service, less personalization)."
+- **Q110 (Gas station 4x capacity surge):** Emphasize ops tradeoffs
+  - "Identify tension: Speed (serve customers quickly), Quality (good service), Reliability (consistent experience)"
+  - "Pick 2: During surge (Speed + Reliability - prioritize getting customers through, accept slightly lower quality)"
+  - "Set SLAs: SLO (customer wait time < 5 min, Service quality acceptable), SLA (customer satisfaction)"
+  - "Error Budget: Budget (how much can we handle? Healthy → can handle surge, Burned → need to slow down, limit capacity)"
+  - "Decide + Communicate: Make tradeoff explicit (during surge, we prioritize speed and reliability over perfect quality), Align stakeholders (staff knows priorities), Revisit (after surge, return to normal tradeoffs)"
+  - "Optimize: Speed (fast service, quick checkout), Reliability (consistent experience, no breakdowns), Accept lower quality (slightly rushed service, less personalization)"
 
 ---
 
@@ -106,11 +157,38 @@
 - Q473: Design a scalable system for a token-generation service used by an LLM that needs to handle up to 100,000 requests per second. (SLOs/error budget angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When designing SLOs and error budgets, I use the same ops tradeoffs framework but focus on SLO design and error budget management. I design SLOs: SLI (What we measure: Availability, Latency, Success rate), SLO (Target we promise: 99.9% uptime, p95 < 300ms, <0.1% errors), SLA (External commitment: What customers can hold us to). I calculate Error Budget: Error Budget = 1 − SLO (99.9% SLO → 0.1% budget, Budget = permission to move fast). I monitor budget health: Healthy (YES → Ship faster, canary deploys OK, take risks), Burned (NO → Freeze launches, fix reliability, be conservative). I make decisions: If budget healthy → move fast, If budget burned → slow down, fix issues. The key is using error budget as a shared contract between product (wants speed) and ops (wants stability)."
+
+**Framework:** `SLAs/SLOs → Error Budget → Decisions`
+
+**Memorizable Answer:**
+
+When designing SLOs and error budgets, I use the same ops tradeoffs framework but focus on SLO design and error budget management.
+
+**1️⃣ Design SLOs** → 
+  - **SLI:** What we measure (Availability, Latency, Success rate)
+  - **SLO:** Target we promise (99.9% uptime, p95 < 300ms, <0.1% errors)
+  - **SLA:** External commitment (What customers can hold us to)
+
+**2️⃣ Calculate Error Budget** → Error Budget = 1 − SLO (99.9% SLO → 0.1% budget, Budget = permission to move fast).
+
+**3️⃣ Monitor Budget Health** → 
+  - **Healthy (YES):** Ship faster, canary deploys OK, take risks
+  - **Burned (NO):** Freeze launches, fix reliability, be conservative
+
+**4️⃣ Make Decisions** → If budget healthy (move fast), If budget burned (slow down, fix issues).
+
+**Key Principle:** Use error budget as a shared contract between product (wants speed) and ops (wants stability).
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q1571 (CEO calendar SLOs):** Focus on SLOs for executive operations → "To set SLOs for CEO calendar, I'd: SLI (What we measure: CEO availability, Response time, Decision quality, Meeting effectiveness), SLO (Target: 80% calendar utilization, <24h response time, High-quality decisions, SLA: External commitments met, board meetings prepared), Error Budget (Budget: 20% buffer = permission to take on urgent items, Healthy → can take on more, Burned → need to slow down, delegate, say no), Decisions (If healthy: Can take on strategic initiatives, If burned: Need to prioritize, delegate, or decline). I'd use error budget to balance: Speed (Fast decisions, rapid execution) vs Reliability (Consistent availability, predictable schedule)."
+- **Q1571 (CEO calendar SLOs):** Focus on SLOs for executive operations
+  - "SLI: What we measure (CEO availability, Response time, Decision quality, Meeting effectiveness)"
+  - "SLO: Target (80% calendar utilization, <24h response time, High-quality decisions), SLA (external commitments met, board meetings prepared)"
+  - "Error Budget: Budget (20% buffer = permission to take on urgent items, Healthy → can take on more, Burned → need to slow down, delegate, say no)"
+  - "Decisions: If healthy (can take on strategic initiatives), If burned (need to prioritize, delegate, or decline)"
+  - "Use error budget to balance: Speed (fast decisions, rapid execution) vs Reliability (consistent availability, predictable schedule)"
 
 ---
 

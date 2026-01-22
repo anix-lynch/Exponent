@@ -75,13 +75,66 @@
 - Q77: As a Product Manager at Clipboard Health, how would you adjust Lyft's driver payments to maximize net revenue over 12 months? (pricing optimization/sensitivity angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When analyzing financial sensitivity, I use Levers (Price, Volume, Churn) → Impact → Constraints → Prioritize. First, I identify Levers: Price (ARPU - average revenue per user, fees, discounting, pricing tiers - what can we charge?), Volume (Users, orders, sessions, transactions, engagement - how many users/transactions?), Churn (Retention, repeat rate, lifetime value, customer lifetime - how long do users stay?). Each lever can impact revenue/profitability, but with different sensitivity and constraints. Second, I test Sensitivity: +1% Price → Δ Revenue? (Price elasticity: how much demand drops with price increase, Churn risk: will users leave?, Revenue impact: if inelastic, +1% price = +1% revenue, if elastic, demand drops more), +1% Volume → Δ Revenue? (Scalability: can we handle more volume?, Marginal cost: does cost scale with volume?, Revenue impact: if scalable, +1% volume = +1% revenue, if not, costs increase), -1% Churn → Δ LTV? (Lifetime value impact: longer lifetime = more revenue, Compounding effect: small churn changes compound over time, Revenue impact: -1% churn can = +5-10% LTV). Rule: Use direction + relative size, not exact math. Sensitivity beats precision early on. Small churn changes compound more than price hikes. Not all growth is profitable growth. Third, I assess Constraints: Price elasticity (How much demand drops with price increase - if elastic, small price increase = big demand drop), Supply/ops limits (Capacity constraints, operational bottlenecks - can we handle more volume?), Market saturation (Addressable market size, growth ceiling - is there room to grow?), Competitive response (How competitors react to changes - will they match prices?), Switching costs (How easy/hard for users to leave - high switching costs = can raise price, low = can't), Regulatory/legal (Pricing regulations, compliance limits - are there constraints?). Finally, I Prioritize: High impact × low risk first (Maximize outcome while minimizing downside), Short-term vs long-term split (Balance immediate gains with sustainable growth), One primary lever (not all) - pick one lever to lead, others to support. Quick sensitivity grid: Price (High impact, High risk, Medium control → Careful), Volume (Medium impact, Medium risk, Low control → Secondary), Churn (High impact, Low risk, High control → Primary often). Output: 'We focus on X because it moves Y the most.' The key principle: Pick one lever to lead, others to support."
+
+**Framework:** `Levers (Price, Volume, Churn) → Impact → Constraints → Prioritize`
+
+**Memorizable Answer:**
+
+When analyzing financial sensitivity, I use Levers (Price, Volume, Churn) → Impact → Constraints → Prioritize.
+
+**1️⃣ Identify Levers** → 
+  - **Price:** ARPU (average revenue per user), fees, discounting, pricing tiers (what can we charge?)
+  - **Volume:** Users, orders, sessions, transactions, engagement (how many users/transactions?)
+  - **Churn:** Retention, repeat rate, lifetime value, customer lifetime (how long do users stay?)
+
+**2️⃣ Test Sensitivity** → 
+  - **+1% Price → Δ Revenue?** Price elasticity (how much demand drops), Churn risk (will users leave?), Revenue impact (if inelastic, +1% price = +1% revenue, if elastic, demand drops more)
+  - **+1% Volume → Δ Revenue?** Scalability (can we handle more volume?), Marginal cost (does cost scale with volume?), Revenue impact (if scalable, +1% volume = +1% revenue, if not, costs increase)
+  - **-1% Churn → Δ LTV?** Lifetime value impact (longer lifetime = more revenue), Compounding effect (small churn changes compound over time), Revenue impact (-1% churn can = +5-10% LTV)
+
+**Rule:** Use direction + relative size, not exact math. Sensitivity beats precision early on. Small churn changes compound more than price hikes. Not all growth is profitable growth.
+
+**3️⃣ Assess Constraints** → 
+  - **Price elasticity:** How much demand drops with price increase
+  - **Supply/ops limits:** Capacity constraints, operational bottlenecks
+  - **Market saturation:** Addressable market size, growth ceiling
+  - **Competitive response:** How competitors react to changes
+  - **Switching costs:** How easy/hard for users to leave
+  - **Regulatory/legal:** Pricing regulations, compliance limits
+
+**4️⃣ Prioritize** → 
+  - **High impact × low risk first:** Maximize outcome while minimizing downside
+  - **Short-term vs long-term split:** Balance immediate gains with sustainable growth
+  - **One primary lever (not all):** Pick one lever to lead, others to support
+
+**Quick sensitivity grid:**
+  - **Price:** High impact, High risk, Medium control → Careful
+  - **Volume:** Medium impact, Medium risk, Low control → Secondary
+  - **Churn:** High impact, Low risk, High control → Primary often
+
+**Output:** "We focus on X because it moves Y the most."
+
+**Key Principle:** Pick one lever to lead, others to support.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q34 (Spotify triple revenue in 3 years):** Focus on 3x revenue growth → "To triple Spotify's revenue in 3 years, I'd: Identify Levers (Price: Increase subscription price, add tiers, Volume: Increase subscribers, engagement, Churn: Reduce churn, increase retention), Sensitivity Test (+1% Price: If inelastic, +1% revenue, but risk churn, +1% Volume: If scalable, +1% revenue, but CAC might increase, -1% Churn: Can = +5-10% LTV, compounding effect), Constraints (Price elasticity: Music streaming is competitive, price-sensitive, Supply/ops: Can scale infrastructure, Market saturation: Growing market, room to grow, Competitive response: Competitors will match, Switching costs: Low - easy to switch, Regulatory: No major constraints), Prioritize (Primary lever: Volume - increase subscribers (market growing, scalable, high impact), Secondary: Churn - reduce churn (high impact, low risk, high control), Careful: Price - test carefully (high impact but high risk). I'd focus on: Volume (Grow subscribers through: Better content, international expansion, partnerships, freemium conversion), Churn (Reduce churn through: Better recommendations, exclusive content, user experience), Price (Test price increases carefully, add premium tiers). I'd prioritize Volume as primary lever because: High impact (3x = need significant growth), Scalable (Infrastructure can handle), Market opportunity (Growing market)."
+- **Q34 (Spotify triple revenue in 3 years):** Focus on 3x revenue growth
+  - "Identify Levers: Price (increase subscription price, add tiers), Volume (increase subscribers, engagement), Churn (reduce churn, increase retention)"
+  - "Sensitivity Test: +1% Price (if inelastic, +1% revenue, but risk churn), +1% Volume (if scalable, +1% revenue, but CAC might increase), -1% Churn (can = +5-10% LTV, compounding effect)"
+  - "Constraints: Price elasticity (music streaming is competitive, price-sensitive), Supply/ops (can scale infrastructure), Market saturation (growing market, room to grow), Competitive response (competitors will match), Switching costs (low - easy to switch), Regulatory (no major constraints)"
+  - "Prioritize: Primary lever (Volume - increase subscribers - market growing, scalable, high impact), Secondary (Churn - reduce churn - high impact, low risk, high control), Careful (Price - test carefully - high impact but high risk)"
+  - "Focus on: Volume (grow subscribers through - better content, international expansion, partnerships, freemium conversion), Churn (reduce churn through - better recommendations, exclusive content, user experience), Price (test price increases carefully, add premium tiers)"
+  - "Prioritize Volume as primary lever because: High impact (3x = need significant growth), Scalable (infrastructure can handle), Market opportunity (growing market)"
 
-- **Q73 (Zepto increase AOV):** Emphasize AOV sensitivity → "To increase Zepto's AOV per user, I'd: Identify Levers (Price: Increase item prices, add premium items, Volume: Increase items per order, Churn: Increase order frequency - more orders = higher total value), Sensitivity Test (+1% Price: If inelastic, +1% AOV, but risk fewer orders, +1% Volume: More items per order = higher AOV, -1% Churn: More frequent orders = higher lifetime value), Constraints (Price elasticity: Grocery delivery is price-sensitive, Supply/ops: Can handle more items, Market saturation: Growing market, Competitive response: Competitors will match, Switching costs: Low, Regulatory: No major constraints), Prioritize (Primary lever: Volume - increase items per order (High impact, medium risk, high control - can influence through: Recommendations, bundles, minimum order incentives), Secondary: Churn - increase order frequency (High impact, low risk, high control), Careful: Price - test carefully (High impact but high risk). I'd focus on: Volume (Increase items per order through: Product recommendations, bundles, 'frequently bought together', minimum order incentives, cross-sell), Churn (Increase order frequency through: Subscriptions, reminders, loyalty program), Price (Test price increases carefully, add premium items). I'd prioritize Volume as primary lever because: High impact (More items = higher AOV), High control (Can influence through recommendations, UX), Lower risk (Less likely to reduce orders than price increase)."
+- **Q73 (Zepto increase AOV):** Emphasize AOV sensitivity
+  - "Identify Levers: Price (increase item prices, add premium items), Volume (increase items per order), Churn (increase order frequency - more orders = higher total value)"
+  - "Sensitivity Test: +1% Price (if inelastic, +1% AOV, but risk fewer orders), +1% Volume (more items per order = higher AOV), -1% Churn (more frequent orders = higher lifetime value)"
+  - "Constraints: Price elasticity (grocery delivery is price-sensitive), Supply/ops (can handle more items), Market saturation (growing market), Competitive response (competitors will match), Switching costs (low), Regulatory (no major constraints)"
+  - "Prioritize: Primary lever (Volume - increase items per order - high impact, medium risk, high control - can influence through recommendations, bundles, minimum order incentives), Secondary (Churn - increase order frequency - high impact, low risk, high control), Careful (Price - test carefully - high impact but high risk)"
+  - "Focus on: Volume (increase items per order through - product recommendations, bundles, 'frequently bought together', minimum order incentives, cross-sell), Churn (increase order frequency through - subscriptions, reminders, loyalty program), Price (test price increases carefully, add premium items)"
+  - "Prioritize Volume as primary lever because: High impact (more items = higher AOV), High control (can influence through recommendations, UX), Lower risk (less likely to reduce orders than price increase)"
 
 ---
 
@@ -106,11 +159,40 @@
 - Q77: As a Product Manager at Clipboard Health, how would you adjust Lyft's driver payments to maximize net revenue over 12 months? (lever prioritization angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When prioritizing levers, I use the same financial sensitivity framework but focus on prioritization. I create a sensitivity grid: Lever | Impact | Risk | Control | Verdict. I test each lever: Price (High impact, High risk, Medium control → Careful), Volume (Medium impact, Medium risk, Low control → Secondary), Churn (High impact, Low risk, High control → Primary often). I prioritize: High impact × low risk first (Maximize outcome, minimize downside), One primary lever (Not all - pick one to lead, others to support), Short-term vs long-term (Balance immediate gains with sustainable growth). The key is picking one lever to lead, others to support. Output: 'We focus on X because it moves Y the most.'"
+
+**Framework:** `Sensitivity Grid → Prioritize → One Primary Lever`
+
+**Memorizable Answer:**
+
+When prioritizing levers, I use the same financial sensitivity framework but focus on prioritization.
+
+**1️⃣ Create Sensitivity Grid** → Lever | Impact | Risk | Control | Verdict
+
+**2️⃣ Test Each Lever** → 
+  - **Price:** High impact, High risk, Medium control → Careful
+  - **Volume:** Medium impact, Medium risk, Low control → Secondary
+  - **Churn:** High impact, Low risk, High control → Primary often
+
+**3️⃣ Prioritize** → 
+  - **High impact × low risk first:** Maximize outcome, minimize downside
+  - **One primary lever:** Not all - pick one to lead, others to support
+  - **Short-term vs long-term:** Balance immediate gains with sustainable growth
+
+**Output:** "We focus on X because it moves Y the most."
+
+**Key Principle:** Pick one lever to lead, others to support.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q77 (Lyft driver payments maximize revenue):** Focus on pricing optimization → "To adjust Lyft's driver payments to maximize net revenue, I'd: Identify Levers (Price: Driver payment rate (lower = higher margin, but risk driver churn), Volume: Number of rides (more rides = more revenue, but need drivers), Churn: Driver retention (retain drivers = lower acquisition cost, more rides)), Sensitivity Test (+1% Price reduction: If drivers don't churn, +1% margin, but risk driver churn, +1% Volume: More rides = more revenue, but need to attract/retain drivers, -1% Driver churn: Lower acquisition cost, more rides, higher revenue), Constraints (Price elasticity: Drivers are price-sensitive, will churn if pay too low, Supply/ops: Need enough drivers, Market saturation: Growing market, Competitive response: Uber will match, Switching costs: Low - drivers can switch, Regulatory: Minimum wage, regulations), Prioritize (Primary lever: Balance Price and Churn - optimize driver payment to maximize revenue (High impact, need to balance risk), Secondary: Volume - increase rides (Medium impact, depends on drivers), Avoid: Aggressive price cuts (High risk of driver churn). I'd focus on: Optimize driver payment (Find sweet spot: High enough to retain drivers, low enough to maximize margin, Test different rates, monitor driver churn, revenue impact), Support with Volume (Increase rides through: Better matching, incentives, driver supply), Monitor Churn (Track driver retention, adjust payment if churn increases). I'd prioritize balancing Price and Churn because: High impact (Driver payment directly affects margin and driver supply), Need balance (Too low = driver churn, too high = low margin)."
+- **Q77 (Lyft driver payments maximize revenue):** Focus on pricing optimization
+  - "Identify Levers: Price (driver payment rate - lower = higher margin, but risk driver churn), Volume (number of rides - more rides = more revenue, but need drivers), Churn (driver retention - retain drivers = lower acquisition cost, more rides)"
+  - "Sensitivity Test: +1% Price reduction (if drivers don't churn, +1% margin, but risk driver churn), +1% Volume (more rides = more revenue, but need to attract/retain drivers), -1% Driver churn (lower acquisition cost, more rides, higher revenue)"
+  - "Constraints: Price elasticity (drivers are price-sensitive, will churn if pay too low), Supply/ops (need enough drivers), Market saturation (growing market), Competitive response (Uber will match), Switching costs (low - drivers can switch), Regulatory (minimum wage, regulations)"
+  - "Prioritize: Primary lever (Balance Price and Churn - optimize driver payment to maximize revenue - high impact, need to balance risk), Secondary (Volume - increase rides - medium impact, depends on drivers), Avoid (aggressive price cuts - high risk of driver churn)"
+  - "Focus on: Optimize driver payment (find sweet spot - high enough to retain drivers, low enough to maximize margin, Test different rates, monitor driver churn, revenue impact), Support with Volume (increase rides through - better matching, incentives, driver supply), Monitor Churn (track driver retention, adjust payment if churn increases)"
+  - "Prioritize balancing Price and Churn because: High impact (driver payment directly affects margin and driver supply), Need balance (too low = driver churn, too high = low margin)"
 
 ---
 

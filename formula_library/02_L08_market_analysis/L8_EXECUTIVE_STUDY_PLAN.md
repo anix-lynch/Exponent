@@ -75,13 +75,64 @@
 - Q110: As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue? (market/competitive angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When analyzing markets and competition, I use Competitors → Differentiation → Market Conditions → Strategy. First, I identify Competitors: Direct (Same user, same job - direct substitutes, e.g., DoorDash vs Uber Eats), Indirect (Different product, same job - alternative solutions, e.g., Restaurant websites vs delivery apps), Status quo (Excel, email, manual work, doing nothing - often the biggest competitor). Rule: The real competitor is often the status quo. Map all options users have to solve their problem. Second, I understand Differentiation: Why do users pick each? Price (Cheaper option), Quality/Performance (Better quality, faster, more reliable), Convenience/UX (Easier to use, better experience), Trust/Brand (Trusted brand, reputation), Ecosystem/Lock-in (Integrated with other products, switching costs). Rule: Features don't differentiate — reasons do. People don't buy features — they buy outcomes. Third, I assess Market Conditions: Market size & growth (How big is the market? Is it growing?), Buyer vs seller power (Who has more power? Buyers or sellers?), Switching costs (How easy/hard to switch?), Regulation/risk (Regulatory constraints, legal risks), Network effects (Yes/no - does value increase with more users?). Fourth, I define Strategy: Compete head-on (Match competitors on key dimensions), Focus on niche (Target specific segment), Undercut on cost (Lower prices), Differentiate on UX/trust (Better experience, trusted brand), Bundle/unbundle (Package differently, break apart). The key principle: Strategy is choosing what not to compete on. If there's no tradeoff, there's no strategy."
+
+**Framework:** `Competitors → Differentiation → Market Conditions → Strategy`
+
+**Memorizable Answer:**
+
+When analyzing markets and competition, I use Competitors → Differentiation → Market Conditions → Strategy.
+
+**1️⃣ Competitors** → 
+  - **Direct:** Same user, same job (direct substitutes, e.g., DoorDash vs Uber Eats)
+  - **Indirect:** Different product, same job (alternative solutions, e.g., Restaurant websites vs delivery apps)
+  - **Status quo:** Excel, email, manual work, doing nothing (often the biggest competitor)
+
+**Rule:** The real competitor is often the status quo. Map all options users have to solve their problem.
+
+**2️⃣ Differentiation** → Why do users pick each?
+  - **Price:** Cheaper option
+  - **Quality/Performance:** Better quality, faster, more reliable
+  - **Convenience/UX:** Easier to use, better experience
+  - **Trust/Brand:** Trusted brand, reputation
+  - **Ecosystem/Lock-in:** Integrated with other products, switching costs
+
+**Rule:** Features don't differentiate — reasons do. People don't buy features — they buy outcomes.
+
+**3️⃣ Market Conditions** → 
+  - **Market size & growth:** How big is the market? Is it growing?
+  - **Buyer vs seller power:** Who has more power? Buyers or sellers?
+  - **Switching costs:** How easy/hard to switch?
+  - **Regulation/risk:** Regulatory constraints, legal risks
+  - **Network effects:** Yes/no - does value increase with more users?
+
+**4️⃣ Strategy** → 
+  - **Compete head-on:** Match competitors on key dimensions
+  - **Focus on niche:** Target specific segment
+  - **Undercut on cost:** Lower prices
+  - **Differentiate on UX/trust:** Better experience, trusted brand
+  - **Bundle/unbundle:** Package differently, break apart
+
+**Key Principle:** Strategy is choosing what not to compete on. If there's no tradeoff, there's no strategy.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q59 (Elevator company skyscrapers):** Focus on competitive differentiation → "To design features for skyscrapers and differentiate from competitors, I'd: Competitors (Direct: Other elevator manufacturers (Otis, Schindler, Kone), Indirect: Alternative vertical transportation (stairs, escalators, lifts), Status quo: Existing elevator systems, doing nothing), Differentiation (Why do users choose each? Price: Cost-effective solutions, Quality/Performance: Reliability, speed, capacity, Convenience/UX: Easy to use, intuitive, Trust/Brand: Trusted manufacturers, Ecosystem/Lock-in: Integration with building systems), Market Conditions (Market size: Growing skyscraper market, Buyer power: Building owners/developers, Switching costs: High - expensive to replace, Regulation: Building codes, safety regulations, Network effects: No), Strategy (For skyscrapers: Focus on niche - high-rise buildings, Differentiate on Performance - speed, capacity, reliability, Trust - safety, compliance, Bundle - full building solution). I'd design features: Speed optimization (Faster elevators for tall buildings), Capacity management (Handle peak traffic), Smart routing (Optimize elevator allocation), Safety features (Enhanced safety for tall buildings), Energy efficiency (Lower operating costs). I'd differentiate on: Performance (Faster, higher capacity), Reliability (Uptime, maintenance), Safety (Compliance, features), Integration (Building systems)."
+- **Q59 (Elevator company skyscrapers):** Focus on competitive differentiation
+  - "Competitors: Direct (other elevator manufacturers - Otis, Schindler, Kone), Indirect (alternative vertical transportation - stairs, escalators, lifts), Status quo (existing elevator systems, doing nothing)"
+  - "Differentiation: Why do users choose each? Price (cost-effective solutions), Quality/Performance (reliability, speed, capacity), Convenience/UX (easy to use, intuitive), Trust/Brand (trusted manufacturers), Ecosystem/Lock-in (integration with building systems)"
+  - "Market Conditions: Market size (growing skyscraper market), Buyer power (building owners/developers), Switching costs (high - expensive to replace), Regulation (building codes, safety regulations), Network effects (no)"
+  - "Strategy: For skyscrapers (Focus on niche - high-rise buildings, Differentiate on Performance - speed, capacity, reliability, Trust - safety, compliance, Bundle - full building solution)"
+  - "Design features: Speed optimization (faster elevators for tall buildings), Capacity management (handle peak traffic), Smart routing (optimize elevator allocation), Safety features (enhanced safety for tall buildings), Energy efficiency (lower operating costs)"
+  - "Differentiate on: Performance (faster, higher capacity), Reliability (uptime, maintenance), Safety (compliance, features), Integration (building systems)"
 
-- **Q96 (Google disrupt movie industry):** Emphasize disruption strategy → "To disrupt the movie industry as Google, I'd: Competitors (Direct: Netflix, Disney+, Amazon Prime, Hulu, Indirect: Movie theaters, cable TV, Status quo: Going to theaters, watching TV, doing nothing), Differentiation (Why do users choose each? Price: Subscription vs pay-per-view, Quality: Content quality, selection, Convenience: Streaming vs theaters, Trust: Brand reputation, Ecosystem: Integration with devices, services), Market Conditions (Market size: Large, growing streaming market, Buyer power: High - many options, Switching costs: Low - easy to switch, Regulation: Content licensing, copyright, Network effects: Yes - more content = more value), Strategy (Disrupt by: Differentiate on Technology - AI recommendations, search, data, Convenience - YouTube integration, devices, Ecosystem - Google services, Price - competitive pricing, Focus on niche - specific content types). I'd leverage: YouTube (Existing platform, content), AI/ML (Recommendations, personalization), Data (User insights, content optimization), Devices (Chromecast, Android TV), Ecosystem (Google services integration). I'd differentiate on: Technology (AI, data, recommendations), Convenience (Easy access, integration), Content (Unique content, YouTube originals), Price (Competitive pricing)."
+- **Q96 (Google disrupt movie industry):** Emphasize disruption strategy
+  - "Competitors: Direct (Netflix, Disney+, Amazon Prime, Hulu), Indirect (movie theaters, cable TV), Status quo (going to theaters, watching TV, doing nothing)"
+  - "Differentiation: Why do users choose each? Price (subscription vs pay-per-view), Quality (content quality, selection), Convenience (streaming vs theaters), Trust (brand reputation), Ecosystem (integration with devices, services)"
+  - "Market Conditions: Market size (large, growing streaming market), Buyer power (high - many options), Switching costs (low - easy to switch), Regulation (content licensing, copyright), Network effects (yes - more content = more value)"
+  - "Strategy: Disrupt by (Differentiate on Technology - AI recommendations, search, data, Convenience - YouTube integration, devices, Ecosystem - Google services, Price - competitive pricing, Focus on niche - specific content types)"
+  - "Leverage: YouTube (existing platform, content), AI/ML (recommendations, personalization), Data (user insights, content optimization), Devices (Chromecast, Android TV), Ecosystem (Google services integration)"
+  - "Differentiate on: Technology (AI, data, recommendations), Convenience (easy access, integration), Content (unique content, YouTube originals), Price (competitive pricing)"
 
 ---
 
@@ -106,11 +157,35 @@
 - Q110: As the owner of a gas station observing a sudden surge in customers, reaching four times the usual capacity during peak times, how would you investigate, diagnose, and resolve this issue? (competitive positioning angle)
 
 **❤️ Reusable Narrative (Base Story - Adapt for Each Question):**
-> "When defining competitive positioning, I use the same market analysis framework but focus on positioning. I create a positioning table: Option | Who uses it | Why they choose it | Weakness. I map Competitors: Direct, Indirect, Status quo. I understand Differentiation: Why do users choose each? (Price, Quality, Convenience, Trust, Ecosystem). I assess Market: Conditions, constraints, opportunities. I define Position: What's our sharp bet? (Compete head-on, Focus on niche, Undercut on cost, Differentiate on UX/trust, Bundle/unbundle). The key is choosing what not to compete on. If there's no tradeoff, there's no strategy."
+
+**Framework:** `Competitors → Differentiation → Market Conditions → Strategy (Positioning Focus)`
+
+**Memorizable Answer:**
+
+When defining competitive positioning, I use the same market analysis framework but focus on positioning.
+
+**1️⃣ Create Positioning Table** → Option | Who uses it | Why they choose it | Weakness
+
+**2️⃣ Map Competitors** → Direct, Indirect, Status quo
+
+**3️⃣ Understand Differentiation** → Why do users choose each? (Price, Quality, Convenience, Trust, Ecosystem)
+
+**4️⃣ Assess Market** → Conditions, constraints, opportunities
+
+**5️⃣ Define Position** → What's our sharp bet? (Compete head-on, Focus on niche, Undercut on cost, Differentiate on UX/trust, Bundle/unbundle)
+
+**Key Principle:** Choose what not to compete on. If there's no tradeoff, there's no strategy.
+
+---
 
 **How to Adapt This Narrative for Each Question:**
 
-- **Q122 (Assess competitors):** Focus on competitive assessment → "To assess a project's competitors, I'd: Competitors (Direct: Same user, same job - list direct competitors, Indirect: Different product, same job - list alternatives, Status quo: Excel, email, manual work, doing nothing), Differentiation (Why do users choose each? Create table: Competitor A - Who uses it, Why they choose it, Weakness, Competitor B - Who uses it, Why they choose it, Weakness, Status quo - Who uses it, Why they choose it, Weakness), Market Conditions (Market size: How big?, Growth: Growing or shrinking?, Buyer power: High or low?, Switching costs: Easy or hard?, Regulation: Constraints?, Network effects: Yes or no?), Strategy (Based on analysis: What's our position? Compete head-on, Focus on niche, Undercut on cost, Differentiate on UX/trust, Bundle/unbundle). I'd create a positioning table to visualize: Option | Who uses it | Why they choose it | Weakness. This helps identify opportunities and define our position."
+- **Q122 (Assess competitors):** Focus on competitive assessment
+  - "Competitors: Direct (same user, same job - list direct competitors), Indirect (different product, same job - list alternatives), Status quo (Excel, email, manual work, doing nothing)"
+  - "Differentiation: Why do users choose each? Create table (Competitor A - Who uses it, Why they choose it, Weakness, Competitor B - Who uses it, Why they choose it, Weakness, Status quo - Who uses it, Why they choose it, Weakness)"
+  - "Market Conditions: Market size (how big?), Growth (growing or shrinking?), Buyer power (high or low?), Switching costs (easy or hard?), Regulation (constraints?), Network effects (yes or no?)"
+  - "Strategy: Based on analysis (what's our position? Compete head-on, Focus on niche, Undercut on cost, Differentiate on UX/trust, Bundle/unbundle)"
+  - "Create a positioning table to visualize: Option | Who uses it | Why they choose it | Weakness. This helps identify opportunities and define our position"
 
 ---
 
